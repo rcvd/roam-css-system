@@ -1,10 +1,9 @@
 /* Left Sidebar */
 .roam-body .roam-app .roam-sidebar-container {
   background-color: var(
-    --adv-cl-bg-leftsidebar,
-    --smpl-cl-bg-leftsidebar,
+    --cl-bg-leftsidebar,
     #182026
-  );
+  );x
 }
 
 /* DB Menu */
