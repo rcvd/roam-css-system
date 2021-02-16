@@ -1,6 +1,9 @@
 /* Left Sidebar */
 .roam-body .roam-app .roam-sidebar-container {
-  background-color: var(--cl-bg-leftsidebar, --cl-bg-leftsidebar2, #182026);
+  background-color: var(
+    --cl-bg-leftsidebar,
+    var(--cl-bg-leftsidebar2, #182026)
+  );
 }
 
 /* DB Menu */
