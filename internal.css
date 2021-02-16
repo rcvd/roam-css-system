@@ -132,7 +132,7 @@
   .log-button
   div,
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
-  background-color: var(--cl-bg-leftsidebar__logmenu, #182026);
+  background-color: var(--cl-bg-leftsidebar__logmenu, transparent);
   color: var(--cl-fg-leftsidebar__logmenu, #5c7080);
   font-family: var(--fnt-family-leftsidebar__logmenu, "Inter var", sans-serif);
   font-size: var(--fnt-size-leftsidebar__logmenu, 14px);
