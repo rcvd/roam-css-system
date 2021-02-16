@@ -164,7 +164,7 @@
   .starred-pages-wrapper
   .starred-pages
   .page {
-  background-color: var(--cl-bg-leftsidebar__starredpages, #182026);
+  background-color: var(--cl-bg-leftsidebar__starredpages, transparent);
   color: var(--cl-fg-leftsidebar__starredpages, #5c7080);
   font-family: var(
     --fnt-family-leftsidebar__starredpages,
