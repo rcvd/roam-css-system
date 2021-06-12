@@ -194,7 +194,7 @@
   }
 }
 :root {
-  --co-app__h1: var(--cl-gray-100);
+  --co-app__h1: var(--cl-gray-900);
   --ff-app__h1: ;
   --fs-app__h1: 20px;
   --ft-app__h1: ;
