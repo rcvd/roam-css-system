@@ -512,7 +512,7 @@ textarea {
     --ff-emoji-mart,
     -apple-system,
     BlinkMacSystemFont,
-    Helvetica Neue,
+    "Helvetica Neue",
     sans-serif
   );
   font-size: var(--fs-emoji-mart, 16px);
@@ -804,6 +804,36 @@ input[type="search"] {
 
 .kanban-board {
   background-color: var(--bc-kanban, #a7b6c2);
+}
+
+.rm-level1,
+.rm-heading-level-1 > .rm-block__self .rm-block__input {
+  color: var(--co-level1, inherit);
+  font-family: var(--ff-level1, "Inter", sans-serif);
+  font-size: var(--fs-level1, 1.8em);
+  font-style: var(--ft-level1, inherit);
+  font-weight: var(--fw-level1, 400);
+  text-transform: var(--tt-level1, inherit);
+}
+
+.rm-level2,
+.rm-heading-level-2 > .rm-block__self .rm-block__input {
+  color: var(--co-level2, inherit);
+  font-family: var(--ff-level2, "Inter", sans-serif) !important;
+  font-size: var(--fs-level2, 1.4em);
+  font-style: var(--ft-level2, inherit);
+  font-weight: var(--fw-level2, 400);
+  text-transform: var(--tt-level2, inherit);
+}
+
+.rm-level3,
+.rm-heading-level-3 > .rm-block__self .rm-block__input {
+  color: var(--co-level3, #5c7080);
+  font-family: var(--ff-level3, inherit);
+  font-size: var(--fs-level3, 1.2em);
+  font-style: var(--ft-level3, inherit);
+  font-weight: var(--fw-level3, 500);
+  text-transform: var(--tt-level3, inherit);
 }
 
 .rm-article-wrapper .roam-log-container .roam-log-preview h1 {
