@@ -10,6 +10,8 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 - Add the following line to it:
 ```@import url('https://rcvd.github.io/roam-css-system/theme-quattro.css');```
 
+![](screenshots/roam-css.png)
+
 ## If you want to support my work
 - [Flattr](https://flattr.com/@rcvd)
 - [Paypal](https://paypal.me/rcvd?locale.x=de_DE)
