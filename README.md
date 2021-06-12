@@ -8,7 +8,7 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 - Create or modify your 'roam/css' page.
 - Add a new code block and set the language to 'CSS'.
 - Add the following line to it:
-```@import url('https://rcvd.github.io/roam-css-system/theme-quattro.css');```
+```@import url('https://rcvd.github.io/roam-css-system/theme/quattro.css');```
 
 ![](screenshots/light.png)
 
