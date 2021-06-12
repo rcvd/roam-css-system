@@ -2,7 +2,7 @@
 @import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
 @import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
 @import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
-root {
+:root {
   --co-a: var(--cl-red-500);
   --td-a: underline;
 }
