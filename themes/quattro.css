@@ -1283,6 +1283,7 @@
     --bc-kanban: var(--cl-gray-800);
   }
 }
+
 :root {
   --bc-kanban__column: var(--cl-gray-100);
 }
@@ -1307,6 +1308,52 @@
     --bb-kanban__title: 1px solid var(--cl-gray-700);
   }
 }
+
+:root {
+  --co-level1: ;
+  --ff-level1: "iA Writer Quattro S";
+  --fs-level1: 1em;
+  --ft-level1: ;
+  --fw-level1: 600;
+  --tt-level1: uppercase;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-level1: ;
+  }
+}
+
+:root {
+  --co-level2: ;
+  --ff-level2: "iA Writer Quattro S";
+  --fs-level2: 1em;
+  --ft-level2: ;
+  --fw-level2: 600;
+  --tt-level2: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-level2: ;
+  }
+}
+
+:root {
+  --co-level3: ;
+  --ff-level3: "iA Writer Quattro S";
+  --fs-level3: 1em;
+  --ft-level3: italic;
+  --fw-level3: ;
+  --tt-level3: ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-level3: ;
+  }
+}
+
 :root {
   --co-logbutton: var(--cl-gray-700);
   --fs-logbutton: 1em;
