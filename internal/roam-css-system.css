@@ -399,7 +399,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .bp3-datepicker .DayPicker-Day:hover,
 .bp3-datepicker .DayPicker-Day:focus {
   background-color: var(--bc-datepicker__day--hover, #d8e1e8);
-  color: var(--co-datepicker__day--hover, #182026);
+  color: var(--co-datepicker__day--hover, #182026) !important;
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
@@ -482,6 +482,98 @@ textarea {
   color: var(--co-elevation__item-keyprompt, inherit);
   font-size: var(--fs-elevation__item-keyprompt, 0.8em) !important;
   opacity: var(--op-elevation__item-keyprompt, 0.8) !important;
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-10, #d8e1e8);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-11, #ebf1f5);
+}
+
+.rm-embed-container .rm-embed-container {
+  background-color: var(--bc-embed__container-2, #ced9e0);
+}
+
+.rm-embed-container .rm-embed-container .rm-embed-container {
+  background-color: var(--bc-embed__container-3, #e1e8ed);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-4, #f5f8fa);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-5, #d8e1e8);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-6, #ebf1f5);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-7, #ced9e0);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-8, #e1e8ed);
+}
+
+.rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container
+  .rm-embed-container {
+  background-color: var(--bc-embed__container-9, #f5f8fa);
 }
 
 .rm-embed-container--block {
