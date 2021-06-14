@@ -1111,6 +1111,18 @@ input[type="search"] {
   );
 }
 
+.rm-query .rm-query-title {
+  background-color: var(--bc-query__title, var(--background-color));
+  color: var(--co-query__title, var(--primary-color));
+}
+
+.rm-query {
+  border-top: var(--bt-query, 0.5px solid #bfccd6);
+  border-right: var(--br-query, 0.5px solid #bfccd6);
+  border-bottom: var(--bb-query, 0.5px solid #bfccd6);
+  border-left: var(--bl-query, 0.5px solid #bfccd6);
+}
+
 .rm-bq {
   background-color: var(--bc-quote, inherit);
   border-top: var(--bt-quote, inherit);

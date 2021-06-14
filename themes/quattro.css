@@ -1,7 +1,7 @@
-@import url("https://fonts.rcvd.io/iA Writer/stylesheet.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
+@import url(https://fonts.rcvd.io/iA Writer/stylesheet.css);
+@import url(https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css);
+@import url(https://rcvd.github.io/roam-css-system/internal/roam-css-system.css);
+@import url(https://rcvd.github.io/roam-css-system/internal/additional-fixes.css);
 :root {
   --co-a--hover: var(--cl-red-500);
   --td-a--hover: underline;
@@ -2005,6 +2005,34 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --sd-popover: 0px 0px 0px 1px var(--cl-black);
+  }
+}
+
+:root {
+  --bc-query__title: var(--cl-gray-200);
+  --co-query__title: var(--cl-gray-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-query__title: var(--cl-gray-800);
+    --co-query__title: var(--cl-gray-200);
+  }
+}
+
+:root {
+  --bt-query: 1px solid var(--cl-gray-300);
+  --br-query: 1px solid var(--cl-gray-300);
+  --bb-query: 1px solid var(--cl-gray-300);
+  --bl-query: 1px solid var(--cl-gray-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bt-query: 1px solid var(--cl-gray-700);
+    --br-query: 1px solid var(--cl-gray-700);
+    --bb-query: 1px solid var(--cl-gray-700);
+    --bl-query: 1px solid var(--cl-gray-700);
   }
 }
 
