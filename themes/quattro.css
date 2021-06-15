@@ -2050,30 +2050,30 @@
 }
 
 :root {
-  --bc-query__title: var(--cl-gray-200);
+  --bc-query__title: var(--cl-gray-100);
   --co-query__title: var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-query__title: var(--cl-gray-800);
+    --bc-query__title: var(--cl-gray-900);
     --co-query__title: var(--cl-gray-200);
   }
 }
 
 :root {
-  --bt-query: 1px solid var(--cl-gray-300);
-  --br-query: 1px solid var(--cl-gray-300);
-  --bb-query: 1px solid var(--cl-gray-300);
-  --bl-query: 1px solid var(--cl-gray-300);
+  --bt-query: 1px solid var(--cl-gray-200);
+  --br-query: 1px solid var(--cl-gray-200);
+  --bb-query: 1px solid var(--cl-gray-200);
+  --bl-query: 1px solid var(--cl-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-query: 1px solid var(--cl-gray-700);
-    --br-query: 1px solid var(--cl-gray-700);
-    --bb-query: 1px solid var(--cl-gray-700);
-    --bl-query: 1px solid var(--cl-gray-700);
+    --bt-query: 1px solid var(--cl-gray-800);
+    --br-query: 1px solid var(--cl-gray-800);
+    --bb-query: 1px solid var(--cl-gray-800);
+    --bl-query: 1px solid var(--cl-gray-800);
   }
 }
 
