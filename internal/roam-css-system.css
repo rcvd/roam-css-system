@@ -487,7 +487,8 @@ textarea {
   color: var(--co-elevation__item-icon, rgb(129, 145, 157));
 }
 
-.bp3-elevation-3 .dont-unfocus-block .rm-icon-key-prompt {
+.bp3-elevation-3 .dont-unfocus-block .rm-icon-key-prompt,
+.bp3-menu-item-label .rm-icon-key-prompt {
   color: var(--co-elevation__item-keyprompt, inherit);
   font-size: var(--fs-elevation__item-keyprompt, 0.8em) !important;
   opacity: var(--op-elevation__item-keyprompt, 0.8) !important;
