@@ -279,6 +279,28 @@
 }
 
 :root {
+  --bc-block-ref--hover: ;
+  --co-block-ref--hover: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-block-ref--hover: ;
+    --co-block-ref--hover: var(--cl-red-500);
+  }
+}
+
+:root {
+  --bb-block-ref: 0.5px dotted var(--cl-gray-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bb-block-ref: 0.5px dotted var(--cl-gray-700);
+  }
+}
+
+:root {
   --co-brackets: var(--cl-gray-500);
 }
 
@@ -1867,12 +1889,12 @@
 }
 
 :root {
-  --fl-menu__svg-icon: ;
+  --fl-menu__svg-icon: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fl-menu__svg-icon: ;
+    --fl-menu__svg-icon: var(--cl-gray-100);
   }
 }
 

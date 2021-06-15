@@ -128,6 +128,15 @@ a {
   background-color: var(--bc-block-highlight--yellow, yellow);
 }
 
+.rm-block-ref:hover {
+  background-color: var(--bc-block-ref--hover, #f5f8fa);
+  color: var(--co-block-ref--hover, inherit);
+}
+
+.rm-block-ref {
+  border-bottom: var(--bb-block-ref, 0.5px solid #d8e1e8);
+}
+
 .rm-page-ref__brackets {
   color: var(--co-brackets, inherit);
 }
