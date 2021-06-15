@@ -1897,12 +1897,12 @@
 }
 
 :root {
-  --fl-menu__svg-icon: var(--cl-gray-900);
+  --fl-menu__svg-icon: var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fl-menu__svg-icon: var(--cl-gray-100);
+    --fl-menu__svg-icon: var(--cl-gray-500);
   }
 }
 
@@ -2036,6 +2036,16 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --sd-popover: 0px 0px 0px 1px var(--cl-black);
+  }
+}
+
+:root {
+  --bc-query__content: ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-query__content: ;
   }
 }
 

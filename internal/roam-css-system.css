@@ -1125,6 +1125,10 @@ input[type="search"] {
   );
 }
 
+.rm-query .rm-query-content {
+  background-color: var(--bc-query__content, inherit);
+}
+
 .rm-query .rm-query-title {
   background-color: var(--bc-query__title, var(--background-color));
   color: var(--co-query__title, var(--primary-color));
