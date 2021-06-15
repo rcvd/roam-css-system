@@ -157,6 +157,11 @@ a {
   background-color: var(--bc-bullet__inner, #394b59);
 }
 
+.bp3-button:not([class*="bp3-intent-"]):hover .bp3-icon,
+.bp3-button:not([class*="bp3-intent-"]):hover::before {
+  color: var(--co-button__icon--hover, inherit);
+}
+
 .bp3-button .bp3-icon,
 .bp3-button .bp3-icon-standard,
 .bp3-button .bp3-icon-large,
@@ -176,7 +181,6 @@ a {
     inset 0 0 0 1px rgba(16, 22, 26, 0.2),
     inset 0 -1px 0 rgba(16, 22, 26, 0.1)
   );
-  color: var(--co-button--hover, inherit);
 }
 
 .bp3-button.bp3-minimal {

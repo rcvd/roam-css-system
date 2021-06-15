@@ -347,6 +347,16 @@
 }
 
 :root {
+  --co-button__icon--hover: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-button__icon--hover: var(--cl-red-500);
+  }
+}
+
+:root {
   --co-button__icon: var(--cl-gray-500);
 }
 
@@ -359,14 +369,12 @@
 :root {
   --bc-button--hover: transparent;
   --sd-button--hover: none;
-  --co-button--hover: var(--cl-red-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-button--hover: ;
     --sd-button--hover: ;
-    --co-button--hover: var(--cl-red-500);
   }
 }
 
