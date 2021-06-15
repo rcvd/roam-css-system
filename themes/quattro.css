@@ -2040,12 +2040,12 @@
 }
 
 :root {
-  --bc-query__content: ;
+  --bc-query__content: var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-query__content: ;
+    --bc-query__content: var(--cl-gray-900);
   }
 }
 
