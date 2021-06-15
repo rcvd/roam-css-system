@@ -366,7 +366,7 @@
   :root {
     --bc-button--hover: ;
     --sd-button--hover: ;
-    --co-button--hover: ;
+    --co-button--hover: var(--cl-red-500);
   }
 }
 
