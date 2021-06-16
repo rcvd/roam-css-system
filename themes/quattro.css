@@ -1168,6 +1168,26 @@
 }
 
 :root {
+  --co-graph-dropdown__expand-icon--hover: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-graph-dropdown__expand-icon--hover: var(--cl-red-500);
+  }
+}
+
+:root {
+  --co-graph-dropdown__expand-icon: var(--cl-gray-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-graph-dropdown__expand-icon: var(--cl-gray-500);
+  }
+}
+
+:root {
   --co-graph-dropdown__menu-item: var(--cl-gray-900);
   --td-graph-dropdown__menu-item: none;
 }

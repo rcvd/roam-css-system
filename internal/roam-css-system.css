@@ -651,6 +651,24 @@ textarea {
   text-decoration: var(--td-graph-dropdown__a, inherit);
 }
 
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .rm-db-title:hover
+  .expand-icon {
+  color: var(--co-graph-dropdown__expand-icon--hover, inherit);
+}
+
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .rm-db-title
+  .expand-icon {
+  color: var(--co-graph-dropdown__expand-icon, #5c7080);
+}
+
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
   color: var(--co-graph-dropdown__menu-item, inherit);
   text-decoration: var(--td-graph-dropdown__menu-item, inherit);
