@@ -1118,23 +1118,31 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: ;
+  --bc-find-or-create__menu-item--selected: var(--cl-gray-400);
   --bt-find-or-create__menu-item--selected: ;
   --br-find-or-create__menu-item--selected: ;
   --bb-find-or-create__menu-item--selected: ;
   --bl-find-or-create__menu-item--selected: ;
-  --bd-find-or-create__menu-item--selected: ;
-  --co-find-or-create__menu-item--selected: var(--cl-red-500);
+  --bd-find-or-create__menu-item--selected: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-find-or-create__menu-item--selected: ;
+    --bc-find-or-create__menu-item--selected: var(--cl-gray-600);
     --bt-find-or-create__menu-item--selected: ;
     --br-find-or-create__menu-item--selected: ;
     --bb-find-or-create__menu-item--selected: ;
     --bl-find-or-create__menu-item--selected: ;
-    --co-find-or-create__menu-item--selected: var(--cl-red-500);
+  }
+}
+
+:root {
+  --co-find-or-create__menu-item--selected: var(--cl-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-find-or-create__menu-item--selected: var(--cl-white);
   }
 }
 
@@ -1858,14 +1866,14 @@
 }
 
 :root {
-  --bc-menu__item--hover: var(--cl-gray-200);
-  --co-menu__item--hover: var(--cl-red-500);
+  --bc-menu__item--hover: var(--cl-gray-400);
+  --co-menu__item--hover: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-menu__item--hover: ;
-    --co-menu__item--hover: var(--cl-red-500);
+    --bc-menu__item--hover: var(--cl-gray-600);
+    --co-menu__item--hover: var(--cl-white);
   }
 }
 
