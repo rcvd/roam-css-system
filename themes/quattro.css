@@ -129,7 +129,7 @@
   --br-allpages__input: 1px solid var(--cl-gray-100);
   --bb-allpages__input: 1px solid var(--cl-gray-100);
   --bl-allpages__input: 1px solid var(--cl-gray-100);
-  --bd-allpages__input: 5px;
+  --bd-allpages__input: 0px;
   --sd-allpages__input: none;
   --co-allpages__input: var(--cl-gray-900);
   --fs-allpages__input: 1em;

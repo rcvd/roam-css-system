@@ -1002,7 +1002,7 @@ input[type="search"] {
   background-color: var(--bc-main, inherit);
 }
 
-.bp3-button[style*="background-color: rgba(72, 176, 240, 0.5);"] {
+.bp3-menu button[style*="background-color: rgba(72, 176, 240, 0.5);"] {
   background-color: var(
     --bc-menu__button--active,
     rgba(72, 176, 240, 0.5)
