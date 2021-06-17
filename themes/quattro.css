@@ -1118,21 +1118,23 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: var(--cl-blue-100);
+  --bc-find-or-create__menu-item--selected: ;
   --bt-find-or-create__menu-item--selected: ;
   --br-find-or-create__menu-item--selected: ;
   --bb-find-or-create__menu-item--selected: ;
   --bl-find-or-create__menu-item--selected: ;
   --bd-find-or-create__menu-item--selected: ;
+  --co-find-or-create__menu-item--selected: var(--cl-red-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-find-or-create__menu-item--selected: var(--cl-blue-900);
+    --bc-find-or-create__menu-item--selected: ;
     --bt-find-or-create__menu-item--selected: ;
     --br-find-or-create__menu-item--selected: ;
     --bb-find-or-create__menu-item--selected: ;
     --bl-find-or-create__menu-item--selected: ;
+    --co-find-or-create__menu-item--selected: var(--cl-red-500);
   }
 }
 

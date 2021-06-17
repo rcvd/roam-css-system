@@ -635,6 +635,7 @@ textarea {
   border-bottom: var(--bb-find-or-create__menu-item--selected, inherit);
   border-left: var(--bl-find-or-create__menu-item--selected, inherit);
   border-radius: var(--bd-find-or-create__menu-item--selected, inherit);
+  color: var(--co-find-or-create__menu-item--selected, inherit);
 }
 
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
