@@ -593,7 +593,7 @@
 }
 
 :root {
-  --bc-codeblock__gutters: ;
+  --bc-codeblock__gutters: var(--cl-gray-50);
   --bt-codeblock__gutters: ;
   --br-codeblock__gutters: 2px solid var(--cl-white);
   --bb-codeblock__gutters: ;
@@ -606,7 +606,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-codeblock__gutters: ;
+    --bc-codeblock__gutters: var(--cl-black);
     --bt-codeblock__gutters: ;
     --br-codeblock__gutters: 2px solid var(--cl-gray-900);
     --bb-codeblock__gutters: ;
