@@ -381,7 +381,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .bp3-control input:checked ~ .bp3-control-indicator {
   background-color: var(--bc-control--checked, #137cbd);
-  border-radius: var(--bd-control--checked, inherit);
   box-shadow: var(
     --sd-control--checked,
     inset 0 0 0 1px rgba(16, 22, 26, 0.4),
@@ -1116,6 +1115,25 @@ input[type="search"] {
 .bp3-popover .bp3-popover-arrow::before {
   box-shadow: var(--sd-popover__arrow-shadow, inherit);
   -webkit-box-shadow: var(--sd-popover__arrow-shadow, inherit);
+}
+
+.bp3-popover-content .bp3-button:not([class*="bp3-intent-"]):hover {
+  background-color: var(--bc-popover__button--hover, inherit);
+  border-top: var(--bt-popover__button--hover, inherit);
+  border-right: var(--br-popover__button--hover, inherit);
+  border-bottom: var(--bb-popover__button--hover, inherit) !important;
+  border-left: var(--bl-popover__button--hover, inherit);
+  color: var(--co-popover__button--hover, inherit);
+}
+
+.bp3-popover-content .bp3-button:not([class*="bp3-intent-"]) {
+  background-color: var(--bc-popover__button, inherit);
+  border-top: var(--bt-popover__button, inherit);
+  border-right: var(--br-popover__button, inherit);
+  border-bottom: var(--bb-popover__button, inherit) !important;
+  border-left: var(--bl-popover__button, inherit);
+  border-radius: var(--bd-popover__button, inherit);
+  color: var(--co-popover__button, inherit);
 }
 
 .bp3-popover .bp3-popover-content {
