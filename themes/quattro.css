@@ -229,11 +229,13 @@
 }
 
 :root {
+  --bc-app: var(--cl-white);
   --co-app: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bc-app: var(--cl-gray-900);
     --co-app: var(--cl-gray-50);
   }
 }
@@ -1602,11 +1604,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-input--focus: var(--cl-blue-900);
-    --bt-input--focus: 1px solid var(--cl-blue-800);
-    --br-input--focus: 1px solid var(--cl-blue-800);
-    --bb-input--focus: 1px solid var(--cl-blue-800);
-    --bl-input--focus: 1px solid var(--cl-blue-800);
+    --bc-input--focus: ;
+    --bt-input--focus: 1px solid var(--cl-red-500);
+    --br-input--focus: 1px solid var(--cl-red-500);
+    --bb-input--focus: 1px solid var(--cl-red-500);
+    --bl-input--focus: 1px solid var(--cl-red-500);
     --sd-input--focus: none;
   }
 }
@@ -2287,6 +2289,54 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bb-rightsidebar__window: 1px solid var(--cl-gray-700);
+  }
+}
+
+:root {
+  --bc-roam-js__button--hover: var(--cl-red-500);
+  --bt-roam-js__button--hover: 1px solid var(--cl-red-600);
+  --br-roam-js__button--hover: 1px solid var(--cl-red-600);
+  --bb-roam-js__button--hover: 1px solid var(--cl-red-600);
+  --bl-roam-js__button--hover: 1px solid var(--cl-red-600);
+  --co-roam-js__button--hover: ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam-js__button--hover: var(--cl-red-500);
+    --bt-roam-js__button--hover: 1px solid var(--cl-red-400);
+    --br-roam-js__button--hover: 1px solid var(--cl-red-400);
+    --bb-roam-js__button--hover: 1px solid var(--cl-red-400);
+    --bl-roam-js__button--hover: 1px solid var(--cl-red-400);
+    --co-roam-js__button--hover: ;
+  }
+}
+
+:root {
+  --bc-roam-js__button: transparent;
+  --bt-roam-js__button: 1px solid var(--cl-gray-500);
+  --br-roam-js__button: 1px solid var(--cl-gray-500);
+  --bb-roam-js__button: 1px solid var(--cl-gray-500);
+  --bl-roam-js__button: 1px solid var(--cl-gray-500);
+  --co-roam-js__button: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam-js__button: transparent;
+    --bt-roam-js__button: 1px solid var(--cl-gray-500);
+    --br-roam-js__button: 1px solid var(--cl-gray-500);
+    --bb-roam-js__button: 1px solid var(--cl-gray-500);
+    --bl-roam-js__button: 1px solid var(--cl-gray-500);
+    --co-roam-js__button: var(--cl-gray-100);
+  }
+}
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
   }
 }
 

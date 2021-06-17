@@ -109,6 +109,7 @@ a {
 }
 
 .roam-body .roam-app {
+  background-color: var(--bc-app, inherit);
   color: var(--co-app, #202b33);
 }
 
@@ -1253,6 +1254,27 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
     --bb-rightsidebar__window,
     1px solid rgb(138, 155, 168)
   ) !important;
+}
+
+.rm-roam-js .bp3-button:not([class*="bp3-intent-"]):hover {
+  background-color: var(--bc-roam-js__button--hover, inherit);
+  border-top: var(--bt-roam-js__button--hover, inherit);
+  border-right: var(--br-roam-js__button--hover, inherit);
+  border-bottom: var(--bb-roam-js__button--hover, inherit);
+  border-left: var(--bl-roam-js__button--hover, inherit);
+  color: var(--co-roam-js__button--hover, inherit);
+}
+
+.rm-roam-js .bp3-button:not([class*="bp3-intent-"]) {
+  background-color: var(--bc-roam-js__button, inherit);
+  border-top: var(--bt-roam-js__button, inherit);
+  border-right: var(--br-roam-js__button, inherit);
+  border-bottom: var(--bb-roam-js__button, inherit);
+  border-left: var(--bl-roam-js__button, inherit);
+  color: var(--co-roam-js__button, inherit);
+}
+
+.rm-roam-js--inactive {
 }
 
 .roam-body .roam-app .roam-sidebar-container {
