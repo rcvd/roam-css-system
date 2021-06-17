@@ -1040,6 +1040,7 @@ input[type="search"] {
 .bp3-menu-item:hover,
 .bp3-submenu .bp3-popover-target.bp3-popover-open > .bp3-menu-item {
   background-color: var(--bc-menu__item--hover, rgba(167, 182, 194, 0.3));
+  color: var(--co-menu__item--hover, inherit);
 }
 
 .bp3-menu-item {
@@ -1275,6 +1276,12 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
 }
 
 .rm-roam-js--inactive {
+  background-color: var(--bc-roam-js__container--inactive, #f8d7da);
+  border-top: var(--bt-roam-js__container--inactive, inherit);
+  border-right: var(--br-roam-js__container--inactive, inherit);
+  border-bottom: var(--bb-roam-js__container--inactive, inherit);
+  border-left: var(--bl-roam-js__container--inactive, inherit);
+  color: var(--co-roam-js__container--inactive, #721c24);
 }
 
 .roam-body .roam-app .roam-sidebar-container {
