@@ -424,6 +424,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   font-weight: var(--fw-datepicker__today, bold);
 }
 
+.rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
+  background-color: var(--bc-datepicker__today--selected, #2b95d6);
+  color: var(--co-datepicker__today--selected, #f5f8fa);
+}
+
 .rm-jump-date-picker .DayPicker-WeekNumber {
   border-right: var(--br-datepicker__weeknumber, 1px solid #bfccd6);
   color: var(--co-datepicker__weeknumber, rgba(92, 112, 128, 0.6));
@@ -1046,10 +1051,20 @@ input[type="search"] {
 .bp3-menu-item:hover,
 .bp3-submenu .bp3-popover-target.bp3-popover-open > .bp3-menu-item {
   background-color: var(--bc-menu__item--hover, rgba(167, 182, 194, 0.3));
+  border-top: var(--bt-menu__item--hover, inherit);
+  border-right: var(--br-menu__item--hover, inherit);
+  border-bottom: var(--bb-menu__item--hover, inherit);
+  border-left: var(--bl-menu__item--hover, inherit);
+  border-radius: var(--bd-menu__item--hover, inherit);
   color: var(--co-menu__item--hover, inherit);
 }
 
 .bp3-menu-item {
+  border-top: var(--bt-menu__item, inherit);
+  border-right: var(--br-menu__item, inherit);
+  border-bottom: var(--bb-menu__item, inherit);
+  border-left: var(--bl-menu__item, inherit);
+  border-radius: var(--bd-menu__item, inherit);
   color: var(--co-menu__item, inherit);
 }
 
@@ -1073,6 +1088,10 @@ input[type="search"] {
 .bp3-menu-item.bp3-intent-primary.bp3-active {
   background-color: var(--bc-menu__menu-item--active, #137cbd);
   color: var(--co-menu__menu-item--active, inherit);
+}
+
+.bp3-menu-item:hover > .bp3-icon svg {
+  fill: var(--fl-menu__svg-icon--hover, inherit) !important;
 }
 
 .bp3-menu-item > .bp3-icon svg {
