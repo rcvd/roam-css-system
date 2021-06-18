@@ -845,6 +845,18 @@
 }
 
 :root {
+  --bc-datepicker__today--selected: var(--cl-red-500);
+  --co-datepicker__today--selected: var(--cl-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__today--selected: var(--cl-red-500);
+    --co-datepicker__today--selected: var(--cl-white);
+  }
+}
+
+:root {
   --br-datepicker__weeknumber: 1px solid var(--cl-gray-300);
   --co-datepicker__weeknumber: var(--cl-gray-500);
   --ff-datepicker__weeknumber: "iA Writer Quattro S";
@@ -1866,23 +1878,41 @@
 }
 
 :root {
-  --bc-menu__item--hover: var(--cl-gray-400);
+  --bc-menu__item--hover: var(--cl-blue-50);
+  --bt-menu__item--hover: 1px solid var(--cl-blue-100);
+  --br-menu__item--hover: 1px solid var(--cl-blue-100);
+  --bb-menu__item--hover: 1px solid var(--cl-blue-100);
+  --bl-menu__item--hover: 1px solid var(--cl-blue-100);
+  --bd-menu__item--hover: 0px;
   --co-menu__item--hover: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-menu__item--hover: var(--cl-gray-600);
-    --co-menu__item--hover: var(--cl-white);
+    --bc-menu__item--hover: var(--cl-blue-900);
+    --bt-menu__item--hover: 1px solid var(--cl-blue-700);
+    --br-menu__item--hover: 1px solid var(--cl-blue-700);
+    --bb-menu__item--hover: 1px solid var(--cl-blue-700);
+    --bl-menu__item--hover: 1px solid var(--cl-blue-700);
+    --co-menu__item--hover: var(--cl-black);
   }
 }
 
 :root {
+  --bt-menu__item: 1px solid transparent;
+  --br-menu__item: 1px solid transparent;
+  --bb-menu__item: 1px solid transparent;
+  --bl-menu__item: 1px solid transparent;
+  --bd-menu__item: 0px;
   --co-menu__item: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bt-menu__item: 1px solid transparent;
+    --br-menu__item: 1px solid transparent;
+    --bb-menu__item: 1px solid transparent;
+    --bl-menu__item: 1px solid transparent;
     --co-menu__item: var(--cl-gray-100);
   }
 }
@@ -1930,12 +1960,22 @@
 }
 
 :root {
-  --fl-menu__svg-icon: var(--cl-gray-900);
+  --fl-menu__svg-icon--hover: var(--cl-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fl-menu__svg-icon: var(--cl-gray-100);
+    --fl-menu__svg-icon--hover: var(--cl-gray-600);
+  }
+}
+
+:root {
+  --fl-menu__svg-icon: var(--cl-gray-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fl-menu__svg-icon: var(--cl-gray-600);
   }
 }
 
