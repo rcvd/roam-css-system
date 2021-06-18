@@ -1130,26 +1130,26 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: var(--cl-gray-400);
-  --bt-find-or-create__menu-item--selected: ;
-  --br-find-or-create__menu-item--selected: ;
-  --bb-find-or-create__menu-item--selected: ;
-  --bl-find-or-create__menu-item--selected: ;
+  --bc-find-or-create__menu-item--selected: var(--cl-blue-50);
+  --bt-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
+  --br-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
+  --bb-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
+  --bl-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
   --bd-find-or-create__menu-item--selected: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-find-or-create__menu-item--selected: var(--cl-gray-600);
-    --bt-find-or-create__menu-item--selected: ;
-    --br-find-or-create__menu-item--selected: ;
-    --bb-find-or-create__menu-item--selected: ;
-    --bl-find-or-create__menu-item--selected: ;
+    --bc-find-or-create__menu-item--selected: var(--cl-blue-900);
+    --bt-find-or-create__menu-item--selected: 1px solid var(--cl-blue-800);
+    --br-find-or-create__menu-item--selected: 1px solid var(--cl-blue-800);
+    --bb-find-or-create__menu-item--selected: 1px solid var(--cl-blue-800);
+    --bl-find-or-create__menu-item--selected: 1px solid var(--cl-blue-800);
   }
 }
 
 :root {
-  --co-find-or-create__menu-item--selected: var(--cl-black);
+  --co-find-or-create__menu-item--selected: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
