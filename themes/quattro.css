@@ -1135,7 +1135,7 @@
   --br-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
   --bb-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
   --bl-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
-  --bd-find-or-create__menu-item--selected: 5px;
+  --bd-find-or-create__menu-item--selected: 0px;
 }
 
 @media (prefers-color-scheme: dark) {
