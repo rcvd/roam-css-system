@@ -419,14 +419,14 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color: var(--co-datepicker__day-without-page, #5c7080);
 }
 
-.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
-  color: var(--co-datepicker__today, #137cbd);
-  font-weight: var(--fw-datepicker__today, bold);
-}
-
 .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
   background-color: var(--bc-datepicker__today--selected, #2b95d6);
   color: var(--co-datepicker__today--selected, #f5f8fa);
+}
+
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
+  color: var(--co-datepicker__today, #137cbd);
+  font-weight: var(--fw-datepicker__today, bold);
 }
 
 .rm-jump-date-picker .DayPicker-WeekNumber {
@@ -646,6 +646,13 @@ textarea {
   .rm-menu-item[style*="background-color: rgb(213, 218, 223);"]
   .rm-search-list-item {
   color: var(--co-find-or-create__menu-item--selected, inherit) !important;
+}
+
+.rm-find-or-create-wrapper .rm-menu-item {
+  border-top: var(--bt-find-or-create__menu-item, inherit);
+  border-right: var(--br-find-or-create__menu-item, inherit);
+  border-bottom: var(--bb-find-or-create__menu-item, inherit);
+  border-left: var(--bl-find-or-create__menu-item, inherit);
 }
 
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {

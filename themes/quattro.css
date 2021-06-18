@@ -834,17 +834,6 @@
 }
 
 :root {
-  --co-datepicker__today: var(--cl-red-500);
-  --fw-datepicker__today: bold;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-datepicker__today: var(--cl-red-500);
-  }
-}
-
-:root {
   --bc-datepicker__today--selected: var(--cl-red-500);
   --co-datepicker__today--selected: var(--cl-white);
 }
@@ -853,6 +842,17 @@
   :root {
     --bc-datepicker__today--selected: var(--cl-red-500);
     --co-datepicker__today--selected: var(--cl-white);
+  }
+}
+
+:root {
+  --co-datepicker__today: var(--cl-red-500);
+  --fw-datepicker__today: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-datepicker__today: var(--cl-red-500);
   }
 }
 
@@ -1155,6 +1155,22 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-find-or-create__menu-item--selected: var(--cl-white);
+  }
+}
+
+:root {
+  --bt-find-or-create__menu-item: 1px solid transparent;
+  --br-find-or-create__menu-item: 1px solid transparent;
+  --bb-find-or-create__menu-item: 1px solid transparent;
+  --bl-find-or-create__menu-item: 1px solid transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bt-find-or-create__menu-item: 1px solid transparent;
+    --br-find-or-create__menu-item: 1px solid transparent;
+    --bb-find-or-create__menu-item: 1px solid transparent;
+    --bl-find-or-create__menu-item: 1px solid transparent;
   }
 }
 
