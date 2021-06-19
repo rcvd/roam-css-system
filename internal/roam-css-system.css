@@ -427,6 +427,18 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color: var(--co-datepicker__day--hover, #182026) !important;
 }
 
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected {
+  background-color: var(--bc-datepicker__day--selected, #5c7080);
+  color: var(--co-datepicker__day--selected, #f5f8fa);
+}
+
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected:hover {
+  background-color: var(
+    --bc-datepicker__day-selected--hover,
+    hsl(204, 20%, 45%)
+  );
+}
+
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
   color: var(--co-datepicker__day-without-page, #5c7080);
 }
@@ -1457,9 +1469,4 @@ span[data-tag="tags"] {
 .rm-zoom .rm-zoom-item,
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
-}
-
-.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected {
-  background-color: var(--bc-datepicker__day--selected, #5c7080);
-  color: var(--co-datepicker__day--selected, #f5f8fa);
 }

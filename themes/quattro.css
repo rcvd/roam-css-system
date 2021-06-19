@@ -846,6 +846,28 @@
 }
 
 :root {
+  --bc-datepicker__day--selected: var(--cl-red-600);
+  --co-datepicker__day--selected: var(--cl-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__day--selected: var(--cl-red-400);
+    --co-datepicker__day--selected: var(--cl-black);
+  }
+}
+
+:root {
+  --bc-datepicker__day-selected--hover: var(--cl-red-600);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__day-selected--hover: var(--cl-red-400);
+  }
+}
+
+:root {
   --co-datepicker__day-without-page: var(--cl-gray-600);
 }
 
@@ -2640,17 +2662,5 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-600);
-  }
-}
-
-:root {
-  --bc-datepicker__day--selected: var(--cl-red-600);
-  --co-datepicker__day--selected: var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-datepicker__day--selected: var(--cl-red-400);
-    --co-datepicker__day--selected: var(--cl-black);
   }
 }
