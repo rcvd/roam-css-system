@@ -170,6 +170,18 @@ a {
   color: var(--co-button__icon, #5c7080);
 }
 
+.bp3-button.bp3-minimal:active,
+.bp3-button.bp3-minimal.bp3-active {
+  background-color: var(--bc-button--active, rgba(115, 134, 148, 0.3));
+  box-shadow: var(--sd-button--active, none);
+  -webkit-box-shadow: var(--sd-button--active, none);
+}
+
+.bp3-button.bp3-minimal:active .bp3-icon,
+.bp3-button.bp3-minimal.bp3-active .bp3-icon {
+  color: var(--co-button--active, #5c7080);
+}
+
 .bp3-button:not([class*="bp3-intent-"]):hover {
   background-color: var(--bc-button--hover, #ebf1f5);
   box-shadow: var(
@@ -1319,6 +1331,14 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
 .roam-body .roam-app .roam-sidebar-container {
   background-color: var(--bc-sidebar__container, #182026);
   border-right: var(--br-sidebar__container, inherit);
+}
+
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .rm-db-title:hover {
+  color: var(--co-sidebar__db-title--hover, inherit);
 }
 
 .roam-body
