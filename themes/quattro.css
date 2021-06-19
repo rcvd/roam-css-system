@@ -2078,6 +2078,7 @@
 
 :root {
   --co-menu__item-label: var(--cl-gray-500);
+  --td-menu__item-label: none;
 }
 
 @media (prefers-color-scheme: dark) {

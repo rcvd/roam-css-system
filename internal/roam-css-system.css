@@ -1157,6 +1157,7 @@ input[type="search"] {
 
 .bp3-menu-item .bp3-menu-item-label {
   color: var(--co-menu__item-label, #5c7080);
+  text-decoration: var(--td-menu__item-label, inherit);
 }
 
 .bp3-menu-item.bp3-intent-primary {
