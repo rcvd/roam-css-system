@@ -411,8 +411,16 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color: var(--co-codeblock__variable-2, #05a);
 }
 
+.bp3-control:hover input:checked ~ .bp3-control-indicator {
+  background-color: var(--bc-control__checked--hover, #106ba3) !important;
+  border-top: var(--bt-control__checked--hover, inherit);
+  border-right: var(--br-control__checked--hover, inherit);
+  border-bottom: var(--bb-control__checked--hover, inherit);
+  border-left: var(--bl-control__checked--hover, inherit);
+}
+
 .bp3-control input:checked ~ .bp3-control-indicator {
-  background-color: var(--bc-control--checked, #137cbd);
+  background-color: var(--bc-control--checked, #137cbd) !important;
   box-shadow: var(
     --sd-control--checked,
     inset 0 0 0 1px rgba(16, 22, 26, 0.4),
@@ -460,6 +468,26 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
   color: var(--co-datepicker__day-without-page, #5c7080);
+}
+
+.bp3-popover-content
+  .bp3-button:not([class*="bp3-intent-"]).DayPicker-NavButton:hover {
+  background-color: var(--bc-datepicker__nav-button--hover, inherit);
+  border-top: var(--bt-datepicker__nav-button--hover, inherit);
+  border-right: var(--br-datepicker__nav-button--hover, inherit);
+  border-bottom: var(--bb-datepicker__nav-button--hover, inherit) !important;
+  border-left: var(--bl-datepicker__nav-button--hover, inherit);
+  color: var(--co-datepicker__nav-button--hover, inherit);
+}
+
+.bp3-popover-content
+  .bp3-button:not([class*="bp3-intent-"]).DayPicker-NavButton {
+  background-color: var(--bc-datepicker__nav-button, inherit);
+  border-top: var(--bt-datepicker__nav-button, inherit);
+  border-right: var(--br-datepicker__nav-button, inherit);
+  border-bottom: var(--bb-datepicker__nav-button, inherit) !important;
+  border-left: var(--bl-datepicker__nav-button, inherit);
+  color: var(--co-datepicker__nav-button, inherit);
 }
 
 .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
@@ -1355,6 +1383,15 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   color: var(--co-roam-js__button, inherit);
 }
 
+.rm-roam-js--active {
+  background-color: var(--bc-roam-js__container--active, #fff3cd);
+  border-top: var(--bt-roam-js__container--active, inherit);
+  border-right: var(--br-roam-js__container--active, inherit);
+  border-bottom: var(--bb-roam-js__container--active, inherit);
+  border-left: var(--bl-roam-js__container--active, inherit);
+  color: var(--co-roam-js__container--active, #856404);
+}
+
 .rm-roam-js--inactive {
   background-color: var(--bc-roam-js__container--inactive, #f8d7da);
   border-top: var(--bt-roam-js__container--inactive, inherit);
@@ -1489,41 +1526,4 @@ span[data-tag="tags"] {
 .rm-zoom .rm-zoom-item,
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
-}
-
-.bp3-popover-content
-  .bp3-button:not([class*="bp3-intent-"]).DayPicker-NavButton {
-  background-color: var(--bc-datepicker__nav-button, inherit);
-  border-top: var(--bt-datepicker__nav-button, inherit);
-  border-right: var(--br-datepicker__nav-button, inherit);
-  border-bottom: var(--bb-datepicker__nav-button, inherit) !important;
-  border-left: var(--bl-datepicker__nav-button, inherit);
-  color: var(--co-datepicker__nav-button, inherit);
-}
-
-.bp3-popover-content
-  .bp3-button:not([class*="bp3-intent-"]).DayPicker-NavButton:hover {
-  background-color: var(--bc-datepicker__nav-button--hover, inherit);
-  border-top: var(--bt-datepicker__nav-button--hover, inherit);
-  border-right: var(--br-datepicker__nav-button--hover, inherit);
-  border-bottom: var(--bb-datepicker__nav-button--hover, inherit) !important;
-  border-left: var(--bl-datepicker__nav-button--hover, inherit);
-  color: var(--co-datepicker__nav-button--hover, inherit);
-}
-
-.rm-roam-js--active {
-  background-color: var(--bc-roam-js__container--active, #fff3cd);
-  border-top: var(--bt-roam-js__container--active, inherit);
-  border-right: var(--br-roam-js__container--active, inherit);
-  border-bottom: var(--bb-roam-js__container--active, inherit);
-  border-left: var(--bl-roam-js__container--active, inherit);
-  color: var(--co-roam-js__container--active, #856404);
-}
-
-.bp3-control:hover input:checked ~ .bp3-control-indicator {
-  background-color: var(--bc-control__checked--hover, #106ba3);
-  border-top: var(--bt-control__checked--hover, inherit);
-  border-right: var(--br-control__checked--hover, inherit);
-  border-bottom: var(--bb-control__checked--hover, inherit);
-  border-left: var(--bl-control__checked--hover, inherit);
 }

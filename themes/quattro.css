@@ -830,6 +830,24 @@
 }
 
 :root {
+  --bc-control__checked--hover: var(--cl-red-400);
+  --bt-control__checked--hover: 1px solid var(--cl-red-400);
+  --br-control__checked--hover: 1px solid var(--cl-red-400);
+  --bb-control__checked--hover: 1px solid var(--cl-red-400);
+  --bl-control__checked--hover: 1px solid var(--cl-red-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-control__checked--hover: var(--cl-red-600);
+    --bt-control__checked--hover: 1px solid var(--cl-red-500);
+    --br-control__checked--hover: 1px solid var(--cl-red-500);
+    --bb-control__checked--hover: 1px solid var(--cl-red-500);
+    --bl-control__checked--hover: 1px solid var(--cl-red-500);
+  }
+}
+
+:root {
   --bc-control--checked: var(--cl-red-500);
   --sd-control--checked: none;
 }
@@ -895,6 +913,46 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-datepicker__day-without-page: var(--cl-gray-400);
+  }
+}
+
+:root {
+  --bc-datepicker__nav-button--hover: ;
+  --bt-datepicker__nav-button--hover: none;
+  --br-datepicker__nav-button--hover: none;
+  --bb-datepicker__nav-button--hover: none;
+  --bl-datepicker__nav-button--hover: none;
+  --co-datepicker__nav-button--hover: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__nav-button--hover: ;
+    --bt-datepicker__nav-button--hover: ;
+    --br-datepicker__nav-button--hover: ;
+    --bb-datepicker__nav-button--hover: ;
+    --bl-datepicker__nav-button--hover: ;
+    --co-datepicker__nav-button--hover: var(--cl-red-500);
+  }
+}
+
+:root {
+  --bc-datepicker__nav-button: ;
+  --bt-datepicker__nav-button: none;
+  --br-datepicker__nav-button: none;
+  --bb-datepicker__nav-button: none;
+  --bl-datepicker__nav-button: none;
+  --co-datepicker__nav-button: var(--cl-gray-700);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__nav-button: ;
+    --bt-datepicker__nav-button: ;
+    --br-datepicker__nav-button: ;
+    --bb-datepicker__nav-button: ;
+    --bl-datepicker__nav-button: ;
+    --co-datepicker__nav-button: var(--cl-gray-300);
   }
 }
 
@@ -2477,6 +2535,26 @@
 }
 
 :root {
+  --bc-roam-js__container--active: var(--cl-yellow-50);
+  --bt-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --br-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --bb-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --bl-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --co-roam-js__container--active: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam-js__container--active: var(--cl-yellow-800);
+    --bt-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --br-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --bb-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --bl-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --co-roam-js__container--active: var(--cl-gray-100);
+  }
+}
+
+:root {
   --bc-roam-js__container--inactive: var(--cl-gray-50);
   --bt-roam-js__container--inactive: 1px solid var(--cl-gray-100);
   --br-roam-js__container--inactive: 1px solid var(--cl-gray-100);
@@ -2684,83 +2762,5 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-600);
-  }
-}
-
-:root {
-  --bc-datepicker__nav-button: ;
-  --bt-datepicker__nav-button: none;
-  --br-datepicker__nav-button: none;
-  --bb-datepicker__nav-button: none;
-  --bl-datepicker__nav-button: none;
-  --co-datepicker__nav-button: var(--cl-gray-700);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-datepicker__nav-button: ;
-    --bt-datepicker__nav-button: ;
-    --br-datepicker__nav-button: ;
-    --bb-datepicker__nav-button: ;
-    --bl-datepicker__nav-button: ;
-    --co-datepicker__nav-button: var(--cl-gray-300);
-  }
-}
-
-:root {
-  --bc-datepicker__nav-button--hover: ;
-  --bt-datepicker__nav-button--hover: none;
-  --br-datepicker__nav-button--hover: none;
-  --bb-datepicker__nav-button--hover: none;
-  --bl-datepicker__nav-button--hover: none;
-  --co-datepicker__nav-button--hover: var(--cl-red-500);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-datepicker__nav-button--hover: ;
-    --bt-datepicker__nav-button--hover: ;
-    --br-datepicker__nav-button--hover: ;
-    --bb-datepicker__nav-button--hover: ;
-    --bl-datepicker__nav-button--hover: ;
-    --co-datepicker__nav-button--hover: var(--cl-red-500);
-  }
-}
-
-:root {
-  --bc-roam-js__container--active: var(--cl-yellow-50);
-  --bt-roam-js__container--active: 1px solid var(--cl-yellow-100);
-  --br-roam-js__container--active: 1px solid var(--cl-yellow-100);
-  --bb-roam-js__container--active: 1px solid var(--cl-yellow-100);
-  --bl-roam-js__container--active: 1px solid var(--cl-yellow-100);
-  --co-roam-js__container--active: var(--cl-gray-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-roam-js__container--active: var(--cl-yellow-800);
-    --bt-roam-js__container--active: 1px solid var(--cl-yellow-900);
-    --br-roam-js__container--active: 1px solid var(--cl-yellow-900);
-    --bb-roam-js__container--active: 1px solid var(--cl-yellow-900);
-    --bl-roam-js__container--active: 1px solid var(--cl-yellow-900);
-    --co-roam-js__container--active: var(--cl-gray-100);
-  }
-}
-
-:root {
-  --bc-control__checked--hover: var(--cl-red-400);
-  --bt-control__checked--hover: 1px solid var(--cl-red-400);
-  --br-control__checked--hover: 1px solid var(--cl-red-400);
-  --bb-control__checked--hover: 1px solid var(--cl-red-400);
-  --bl-control__checked--hover: 1px solid var(--cl-red-400);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-control__checked--hover: var(--cl-red-600);
-    --bt-control__checked--hover: 1px solid var(--cl-red-500);
-    --br-control__checked--hover: 1px solid var(--cl-red-500);
-    --bb-control__checked--hover: 1px solid var(--cl-red-500);
-    --bl-control__checked--hover: 1px solid var(--cl-red-500);
   }
 }
