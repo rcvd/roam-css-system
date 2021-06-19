@@ -1775,11 +1775,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-input--focus: ;
-    --bt-input--focus: 1px solid var(--cl-red-500);
-    --br-input--focus: 1px solid var(--cl-red-500);
-    --bb-input--focus: 1px solid var(--cl-red-500);
-    --bl-input--focus: 1px solid var(--cl-red-500);
+    --bc-input--focus: var(--cl-blue-800);
+    --bt-input--focus: 1px solid var(--cl-blue-900);
+    --br-input--focus: 1px solid var(--cl-blue-900);
+    --bb-input--focus: 1px solid var(--cl-blue-900);
+    --bl-input--focus: 1px solid var(--cl-blue-900);
     --sd-input--focus: none;
   }
 }
