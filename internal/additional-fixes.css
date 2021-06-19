@@ -19,8 +19,8 @@
   padding-bottom: 2px;
 }
 #roam-sidebar-logo img {
-  --webkit-filter: brightness(60%);
-  filter: brightness(60%);
+  --webkit-filter: brightness(40%);
+  filter: brightness(40%);
 }
 
 @media (prefers-color-scheme: dark) {
