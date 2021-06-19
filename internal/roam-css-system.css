@@ -433,7 +433,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
   background-color: var(--bc-datepicker__today--selected, #2b95d6);
-  color: var(--co-datepicker__today--selected, #f5f8fa);
+  color: var(--co-datepicker__today--selected, #f5f8fa) !important;
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
@@ -1453,4 +1453,8 @@ span[data-tag="tags"] {
 .rm-zoom .rm-zoom-item,
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
+}
+
+.rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today:hover {
+  background-color: var(--bc-datepicker__today-selected--hover, #137cbd);
 }

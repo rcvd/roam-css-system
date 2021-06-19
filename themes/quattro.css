@@ -381,12 +381,12 @@
 }
 
 :root {
-  --co-button--active: var(--cl-red-400);
+  --co-button--active: var(--cl-red-600);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-button--active: var(--cl-red-600);
+    --co-button--active: var(--cl-red-400);
   }
 }
 
@@ -2630,5 +2630,15 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-600);
+  }
+}
+
+:root {
+  --bc-datepicker__today-selected--hover: var(--cl-red-600);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__today-selected--hover: var(--cl-red-500);
   }
 }
