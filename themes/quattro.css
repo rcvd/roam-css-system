@@ -2320,7 +2320,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-query__title: var(--cl-gray-900);
+    --bc-query__title: var(--cl-gray-700);
     --co-query__title: var(--cl-gray-200);
   }
 }
@@ -2334,10 +2334,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-query: 1px solid var(--cl-gray-800);
-    --br-query: 1px solid var(--cl-gray-800);
-    --bb-query: 1px solid var(--cl-gray-800);
-    --bl-query: 1px solid var(--cl-gray-800);
+    --bt-query: 1px solid var(--cl-gray-600);
+    --br-query: 1px solid var(--cl-gray-600);
+    --bb-query: 1px solid var(--cl-gray-600);
+    --bl-query: 1px solid var(--cl-gray-600);
   }
 }
 
