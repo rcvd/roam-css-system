@@ -1489,3 +1489,21 @@ span[data-tag="tags"] {
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
 }
+
+.DayPicker .DayPicker-NavButton {
+  background-color: var(--bc-datepicker__nav-button, inherit);
+  border-top: var(--bt-datepicker__nav-button, inherit);
+  border-right: var(--br-datepicker__nav-button, inherit);
+  border-bottom: var(--bb-datepicker__nav-button, inherit);
+  border-left: var(--bl-datepicker__nav-button, inherit);
+  color: var(--co-datepicker__nav-button, inherit);
+}
+
+.DayPicker .DayPicker-NavButton:hover {
+  background-color: var(--bc-datepicker__nav-button--hover, inherit);
+  border-top: var(--bt-datepicker__nav-button--hover, inherit);
+  border-right: var(--br-datepicker__nav-button--hover, inherit);
+  border-bottom: var(--bb-datepicker__nav-button--hover, inherit);
+  border-left: var(--bl-datepicker__nav-button--hover, inherit);
+  color: var(--co-datepicker__nav-button--hover, inherit);
+}

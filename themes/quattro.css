@@ -2570,12 +2570,12 @@
 }
 
 :root {
-  --co-sidebar__logo-text: var(--cl-gray-400);
+  --co-sidebar__logo-text: var(--cl-gray-600);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-sidebar__logo-text: var(--cl-gray-600);
+    --co-sidebar__logo-text: var(--cl-gray-400);
   }
 }
 
@@ -2683,5 +2683,45 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-600);
+  }
+}
+
+:root {
+  --bc-datepicker__nav-button: ;
+  --bt-datepicker__nav-button: none;
+  --br-datepicker__nav-button: none;
+  --bb-datepicker__nav-button: none;
+  --bl-datepicker__nav-button: none;
+  --co-datepicker__nav-button: var(--cl-gray-700);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__nav-button: ;
+    --bt-datepicker__nav-button: ;
+    --br-datepicker__nav-button: ;
+    --bb-datepicker__nav-button: ;
+    --bl-datepicker__nav-button: ;
+    --co-datepicker__nav-button: var(--cl-gray-300);
+  }
+}
+
+:root {
+  --bc-datepicker__nav-button--hover: ;
+  --bt-datepicker__nav-button--hover: none;
+  --br-datepicker__nav-button--hover: none;
+  --bb-datepicker__nav-button--hover: none;
+  --bl-datepicker__nav-button--hover: none;
+  --co-datepicker__nav-button--hover: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__nav-button--hover: ;
+    --bt-datepicker__nav-button--hover: ;
+    --br-datepicker__nav-button--hover: ;
+    --bb-datepicker__nav-button--hover: ;
+    --bl-datepicker__nav-button--hover: ;
+    --co-datepicker__nav-button--hover: var(--cl-red-500);
   }
 }
