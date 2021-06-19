@@ -1519,3 +1519,11 @@ span[data-tag="tags"] {
   border-left: var(--bl-roam-js__container--active, inherit);
   color: var(--co-roam-js__container--active, #856404);
 }
+
+.bp3-control:hover input:checked ~ .bp3-control-indicator {
+  background-color: var(--bc-control__checked--hover, #106ba3);
+  border-top: var(--bt-control__checked--hover, inherit);
+  border-right: var(--br-control__checked--hover, inherit);
+  border-bottom: var(--bb-control__checked--hover, inherit);
+  border-left: var(--bl-control__checked--hover, inherit);
+}

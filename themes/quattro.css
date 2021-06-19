@@ -830,27 +830,27 @@
 }
 
 :root {
-  --bc-control--checked: var(--cl-blue-500);
-  --sd-control--checked: 0px 0px 0px 1px var(--cl-blue-600);
+  --bc-control--checked: var(--cl-red-500);
+  --sd-control--checked: none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-control--checked: ;
-    --sd-control--checked: 0px 0px 0px 1px var(--cl-blue-600);
+    --bc-control--checked: var(--cl-red-500);
+    --sd-control--checked: none;
   }
 }
 
 :root {
   --bc-control: var(--cl-gray-50);
-  --bd-control: 3px;
-  --sd-control: 0px 0px 0px 1px var(--cl-gray-100);
+  --bd-control: none;
+  --sd-control: none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-control: ;
-    --sd-control: ;
+    --sd-control: none;
   }
 }
 
@@ -2744,5 +2744,23 @@
     --bb-roam-js__container--active: 1px solid var(--cl-yellow-900);
     --bl-roam-js__container--active: 1px solid var(--cl-yellow-900);
     --co-roam-js__container--active: var(--cl-gray-100);
+  }
+}
+
+:root {
+  --bc-control__checked--hover: var(--cl-red-400);
+  --bt-control__checked--hover: 1px solid var(--cl-red-400);
+  --br-control__checked--hover: 1px solid var(--cl-red-400);
+  --bb-control__checked--hover: 1px solid var(--cl-red-400);
+  --bl-control__checked--hover: 1px solid var(--cl-red-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-control__checked--hover: var(--cl-red-600);
+    --bt-control__checked--hover: 1px solid var(--cl-red-500);
+    --br-control__checked--hover: 1px solid var(--cl-red-500);
+    --bb-control__checked--hover: 1px solid var(--cl-red-500);
+    --bl-control__checked--hover: 1px solid var(--cl-red-500);
   }
 }
