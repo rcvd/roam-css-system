@@ -1495,7 +1495,7 @@ span[data-tag="tags"] {
   background-color: var(--bc-datepicker__nav-button, inherit);
   border-top: var(--bt-datepicker__nav-button, inherit);
   border-right: var(--br-datepicker__nav-button, inherit);
-  border-bottom: var(--bb-datepicker__nav-button, inherit);
+  border-bottom: var(--bb-datepicker__nav-button, inherit) !important;
   border-left: var(--bl-datepicker__nav-button, inherit);
   color: var(--co-datepicker__nav-button, inherit);
 }
