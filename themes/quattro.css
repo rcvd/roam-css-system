@@ -2752,7 +2752,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-zoom__mask: var(--cl-gray-900);
+    --bc-zoom__mask: var(--cl-gray-800);
   }
 }
 
@@ -2762,6 +2762,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-zoom-item: var(--cl-gray-600);
+    --co-zoom-item: var(--cl-gray-500);
   }
 }
