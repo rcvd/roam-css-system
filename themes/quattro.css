@@ -2441,7 +2441,7 @@
   --br-roam-js__button--hover: 1px solid var(--cl-red-600);
   --bb-roam-js__button--hover: 1px solid var(--cl-red-600);
   --bl-roam-js__button--hover: 1px solid var(--cl-red-600);
-  --co-roam-js__button--hover: ;
+  --co-roam-js__button--hover: var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2451,7 +2451,7 @@
     --br-roam-js__button--hover: 1px solid var(--cl-red-400);
     --bb-roam-js__button--hover: 1px solid var(--cl-red-400);
     --bl-roam-js__button--hover: 1px solid var(--cl-red-400);
-    --co-roam-js__button--hover: ;
+    --co-roam-js__button--hover: var(--cl-white);
   }
 }
 
