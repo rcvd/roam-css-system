@@ -2461,6 +2461,7 @@
   --br-roam-js__button: 1px solid var(--cl-gray-500);
   --bb-roam-js__button: 1px solid var(--cl-gray-500);
   --bl-roam-js__button: 1px solid var(--cl-gray-500);
+  --bd-roam-js__button: 0px;
   --co-roam-js__button: var(--cl-gray-900);
 }
 

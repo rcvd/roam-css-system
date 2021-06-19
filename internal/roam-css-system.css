@@ -1351,6 +1351,7 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   border-right: var(--br-roam-js__button, inherit);
   border-bottom: var(--bb-roam-js__button, inherit);
   border-left: var(--bl-roam-js__button, inherit);
+  border-radius: var(--bd-roam-js__button, inherit);
   color: var(--co-roam-js__button, inherit);
 }
 
