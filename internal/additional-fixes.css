@@ -25,8 +25,8 @@
 
 @media (prefers-color-scheme: dark) {
   #roam-sidebar-logo img {
-    --webkit-filter: brightness(40%);
-    filter: brightness(40%);
+    --webkit-filter: brightness(60%);
+    filter: brightness(60%);
   }
 }
 hr {
