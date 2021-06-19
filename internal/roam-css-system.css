@@ -1528,3 +1528,33 @@ span[data-tag="tags"] {
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
 }
+
+.rm-pomodoro.running {
+  background-color: var(--bc-pomodoro--running, #f6dbdb) !important;
+  border-top: var(--bt-pomodoro--running, 1px solid #cd3838);
+  border-right: var(--br-pomodoro--running, 1px solid #cd3838);
+  border-bottom: var(--bb-pomodoro--running, 1px solid #cd3838);
+  border-left: var(--bl-pomodoro--running, 1px solid #cd3838);
+  border-radius: var(--bd-pomodoro--running, inherit);
+  color: var(--co-pomodoro--running, #cd3838) !important;
+}
+
+.rm-pomodoro.break {
+  background-color: var(--bc-pomodoro--break, #defcf0) !important;
+  border-top: var(--bt-pomodoro--break, 1px solid #0f9960);
+  border-right: var(--br-pomodoro--break, 1px solid #0f9960);
+  border-bottom: var(--bb-pomodoro--break, 1px solid #0f9960);
+  border-left: var(--bl-pomodoro--break, 1px solid #0f9960);
+  border-radius: var(--bd-pomodoro--break, inherit);
+  color: var(--co-pomodoro--break, #0f9960) !important;
+}
+
+.rm-pomodoro {
+  background-color: var(--bc-pomodoro, transparent) !important;
+  border-top: var(--bt-pomodoro, inherit);
+  border-right: var(--br-pomodoro, inherit);
+  border-bottom: var(--bb-pomodoro, inherit);
+  border-left: var(--bl-pomodoro, inherit);
+  border-radius: var(--bd-pomodoro, inherit);
+  color: var(--co-pomodoro, inherit) !important;
+}
