@@ -68,6 +68,7 @@ hr {
 }
 
 .bp3-control .bp3-control-indicator {
+  background-image: none;
   height: unset;
   width: unset;
 }
