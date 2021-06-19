@@ -1940,7 +1940,7 @@
 }
 
 :root {
-  --bc-menu__button: var(--cl-white);
+  --bc-menu__button: transparent;
   --bt-menu__button: none;
   --br-menu__button: none;
   --bb-menu__button: none;
@@ -1950,7 +1950,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-menu__button: var(--cl-black);
+    --bc-menu__button: transparent;
     --bt-menu__button: none;
     --br-menu__button: none;
     --bb-menu__button: none;
