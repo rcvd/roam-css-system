@@ -879,6 +879,16 @@
 }
 
 :root {
+  --bc-datepicker__today-selected--hover: var(--cl-red-600);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-datepicker__today-selected--hover: var(--cl-red-500);
+  }
+}
+
+:root {
   --br-datepicker__weeknumber: 1px solid var(--cl-gray-300);
   --co-datepicker__weeknumber: var(--cl-gray-500);
   --ff-datepicker__weeknumber: "iA Writer Quattro S";
@@ -1998,22 +2008,22 @@
 }
 
 :root {
-  --fl-menu__svg-icon--hover: var(--cl-gray-400);
+  --fl-menu__svg-icon--hover: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fl-menu__svg-icon--hover: var(--cl-gray-600);
+    --fl-menu__svg-icon--hover: var(--cl-gray-100);
   }
 }
 
 :root {
-  --fl-menu__svg-icon: var(--cl-gray-400);
+  --fl-menu__svg-icon: var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fl-menu__svg-icon: var(--cl-gray-600);
+    --fl-menu__svg-icon: var(--cl-gray-100);
   }
 }
 
@@ -2465,13 +2475,13 @@
 }
 
 :root {
-  --co-sidebar__db-title: var(--cl-gray-500);
+  --co-sidebar__db-title: var(--cl-gray-400);
   --fw-sidebar__db-title: normal;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-sidebar__db-title: var(--cl-gray-500);
+    --co-sidebar__db-title: var(--cl-gray-600);
   }
 }
 
@@ -2572,7 +2582,7 @@
   --br-starred__page: ;
   --bb-starred__page: ;
   --bl-starred__page: ;
-  --co-starred__page: var(--cl-gray-700);
+  --co-starred__page: var(--cl-gray-400);
   --fs-starred__page: 1em;
   --ft-starred__page: ;
   --fw-starred__page: ;
@@ -2585,7 +2595,7 @@
     --br-starred__page: ;
     --bb-starred__page: ;
     --bl-starred__page: ;
-    --co-starred__page: var(--cl-gray-300);
+    --co-starred__page: var(--cl-gray-600);
   }
 }
 
@@ -2630,15 +2640,5 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-600);
-  }
-}
-
-:root {
-  --bc-datepicker__today-selected--hover: var(--cl-red-600);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-datepicker__today-selected--hover: var(--cl-red-500);
   }
 }
