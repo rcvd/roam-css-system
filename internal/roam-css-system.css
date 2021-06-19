@@ -1509,3 +1509,12 @@ span[data-tag="tags"] {
   border-left: var(--bl-datepicker__nav-button--hover, inherit);
   color: var(--co-datepicker__nav-button--hover, inherit);
 }
+
+.rm-roam-js--active {
+  background-color: var(--bc-roam-js__container--active, #fff3cd);
+  border-top: var(--bt-roam-js__container--active, inherit);
+  border-right: var(--br-roam-js__container--active, inherit);
+  border-bottom: var(--bb-roam-js__container--active, inherit);
+  border-left: var(--bl-roam-js__container--active, inherit);
+  color: var(--co-roam-js__container--active, #856404);
+}

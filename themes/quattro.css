@@ -2725,3 +2725,23 @@
     --co-datepicker__nav-button--hover: var(--cl-red-500);
   }
 }
+
+:root {
+  --bc-roam-js__container--active: var(--cl-yellow-50);
+  --bt-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --br-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --bb-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --bl-roam-js__container--active: 1px solid var(--cl-yellow-100);
+  --co-roam-js__container--active: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam-js__container--active: var(--cl-yellow-800);
+    --bt-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --br-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --bb-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --bl-roam-js__container--active: 1px solid var(--cl-yellow-900);
+    --co-roam-js__container--active: var(--cl-gray-100);
+  }
+}
