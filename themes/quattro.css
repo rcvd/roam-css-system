@@ -1672,7 +1672,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-highlight: var(--cl-yellow-500);
+    --bc-highlight: var(--cl-red-900);
   }
 }
 
@@ -2039,11 +2039,11 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-menu__item--hover: var(--cl-blue-900);
-    --bt-menu__item--hover: 1px solid var(--cl-blue-700);
-    --br-menu__item--hover: 1px solid var(--cl-blue-700);
-    --bb-menu__item--hover: 1px solid var(--cl-blue-700);
-    --bl-menu__item--hover: 1px solid var(--cl-blue-700);
-    --co-menu__item--hover: var(--cl-black);
+    --bt-menu__item--hover: 1px solid var(--cl-blue-800);
+    --br-menu__item--hover: 1px solid var(--cl-blue-800);
+    --bb-menu__item--hover: 1px solid var(--cl-blue-800);
+    --bl-menu__item--hover: 1px solid var(--cl-blue-800);
+    --co-menu__item--hover: var(--cl-white);
   }
 }
 
@@ -2747,7 +2747,7 @@
 }
 
 :root {
-  --bc-zoom__mask: var(--cl-gray-100);
+  --bc-zoom__mask: var(--cl-gray-50);
 }
 
 @media (prefers-color-scheme: dark) {
