@@ -1862,10 +1862,10 @@
 :root {
   --co-level1: ;
   --ff-level1: "iA Writer Quattro S";
-  --fs-level1: 1em;
+  --fs-level1: 1.4em;
   --ft-level1: ;
   --fw-level1: 600;
-  --tt-level1: uppercase;
+  --tt-level1: normal;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1877,7 +1877,7 @@
 :root {
   --co-level2: ;
   --ff-level2: "iA Writer Quattro S";
-  --fs-level2: 1em;
+  --fs-level2: 1.2em;
   --ft-level2: ;
   --fw-level2: 600;
   --tt-level2: normal;
@@ -1892,10 +1892,10 @@
 :root {
   --co-level3: ;
   --ff-level3: "iA Writer Quattro S";
-  --fs-level3: italic;
+  --fs-level3: 1em;
   --ft-level3: ;
-  --fw-level3: ;
-  --tt-level3: ;
+  --fw-level3: 600;
+  --tt-level3: normal;
 }
 
 @media (prefers-color-scheme: dark) {
