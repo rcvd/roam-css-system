@@ -541,6 +541,7 @@
   --bd-code: 2px;
   --co-code: var(--cl-gray-900);
   --ff-code: "iA Writer Mono S";
+  --fs-code: 1em;
 }
 
 @media (prefers-color-scheme: dark) {
