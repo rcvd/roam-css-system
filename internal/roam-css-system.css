@@ -134,7 +134,8 @@ a {
 }
 
 .roam-body .roam-app,
-html {
+html,
+body {
   background-color: var(--bc-app, inherit);
   color: var(--co-app, #202b33);
 }
