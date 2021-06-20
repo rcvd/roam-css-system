@@ -194,7 +194,7 @@
 }
 
 :root {
-  --bc-allpages__row-header: var(--cl-gray-100);
+  --bc-allpages__row-header: var(--cl-gray-50);
   --bd-allpages__row-header: 0px;
   --co-allpages__row-header: var(--cl-gray-900);
   --fs-allpages__row-header: 1em;
