@@ -2892,3 +2892,13 @@
     --co-zoom-item: var(--cl-gray-500);
   }
 }
+
+:root {
+  --co-allpages__sort-button--focused: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-allpages__sort-button--focused: var(--cl-red-500);
+  }
+}

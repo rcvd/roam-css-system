@@ -1596,3 +1596,7 @@ span[data-tag="tags"] {
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
 }
+
+.sorting-button-group .sort-button.focused {
+  color: var(--co-allpages__sort-button--focused, #5c7080);
+}
