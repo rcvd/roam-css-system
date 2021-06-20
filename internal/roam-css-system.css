@@ -138,6 +138,13 @@ a {
   color: var(--co-app, #202b33);
 }
 
+.rm-attr-ref {
+  color: var(--co-attributes, inherit);
+  font-style: var(--ft-attributes, inherit);
+  font-weight: var(--fw-attributes, bold);
+  text-decoration: var(--td-attributes, inherit);
+}
+
 #block-input-ghost span[style*="color: rgb(206, 217, 224);"] {
   color: var(--co-block__ghost, rgb(206, 217, 224)) !important;
 }
