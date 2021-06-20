@@ -1005,6 +1005,11 @@ input[type="search"] {
 
 .kanban-card {
   background-color: var(--bc-kanban__card, white);
+  border-top: var(--bt-kanban__card, inherit);
+  border-right: var(--br-kanban__card, inherit);
+  border-bottom: var(--bb-kanban__card, inherit);
+  border-left: var(--bl-kanban__card, inherit);
+  border-radius: var(--bd-kanban__card, inherit);
 }
 
 .kanban-column {
