@@ -575,6 +575,26 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color: var(--co-dialog__upload-input, rgba(92, 112, 128, 0.6));
 }
 
+.bp3-file-upload-input::after {
+  background-color: var(--bc-dialog__upload-button, #f5f8fa);
+  border-top: var(--bt-dialog__upload-button, inherit);
+  border-right: var(--br-dialog__upload-button, inherit);
+  border-bottom: var(--bb-dialog__upload-button, inherit);
+  border-left: var(--bl-dialog__upload-button, inherit);
+  border-radius: var(--bd-dialog__upload-button, inherit);
+  box-shadow: var(
+    --sd-dialog__upload-button,
+    inset 0 0 0 1px rgba(16, 22, 26, 0.2),
+    inset 0 -1px 0 rgba(16, 22, 26, 0.1)
+  );
+  -webkit-box-shadow: var(
+    --sd-dialog__upload-button,
+    inset 0 0 0 1px rgba(16, 22, 26, 0.2),
+    inset 0 -1px 0 rgba(16, 22, 26, 0.1)
+  );
+  color: var(--co-dialog__upload-button, #182026);
+}
+
 div,
 textarea {
   font-family: var(--ff-div, "Inter", sans-serif);

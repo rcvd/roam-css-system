@@ -1088,6 +1088,29 @@
 }
 
 :root {
+  --bc-dialog__upload-button: var(--cl-gray-50);
+  --bt-dialog__upload-button: 1px solid var(--cl-gray-100);
+  --br-dialog__upload-button: 1px solid var(--cl-gray-100);
+  --bb-dialog__upload-button: 1px solid var(--cl-gray-100);
+  --bl-dialog__upload-button: 1px solid var(--cl-gray-100);
+  --bd-dialog__upload-button: 3px;
+  --sd-dialog__upload-button: none;
+  --co-dialog__upload-button: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-dialog__upload-button: var(--cl-gray-800);
+    --bt-dialog__upload-button: 1px solid var(--cl-gray-700);
+    --br-dialog__upload-button: 1px solid var(--cl-gray-700);
+    --bb-dialog__upload-button: 1px solid var(--cl-gray-700);
+    --bl-dialog__upload-button: 1px solid var(--cl-gray-700);
+    --sd-dialog__upload-button: none;
+    --co-dialog__upload-button: var(--cl-gray-100);
+  }
+}
+
+:root {
   --ff-div: "iA Writer Quattro S";
   --fs-div: 1em;
 }
