@@ -1609,3 +1609,8 @@ span[data-tag="tags"] {
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
 }
+
+#rm-mobile-bar .rm-mobile-button:hover .bp3-icon,
+#rm-mobile-bar .rm-mobile-button:hover i {
+  color: var(--co-mobile-bar__icon--hover, inherit) !important;
+}
