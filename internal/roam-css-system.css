@@ -95,6 +95,7 @@ a {
 }
 
 .rm-all-pages .table .rm-pages-row {
+  border-bottom: var(--bb-allpages__row, 1px solid #e1e8ed);
   color: var(--co-allpages__row, #8a9ba8);
 }
 

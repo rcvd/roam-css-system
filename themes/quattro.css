@@ -180,11 +180,13 @@
 }
 
 :root {
+  --bb-allpages__row: 1px solid var(--cl-gray-100);
   --co-allpages__row: var(--cl-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-allpages__row: 1px solid var(--cl-gray-700);
     --co-allpages__row: var(--cl-gray-600);
   }
 }
@@ -198,7 +200,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__row-header: var(--cl-gray-700);
+    --bc-allpages__row-header: var(--cl-gray-800);
     --co-allpages__row-header: var(--cl-gray-100);
   }
 }
