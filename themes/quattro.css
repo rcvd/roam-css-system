@@ -304,7 +304,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-block-highlight--blue: var(--cl-blue-700);
+    --bc-block-highlight--blue: var(--cl-gray-700);
   }
 }
 
@@ -324,7 +324,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-block-highlight--yellow: var(--cl-yellow-700);
+    --bc-block-highlight--yellow: var(--cl-gray-700);
   }
 }
 
