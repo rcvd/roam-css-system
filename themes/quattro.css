@@ -2048,7 +2048,6 @@
   --co-logbutton: var(--cl-gray-700);
   --fs-logbutton: 1em;
   --fw-logbutton: normal;
-  --tt-logbutton: lowercase;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2881,7 +2880,6 @@
   --fs-starred__page: 1em;
   --ft-starred__page: ;
   --fw-starred__page: ;
-  --tt-starred__page: lowercase;
 }
 
 @media (prefers-color-scheme: dark) {
