@@ -2837,3 +2837,13 @@
     --co-pomodoro: var(--cl-gray-50);
   }
 }
+
+:root {
+  --bc-dropbar: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-dropbar: var(--cl-red-500);
+  }
+}

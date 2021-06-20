@@ -1563,3 +1563,15 @@ span[data-tag="tags"] {
   border-radius: var(--bd-pomodoro, inherit);
   color: var(--co-pomodoro, inherit) !important;
 }
+
+.roam-sidebar-container
+  .roam-sidebar-content
+  .starred-pages-wrapper
+  .starred-pages
+  .rm-dnd-separator
+  .rm-dnd-drop-bar,
+.sidebar-content .rm-dnd-separator .rm-dnd-drop-bar,
+.dnd-separator .dnd-drop-bar,
+.kanban-column .rm-dnd-separator .rm-dnd-drop-area .rm-dnd-drop-bar {
+  background-color: var(--bc-dropbar, #5c7080) !important;
+}
