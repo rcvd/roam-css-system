@@ -59,7 +59,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill: var(--cl-gray-700);
+    --bc-allpages__clickable-pill: var(--cl-gray-400);
     --bt-allpages__clickable-pill: none;
     --br-allpages__clickable-pill: none;
     --bb-allpages__clickable-pill: none;
@@ -81,7 +81,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-1: var(--cl-gray-600);
+    --bc-allpages__clickable-pill-1: var(--cl-gray-500);
     --bt-allpages__clickable-pill-1: none;
     --br-allpages__clickable-pill-1: none;
     --bb-allpages__clickable-pill-1: none;
@@ -103,7 +103,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-2: var(--cl-gray-500);
+    --bc-allpages__clickable-pill-2: var(--cl-gray-600);
     --bt-allpages__clickable-pill-2: none;
     --br-allpages__clickable-pill-2: none;
     --bb-allpages__clickable-pill-2: none;
@@ -125,7 +125,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-3: var(--cl-gray-400);
+    --bc-allpages__clickable-pill-3: var(--cl-gray-700);
     --bt-allpages__clickable-pill-3: none;
     --br-allpages__clickable-pill-3: none;
     --bb-allpages__clickable-pill-3: none;
@@ -198,7 +198,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__row-header: var(--cl-gray-900);
+    --bc-allpages__row-header: var(--cl-gray-700);
     --co-allpages__row-header: var(--cl-gray-100);
   }
 }
@@ -355,7 +355,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-bullet__ghost: var(--cl-gray-700);
+    --bc-bullet__ghost: var(--cl-gray-600);
   }
 }
 
@@ -365,7 +365,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-bullet__inner: var(--cl-gray-700);
+    --bc-bullet__inner: var(--cl-gray-600);
   }
 }
 
@@ -1029,6 +1029,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+  }
+}
+
+:root {
+  --bc-dropbar: var(--cl-red-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-dropbar: var(--cl-red-500);
   }
 }
 
@@ -1799,13 +1809,54 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-input: var(--cl-black);
+    --bc-input: var(--cl-gray-900);
     --bt-input: 1px solid var(--cl-gray-700);
     --br-input: 1px solid var(--cl-gray-700);
     --bb-input: 1px solid var(--cl-gray-700);
     --bl-input: 1px solid var(--cl-gray-700);
     --sd-input: ;
     --co-input: var(--cl-gray-100);
+  }
+}
+
+:root {
+  --bc-install-button--hover: var(--cl-blue-50);
+  --bt-install-button--hover: 1px solid var(--cl-blue-100);
+  --br-install-button--hover: 1px solid var(--cl-blue-100);
+  --bb-install-button--hover: 1px solid var(--cl-blue-100);
+  --bl-install-button--hover: 1px solid var(--cl-blue-100);
+  --co-install-button--hover: var(--cl-blue-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-install-button--hover: var(--cl-blue-900);
+    --bt-install-button--hover: 1px solid var(--cl-blue-800);
+    --br-install-button--hover: 1px solid var(--cl-blue-800);
+    --bb-install-button--hover: 1px solid var(--cl-blue-800);
+    --bl-install-button--hover: 1px solid var(--cl-blue-800);
+    --co-install-button--hover: var(--cl-blue-100);
+  }
+}
+
+:root {
+  --bc-install-button: var(--cl-gray-50);
+  --bt-install-button: 1px solid var(--cl-gray-100);
+  --br-install-button: 1px solid var(--cl-gray-100);
+  --bb-install-button: 1px solid var(--cl-gray-100);
+  --bl-install-button: 1px solid var(--cl-gray-100);
+  --bd-install-button: 0px;
+  --co-install-button: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-install-button: var(--cl-gray-900);
+    --bt-install-button: 1px solid var(--cl-gray-800);
+    --br-install-button: 1px solid var(--cl-gray-800);
+    --bb-install-button: 1px solid var(--cl-gray-800);
+    --bl-install-button: 1px solid var(--cl-gray-800);
+    --co-install-button: var(--cl-gray-100);
   }
 }
 
@@ -1821,10 +1872,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-kanban__card: var(--cl-black);
-    --bt-kanban__card: 1px solid var(--cl-gray-800);
-    --br-kanban__card: 1px solid var(--cl-gray-800);
-    --bb-kanban__card: 1px solid var(--cl-gray-800);
-    --bl-kanban__card: 1px solid var(--cl-gray-800);
+    --bt-kanban__card: 1px solid var(--cl-gray-700);
+    --br-kanban__card: 1px solid var(--cl-gray-700);
+    --bb-kanban__card: 1px solid var(--cl-gray-700);
+    --bl-kanban__card: 1px solid var(--cl-gray-700);
   }
 }
 
@@ -2205,6 +2256,69 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-page__title: var(--cl-gray-50);
+  }
+}
+
+:root {
+  --bc-pomodoro--break: var(--cl-green-50);
+  --bt-pomodoro--break: 1px solid var(--cl-green-100);
+  --br-pomodoro--break: 1px solid var(--cl-green-100);
+  --bb-pomodoro--break: 1px solid var(--cl-green-100);
+  --bl-pomodoro--break: 1px solid var(--cl-green-100);
+  --bd-pomodoro--break: 0px;
+  --co-pomodoro--break: var(--cl-green-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-pomodoro--break: var(--cl-green-800);
+    --bt-pomodoro--break: 1px solid var(--cl-green-900);
+    --br-pomodoro--break: 1px solid var(--cl-green-900);
+    --bb-pomodoro--break: 1px solid var(--cl-green-900);
+    --bl-pomodoro--break: 1px solid var(--cl-green-900);
+    --co-pomodoro--break: var(--cl-green-50);
+  }
+}
+
+:root {
+  --bc-pomodoro--running: var(--cl-red-50);
+  --bt-pomodoro--running: 1px solid var(--cl-red-100);
+  --br-pomodoro--running: 1px solid var(--cl-red-100);
+  --bb-pomodoro--running: 1px solid var(--cl-red-100);
+  --bl-pomodoro--running: 1px solid var(--cl-red-100);
+  --bd-pomodoro--running: 0px;
+  --co-pomodoro--running: var(--cl-red-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-pomodoro--running: var(--cl-red-800);
+    --bt-pomodoro--running: 1px solid var(--cl-red-900);
+    --br-pomodoro--running: 1px solid var(--cl-red-900);
+    --bb-pomodoro--running: 1px solid var(--cl-red-900);
+    --bl-pomodoro--running: 1px solid var(--cl-red-900);
+    --co-pomodoro--running: var(--cl-red-50);
+  }
+}
+
+:root {
+  --bc-pomodoro: var(--cl-gray-50);
+  --bt-pomodoro: 1px solid var(--cl-gray-100);
+  --br-pomodoro: 1px solid var(--cl-gray-100);
+  --bb-pomodoro: 1px solid var(--cl-gray-100);
+  --bl-pomodoro: 1px solid var(--cl-gray-100);
+  --bd-pomodoro: 0px;
+  --co-pomodoro: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-pomodoro: var(--cl-gray-800);
+    --bt-pomodoro: 1px solid var(--cl-gray-900);
+    --br-pomodoro: 1px solid var(--cl-gray-900);
+    --bb-pomodoro: 1px solid var(--cl-gray-900);
+    --bl-pomodoro: 1px solid var(--cl-gray-900);
+    --co-pomodoro: var(--cl-gray-50);
   }
 }
 
@@ -2772,119 +2886,5 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --co-zoom-item: var(--cl-gray-500);
-  }
-}
-
-:root {
-  --bc-pomodoro--running: var(--cl-red-50);
-  --bt-pomodoro--running: 1px solid var(--cl-red-100);
-  --br-pomodoro--running: 1px solid var(--cl-red-100);
-  --bb-pomodoro--running: 1px solid var(--cl-red-100);
-  --bl-pomodoro--running: 1px solid var(--cl-red-100);
-  --bd-pomodoro--running: 0px;
-  --co-pomodoro--running: var(--cl-red-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-pomodoro--running: var(--cl-red-800);
-    --bt-pomodoro--running: 1px solid var(--cl-red-900);
-    --br-pomodoro--running: 1px solid var(--cl-red-900);
-    --bb-pomodoro--running: 1px solid var(--cl-red-900);
-    --bl-pomodoro--running: 1px solid var(--cl-red-900);
-    --co-pomodoro--running: var(--cl-red-50);
-  }
-}
-
-:root {
-  --bc-pomodoro--break: var(--cl-green-50);
-  --bt-pomodoro--break: 1px solid var(--cl-green-100);
-  --br-pomodoro--break: 1px solid var(--cl-green-100);
-  --bb-pomodoro--break: 1px solid var(--cl-green-100);
-  --bl-pomodoro--break: 1px solid var(--cl-green-100);
-  --bd-pomodoro--break: 0px;
-  --co-pomodoro--break: var(--cl-green-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-pomodoro--break: var(--cl-green-800);
-    --bt-pomodoro--break: 1px solid var(--cl-green-900);
-    --br-pomodoro--break: 1px solid var(--cl-green-900);
-    --bb-pomodoro--break: 1px solid var(--cl-green-900);
-    --bl-pomodoro--break: 1px solid var(--cl-green-900);
-    --co-pomodoro--break: var(--cl-green-50);
-  }
-}
-
-:root {
-  --bc-pomodoro: var(--cl-gray-50);
-  --bt-pomodoro: 1px solid var(--cl-gray-100);
-  --br-pomodoro: 1px solid var(--cl-gray-100);
-  --bb-pomodoro: 1px solid var(--cl-gray-100);
-  --bl-pomodoro: 1px solid var(--cl-gray-100);
-  --bd-pomodoro: 0px;
-  --co-pomodoro: var(--cl-gray-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-pomodoro: var(--cl-gray-800);
-    --bt-pomodoro: 1px solid var(--cl-gray-900);
-    --br-pomodoro: 1px solid var(--cl-gray-900);
-    --bb-pomodoro: 1px solid var(--cl-gray-900);
-    --bl-pomodoro: 1px solid var(--cl-gray-900);
-    --co-pomodoro: var(--cl-gray-50);
-  }
-}
-
-:root {
-  --bc-dropbar: var(--cl-red-500);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-dropbar: var(--cl-red-500);
-  }
-}
-
-:root {
-  --bc-install-button: var(--cl-gray-50);
-  --bt-install-button: 1px solid var(--cl-gray-100);
-  --br-install-button: 1px solid var(--cl-gray-100);
-  --bb-install-button: 1px solid var(--cl-gray-100);
-  --bl-install-button: 1px solid var(--cl-gray-100);
-  --bd-install-button: 0px;
-  --co-install-button: var(--cl-gray-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-install-button: var(--cl-gray-900);
-    --bt-install-button: 1px solid var(--cl-gray-800);
-    --br-install-button: 1px solid var(--cl-gray-800);
-    --bb-install-button: 1px solid var(--cl-gray-800);
-    --bl-install-button: 1px solid var(--cl-gray-800);
-    --co-install-button: var(--cl-gray-100);
-  }
-}
-
-:root {
-  --bc-install-button--hover: var(--cl-blue-50);
-  --bt-install-button--hover: 1px solid var(--cl-blue-100);
-  --br-install-button--hover: 1px solid var(--cl-blue-100);
-  --bb-install-button--hover: 1px solid var(--cl-blue-100);
-  --bl-install-button--hover: 1px solid var(--cl-blue-100);
-  --co-install-button--hover: var(--cl-blue-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-install-button--hover: var(--cl-blue-900);
-    --bt-install-button--hover: 1px solid var(--cl-blue-800);
-    --br-install-button--hover: 1px solid var(--cl-blue-800);
-    --bb-install-button--hover: 1px solid var(--cl-blue-800);
-    --bl-install-button--hover: 1px solid var(--cl-blue-800);
-    --co-install-button--hover: var(--cl-blue-100);
   }
 }
