@@ -1575,3 +1575,22 @@ span[data-tag="tags"] {
 .kanban-column .rm-dnd-separator .rm-dnd-drop-area .rm-dnd-drop-bar {
   background-color: var(--bc-dropbar, #5c7080) !important;
 }
+
+.rm-install-menu-item {
+  background-color: var(--bc-install-button, inherit);
+  border-top: var(--bt-install-button, inherit);
+  border-right: var(--br-install-button, inherit);
+  border-bottom: var(--bb-install-button, inherit);
+  border-left: var(--bl-install-button, inherit);
+  border-radius: var(--bd-install-button, inherit);
+  color: var(--co-install-button, inherit);
+}
+
+.rm-install-menu-item:hover {
+  background-color: var(--bc-install-button--hover, inherit);
+  border-top: var(--bt-install-button--hover, inherit);
+  border-right: var(--br-install-button--hover, inherit);
+  border-bottom: var(--bb-install-button--hover, inherit);
+  border-left: var(--bl-install-button--hover, inherit);
+  color: var(--co-install-button--hover, inherit);
+}

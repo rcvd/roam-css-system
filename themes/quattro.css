@@ -2847,3 +2847,44 @@
     --bc-dropbar: var(--cl-red-500);
   }
 }
+
+:root {
+  --bc-install-button: var(--cl-gray-50);
+  --bt-install-button: 1px solid var(--cl-gray-100);
+  --br-install-button: 1px solid var(--cl-gray-100);
+  --bb-install-button: 1px solid var(--cl-gray-100);
+  --bl-install-button: 1px solid var(--cl-gray-100);
+  --bd-install-button: 0px;
+  --co-install-button: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-install-button: var(--cl-gray-900);
+    --bt-install-button: 1px solid var(--cl-gray-800);
+    --br-install-button: 1px solid var(--cl-gray-800);
+    --bb-install-button: 1px solid var(--cl-gray-800);
+    --bl-install-button: 1px solid var(--cl-gray-800);
+    --co-install-button: var(--cl-gray-100);
+  }
+}
+
+:root {
+  --bc-install-button--hover: var(--cl-blue-50);
+  --bt-install-button--hover: 1px solid var(--cl-blue-100);
+  --br-install-button--hover: 1px solid var(--cl-blue-100);
+  --bb-install-button--hover: 1px solid var(--cl-blue-100);
+  --bl-install-button--hover: 1px solid var(--cl-blue-100);
+  --co-install-button--hover: var(--cl-blue-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-install-button--hover: var(--cl-blue-900);
+    --bt-install-button--hover: 1px solid var(--cl-blue-800);
+    --br-install-button--hover: 1px solid var(--cl-blue-800);
+    --bb-install-button--hover: 1px solid var(--cl-blue-800);
+    --bl-install-button--hover: 1px solid var(--cl-blue-800);
+    --co-install-button--hover: var(--cl-blue-100);
+  }
+}
