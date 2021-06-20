@@ -1442,26 +1442,29 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
 }
 
 .sidebar-content .rm-bullet.rm-bullet--closed .rm-bullet__inner {
-  border-top: var(--bt-rightsidebar__bullet-closed, 4px solid #bfccd6);
-  border-right: var(--br-rightsidebar__bullet-closed, 4px solid #bfccd6);
-  border-bottom: var(--bb-rightsidebar__bullet-closed, 4px solid #bfccd6);
-  border-left: var(--bl-rightsidebar__bullet-closed, 4px solid #bfccd6);
+  border-top: var(--bt-right-sidebar__bullet-closed, 4px solid #bfccd6);
+  border-right: var(--br-right-sidebar__bullet-closed, 4px solid #bfccd6);
+  border-bottom: var(--bb-right-sidebar__bullet-closed, 4px solid #bfccd6);
+  border-left: var(--bl-right-sidebar__bullet-closed, 4px solid #bfccd6);
 }
 
 #right-sidebar {
-  background-color: var(--bc-rightsidebar__container, rgba(92, 112, 128, 0.05));
-  border-left: var(--bl-rightsidebar__container, inherit);
+  background-color: var(
+    --bc-right-sidebar__container,
+    rgba(92, 112, 128, 0.05)
+  );
+  border-left: var(--bl-right-sidebar__container, inherit);
 }
 
 .roam-body .roam-app .sidebar-content h1 {
-  color: var(--co-rightsidebar__h1, inherit);
-  font-size: var(--fs-rightsidebar__h1, inherit);
-  font-weight: var(--fw-rightsidebar__h1, inherit);
+  color: var(--co-right-sidebar__h1, inherit);
+  font-size: var(--fs-right-sidebar__h1, inherit);
+  font-weight: var(--fw-right-sidebar__h1, inherit);
 }
 
 .rm-sidebar-window {
   border-bottom: var(
-    --bb-rightsidebar__window,
+    --bb-right-sidebar__window,
     1px solid rgb(138, 155, 168)
   ) !important;
 }
@@ -1504,8 +1507,8 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
 }
 
 .roam-body .roam-app .roam-sidebar-container {
-  background-color: var(--bc-sidebar__container, #182026);
-  border-right: var(--br-sidebar__container, inherit);
+  background-color: var(--bc-left-sidebar__container, #182026);
+  border-right: var(--br-left-sidebar__container, inherit);
 }
 
 .roam-body
@@ -1513,7 +1516,7 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   .roam-sidebar-container
   .roam-sidebar-content
   .rm-db-title:hover {
-  color: var(--co-sidebar__db-title--hover, inherit);
+  color: var(--co-left-sidebar__db-title--hover, inherit);
 }
 
 .roam-body
@@ -1521,33 +1524,33 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   .roam-sidebar-container
   .roam-sidebar-content
   .rm-db-title {
-  color: var(--co-sidebar__db-title, #ced9e0);
-  font-weight: var(--fw-sidebar__db-title, 600);
+  color: var(--co-left-sidebar__db-title, #ced9e0);
+  font-weight: var(--fw-left-sidebar__db-title, 600);
 }
 
 .roam-sidebar-container
   .roam-sidebar-content
   .starred-pages-wrapper
   > div[style*="background-color: rgb(57, 75, 89);"] {
-  background-color: var(--bc-sidebar__hr, rgb(57, 75, 89)) !important;
+  background-color: var(--bc-left-sidebar__hr, rgb(57, 75, 89)) !important;
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
-  color: var(--co-sidebar__icon, hsl(204, 20%, 45%));
-  font-size: var(--fs-sidebar__icon, 16px);
+  color: var(--co-left-sidebar__icon, hsl(204, 20%, 45%));
+  font-size: var(--fs-left-sidebar__icon, 16px);
 }
 
 #roam-sidebar-logo:hover {
-  background-color: var(--bc-sidebar__logo--hover, #10161a);
-  text-decoration: var(--td-sidebar__logo--hover, inherit);
+  background-color: var(--bc-left-sidebar__logo--hover, #10161a);
+  text-decoration: var(--td-left-sidebar__logo--hover, inherit);
 }
 
 #roam-sidebar-logo {
-  text-decoration: var(--td-sidebar__logo, inherit);
+  text-decoration: var(--td-left-sidebar__logo, inherit);
 }
 
 #roam-sidebar-logo > div > span {
-  color: var(--co-sidebar__logo-text, inherit) !important;
+  color: var(--co-left-sidebar__logo-text, inherit) !important;
 }
 
 .roam-body
@@ -1555,7 +1558,7 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   .roam-sidebar-container
   .roam-sidebar-content
   .top-row:hover {
-  background-color: var(--bc-sidebar__toprow--hover, #10161a);
+  background-color: var(--bc-left-sidebar__toprow--hover, #10161a);
 }
 
 span[style*="background-color: yellow"] {
