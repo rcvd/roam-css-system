@@ -540,27 +540,7 @@
   --bl-code: 1px solid var(--cl-gray-100);
   --bd-code: 2px;
   --co-code: var(--cl-gray-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-code: var(--cl-gray-700);
-    --bt-code: 1px solid var(--cl-black);
-    --br-code: 1px solid var(--cl-black);
-    --bb-code: 1px solid var(--cl-black);
-    --bl-code: 1px solid var(--cl-black);
-    --co-code: var(--cl-gray-100);
-  }
-}
-
-:root {
-  --bc-code: var(--cl-gray-50);
-  --bt-code: 1px solid var(--cl-gray-100);
-  --br-code: 1px solid var(--cl-gray-100);
-  --bb-code: 1px solid var(--cl-gray-100);
-  --bl-code: 1px solid var(--cl-gray-100);
-  --bd-code: 2px;
-  --co-code: var(--cl-gray-900);
+  --ff-code: ;
 }
 
 @media (prefers-color-scheme: dark) {

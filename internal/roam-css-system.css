@@ -289,16 +289,6 @@ body {
   border-radius: var(--bd-checkmark, inherit);
 }
 
-.code {
-  background-color: var(--bc-code, #eee);
-  border-top: var(--bt-code, 1px solid #ddd);
-  border-right: var(--br-code, 1px solid #ddd);
-  border-bottom: var(--bb-code, 1px solid #ddd);
-  border-left: var(--bl-code, 1px solid #ddd);
-  border-radius: var(--bd-code, 4px);
-  color: var(--co-code, #333);
-}
-
 code {
   background-color: var(--bc-code, #eee);
   border-top: var(--bt-code, 1px solid #ddd);
@@ -307,6 +297,7 @@ code {
   border-left: var(--bl-code, 1px solid #ddd);
   border-radius: var(--bd-code, 4px);
   color: var(--co-code, #333);
+  font-family: var(--ff-code, "iA Writer Mono S");
 }
 
 .cm-s-default .cm-atom {
