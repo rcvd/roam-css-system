@@ -1233,7 +1233,8 @@ input[type="search"] {
   background-color: var(--bc-mobile-bar, white);
 }
 
-#rm-mobile-bar .rm-mobile-button .bp3-icon {
+#rm-mobile-bar .rm-mobile-button .bp3-icon,
+#rm-mobile-bar .rm-mobile-button {
   color: var(--co-mobile-bar__icon, #293742) !important;
 }
 
