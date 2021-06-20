@@ -161,7 +161,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__input: var(--cl-black);
+    --bc-allpages__input: var(--cl-gray-900);
     --bt-allpages__input: 1px solid var(--cl-gray-700);
     --br-allpages__input: 1px solid var(--cl-gray-700);
     --bb-allpages__input: 1px solid var(--cl-gray-700);
