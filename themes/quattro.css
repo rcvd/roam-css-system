@@ -135,11 +135,13 @@
 }
 
 :root {
+  --bc-allpages__clickable-pill-empty: transparent;
   --co-allpages__clickable-pill-empty: var(--cl-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bc-allpages__clickable-pill-empty: transparent;
     --co-allpages__clickable-pill-empty: var(--cl-gray-600);
   }
 }

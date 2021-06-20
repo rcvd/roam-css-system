@@ -73,6 +73,7 @@ a {
 }
 
 .rm-clickable-pill.empty-pill {
+  background-color: var(--bc-allpages__clickable-pill-empty, inherit);
   color: var(--co-allpages__clickable-pill-empty, #0e5a8a);
 }
 
