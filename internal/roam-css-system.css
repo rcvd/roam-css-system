@@ -133,7 +133,8 @@ a {
   font-weight: var(--fw-app__h1, inherit);
 }
 
-.roam-body .roam-app {
+.roam-body .roam-app,
+html {
   background-color: var(--bc-app, inherit);
   color: var(--co-app, #202b33);
 }
