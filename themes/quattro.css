@@ -554,6 +554,27 @@
 }
 
 :root {
+  --bc-code: var(--cl-gray-50);
+  --bt-code: 1px solid var(--cl-gray-100);
+  --br-code: 1px solid var(--cl-gray-100);
+  --bb-code: 1px solid var(--cl-gray-100);
+  --bl-code: 1px solid var(--cl-gray-100);
+  --bd-code: 2px;
+  --co-code: var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-code: var(--cl-gray-800);
+    --bt-code: 1px solid var(--cl-gray-700);
+    --br-code: 1px solid var(--cl-gray-700);
+    --bb-code: 1px solid var(--cl-gray-700);
+    --bl-code: 1px solid var(--cl-gray-700);
+    --co-code: ;
+  }
+}
+
+:root {
   --co-codeblock__atom: var(--cl-indigo-700);
 }
 
