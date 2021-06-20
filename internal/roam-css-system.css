@@ -1234,7 +1234,7 @@ input[type="search"] {
 }
 
 #rm-mobile-bar .rm-mobile-button .bp3-icon {
-  color: var(--co-mobile-bar__icon, #293742);
+  color: var(--co-mobile-bar__icon, #293742) !important;
 }
 
 .rm-multibar:hover {
