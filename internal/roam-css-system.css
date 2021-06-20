@@ -1234,7 +1234,8 @@ input[type="search"] {
 }
 
 #rm-mobile-bar .rm-mobile-button .bp3-icon,
-#rm-mobile-bar .rm-mobile-button i {
+#rm-mobile-bar .rm-mobile-button i,
+#rm-mobile-bar .rm-mobile-button {
   color: var(--co-mobile-bar__icon, #293742) !important;
 }
 
@@ -1608,9 +1609,4 @@ span[data-tag="tags"] {
 .rm-zoom .rm-zoom-item,
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-item, #5c7080);
-}
-
-#rm-mobile-bar .rm-mobile-button:hover .bp3-icon,
-#rm-mobile-bar .rm-mobile-button:hover i {
-  color: var(--co-mobile-bar__icon--hover, inherit) !important;
 }

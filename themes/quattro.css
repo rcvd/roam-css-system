@@ -2922,13 +2922,3 @@
     --co-zoom-item: var(--cl-gray-500);
   }
 }
-
-:root {
-  --co-mobile-bar__icon--hover: var(--cl-red-500);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-mobile-bar__icon--hover: var(--cl-red-500);
-  }
-}
