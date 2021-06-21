@@ -1,7 +1,7 @@
-@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
+@import url('https://rcvd.github.io/roam-css-system/fonts/quattro.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes.css');
 
 :root {
   --co-a--hover: var(--cl-red-500);
