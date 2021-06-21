@@ -766,6 +766,19 @@ textarea {
   border-radius: var(--bd-embed, inherit);
 }
 
+.rm-embed--page {
+  background-color: var(--bc-embed-page, #ebf1f5);
+  border-top: var(--bt-embed-page, inherit);
+  border-right: var(--br-embed-page, inherit);
+  border-bottom: var(--bb-embed-page, inherit);
+  border-left: var(--bl-embed-page, inherit);
+  border-radius: var(--bd-embed-page, inherit);
+}
+
+.rm-embed--page .rm-page__title {
+  font-size: var(--fs-embed-page__title, inherit);
+}
+
 .emoji-mart-category-label span {
   background-color: var(
     --bc-emoji-mart__category-label,

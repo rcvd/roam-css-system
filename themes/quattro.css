@@ -1328,6 +1328,34 @@
 }
 
 :root {
+  --bc-embed-page: var(--cl-gray-50);
+  --bt-embed-page: 1px solid var(--cl-gray-100);
+  --br-embed-page: 1px solid var(--cl-gray-100);
+  --bb-embed-page: 1px solid var(--cl-gray-100);
+  --bl-embed-page: 1px solid var(--cl-gray-100);
+  --bd-embed-page: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-embed-page: var(--cl-gray-800);
+    --bt-embed-page: 1px solid var(--cl-gray-700);
+    --br-embed-page: 1px solid var(--cl-gray-700);
+    --bb-embed-page: 1px solid var(--cl-gray-700);
+    --bl-embed-page: 1px solid var(--cl-gray-700);
+  }
+}
+
+:root {
+  --fs-embed-page__title: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+:root {
   --bc-emoji-mart__category-label: var(--cl-gray-50);
 }
 
