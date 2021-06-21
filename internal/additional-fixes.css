@@ -72,3 +72,7 @@ hr {
   height: unset;
   width: unset;
 }
+
+.rm-embed--page > .rm-embed-margin-action {
+  left: -6px;
+}
