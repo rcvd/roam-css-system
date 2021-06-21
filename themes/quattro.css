@@ -2960,11 +2960,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-roam42__jj-menu: var(--cl-gray-600);
-    --bt-roam42__jj-menu: 1px solid var(--cl-gray-500);
-    --br-roam42__jj-menu: 1px solid var(--cl-gray-500);
-    --bb-roam42__jj-menu: 1px solid var(--cl-gray-500);
-    --bl-roam42__jj-menu: 1px solid var(--cl-gray-500);
+    --bc-roam42__jj-menu: var(--cl-black);
+    --bt-roam42__jj-menu: 1px solid var(--cl-gray-800);
+    --br-roam42__jj-menu: 1px solid var(--cl-gray-800);
+    --bb-roam42__jj-menu: 1px solid var(--cl-gray-800);
+    --bl-roam42__jj-menu: 1px solid var(--cl-gray-800);
   }
 }
 

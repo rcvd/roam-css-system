@@ -85,3 +85,8 @@ hr {
 .tribute-container ul {
   padding: 4px;
 }
+
+.tribute-item img {
+  filter: invert(99%) sepia(15%) saturate(6%) hue-rotate(229deg)
+    brightness(113%) contrast(87%);
+}
