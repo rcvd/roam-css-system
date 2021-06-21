@@ -74,5 +74,10 @@ hr {
 }
 
 .rm-embed--page > .rm-embed-margin-action {
-  left: -6px;
+  left: -14px;
+  width: 5px;
+}
+
+.rm-embed--page {
+  margin-bottom: 0px;
 }
