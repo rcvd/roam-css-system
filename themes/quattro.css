@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/quattro.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes.css');
+@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
 
 :root {
   --co-a--hover: var(--cl-red-500);
@@ -2946,6 +2946,63 @@
     --bb-roam-js__container--inactive: 1px solid var(--cl-gray-700);
     --bl-roam-js__container--inactive: 1px solid var(--cl-gray-700);
     --co-roam-js__container--inactive: var(--cl-gray-100);
+  }
+}
+
+:root {
+  --bc-roam42__jj-menu: var(--cl-white);
+  --bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
+  --br-roam42__jj-menu: 1px solid var(--cl-gray-100);
+  --bb-roam42__jj-menu: 1px solid var(--cl-gray-100);
+  --bl-roam42__jj-menu: 1px solid var(--cl-gray-100);
+  --bd-roam42__jj-menu: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam42__jj-menu: var(--cl-gray-600);
+    --bt-roam42__jj-menu: 1px solid var(--cl-gray-500);
+    --br-roam42__jj-menu: 1px solid var(--cl-gray-500);
+    --bb-roam42__jj-menu: 1px solid var(--cl-gray-500);
+    --bl-roam42__jj-menu: 1px solid var(--cl-gray-500);
+  }
+}
+
+:root {
+  --bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);
+  --bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+  --br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+  --bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+  --bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+  --bd-roam42__jj-menu-item--highlight: ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam42__jj-menu-item--highlight: var(--cl-blue-900);
+    --bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
+    --br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
+    --bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
+    --bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
+  }
+}
+
+:root {
+  --bc-roam42__jj-menu-item: ;
+  --bt-roam42__jj-menu-item: 1px solid transparent;
+  --br-roam42__jj-menu-item: 1px solid transparent;
+  --bb-roam42__jj-menu-item: 1px solid transparent;
+  --bl-roam42__jj-menu-item: 1px solid transparent;
+  --bd-roam42__jj-menu-item: ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-roam42__jj-menu-item: ;
+    --bt-roam42__jj-menu-item: 1px solid transparent;
+    --br-roam42__jj-menu-item: 1px solid transparent;
+    --bb-roam42__jj-menu-item: 1px solid transparent;
+    --bl-roam42__jj-menu-item: 1px solid transparent;
   }
 }
 

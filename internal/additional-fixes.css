@@ -81,3 +81,7 @@ hr {
 .rm-embed--page {
   margin-bottom: 0px;
 }
+
+.tribute-container ul {
+  padding: 4px;
+}

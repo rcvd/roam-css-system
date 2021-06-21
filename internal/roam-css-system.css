@@ -1633,6 +1633,33 @@ div > strong[style*="color: rgb(206, 217, 224);"] {
   color: var(--co-roam-js__container--inactive, #721c24);
 }
 
+.tribute-container ul {
+  background-color: var(--bc-roam42__jj-menu, #efefef);
+  border-top: var(--bt-roam42__jj-menu, inherit);
+  border-right: var(--br-roam42__jj-menu, inherit);
+  border-bottom: var(--bb-roam42__jj-menu, inherit);
+  border-left: var(--bl-roam42__jj-menu, inherit);
+  border-radius: var(--bd-roam42__jj-menu, inherit);
+}
+
+.tribute-container li.highlight {
+  background-color: var(--bc-roam42__jj-menu-item--highlight, #ddd);
+  border-top: var(--bt-roam42__jj-menu-item--highlight, inherit);
+  border-right: var(--br-roam42__jj-menu-item--highlight, inherit);
+  border-bottom: var(--bb-roam42__jj-menu-item--highlight, inherit);
+  border-left: var(--bl-roam42__jj-menu-item--highlight, inherit);
+  border-radius: var(--bd-roam42__jj-menu-item--highlight, inherit);
+}
+
+.tribute-container li {
+  background-color: var(--bc-roam42__jj-menu-item, inherit);
+  border-top: var(--bt-roam42__jj-menu-item, inherit);
+  border-right: var(--br-roam42__jj-menu-item, inherit);
+  border-bottom: var(--bb-roam42__jj-menu-item, inherit);
+  border-left: var(--bl-roam42__jj-menu-item, inherit);
+  border-radius: var(--bd-roam42__jj-menu-item, inherit);
+}
+
 span[style*="background-color: yellow"] {
   background-color: var(--bc-span--highlighted, yellow) !important;
 }
