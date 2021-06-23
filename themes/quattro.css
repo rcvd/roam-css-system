@@ -3,6 +3,7 @@
 @import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
 @import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
 
+
 :root {
     --co-a--hover: var(--cl-red-500);
     --td-a--hover: underline;
@@ -114,6 +115,7 @@
 
 :root {
     --bc-allpages__clickable-pill-3: var(--cl-gray-600);
+    ;
     --bt-allpages__clickable-pill-3: none;
     --br-allpages__clickable-pill-3: none;
     --bb-allpages__clickable-pill-3: none;
@@ -341,12 +343,12 @@
 }
 
 :root {
-    --bb-block-ref: 0.5px dotted var(--cl-gray-300);
+    --bb-block-ref: .5px dotted var(--cl-gray-300);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bb-block-ref: 0.5px dotted var(--cl-gray-700);
+        --bb-block-ref: .5px dotted var(--cl-gray-700);
     }
 }
 
@@ -542,7 +544,7 @@
     --bl-code: 1px solid var(--cl-gray-100);
     --bd-code: 2px;
     --co-code: var(--cl-gray-900);
-    --ff-code: "iA Writer Mono S";
+    --ff-code: 'iA Writer Mono S';
     --fs-code: 1em;
 }
 
@@ -598,7 +600,7 @@
 }
 
 :root {
-    --ff-codeblock__code: "iA Writer Mono S";
+    --ff-codeblock__code: 'iA Writer Mono S';
     --fs-codeblock__code: 1em;
 }
 
@@ -673,7 +675,7 @@
     --br-codeblock__gutters: 2px solid var(--cl-white);
     --bb-codeblock__gutters: ;
     --bl-codeblock__gutters: ;
-    --ff-codeblock__gutters: "iA Writer Mono S";
+    --ff-codeblock__gutters: 'iA Writer Mono S';
     --fs-codeblock__gutters: ;
     --ft-codeblock__gutters: ;
     --fw-codeblock__gutters: ;
@@ -1022,7 +1024,7 @@
 :root {
     --br-datepicker__weeknumber: 1px solid var(--cl-gray-300);
     --co-datepicker__weeknumber: var(--cl-gray-500);
-    --ff-datepicker__weeknumber: "iA Writer Quattro S";
+    --ff-datepicker__weeknumber: 'iA Writer Quattro S';
     --fs-datepicker__weeknumber: 1em;
 }
 
@@ -1110,7 +1112,7 @@
 }
 
 :root {
-    --ff-div: "iA Writer Quattro S";
+    --ff-div: 'iA Writer Quattro S';
     --fs-div: 1em;
 }
 
@@ -1364,7 +1366,7 @@
 
 :root {
     --bc-embed-page__margin: var(--cl-gray-300);
-    --op-embed-page__margin: 1;
+    --op-embed-page__margin: 1.0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1391,7 +1393,7 @@
     --bl-emoji-mart: 1px solid var(--cl-gray-100);
     --bd-emoji-mart: ;
     --co-emoji-mart: var(--cl-gray-900);
-    --ff-emoji-mart: "iA Writer Quattro S";
+    --ff-emoji-mart: 'iA Writer Quattro S';
     --fs-emoji-mart: 1em;
 }
 
@@ -2054,6 +2056,7 @@
 :root {
     --bc-left-sidebar__container: var(--cl-gray-50);
     --br-left-sidebar__container: 1px solid var(--cl-gray-100);
+    ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2146,7 +2149,7 @@
 
 :root {
     --co-level1: ;
-    --ff-level1: "iA Writer Quattro S";
+    --ff-level1: 'iA Writer Quattro S';
     --fs-level1: 1.4em;
     --ft-level1: ;
     --fw-level1: 600;
@@ -2161,7 +2164,7 @@
 
 :root {
     --co-level2: ;
-    --ff-level2: "iA Writer Quattro S";
+    --ff-level2: 'iA Writer Quattro S';
     --fs-level2: 1.2em;
     --ft-level2: ;
     --fw-level2: 600;
@@ -2176,7 +2179,7 @@
 
 :root {
     --co-level3: ;
-    --ff-level3: "iA Writer Quattro S";
+    --ff-level3: 'iA Writer Quattro S';
     --fs-level3: 1em;
     --ft-level3: ;
     --fw-level3: 600;
@@ -2491,7 +2494,7 @@
 
 :root {
     --co-page__title: var(--cl-gray-900);
-    --ff-page__title: "iA Writer Quattro S";
+    --ff-page__title: 'iA Writer Quattro S';
     --fs-page__title: 20px;
     --ft-page__title: ;
     --fw-page__title: normal;
@@ -2997,6 +3000,72 @@
         --br-roam42__jj-menu-item: 1px solid transparent;
         --bb-roam42__jj-menu-item: 1px solid transparent;
         --bl-roam42__jj-menu-item: 1px solid transparent;
+    }
+}
+
+:root {
+    --bc-roam42__cp-menu-item--selected: var(--cl-blue-50);
+    --bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bd-roam42__cp-menu-item--selected: ;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bc-roam42__cp-menu-item--selected: var(--cl-blue-900);
+        --bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
+        --br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
+        --bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
+        --bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
+    }
+}
+
+:root {
+    --bt-roam42__cp-menu-item: 1px solid transparent;
+    --br-roam42__cp-menu-item: 1px solid transparent;
+    --bb-roam42__cp-menu-item: 1px solid transparent;
+    --bl-roam42__cp-menu-item: 1px solid transparent;
+    --bd-roam42__cp-menu-item: ;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bt-roam42__cp-menu-item: 1px solid transparent;
+        --br-roam42__cp-menu-item: 1px solid transparent;
+        --bb-roam42__cp-menu-item: 1px solid transparent;
+        --bl-roam42__cp-menu-item: 1px solid transparent;
+    }
+}
+
+:root {
+    --bc-roam42__cp-menu-shortcut: ;
+    --bd-roam42__cp-menu-shortcut: ;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bc-roam42__cp-menu-shortcut: ;
+    }
+}
+
+:root {
+    --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);
+    --bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --br-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bb-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bl-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bd-roam42__cp-menu-item-active--hover: ;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-800);
+        --bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
+        --br-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
+        --bb-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
+        --bl-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
     }
 }
 

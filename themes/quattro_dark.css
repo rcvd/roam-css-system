@@ -161,7 +161,7 @@
 }
 
 :root {
-    --bb-block-ref: 0.5px dotted var(--cl-gray-700);
+    --bb-block-ref: .5px dotted var(--cl-gray-700);
 }
 
 :root {
@@ -245,7 +245,7 @@
 
 :root {
     --bd-code: 2px;
-    --ff-code: "iA Writer Mono S";
+    --ff-code: 'iA Writer Mono S';
     --fs-code: 1em;
     --bc-code: var(--cl-gray-800);
     --bt-code: 1px solid var(--cl-gray-700);
@@ -272,7 +272,7 @@
 }
 
 :root {
-    --ff-codeblock__code: "iA Writer Mono S";
+    --ff-codeblock__code: 'iA Writer Mono S';
     --fs-codeblock__code: 1em;
 }
 
@@ -303,7 +303,7 @@
 }
 
 :root {
-    --ff-codeblock__gutters: "iA Writer Mono S";
+    --ff-codeblock__gutters: 'iA Writer Mono S';
     --fs-codeblock__gutters: ;
     --ft-codeblock__gutters: ;
     --fw-codeblock__gutters: ;
@@ -452,7 +452,7 @@
 }
 
 :root {
-    --ff-datepicker__weeknumber: "iA Writer Quattro S";
+    --ff-datepicker__weeknumber: 'iA Writer Quattro S';
     --fs-datepicker__weeknumber: 1em;
     --br-datepicker__weeknumber: 1px solid var(--cl-gray-700);
     --co-datepicker__weeknumber: var(--cl-gray-500);
@@ -495,7 +495,7 @@
 }
 
 :root {
-    --ff-div: "iA Writer Quattro S";
+    --ff-div: 'iA Writer Quattro S';
     --fs-div: 1em;
 }
 
@@ -606,7 +606,7 @@
 }
 
 :root {
-    --op-embed-page__margin: 1;
+    --op-embed-page__margin: 1.0;
     --bc-embed-page__margin: var(--cl-gray-700);
 }
 
@@ -616,7 +616,7 @@
 
 :root {
     --bd-emoji-mart: ;
-    --ff-emoji-mart: "iA Writer Quattro S";
+    --ff-emoji-mart: 'iA Writer Quattro S';
     --fs-emoji-mart: 1em;
     --bc-emoji-mart: var(--cl-black);
     --bt-emoji-mart: 1px solid var(--cl-gray-900);
@@ -959,7 +959,7 @@
 }
 
 :root {
-    --ff-level1: "iA Writer Quattro S";
+    --ff-level1: 'iA Writer Quattro S';
     --fs-level1: 1.4em;
     --ft-level1: ;
     --fw-level1: 600;
@@ -968,7 +968,7 @@
 }
 
 :root {
-    --ff-level2: "iA Writer Quattro S";
+    --ff-level2: 'iA Writer Quattro S';
     --fs-level2: 1.2em;
     --ft-level2: ;
     --fw-level2: 600;
@@ -977,7 +977,7 @@
 }
 
 :root {
-    --ff-level3: "iA Writer Quattro S";
+    --ff-level3: 'iA Writer Quattro S';
     --fs-level3: 1em;
     --ft-level3: ;
     --fw-level3: 600;
@@ -1118,7 +1118,7 @@
 }
 
 :root {
-    --ff-page__title: "iA Writer Quattro S";
+    --ff-page__title: 'iA Writer Quattro S';
     --fs-page__title: 20px;
     --ft-page__title: ;
     --fw-page__title: normal;
@@ -1327,6 +1327,13 @@
     --bl-roam-js__container--inactive: 1px solid var(--cl-gray-700);
     --co-roam-js__container--inactive: var(--cl-gray-100);
 }
+
+
+
+
+
+
+
 
 :root {
     --bc-span--highlighted: var(--cl-yellow-300);

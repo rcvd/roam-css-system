@@ -58,6 +58,7 @@
 
 :root {
     --bc-allpages__clickable-pill-3: var(--cl-gray-600);
+    ;
     --bt-allpages__clickable-pill-3: none;
     --br-allpages__clickable-pill-3: none;
     --bb-allpages__clickable-pill-3: none;
@@ -161,7 +162,7 @@
 }
 
 :root {
-    --bb-block-ref: 0.5px dotted var(--cl-gray-300);
+    --bb-block-ref: .5px dotted var(--cl-gray-300);
 }
 
 :root {
@@ -251,7 +252,7 @@
     --bl-code: 1px solid var(--cl-gray-100);
     --bd-code: 2px;
     --co-code: var(--cl-gray-900);
-    --ff-code: "iA Writer Mono S";
+    --ff-code: 'iA Writer Mono S';
     --fs-code: 1em;
 }
 
@@ -272,7 +273,7 @@
 }
 
 :root {
-    --ff-codeblock__code: "iA Writer Mono S";
+    --ff-codeblock__code: 'iA Writer Mono S';
     --fs-codeblock__code: 1em;
 }
 
@@ -308,7 +309,7 @@
     --br-codeblock__gutters: 2px solid var(--cl-white);
     --bb-codeblock__gutters: ;
     --bl-codeblock__gutters: ;
-    --ff-codeblock__gutters: "iA Writer Mono S";
+    --ff-codeblock__gutters: 'iA Writer Mono S';
     --fs-codeblock__gutters: ;
     --ft-codeblock__gutters: ;
     --fw-codeblock__gutters: ;
@@ -454,7 +455,7 @@
 :root {
     --br-datepicker__weeknumber: 1px solid var(--cl-gray-300);
     --co-datepicker__weeknumber: var(--cl-gray-500);
-    --ff-datepicker__weeknumber: "iA Writer Quattro S";
+    --ff-datepicker__weeknumber: 'iA Writer Quattro S';
     --fs-datepicker__weeknumber: 1em;
 }
 
@@ -495,7 +496,7 @@
 }
 
 :root {
-    --ff-div: "iA Writer Quattro S";
+    --ff-div: 'iA Writer Quattro S';
     --fs-div: 1em;
 }
 
@@ -607,7 +608,7 @@
 
 :root {
     --bc-embed-page__margin: var(--cl-gray-300);
-    --op-embed-page__margin: 1;
+    --op-embed-page__margin: 1.0;
 }
 
 :root {
@@ -622,7 +623,7 @@
     --bl-emoji-mart: 1px solid var(--cl-gray-100);
     --bd-emoji-mart: ;
     --co-emoji-mart: var(--cl-gray-900);
-    --ff-emoji-mart: "iA Writer Quattro S";
+    --ff-emoji-mart: 'iA Writer Quattro S';
     --fs-emoji-mart: 1em;
 }
 
@@ -921,6 +922,7 @@
 :root {
     --bc-left-sidebar__container: var(--cl-gray-50);
     --br-left-sidebar__container: 1px solid var(--cl-gray-100);
+    ;
 }
 
 :root {
@@ -960,7 +962,7 @@
 
 :root {
     --co-level1: ;
-    --ff-level1: "iA Writer Quattro S";
+    --ff-level1: 'iA Writer Quattro S';
     --fs-level1: 1.4em;
     --ft-level1: ;
     --fw-level1: 600;
@@ -969,7 +971,7 @@
 
 :root {
     --co-level2: ;
-    --ff-level2: "iA Writer Quattro S";
+    --ff-level2: 'iA Writer Quattro S';
     --fs-level2: 1.2em;
     --ft-level2: ;
     --fw-level2: 600;
@@ -978,7 +980,7 @@
 
 :root {
     --co-level3: ;
-    --ff-level3: "iA Writer Quattro S";
+    --ff-level3: 'iA Writer Quattro S';
     --fs-level3: 1em;
     --ft-level3: ;
     --fw-level3: 600;
@@ -1119,7 +1121,7 @@
 
 :root {
     --co-page__title: var(--cl-gray-900);
-    --ff-page__title: "iA Writer Quattro S";
+    --ff-page__title: 'iA Writer Quattro S';
     --fs-page__title: 20px;
     --ft-page__title: ;
     --fw-page__title: normal;
@@ -1327,6 +1329,13 @@
     --bl-roam-js__container--inactive: 1px solid var(--cl-gray-100);
     --co-roam-js__container--inactive: var(--cl-gray-900);
 }
+
+
+
+
+
+
+
 
 :root {
     --bc-span--highlighted: var(--cl-yellow-300);
