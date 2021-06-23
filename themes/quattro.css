@@ -32,7 +32,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bl-alias__tooltip-content-bq: 1px solid var(--cl-green-900);
+        --bl-alias__tooltip-content-bq: 1px solid var(--cl-black);
         --co-alias__tooltip-content-bq: ;
     }
 }
