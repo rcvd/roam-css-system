@@ -14,6 +14,11 @@
 }
 
 :root {
+    --bl-alias__tooltip-content-bq: ;
+    --co-alias__tooltip-content-bq: ;
+}
+
+:root {
     --bd-allpages__checkbox: ;
     --bc-allpages__checkbox: transparent;
     --bt-allpages__checkbox: 1px solid var(--cl-gray-700);

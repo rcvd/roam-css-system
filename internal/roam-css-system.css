@@ -9,6 +9,11 @@ a {
     text-decoration: var(--td-a, none);
 }
 
+.rm-alias-tooltip__content .rm-bq {
+    border-left: var(--bl-alias__tooltip-content-bq, 5px solid #d9822b);
+    color: var(--co-alias__tooltip-content-bq, #202B33);
+}
+
 .rm-all-pages .bp3-control .bp3-control-indicator {
     background-color: var(--bc-allpages__checkbox, #f5f8fa);
     border-top: var(--bt-allpages__checkbox, none);

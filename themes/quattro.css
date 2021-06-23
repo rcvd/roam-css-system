@@ -26,6 +26,18 @@
 }
 
 :root {
+    --bl-alias__tooltip-content-bq: ;
+    --co-alias__tooltip-content-bq: ;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bl-alias__tooltip-content-bq: ;
+        --co-alias__tooltip-content-bq: ;
+    }
+}
+
+:root {
     --bc-allpages__checkbox: transparent;
     --bt-allpages__checkbox: 1px solid var(--cl-gray-300);
     --br-allpages__checkbox: 1px solid var(--cl-gray-300);
