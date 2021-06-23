@@ -26,13 +26,13 @@
 }
 
 :root {
-    --bl-alias__tooltip-content-bq: ;
+    --bl-alias__tooltip-content-bq: 1px solid var(--cl-blue-100);
     --co-alias__tooltip-content-bq: ;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bl-alias__tooltip-content-bq: ;
+        --bl-alias__tooltip-content-bq: 1px solid var(--cl-green-900);
         --co-alias__tooltip-content-bq: ;
     }
 }

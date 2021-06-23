@@ -14,7 +14,7 @@
 }
 
 :root {
-    --bl-alias__tooltip-content-bq: ;
+    --bl-alias__tooltip-content-bq: 1px solid var(--cl-blue-100);
     --co-alias__tooltip-content-bq: ;
 }
 
