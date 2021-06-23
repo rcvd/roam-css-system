@@ -257,7 +257,7 @@
     --br-code: 1px solid var(--cl-gray-700);
     --bb-code: 1px solid var(--cl-gray-700);
     --bl-code: 1px solid var(--cl-gray-700);
-    --co-code: ;
+    --co-code: var(--cl-gray-100);
 }
 
 :root {

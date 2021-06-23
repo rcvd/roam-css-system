@@ -14,6 +14,7 @@
     }
 }
 
+
 :root {
     --co-a: var(--cl-red-600);
     --td-a: underline;
@@ -24,6 +25,7 @@
         --co-a: var(--cl-red-400);
     }
 }
+
 
 :root {
     --bl-alias__tooltip-content-bq: 1px solid var(--cl-blue-100);
@@ -36,6 +38,7 @@
         --co-alias__tooltip-content-bq: ;
     }
 }
+
 
 :root {
     --bc-allpages__checkbox: transparent;
@@ -57,6 +60,7 @@
         --sd-allpages__checkbox: ;
     }
 }
+
 
 :root {
     --bc-allpages__clickable-pill: var(--cl-gray-300);
@@ -80,6 +84,7 @@
     }
 }
 
+
 :root {
     --bc-allpages__clickable-pill-1: var(--cl-gray-400);
     --bt-allpages__clickable-pill-1: none;
@@ -102,6 +107,7 @@
     }
 }
 
+
 :root {
     --bc-allpages__clickable-pill-2: var(--cl-gray-500);
     --bt-allpages__clickable-pill-2: none;
@@ -123,6 +129,7 @@
         --co-allpages__clickable-pill-2: var(--cl-black);
     }
 }
+
 
 :root {
     --bc-allpages__clickable-pill-3: var(--cl-gray-600);
@@ -147,6 +154,7 @@
     }
 }
 
+
 :root {
     --bc-allpages__clickable-pill-empty: transparent;
     --co-allpages__clickable-pill-empty: var(--cl-gray-400);
@@ -158,6 +166,7 @@
         --co-allpages__clickable-pill-empty: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-allpages__input: var(--cl-gray-50);
@@ -184,6 +193,7 @@
     }
 }
 
+
 :root {
     --co-allpages__input-icon: var(--cl-gray-400);
 }
@@ -193,6 +203,7 @@
         --co-allpages__input-icon: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bb-allpages__row: 1px solid var(--cl-gray-100);
@@ -205,6 +216,7 @@
         --co-allpages__row: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-allpages__row-header: var(--cl-gray-50);
@@ -220,6 +232,7 @@
     }
 }
 
+
 :root {
     --co-allpages__sorted-header-text: var(--cl-gray-700);
     --fw-allpages__sorted-header-text: bold;
@@ -231,6 +244,7 @@
     }
 }
 
+
 :root {
     --co-allpages__title-col: var(--cl-gray-900);
 }
@@ -240,6 +254,7 @@
         --co-allpages__title-col: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --co-allpages__title-text: var(--cl-gray-900);
@@ -252,6 +267,7 @@
     }
 }
 
+
 :root {
     --co-allpages__sort-button--focused: var(--cl-red-500);
 }
@@ -261,6 +277,7 @@
         --co-allpages__sort-button--focused: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-app__h1: var(--cl-gray-900);
@@ -276,6 +293,7 @@
     }
 }
 
+
 :root {
     --bc-app: var(--cl-white);
     --co-app: var(--cl-gray-900);
@@ -287,6 +305,7 @@
         --co-app: var(--cl-gray-50);
     }
 }
+
 
 :root {
     --co-attributes: ;
@@ -301,6 +320,7 @@
     }
 }
 
+
 :root {
     --co-block__ghost: var(--cl-gray-300);
 }
@@ -310,6 +330,7 @@
         --co-block__ghost: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-block-highlight--blue: var(--cl-blue-300);
@@ -321,6 +342,7 @@
     }
 }
 
+
 :root {
     --bc-block-highlight--grey: var(--cl-gray-300);
 }
@@ -331,6 +353,7 @@
     }
 }
 
+
 :root {
     --bc-block-highlight--yellow: var(--cl-yellow-300);
 }
@@ -340,6 +363,7 @@
         --bc-block-highlight--yellow: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-block-ref--hover: ;
@@ -353,6 +377,7 @@
     }
 }
 
+
 :root {
     --bb-block-ref: .5px dotted var(--cl-gray-300);
 }
@@ -363,6 +388,7 @@
     }
 }
 
+
 :root {
     --co-brackets: var(--cl-gray-500);
 }
@@ -372,6 +398,7 @@
         --co-brackets: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bt-bullet__closed: 4px solid var(--cl-gray-300);
@@ -389,6 +416,7 @@
     }
 }
 
+
 :root {
     --bc-bullet__ghost: var(--cl-gray-300);
 }
@@ -398,6 +426,7 @@
         --bc-bullet__ghost: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-bullet__inner: var(--cl-gray-300);
@@ -409,6 +438,7 @@
     }
 }
 
+
 :root {
     --co-button__icon--hover: var(--cl-red-500);
 }
@@ -419,6 +449,7 @@
     }
 }
 
+
 :root {
     --co-button__icon: var(--cl-gray-500);
 }
@@ -428,6 +459,7 @@
         --co-button__icon: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-button--active: ;
@@ -441,6 +473,7 @@
     }
 }
 
+
 :root {
     --co-button--active: var(--cl-red-600);
 }
@@ -450,6 +483,7 @@
         --co-button--active: var(--cl-red-400);
     }
 }
+
 
 :root {
     --bc-button--hover: transparent;
@@ -465,6 +499,7 @@
     }
 }
 
+
 :root {
     --bc-button--minimal: ;
     --sd-button--minimal: ;
@@ -476,6 +511,7 @@
         --sd-button--minimal: ;
     }
 }
+
 
 :root {
     --bc-button: transparent;
@@ -490,6 +526,7 @@
         --co-button: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --bc-card: var(--cl-white);
@@ -512,6 +549,7 @@
     }
 }
 
+
 :root {
     --bc-checkmark--checked: var(--cl-gray-700);
     --bt-checkmark--checked: ;
@@ -530,6 +568,7 @@
     }
 }
 
+
 :root {
     --bt-checkmark: 1px solid var(--cl-gray-500);
     --br-checkmark: 1px solid var(--cl-gray-500);
@@ -546,6 +585,7 @@
         --bl-checkmark: 1px solid var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-code: var(--cl-gray-50);
@@ -566,9 +606,10 @@
         --br-code: 1px solid var(--cl-gray-700);
         --bb-code: 1px solid var(--cl-gray-700);
         --bl-code: 1px solid var(--cl-gray-700);
-        --co-code: ;
+        --co-code: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --co-codeblock__atom: var(--cl-indigo-700);
@@ -580,6 +621,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__attribute: var(--cl-blue-700);
 }
@@ -589,6 +631,7 @@
         --co-codeblock__attribute: var(--cl-blue-500);
     }
 }
+
 
 :root {
     --co-codeblock__bracket: var(--cl-gray-400);
@@ -600,6 +643,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__builtin: var(--cl-indigo-600);
 }
@@ -610,6 +654,7 @@
     }
 }
 
+
 :root {
     --ff-codeblock__code: 'iA Writer Mono S';
     --fs-codeblock__code: 1em;
@@ -618,6 +663,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --co-codeblock__comment: var(--cl-yellow-700);
@@ -628,6 +674,7 @@
         --co-codeblock__comment: var(--cl-yellow-300);
     }
 }
+
 
 :root {
     --bc-codeblock__container: var(--cl-gray-50);
@@ -650,6 +697,7 @@
     }
 }
 
+
 :root {
     --br-codeblock__cursor: 1px solid var(--cl-gray-900);
 }
@@ -659,6 +707,7 @@
         --br-codeblock__cursor: 1px solid var(--cl-gray-100);
     }
 }
+
 
 :root {
     --co-codeblock__def: var(--cl-blue-600);
@@ -670,6 +719,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__error: var(--cl-red-500);
 }
@@ -679,6 +729,7 @@
         --co-codeblock__error: var(--cl-red-500);
     }
 }
+
 
 :root {
     --bc-codeblock__gutters: var(--cl-gray-50);
@@ -702,6 +753,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__hr: var(--cl-gray-400);
 }
@@ -711,6 +763,7 @@
         --co-codeblock__hr: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --co-codeblock__invalidchar: var(--cl-red-500);
@@ -722,6 +775,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__keyword: var(--cl-pink-700);
 }
@@ -731,6 +785,7 @@
         --co-codeblock__keyword: var(--cl-pink-300);
     }
 }
+
 
 :root {
     --co-codeblock__link: var(--cl-blue-700);
@@ -742,6 +797,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__matchingbracket: var(--cl-green-500);
 }
@@ -751,6 +807,7 @@
         --co-codeblock__matchingbracket: var(--cl-green-500);
     }
 }
+
 
 :root {
     --co-codeblock__meta: var(--cl-gray-700);
@@ -762,6 +819,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__nonmatchingbracket: var(--cl-red-500);
 }
@@ -771,6 +829,7 @@
         --co-codeblock__nonmatchingbracket: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-codeblock__number: var(--cl-green-700);
@@ -782,6 +841,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__qualifier: var(--cl-gray-700);
 }
@@ -791,6 +851,7 @@
         --co-codeblock__qualifier: var(--cl-gray-300);
     }
 }
+
 
 :root {
     --bc-codeblock__searching: ;
@@ -802,6 +863,7 @@
     }
 }
 
+
 :root {
     --bc-codeblock__selected--focused: var(--cl-gray-200);
 }
@@ -811,6 +873,7 @@
         --bc-codeblock__selected--focused: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-codeblock__selected: var(--cl-gray-100);
@@ -822,6 +885,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__string: var(--cl-red-900);
 }
@@ -831,6 +895,7 @@
         --co-codeblock__string: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-codeblock__string-2: var(--cl-yellow-600);
@@ -842,6 +907,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__tag: var(--cl-green-700);
 }
@@ -851,6 +917,7 @@
         --co-codeblock__tag: var(--cl-green-300);
     }
 }
+
 
 :root {
     --co-codeblock__type: var(--cl-green-700);
@@ -862,6 +929,7 @@
     }
 }
 
+
 :root {
     --co-codeblock__variable-2: var(--cl-blue-700);
 }
@@ -871,6 +939,7 @@
         --co-codeblock__variable-2: var(--cl-blue-300);
     }
 }
+
 
 :root {
     --bc-control__checked--hover: var(--cl-red-400);
@@ -890,6 +959,7 @@
     }
 }
 
+
 :root {
     --bc-control--checked: var(--cl-red-500);
     --sd-control--checked: none;
@@ -901,6 +971,7 @@
         --sd-control--checked: none;
     }
 }
+
 
 :root {
     --bc-control: var(--cl-gray-50);
@@ -915,6 +986,7 @@
     }
 }
 
+
 :root {
     --bc-datepicker__day--hover: var(--cl-red-500);
     --co-datepicker__day--hover: var(--cl-white);
@@ -926,6 +998,7 @@
         --co-datepicker__day--hover: var(--cl-white);
     }
 }
+
 
 :root {
     --bc-datepicker__day--selected: var(--cl-red-600);
@@ -939,6 +1012,7 @@
     }
 }
 
+
 :root {
     --bc-datepicker__day-selected--hover: var(--cl-red-600);
 }
@@ -949,6 +1023,7 @@
     }
 }
 
+
 :root {
     --co-datepicker__day-without-page: var(--cl-gray-600);
 }
@@ -958,6 +1033,7 @@
         --co-datepicker__day-without-page: var(--cl-gray-400);
     }
 }
+
 
 :root {
     --bc-datepicker__nav-button--hover: ;
@@ -979,6 +1055,7 @@
     }
 }
 
+
 :root {
     --bc-datepicker__nav-button: ;
     --bt-datepicker__nav-button: none;
@@ -999,6 +1076,7 @@
     }
 }
 
+
 :root {
     --bc-datepicker__today--selected: var(--cl-red-500);
     --co-datepicker__today--selected: var(--cl-white);
@@ -1011,6 +1089,7 @@
     }
 }
 
+
 :root {
     --co-datepicker__today: var(--cl-red-500);
     --fw-datepicker__today: bold;
@@ -1022,6 +1101,7 @@
     }
 }
 
+
 :root {
     --bc-datepicker__today-selected--hover: var(--cl-red-600);
 }
@@ -1031,6 +1111,7 @@
         --bc-datepicker__today-selected--hover: var(--cl-red-500);
     }
 }
+
 
 :root {
     --br-datepicker__weeknumber: 1px solid var(--cl-gray-300);
@@ -1045,6 +1126,7 @@
         --co-datepicker__weeknumber: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-datepicker: var(--cl-white);
@@ -1065,6 +1147,7 @@
     }
 }
 
+
 :root {
     --co-dialog__heading: var(--cl-gray-900);
     --fw-dialog__heading: ;
@@ -1075,6 +1158,7 @@
         --co-dialog__heading: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --bc-dialog__upload-input: var(--cl-gray-50);
@@ -1099,6 +1183,7 @@
     }
 }
 
+
 :root {
     --bc-dialog__upload-button: var(--cl-gray-50);
     --bt-dialog__upload-button: 1px solid var(--cl-gray-100);
@@ -1122,6 +1207,7 @@
     }
 }
 
+
 :root {
     --ff-div: 'iA Writer Quattro S';
     --fs-div: 1em;
@@ -1130,6 +1216,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --bc-dropbar: var(--cl-red-500);
@@ -1140,6 +1227,7 @@
         --bc-dropbar: var(--cl-red-500);
     }
 }
+
 
 :root {
     --bc-elevation__container: var(--cl-white);
@@ -1162,6 +1250,7 @@
     }
 }
 
+
 :root {
     --bc-elevation__item--selected: var(--cl-blue-50);
     --bt-elevation__item--selected: 1px solid var(--cl-blue-100);
@@ -1181,6 +1270,7 @@
     }
 }
 
+
 :root {
     --bt-elevation__item: 1px solid transparent;
     --br-elevation__item: 1px solid transparent;
@@ -1197,6 +1287,7 @@
     }
 }
 
+
 :root {
     --co-elevation__item-icon: var(--cl-gray-500);
 }
@@ -1206,6 +1297,7 @@
         --co-elevation__item-icon: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --co-elevation__item-keyprompt: var(--cl-gray-500);
@@ -1219,6 +1311,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-10: var(--cl-gray-400);
 }
@@ -1228,6 +1321,7 @@
         --bc-embed__container-10: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-embed__container-11: var(--cl-gray-50);
@@ -1239,6 +1333,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-2: var(--cl-gray-100);
 }
@@ -1248,6 +1343,7 @@
         --bc-embed__container-2: var(--cl-gray-800);
     }
 }
+
 
 :root {
     --bc-embed__container-3: var(--cl-gray-200);
@@ -1259,6 +1355,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-4: var(--cl-gray-300);
 }
@@ -1268,6 +1365,7 @@
         --bc-embed__container-4: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-embed__container-5: var(--cl-gray-400);
@@ -1279,6 +1377,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-6: var(--cl-gray-50);
 }
@@ -1288,6 +1387,7 @@
         --bc-embed__container-6: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --bc-embed__container-7: var(--cl-gray-100);
@@ -1299,6 +1399,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-8: var(--cl-gray-200);
 }
@@ -1309,6 +1410,7 @@
     }
 }
 
+
 :root {
     --bc-embed__container-9: var(--cl-gray-300);
 }
@@ -1318,6 +1420,7 @@
         --bc-embed__container-9: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-embed: var(--cl-gray-50);
@@ -1338,6 +1441,7 @@
     }
 }
 
+
 :root {
     --bc-embed-page: var(--cl-gray-50);
     --bt-embed-page: 1px solid var(--cl-gray-100);
@@ -1357,6 +1461,7 @@
     }
 }
 
+
 :root {
     --fs-embed-page__title: 14px;
 }
@@ -1364,6 +1469,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --bt-embed-page__reference-main: 1px solid var(--cl-gray-100);
@@ -1374,6 +1480,7 @@
         --bt-embed-page__reference-main: 1px solid var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-embed-page__margin: var(--cl-gray-300);
@@ -1386,6 +1493,7 @@
     }
 }
 
+
 :root {
     --bc-emoji-mart__category-label: var(--cl-gray-50);
 }
@@ -1395,6 +1503,7 @@
         --bc-emoji-mart__category-label: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --bc-emoji-mart: var(--cl-white);
@@ -1419,6 +1528,7 @@
     }
 }
 
+
 :root {
     --bc-find-or-create__menu-item--selected: var(--cl-blue-50);
     --bt-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
@@ -1438,6 +1548,7 @@
     }
 }
 
+
 :root {
     --co-find-or-create__menu-item--selected: var(--cl-gray-900);
 }
@@ -1447,6 +1558,7 @@
         --co-find-or-create__menu-item--selected: var(--cl-white);
     }
 }
+
 
 :root {
     --bt-find-or-create__menu-item: 1px solid transparent;
@@ -1464,6 +1576,7 @@
     }
 }
 
+
 :root {
     --co-find-or-create__search-list-item: var(--cl-gray-600);
 }
@@ -1473,6 +1586,7 @@
         --co-find-or-create__search-list-item: var(--cl-gray-400);
     }
 }
+
 
 :root {
     --co-find-or-create__search-list-item-title: var(--cl-gray-800);
@@ -1485,6 +1599,7 @@
     }
 }
 
+
 :root {
     --co-graph-dropdown__a: var(--cl-gray-900);
     --td-graph-dropdown__a: none;
@@ -1496,6 +1611,7 @@
     }
 }
 
+
 :root {
     --co-graph-dropdown__expand-icon--hover: var(--cl-red-500);
 }
@@ -1505,6 +1621,7 @@
         --co-graph-dropdown__expand-icon--hover: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-graph-dropdown__expand-icon: var(--cl-gray-500);
@@ -1516,6 +1633,7 @@
     }
 }
 
+
 :root {
     --co-graph-dropdown__menu-item: var(--cl-gray-900);
     --td-graph-dropdown__menu-item: none;
@@ -1526,6 +1644,7 @@
         --co-graph-dropdown__menu-item: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --co-graph-dropdown__menu-title: var(--cl-gray-500);
@@ -1541,6 +1660,7 @@
     }
 }
 
+
 :root {
     --bc-graph-dropdown__setting--hover: var(--cl-blue-50);
 }
@@ -1550,6 +1670,7 @@
         --bc-graph-dropdown__setting--hover: var(--cl-blue-900);
     }
 }
+
 
 :root {
     --bc-graph-dropdown__setting: var(--cl-gray-50);
@@ -1561,6 +1682,7 @@
     }
 }
 
+
 :root {
     --td-graph-dropdown__setting-icon--hover: none;
 }
@@ -1568,6 +1690,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --sd-graph-dropdown: none;
@@ -1578,6 +1701,7 @@
         --sd-graph-dropdown: none;
     }
 }
+
 
 :root {
     --bc-help__categories--hover: var(--cl-gray-300);
@@ -1591,6 +1715,7 @@
     }
 }
 
+
 :root {
     --bc-help__categories--selected: var(--cl-blue-100);
 }
@@ -1601,6 +1726,7 @@
     }
 }
 
+
 :root {
     --co-help__categories: var(--cl-gray-700);
 }
@@ -1610,6 +1736,7 @@
         --co-help__categories: var(--cl-gray-300);
     }
 }
+
 
 :root {
     --co-help__category-name: var(--cl-gray-700);
@@ -1625,6 +1752,7 @@
     }
 }
 
+
 :root {
     --co-help__component-description: var(--cl-gray-500);
 }
@@ -1634,6 +1762,7 @@
         --co-help__component-description: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-help__component-notation: var(--cl-gray-100);
@@ -1648,6 +1777,7 @@
     }
 }
 
+
 :root {
     --co-help__component-title: var(--cl-gray-700);
     --fs-help__component-title: ;
@@ -1659,6 +1789,7 @@
         --co-help__component-title: var(--cl-gray-300);
     }
 }
+
 
 :root {
     --co-help__function-name: var(--cl-gray-900);
@@ -1672,6 +1803,7 @@
     }
 }
 
+
 :root {
     --co-help__help-version: var(--cl-gray-500);
     --fs-help__help-version: 12px;
@@ -1683,6 +1815,7 @@
         --co-help__help-version: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-help__icon-container: var(--cl-white);
@@ -1701,6 +1834,7 @@
         --bl-help__icon-container: none;
     }
 }
+
 
 :root {
     --bc-help__input--focus: var(--cl-blue-50);
@@ -1721,6 +1855,7 @@
     }
 }
 
+
 :root {
     --bc-help__input: var(--cl-gray-50);
     --bt-help__input: 1px solid var(--cl-gray-100);
@@ -1740,6 +1875,7 @@
     }
 }
 
+
 :root {
     --co-help__markdown-md: var(--cl-gray-700);
     --fs-help__markdown-md: 12px;
@@ -1753,6 +1889,7 @@
     }
 }
 
+
 :root {
     --co-help__markdown-title: var(--cl-gray-900);
     --fs-help__markdown-title: 1em;
@@ -1765,6 +1902,7 @@
     }
 }
 
+
 :root {
     --bc-help__resource--hover: var(--cl-blue-50);
 }
@@ -1774,6 +1912,7 @@
         --bc-help__resource--hover: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --co-help__resource-description: var(--cl-gray-600);
@@ -1787,6 +1926,7 @@
     }
 }
 
+
 :root {
     --bc-help__resource-icon: var(--cl-gray-100);
     --co-help__resource-icon: var(--cl-gray-700);
@@ -1798,6 +1938,7 @@
         --co-help__resource-icon: var(--cl-gray-300);
     }
 }
+
 
 :root {
     --co-help__resource-title: var(--cl-gray-700);
@@ -1811,6 +1952,7 @@
     }
 }
 
+
 :root {
     --co-help__title: var(--cl-gray-900);
     --fs-help__title: 16px;
@@ -1822,6 +1964,7 @@
     }
 }
 
+
 :root {
     --bc-highlight: var(--cl-yellow-100);
 }
@@ -1831,6 +1974,7 @@
         --bc-highlight: var(--cl-red-900);
     }
 }
+
 
 :root {
     --bt-hr: 1px solid var(--cl-gray-200);
@@ -1848,6 +1992,7 @@
     }
 }
 
+
 :root {
     --bc-html__select--hover: var(--cl-gray-200);
     --co-html__select--hover: var(--cl-black);
@@ -1860,6 +2005,7 @@
     }
 }
 
+
 :root {
     --co-html__select: var(--cl-gray-900);
 }
@@ -1869,6 +2015,7 @@
         --co-html__select: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --co-html__select-icon: var(--cl-gray-500);
@@ -1880,6 +2027,7 @@
     }
 }
 
+
 :root {
     --bc-inline-references: var(--cl-blue-50);
 }
@@ -1890,6 +2038,7 @@
     }
 }
 
+
 :root {
     --bd-input__search: 0px;
 }
@@ -1897,6 +2046,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --co-input__search-icon: var(--cl-gray-400);
@@ -1908,6 +2058,7 @@
     }
 }
 
+
 :root {
     --co-input__search-placeholder: var(--cl-gray-400);
 }
@@ -1917,6 +2068,7 @@
         --co-input__search-placeholder: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-input--focus: var(--cl-blue-50);
@@ -1938,6 +2090,7 @@
         --sd-input--focus: none;
     }
 }
+
 
 :root {
     --bc-input: var(--cl-gray-50);
@@ -1964,6 +2117,7 @@
     }
 }
 
+
 :root {
     --bc-install-button--hover: var(--cl-blue-50);
     --bt-install-button--hover: 1px solid var(--cl-blue-100);
@@ -1983,6 +2137,7 @@
         --co-install-button--hover: var(--cl-blue-100);
     }
 }
+
 
 :root {
     --bc-install-button: var(--cl-gray-50);
@@ -2005,6 +2160,7 @@
     }
 }
 
+
 :root {
     --bc-kanban__card: var(--cl-white);
     --bt-kanban__card: 1px solid var(--cl-gray-200);
@@ -2024,6 +2180,7 @@
     }
 }
 
+
 :root {
     --bc-kanban__column: var(--cl-gray-100);
 }
@@ -2033,6 +2190,7 @@
         --bc-kanban__column: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --bc-kanban__dropbar: var(--cl-red-500);
@@ -2044,6 +2202,7 @@
     }
 }
 
+
 :root {
     --bb-kanban__title: 1px solid var(--cl-gray-300);
 }
@@ -2054,6 +2213,7 @@
     }
 }
 
+
 :root {
     --bc-kanban: var(--cl-gray-200);
 }
@@ -2063,6 +2223,7 @@
         --bc-kanban: var(--cl-gray-800);
     }
 }
+
 
 :root {
     --bc-left-sidebar__container: var(--cl-gray-50);
@@ -2077,6 +2238,7 @@
     }
 }
 
+
 :root {
     --co-left-sidebar__db-title--hover: var(--cl-red-500);
 }
@@ -2086,6 +2248,7 @@
         --co-left-sidebar__db-title--hover: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-left-sidebar__db-title: var(--cl-gray-700);
@@ -2098,6 +2261,7 @@
     }
 }
 
+
 :root {
     --bc-left-sidebar__hr: var(--cl-gray-200);
 }
@@ -2107,6 +2271,7 @@
         --bc-left-sidebar__hr: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --co-left-sidebar__icon: var(--cl-gray-700);
@@ -2119,6 +2284,7 @@
     }
 }
 
+
 :root {
     --bc-left-sidebar__logo--hover: transparent;
     --td-left-sidebar__logo--hover: none;
@@ -2130,6 +2296,7 @@
     }
 }
 
+
 :root {
     --td-left-sidebar__logo: none;
 }
@@ -2137,6 +2304,7 @@
 @media (prefers-color-scheme: dark) {
     :root {}
 }
+
 
 :root {
     --co-left-sidebar__logo-text: var(--cl-gray-600);
@@ -2148,6 +2316,7 @@
     }
 }
 
+
 :root {
     --bc-left-sidebar__toprow--hover: transparent;
 }
@@ -2157,6 +2326,7 @@
         --bc-left-sidebar__toprow--hover: transparent;
     }
 }
+
 
 :root {
     --co-level1: ;
@@ -2173,6 +2343,7 @@
     }
 }
 
+
 :root {
     --co-level2: ;
     --ff-level2: 'iA Writer Quattro S';
@@ -2187,6 +2358,7 @@
         --co-level2: ;
     }
 }
+
 
 :root {
     --co-level3: ;
@@ -2203,6 +2375,7 @@
     }
 }
 
+
 :root {
     --co-log-page__h1: var(--cl-gray-300);
 }
@@ -2212,6 +2385,7 @@
         --co-log-page__h1: var(--cl-gray-700);
     }
 }
+
 
 :root {
     --co-log-page__preview: var(--cl-gray-300);
@@ -2223,6 +2397,7 @@
     }
 }
 
+
 :root {
     --bt-log-page: 1px solid var(--cl-gray-100);
 }
@@ -2232,6 +2407,7 @@
         --bt-log-page: 1px solid var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-logbutton--hover: transparent;
@@ -2254,6 +2430,7 @@
     }
 }
 
+
 :root {
     --co-logbutton: var(--cl-gray-700);
     --fs-logbutton: 1em;
@@ -2267,6 +2444,7 @@
     }
 }
 
+
 :root {
     --bc-main: var(--cl-white);
 }
@@ -2276,6 +2454,7 @@
         --bc-main: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --bc-menu__button--active: var(--cl-blue-50);
@@ -2296,6 +2475,7 @@
     }
 }
 
+
 :root {
     --bc-menu__button: transparent;
     --bt-menu__button: none;
@@ -2315,6 +2495,7 @@
     }
 }
 
+
 :root {
     --co-menu__button-icon: var(--cl-gray-700);
 }
@@ -2324,6 +2505,7 @@
         --co-menu__button-icon: var(--cl-gray-300);
     }
 }
+
 
 :root {
     --bc-menu__item--hover: var(--cl-blue-50);
@@ -2346,6 +2528,7 @@
     }
 }
 
+
 :root {
     --bt-menu__item: 1px solid transparent;
     --br-menu__item: 1px solid transparent;
@@ -2365,6 +2548,7 @@
     }
 }
 
+
 :root {
     --co-menu__item-icon: var(--cl-gray-100);
 }
@@ -2374,6 +2558,7 @@
         --co-menu__item-icon: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --co-menu__item-label: var(--cl-gray-500);
@@ -2386,6 +2571,7 @@
     }
 }
 
+
 :root {
     --co-menu__item-primary: var(--cl-blue-500);
 }
@@ -2395,6 +2581,7 @@
         --co-menu__item-primary: var(--cl-blue-500);
     }
 }
+
 
 :root {
     --bc-menu__menu-item--active: var(--cl-blue-500);
@@ -2408,6 +2595,7 @@
     }
 }
 
+
 :root {
     --fl-menu__svg-icon--hover: var(--cl-gray-900);
 }
@@ -2418,6 +2606,7 @@
     }
 }
 
+
 :root {
     --fl-menu__svg-icon: var(--cl-gray-900);
 }
@@ -2427,6 +2616,7 @@
         --fl-menu__svg-icon: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --bc-menu: var(--cl-white);
@@ -2441,6 +2631,7 @@
     }
 }
 
+
 :root {
     --bc-mobile-bar: var(--cl-white);
 }
@@ -2450,6 +2641,7 @@
         --bc-mobile-bar: var(--cl-black);
     }
 }
+
 
 :root {
     --co-mobile-bar__icon: var(--cl-gray-900);
@@ -2461,6 +2653,7 @@
     }
 }
 
+
 :root {
     --br-multibar--hover: 3px solid var(--cl-red-500);
 }
@@ -2471,6 +2664,7 @@
     }
 }
 
+
 :root {
     --br-multibar: 1px solid var(--cl-gray-300);
 }
@@ -2480,6 +2674,7 @@
         --br-multibar: 1px solid var(--cl-gray-700);
     }
 }
+
 
 :root {
     --co-page__link--hover: var(--cl-red-600);
@@ -2492,6 +2687,7 @@
     }
 }
 
+
 :root {
     --co-page__link: var(--cl-red-500);
     --td-page__link: none;
@@ -2502,6 +2698,7 @@
         --co-page__link: var(--cl-red-500);
     }
 }
+
 
 :root {
     --co-page__title: var(--cl-gray-900);
@@ -2517,6 +2714,7 @@
         --co-page__title: var(--cl-gray-50);
     }
 }
+
 
 :root {
     --bc-pomodoro--break: var(--cl-green-50);
@@ -2539,6 +2737,7 @@
     }
 }
 
+
 :root {
     --bc-pomodoro--running: var(--cl-red-50);
     --bt-pomodoro--running: 1px solid var(--cl-red-100);
@@ -2559,6 +2758,7 @@
         --co-pomodoro--running: var(--cl-red-50);
     }
 }
+
 
 :root {
     --bc-pomodoro: var(--cl-gray-50);
@@ -2581,6 +2781,7 @@
     }
 }
 
+
 :root {
     --fl-popover__arrow-border: var(--cl-gray-100);
 }
@@ -2590,6 +2791,7 @@
         --fl-popover__arrow-border: var(--cl-gray-800);
     }
 }
+
 
 :root {
     --fl-popover__arrow-fill: var(--cl-white);
@@ -2601,6 +2803,7 @@
     }
 }
 
+
 :root {
     --sd-popover__arrow-shadow: none;
 }
@@ -2610,6 +2813,7 @@
         --sd-popover__arrow-shadow: ;
     }
 }
+
 
 :root {
     --bc-popover__button--hover: ;
@@ -2630,6 +2834,7 @@
         --co-popover__button--hover: ;
     }
 }
+
 
 :root {
     --bc-popover__button: ;
@@ -2652,6 +2857,7 @@
     }
 }
 
+
 :root {
     --bc-popover__content: var(--cl-white);
     --co-popover__content: var(--cl-gray-900);
@@ -2664,6 +2870,7 @@
     }
 }
 
+
 :root {
     --co-popover__description: var(--cl-gray-400);
 }
@@ -2673,6 +2880,7 @@
         --co-popover__description: var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bd-popover: 0px;
@@ -2685,6 +2893,7 @@
     }
 }
 
+
 :root {
     --bc-query__content: var(--cl-white);
 }
@@ -2694,6 +2903,7 @@
         --bc-query__content: var(--cl-gray-900);
     }
 }
+
 
 :root {
     --bc-query__title: var(--cl-gray-100);
@@ -2706,6 +2916,7 @@
         --co-query__title: var(--cl-gray-200);
     }
 }
+
 
 :root {
     --bt-query: 1px solid var(--cl-gray-200);
@@ -2722,6 +2933,7 @@
         --bl-query: 1px solid var(--cl-gray-600);
     }
 }
+
 
 :root {
     --bc-quote: var(--cl-gray-50);
@@ -2746,6 +2958,7 @@
     }
 }
 
+
 :root {
     --bc-ref-count--active: var(--cl-blue-50);
     --co-ref-count--active: var(--cl-gray-900);
@@ -2757,6 +2970,7 @@
         --co-ref-count--active: var(--cl-white);
     }
 }
+
 
 :root {
     --bc-reference__item: var(--cl-blue-50);
@@ -2777,6 +2991,7 @@
     }
 }
 
+
 :root {
     --co-reference__linked-litle: var(--cl-gray-500);
     --fs-reference__linked-litle: 1em;
@@ -2790,6 +3005,7 @@
     }
 }
 
+
 :root {
     --co-reference__page-title--hover: var(--cl-red-600);
     --td-reference__page-title--hover: none;
@@ -2800,6 +3016,7 @@
         --co-reference__page-title--hover: var(--cl-red-400);
     }
 }
+
 
 :root {
     --co-reference__page-title: var(--cl-red-500);
@@ -2813,6 +3030,7 @@
     }
 }
 
+
 :root {
     --co-reference__unlinked-title: var(--cl-gray-500);
     --fs-reference__unlinked-title: 1em;
@@ -2825,6 +3043,7 @@
         --co-reference__unlinked-title: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bt-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);
@@ -2842,6 +3061,7 @@
     }
 }
 
+
 :root {
     --bc-right-sidebar__container: var(--cl-blue-50);
     --bl-right-sidebar__container: 1px solid var(--cl-blue-100);
@@ -2853,6 +3073,7 @@
         --bl-right-sidebar__container: 1px solid var(--cl-black);
     }
 }
+
 
 :root {
     --co-right-sidebar__h1: var(--cl-gray-700);
@@ -2866,6 +3087,7 @@
     }
 }
 
+
 :root {
     --bb-right-sidebar__window: 1px solid var(--cl-gray-300);
 }
@@ -2875,6 +3097,7 @@
         --bb-right-sidebar__window: 1px solid var(--cl-gray-700);
     }
 }
+
 
 :root {
     --bc-roam-js__button--hover: var(--cl-red-500);
@@ -2895,6 +3118,7 @@
         --co-roam-js__button--hover: var(--cl-white);
     }
 }
+
 
 :root {
     --bc-roam-js__button: transparent;
@@ -2917,6 +3141,7 @@
     }
 }
 
+
 :root {
     --bc-roam-js__container--active: var(--cl-yellow-50);
     --bt-roam-js__container--active: 1px solid var(--cl-yellow-100);
@@ -2936,6 +3161,7 @@
         --co-roam-js__container--active: var(--cl-gray-100);
     }
 }
+
 
 :root {
     --bc-roam-js__container--inactive: var(--cl-gray-50);
@@ -2957,6 +3183,7 @@
     }
 }
 
+
 :root {
     --bc-roam42__jj-menu: var(--cl-white);
     --bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
@@ -2975,6 +3202,7 @@
         --bl-roam42__jj-menu: 1px solid var(--cl-gray-800);
     }
 }
+
 
 :root {
     --bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);
@@ -2995,6 +3223,7 @@
     }
 }
 
+
 :root {
     --bc-roam42__jj-menu-item: ;
     --bt-roam42__jj-menu-item: 1px solid transparent;
@@ -3013,6 +3242,7 @@
         --bl-roam42__jj-menu-item: 1px solid transparent;
     }
 }
+
 
 :root {
     --bc-roam42__cp-menu-item--selected: var(--cl-blue-50);
@@ -3033,6 +3263,7 @@
     }
 }
 
+
 :root {
     --bt-roam42__cp-menu-item: 1px solid transparent;
     --br-roam42__cp-menu-item: 1px solid transparent;
@@ -3050,6 +3281,7 @@
     }
 }
 
+
 :root {
     --bc-roam42__cp-menu-shortcut: ;
     --bd-roam42__cp-menu-shortcut: ;
@@ -3062,6 +3294,7 @@
         --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
     }
 }
+
 
 :root {
     --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);
@@ -3082,6 +3315,7 @@
     }
 }
 
+
 :root {
     --bc-span--highlighted: var(--cl-yellow-300);
 }
@@ -3091,6 +3325,7 @@
         --bc-span--highlighted: var(--cl-yellow-300);
     }
 }
+
 
 :root {
     --bc-starred__page--hover: ;
@@ -3112,6 +3347,7 @@
         --co-starred__page--hover: var(--cl-red-500);
     }
 }
+
 
 :root {
     --bt-starred__page: ;
@@ -3135,6 +3371,7 @@
     }
 }
 
+
 :root {
     --co-starred__title: var(--cl-gray-700);
     --fs-starred__title: 1em;
@@ -3149,6 +3386,7 @@
     }
 }
 
+
 :root {
     --co-tags: var(--cl-gray-500);
 }
@@ -3159,6 +3397,7 @@
     }
 }
 
+
 :root {
     --bc-zoom__mask: var(--cl-gray-50);
 }
@@ -3168,6 +3407,7 @@
         --bc-zoom__mask: var(--cl-gray-800);
     }
 }
+
 
 :root {
     --co-zoom-item: var(--cl-gray-400);
