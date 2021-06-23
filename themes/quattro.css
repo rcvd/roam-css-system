@@ -3,7 +3,6 @@
 @import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
 @import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
 
-
 :root {
     --co-a--hover: var(--cl-red-500);
     --td-a--hover: underline;
@@ -3042,11 +3041,13 @@
 :root {
     --bc-roam42__cp-menu-shortcut: ;
     --bd-roam42__cp-menu-shortcut: ;
+    --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --bc-roam42__cp-menu-shortcut: ;
+        --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
     }
 }
 

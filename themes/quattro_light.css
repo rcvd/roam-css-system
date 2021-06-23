@@ -1330,12 +1330,64 @@
     --co-roam-js__container--inactive: var(--cl-gray-900);
 }
 
+:root {
+    --bc-roam42__jj-menu: var(--cl-white);
+    --bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
+    --br-roam42__jj-menu: 1px solid var(--cl-gray-100);
+    --bb-roam42__jj-menu: 1px solid var(--cl-gray-100);
+    --bl-roam42__jj-menu: 1px solid var(--cl-gray-100);
+    --bd-roam42__jj-menu: 0px;
+}
 
+:root {
+    --bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);
+    --bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+    --br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+    --bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+    --bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
+    --bd-roam42__jj-menu-item--highlight: ;
+}
 
+:root {
+    --bc-roam42__jj-menu-item: ;
+    --bt-roam42__jj-menu-item: 1px solid transparent;
+    --br-roam42__jj-menu-item: 1px solid transparent;
+    --bb-roam42__jj-menu-item: 1px solid transparent;
+    --bl-roam42__jj-menu-item: 1px solid transparent;
+    --bd-roam42__jj-menu-item: ;
+}
 
+:root {
+    --bc-roam42__cp-menu-item--selected: var(--cl-blue-50);
+    --bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
+    --bd-roam42__cp-menu-item--selected: ;
+}
 
+:root {
+    --bt-roam42__cp-menu-item: 1px solid transparent;
+    --br-roam42__cp-menu-item: 1px solid transparent;
+    --bb-roam42__cp-menu-item: 1px solid transparent;
+    --bl-roam42__cp-menu-item: 1px solid transparent;
+    --bd-roam42__cp-menu-item: ;
+}
 
+:root {
+    --bc-roam42__cp-menu-shortcut: ;
+    --bd-roam42__cp-menu-shortcut: ;
+    --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
+}
 
+:root {
+    --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);
+    --bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --br-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bb-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bl-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
+    --bd-roam42__cp-menu-item-active--hover: ;
+}
 
 :root {
     --bc-span--highlighted: var(--cl-yellow-300);

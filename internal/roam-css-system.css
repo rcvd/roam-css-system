@@ -1431,6 +1431,7 @@ div>strong[style*='color: rgb(206, 217, 224);'] {
 .rm-command-palette__shortcut {
     background-color: var(--bc-roam42__cp-menu-shortcut, #D5DADF);
     border-radius: var(--bd-roam42__cp-menu-shortcut, 3px);
+    color: var(--co-roam42__cp-menu-shortcut, inherit);
 }
 
 .rm-command-palette__scroll-container .rm-command-palette__menu .rm-menu-item--active:hover {
