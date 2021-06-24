@@ -106,3 +106,7 @@ hr {
         filter: invert(99%) sepia(15%) saturate(6%) hue-rotate(229deg) brightness(113%) contrast(87%);
     }
 }
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 4px 0px 4px 0px;
+}
