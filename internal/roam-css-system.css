@@ -234,7 +234,7 @@ body {
 }
 
 .bp3-card,
-.rm-modal-dialog {
+:not(.rm-modal-portal--settings) .rm-modal-dialog {
     background-color: var(--bc-card, #fff);
     border-top: var(--bt-card, inherit);
     border-right: var(--br-card, inherit);
@@ -401,7 +401,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: var(--co-codeblock__variable-2, #05a);
 }
 
-.bp3-control:hover input:checked~.bp3-control-indicator {
+:not(.rm-settings-panel) .bp3-control:hover input:checked~.bp3-control-indicator {
     background-color: var(--bc-control__checked--hover, #106ba3) !important;
     border-top: var(--bt-control__checked--hover, inherit);
     border-right: var(--br-control__checked--hover, inherit);
@@ -409,13 +409,13 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     border-left: var(--bl-control__checked--hover, inherit);
 }
 
-.bp3-control input:checked~.bp3-control-indicator {
+:not(.rm-settings-panel) .bp3-control input:checked~.bp3-control-indicator {
     background-color: var(--bc-control--checked, #137cbd) !important;
     box-shadow: var(--sd-control--checked, inset 0 0 0 1px rgba(16, 22, 26, 0.4), inset 0 -1px 0 rgba(16, 22, 26, 0.2));
     -webkit-box-shadow: var(--sd-control--checked, inset 0 0 0 1px rgba(16, 22, 26, 0.4), inset 0 -1px 0 rgba(16, 22, 26, 0.2));
 }
 
-.bp3-control .bp3-control-indicator {
+:not(.rm-settings-panel) .bp3-control .bp3-control-indicator {
     background-color: var(--bc-control, #f5f8fa);
     border-radius: var(--bd-control, inherit);
     box-shadow: var(--sd-control, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
