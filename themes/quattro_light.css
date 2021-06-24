@@ -389,25 +389,6 @@
 }
 
 :root {
-    --bc-control__checked--hover: var(--cl-red-400);
-    --bt-control__checked--hover: 1px solid var(--cl-red-400);
-    --br-control__checked--hover: 1px solid var(--cl-red-400);
-    --bb-control__checked--hover: 1px solid var(--cl-red-400);
-    --bl-control__checked--hover: 1px solid var(--cl-red-400);
-}
-
-:root {
-    --bc-control--checked: var(--cl-red-500);
-    --sd-control--checked: none;
-}
-
-:root {
-    --bc-control: var(--cl-gray-50);
-    --bd-control: none;
-    --sd-control: none;
-}
-
-:root {
     --bc-datepicker__day--hover: var(--cl-red-500);
     --co-datepicker__day--hover: var(--cl-white);
 }
@@ -1023,6 +1004,26 @@
 
 :root {
     --bc-main: var(--cl-white);
+}
+
+:root {
+    --bc-main__button: var(--cl-gray-50);
+    --bt-main__button: 1px solid var(--cl-gray-100);
+    --br-main__button: 1px solid var(--cl-gray-100);
+    --bb-main__button: 1px solid var(--cl-gray-100);
+    --bl-main__button: 1px solid var(--cl-gray-100);
+    --bd-main__button: 3px;
+    --co-main__button: var(--cl-gray-900);
+}
+
+:root {
+    --bc-main__button--hover: var(--cl-blue-50);
+    --bt-main__button--hover: 1px solid var(--cl-blue-100);
+    --br-main__button--hover: 1px solid var(--cl-blue-100);
+    --bb-main__button--hover: 1px solid var(--cl-blue-100);
+    --bl-main__button--hover: 1px solid var(--cl-blue-100);
+    --bd-main__button--hover: 3px;
+    --co-main__button--hover: var(--cl-blue-900);
 }
 
 :root {

@@ -1048,6 +1048,26 @@ input[type=search] {
     background-color: var(--bc-main, inherit);
 }
 
+.roam-body-main .bp3-button:not([class*='bp3-intent-']) {
+    background-color: var(--bc-main__button, #f5f8fa);
+    border-top: var(--bt-main__button, inherit);
+    border-right: var(--br-main__button, inherit);
+    border-bottom: var(--bb-main__button, inherit);
+    border-left: var(--bl-main__button, inherit);
+    border-radius: var(--bd-main__button, inherit);
+    color: var(--co-main__button, #182026);
+}
+
+.roam-body-main .bp3-button:not([class*='bp3-intent-']):hover {
+    background-color: var(--bc-main__button--hover, inherit);
+    border-top: var(--bt-main__button--hover, inherit);
+    border-right: var(--br-main__button--hover, inherit);
+    border-bottom: var(--bb-main__button--hover, inherit);
+    border-left: var(--bl-main__button--hover, inherit);
+    border-radius: var(--bd-main__button--hover, inherit);
+    color: var(--co-main__button--hover, inherit);
+}
+
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
     background-color: var(--bc-menu__button--active, rgba(72, 176, 240, 0.5)) !important;
     border-top: var(--bt-menu__button--active, none) !important;
