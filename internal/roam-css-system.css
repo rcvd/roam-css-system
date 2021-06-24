@@ -1155,6 +1155,15 @@ input[type=search] {
     color: var(--co-mobile-bar__icon, #293742) !important;
 }
 
+.rm-modal-dialog {
+    background-color: var(--bc-modal-dialog, #fff);
+    border-top: var(--bt-modal-dialog, inherit);
+    border-right: var(--br-modal-dialog, inherit);
+    border-bottom: var(--bb-modal-dialog, inherit);
+    border-left: var(--bl-modal-dialog, inherit);
+    border-radius: var(--bd-modal-dialog, inherit);
+}
+
 .rm-multibar:hover {
     border-right: var(--br-multibar--hover, 3px solid #5C7080);
 }

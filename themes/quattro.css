@@ -2461,6 +2461,25 @@
 }
 
 :root {
+    --bc-modal-dialog: var(--cl-gray-50);
+    --bt-modal-dialog: 1px solid var(--cl-gray-100);
+    --br-modal-dialog: 1px solid var(--cl-gray-100);
+    --bb-modal-dialog: 1px solid var(--cl-gray-100);
+    --bl-modal-dialog: 1px solid var(--cl-gray-100);
+    --bd-modal-dialog: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bc-modal-dialog: var(--cl-gray-800);
+        --bt-modal-dialog: 1px solid var(--cl-gray-700);
+        --br-modal-dialog: 1px solid var(--cl-gray-700);
+        --bb-modal-dialog: 1px solid var(--cl-gray-700);
+        --bl-modal-dialog: 1px solid var(--cl-gray-700);
+    }
+}
+
+:root {
     --br-multibar--hover: 3px solid var(--cl-red-500);
 }
 

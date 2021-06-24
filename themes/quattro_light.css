@@ -1,8 +1,3 @@
-@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
-
 :root {
     --co-a--hover: var(--cl-red-500);
     --td-a--hover: underline;
@@ -1108,6 +1103,15 @@
 }
 
 :root {
+    --bc-modal-dialog: var(--cl-gray-50);
+    --bt-modal-dialog: 1px solid var(--cl-gray-100);
+    --br-modal-dialog: 1px solid var(--cl-gray-100);
+    --bb-modal-dialog: 1px solid var(--cl-gray-100);
+    --bl-modal-dialog: 1px solid var(--cl-gray-100);
+    --bd-modal-dialog: 5px;
+}
+
+:root {
     --br-multibar--hover: 3px solid var(--cl-red-500);
 }
 
@@ -1385,6 +1389,11 @@
     --bd-roam42__cp-menu-shortcut: ;
     --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
 }
+
+@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
 
 :root {
     --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);

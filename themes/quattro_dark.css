@@ -1106,6 +1106,15 @@
 }
 
 :root {
+    --bd-modal-dialog: 5px;
+    --bc-modal-dialog: var(--cl-gray-800);
+    --bt-modal-dialog: 1px solid var(--cl-gray-700);
+    --br-modal-dialog: 1px solid var(--cl-gray-700);
+    --bb-modal-dialog: 1px solid var(--cl-gray-700);
+    --bl-modal-dialog: 1px solid var(--cl-gray-700);
+}
+
+:root {
     --br-multibar--hover: 3px solid var(--cl-red-500);
 }
 
