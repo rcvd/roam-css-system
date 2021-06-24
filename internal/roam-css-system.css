@@ -233,8 +233,7 @@ body {
     color: var(--co-button, #182026);
 }
 
-.bp3-card,
-:not(.rm-modal-portal--settings) .rm-modal-dialog {
+.bp3-card {
     background-color: var(--bc-card, #fff);
     border-top: var(--bt-card, inherit);
     border-right: var(--br-card, inherit);
