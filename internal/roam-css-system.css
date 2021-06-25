@@ -1493,6 +1493,12 @@ span[style*='background-color: yellow'] {
 
 .rm-page-ref--tag,
 span[data-tag='tags'] {
+    background-color: var(--bc-tags, inherit);
+    border-top: var(--bt-tags, inherit);
+    border-right: var(--br-tags, inherit);
+    border-bottom: var(--bb-tags, inherit);
+    border-left: var(--bl-tags, inherit);
+    border-radius: var(--bd-tags, inherit);
     color: var(--co-tags, inherit);
 }
 

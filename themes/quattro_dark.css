@@ -1437,6 +1437,12 @@
 }
 
 :root {
+    --bd-tags: ;
+    --bc-tags: ;
+    --bt-tags: ;
+    --br-tags: ;
+    --bb-tags: ;
+    --bl-tags: ;
     --co-tags: var(--cl-gray-500);
 }
 
