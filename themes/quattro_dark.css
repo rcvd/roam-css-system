@@ -1447,3 +1447,26 @@
 :root {
     --co-zoom-item: var(--cl-gray-500);
 }
+
+:root {
+    --bd-zotero__page-menu: 0px;
+    --bc-zotero__page-menu: var(--cl-gray-800);
+    --bt-zotero__page-menu: 1px solid var(--cl-black);
+    --br-zotero__page-menu: 1px solid var(--cl-black);
+    --bb-zotero__page-menu: 1px solid var(--cl-black);
+    --bl-zotero__page-menu: 1px solid var(--cl-black);
+}
+
+:root {
+    --fs-zotero__sequence: ;
+    --bc-zotero__sequence: var(--cl-gray-800);
+    --br-zotero__sequence: 1px solid var(--cl-black);
+}
+
+:root {
+    --co-zotero__h5: var(--cl-gray-100);
+}
+
+:root {
+    --co-zotero__primary: var(--cl-red-500);
+}

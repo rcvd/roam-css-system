@@ -1390,11 +1390,6 @@
     --co-roam42__cp-menu-shortcut: var(--cl-gray-500);
 }
 
-@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
-
 :root {
     --bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);
     --bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);
@@ -1417,6 +1412,12 @@
     --co-starred__page--hover: var(--cl-red-500);
     --td-starred__page--hover: none;
 }
+
+@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
+
 
 :root {
     --bt-starred__page: ;
@@ -1448,4 +1449,27 @@
 
 :root {
     --co-zoom-item: var(--cl-gray-400);
+}
+
+:root {
+    --bc-zotero__page-menu: var(--cl-blue-50);
+    --bt-zotero__page-menu: 1px solid var(--cl-blue-100);
+    --br-zotero__page-menu: 1px solid var(--cl-blue-100);
+    --bb-zotero__page-menu: 1px solid var(--cl-blue-100);
+    --bl-zotero__page-menu: 1px solid var(--cl-blue-100);
+    --bd-zotero__page-menu: 0px;
+}
+
+:root {
+    --bc-zotero__sequence: var(--cl-gray-50);
+    --br-zotero__sequence: 1px solid var(--cl-gray-100);
+    --fs-zotero__sequence: ;
+}
+
+:root {
+    --co-zotero__h5: var(--cl-gray-900);
+}
+
+:root {
+    --co-zotero__primary: var(--cl-red-500);
 }
