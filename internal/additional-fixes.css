@@ -110,3 +110,9 @@ hr {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
     padding: 4px 0px 4px 0px;
 }
+
+.bp3-button {
+    padding:  7px 0px 7px 0px;
+    min-height: 25px;
+    font:  inherit;
+}

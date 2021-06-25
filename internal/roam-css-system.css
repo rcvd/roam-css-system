@@ -1048,7 +1048,7 @@ input[type=search] {
     background-color: var(--bc-main, inherit);
 }
 
-.roam-body-main .rm-xparser-default-button.bp3-button:not([class*='bp3-intent-']) {
+.rm-block-main .bp3-button:not([class*='bp3-intent-']) {
     background-color: var(--bc-main__button, #f5f8fa);
     border-top: var(--bt-main__button, inherit);
     border-right: var(--br-main__button, inherit);
@@ -1058,7 +1058,7 @@ input[type=search] {
     color: var(--co-main__button, #182026);
 }
 
-.roam-body-main .rm-xparser-default-button.bp3-button:not([class*='bp3-intent-']):hover {
+.rm-block-main .bp3-button:not([class*='bp3-intent-']):hover {
     background-color: var(--bc-main__button--hover, inherit);
     border-top: var(--bt-main__button--hover, inherit);
     border-right: var(--br-main__button--hover, inherit);
