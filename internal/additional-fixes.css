@@ -112,7 +112,7 @@ hr {
 }
 
 .bp3-button {
-    padding:  7px 0px 7px 0px;
+    padding:  0px 7px 0px 7px;
     min-height: 25px;
     font:  inherit;
 }
