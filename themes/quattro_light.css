@@ -1,3 +1,8 @@
+@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
+@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
+
 :root {
     --co-a--hover: var(--cl-red-500);
     --td-a--hover: underline;
@@ -1412,12 +1417,6 @@
     --co-starred__page--hover: var(--cl-red-500);
     --td-starred__page--hover: none;
 }
-
-@import url("https://rcvd.github.io/roam-css-system/fonts/quattro.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/colors-tailwind.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/roam-css-system.css");
-@import url("https://rcvd.github.io/roam-css-system/internal/additional-fixes.css");
-
 
 :root {
     --bt-starred__page: ;
