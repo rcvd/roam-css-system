@@ -1524,6 +1524,7 @@ span.zotero-roam-sequence {
     color: var(--co-zotero__h5, #137cbd);
 }
 
-#zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary {
+#zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary,
+#zotero-roam-portal .bp3-button.bp3-minimal.bp3-intent-primary {
     color: var(--co-zotero__primary, #106ba3);
 }
