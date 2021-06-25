@@ -116,3 +116,7 @@ hr {
     min-height: 24px;
     font:  inherit;
 }
+
+.rm-block-separator {
+    min-width: 0px;
+}
