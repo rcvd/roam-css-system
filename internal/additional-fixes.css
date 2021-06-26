@@ -132,3 +132,7 @@ hr {
 .rm-reference-container > .flex-h-box {
     align-items: center;
 }
+
+.rm-reference-container > .flex-h-box > .rm-caret {
+    margin-bottom: 2px;
+}
