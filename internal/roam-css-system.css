@@ -1502,6 +1502,10 @@ span[data-tag='tags'] {
     color: var(--co-tags, inherit);
 }
 
+::selection {
+    background-color: var(--bc-textarea__selection, inherit);
+}
+
 .rm-zoom.zoom-path-view .rm-zoom-mask {
     background-color: var(--bc-zoom__mask, white);
 }
