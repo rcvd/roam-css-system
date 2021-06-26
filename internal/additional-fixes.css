@@ -121,10 +121,10 @@ hr {
     min-width: 0px;
 }
 
-.rm-query .rm-bullet {
-    margin-top: 3px;
+.rm-bullet {
+    margin-top: 0px;
 }
 
-.rm-reference-item .rm-bullet {
-    margin-top: 0px;
+.rm-query .rm-bullet {
+    margin-top: 3px;
 }
