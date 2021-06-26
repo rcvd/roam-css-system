@@ -1446,6 +1446,16 @@
   }
 
 :root {
+  --bd-textarea__selection: 	2px;
+  --bc-textarea__selection: 	var(--cl-blue-800);
+  --bt-textarea__selection: 	1px solid var(--cl-blue-700);
+  --br-textarea__selection: 	1px solid var(--cl-blue-700);
+  --bb-textarea__selection: 	1px solid var(--cl-blue-700);
+  --bl-textarea__selection: 	1px solid var(--cl-blue-700);
+  --co-textarea__selection: 	;
+  }
+
+:root {
   --bc-zoom__mask: 	var(--cl-gray-800);
   }
 
