@@ -1,5 +1,7 @@
 a:hover,
-a:hover>span {
+a:hover>span,
+a:focus,
+a:focus>span {
     color: var(--co-a--hover, #23527c);
     text-decoration: var(--td-a--hover, underline);
 }
