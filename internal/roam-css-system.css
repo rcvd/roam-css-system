@@ -1,12 +1,14 @@
 a:hover,
 a:hover>span,
 a:focus,
-a:focus>span {
+a:focus>span,
+.rm-alias-tooltip__content .rm-alias--external:hover {
     color: var(--co-a--hover, #23527c);
     text-decoration: var(--td-a--hover, underline);
 }
 
-a {
+a,
+.rm-alias-tooltip__content .rm-alias--external {
     color: var(--co-a, #337ab7);
     text-decoration: var(--td-a, none);
 }
