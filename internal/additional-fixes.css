@@ -120,3 +120,7 @@ hr {
 .rm-block-separator {
     min-width: 0px;
 }
+
+.rm-reference-item .rm-bullet {
+    margin-top: 3px;
+}
