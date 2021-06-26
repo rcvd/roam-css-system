@@ -128,3 +128,7 @@ hr {
 .rm-query .rm-bullet {
     margin-top: 3px;
 }
+
+.rm-reference-container > .flex-h-box > .rm-caret {
+    margin-top: 3px;
+}
