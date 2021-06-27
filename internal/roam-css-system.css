@@ -861,7 +861,7 @@ hr,
 .bp3-input[type='search'],
 .bp3-input.bp3-round,
 .rm-help-search__input {
-    border-radius: var(--bd-input__search, inherit);
+    border-radius: var(--bd-input__search, 30px);
 }
 
 .bp3-input-group>.bp3-input-left-container>.bp3-icon,
@@ -1331,12 +1331,14 @@ input[type=search] {
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover,
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover span {
     color: var(--co-reference__page-title--hover, #23527c);
+    font-weight: var(--fw-reference__page-title--hover, inherit);
     text-decoration: var(--td-reference__page-title--hover, inherit) !important;
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a {
     color: var(--co-reference__page-title, #337ab7);
     font-size: var(--fs-reference__page-title, 14px);
+    font-weight: var(--fw-reference__page-title, inherit);
     text-decoration: var(--td-reference__page-title, inherit);
 }
 
