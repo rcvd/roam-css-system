@@ -284,7 +284,7 @@ body {
     border-radius: var(--bd-callout__primary, 3px);
 }
 
-.bp3-callout.bp3-intent-primary[class*=bp3-icon-]::before,
+.bp3-callout.bp3-intent-primary[class*='bp3-icon-']::before,
 .bp3-callout.bp3-intent-primary>.bp3-icon:first-child,
 .bp3-callout.bp3-intent-primary .bp3-heading {
     color: var(--co-callout__icon, #106ba3);
