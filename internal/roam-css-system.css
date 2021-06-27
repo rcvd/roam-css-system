@@ -237,6 +237,21 @@ body {
     color: var(--co-button, #182026);
 }
 
+.bp3-callout.bp3-intent-primary {
+    background-color: var(--bc-callout__primary, rgba(19, 124, 189, 0.15));
+    border-top: var(--bt-callout__primary, inherit);
+    border-right: var(--br-callout__primary, inherit);
+    border-bottom: var(--bb-callout__primary, inherit);
+    border-left: var(--bl-callout__primary, inherit);
+    border-radius: var(--bd-callout__primary, 3px);
+}
+
+.bp3-callout.bp3-intent-primary[class*=bp3-icon-]::before,
+.bp3-callout.bp3-intent-primary>.bp3-icon:first-child,
+.bp3-callout.bp3-intent-primary .bp3-heading {
+    color: var(--co-callout__icon, #106ba3);
+}
+
 .bp3-card {
     background-color: var(--bc-card, #fff);
     border-top: var(--bt-card, inherit);

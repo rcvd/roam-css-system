@@ -222,6 +222,19 @@
   }
 
 :root {
+  --bd-callout__primary: 	0px;
+  --bc-callout__primary: 	var(--cl-blue-900);
+  --bt-callout__primary: 	;
+  --br-callout__primary: 	;
+  --bb-callout__primary: 	;
+  --bl-callout__primary: 	;
+  }
+
+:root {
+  --co-callout__icon: 	var(--cl-blue-500);
+  }
+
+:root {
   --bd-card: 	0px;
   --bc-card: 	var(--cl-black);
   --bt-card: 	;
