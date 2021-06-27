@@ -971,6 +971,11 @@
   }
 
 :root {
+  --ff-log-page__h1: 	;
+  --fs-log-page__h1: 	;
+  --ft-log-page__h1: 	;
+  --fw-log-page__h1: 	;
+  --tt-log-page__h1: 	;
   --co-log-page__h1: 	var(--cl-gray-700);
   }
 
@@ -1447,6 +1452,16 @@
 
 :root {
   --bc-textarea__selection: 	var(--cl-blue-800);
+  }
+
+:root {
+  --bd-topbar__container: 	;
+  --bc-topbar__container: 	;
+  --bt-topbar__container: 	;
+  --br-topbar__container: 	;
+  --bb-topbar__container: 	;
+  --bl-topbar__container: 	;
+  --sd-topbar__container: 	;
   }
 
 :root {

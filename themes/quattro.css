@@ -2165,6 +2165,11 @@
 
 :root {
   --co-log-page__h1: 	var(--cl-gray-300);
+  --ff-log-page__h1: 	;
+  --fs-log-page__h1: 	;
+  --ft-log-page__h1: 	;
+  --fw-log-page__h1: 	;
+  --tt-log-page__h1: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3198,6 +3203,27 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-textarea__selection: 	var(--cl-blue-800);
+  }
+}
+
+:root {
+  --bc-topbar__container: 	;
+  --bt-topbar__container: 	;
+  --br-topbar__container: 	;
+  --bb-topbar__container: 	;
+  --bl-topbar__container: 	;
+  --bd-topbar__container: 	;
+  --sd-topbar__container: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-topbar__container: 	;
+    --bt-topbar__container: 	;
+    --br-topbar__container: 	;
+    --bb-topbar__container: 	;
+    --bl-topbar__container: 	;
+    --sd-topbar__container: 	;
   }
 }
 
