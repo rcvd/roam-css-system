@@ -3574,3 +3574,11 @@
   }
 }
 
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+

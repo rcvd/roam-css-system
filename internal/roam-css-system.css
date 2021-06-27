@@ -1631,3 +1631,6 @@ span.zotero-roam-sequence {
   color:  				var(--co-settings__description, #8A9BA8);
 }
 
+.check-container .checkmark:after {
+}
+
