@@ -1575,11 +1575,11 @@
   }
 
 :root {
-  --bc-settings__items--selected: 	var(--cl-blue-900);
-  --bt-settings__items--selected: 	1px solid var(--cl-blue-800);
-  --br-settings__items--selected: 	1px solid var(--cl-blue-900);
-  --bb-settings__items--selected: 	1px solid var(--cl-blue-800);
-  --bl-settings__items--selected: 	1px solid var(--cl-blue-800);
+  --bc-settings__items--selected: 	var(--cl-gray-800);
+  --bt-settings__items--selected: 	1px solid var(--cl-black);
+  --br-settings__items--selected: 	1px solid var(--cl-black);
+  --bb-settings__items--selected: 	1px solid var(--cl-black);
+  --bl-settings__items--selected: 	1px solid var(--cl-black);
   }
 
 :root {
