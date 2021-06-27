@@ -495,8 +495,8 @@
   --br-button__cancel: 	1px solid var(--cl-gray-100);
   --bb-button__cancel: 	1px solid var(--cl-gray-100);
   --bl-button__cancel: 	1px solid var(--cl-gray-100);
-  --bd-button__cancel: 	;
-  --co-button__cancel: 	var(--cl-gray-700;
+  --bd-button__cancel: 	0px;
+  --co-button__cancel: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -516,7 +516,7 @@
   --br-button__danger: 	1px solid var(--cl-red-600);
   --bb-button__danger: 	1px solid var(--cl-red-600);
   --bl-button__danger: 	1px solid var(--cl-red-600);
-  --bd-button__danger: 	;
+  --bd-button__danger: 	0px;
   --co-button__danger: 	;
 }
 
