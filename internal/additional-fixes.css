@@ -48,6 +48,7 @@ hr {
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
     padding-left: 1px;
+    margin-top: 7px;
 }
 
 .roam-block-container .rm-block-main {
