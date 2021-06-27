@@ -658,8 +658,8 @@
 
 :root {
   --bt-checkmark__mark--checked: 	0px;
-  --br-checkmark__mark--checked: 	2px solid var(--cl-gray-900);
-  --bb-checkmark__mark--checked: 	2px solid var(--cl-gray-900);
+  --br-checkmark__mark--checked: 	2px solid var(--cl-white);
+  --bb-checkmark__mark--checked: 	2px solid var(--cl-white);
   --bl-checkmark__mark--checked: 	0px;
 }
 
