@@ -1610,3 +1610,20 @@ span.zotero-roam-sequence {
   color:  				var(--co-tags--hover, inherit);
 }
 
+.rm-settings input[type='text'] {
+  background-color:  	var(--bc-settings__input, #182026);
+  border-top:  			var(--bt-settings__input, 1px #394B59 solid);
+  border-right:  		var(--br-settings__input, 1px #394B59 solid);
+  border-bottom:  		var(--bb-settings__input, 1px #394B59 solid);
+  border-left:  		var(--bl-settings__input, 1px #394B59 solid);
+  border-radius:  		var(--bd-settings__input, 5px);
+}
+
+.rm-settings input[type='text']:focus {
+  background-color:  	var(--bc-settings__input--focus, #182026);
+  border-top:  			var(--bt-settings__input--focus, inherit);
+  border-right:  		var(--br-settings__input--focus, inherit);
+  border-bottom:  		var(--bb-settings__input--focus, inherit);
+  border-left:  		var(--bl-settings__input--focus, inherit);
+}
+

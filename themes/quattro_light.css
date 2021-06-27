@@ -1598,3 +1598,20 @@
   --co-tags--hover: 	var(--cl-red-600);
 }
 
+:root {
+  --bc-settings__input: 	var(--cl-gray-50);
+  --bt-settings__input: 	1px solid var(--cl-gray-100);
+  --br-settings__input: 	1px solid var(--cl-gray-100);
+  --bb-settings__input: 	1px solid var(--cl-gray-100);
+  --bl-settings__input: 	1px solid var(--cl-gray-100);
+  --bd-settings__input: 	0px;
+}
+
+:root {
+  --bc-settings__input--focus: 	var(--cl-blue-50);
+  --bt-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --br-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --bb-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --bl-settings__input--focus: 	1px solid var(--cl-blue-100);
+}
+

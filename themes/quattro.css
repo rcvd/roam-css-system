@@ -3527,3 +3527,40 @@
   }
 }
 
+:root {
+  --bc-settings__input: 	var(--cl-gray-50);
+  --bt-settings__input: 	1px solid var(--cl-gray-100);
+  --br-settings__input: 	1px solid var(--cl-gray-100);
+  --bb-settings__input: 	1px solid var(--cl-gray-100);
+  --bl-settings__input: 	1px solid var(--cl-gray-100);
+  --bd-settings__input: 	0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__input: 	var(--cl-gray-800);
+    --bt-settings__input: 	1px solid var(--cl-black);
+    --br-settings__input: 	1px solid var(--cl-black);
+    --bb-settings__input: 	1px solid var(--cl-black);
+    --bl-settings__input: 	1px solid var(--cl-black);
+  }
+}
+
+:root {
+  --bc-settings__input--focus: 	var(--cl-blue-50);
+  --bt-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --br-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --bb-settings__input--focus: 	1px solid var(--cl-blue-100);
+  --bl-settings__input--focus: 	1px solid var(--cl-blue-100);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__input--focus: 	var(--cl-blue-900);
+    --bt-settings__input--focus: 	1px solid var(--cl-blue-800);
+    --br-settings__input--focus: 	1px solid var(--cl-blue-800);
+    --bb-settings__input--focus: 	1px solid var(--cl-blue-800);
+    --bl-settings__input--focus: 	1px solid var(--cl-blue-800);
+  }
+}
+
