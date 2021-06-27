@@ -2818,6 +2818,7 @@
 
 :root {
   --co-reference__page-title--hover: 	var(--cl-red-600);
+  --fw-reference__page-title--hover: 	;
   --td-reference__page-title--hover: 	none;
 }
 
@@ -2830,6 +2831,7 @@
 :root {
   --co-reference__page-title: 	var(--cl-red-500);
   --fs-reference__page-title: 	14px;
+  --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
 }
 

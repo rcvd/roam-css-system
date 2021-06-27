@@ -1271,12 +1271,14 @@
   }
 
 :root {
+  --fw-reference__page-title--hover: 	;
   --td-reference__page-title--hover: 	none;
   --co-reference__page-title--hover: 	var(--cl-red-400);
   }
 
 :root {
   --fs-reference__page-title: 	14px;
+  --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
   --co-reference__page-title: 	var(--cl-red-500);
   }
