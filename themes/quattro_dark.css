@@ -1601,10 +1601,10 @@
 :root {
   --bd-settings__input: 	0px;
   --bc-settings__input: 	var(--cl-gray-800);
-  --bt-settings__input: 	1px solid var(--cl-black);
-  --br-settings__input: 	1px solid var(--cl-black);
-  --bb-settings__input: 	1px solid var(--cl-black);
-  --bl-settings__input: 	1px solid var(--cl-black);
+  --bt-settings__input: 	1px solid var(--cl-gray-700);
+  --br-settings__input: 	1px solid var(--cl-gray-700);
+  --bb-settings__input: 	1px solid var(--cl-gray-700);
+  --bl-settings__input: 	1px solid var(--cl-gray-700);
   }
 
 :root {
@@ -1613,5 +1613,9 @@
   --br-settings__input--focus: 	1px solid var(--cl-blue-800);
   --bb-settings__input--focus: 	1px solid var(--cl-blue-800);
   --bl-settings__input--focus: 	1px solid var(--cl-blue-800);
+  }
+
+:root {
+  --co-settings__description: 	var(--cl-gray-500);
   }
 

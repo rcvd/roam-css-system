@@ -1627,3 +1627,7 @@ span.zotero-roam-sequence {
   border-left:  		var(--bl-settings__input--focus, inherit);
 }
 
+.rm-settings .rm-settings-panel .rm-settings-panel__description {
+  color:  				var(--co-settings__description, #8A9BA8);
+}
+

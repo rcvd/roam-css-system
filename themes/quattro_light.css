@@ -1615,3 +1615,7 @@
   --bl-settings__input--focus: 	1px solid var(--cl-blue-100);
 }
 
+:root {
+  --co-settings__description: 	var(--cl-gray-500);
+}
+
