@@ -3442,7 +3442,7 @@
 }
 
 :root {
-  --bc-settings__tab-list: 	var(--cl-gray-300);
+  --bc-settings__tab-list: 	var(--cl-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
