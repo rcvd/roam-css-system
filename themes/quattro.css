@@ -3412,3 +3412,118 @@
   }
 }
 
+:root {
+  --bd-settings__container: 	0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+:root {
+  --bc-settings__container: 	var(--cl-gray-50);
+  --bt-settings__container: 	1px solid var(--cl-gray-100);
+  --br-settings__container: 	1px solid var(--cl-gray-100);
+  --bb-settings__container: 	1px solid var(--cl-gray-100);
+  --bl-settings__container: 	1px solid var(--cl-gray-100);
+  --co-settings__container: 	var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__container: 	var(--cl-gray-800);
+    --bt-settings__container: 	1px solid var(--cl-black);
+    --br-settings__container: 	1px solid var(--cl-black);
+    --bb-settings__container: 	1px solid var(--cl-black);
+    --bl-settings__container: 	1px solid var(--cl-black);
+    --co-settings__container: 	var(--cl-white);
+  }
+}
+
+:root {
+  --bc-settings__tab-list: 	var(--cl-gray-100);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__tab-list: 	var(--cl-gray-900);
+  }
+}
+
+:root {
+  --bc-settings__items: 	;
+  --bt-settings__items: 	1px solid transparent;
+  --br-settings__items: 	1px solid transparent;
+  --bb-settings__items: 	1px solid transparent;
+  --bl-settings__items: 	1px solid transparent;
+  --co-settings__items: 	var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__items: 	;
+    --bt-settings__items: 	1px solid transparent;
+    --br-settings__items: 	1px solid transparent;
+    --bb-settings__items: 	1px solid transparent;
+    --bl-settings__items: 	1px solid transparent;
+    --co-settings__items: 	var(--cl-gray-100);
+  }
+}
+
+:root {
+  --bc-settings__items--selected: 	var(--cl-gray-50);
+  --bt-settings__items--selected: 	1px solid var(--cl-gray-100);
+  --br-settings__items--selected: 	1px solid var(--cl-gray-50);
+  --bb-settings__items--selected: 	1px solid var(--cl-gray-100);
+  --bl-settings__items--selected: 	1px solid var(--cl-gray-100);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__items--selected: 	var(--cl-blue-900);
+    --bt-settings__items--selected: 	1px solid var(--cl-blue-800);
+    --br-settings__items--selected: 	1px solid var(--cl-blue-900);
+    --bb-settings__items--selected: 	1px solid var(--cl-blue-800);
+    --bl-settings__items--selected: 	1px solid var(--cl-blue-800);
+  }
+}
+
+:root {
+  --bc-settings__items-selected--before: 	transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__items-selected--before: 	transparent;
+  }
+}
+
+:root {
+  --bc-settings__items--hover: 	var(--cl-blue-50);
+  --bt-settings__items--hover: 	1px solid var(--cl-blue-100);
+  --br-settings__items--hover: 	1px solid var(--cl-blue-50);
+  --bb-settings__items--hover: 	1px solid var(--cl-blue-100);
+  --bl-settings__items--hover: 	1px solid var(--cl-blue-100);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-settings__items--hover: 	var(--cl-blue-900);
+    --bt-settings__items--hover: 	1px solid var(--cl-blue-800);
+    --br-settings__items--hover: 	1px solid var(--cl-blue-900);
+    --bb-settings__items--hover: 	1px solid var(--cl-blue-800);
+    --bl-settings__items--hover: 	1px solid var(--cl-blue-800);
+  }
+}
+
+:root {
+  --co-tags--hover: 	var(--cl-red-600);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-tags--hover: 	var(--cl-red-400);
+  }
+}
+
