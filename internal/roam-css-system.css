@@ -237,6 +237,44 @@ body {
     color: var(--co-button, #182026);
 }
 
+.bp3-button.cancel-button {
+    background-color: var(--bc-button__cancel, inherit);
+    border-top: var(--bt-button__cancel, 1px solid #BFCCD6);
+    border-right: var(--br-button__cancel, 1px solid #BFCCD6);
+    border-bottom: var(--bb-button__cancel, 1px solid #BFCCD6);
+    border-left: var(--bl-button__cancel, 1px solid #BFCCD6);
+    border-radius: var(--bd-button__cancel, inherit);
+    color: var(--co-button__cancel, #BFCCD6);
+}
+
+.bp3-button.bp3-intent-danger {
+    background-color: var(--bc-button__danger, inherit);
+    border-top: var(--bt-button__danger, inherit);
+    border-right: var(--br-button__danger, inherit);
+    border-bottom: var(--bb-button__danger, inherit);
+    border-left: var(--bl-button__danger, inherit);
+    border-radius: var(--bd-button__danger, inherit);
+    color: var(--co-button__danger, inherit);
+}
+
+.bp3-button.cancel-button:hover {
+    background-color: var(--bc-button__cancel--hover, inherit);
+    border-top: var(--bt-button__cancel--hover, inherit);
+    border-right: var(--br-button__cancel--hover, inherit);
+    border-bottom: var(--bb-button__cancel--hover, inherit);
+    border-left: var(--bl-button__cancel--hover, inherit);
+    color: var(--co-button__cancel--hover, inherit);
+}
+
+.bp3-button.bp3-intent-danger:hover {
+    background-color: var(--bc-button__danger--hover, inherit);
+    border-top: var(--bt-button__danger--hover, inherit);
+    border-right: var(--br-button__danger--hover, inherit);
+    border-bottom: var(--bb-button__danger--hover, inherit);
+    border-left: var(--bl-button__danger--hover, inherit);
+    color: var(--co-button__danger--hover, inherit);
+}
+
 .bp3-callout.bp3-intent-primary {
     background-color: var(--bc-callout__primary, rgba(19, 124, 189, 0.15));
     border-top: var(--bt-callout__primary, inherit);

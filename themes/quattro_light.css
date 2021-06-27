@@ -222,6 +222,44 @@
 }
 
 :root {
+  --bc-button__cancel: 	var(--cl-gray-50);
+  --bt-button__cancel: 	1px solid var(--cl-gray-100);
+  --br-button__cancel: 	1px solid var(--cl-gray-100);
+  --bb-button__cancel: 	1px solid var(--cl-gray-100);
+  --bl-button__cancel: 	1px solid var(--cl-gray-100);
+  --bd-button__cancel: 	;
+  --co-button__cancel: 	var(--cl-gray-700;
+}
+
+:root {
+  --bc-button__danger: 	var(--cl-red-500);
+  --bt-button__danger: 	1px solid var(--cl-red-600);
+  --br-button__danger: 	1px solid var(--cl-red-600);
+  --bb-button__danger: 	1px solid var(--cl-red-600);
+  --bl-button__danger: 	1px solid var(--cl-red-600);
+  --bd-button__danger: 	;
+  --co-button__danger: 	;
+}
+
+:root {
+  --bc-button__cancel--hover: 	var(--cl-gray-100);
+  --bt-button__cancel--hover: 	1px solid var(--cl-gray-200);
+  --br-button__cancel--hover: 	1px solid var(--cl-gray-200);
+  --bb-button__cancel--hover: 	1px solid var(--cl-gray-200);
+  --bl-button__cancel--hover: 	1px solid var(--cl-gray-200);
+  --co-button__cancel--hover: 	var(--cl-gray-900);
+}
+
+:root {
+  --bc-button__danger--hover: 	var(--cl-red-600);
+  --bt-button__danger--hover: 	1px solid var(--cl-red-700);
+  --br-button__danger--hover: 	1px solid var(--cl-red-700);
+  --bb-button__danger--hover: 	1px solid var(--cl-red-700);
+  --bl-button__danger--hover: 	1px solid var(--cl-red-700);
+  --co-button__danger--hover: 	var(--cl-white);
+}
+
+:root {
   --bc-callout__primary: 	var(--cl-blue-100);
   --bt-callout__primary: 	;
   --br-callout__primary: 	;
@@ -1128,7 +1166,7 @@
   --br-modal-dialog: 	1px solid var(--cl-gray-100);
   --bb-modal-dialog: 	1px solid var(--cl-gray-100);
   --bl-modal-dialog: 	1px solid var(--cl-gray-100);
-  --bd-modal-dialog: 	5px;
+  --bd-modal-dialog: 	0px;
 }
 
 :root {
