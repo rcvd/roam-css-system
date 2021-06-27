@@ -1620,5 +1620,9 @@
 }
 
 :root {
+  --bt-checkmark__mark--checked: 	0px;
+  --br-checkmark__mark--checked: 	2px solid var(--cl-gray-900);
+  --bb-checkmark__mark--checked: 	2px solid var(--cl-gray-900);
+  --bl-checkmark__mark--checked: 	0px;
 }
 

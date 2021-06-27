@@ -1632,5 +1632,9 @@ span.zotero-roam-sequence {
 }
 
 .check-container .checkmark:after {
+  border-top:  			var(--bt-checkmark__mark--checked, 0px);
+  border-right:  		var(--br-checkmark__mark--checked, 2px solid white);
+  border-bottom:  		var(--bb-checkmark__mark--checked, 2px solid white);
+  border-left:  		var(--bl-checkmark__mark--checked, 0px);
 }
 
