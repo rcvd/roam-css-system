@@ -75,7 +75,7 @@ hr {
     margin-left: 16px;
 }
 
-.bp3-button:not([class*="bp3-intent-"]) {
+.bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
 }
 
