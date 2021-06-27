@@ -1020,6 +1020,11 @@ input[type=search] {
 
 .rm-article-wrapper .roam-log-container .roam-log-preview h1 {
     color: var(--co-log-page__h1, #8A9BA8);
+    font-family: var(--ff-log-page__h1, inherit);
+    font-size: var(--fs-log-page__h1, inherit);
+    font-style: var(--ft-log-page__h1, inherit);
+    font-weight: var(--fw-log-page__h1, inherit);
+    text-transform: var(--tt-log-page__h1, inherit);
 }
 
 .rm-article-wrapper .roam-log-container .roam-log-preview {
@@ -1508,6 +1513,17 @@ span[data-tag='tags'] {
 
 ::selection {
     background-color: var(--bc-textarea__selection, inherit);
+}
+
+.rm-topbar {
+    background-color: var(--bc-topbar__container, inherit);
+    border-top: var(--bt-topbar__container, inherit);
+    border-right: var(--br-topbar__container, inherit);
+    border-bottom: var(--bb-topbar__container, inherit);
+    border-left: var(--bl-topbar__container, inherit);
+    border-radius: var(--bd-topbar__container, inherit);
+    box-shadow: var(--sd-topbar__container, inherit);
+    -webkit-box-shadow: var(--sd-topbar__container, inherit);
 }
 
 .rm-zoom.zoom-path-view .rm-zoom-mask {
