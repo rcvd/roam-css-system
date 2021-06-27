@@ -972,7 +972,7 @@
 
 :root {
   --ff-log-page__h1: 	;
-  --fs-log-page__h1: 	;
+  --fs-log-page__h1: 	1.4em;
   --ft-log-page__h1: 	;
   --fw-log-page__h1: 	;
   --tt-log-page__h1: 	;
