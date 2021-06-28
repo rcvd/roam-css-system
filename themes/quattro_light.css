@@ -148,15 +148,15 @@
 }
 
 :root {
-  --bc-block-highlight--blue: 	var(--cl-blue-300);
+  --bc-block-highlight--blue: 	var(--cl-blue-100);
 }
 
 :root {
-  --bc-block-highlight--grey: 	var(--cl-gray-300);
+  --bc-block-highlight--grey: 	var(--cl-gray-100);
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-yellow-300);
+  --bc-block-highlight--yellow: 	var(--cl-yellow-100);
 }
 
 :root {
