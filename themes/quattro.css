@@ -479,6 +479,7 @@
   --bc-button: 	transparent;
   --sd-button: 	none;
   --co-button: 	var(--cl-gray-900);
+  --ff-button: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1997,6 +1998,7 @@
 
 :root {
   --co-input__search-placeholder: 	var(--cl-gray-400);
+  --ff-input__search-placeholder: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2035,6 +2037,7 @@
   --bd-input: 	0px;
   --sd-input: 	none;
   --co-input: 	var(--cl-gray-900);
+  --ff-input: 	;
   --fs-input: 	1em;
   --fw-input: 	normal;
 }

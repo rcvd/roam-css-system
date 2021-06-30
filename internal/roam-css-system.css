@@ -221,6 +221,7 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   box-shadow:  			var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
   -webkit-box-shadow:  	var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
   color:  				var(--co-button, #182026);
+  font-family:  		var(--ff-button, inherit);
 }
 
 .bp3-button.cancel-button {
@@ -899,6 +900,7 @@ div, textarea {
 
 .bp3-input[type='search']::placeholder, .bp3-input.bp3-round::placeholder {
   color:  				var(--co-input__search-placeholder, #424D57);
+  font-family:  		var(--ff-input__search-placeholder, inherit);
 }
 
 .bp3-input:focus, .bp3-input:active, .rm-pages-toolbar .toolbar-search-group .search-input.focused, input[type=search]:focus, input[type=search]:active {
@@ -922,6 +924,7 @@ div, textarea {
   box-shadow:  			var(--sd-input, 0 0 0 0 rgb(19 124 189 / 0%), 0 0 0 0 rgb(19 124 189 / 0%), inset 0 0 0 1px rgb(16 22 26 / 15%), inset 0 1px 1px rgb(16 22 26 / 20%));
   -webkit-box-shadow:  	var(--sd-input, 0 0 0 0 rgb(19 124 189 / 0%), 0 0 0 0 rgb(19 124 189 / 0%), inset 0 0 0 1px rgb(16 22 26 / 15%), inset 0 1px 1px rgb(16 22 26 / 20%));
   color:  				var(--co-input, #182026);
+  font-family:  		var(--ff-input, inherit);
   font-size:  			var(--fs-input, 14px);
   font-weight:  		var(--fw-input, 400);
 }

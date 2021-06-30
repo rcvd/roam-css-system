@@ -216,6 +216,7 @@
   }
 
 :root {
+  --ff-button: 	;
   --bc-button: 	transparent;
   --sd-button: 	none;
   --co-button: 	var(--cl-gray-100);
@@ -891,6 +892,7 @@
   }
 
 :root {
+  --ff-input__search-placeholder: 	;
   --co-input__search-placeholder: 	var(--cl-gray-500);
   }
 
@@ -906,6 +908,7 @@
 
 :root {
   --bd-input: 	0px;
+  --ff-input: 	;
   --fs-input: 	1em;
   --fw-input: 	normal;
   --bc-input: 	var(--cl-gray-900);
