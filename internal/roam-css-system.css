@@ -1560,7 +1560,7 @@ span[style*='background-color: yellow'] {
   background-color:  	var(--bc-span--highlighted, yellow)!important;
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page .bp3-icon-star {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .bp3-icon-star {
   color:  				var(--co-starred__icon, inherit);
 }
 
