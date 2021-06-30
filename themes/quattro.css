@@ -2175,6 +2175,7 @@
 
 :root {
   --co-left-sidebar__db-title: 	var(--cl-gray-700);
+  --ff-left-sidebar__db-title: 	;
   --fw-left-sidebar__db-title: 	normal;
 }
 
@@ -2348,6 +2349,7 @@
 
 :root {
   --co-logbutton: 	var(--cl-gray-700);
+  --ff-logbutton: 	;
   --fs-logbutton: 	1em;
   --fw-logbutton: 	normal;
   --tt-logbutton: 	normal;
@@ -3426,6 +3428,7 @@
   --bb-starred__page: 	;
   --bl-starred__page: 	;
   --co-starred__page: 	var(--cl-gray-700);
+  --ff-starred__page: 	;
   --fs-starred__page: 	1em;
   --ft-starred__page: 	;
   --fw-starred__page: 	;
@@ -3444,6 +3447,7 @@
 
 :root {
   --co-starred__title: 	var(--cl-gray-700);
+  --ff-starred__title: 	;
   --fs-starred__title: 	1em;
   --ft-starred__title: 	;
   --fw-starred__title: 	;

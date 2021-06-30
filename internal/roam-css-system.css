@@ -981,6 +981,7 @@ div, textarea {
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title {
   color:  				var(--co-left-sidebar__db-title, #CED9E0);
+  font-family:  		var(--ff-left-sidebar__db-title, inherit);
   font-weight:  		var(--fw-left-sidebar__db-title, 600);
 }
 
@@ -1066,6 +1067,7 @@ div, textarea {
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
   color:  				var(--co-logbutton, hsl(204,20%,45%));
+  font-family:  		var(--ff-logbutton, inherit);
   font-size:  			var(--fs-logbutton, 16px);
   font-weight:  		var(--fw-logbutton, 500);
   text-transform:  		var(--tt-logbutton, inherit);
@@ -1564,6 +1566,7 @@ span[style*='background-color: yellow'] {
   border-bottom:  		var(--bb-starred__page, inherit);
   border-left:  		var(--bl-starred__page, inherit);
   color:  				var(--co-starred__page, hsl(204,20%,45%));
+  font-family:  		var(--ff-starred__page, inherit);
   font-size:  			var(--fs-starred__page, 14px);
   font-style:  			var(--ft-starred__page, inherit);
   font-weight:  		var(--fw-starred__page, inherit);
@@ -1572,6 +1575,7 @@ span[style*='background-color: yellow'] {
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
   color:  				var(--co-starred__title, rgba(var(--color), .7));
+  font-family:  		var(--ff-starred__title, inherit);
   font-size:  			var(--fs-starred__title, 13px);
   font-style:  			var(--ft-starred__title, inherit);
   font-weight:  		var(--fw-starred__title, inherit);
