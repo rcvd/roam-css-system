@@ -2938,6 +2938,7 @@
 
 :root {
   --co-reference__linked-litle: 	var(--cl-gray-500);
+  --ff-reference__linked-litle: 	;
   --fs-reference__linked-litle: 	1em;
   --ft-reference__linked-litle: 	italic;
   --fw-reference__linked-litle: 	normal;
@@ -2976,6 +2977,7 @@
 
 :root {
   --co-reference__unlinked-title: 	var(--cl-gray-500);
+  --ff-reference__unlinked-title: 	;
   --fs-reference__unlinked-title: 	1em;
   --ft-reference__unlinked-title: 	italic;
   --fw-reference__unlinked-title: 	normal;

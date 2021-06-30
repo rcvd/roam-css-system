@@ -1340,6 +1340,7 @@ div, textarea {
 
 .rm-reference-container div[style*='color: rgb(206, 217, 224);'] strong {
   color:  				var(--co-reference__linked-litle, rgb(206, 217, 224));
+  font-family:  		var(--ff-reference__linked-litle, inherit);
   font-size:  			var(--fs-reference__linked-litle, inherit);
   font-style:  			var(--ft-reference__linked-litle, inherit);
   font-weight:  		var(--fw-reference__linked-litle, inherit);
@@ -1360,6 +1361,7 @@ div, textarea {
 
 div > strong[style*='color: rgb(206, 217, 224);'] {
   color:  				var(--co-reference__unlinked-title, inherit)!important;
+  font-family:  		var(--ff-reference__unlinked-title, inherit);
   font-size:  			var(--fs-reference__unlinked-title, inherit);
   font-style:  			var(--ft-reference__unlinked-title, inherit);
   font-weight:  		var(--fw-reference__unlinked-title, inherit);
