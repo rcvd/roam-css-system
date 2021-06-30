@@ -512,6 +512,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border-bottom:  		var(--bb-datepicker, inherit);
   border-left:  		var(--bl-datepicker, inherit);
   border-radius:  		var(--bd-datepicker, 3px);
+  color:  				var(--co-datepicker, inherit);
 }
 
 .bp3-heading {
