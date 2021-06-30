@@ -1319,6 +1319,11 @@
   }
 
 :root {
+  --td-reference__item--hover: 	;
+  --co-reference__item--hover: 	;
+  }
+
+:root {
   --bd-reference__item: 	;
   --bc-reference__item: 	var(--cl-gray-800);
   --bt-reference__item: 	1px solid var(--cl-black);
@@ -1328,22 +1333,11 @@
   }
 
 :root {
-  --td-reference__linked-title--hover: 	;
-  --co-reference__linked-title--hover: 	;
-  }
-
-:root {
   --ff-reference__linked-title: 	;
   --fs-reference__linked-title: 	1em;
   --ft-reference__linked-title: 	italic;
   --fw-reference__linked-title: 	normal;
   --co-reference__linked-title: 	var(--cl-gray-500);
-  }
-
-:root {
-  --fw-reference__page-title--hover: 	;
-  --td-reference__page-title--hover: 	none;
-  --co-reference__page-title--hover: 	var(--cl-red-400);
   }
 
 :root {

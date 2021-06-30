@@ -1329,6 +1329,11 @@ div, textarea {
   color:  				var(--co-ref-count--active, #8A9BA8);
 }
 
+.rm-reference-item:hover {
+  color:  				var(--co-reference__item--hover, inherit);
+  text-decoration:  	var(--td-reference__item--hover, inherit);
+}
+
 .rm-reference-item {
   background-color:  	var(--bc-reference__item, hsl(204,33%,97%));
   border-top:  			var(--bt-reference__item, inherit);
@@ -1338,23 +1343,12 @@ div, textarea {
   border-radius:  		var(--bd-reference__item, inherit);
 }
 
-.rm-reference-container div[style*='color: rgb(206, 217, 224);']:hover strong {
-  color:  				var(--co-reference__linked-title--hover, inherit);
-  text-decoration:  	var(--td-reference__linked-title--hover, inherit);
-}
-
 .rm-reference-container div[style*='color: rgb(206, 217, 224);'] strong {
   color:  				var(--co-reference__linked-title, rgb(206, 217, 224));
   font-family:  		var(--ff-reference__linked-title, inherit);
   font-size:  			var(--fs-reference__linked-title, inherit);
   font-style:  			var(--ft-reference__linked-title, inherit);
   font-weight:  		var(--fw-reference__linked-title, inherit);
-}
-
-.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover, .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover span {
-  color:  				var(--co-reference__page-title--hover, #23527c);
-  font-weight:  		var(--fw-reference__page-title--hover, inherit);
-  text-decoration:  	var(--td-reference__page-title--hover, inherit)!important;
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a {
