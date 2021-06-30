@@ -982,6 +982,7 @@ div, textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title {
   color:  				var(--co-left-sidebar__db-title, #CED9E0);
   font-family:  		var(--ff-left-sidebar__db-title, inherit);
+  font-size:  			var(--fs-left-sidebar__db-title, inherit);
   font-weight:  		var(--fw-left-sidebar__db-title, 600);
 }
 
@@ -1065,7 +1066,7 @@ div, textarea {
   text-decoration:  	var(--td-logbutton--hover, inherit)!important;
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button div {
   color:  				var(--co-logbutton, hsl(204,20%,45%));
   font-family:  		var(--ff-logbutton, inherit);
   font-size:  			var(--fs-logbutton, 16px);
