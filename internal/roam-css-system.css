@@ -1560,6 +1560,10 @@ span[style*='background-color: yellow'] {
   background-color:  	var(--bc-span--highlighted, yellow)!important;
 }
 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page .bp3-icon-star {
+  color:  				var(--co-starred__icon, inherit);
+}
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages a:hover {
   background-color:  	var(--bc-starred__page--hover, inherit);
   border-top:  			var(--bt-starred__page--hover, inherit);

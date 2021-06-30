@@ -1550,6 +1550,10 @@
 }
 
 :root {
+  --co-starred__icon: 	;
+}
+
+:root {
   --bc-starred__page--hover: 	;
   --bt-starred__page--hover: 	;
   --br-starred__page--hover: 	;
