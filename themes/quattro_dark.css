@@ -504,12 +504,12 @@
 
 :root {
   --bd-datepicker: 	0px;
+  --ff-datepicker: 	;
   --bc-datepicker: 	var(--cl-black);
   --bt-datepicker: 	1px solid var(--cl-gray-900);
   --br-datepicker: 	1px solid var(--cl-gray-900);
   --bb-datepicker: 	1px solid var(--cl-gray-900);
   --bl-datepicker: 	1px solid var(--cl-gray-900);
-  --co-datepicker: 	;
   }
 
 :root {
