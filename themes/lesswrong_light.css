@@ -371,7 +371,7 @@
   --br-codeblock__gutters: 	2px solid var(--cl-white);
   --bb-codeblock__gutters: 	;
   --bl-codeblock__gutters: 	;
-  --ff-codeblock__gutters: 	'iA Writer Mono S';
+  --ff-codeblock__gutters: 	'Source Code Pro';
   --fs-codeblock__gutters: 	;
   --ft-codeblock__gutters: 	;
   --fw-codeblock__gutters: 	;
@@ -498,7 +498,7 @@
 :root {
   --br-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
   --co-datepicker__weeknumber: 	var(--cl-gray-500);
-  --ff-datepicker__weeknumber: 	'iA Writer Quattro S';
+  --ff-datepicker__weeknumber: 	'Source Sans Pro';
   --fs-datepicker__weeknumber: 	1em;
 }
 
@@ -540,7 +540,7 @@
 }
 
 :root {
-  --ff-div: 	'iA Writer Quattro S';
+  --ff-div: 	'Source Sans Pro';
   --fs-div: 	1em;
 }
 
@@ -667,7 +667,7 @@
   --bl-emoji-mart: 	1px solid var(--cl-gray-100);
   --bd-emoji-mart: 	;
   --co-emoji-mart: 	var(--cl-gray-900);
-  --ff-emoji-mart: 	'iA Writer Quattro S';
+  --ff-emoji-mart: 	'Source Sans Pro';
   --fs-emoji-mart: 	1em;
 }
 
@@ -1013,7 +1013,7 @@
 
 :root {
   --co-level1: 	;
-  --ff-level1: 	'iA Writer Quattro S';
+  --ff-level1: 	'Source Serif Pro';
   --fs-level1: 	1.4em;
   --ft-level1: 	;
   --fw-level1: 	600;
@@ -1022,7 +1022,7 @@
 
 :root {
   --co-level2: 	;
-  --ff-level2: 	'iA Writer Quattro S';
+  --ff-level2: 	'Source Serif Pro';
   --fs-level2: 	1.2em;
   --ft-level2: 	;
   --fw-level2: 	600;
@@ -1031,7 +1031,7 @@
 
 :root {
   --co-level3: 	;
-  --ff-level3: 	'iA Writer Quattro S';
+  --ff-level3: 	'Source Serif Pro';
   --fs-level3: 	1em;
   --ft-level3: 	;
   --fw-level3: 	600;
@@ -1099,7 +1099,7 @@
 
 :root {
   --co-main: 	;
-  --ff-main: 	;
+  --ff-main: 	'Source Serif Pro';
   --fs-main: 	;
 }
 
@@ -1213,7 +1213,7 @@
 
 :root {
   --co-page__title: 	var(--cl-gray-900);
-  --ff-page__title: 	'iA Writer Quattro S';
+  --ff-page__title: 	'Source Serif Pro';
   --fs-page__title: 	20px;
   --ft-page__title: 	;
   --fw-page__title: 	normal;
