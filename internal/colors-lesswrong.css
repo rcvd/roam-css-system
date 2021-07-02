@@ -1,9 +1,9 @@
 :root {
     --cl-white: #ffffff;
     --cl-black: #000000;
-    --cl-gray-50: hsl(0,0%,95%);
-    --cl-gray-100: hsl(0,0%,90%);
-    --cl-gray-200: hsl(0,0%,80%);
+    --cl-gray-50: hsl(0,0%,97%);
+    --cl-gray-100: hsl(0,0%,92%);
+    --cl-gray-200: hsl(0,0%,81%);
     --cl-gray-300: hsl(0,0%,70%);
     --cl-gray-400: hsl(0,0%,60%);
     --cl-gray-500: hsl(0,0%,50%);
@@ -31,9 +31,9 @@
     --cl-yellow-700: #b45309;
     --cl-yellow-800: #92400e;
     --cl-yellow-900: #78350f;
-    --cl-green-50: hsl(126,24%,95%);
-    --cl-green-100: hsl(126,24%,90%);
-    --cl-green-200: hsl(126,24%,80%);
+    --cl-green-50: hsl(126,24%,97%);
+    --cl-green-100: hsl(126,24%,92%);
+    --cl-green-200: hsl(126,24%,81%);
     --cl-green-300: hsl(126,24%,70%);
     --cl-green-400: hsl(126,24%,60%);
     --cl-green-500: hsl(126,24%,50%);
