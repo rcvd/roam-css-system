@@ -2976,6 +2976,7 @@
   --fs-reference__linked-title: 	1em;
   --ft-reference__linked-title: 	italic;
   --fw-reference__linked-title: 	normal;
+  --tt-reference__linked-title: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3014,6 +3015,7 @@
   --fs-reference__unlinked-title: 	1em;
   --ft-reference__unlinked-title: 	italic;
   --fw-reference__unlinked-title: 	normal;
+  --tt-reference__unlinked-title: 	;
 }
 
 @media (prefers-color-scheme: dark) {

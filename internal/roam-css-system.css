@@ -1360,6 +1360,7 @@ div, textarea {
   font-size:  			var(--fs-reference__linked-title, inherit);
   font-style:  			var(--ft-reference__linked-title, inherit);
   font-weight:  		var(--fw-reference__linked-title, inherit);
+  text-transform:  		var(--tt-reference__linked-title, inherit);
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a {
@@ -1380,6 +1381,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
   font-size:  			var(--fs-reference__unlinked-title, inherit);
   font-style:  			var(--ft-reference__unlinked-title, inherit);
   font-weight:  		var(--fw-reference__unlinked-title, inherit);
+  text-transform:  		var(--tt-reference__unlinked-title, inherit);
 }
 
 .sidebar-content .rm-bullet.rm-bullet--closed .rm-bullet__inner {

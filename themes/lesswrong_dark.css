@@ -1349,6 +1349,7 @@
   --fs-reference__linked-title: 	1em;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
+  --tt-reference__linked-title: 	uppercase;
 }
 
 :root {
@@ -1367,8 +1368,9 @@
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	'Source Sans Pro';
   --fs-reference__unlinked-title: 	1em;
-  --ft-reference__unlinked-title: 	italic;
+  --ft-reference__unlinked-title: 	normal;
   --fw-reference__unlinked-title: 	normal;
+  --tt-reference__unlinked-title: 	uppercase;
 }
 
 :root {
