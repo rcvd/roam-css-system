@@ -1064,7 +1064,7 @@ div, textarea {
   border-top:  			var(--bt-log-page, 1px solid #738694);
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover .icon {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover .icon, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover div {
   background-color:  	var(--bc-logbutton--hover, #10161A);
   border-top:  			var(--bt-logbutton--hover, inherit);
   border-right:  		var(--br-logbutton--hover, inherit);

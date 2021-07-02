@@ -1061,7 +1061,7 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	var(--cl-green-500);
+  --co-logbutton--hover: 	var(--cl-gray-300);
   --td-logbutton--hover: 	;
 }
 
