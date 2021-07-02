@@ -1391,7 +1391,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
   border-left:  		var(--bl-right-sidebar__bullet-closed, 4px solid #BFCCD6);
 }
 
-#right-sidebar {
+.rm-sidebar-outline div, .rm-sidebar-outline textarea  {
   background-color:  	var(--bc-right-sidebar__container, rgba(92,112,128,0.05));
   border-left:  		var(--bl-right-sidebar__container, inherit);
 }
