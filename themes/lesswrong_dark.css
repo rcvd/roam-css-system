@@ -1131,7 +1131,7 @@
   --br-menu__item--hover: 	1px solid var(--cl-blue-800);
   --bb-menu__item--hover: 	1px solid var(--cl-blue-800);
   --bl-menu__item--hover: 	1px solid var(--cl-blue-800);
-  --bd-menu__item--hover: 	0px;
+  --bd-menu__item--hover: 	3px;
   --co-menu__item--hover: 	var(--cl-white);
 }
 
@@ -1140,7 +1140,7 @@
   --br-menu__item: 	1px solid transparent;
   --bb-menu__item: 	1px solid transparent;
   --bl-menu__item: 	1px solid transparent;
-  --bd-menu__item: 	0px;
+  --bd-menu__item: 	3px;
   --co-menu__item: 	var(--cl-gray-100);
 }
 

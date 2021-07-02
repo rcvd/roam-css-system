@@ -1126,21 +1126,21 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-gray-50);
-  --bt-menu__item--hover: 	1px solid var(--cl-gray-100);
-  --br-menu__item--hover: 	1px solid var(--cl-gray-100);
-  --bb-menu__item--hover: 	1px solid var(--cl-gray-100);
-  --bl-menu__item--hover: 	1px solid var(--cl-gray-100);
-  --bd-menu__item--hover: 	0px;
+  --bc-menu__item--hover: 	var(--cl-gray-300);
+  --bt-menu__item--hover: 	;
+  --br-menu__item--hover: 	;
+  --bb-menu__item--hover: 	;
+  --bl-menu__item--hover: 	;
+  --bd-menu__item--hover: 	3px;
   --co-menu__item--hover: 	var(--cl-gray-900);
 }
 
 :root {
-  --bt-menu__item: 	1px solid transparent;
-  --br-menu__item: 	1px solid transparent;
-  --bb-menu__item: 	1px solid transparent;
-  --bl-menu__item: 	1px solid transparent;
-  --bd-menu__item: 	0px;
+  --bt-menu__item: 	;
+  --br-menu__item: 	;
+  --bb-menu__item: 	;
+  --bl-menu__item: 	;
+  --bd-menu__item: 	3px;
   --co-menu__item: 	var(--cl-gray-900);
 }
 
