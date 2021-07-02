@@ -14,7 +14,7 @@
 }
 
 :root {
-  --co-a: 	var(--cl-green-600);
+  --co-a: 	var(--cl-green-400);
   --td-a: 	underline;
 }
 
@@ -1000,7 +1000,7 @@
 }
 
 :root {
-  --bc-datepicker__day--hover: 	var(--cl-red-500);
+  --bc-datepicker__day--hover: 	var(--cl-green-500);
   --co-datepicker__day--hover: 	var(--cl-white);
 }
 
@@ -1012,7 +1012,7 @@
 }
 
 :root {
-  --bc-datepicker__day--selected: 	var(--cl-red-600);
+  --bc-datepicker__day--selected: 	var(--cl-green-400);
   --co-datepicker__day--selected: 	var(--cl-white);
 }
 
@@ -1024,7 +1024,7 @@
 }
 
 :root {
-  --bc-datepicker__day-selected--hover: 	var(--cl-red-600);
+  --bc-datepicker__day-selected--hover: 	var(--cl-green-400);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2664,7 +2664,7 @@
 }
 
 :root {
-  --co-page__link--hover: 	var(--cl-green-600);
+  --co-page__link--hover: 	var(--cl-green-400);
   --td-page__link--hover: 	none;
 }
 
@@ -2972,9 +2972,9 @@
 
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
-  --ff-reference__linked-title: 	;
+  --ff-reference__linked-title: 	'Source Sans Pro';
   --fs-reference__linked-title: 	1em;
-  --ft-reference__linked-title: 	italic;
+  --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
 }
 
@@ -3010,7 +3010,7 @@
 
 :root {
   --co-reference__unlinked-title: 	var(--cl-gray-500);
-  --ff-reference__unlinked-title: 	;
+  --ff-reference__unlinked-title: 	'Source Sans Pro';
   --fs-reference__unlinked-title: 	1em;
   --ft-reference__unlinked-title: 	italic;
   --fw-reference__unlinked-title: 	normal;
