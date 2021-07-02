@@ -1154,7 +1154,7 @@
 }
 
 :root {
-  --co-menu__item-primary: 	var(--cl-blue-500);
+  --co-menu__item-primary: 	var(--cl-green-500);
 }
 
 :root {
@@ -1576,7 +1576,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	var(--cl-red-500);
+  --co-starred__page--hover: 	var(--cl-gray-300);
   --td-starred__page--hover: 	none;
 }
 
