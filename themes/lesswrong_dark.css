@@ -564,7 +564,8 @@
   --br-elevation__item--selected: 	1px solid var(--cl-blue-800);
   --bb-elevation__item--selected: 	1px solid var(--cl-blue-800);
   --bl-elevation__item--selected: 	1px solid var(--cl-blue-800);
-  --bd-elevation__item--selected: 	;
+  --bd-elevation__item--selected: 	3px;
+  --co-elevation__item--selected: 	;
 }
 
 :root {

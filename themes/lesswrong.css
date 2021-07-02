@@ -1249,12 +1249,13 @@
 }
 
 :root {
-  --bc-elevation__item--selected: 	var(--cl-gray-50);
-  --bt-elevation__item--selected: 	1px solid var(--cl-gray-100);
-  --br-elevation__item--selected: 	1px solid var(--cl-gray-100);
-  --bb-elevation__item--selected: 	1px solid var(--cl-gray-100);
-  --bl-elevation__item--selected: 	1px solid var(--cl-gray-100);
-  --bd-elevation__item--selected: 	;
+  --bc-elevation__item--selected: 	var(--cl-gray-500);
+  --bt-elevation__item--selected: 	;
+  --br-elevation__item--selected: 	;
+  --bb-elevation__item--selected: 	;
+  --bl-elevation__item--selected: 	;
+  --bd-elevation__item--selected: 	3px;
+  --co-elevation__item--selected: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1264,6 +1265,7 @@
     --br-elevation__item--selected: 	1px solid var(--cl-blue-800);
     --bb-elevation__item--selected: 	1px solid var(--cl-blue-800);
     --bl-elevation__item--selected: 	1px solid var(--cl-blue-800);
+    --co-elevation__item--selected: 	;
   }
 }
 
@@ -2489,13 +2491,13 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-gray-300);
+  --bc-menu__item--hover: 	var(--cl-gray-500);
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
   --bd-menu__item--hover: 	3px;
-  --co-menu__item--hover: 	var(--cl-gray-900);
+  --co-menu__item--hover: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2560,7 +2562,7 @@
 }
 
 :root {
-  --bc-menu__menu-item--active: 	var(--cl-blue-500);
+  --bc-menu__menu-item--active: 	var(--cl-green-300);
   --co-menu__menu-item--active: 	var(--cl-white);
 }
 

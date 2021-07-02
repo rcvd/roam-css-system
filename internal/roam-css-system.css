@@ -571,6 +571,7 @@ div, textarea {
   border-bottom:  		var(--bb-elevation__item--selected, inherit);
   border-left:  		var(--bl-elevation__item--selected, inherit);
   border-radius:  		var(--bd-elevation__item--selected, inherit);
+  color:  				var(--co-elevation__item--selected, inherit);
 }
 
 .bp3-elevation-3 .dont-unfocus-block {

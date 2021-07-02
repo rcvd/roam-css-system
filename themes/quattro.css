@@ -1255,6 +1255,7 @@
   --bb-elevation__item--selected: 	1px solid var(--cl-blue-100);
   --bl-elevation__item--selected: 	1px solid var(--cl-blue-100);
   --bd-elevation__item--selected: 	;
+  --co-elevation__item--selected: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1264,6 +1265,7 @@
     --br-elevation__item--selected: 	1px solid var(--cl-blue-800);
     --bb-elevation__item--selected: 	1px solid var(--cl-blue-800);
     --bl-elevation__item--selected: 	1px solid var(--cl-blue-800);
+    --co-elevation__item--selected: 	;
   }
 }
 
