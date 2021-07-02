@@ -1638,7 +1638,7 @@
   --bc-topbar__container: 	;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;
-  --bb-topbar__container: 	;
+  --bb-topbar__container: 	1px solid var(--cl-gray-100);
   --bl-topbar__container: 	;
   --bd-topbar__container: 	;
   --sd-topbar__container: 	;
