@@ -697,6 +697,10 @@ div, textarea {
   border-left:  		var(--bl-find-or-create__menu-item, inherit);
 }
 
+.rm-find-or-create__menu > div[style*='color: rgb(206, 217, 224);'] {
+  color:  				var(--co-find-or-create__recent, rgb(206, 217, 224))!important;
+}
+
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
   color:  				var(--co-find-or-create__search-list-item, #8A9BA8);
 }
@@ -1102,6 +1106,12 @@ div, textarea {
   background-color:  	var(--bc-main, inherit);
 }
 
+.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea {
+  color:  				var(--co-main, inherit);
+  font-family:  		var(--ff-main, inherit);
+  font-size:  			var(--fs-main, inherit);
+}
+
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
   background-color:  	var(--bc-menu__button--active, rgba(72, 176, 240, 0.5))!important;
   border-top:  			var(--bt-menu__button--active, none)!important;
@@ -1392,6 +1402,12 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 
 .rm-sidebar-window {
   border-bottom:  		var(--bb-right-sidebar__window, 1px solid rgb(138, 155, 168))!important;
+}
+
+#right-sidebar div, #right-sidebar textarea {
+  color:  				var(--co-right-sidebar, inherit);
+  font-family:  		var(--ff-right-sidebar, inherit);
+  font-size:  			var(--fs-right-sidebar, inherit);
 }
 
 .rm-roam-js .bp3-button:not([class*='bp3-intent-']):hover {
