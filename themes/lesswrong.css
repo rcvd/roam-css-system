@@ -2040,12 +2040,12 @@
 }
 
 :root {
-  --bc-input: 	var(--cl-gray-50);
-  --bt-input: 	1px solid var(--cl-gray-100);
-  --br-input: 	1px solid var(--cl-gray-100);
-  --bb-input: 	1px solid var(--cl-gray-100);
-  --bl-input: 	1px solid var(--cl-gray-100);
-  --bd-input: 	0px;
+  --bc-input: 	;
+  --bt-input: 	;
+  --br-input: 	;
+  --bb-input: 	;
+  --bl-input: 	;
+  --bd-input: 	;
   --sd-input: 	none;
   --co-input: 	var(--cl-gray-900);
   --ff-input: 	;

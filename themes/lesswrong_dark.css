@@ -917,7 +917,7 @@
   --br-input: 	1px solid var(--cl-gray-700);
   --bb-input: 	1px solid var(--cl-gray-700);
   --bl-input: 	1px solid var(--cl-gray-700);
-  --bd-input: 	0px;
+  --bd-input: 	;
   --sd-input: 	;
   --co-input: 	var(--cl-gray-100);
   --ff-input: 	;
