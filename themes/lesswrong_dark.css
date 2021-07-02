@@ -1396,11 +1396,6 @@
 }
 
 :root {
-  --co-right-sidebar: 	;
-  --ff-right-sidebar: 	'Source Serif Pro';
-}
-
-:root {
   --bc-roam-js__button--hover: 	var(--cl-red-500);
   --bt-roam-js__button--hover: 	1px solid var(--cl-red-400);
   --br-roam-js__button--hover: 	1px solid var(--cl-red-400);

@@ -1406,11 +1406,6 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
   border-bottom:  		var(--bb-right-sidebar__window, 1px solid rgb(138, 155, 168))!important;
 }
 
-#right-sidebar div, #right-sidebar textarea {
-  color:  				var(--co-right-sidebar, inherit);
-  font-family:  		var(--ff-right-sidebar, inherit);
-}
-
 .rm-roam-js .bp3-button:not([class*='bp3-intent-']):hover {
   background-color:  	var(--bc-roam-js__button--hover, inherit);
   border-top:  			var(--bt-roam-js__button--hover, inherit);

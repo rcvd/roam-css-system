@@ -3075,17 +3075,6 @@
 }
 
 :root {
-  --co-right-sidebar: 	;
-  --ff-right-sidebar: 	'Source Serif Pro';
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-right-sidebar: 	;
-  }
-}
-
-:root {
   --bc-roam-js__button--hover: 	var(--cl-red-500);
   --bt-roam-js__button--hover: 	1px solid var(--cl-red-600);
   --br-roam-js__button--hover: 	1px solid var(--cl-red-600);
