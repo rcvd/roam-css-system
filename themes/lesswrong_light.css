@@ -13,7 +13,7 @@
 }
 
 :root {
-  --bl-alias__tooltip-content-bq: 	1px solid var(--cl-blue-100);
+  --bl-alias__tooltip-content-bq: 	1px solid var(--cl-gray-100);
   --co-alias__tooltip-content-bq: 	;
 }
 
@@ -226,7 +226,7 @@
 }
 
 :root {
-  --co-button__icon--hover: 	var(--cl-green-500);
+  --co-button__icon--hover: 	var(--cl-gray-300);
 }
 
 :root {
@@ -284,10 +284,10 @@
 }
 
 :root {
-  --bt-checkmark__mark--checked: 	;
-  --br-checkmark__mark--checked: 	;
-  --bb-checkmark__mark--checked: 	;
-  --bl-checkmark__mark--checked: 	;
+  --bt-checkmark__mark--checked: 	0px;
+  --br-checkmark__mark--checked: 	2px solid var(--cl-white);
+  --bb-checkmark__mark--checked: 	2px solid var(--cl-white);
+  --bl-checkmark__mark--checked: 	0px;
 }
 
 :root {
@@ -545,7 +545,7 @@
 }
 
 :root {
-  --bc-dropbar: 	var(--cl-red-500);
+  --bc-dropbar: 	var(--cl-gray-500);
 }
 
 :root {
@@ -731,7 +731,7 @@
 }
 
 :root {
-  --bc-graph-dropdown__setting--hover: 	var(--cl-blue-50);
+  --bc-graph-dropdown__setting--hover: 	var(--cl-gray-100);
 }
 
 :root {
@@ -893,7 +893,7 @@
 }
 
 :root {
-  --co-input__search-icon: 	var(--cl-gray-400);
+  --co-input__search-icon: 	var(--cl-gray-500);
 }
 
 :root {
@@ -1126,11 +1126,11 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-blue-50);
-  --bt-menu__item--hover: 	1px solid var(--cl-blue-100);
-  --br-menu__item--hover: 	1px solid var(--cl-blue-100);
-  --bb-menu__item--hover: 	1px solid var(--cl-blue-100);
-  --bl-menu__item--hover: 	1px solid var(--cl-blue-100);
+  --bc-menu__item--hover: 	var(--cl-gray-50);
+  --bt-menu__item--hover: 	1px solid var(--cl-gray-100);
+  --br-menu__item--hover: 	1px solid var(--cl-gray-100);
+  --bb-menu__item--hover: 	1px solid var(--cl-gray-100);
+  --bl-menu__item--hover: 	1px solid var(--cl-gray-100);
   --bd-menu__item--hover: 	0px;
   --co-menu__item--hover: 	var(--cl-gray-900);
 }
@@ -1214,7 +1214,7 @@
 :root {
   --co-page__title: 	var(--cl-gray-900);
   --ff-page__title: 	'Source Serif Pro';
-  --fs-page__title: 	20px;
+  --fs-page__title: 	32px;
   --ft-page__title: 	;
   --fw-page__title: 	normal;
   --tt-page__title: 	;
@@ -1614,12 +1614,12 @@
 
 :root {
   --bc-tags: 	;
-  --bt-tags: 	;
-  --br-tags: 	;
-  --bb-tags: 	;
-  --bl-tags: 	;
+  --bt-tags: 	1p solid var(--cl-gray-100);
+  --br-tags: 	1p solid var(--cl-gray-100);
+  --bb-tags: 	1p solid var(--cl-gray-100);
+  --bl-tags: 	1p solid var(--cl-gray-100);
   --bd-tags: 	;
-  --co-tags: 	var(--cl-gray-500);
+  --co-tags: 	var(--cl-gray-300);
   --ff-tags: 	;
   --fs-tags: 	;
   --ft-tags: 	;

@@ -284,10 +284,10 @@
 }
 
 :root {
-  --bt-checkmark__mark--checked: 	;
-  --br-checkmark__mark--checked: 	;
-  --bb-checkmark__mark--checked: 	;
-  --bl-checkmark__mark--checked: 	;
+  --bt-checkmark__mark--checked: 	0px;
+  --br-checkmark__mark--checked: 	2px solid var(--cl-white);
+  --bb-checkmark__mark--checked: 	2px solid var(--cl-white);
+  --bl-checkmark__mark--checked: 	0px;
 }
 
 :root {
@@ -1214,7 +1214,7 @@
 :root {
   --co-page__title: 	var(--cl-gray-50);
   --ff-page__title: 	'Source Serif Pro';
-  --fs-page__title: 	20px;
+  --fs-page__title: 	32px;
   --ft-page__title: 	;
   --fw-page__title: 	normal;
   --tt-page__title: 	;

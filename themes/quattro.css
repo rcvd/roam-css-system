@@ -1998,7 +1998,7 @@
 }
 
 :root {
-  --co-input__search-icon: 	var(--cl-gray-400);
+  --co-input__search-icon: 	var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
