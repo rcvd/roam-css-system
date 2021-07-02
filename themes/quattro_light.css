@@ -1397,7 +1397,7 @@
 
 :root {
   --co-right-sidebar: 	;
-  --ff-right-sidebar: 	;
+  --ff-right-sidebar: 	inherit;
   --fs-right-sidebar: 	;
 }
 
