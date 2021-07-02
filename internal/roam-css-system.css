@@ -1060,7 +1060,7 @@ div, textarea {
   color:  				var(--co-log-page__preview, #8A9BA8);
 }
 
-.rm-article-wrapper .roam-log-container .roam-log-page, .rm-article-wrapper .roam-log-container .roam-log-page div {
+.rm-article-wrapper .roam-log-container .roam-log-page, .rm-article-wrapper .roam-log-container .roam-log-page {
   border-top:  			var(--bt-log-page, 1px solid #738694);
 }
 
