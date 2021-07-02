@@ -1614,10 +1614,10 @@
 
 :root {
   --bc-tags: 	;
-  --bt-tags: 	1p solid var(--cl-gray-100);
-  --br-tags: 	1p solid var(--cl-gray-100);
-  --bb-tags: 	1p solid var(--cl-gray-100);
-  --bl-tags: 	1p solid var(--cl-gray-100);
+  --bt-tags: 	1px solid var(--cl-gray-100);
+  --br-tags: 	1px solid var(--cl-gray-100);
+  --bb-tags: 	1px solid var(--cl-gray-100);
+  --bl-tags: 	1px solid var(--cl-gray-100);
   --bd-tags: 	;
   --co-tags: 	var(--cl-gray-300);
   --ff-tags: 	;
