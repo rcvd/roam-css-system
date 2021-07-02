@@ -1249,11 +1249,11 @@
 }
 
 :root {
-  --bc-elevation__item--selected: 	var(--cl-blue-50);
-  --bt-elevation__item--selected: 	1px solid var(--cl-blue-100);
-  --br-elevation__item--selected: 	1px solid var(--cl-blue-100);
-  --bb-elevation__item--selected: 	1px solid var(--cl-blue-100);
-  --bl-elevation__item--selected: 	1px solid var(--cl-blue-100);
+  --bc-elevation__item--selected: 	var(--cl-gray-50);
+  --bt-elevation__item--selected: 	1px solid var(--cl-gray-100);
+  --br-elevation__item--selected: 	1px solid var(--cl-gray-100);
+  --bb-elevation__item--selected: 	1px solid var(--cl-gray-100);
+  --bl-elevation__item--selected: 	1px solid var(--cl-gray-100);
   --bd-elevation__item--selected: 	;
 }
 
@@ -1507,12 +1507,12 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: 	var(--cl-blue-50);
-  --bt-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-100);
-  --br-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-100);
-  --bb-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-100);
-  --bl-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-100);
-  --bd-find-or-create__menu-item--selected: 	0px;
+  --bc-find-or-create__menu-item--selected: 	var(--cl-gray-50);
+  --bt-find-or-create__menu-item--selected: 	1px solid var(--cl-gray-100);
+  --br-find-or-create__menu-item--selected: 	1px solid var(--cl-gray-100);
+  --bb-find-or-create__menu-item--selected: 	1px solid var(--cl-gray-100);
+  --bl-find-or-create__menu-item--selected: 	1px solid var(--cl-gray-100);
+  --bd-find-or-create__menu-item--selected: 	3px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1801,11 +1801,11 @@
 }
 
 :root {
-  --bc-help__input--focus: 	var(--cl-blue-50);
-  --bt-help__input--focus: 	1px solid var(--cl-blue-100);
-  --br-help__input--focus: 	1px solid var(--cl-blue-100);
-  --bb-help__input--focus: 	1px solid var(--cl-blue-100);
-  --bl-help__input--focus: 	1px solid var(--cl-blue-100);
+  --bc-help__input--focus: 	;
+  --bt-help__input--focus: 	;
+  --br-help__input--focus: 	;
+  --bb-help__input--focus: 	;
+  --bl-help__input--focus: 	;
   --bd-help__input--focus: 	;
 }
 
@@ -1820,12 +1820,12 @@
 }
 
 :root {
-  --bc-help__input: 	var(--cl-gray-50);
-  --bt-help__input: 	1px solid var(--cl-gray-100);
-  --br-help__input: 	1px solid var(--cl-gray-100);
-  --bb-help__input: 	1px solid var(--cl-gray-100);
-  --bl-help__input: 	1px solid var(--cl-gray-100);
-  --bd-help__input: 	0px;
+  --bc-help__input: 	;
+  --bt-help__input: 	;
+  --br-help__input: 	;
+  --bb-help__input: 	;
+  --bl-help__input: 	;
+  --bd-help__input: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2019,12 +2019,12 @@
 }
 
 :root {
-  --bc-input--focus: 	var(--cl-blue-50);
-  --bt-input--focus: 	1px solid var(--cl-blue-100);
-  --br-input--focus: 	1px solid var(--cl-blue-100);
-  --bb-input--focus: 	1px solid var(--cl-blue-100);
-  --bl-input--focus: 	1px solid var(--cl-blue-100);
-  --bd-input--focus: 	0px;
+  --bc-input--focus: 	;
+  --bt-input--focus: 	;
+  --br-input--focus: 	;
+  --bb-input--focus: 	;
+  --bl-input--focus: 	;
+  --bd-input--focus: 	;
   --sd-input--focus: 	none;
 }
 
@@ -2952,12 +2952,12 @@
 }
 
 :root {
-  --bc-reference__item: 	var(--cl-blue-50);
-  --bt-reference__item: 	1px solid var(--cl-blue-100);
-  --br-reference__item: 	1px solid var(--cl-blue-100);
-  --bb-reference__item: 	1px solid var(--cl-blue-100);
-  --bl-reference__item: 	1px solid var(--cl-blue-100);
-  --bd-reference__item: 	;
+  --bc-reference__item: 	var(--cl-gray-50);
+  --bt-reference__item: 	1px solid var(--cl-gray-100);
+  --br-reference__item: 	1px solid var(--cl-gray-100);
+  --bb-reference__item: 	1px solid var(--cl-gray-100);
+  --bl-reference__item: 	1px solid var(--cl-gray-100);
+  --bd-reference__item: 	3px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3039,8 +3039,8 @@
 }
 
 :root {
-  --bc-right-sidebar__container: 	var(--cl-blue-50);
-  --bl-right-sidebar__container: 	1px solid var(--cl-blue-100);
+  --bc-right-sidebar__container: 	var(--cl-green-50);
+  --bl-right-sidebar__container: 	1px solid var(--cl-green-100);
 }
 
 @media (prefers-color-scheme: dark) {

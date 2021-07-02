@@ -677,7 +677,7 @@
   --br-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
   --bb-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
   --bl-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
-  --bd-find-or-create__menu-item--selected: 	0px;
+  --bd-find-or-create__menu-item--selected: 	3px;
 }
 
 :root {
@@ -818,7 +818,7 @@
   --br-help__input: 	1px solid var(--cl-gray-800);
   --bb-help__input: 	1px solid var(--cl-gray-800);
   --bl-help__input: 	1px solid var(--cl-gray-800);
-  --bd-help__input: 	0px;
+  --bd-help__input: 	;
 }
 
 :root {
@@ -907,7 +907,7 @@
   --br-input--focus: 	1px solid var(--cl-blue-900);
   --bb-input--focus: 	1px solid var(--cl-blue-900);
   --bl-input--focus: 	1px solid var(--cl-blue-900);
-  --bd-input--focus: 	0px;
+  --bd-input--focus: 	;
   --sd-input--focus: 	none;
 }
 
@@ -1340,7 +1340,7 @@
   --br-reference__item: 	1px solid var(--cl-black);
   --bb-reference__item: 	1px solid var(--cl-black);
   --bl-reference__item: 	1px solid var(--cl-black);
-  --bd-reference__item: 	;
+  --bd-reference__item: 	3px;
 }
 
 :root {
