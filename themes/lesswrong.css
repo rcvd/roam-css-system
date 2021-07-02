@@ -3077,7 +3077,6 @@
 :root {
   --co-right-sidebar: 	;
   --ff-right-sidebar: 	'Source Serif Pro';
-  --fs-right-sidebar: 	;
 }
 
 @media (prefers-color-scheme: dark) {

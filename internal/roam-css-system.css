@@ -1409,7 +1409,6 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 #right-sidebar div, #right-sidebar textarea {
   color:  				var(--co-right-sidebar, inherit);
   font-family:  		var(--ff-right-sidebar, inherit);
-  font-size:  			var(--fs-right-sidebar, inherit);
 }
 
 .rm-roam-js .bp3-button:not([class*='bp3-intent-']):hover {

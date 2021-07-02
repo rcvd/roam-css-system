@@ -3077,7 +3077,6 @@
 :root {
   --co-right-sidebar: 	;
   --ff-right-sidebar: 	inherit;
-  --fs-right-sidebar: 	;
 }
 
 @media (prefers-color-scheme: dark) {
