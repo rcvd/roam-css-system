@@ -1142,7 +1142,7 @@ div, textarea {
   border-bottom:  		var(--bb-menu__item--hover, inherit);
   border-left:  		var(--bl-menu__item--hover, inherit);
   border-radius:  		var(--bd-menu__item--hover, inherit);
-  color:  				var(--co-menu__item--hover, inherit);
+  color:  				var(--co-menu__item--hover, inherit)!important;
 }
 
 .bp3-menu-item {
@@ -1169,7 +1169,7 @@ div, textarea {
 
 .bp3-menu-item.bp3-intent-primary:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-intent-primary.bp3-menu-item, .bp3-menu-item.bp3-intent-primary.bp3-active {
   background-color:  	var(--bc-menu__menu-item--active, #137cbd);
-  color:  				var(--co-menu__menu-item--active, inherit);
+  color:  				var(--co-menu__menu-item--active, inherit)!important;
 }
 
 .bp3-menu-item:hover>.bp3-icon svg {

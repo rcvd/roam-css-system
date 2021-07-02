@@ -2562,7 +2562,7 @@
 }
 
 :root {
-  --bc-menu__menu-item--active: 	var(--cl-green-300);
+  --bc-menu__menu-item--active: 	var(--cl-green-500);
   --co-menu__menu-item--active: 	var(--cl-white);
 }
 
