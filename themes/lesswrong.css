@@ -3076,7 +3076,7 @@
 
 :root {
   --co-right-sidebar: 	;
-  --ff-right-sidebar: 	inherit;
+  --ff-right-sidebar: 	'Source Serif Pro';
   --fs-right-sidebar: 	;
 }
 
