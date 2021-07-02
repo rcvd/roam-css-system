@@ -3,12 +3,12 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-lesswrong.css');
 :root {
-  --co-a--hover: 	var(--cl-red-500);
+  --co-a--hover: 	var(--cl-green-500);
   --td-a--hover: 	underline;
 }
 
 :root {
-  --co-a: 	var(--cl-red-600);
+  --co-a: 	var(--cl-green-600);
   --td-a: 	underline;
 }
 
@@ -106,7 +106,7 @@
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	var(--cl-red-500);
+  --co-allpages__sort-button--focused: 	var(--cl-green-500);
 }
 
 :root {
@@ -161,7 +161,7 @@
 
 :root {
   --bc-block-ref--hover: 	;
-  --co-block-ref--hover: 	var(--cl-red-500);
+  --co-block-ref--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -226,7 +226,7 @@
 }
 
 :root {
-  --co-button__icon--hover: 	var(--cl-red-500);
+  --co-button__icon--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -239,13 +239,13 @@
 }
 
 :root {
-  --co-button--active: 	var(--cl-red-600);
+  --co-button--active: 	var(--cl-green-600);
 }
 
 :root {
   --bc-button--hover: 	transparent;
   --sd-button--hover: 	none;
-  --co-button--hover: 	var(--cl-red-500);
+  --co-button--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -469,7 +469,7 @@
   --br-datepicker__nav-button--hover: 	none;
   --bb-datepicker__nav-button--hover: 	none;
   --bl-datepicker__nav-button--hover: 	none;
-  --co-datepicker__nav-button--hover: 	var(--cl-red-500);
+  --co-datepicker__nav-button--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -487,7 +487,7 @@
 }
 
 :root {
-  --co-datepicker__today: 	var(--cl-red-500);
+  --co-datepicker__today: 	var(--cl-green-500);
   --fw-datepicker__today: 	bold;
 }
 
@@ -710,7 +710,7 @@
 }
 
 :root {
-  --co-graph-dropdown__expand-icon--hover: 	var(--cl-red-500);
+  --co-graph-dropdown__expand-icon--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -975,7 +975,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	var(--cl-red-500);
+  --co-left-sidebar__db-title--hover: 	var(--cl-green-500);
 }
 
 :root {
@@ -1061,7 +1061,7 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	var(--cl-red-500);
+  --co-logbutton--hover: 	var(--cl-green-500);
   --td-logbutton--hover: 	;
 }
 
@@ -1202,12 +1202,12 @@
 }
 
 :root {
-  --co-page__link--hover: 	var(--cl-red-600);
+  --co-page__link--hover: 	var(--cl-green-600);
   --td-page__link--hover: 	none;
 }
 
 :root {
-  --co-page__link: 	var(--cl-red-500);
+  --co-page__link: 	var(--cl-green-500);
   --td-page__link: 	none;
 }
 
@@ -1352,7 +1352,7 @@
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-red-500);
+  --co-reference__page-title: 	var(--cl-green-500);
   --fs-reference__page-title: 	14px;
   --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
