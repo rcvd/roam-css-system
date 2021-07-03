@@ -1969,7 +1969,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-yellow-100);
+  --bc-highlight: 	var(--cl-green-100);
 }
 
 @media (prefers-color-scheme: dark) {
