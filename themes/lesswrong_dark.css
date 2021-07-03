@@ -677,11 +677,11 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: 	var(--cl-blue-900);
-  --bt-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
-  --br-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
-  --bb-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
-  --bl-find-or-create__menu-item--selected: 	1px solid var(--cl-blue-800);
+  --bc-find-or-create__menu-item--selected: 	var(--cl-gray-500);
+  --bt-find-or-create__menu-item--selected: 	;
+  --br-find-or-create__menu-item--selected: 	;
+  --bb-find-or-create__menu-item--selected: 	;
+  --bl-find-or-create__menu-item--selected: 	;
   --bd-find-or-create__menu-item--selected: 	3px;
 }
 
@@ -690,10 +690,10 @@
 }
 
 :root {
-  --bt-find-or-create__menu-item: 	1px solid transparent;
-  --br-find-or-create__menu-item: 	1px solid transparent;
-  --bb-find-or-create__menu-item: 	1px solid transparent;
-  --bl-find-or-create__menu-item: 	1px solid transparent;
+  --bt-find-or-create__menu-item: 	;
+  --br-find-or-create__menu-item: 	;
+  --bb-find-or-create__menu-item: 	;
+  --bl-find-or-create__menu-item: 	;
 }
 
 :root {
@@ -917,7 +917,7 @@
 }
 
 :root {
-  --co-input__search-placeholder: 	var(--cl-gray-500);
+  --co-input__search-placeholder: 	var(--cl-gray-600);
   --ff-input__search-placeholder: 	;
 }
 
@@ -932,13 +932,13 @@
 }
 
 :root {
-  --bc-input: 	var(--cl-gray-900);
-  --bt-input: 	1px solid var(--cl-gray-700);
-  --br-input: 	1px solid var(--cl-gray-700);
-  --bb-input: 	1px solid var(--cl-gray-700);
-  --bl-input: 	1px solid var(--cl-gray-700);
+  --bc-input: 	transparent;
+  --bt-input: 	none;
+  --br-input: 	none;
+  --bb-input: 	none;
+  --bl-input: 	none;
   --bd-input: 	;
-  --sd-input: 	;
+  --sd-input: 	none;
   --co-input: 	var(--cl-gray-100);
   --ff-input: 	;
   --fs-input: 	1em;
@@ -1081,7 +1081,7 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	var(--cl-gray-700);
+  --co-logbutton--hover: 	var(--cl-gray-500);
   --td-logbutton--hover: 	;
 }
 
@@ -1592,7 +1592,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	var(--cl-gray-700);
+  --co-starred__page--hover: 	var(--cl-gray-500);
   --td-starred__page--hover: 	none;
 }
 
