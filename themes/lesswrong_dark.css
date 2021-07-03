@@ -1640,8 +1640,8 @@
   --br-tags--hover: 	1px solid var(--cl-gray-800);
   --bb-tags--hover: 	1px solid var(--cl-gray-800);
   --bl-tags--hover: 	1px solid var(--cl-gray-800);
-  --bd-tags--hover: 	;
-  --co-tags--hover: 	;
+  --bd-tags--hover: 	3px;
+  --co-tags--hover: 	var(--cl-gray-400);
 }
 
 :root {
@@ -1650,7 +1650,7 @@
   --br-tags: 	1px solid var(--cl-gray-700);
   --bb-tags: 	1px solid var(--cl-gray-700);
   --bl-tags: 	1px solid var(--cl-gray-700);
-  --bd-tags: 	;
+  --bd-tags: 	3px;
   --co-tags: 	var(--cl-gray-500);
   --ff-tags: 	'Source Sans Pro';
   --fs-tags: 	0.85em;

@@ -3604,7 +3604,7 @@
   --br-tags--hover: 	1px solid var(--cl-gray-100);
   --bb-tags--hover: 	1px solid var(--cl-gray-100);
   --bl-tags--hover: 	1px solid var(--cl-gray-100);
-  --bd-tags--hover: 	;
+  --bd-tags--hover: 	3px;
   --co-tags--hover: 	var(--cl-gray-200);
 }
 
@@ -3615,7 +3615,7 @@
     --br-tags--hover: 	1px solid var(--cl-gray-800);
     --bb-tags--hover: 	1px solid var(--cl-gray-800);
     --bl-tags--hover: 	1px solid var(--cl-gray-800);
-    --co-tags--hover: 	;
+    --co-tags--hover: 	var(--cl-gray-400);
   }
 }
 
@@ -3625,7 +3625,7 @@
   --br-tags: 	1px solid var(--cl-gray-100);
   --bb-tags: 	1px solid var(--cl-gray-100);
   --bl-tags: 	1px solid var(--cl-gray-100);
-  --bd-tags: 	;
+  --bd-tags: 	3px;
   --co-tags: 	var(--cl-gray-400);
   --ff-tags: 	'Source Sans Pro';
   --fs-tags: 	0.85em;
