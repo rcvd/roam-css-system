@@ -2078,11 +2078,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-input--focus: 	var(--cl-blue-800);
-    --bt-input--focus: 	1px solid var(--cl-blue-900);
-    --br-input--focus: 	1px solid var(--cl-blue-900);
-    --bb-input--focus: 	1px solid var(--cl-blue-900);
-    --bl-input--focus: 	1px solid var(--cl-blue-900);
+    --bc-input--focus: 	transparent;
+    --bt-input--focus: 	none;
+    --br-input--focus: 	none;
+    --bb-input--focus: 	none;
+    --bl-input--focus: 	none;
     --sd-input--focus: 	none;
   }
 }
