@@ -77,11 +77,11 @@
 }
 
 :root {
-  --bc-allpages__input: 	;
-  --bt-allpages__input: 	;
-  --br-allpages__input: 	;
-  --bb-allpages__input: 	;
-  --bl-allpages__input: 	;
+  --bc-allpages__input: 	transparent;
+  --bt-allpages__input: 	none;
+  --br-allpages__input: 	none;
+  --bb-allpages__input: 	none;
+  --bl-allpages__input: 	none;
   --bd-allpages__input: 	0px;
   --sd-allpages__input: 	none;
   --co-allpages__input: 	var(--cl-gray-100);
