@@ -21,11 +21,13 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 - If you want to force the bright or dark mode independent of the system settings use:
 
   ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_dark.css');```   
+  
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_dark.css');```
   
   or 
   
   ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_light.css');```
+  
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
 
 ## Themes
