@@ -1122,7 +1122,7 @@ div, textarea {
   background-color:  	var(--bc-main, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea {
+.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main, .roam-block-container textarea {
   color:  				var(--co-main, inherit);
   font-family:  		var(--ff-main, inherit);
   font-size:  			var(--fs-main, inherit);
