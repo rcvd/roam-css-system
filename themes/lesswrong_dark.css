@@ -8,7 +8,7 @@
 }
 
 :root {
-  --co-a: 	var(--cl-green(600);
+  --co-a: 	var(--cl-green-600);
   --td-a: 	underline;
 }
 

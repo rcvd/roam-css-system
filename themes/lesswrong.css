@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a: 	var(--cl-green(600);
+    --co-a: 	var(--cl-green-600);
   }
 }
 
