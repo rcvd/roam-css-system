@@ -230,7 +230,7 @@
 }
 
 :root {
-  --co-button__icon: 	var(--cl-gray-500);
+  --co-button__icon: 	var(--cl-gray-700);
 }
 
 :root {
@@ -745,7 +745,7 @@
 
 :root {
   --bc-graph-dropdown__setting--hover: 	var(--cl-gray-500);
-  --co-graph-dropdown__setting--hover: 	b;
+  --co-graph-dropdown__setting--hover: 	var(--cl-white);
 }
 
 :root {
@@ -951,11 +951,11 @@
 }
 
 :root {
-  --bc-install-button: 	var(--cl-gray-50);
-  --bt-install-button: 	1px solid var(--cl-gray-100);
-  --br-install-button: 	1px solid var(--cl-gray-100);
-  --bb-install-button: 	1px solid var(--cl-gray-100);
-  --bl-install-button: 	1px solid var(--cl-gray-100);
+  --bc-install-button: 	var(--cl-gray-100);
+  --bt-install-button: 	1px solid var(--cl-gray-200);
+  --br-install-button: 	1px solid var(--cl-gray-200);
+  --bb-install-button: 	1px solid var(--cl-gray-200);
+  --bl-install-button: 	1px solid var(--cl-gray-200);
   --bd-install-button: 	0px;
   --co-install-button: 	var(--cl-gray-900);
 }
