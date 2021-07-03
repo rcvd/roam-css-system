@@ -995,7 +995,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	var(--cl-gray-700);
+  --co-left-sidebar__db-title--hover: 	var(--cl-gray-500);
 }
 
 :root {
