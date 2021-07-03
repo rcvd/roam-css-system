@@ -1554,7 +1554,7 @@
 }
 
 :root {
-  --co-find-or-create__new-page: 	;
+  --co-find-or-create__new-page: 	var(--cl-green-500);
 }
 
 @media (prefers-color-scheme: dark) {
