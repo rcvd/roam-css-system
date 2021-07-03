@@ -1632,12 +1632,12 @@
 
 :root {
   --bc-tags--hover: 	;
-  --bt-tags--hover: 	;
-  --br-tags--hover: 	;
-  --bb-tags--hover: 	;
-  --bl-tags--hover: 	;
+  --bt-tags--hover: 	1px solid var(--cl-gray-100);
+  --br-tags--hover: 	1px solid var(--cl-gray-100);
+  --bb-tags--hover: 	1px solid var(--cl-gray-100);
+  --bl-tags--hover: 	1px solid var(--cl-gray-100);
   --bd-tags--hover: 	;
-  --co-tags--hover: 	;
+  --co-tags--hover: 	var(--cl-gray-200);
 }
 
 :root {
@@ -1696,7 +1696,7 @@
 }
 
 :root {
-  --co-zotero__primary: 	var(--cl-red-500);
+  --co-zotero__primary: 	var(--cl-green-500);
 }
 
 :root {

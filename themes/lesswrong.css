@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a--hover: 	var(--cl-red-500);
+    --co-a--hover: 	var(--cl-green-500);
   }
 }
 
@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a: 	var(--cl-red-400);
+    --co-a: 	var(--cl-green-600);
   }
 }
 
@@ -224,7 +224,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__sort-button--focused: 	var(--cl-red-500);
+    --co-allpages__sort-button--focused: 	var(--cl-green-500);
   }
 }
 
@@ -347,7 +347,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-block-ref--hover: 	;
-    --co-block-ref--hover: 	var(--cl-red-500);
+    --co-block-ref--hover: 	var(--cl-green-500);
   }
 }
 
@@ -495,7 +495,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-button__icon--hover: 	var(--cl-red-500);
+    --co-button__icon--hover: 	var(--cl-gray-700);
   }
 }
 
@@ -527,7 +527,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-button--active: 	var(--cl-red-400);
+    --co-button--active: 	var(--cl-green-400);
   }
 }
 
@@ -541,7 +541,7 @@
   :root {
     --bc-button--hover: 	;
     --sd-button--hover: 	;
-    --co-button--hover: 	var(--cl-red-500);
+    --co-button--hover: 	var(--cl-green-500);
   }
 }
 
@@ -1069,7 +1069,7 @@
     --br-datepicker__nav-button--hover: 	;
     --bb-datepicker__nav-button--hover: 	;
     --bl-datepicker__nav-button--hover: 	;
-    --co-datepicker__nav-button--hover: 	var(--cl-red-500);
+    --co-datepicker__nav-button--hover: 	var(--cl-green-500);
   }
 }
 
@@ -1112,7 +1112,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-datepicker__today: 	var(--cl-red-500);
+    --co-datepicker__today: 	var(--cl-green-500);
   }
 }
 
@@ -1641,7 +1641,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-graph-dropdown__expand-icon--hover: 	var(--cl-red-500);
+    --co-graph-dropdown__expand-icon--hover: 	var(--cl-green-500);
   }
 }
 
@@ -2231,7 +2231,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-left-sidebar__db-title--hover: 	var(--cl-red-500);
+    --co-left-sidebar__db-title--hover: 	var(--cl-gray-700);
   }
 }
 
@@ -2406,7 +2406,7 @@
     --br-logbutton--hover: 	;
     --bb-logbutton--hover: 	;
     --bl-logbutton--hover: 	;
-    --co-logbutton--hover: 	var(--cl-red-500);
+    --co-logbutton--hover: 	var(--cl-gray-700);
   }
 }
 
@@ -2718,7 +2718,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-page__link--hover: 	var(--cl-red-400);
+    --co-page__link--hover: 	var(--cl-green-600);
   }
 }
 
@@ -2729,7 +2729,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-page__link: 	var(--cl-red-500);
+    --co-page__link: 	var(--cl-green-500);
   }
 }
 
@@ -3042,7 +3042,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-reference__page-title: 	var(--cl-red-500);
+    --co-reference__page-title: 	var(--cl-gray-500);
   }
 }
 
@@ -3517,7 +3517,7 @@
     --br-starred__page--hover: 	;
     --bb-starred__page--hover: 	;
     --bl-starred__page--hover: 	;
-    --co-starred__page--hover: 	var(--cl-red-500);
+    --co-starred__page--hover: 	var(--cl-gray-700);
   }
 }
 
@@ -3591,12 +3591,12 @@
 
 :root {
   --bc-tags--hover: 	;
-  --bt-tags--hover: 	;
-  --br-tags--hover: 	;
-  --bb-tags--hover: 	;
-  --bl-tags--hover: 	;
+  --bt-tags--hover: 	1px solid var(--cl-gray-100);
+  --br-tags--hover: 	1px solid var(--cl-gray-100);
+  --bb-tags--hover: 	1px solid var(--cl-gray-100);
+  --bl-tags--hover: 	1px solid var(--cl-gray-100);
   --bd-tags--hover: 	;
-  --co-tags--hover: 	;
+  --co-tags--hover: 	var(--cl-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3728,12 +3728,12 @@
 }
 
 :root {
-  --co-zotero__primary: 	var(--cl-red-500);
+  --co-zotero__primary: 	var(--cl-green-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-zotero__primary: 	var(--cl-red-500);
+    --co-zotero__primary: 	var(--cl-green-500);
   }
 }
 
