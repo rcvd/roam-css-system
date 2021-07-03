@@ -693,11 +693,11 @@
 }
 
 :root {
-  --co-find-or-create__new-page: 	;
+  --co-find-or-create__new-page--selected: 	;
 }
 
 :root {
-  --co-find-or-create__new-page--selected: 	;
+  --co-find-or-create__new-page: 	;
 }
 
 :root {
@@ -714,12 +714,12 @@
 }
 
 :root {
-  --co-graph-dropdown__a: 	var(--cl-gray-100);
-  --td-graph-dropdown__a: 	none;
+  --co-graph-dropdown__a--hover: 	var(--cl-gray-700);
 }
 
 :root {
-  --co-graph-dropdown__a--hover: 	var(--cl-gray-700);
+  --co-graph-dropdown__a: 	var(--cl-gray-100);
+  --td-graph-dropdown__a: 	none;
 }
 
 :root {
@@ -1612,6 +1612,18 @@
   --ft-starred__title: 	;
   --fw-starred__title: 	;
   --tt-starred__title: 	;
+}
+
+:root {
+  --bc-sync--saving-local: 	;
+}
+
+:root {
+  --bc-sync--saving-remote: 	;
+}
+
+:root {
+  --bc-sync--synced: 	;
 }
 
 :root {

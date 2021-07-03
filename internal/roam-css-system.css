@@ -698,12 +698,12 @@ div, textarea {
   border-left:  		var(--bl-find-or-create__menu-item, inherit);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
-  color:  				var(--co-find-or-create__new-page, inherit);
-}
-
 .rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-title .rm-new-page {
   color:  				var(--co-find-or-create__new-page--selected, inherit);
+}
+
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+  color:  				var(--co-find-or-create__new-page, inherit);
 }
 
 .rm-find-or-create__menu > div[style*='color: rgb(206, 217, 224);'] {
@@ -719,13 +719,13 @@ div, textarea {
   font-size:  			var(--fs-find-or-create__search-list-item-title, 12px);
 }
 
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a:hover {
+  color:  				var(--co-graph-dropdown__a--hover, inherit);
+}
+
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a {
   color:  				var(--co-graph-dropdown__a, #182026);
   text-decoration:  	var(--td-graph-dropdown__a, inherit);
-}
-
-.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a:hover {
-  color:  				var(--co-graph-dropdown__a--hover, inherit);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title:hover .expand-icon {
@@ -1623,6 +1623,18 @@ span[style*='background-color: yellow'] {
   font-style:  			var(--ft-starred__title, inherit);
   font-weight:  		var(--fw-starred__title, inherit);
   text-transform:  		var(--tt-starred__title, inherit);
+}
+
+.rm-sync--saving-local {
+  background-color:  	var(--bc-sync--saving-local, inherit);
+}
+
+.rm-sync--saving-remote {
+  background-color:  	var(--bc-sync--saving-remote, inherit);
+}
+
+.rm-sync--synced {
+  background-color:  	var(--bc-sync--synced, #0F9960);
 }
 
 .rm-page-ref--tag:hover {

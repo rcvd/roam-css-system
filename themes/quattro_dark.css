@@ -693,11 +693,11 @@
   }
 
 :root {
-  --co-find-or-create__new-page: 	;
+  --co-find-or-create__new-page--selected: 	;
   }
 
 :root {
-  --co-find-or-create__new-page--selected: 	;
+  --co-find-or-create__new-page: 	;
   }
 
 :root {
@@ -714,12 +714,12 @@
   }
 
 :root {
-  --td-graph-dropdown__a: 	none;
-  --co-graph-dropdown__a: 	var(--cl-gray-100);
+  --co-graph-dropdown__a--hover: 	;
   }
 
 :root {
-  --co-graph-dropdown__a--hover: 	;
+  --td-graph-dropdown__a: 	none;
+  --co-graph-dropdown__a: 	var(--cl-gray-100);
   }
 
 :root {
@@ -1612,6 +1612,18 @@
   --fw-starred__title: 	;
   --tt-starred__title: 	;
   --co-starred__title: 	var(--cl-gray-300);
+  }
+
+:root {
+  --bc-sync--saving-local: 	;
+  }
+
+:root {
+  --bc-sync--saving-remote: 	;
+  }
+
+:root {
+  --bc-sync--synced: 	;
   }
 
 :root {
