@@ -3572,12 +3572,12 @@
 
 :root {
   --bc-tags: 	;
-  --bt-tags: 	1px solid var(--cl-gray-100);
-  --br-tags: 	1px solid var(--cl-gray-100);
-  --bb-tags: 	1px solid var(--cl-gray-100);
-  --bl-tags: 	1px solid var(--cl-gray-100);
+  --bt-tags: 	1px solid var(--cl-gray-300);
+  --br-tags: 	1px solid var(--cl-gray-300);
+  --bb-tags: 	1px solid var(--cl-gray-300);
+  --bl-tags: 	1px solid var(--cl-gray-300);
   --bd-tags: 	;
-  --co-tags: 	var(--cl-gray-300);
+  --co-tags: 	var(--cl-gray-500);
   --ff-tags: 	;
   --fs-tags: 	;
   --ft-tags: 	;
