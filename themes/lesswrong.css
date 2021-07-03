@@ -1564,6 +1564,16 @@
 }
 
 :root {
+  --co-find-or-create__new page--selected: 	var(--cl-green-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-find-or-create__new page--selected: 	;
+  }
+}
+
+:root {
   --co-find-or-create__recent: 	;
 }
 

@@ -697,6 +697,10 @@
 }
 
 :root {
+  --co-find-or-create__new page--selected: 	var(--cl-green-300);
+}
+
+:root {
   --co-find-or-create__recent: 	;
 }
 
