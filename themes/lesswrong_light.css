@@ -1643,9 +1643,9 @@
   --bb-tags: 	1px solid var(--cl-gray-100);
   --bl-tags: 	1px solid var(--cl-gray-100);
   --bd-tags: 	;
-  --co-tags: 	var(--cl-gray-500);
+  --co-tags: 	var(--cl-gray-700);
   --ff-tags: 	'Source Sans Pro';
-  --fs-tags: 	;
+  --fs-tags: 	0.9em;
   --ft-tags: 	;
   --fw-tags: 	;
   --td-tags: 	;

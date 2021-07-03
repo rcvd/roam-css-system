@@ -1645,7 +1645,7 @@
   --bd-tags: 	;
   --co-tags: 	var(--cl-gray-500);
   --ff-tags: 	'Source Sans Pro';
-  --fs-tags: 	;
+  --fs-tags: 	0.9em;
   --ft-tags: 	;
   --fw-tags: 	;
   --td-tags: 	;
