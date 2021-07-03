@@ -4,6 +4,10 @@ Roam CSS System
 ## What is it?
 The Roam CSS System is a powerful framework for customizing the look and feel of [Roam Research](https://roamresearch.com).
 
+## If you want to support my work
+- [Flattr](https://flattr.com/@rcvd)
+- [Paypal](https://paypal.me/rcvd)
+
 ## How does this work?
 - Create or modify your 'roam/css' page.
 - Add a new code block and set the language to 'CSS'.
@@ -43,7 +47,3 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 ## Bugs and feedback
 - If you find a bug, file it under Issues with a short description and an screenshot
 - If you want to discuss an issue contact me on [Twitter](https://twitter.com/rcvd_io) or drop me an email to roam (at) rcvd (dot) io
-
-## If you want to support my work
-- [Flattr](https://flattr.com/@rcvd)
-- [Paypal](https://paypal.me/rcvd)
