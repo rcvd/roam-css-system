@@ -286,6 +286,10 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   -webkit-box-shadow:  	var(--sd-card, 0 0 0 1px rgba(16,22,26,0.15),0 0 0 rgba(16,22,26,0),0 0 0 rgba(16,22,26,0));
 }
 
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+  color:  				var(--co-caret, inherit);
+}
+
 .check-container .checkmark:after {
   border-top:  			var(--bt-checkmark__mark--checked, 0px);
   border-right:  		var(--br-checkmark__mark--checked, 2px solid white);
@@ -1678,6 +1682,10 @@ span[style*='background-color: yellow'] {
   -webkit-box-shadow:  	var(--sd-topbar__container, inherit);
 }
 
+.version-bullet {
+  background-color:  	var(--bc-version__bullet, inherit)!important;
+}
+
 .rm-zoom.zoom-path-view .rm-zoom-mask {
   background-color:  	var(--bc-zoom__mask, white);
 }
@@ -1707,9 +1715,5 @@ span.zotero-roam-sequence {
   background-color:  	var(--bc-zotero__sequence, khaki);
   border-right:  		var(--br-zotero__sequence, inherit);
   font-size:  			var(--fs-zotero__sequence, 0.85em);
-}
-
-.version-bullet {
-  background-color:  	var(--bc-version__bullet, inherit)!important;
 }
 

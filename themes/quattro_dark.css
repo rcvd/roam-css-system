@@ -284,6 +284,10 @@
   }
 
 :root {
+  --co-caret: 	;
+  }
+
+:root {
   --bt-checkmark__mark--checked: 	0px;
   --br-checkmark__mark--checked: 	2px solid var(--cl-gray-50);
   --bb-checkmark__mark--checked: 	2px solid var(--cl-gray-50);
@@ -1667,6 +1671,10 @@
   }
 
 :root {
+  --bc-version__bullet: 	;
+  }
+
+:root {
   --bc-zoom__mask: 	var(--cl-gray-800);
   }
 
@@ -1695,9 +1703,5 @@
   --fs-zotero__sequence: 	;
   --bc-zotero__sequence: 	var(--cl-gray-800);
   --br-zotero__sequence: 	1px solid var(--cl-black);
-  }
-
-:root {
-  --bc-version__bullet: 	;
   }
 
