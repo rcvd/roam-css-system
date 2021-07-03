@@ -393,7 +393,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-bullet__ghost: 	var(--cl-gray-600);
+    --bc-bullet__ghost: 	var(--cl-gray-800);
   }
 }
 
@@ -403,7 +403,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-bullet__inner: 	var(--cl-gray-600);
+    --bc-bullet__inner: 	var(--cl-gray-800);
   }
 }
 
