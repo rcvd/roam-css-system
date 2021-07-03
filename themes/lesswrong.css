@@ -1543,7 +1543,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-find-or-create__menu-item--selected: 	var(--cl-white);
+    --co-find-or-create__menu-item--selected: 	var(--cl-gray-900);
   }
 }
 
@@ -1569,7 +1569,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-find-or-create__new-page--selected: 	;
+    --co-find-or-create__new-page--selected: 	var(--cl-white);
   }
 }
 
@@ -1579,7 +1579,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-find-or-create__new-page: 	;
+    --co-find-or-create__new-page: 	var(--cl-green-500);
   }
 }
 

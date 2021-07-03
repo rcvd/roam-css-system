@@ -686,7 +686,7 @@
 }
 
 :root {
-  --co-find-or-create__menu-item--selected: 	var(--cl-white);
+  --co-find-or-create__menu-item--selected: 	var(--cl-gray-900);
 }
 
 :root {
@@ -697,11 +697,11 @@
 }
 
 :root {
-  --co-find-or-create__new-page--selected: 	;
+  --co-find-or-create__new-page--selected: 	var(--cl-white);
 }
 
 :root {
-  --co-find-or-create__new-page: 	;
+  --co-find-or-create__new-page: 	var(--cl-green-500);
 }
 
 :root {
