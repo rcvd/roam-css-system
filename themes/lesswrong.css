@@ -2221,7 +2221,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-left-sidebar__container: 	var(--cl-gray-800);
-    --br-left-sidebar__container: 	1px solid var(--cl-black);
+    --br-left-sidebar__container: 	1px solid var(--cl-gray-800);
   }
 }
 
@@ -3105,7 +3105,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-right-sidebar__container: 	var(--cl-gray-800);
-    --bl-right-sidebar__container: 	1px solid var(--cl-black);
+    --bl-right-sidebar__container: 	1px solid var(--cl-gray-800);
   }
 }
 
