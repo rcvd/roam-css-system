@@ -1333,10 +1333,10 @@
 
 :root {
   --bc-quote: 	var(--cl-gray-700);
-  --bt-quote: 	1px solid var(--cl-gray-600);
-  --br-quote: 	1px solid var(--cl-gray-600);
-  --bb-quote: 	1px solid var(--cl-gray-600);
-  --bl-quote: 	1px solid var(--cl-gray-600);
+  --bt-quote: 	1px solid var(--cl-gray-800);
+  --br-quote: 	1px solid var(--cl-gray-800);
+  --bb-quote: 	1px solid var(--cl-gray-800);
+  --bl-quote: 	1px solid var(--cl-gray-800);
   --bd-quote: 	;
   --ff-quote: 	;
   --fs-quote: 	1em;
