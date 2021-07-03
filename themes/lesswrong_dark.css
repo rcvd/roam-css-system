@@ -966,10 +966,10 @@
 
 :root {
   --bc-kanban__card: 	var(--cl-black);
-  --bt-kanban__card: 	1px solid var(--cl-gray-700);
-  --br-kanban__card: 	1px solid var(--cl-gray-700);
-  --bb-kanban__card: 	1px solid var(--cl-gray-700);
-  --bl-kanban__card: 	1px solid var(--cl-gray-700);
+  --bt-kanban__card: 	1px solid var(--cl-gray-800);
+  --br-kanban__card: 	1px solid var(--cl-gray-800);
+  --bb-kanban__card: 	1px solid var(--cl-gray-800);
+  --bl-kanban__card: 	1px solid var(--cl-gray-800);
   --bd-kanban__card: 	;
 }
 
