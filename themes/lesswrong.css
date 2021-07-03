@@ -1684,20 +1684,24 @@
 
 :root {
   --bc-graph-dropdown__setting: 	var(--cl-gray-100);
+  --co-graph-dropdown__setting: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-graph-dropdown__setting: 	var(--cl-gray-700);
+    --co-graph-dropdown__setting: 	;
   }
 }
 
 :root {
+  --co-graph-dropdown__setting-icon--hover: 	var(--cl-gray-700);
   --td-graph-dropdown__setting-icon--hover: 	none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --co-graph-dropdown__setting-icon--hover: 	;
   }
 }
 

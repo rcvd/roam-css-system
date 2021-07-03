@@ -750,9 +750,11 @@
 
 :root {
   --bc-graph-dropdown__setting: 	var(--cl-gray-700);
+  --co-graph-dropdown__setting: 	;
 }
 
 :root {
+  --co-graph-dropdown__setting-icon--hover: 	;
   --td-graph-dropdown__setting-icon--hover: 	none;
 }
 

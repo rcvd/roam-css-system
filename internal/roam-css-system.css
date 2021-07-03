@@ -756,9 +756,11 @@ div, textarea {
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting {
   background-color:  	var(--bc-graph-dropdown__setting, #EBF1F5);
+  color:  				var(--co-graph-dropdown__setting, inherit);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content a:hover .icon.settings {
+  color:  				var(--co-graph-dropdown__setting-icon--hover, inherit);
   text-decoration:  	var(--td-graph-dropdown__setting-icon--hover, inherit);
 }
 
