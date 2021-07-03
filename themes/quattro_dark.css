@@ -1697,3 +1697,7 @@
   --br-zotero__sequence: 	1px solid var(--cl-black);
   }
 
+:root {
+  --bc-version__bullet: 	;
+  }
+

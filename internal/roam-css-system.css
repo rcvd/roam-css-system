@@ -1709,3 +1709,7 @@ span.zotero-roam-sequence {
   font-size:  			var(--fs-zotero__sequence, 0.85em);
 }
 
+.version-bullet {
+  background-color:  	var(--bc-version__bullet, inherit)!important;
+}
+
