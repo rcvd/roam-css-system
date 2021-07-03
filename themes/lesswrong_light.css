@@ -715,7 +715,7 @@
 }
 
 :root {
-  --co-graph-dropdown__a--hover: 	var(--cl-gray-300);
+  --co-graph-dropdown__a--hover: 	var(--cl-gray-700);
 }
 
 :root {
