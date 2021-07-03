@@ -1391,7 +1391,7 @@ div, textarea {
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover {
-  text-decoration:  	var(--td-reference__page-title--hover, inherit);
+  text-decoration:  	var(--td-reference__page-title--hover, inherit)!important;
 }
 
 div:hover > strong[style*='color: rgb(206, 217, 224);'] {
