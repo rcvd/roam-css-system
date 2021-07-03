@@ -1595,6 +1595,15 @@
   }
 }
 
+:root {
+  --co-graph-dropdown__a--hover: 	var(--cl-gray-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-graph-dropdown__a--hover: 	var(--cl-gray-700);
+  }
+}
 
 :root {
   --co-graph-dropdown__expand-icon--hover: 	var(--cl-green-500);

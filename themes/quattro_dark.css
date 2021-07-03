@@ -710,6 +710,9 @@
   --co-graph-dropdown__a: 	var(--cl-gray-100);
   }
 
+:root {
+  --co-graph-dropdown__a--hover: 	;
+  }
 
 :root {
   --co-graph-dropdown__expand-icon--hover: 	var(--cl-red-500);
