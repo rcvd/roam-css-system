@@ -716,6 +716,7 @@ div, textarea {
   text-decoration:  	var(--td-graph-dropdown__a, inherit);
 }
 
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title:hover .expand-icon {
   color:  				var(--co-graph-dropdown__expand-icon--hover, inherit);
 }

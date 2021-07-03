@@ -710,6 +710,7 @@
   --td-graph-dropdown__a: 	none;
 }
 
+
 :root {
   --co-graph-dropdown__expand-icon--hover: 	var(--cl-red-500);
 }
