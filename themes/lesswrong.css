@@ -1672,11 +1672,13 @@
 
 :root {
   --bc-graph-dropdown__setting--hover: 	var(--cl-gray-500);
+  --co-graph-dropdown__setting--hover: 	b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-graph-dropdown__setting--hover: 	var(--cl-blue-900);
+    --co-graph-dropdown__setting--hover: 	;
   }
 }
 

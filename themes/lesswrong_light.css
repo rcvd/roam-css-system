@@ -745,6 +745,7 @@
 
 :root {
   --bc-graph-dropdown__setting--hover: 	var(--cl-gray-500);
+  --co-graph-dropdown__setting--hover: 	b;
 }
 
 :root {
