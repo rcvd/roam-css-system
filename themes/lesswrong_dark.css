@@ -881,7 +881,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-red-900);
+  --bc-highlight: 	var(--cl-green-900);
 }
 
 :root {
@@ -1218,7 +1218,7 @@
 }
 
 :root {
-  --br-multibar: 	1px solid var(--cl-gray-800);
+  --br-multibar: 	1px solid var(--cl-gray-700);
 }
 
 :root {
@@ -1333,10 +1333,10 @@
 
 :root {
   --bc-quote: 	var(--cl-gray-700);
-  --bt-quote: 	1px solid var(--cl-gray-800);
-  --br-quote: 	1px solid var(--cl-gray-800);
-  --bb-quote: 	1px solid var(--cl-gray-800);
-  --bl-quote: 	1px solid var(--cl-gray-800);
+  --bt-quote: 	1px solid var(--cl-gray-600);
+  --br-quote: 	1px solid var(--cl-gray-600);
+  --bb-quote: 	1px solid var(--cl-gray-600);
+  --bl-quote: 	1px solid var(--cl-gray-600);
   --bd-quote: 	;
   --ff-quote: 	;
   --fs-quote: 	1em;
@@ -1583,7 +1583,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-yellow-300);
+  --bc-span--highlighted: 	var(--cl-green-700);
 }
 
 :root {
