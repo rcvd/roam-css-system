@@ -16,20 +16,16 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 - If you want the lesswrong theme, add the following line to it:
 ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong.css');```
 ![](screenshots/light.png)
+
+## Force light or dark mode
 - If you want to force the bright or dark mode independent of the system settings use:
 
-  ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_dark.css');``` 
-  
-  or
-  
+  ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_dark.css');```   
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_dark.css');```
   
   or 
   
   ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_light.css');```
-  
-  or 
-  
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
 
 ## Themes
