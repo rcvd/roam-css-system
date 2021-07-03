@@ -173,18 +173,18 @@
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid var(--cl-gray-100);
-  --br-bullet__closed: 	4px solid var(--cl-gray-100);
-  --bb-bullet__closed: 	4px solid var(--cl-gray-100);
-  --bl-bullet__closed: 	4px solid var(--cl-gray-100);
+  --bt-bullet__closed: 	4px solid var(--cl-gray-200);
+  --br-bullet__closed: 	4px solid var(--cl-gray-200);
+  --bb-bullet__closed: 	4px solid var(--cl-gray-200);
+  --bl-bullet__closed: 	4px solid var(--cl-gray-200);
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-100);
+  --bc-bullet__ghost: 	var(--cl-gray-200);
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-100);
+  --bc-bullet__inner: 	var(--cl-gray-200);
 }
 
 :root {
