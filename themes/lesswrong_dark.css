@@ -881,7 +881,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-green-500);
+  --bc-highlight: 	var(--cl-green-700);
 }
 
 :root {
@@ -1583,7 +1583,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-green-500);
+  --bc-span--highlighted: 	var(--cl-green-700);
 }
 
 :root {
@@ -1675,7 +1675,7 @@
 }
 
 :root {
-  --bc-version__bullet: 	;
+  --bc-version__bullet: 	var(--cl-gray-800);
 }
 
 :root {
