@@ -183,12 +183,12 @@
 }
 
 :root {
-  --co-allpages__input-icon: 	var(--cl-gray-400);
+  --co-allpages__input-icon: 	var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__input-icon: 	var(--cl-gray-600);
+    --co-allpages__input-icon: 	var(--cl-gray-500);
   }
 }
 
@@ -1974,7 +1974,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-highlight: 	var(--cl-green-700);
+    --bc-highlight: 	var(--cl-green-500);
   }
 }
 

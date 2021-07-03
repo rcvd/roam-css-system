@@ -90,7 +90,7 @@
 }
 
 :root {
-  --co-allpages__input-icon: 	var(--cl-gray-600);
+  --co-allpages__input-icon: 	var(--cl-gray-500);
 }
 
 :root {
@@ -881,7 +881,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-green-700);
+  --bc-highlight: 	var(--cl-green-500);
 }
 
 :root {
