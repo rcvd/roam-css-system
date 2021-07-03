@@ -560,7 +560,7 @@
 :root {
   --bc-button: 	transparent;
   --sd-button: 	none;
-  --co-button: 	var(--cl-gray-900);
+  --co-button: 	var(--cl-gray-700);
   --ff-button: 	;
 }
 
@@ -568,7 +568,7 @@
   :root {
     --bc-button: 	transparent;
     --sd-button: 	none;
-    --co-button: 	var(--cl-gray-100);
+    --co-button: 	var(--cl-gray-300);
   }
 }
 
