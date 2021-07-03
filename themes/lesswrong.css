@@ -3611,10 +3611,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-tags--hover: 	;
-    --bt-tags--hover: 	;
-    --br-tags--hover: 	;
-    --bb-tags--hover: 	;
-    --bl-tags--hover: 	;
+    --bt-tags--hover: 	1px solid var(--cl-gray-800);
+    --br-tags--hover: 	1px solid var(--cl-gray-800);
+    --bb-tags--hover: 	1px solid var(--cl-gray-800);
+    --bl-tags--hover: 	1px solid var(--cl-gray-800);
     --co-tags--hover: 	;
   }
 }
@@ -3638,10 +3638,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-tags: 	;
-    --bt-tags: 	1px solid var(--cl-gray-800);
-    --br-tags: 	1px solid var(--cl-gray-800);
-    --bb-tags: 	1px solid var(--cl-gray-800);
-    --bl-tags: 	1px solid var(--cl-gray-800);
+    --bt-tags: 	1px solid var(--cl-gray-700);
+    --br-tags: 	1px solid var(--cl-gray-700);
+    --bb-tags: 	1px solid var(--cl-gray-700);
+    --bl-tags: 	1px solid var(--cl-gray-700);
     --co-tags: 	var(--cl-gray-500);
   }
 }
