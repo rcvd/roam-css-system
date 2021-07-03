@@ -3495,7 +3495,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-span--highlighted: 	var(--cl-green-700);
+    --bc-span--highlighted: 	var(--cl-green-800);
   }
 }
 
