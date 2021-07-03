@@ -687,7 +687,7 @@ div, textarea {
   border-radius:  		var(--bd-find-or-create__menu-item--selected, inherit);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-list-item, .rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-list-item .rm-search-title {
+.rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-list-item, .rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-title {
   color:  				var(--co-find-or-create__menu-item--selected, inherit)!important;
 }
 
