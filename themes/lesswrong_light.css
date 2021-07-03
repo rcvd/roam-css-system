@@ -1094,22 +1094,22 @@
 }
 
 :root {
-  --bc-main__button--hover: 	var(--cl-green-50);
-  --bt-main__button--hover: 	1px solid var(--cl-green-100);
-  --br-main__button--hover: 	1px solid var(--cl-green-100);
-  --bb-main__button--hover: 	1px solid var(--cl-green-100);
-  --bl-main__button--hover: 	1px solid var(--cl-green-100);
-  --bd-main__button--hover: 	3px;
-  --co-main__button--hover: 	var(--cl-blue-900);
+  --bc-main__button--hover: 	;
+  --bt-main__button--hover: 	;
+  --br-main__button--hover: 	;
+  --bb-main__button--hover: 	;
+  --bl-main__button--hover: 	;
+  --bd-main__button--hover: 	;
+  --co-main__button--hover: 	var(--cl-blue-800);
 }
 
 :root {
-  --bc-main__button: 	var(--cl-gray-50);
-  --bt-main__button: 	1px solid var(--cl-gray-100);
-  --br-main__button: 	1px solid var(--cl-gray-100);
-  --bb-main__button: 	1px solid var(--cl-gray-100);
-  --bl-main__button: 	1px solid var(--cl-gray-100);
-  --bd-main__button: 	3px;
+  --bc-main__button: 	;
+  --bt-main__button: 	;
+  --br-main__button: 	;
+  --bb-main__button: 	;
+  --bl-main__button: 	;
+  --bd-main__button: 	;
   --co-main__button: 	var(--cl-gray-900);
 }
 
@@ -1284,19 +1284,19 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-red-500);
-  --br-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bb-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bl-popover__button--hover: 	1px solid var(--cl-red-500);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-100);
   --co-popover__button--hover: 	;
 }
 
 :root {
   --bc-popover__button: 	;
-  --bt-popover__button: 	;
-  --br-popover__button: 	1px solid var(--cl-gray-200);
-  --bb-popover__button: 	1px solid var(--cl-gray-200);
-  --bl-popover__button: 	1px solid var(--cl-gray-200);
+  --bt-popover__button: 	1px solid var(--cl-gray-300);
+  --br-popover__button: 	1px solid var(--cl-gray-300);
+  --bb-popover__button: 	1px solid var(--cl-gray-300);
+  --bl-popover__button: 	1px solid var(--cl-gray-300);
   --bd-popover__button: 	0px;
   --co-popover__button: 	;
 }

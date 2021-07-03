@@ -2425,44 +2425,44 @@
 }
 
 :root {
-  --bc-main__button--hover: 	var(--cl-green-50);
-  --bt-main__button--hover: 	1px solid var(--cl-green-100);
-  --br-main__button--hover: 	1px solid var(--cl-green-100);
-  --bb-main__button--hover: 	1px solid var(--cl-green-100);
-  --bl-main__button--hover: 	1px solid var(--cl-green-100);
-  --bd-main__button--hover: 	3px;
-  --co-main__button--hover: 	var(--cl-blue-900);
+  --bc-main__button--hover: 	;
+  --bt-main__button--hover: 	;
+  --br-main__button--hover: 	;
+  --bb-main__button--hover: 	;
+  --bl-main__button--hover: 	;
+  --bd-main__button--hover: 	;
+  --co-main__button--hover: 	var(--cl-blue-800);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-main__button--hover: 	var(--cl-blue-900);
-    --bt-main__button--hover: 	1px solid var(--cl-blue-800);
-    --br-main__button--hover: 	1px solid var(--cl-blue-800);
-    --bb-main__button--hover: 	1px solid var(--cl-blue-800);
-    --bl-main__button--hover: 	1px solid var(--cl-blue-800);
-    --co-main__button--hover: 	var(--cl-blue-50);
+    --bc-main__button--hover: 	;
+    --bt-main__button--hover: 	;
+    --br-main__button--hover: 	;
+    --bb-main__button--hover: 	;
+    --bl-main__button--hover: 	;
+    --co-main__button--hover: 	var(--cl-blue-200);
   }
 }
 
 :root {
-  --bc-main__button: 	var(--cl-gray-50);
-  --bt-main__button: 	1px solid var(--cl-gray-100);
-  --br-main__button: 	1px solid var(--cl-gray-100);
-  --bb-main__button: 	1px solid var(--cl-gray-100);
-  --bl-main__button: 	1px solid var(--cl-gray-100);
-  --bd-main__button: 	3px;
+  --bc-main__button: 	;
+  --bt-main__button: 	;
+  --br-main__button: 	;
+  --bb-main__button: 	;
+  --bl-main__button: 	;
+  --bd-main__button: 	;
   --co-main__button: 	var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-main__button: 	var(--cl-gray-800);
-    --bt-main__button: 	1px solid var(--cl-gray-700);
-    --br-main__button: 	1px solid var(--cl-gray-700);
-    --bb-main__button: 	1px solid var(--cl-gray-700);
-    --bl-main__button: 	1px solid var(--cl-gray-700);
-    --co-main__button: 	var(--cl-gray-50);
+    --bc-main__button: 	;
+    --bt-main__button: 	;
+    --br-main__button: 	;
+    --bb-main__button: 	;
+    --bl-main__button: 	;
+    --co-main__button: 	var(--cl-gray-100);
   }
 }
 
@@ -2843,30 +2843,30 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-red-500);
-  --br-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bb-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bl-popover__button--hover: 	1px solid var(--cl-red-500);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-100);
   --co-popover__button--hover: 	;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-popover__button--hover: 	;
-    --bt-popover__button--hover: 	1px solid var(--cl-red-500);
-    --br-popover__button--hover: 	1px solid var(--cl-red-500);
-    --bb-popover__button--hover: 	1px solid var(--cl-red-500);
-    --bl-popover__button--hover: 	1px solid var(--cl-red-500);
+    --bt-popover__button--hover: 	1px solid var(--cl-gray-800);
+    --br-popover__button--hover: 	1px solid var(--cl-gray-800);
+    --bb-popover__button--hover: 	1px solid var(--cl-gray-800);
+    --bl-popover__button--hover: 	1px solid var(--cl-gray-800);
     --co-popover__button--hover: 	;
   }
 }
 
 :root {
   --bc-popover__button: 	;
-  --bt-popover__button: 	;
-  --br-popover__button: 	1px solid var(--cl-gray-200);
-  --bb-popover__button: 	1px solid var(--cl-gray-200);
-  --bl-popover__button: 	1px solid var(--cl-gray-200);
+  --bt-popover__button: 	1px solid var(--cl-gray-300);
+  --br-popover__button: 	1px solid var(--cl-gray-300);
+  --bb-popover__button: 	1px solid var(--cl-gray-300);
+  --bl-popover__button: 	1px solid var(--cl-gray-300);
   --bd-popover__button: 	0px;
   --co-popover__button: 	;
 }
@@ -3495,7 +3495,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-span--highlighted: 	var(--cl-green-800);
+    --bc-span--highlighted: 	var(--cl-green-700);
   }
 }
 

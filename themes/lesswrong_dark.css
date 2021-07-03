@@ -1094,23 +1094,23 @@
 }
 
 :root {
-  --bc-main__button--hover: 	var(--cl-blue-900);
-  --bt-main__button--hover: 	1px solid var(--cl-blue-800);
-  --br-main__button--hover: 	1px solid var(--cl-blue-800);
-  --bb-main__button--hover: 	1px solid var(--cl-blue-800);
-  --bl-main__button--hover: 	1px solid var(--cl-blue-800);
-  --bd-main__button--hover: 	3px;
-  --co-main__button--hover: 	var(--cl-blue-50);
+  --bc-main__button--hover: 	;
+  --bt-main__button--hover: 	;
+  --br-main__button--hover: 	;
+  --bb-main__button--hover: 	;
+  --bl-main__button--hover: 	;
+  --bd-main__button--hover: 	;
+  --co-main__button--hover: 	var(--cl-blue-200);
 }
 
 :root {
-  --bc-main__button: 	var(--cl-gray-800);
-  --bt-main__button: 	1px solid var(--cl-gray-700);
-  --br-main__button: 	1px solid var(--cl-gray-700);
-  --bb-main__button: 	1px solid var(--cl-gray-700);
-  --bl-main__button: 	1px solid var(--cl-gray-700);
-  --bd-main__button: 	3px;
-  --co-main__button: 	var(--cl-gray-50);
+  --bc-main__button: 	;
+  --bt-main__button: 	;
+  --br-main__button: 	;
+  --bb-main__button: 	;
+  --bl-main__button: 	;
+  --bd-main__button: 	;
+  --co-main__button: 	var(--cl-gray-100);
 }
 
 :root {
@@ -1284,10 +1284,10 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-red-500);
-  --br-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bb-popover__button--hover: 	1px solid var(--cl-red-500);
-  --bl-popover__button--hover: 	1px solid var(--cl-red-500);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-800);
   --co-popover__button--hover: 	;
 }
 
@@ -1583,7 +1583,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-green-800);
+  --bc-span--highlighted: 	var(--cl-green-700);
 }
 
 :root {
