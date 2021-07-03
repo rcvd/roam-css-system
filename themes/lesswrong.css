@@ -158,11 +158,11 @@
 }
 
 :root {
-  --bc-allpages__input: 	var(--cl-gray-50);
-  --bt-allpages__input: 	1px solid var(--cl-gray-100);
-  --br-allpages__input: 	1px solid var(--cl-gray-100);
-  --bb-allpages__input: 	1px solid var(--cl-gray-100);
-  --bl-allpages__input: 	1px solid var(--cl-gray-100);
+  --bc-allpages__input: 	;
+  --bt-allpages__input: 	;
+  --br-allpages__input: 	;
+  --bb-allpages__input: 	;
+  --bl-allpages__input: 	;
   --bd-allpages__input: 	0px;
   --sd-allpages__input: 	none;
   --co-allpages__input: 	var(--cl-gray-900);
@@ -172,11 +172,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__input: 	var(--cl-gray-900);
-    --bt-allpages__input: 	1px solid var(--cl-gray-700);
-    --br-allpages__input: 	1px solid var(--cl-gray-700);
-    --bb-allpages__input: 	1px solid var(--cl-gray-700);
-    --bl-allpages__input: 	1px solid var(--cl-gray-700);
+    --bc-allpages__input: 	;
+    --bt-allpages__input: 	;
+    --br-allpages__input: 	;
+    --bb-allpages__input: 	;
+    --bl-allpages__input: 	;
     --sd-allpages__input: 	none;
     --co-allpages__input: 	var(--cl-gray-100);
   }
@@ -1974,7 +1974,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-highlight: 	var(--cl-green-900);
+    --bc-highlight: 	var(--cl-green-500);
   }
 }
 
@@ -3495,7 +3495,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-span--highlighted: 	var(--cl-green-700);
+    --bc-span--highlighted: 	var(--cl-green-500);
   }
 }
 
