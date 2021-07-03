@@ -1214,7 +1214,7 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid var(--cl-red-300);
+  --br-multibar--hover: 	3px solid var(--cl-gray-300);
 }
 
 :root {

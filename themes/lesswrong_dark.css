@@ -1214,11 +1214,11 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid var(--cl-red-500);
+  --br-multibar--hover: 	3px solid var(--cl-gray-600);
 }
 
 :root {
-  --br-multibar: 	1px solid var(--cl-gray-700);
+  --br-multibar: 	1px solid var(--cl-gray-800);
 }
 
 :root {
