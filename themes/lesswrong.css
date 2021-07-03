@@ -2548,11 +2548,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-menu__item--hover: 	var(--cl-blue-900);
-    --bt-menu__item--hover: 	1px solid var(--cl-blue-800);
-    --br-menu__item--hover: 	1px solid var(--cl-blue-800);
-    --bb-menu__item--hover: 	1px solid var(--cl-blue-800);
-    --bl-menu__item--hover: 	1px solid var(--cl-blue-800);
+    --bc-menu__item--hover: 	var(--cl-gray-500);
+    --bt-menu__item--hover: 	;
+    --br-menu__item--hover: 	;
+    --bb-menu__item--hover: 	;
+    --bl-menu__item--hover: 	;
     --co-menu__item--hover: 	var(--cl-white);
   }
 }
@@ -2568,10 +2568,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-menu__item: 	1px solid transparent;
-    --br-menu__item: 	1px solid transparent;
-    --bb-menu__item: 	1px solid transparent;
-    --bl-menu__item: 	1px solid transparent;
+    --bt-menu__item: 	;
+    --br-menu__item: 	;
+    --bb-menu__item: 	;
+    --bl-menu__item: 	;
     --co-menu__item: 	var(--cl-gray-100);
   }
 }
