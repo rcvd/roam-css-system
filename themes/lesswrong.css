@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a: 	var(--cl-green-600);
+    --co-a: 	var(--cl-green(600);
   }
 }
 
@@ -3611,10 +3611,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-tags--hover: 	;
-    --bt-tags--hover: 	1px solid var(--cl-gray-800);
-    --br-tags--hover: 	1px solid var(--cl-gray-800);
-    --bb-tags--hover: 	1px solid var(--cl-gray-800);
-    --bl-tags--hover: 	1px solid var(--cl-gray-800);
+    --bt-tags--hover: 	1px solid var(--cl-gray-600);
+    --br-tags--hover: 	1px solid var(--cl-gray-600);
+    --bb-tags--hover: 	1px solid var(--cl-gray-600);
+    --bl-tags--hover: 	1px solid var(--cl-gray-600);
     --co-tags--hover: 	var(--cl-gray-400);
   }
 }
