@@ -180,11 +180,11 @@
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-800);
+  --bc-bullet__ghost: 	var(--cl-gray-700);
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-800);
+  --bc-bullet__inner: 	var(--cl-gray-600);
 }
 
 :root {
