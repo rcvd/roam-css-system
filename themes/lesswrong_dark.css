@@ -693,6 +693,10 @@
 }
 
 :root {
+  --co-find-or-create__new page: 	;
+}
+
+:root {
   --co-find-or-create__recent: 	;
 }
 

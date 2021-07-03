@@ -1554,6 +1554,16 @@
 }
 
 :root {
+  --co-find-or-create__new page: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-find-or-create__new page: 	;
+  }
+}
+
+:root {
   --co-find-or-create__recent: 	;
 }
 

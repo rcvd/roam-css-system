@@ -1554,6 +1554,16 @@
 }
 
 :root {
+  --co-find-or-create__new page: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-find-or-create__new page: 	;
+  }
+}
+
+:root {
   --co-find-or-create__recent: 	;
 }
 
@@ -2190,7 +2200,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	var(--cl-green-500);
+  --co-left-sidebar__db-title--hover: 	var(--cl-gray-300);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -698,6 +698,10 @@ div, textarea {
   border-left:  		var(--bl-find-or-create__menu-item, inherit);
 }
 
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+  color:  				var(--co-find-or-create__new page, inherit);
+}
+
 .rm-find-or-create__menu > div[style*='color: rgb(206, 217, 224);'] {
   color:  				var(--co-find-or-create__recent, rgb(206, 217, 224))!important;
 }
