@@ -1380,6 +1380,10 @@
   }
 
 :root {
+  --td-reference__page-title--hover: 	;
+  }
+
+:root {
   --td-reference__unlinked-title--hover: 	;
   --co-reference__unlinked-title--hover: 	;
   }

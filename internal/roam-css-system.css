@@ -1126,7 +1126,7 @@ div, textarea {
   background-color:  	var(--bc-main, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main, .roam-block-container textarea {
+.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main div, .roam-block-container textarea {
   color:  				var(--co-main, inherit);
   font-family:  		var(--ff-main, inherit);
   font-size:  			var(--fs-main, inherit);
@@ -1388,6 +1388,10 @@ div, textarea {
   font-size:  			var(--fs-reference__page-title, 14px);
   font-weight:  		var(--fw-reference__page-title, inherit);
   text-decoration:  	var(--td-reference__page-title, inherit);
+}
+
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover {
+  text-decoration:  	var(--td-reference__page-title--hover, inherit);
 }
 
 div:hover > strong[style*='color: rgb(206, 217, 224);'] {

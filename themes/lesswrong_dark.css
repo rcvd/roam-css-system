@@ -686,7 +686,7 @@
 }
 
 :root {
-  --co-find-or-create__menu-item--selected: 	var(--cl-gray-900);
+  --co-find-or-create__menu-item--selected: 	var(--cl-gray-100);
 }
 
 :root {
@@ -697,7 +697,7 @@
 }
 
 :root {
-  --co-find-or-create__new-page--selected: 	var(--cl-white);
+  --co-find-or-create__new-page--selected: 	var(--cl-green-100);
 }
 
 :root {
@@ -1380,6 +1380,10 @@
 }
 
 :root {
+  --td-reference__page-title--hover: 	none;
+}
+
+:root {
   --co-reference__unlinked-title--hover: 	;
   --td-reference__unlinked-title--hover: 	;
 }
@@ -1642,10 +1646,10 @@
 
 :root {
   --bc-tags: 	;
-  --bt-tags: 	;
-  --br-tags: 	;
-  --bb-tags: 	;
-  --bl-tags: 	;
+  --bt-tags: 	1px solid var(--cl-gray-800);
+  --br-tags: 	1px solid var(--cl-gray-800);
+  --bb-tags: 	1px solid var(--cl-gray-800);
+  --bl-tags: 	1px solid var(--cl-gray-800);
   --bd-tags: 	;
   --co-tags: 	var(--cl-gray-500);
   --ff-tags: 	'Source Sans Pro';
