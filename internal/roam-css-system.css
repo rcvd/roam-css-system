@@ -1057,7 +1057,7 @@ div, textarea {
   text-transform:  		var(--tt-log-page__h1, inherit);
 }
 
-.rm-article-wrapper .roam-log-container .roam-log-preview {
+.roam-body .roam-app .roam-main .roam-article .roam-log-container .roam-log-preview {
   color:  				var(--co-log-page__preview, #8A9BA8);
 }
 
