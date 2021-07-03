@@ -699,11 +699,11 @@ div, textarea {
 }
 
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
-  color:  				var(--co-find-or-create__new page, inherit);
+  color:  				var(--co-find-or-create__new-page, inherit);
 }
 
 .rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] .rm-search-title .rm-new-page {
-  color:  				var(--co-find-or-create__new page--selected, inherit);
+  color:  				var(--co-find-or-create__new-page--selected, inherit);
 }
 
 .rm-find-or-create__menu > div[style*='color: rgb(206, 217, 224);'] {
