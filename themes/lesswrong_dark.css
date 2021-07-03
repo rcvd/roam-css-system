@@ -824,20 +824,20 @@
 }
 
 :root {
-  --bc-help__input--focus: 	var(--cl-blue-900);
-  --bt-help__input--focus: 	1px solid var(--cl-blue-800);
-  --br-help__input--focus: 	1px solid var(--cl-blue-800);
-  --bb-help__input--focus: 	1px solid var(--cl-blue-800);
-  --bl-help__input--focus: 	1px solid var(--cl-blue-800);
+  --bc-help__input--focus: 	;
+  --bt-help__input--focus: 	;
+  --br-help__input--focus: 	;
+  --bb-help__input--focus: 	;
+  --bl-help__input--focus: 	;
   --bd-help__input--focus: 	;
 }
 
 :root {
-  --bc-help__input: 	var(--cl-gray-900);
-  --bt-help__input: 	1px solid var(--cl-gray-800);
-  --br-help__input: 	1px solid var(--cl-gray-800);
-  --bb-help__input: 	1px solid var(--cl-gray-800);
-  --bl-help__input: 	1px solid var(--cl-gray-800);
+  --bc-help__input: 	;
+  --bt-help__input: 	;
+  --br-help__input: 	;
+  --bb-help__input: 	;
+  --bl-help__input: 	;
   --bd-help__input: 	;
 }
 
