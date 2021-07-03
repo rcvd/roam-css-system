@@ -250,13 +250,13 @@
 }
 
 :root {
-  --co-allpages__title-text: 	var(--cl-gray-900);
+  --co-allpages__title-text: 	var(--cl-gray-800);
   --td-allpages__title-text: 	none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__title-text: 	var(--cl-gray-100);
+    --co-allpages__title-text: 	var(--cl-gray-200);
   }
 }
 

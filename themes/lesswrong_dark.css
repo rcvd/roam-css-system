@@ -119,7 +119,7 @@
 }
 
 :root {
-  --co-allpages__title-text: 	var(--cl-gray-100);
+  --co-allpages__title-text: 	var(--cl-gray-200);
   --td-allpages__title-text: 	none;
 }
 
