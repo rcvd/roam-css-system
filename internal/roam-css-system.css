@@ -1390,7 +1390,7 @@ div, textarea {
   text-decoration:  	var(--td-reference__page-title, inherit);
 }
 
-.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover {
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover span {
   text-decoration:  	var(--td-reference__page-title--hover, inherit)!important;
 }
 
