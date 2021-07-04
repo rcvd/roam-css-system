@@ -1097,7 +1097,7 @@
 :root {
   --co-logbutton: 	var(--cl-gray-300);
   --ff-logbutton: 	;
-  --fs-logbutton: 	1em;
+  --fs-logbutton: 	1rem;
   --fw-logbutton: 	normal;
   --tt-logbutton: 	normal;
 }
