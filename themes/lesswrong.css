@@ -1319,7 +1319,7 @@
 }
 
 :root {
-  --co-elevation__item-icon--selected: 	;
+  --co-elevation__item-icon--selected: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1329,7 +1329,7 @@
 }
 
 :root {
-  --co-elevation__item-keyprompt--selected: 	;
+  --co-elevation__item-keyprompt--selected: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
