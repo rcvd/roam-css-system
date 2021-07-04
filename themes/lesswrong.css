@@ -2994,7 +2994,7 @@
     --bt-quote: 	;
     --br-quote: 	;
     --bb-quote: 	;
-    --bl-quote: 	3px solid var(--cl-gray-200);
+    --bl-quote: 	3px solid var(--cl-gray-800);
   }
 }
 
