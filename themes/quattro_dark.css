@@ -573,6 +573,7 @@
   }
 
 :root {
+  --ff-elevation__item: 	;
   --bt-elevation__item: 	1px solid transparent;
   --br-elevation__item: 	1px solid transparent;
   --bb-elevation__item: 	1px solid transparent;

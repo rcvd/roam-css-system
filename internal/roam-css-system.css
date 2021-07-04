@@ -583,6 +583,7 @@ div, textarea {
   border-right:  		var(--br-elevation__item, inherit);
   border-bottom:  		var(--bb-elevation__item, inherit);
   border-left:  		var(--bl-elevation__item, inherit);
+  font-family:  		var(--ff-elevation__item, inherit);
 }
 
 .bp3-elevation-3 .dont-unfocus-block .bp3-icon {
@@ -1126,7 +1127,7 @@ div, textarea {
   background-color:  	var(--bc-main, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main div, .roam-block-container textarea {
+.roam-body .roam-app .roam-main .roam-article, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main, .roam-block-container textarea {
   color:  				var(--co-main, inherit);
   font-family:  		var(--ff-main, inherit);
   font-size:  			var(--fs-main, inherit);

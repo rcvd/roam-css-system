@@ -1284,6 +1284,7 @@
   --br-elevation__item: 	1px solid transparent;
   --bb-elevation__item: 	1px solid transparent;
   --bl-elevation__item: 	1px solid transparent;
+  --ff-elevation__item: 	'Source Sans Pro';
 }
 
 @media (prefers-color-scheme: dark) {
