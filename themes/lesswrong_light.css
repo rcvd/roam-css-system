@@ -85,7 +85,7 @@
   --bd-allpages__input: 	0px;
   --sd-allpages__input: 	none;
   --co-allpages__input: 	var(--cl-gray-900);
-  --fs-allpages__input: 	1em;
+  --fs-allpages__input: 	1rem;
   --fw-allpages__input: 	normal;
 }
 
@@ -102,7 +102,7 @@
   --bc-allpages__row-header: 	var(--cl-gray-50);
   --bd-allpages__row-header: 	0px;
   --co-allpages__row-header: 	var(--cl-gray-900);
-  --fs-allpages__row-header: 	1em;
+  --fs-allpages__row-header: 	1rem;
 }
 
 :root {
@@ -319,7 +319,7 @@
   --bd-code: 	2px;
   --co-code: 	var(--cl-gray-900);
   --ff-code: 	'iA Writer Mono S';
-  --fs-code: 	1em;
+  --fs-code: 	1rem;
 }
 
 :root {
@@ -340,7 +340,7 @@
 
 :root {
   --ff-codeblock__code: 	'Source Code Pro';
-  --fs-codeblock__code: 	1em;
+  --fs-codeblock__code: 	1rem;
 }
 
 :root {
@@ -503,7 +503,7 @@
   --br-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
   --co-datepicker__weeknumber: 	var(--cl-gray-500);
   --ff-datepicker__weeknumber: 	'Source Sans Pro';
-  --fs-datepicker__weeknumber: 	1em;
+  --fs-datepicker__weeknumber: 	1rem;
 }
 
 :root {
@@ -545,7 +545,7 @@
 
 :root {
   --ff-div: 	'Source Sans Pro';
-  --fs-div: 	1em;
+  --fs-div: 	1rem;
 }
 
 :root {
@@ -586,7 +586,7 @@
 
 :root {
   --co-elevation__item-keyprompt: 	var(--cl-gray-500);
-  --fs-elevation__item-keyprompt: 	0.8em;
+  --fs-elevation__item-keyprompt: 	0.8rem;
   --op-elevation__item-keyprompt: 	1;
 }
 
@@ -657,7 +657,7 @@
 }
 
 :root {
-  --fs-embed-page__title: 	14px;
+  --fs-embed-page__title: 	1rem;
 }
 
 :root {
@@ -682,7 +682,7 @@
   --bd-emoji-mart: 	;
   --co-emoji-mart: 	var(--cl-gray-900);
   --ff-emoji-mart: 	'Source Sans Pro';
-  --fs-emoji-mart: 	1em;
+  --fs-emoji-mart: 	1rem;
 }
 
 :root {
@@ -723,7 +723,7 @@
 
 :root {
   --co-find-or-create__search-list-item-title: 	var(--cl-gray-800);
-  --fs-find-or-create__search-list-item-title: 	1em;
+  --fs-find-or-create__search-list-item-title: 	1rem;
 }
 
 :root {
@@ -790,7 +790,7 @@
 
 :root {
   --co-help__category-name: 	var(--cl-gray-700);
-  --fs-help__category-name: 	1em;
+  --fs-help__category-name: 	1rem;
   --ft-help__category-name: 	normal;
   --fw-help__category-name: 	normal;
   --tt-help__category-name: 	uppercase;
@@ -803,7 +803,7 @@
 :root {
   --bc-help__component-notation: 	var(--cl-gray-100);
   --co-help__component-notation: 	var(--cl-gray-900);
-  --fs-help__component-notation: 	1em;
+  --fs-help__component-notation: 	1rem;
 }
 
 :root {
@@ -814,7 +814,7 @@
 
 :root {
   --co-help__function-name: 	var(--cl-gray-900);
-  --fs-help__function-name: 	1em;
+  --fs-help__function-name: 	1rem;
   --fw-help__function-name: 	500;
 }
 
@@ -859,7 +859,7 @@
 
 :root {
   --co-help__markdown-title: 	var(--cl-gray-900);
-  --fs-help__markdown-title: 	1em;
+  --fs-help__markdown-title: 	1rem;
   --fw-help__markdown-title: 	500;
 }
 
@@ -869,7 +869,7 @@
 
 :root {
   --co-help__resource-description: 	var(--cl-gray-600);
-  --fs-help__resource-description: 	1em;
+  --fs-help__resource-description: 	1rem;
   --fw-help__resource-description: 	normal;
 }
 
@@ -880,7 +880,7 @@
 
 :root {
   --co-help__resource-title: 	var(--cl-gray-700);
-  --fs-help__resource-title: 	1em;
+  --fs-help__resource-title: 	1rem;
   --fw-help__resource-title: 	bold;
 }
 
@@ -950,7 +950,7 @@
   --sd-input: 	none;
   --co-input: 	var(--cl-gray-900);
   --ff-input: 	;
-  --fs-input: 	1em;
+  --fs-input: 	1rem;
   --fw-input: 	normal;
 }
 
@@ -1043,7 +1043,7 @@
 :root {
   --co-level1: 	;
   --ff-level1: 	'Source Serif Pro';
-  --fs-level1: 	1.4em;
+  --fs-level1: 	1.4rem;
   --ft-level1: 	;
   --fw-level1: 	600;
   --tt-level1: 	normal;
@@ -1052,7 +1052,7 @@
 :root {
   --co-level2: 	;
   --ff-level2: 	'Source Serif Pro';
-  --fs-level2: 	1.2em;
+  --fs-level2: 	1.2rem;
   --ft-level2: 	;
   --fw-level2: 	600;
   --tt-level2: 	normal;
@@ -1061,7 +1061,7 @@
 :root {
   --co-level3: 	;
   --ff-level3: 	'Source Serif Pro';
-  --fs-level3: 	1em;
+  --fs-level3: 	1rem;
   --ft-level3: 	;
   --fw-level3: 	600;
   --tt-level3: 	normal;
@@ -1129,7 +1129,7 @@
 :root {
   --co-main: 	var(--cl-gray-900);
   --ff-main: 	'Source Serif Pro';
-  --fs-main: 	1em;
+  --fs-main: 	1rem;
   --fw-main: 	normal;
 }
 
@@ -1349,7 +1349,7 @@
   --bl-quote: 	1px solid var(--cl-gray-200);
   --bd-quote: 	;
   --ff-quote: 	;
-  --fs-quote: 	1em;
+  --fs-quote: 	1rem;
   --ft-quote: 	;
   --fw-quote: 	;
 }
@@ -1376,7 +1376,7 @@
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	'Source Sans Pro';
-  --fs-reference__linked-title: 	1em;
+  --fs-reference__linked-title: 	1rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
   --tt-reference__linked-title: 	uppercase;
@@ -1401,7 +1401,7 @@
 :root {
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	'Source Sans Pro';
-  --fs-reference__unlinked-title: 	1em;
+  --fs-reference__unlinked-title: 	1rem;
   --ft-reference__unlinked-title: 	normal;
   --fw-reference__unlinked-title: 	normal;
   --tt-reference__unlinked-title: 	uppercase;
@@ -1421,7 +1421,7 @@
 
 :root {
   --co-right-sidebar__h1: 	var(--cl-gray-700);
-  --fs-right-sidebar__h1: 	1em;
+  --fs-right-sidebar__h1: 	1rem;
   --fw-right-sidebar__h1: 	600;
 }
 
@@ -1617,7 +1617,7 @@
   --bl-starred__page: 	;
   --co-starred__page: 	var(--cl-gray-700);
   --ff-starred__page: 	;
-  --fs-starred__page: 	1em;
+  --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
   --fw-starred__page: 	;
   --tt-starred__page: 	normal;
@@ -1626,7 +1626,7 @@
 :root {
   --co-starred__title: 	var(--cl-gray-700);
   --ff-starred__title: 	;
-  --fs-starred__title: 	1em;
+  --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
   --fw-starred__title: 	;
   --tt-starred__title: 	;
@@ -1663,7 +1663,7 @@
   --bd-tags: 	3px;
   --co-tags: 	var(--cl-gray-400);
   --ff-tags: 	'Source Sans Pro';
-  --fs-tags: 	0.85em;
+  --fs-tags: 	0.85rem;
   --ft-tags: 	;
   --fw-tags: 	;
   --td-tags: 	;
