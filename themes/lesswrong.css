@@ -2507,16 +2507,7 @@
   }
 }
 
-:root {
-  --bc-main: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-main: 	var(--cl-gray-900);
-  }
-}
-
+Error 2023
 :root {
   --co-main: 	var(--cl-gray-900);
   --ff-main: 	'Source Serif Pro';

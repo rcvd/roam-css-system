@@ -2507,19 +2507,10 @@
   }
 }
 
-:root {
-  --bc-main: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-main: 	var(--cl-gray-900);
-  }
-}
-
+Error 2023
 :root {
   --co-main: 	;
-  --ff-main: 	;
+  --ff-main: 	'iA Writer Quattro S';
   --fs-main: 	;
   --fw-main: 	;
 }
