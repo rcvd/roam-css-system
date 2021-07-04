@@ -2501,6 +2501,7 @@
   --co-main: 	;
   --ff-main: 	;
   --fs-main: 	;
+  --fw-main: 	;
 }
 
 @media (prefers-color-scheme: dark) {

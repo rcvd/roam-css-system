@@ -1127,9 +1127,10 @@
 }
 
 :root {
-  --co-main: 	;
+  --co-main: 	var(--cl-gray-900);
   --ff-main: 	'Source Serif Pro';
-  --fs-main: 	;
+  --fs-main: 	1em;
+  --fw-main: 	normal;
 }
 
 :root {

@@ -1139,6 +1139,7 @@ div, textarea {
   color:  				var(--co-main, inherit);
   font-family:  		var(--ff-main, inherit);
   font-size:  			var(--fs-main, inherit);
+  font-weight:  		var(--fw-main, inherit);
 }
 
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
