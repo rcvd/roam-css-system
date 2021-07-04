@@ -605,11 +605,11 @@ div, textarea {
 }
 
 .bp3-elevation-3 div[style*='color: rgb(129, 145, 157)'] {
-  color:  				var(--co-elevation__create-block, inherit);
+  color:  				var(--co-elevation__create-block, inherit)!important;
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);']  div[style*='color: rgb(129, 145, 157)'] {
-  color:  				var(--co-elevation__create-block--selected, inherit);
+  color:  				var(--co-elevation__create-block--selected, inherit)!important;
 }
 
 .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container {
