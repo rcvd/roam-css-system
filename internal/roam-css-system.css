@@ -1139,7 +1139,10 @@ div, textarea {
   color:  				var(--co-main__button, #182026);
 }
 
-Error 2023
+.roam-body .roam-app .roam-main {
+  background-color:  	var(--bc-main, inherit);
+}
+
 .roam-body .roam-app .roam-main .roam-article, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main, .roam-block-container textarea, .roam-block {
   color:  				var(--co-main, inherit);
   font-family:  		var(--ff-main, inherit);

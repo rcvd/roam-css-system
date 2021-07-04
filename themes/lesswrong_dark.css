@@ -1130,7 +1130,10 @@
   --co-main__button: 	var(--cl-gray-100);
 }
 
-Error 2023
+:root {
+  --bc-main: 	var(--cl-gray-900);
+}
+
 :root {
   --co-main: 	;
   --ff-main: 	'Source Serif Pro';

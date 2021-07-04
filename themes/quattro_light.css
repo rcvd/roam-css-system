@@ -1130,7 +1130,10 @@
   --co-main__button: 	var(--cl-gray-900);
 }
 
-Error 2023
+:root {
+  --bc-main: 	var(--cl-white);
+}
+
 :root {
   --co-main: 	;
   --ff-main: 	'iA Writer Quattro S';
@@ -1316,7 +1319,7 @@ Error 2023
 
 :root {
   --bc-popover__button: 	;
-  --bt-popover__button: 	1px solid var(--cl-gray-200);
+  --bt-popover__button: 	;
   --br-popover__button: 	1px solid var(--cl-gray-200);
   --bb-popover__button: 	1px solid var(--cl-gray-200);
   --bl-popover__button: 	1px solid var(--cl-gray-200);

@@ -1130,7 +1130,10 @@
   --co-main__button: 	var(--cl-gray-50);
   }
 
-Error 2023
+:root {
+  --bc-main: 	var(--cl-gray-900);
+  }
+
 :root {
   --ff-main: 	'iA Writer Quattro S';
   --fs-main: 	;
