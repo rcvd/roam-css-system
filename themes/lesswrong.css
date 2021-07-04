@@ -2048,7 +2048,7 @@
 }
 
 :root {
-  --bc-inline-references: 	var(--cl-blue-50);
+  --bc-inline-references: 	var(--cl-gray-50);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2999,7 +2999,7 @@
 }
 
 :root {
-  --bc-ref-count--active: 	var(--cl-blue-50);
+  --bc-ref-count--active: 	;
   --co-ref-count--active: 	var(--cl-gray-900);
 }
 
