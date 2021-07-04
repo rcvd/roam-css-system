@@ -1671,7 +1671,7 @@
 }
 
 :root {
-  --bc-textarea__selection: 	;
+  --bc-textarea__selection: 	var(--cl-gray-200);
 }
 
 :root {
