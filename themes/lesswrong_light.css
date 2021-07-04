@@ -557,6 +557,14 @@ Error 2023
 }
 
 :root {
+  --co-elevation__create-block--selected: 	var(--cl-white);
+}
+
+:root {
+  --co-elevation__create-block: 	var(--cl-gray-500);
+}
+
+:root {
   --bc-elevation__item--selected: 	var(--cl-gray-500);
   --bt-elevation__item--selected: 	;
   --br-elevation__item--selected: 	;
@@ -575,17 +583,11 @@ Error 2023
 }
 
 :root {
-  --co-elevation__item-icon: 	var(--cl-gray-500);
-}
-
-:root {
-  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
-  --fs-elevation__item-keyprompt: 	0.8rem;
-  --op-elevation__item-keyprompt: 	1;
-}
-
-:root {
   --co-elevation__item-icon--selected: 	var(--cl-white);
+}
+
+:root {
+  --co-elevation__item-icon: 	var(--cl-gray-500);
 }
 
 :root {
@@ -593,11 +595,9 @@ Error 2023
 }
 
 :root {
-  --co-elevation__create-block: 	var(--cl-gray-500);
-}
-
-:root {
-  --co-elevation__create-block--selected: 	var(--cl-white);
+  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
+  --fs-elevation__item-keyprompt: 	0.8rem;
+  --op-elevation__item-keyprompt: 	1;
 }
 
 :root {
@@ -1177,20 +1177,20 @@ Error 2023
 }
 
 :root {
+  --co-menu__item-icon--hover: 	var(--cl-white);
+}
+
+:root {
   --co-menu__item-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --co-menu__item-label--hover: 	var(--cl-white);
 }
 
 :root {
   --co-menu__item-label: 	var(--cl-gray-500);
   --td-menu__item-label: 	none;
-}
-
-:root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-:root {
-  --co-menu__item-label--hover: 	var(--cl-white);
 }
 
 :root {
@@ -1386,21 +1386,25 @@ Error 2023
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	'Source Sans Pro';
-  --fs-reference__linked-title: 	1rem;
+  --fs-reference__linked-title: 	1.15rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
   --tt-reference__linked-title: 	uppercase;
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-gray-500);
-  --fs-reference__page-title: 	14px;
-  --fw-reference__page-title: 	;
-  --td-reference__page-title: 	none;
+  --bc-reference__nested-refs: 	var(--cl-green-300);
 }
 
 :root {
   --td-reference__page-title--hover: 	none;
+}
+
+:root {
+  --co-reference__page-title: 	var(--cl-gray-500);
+  --fs-reference__page-title: 	1.15rem;
+  --fw-reference__page-title: 	;
+  --td-reference__page-title: 	none;
 }
 
 :root {

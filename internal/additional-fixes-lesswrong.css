@@ -182,3 +182,11 @@ span.rm-page-ref--tag[data-tag='evergreen']:hover {
 div {
     line-height: 1.6rem;
 }
+
+.rm-nested-refs .flex-h-box {
+    align-items: center;
+}
+
+.rm-inline-references .rm-inline-reference .rm-caret-wrapper {
+    margin-top: 0;
+}

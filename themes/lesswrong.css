@@ -1247,6 +1247,26 @@ Error 2023
 }
 
 :root {
+  --co-elevation__create-block--selected: 	var(--cl-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__create-block--selected: 	var(--cl-white);
+  }
+}
+
+:root {
+  --co-elevation__create-block: 	var(--cl-gray-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__create-block: 	var(--cl-gray-500);
+  }
+}
+
+:root {
   --bc-elevation__item--selected: 	var(--cl-gray-500);
   --bt-elevation__item--selected: 	;
   --br-elevation__item--selected: 	;
@@ -1285,34 +1305,22 @@ Error 2023
 }
 
 :root {
-  --co-elevation__item-icon: 	var(--cl-gray-500);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-elevation__item-icon: 	var(--cl-gray-500);
-  }
-}
-
-:root {
-  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
-  --fs-elevation__item-keyprompt: 	0.8rem;
-  --op-elevation__item-keyprompt: 	1;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-elevation__item-keyprompt: 	var(--cl-gray-500);
-  }
-}
-
-:root {
   --co-elevation__item-icon--selected: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --co-elevation__item-icon--selected: 	var(--cl-white);
+  }
+}
+
+:root {
+  --co-elevation__item-icon: 	var(--cl-gray-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__item-icon: 	var(--cl-gray-500);
   }
 }
 
@@ -1327,22 +1335,14 @@ Error 2023
 }
 
 :root {
-  --co-elevation__create-block: 	var(--cl-gray-500);
+  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
+  --fs-elevation__item-keyprompt: 	0.8rem;
+  --op-elevation__item-keyprompt: 	1;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-elevation__create-block: 	var(--cl-gray-500);
-  }
-}
-
-:root {
-  --co-elevation__create-block--selected: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-elevation__create-block--selected: 	var(--cl-white);
+    --co-elevation__item-keyprompt: 	var(--cl-gray-500);
   }
 }
 
@@ -2607,12 +2607,32 @@ Error 2023
 }
 
 :root {
+  --co-menu__item-icon--hover: 	var(--cl-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-menu__item-icon--hover: 	var(--cl-white);
+  }
+}
+
+:root {
   --co-menu__item-icon: 	var(--cl-gray-100);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --co-menu__item-icon: 	var(--cl-gray-900);
+  }
+}
+
+:root {
+  --co-menu__item-label--hover: 	var(--cl-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-menu__item-label--hover: 	var(--cl-white);
   }
 }
 
@@ -2624,26 +2644,6 @@ Error 2023
 @media (prefers-color-scheme: dark) {
   :root {
     --co-menu__item-label: 	var(--cl-gray-500);
-  }
-}
-
-:root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-icon--hover: 	var(--cl-white);
-  }
-}
-
-:root {
-  --co-menu__item-label--hover: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-label--hover: 	var(--cl-white);
   }
 }
 
@@ -3071,7 +3071,7 @@ Error 2023
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	'Source Sans Pro';
-  --fs-reference__linked-title: 	1rem;
+  --fs-reference__linked-title: 	1.15rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
   --tt-reference__linked-title: 	uppercase;
@@ -3084,15 +3084,12 @@ Error 2023
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-gray-500);
-  --fs-reference__page-title: 	14px;
-  --fw-reference__page-title: 	;
-  --td-reference__page-title: 	none;
+  --bc-reference__nested-refs: 	var(--cl-green-300);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-reference__page-title: 	var(--cl-gray-500);
+    --bc-reference__nested-refs: 	var(--cl-green-700);
   }
 }
 
@@ -3102,6 +3099,19 @@ Error 2023
 
 @media (prefers-color-scheme: dark) {
   :root {
+  }
+}
+
+:root {
+  --co-reference__page-title: 	var(--cl-gray-500);
+  --fs-reference__page-title: 	1.15rem;
+  --fw-reference__page-title: 	;
+  --td-reference__page-title: 	none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-reference__page-title: 	var(--cl-gray-500);
   }
 }
 

@@ -563,6 +563,14 @@
 }
 
 :root {
+  --co-elevation__create-block--selected: 	;
+}
+
+:root {
+  --co-elevation__create-block: 	;
+}
+
+:root {
   --bc-elevation__item--selected: 	var(--cl-blue-50);
   --bt-elevation__item--selected: 	1px solid var(--cl-blue-100);
   --br-elevation__item--selected: 	1px solid var(--cl-blue-100);
@@ -581,17 +589,11 @@
 }
 
 :root {
-  --co-elevation__item-icon: 	var(--cl-gray-500);
-}
-
-:root {
-  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
-  --fs-elevation__item-keyprompt: 	0.8em;
-  --op-elevation__item-keyprompt: 	1;
-}
-
-:root {
   --co-elevation__item-icon--selected: 	;
+}
+
+:root {
+  --co-elevation__item-icon: 	var(--cl-gray-500);
 }
 
 :root {
@@ -599,11 +601,9 @@
 }
 
 :root {
-  --co-elevation__create-block: 	;
-}
-
-:root {
-  --co-elevation__create-block--selected: 	;
+  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
+  --fs-elevation__item-keyprompt: 	0.8em;
+  --op-elevation__item-keyprompt: 	1;
 }
 
 :root {
@@ -1183,20 +1183,20 @@
 }
 
 :root {
+  --co-menu__item-icon--hover: 	;
+}
+
+:root {
   --co-menu__item-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --co-menu__item-label--hover: 	;
 }
 
 :root {
   --co-menu__item-label: 	var(--cl-gray-500);
   --td-menu__item-label: 	none;
-}
-
-:root {
-  --co-menu__item-icon--hover: 	;
-}
-
-:root {
-  --co-menu__item-label--hover: 	;
 }
 
 :root {
@@ -1399,14 +1399,18 @@
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-red-500);
-  --fs-reference__page-title: 	14px;
-  --fw-reference__page-title: 	;
-  --td-reference__page-title: 	none;
+  --bc-reference__nested-refs: 	;
 }
 
 :root {
   --td-reference__page-title--hover: 	;
+}
+
+:root {
+  --co-reference__page-title: 	var(--cl-red-500);
+  --fs-reference__page-title: 	14px;
+  --fw-reference__page-title: 	;
+  --td-reference__page-title: 	none;
 }
 
 :root {
