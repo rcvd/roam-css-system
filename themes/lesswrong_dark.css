@@ -136,13 +136,7 @@
   --co-app: 	var(--cl-gray-50);
 }
 
-:root {
-  --co-attributes: 	;
-  --ft-attributes: 	;
-  --fw-attributes: 	bold;
-  --td-attributes: 	;
-}
-
+Error 2023
 :root {
   --co-block__ghost: 	var(--cl-gray-700);
 }
@@ -1117,7 +1111,7 @@
   --bb-main__button--hover: 	;
   --bl-main__button--hover: 	;
   --bd-main__button--hover: 	;
-  --co-main__button--hover: 	var(--cl-blue-200);
+  --co-main__button--hover: 	var(--cl-gray-300);
 }
 
 :root {
