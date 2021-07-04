@@ -1049,7 +1049,7 @@ div, textarea {
   background-color:  	var(--bc-left-sidebar__toprow--hover, #10161A);
 }
 
-.rm-level1, .rm-heading-level-1>.rm-block__self .rm-block__input, .rm-heading-level-1, .rm-level1 textarea, .rm-heading-level-1>.rm-block__self .rm-block__input  textarea, .rm-heading-level-1  textarea {
+.rm-level1, .rm-heading-level-1>.rm-block__self .rm-block__input, .rm-heading-level-1.rm-block textarea {
   color:  				var(--co-level1, inherit);
   font-family:  		var(--ff-level1, 'Inter',sans-serif);
   font-size:  			var(--fs-level1, 1.8em);
@@ -1058,7 +1058,7 @@ div, textarea {
   text-transform:  		var(--tt-level1, inherit);
 }
 
-.rm-level2 , .rm-heading-level-2>.rm-block__self .rm-block__input, .rm-heading-level-2, .rm-level2 textarea, .rm-heading-level-2>.rm-block__self .rm-block__input textarea, .rm-heading-level-2 textarea {
+.rm-level2, .rm-heading-level-2>.rm-block__self .rm-block__input, .rm-heading-level-2, .rm-level2 textarea, .rm-heading-level-2>.rm-block__self .rm-block__input textarea, .rm-heading-level-2 textarea {
   color:  				var(--co-level2, inherit);
   font-family:  		var(--ff-level2, 'Inter',sans-serif)!important;
   font-size:  			var(--fs-level2, 1.4em);
