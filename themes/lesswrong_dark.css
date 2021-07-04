@@ -1191,7 +1191,13 @@
   --td-menu__item-label: 	none;
 }
 
+:root {
+  --co-menu__item-icon--hover: 	var(--cl-white);
+}
 
+:root {
+  --co-menu__item-label--hover: 	var(--cl-white);
+}
 
 :root {
   --co-menu__item-primary: 	var(--cl-blue-500);

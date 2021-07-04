@@ -1200,7 +1200,13 @@ div, textarea {
   text-decoration:  	var(--td-menu__item-label, inherit);
 }
 
+.bp3-menu-item:hover::before, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
+  color:  				var(--co-menu__item-icon--hover, inherit)!important;
+}
 
+.bp3-menu-item:hover .bp3-menu-item-label, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
+  color:  				var(--co-menu__item-label--hover, inherit)!important;
+}
 
 .bp3-menu-item.bp3-intent-primary {
   color:  				var(--co-menu__item-primary, #106ba3);

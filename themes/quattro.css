@@ -2639,7 +2639,25 @@
   }
 }
 
+:root {
+  --co-menu__item-icon--hover: 	;
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-menu__item-icon--hover: 	;
+  }
+}
+
+:root {
+  --co-menu__item-label--hover: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-menu__item-label--hover: 	;
+  }
+}
 
 :root {
   --co-menu__item-primary: 	var(--cl-blue-500);
