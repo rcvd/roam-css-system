@@ -156,7 +156,7 @@
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-gray-700);
+  --bc-block-highlight--yellow: 	var(--cl-green-700);
 }
 
 :root {
@@ -1342,11 +1342,11 @@
 }
 
 :root {
-  --bc-quote: 	var(--cl-gray-700);
-  --bt-quote: 	1px solid var(--cl-gray-600);
-  --br-quote: 	1px solid var(--cl-gray-600);
-  --bb-quote: 	1px solid var(--cl-gray-600);
-  --bl-quote: 	1px solid var(--cl-gray-600);
+  --bc-quote: 	transparent;
+  --bt-quote: 	;
+  --br-quote: 	;
+  --bb-quote: 	;
+  --bl-quote: 	3px solid var(--cl-gray-200);
   --bd-quote: 	;
   --ff-quote: 	;
   --fs-quote: 	1rem;

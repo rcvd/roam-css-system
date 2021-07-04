@@ -148,15 +148,15 @@
 }
 
 :root {
-  --bc-block-highlight--blue: 	var(--cl-blue-300);
+  --bc-block-highlight--blue: 	var(--cl-gray-100);
 }
 
 :root {
-  --bc-block-highlight--grey: 	var(--cl-gray-300);
+  --bc-block-highlight--grey: 	var(--cl-gray-100);
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-yellow-300);
+  --bc-block-highlight--yellow: 	var(--cl-green-100);
 }
 
 :root {
@@ -1342,11 +1342,11 @@
 }
 
 :root {
-  --bc-quote: 	var(--cl-gray-100);
-  --bt-quote: 	1px solid var(--cl-gray-200);
-  --br-quote: 	1px solid var(--cl-gray-200);
-  --bb-quote: 	1px solid var(--cl-gray-200);
-  --bl-quote: 	1px solid var(--cl-gray-200);
+  --bc-quote: 	transparent;
+  --bt-quote: 	;
+  --br-quote: 	;
+  --bb-quote: 	;
+  --bl-quote: 	3px solid var(--cl-gray-200);
   --bd-quote: 	;
   --ff-quote: 	;
   --fs-quote: 	1rem;
