@@ -178,3 +178,7 @@ span.rm-page-ref--tag[data-tag='evergreen']:hover {
   color:                var(--cl-green-700);
   padding:              3px;
 }
+
+div {
+    line-height: 1.6rem;
+}
