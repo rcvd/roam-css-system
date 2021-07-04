@@ -1049,7 +1049,7 @@ div, textarea {
   background-color:  	var(--bc-left-sidebar__toprow--hover, #10161A);
 }
 
-.rm-level1, .rm-heading-level-1>.rm-block__self .rm-block__input, .rm-heading-level-1.rm-block textarea {
+.rm-level1, .rm-heading-level-1>.rm-block__self .rm-block__input, .roam-body .roam-app .roam-main .roam-article .rm-heading-level-1.rm-block textarea {
   color:  				var(--co-level1, inherit);
   font-family:  		var(--ff-level1, 'Inter',sans-serif);
   font-size:  			var(--fs-level1, 1.8em);
@@ -1058,7 +1058,7 @@ div, textarea {
   text-transform:  		var(--tt-level1, inherit);
 }
 
-.rm-level2, .rm-heading-level-2>.rm-block__self .rm-block__input, .rm-heading-level-2, .rm-level2 textarea, .rm-heading-level-2>.rm-block__self .rm-block__input textarea, .rm-heading-level-2 textarea {
+.rm-level2, .rm-heading-level-2>.rm-block__self .rm-block__input, .roam-body .roam-app .roam-main .roam-article .rm-heading-level-2.rm-block textarea {
   color:  				var(--co-level2, inherit);
   font-family:  		var(--ff-level2, 'Inter',sans-serif)!important;
   font-size:  			var(--fs-level2, 1.4em);
@@ -1067,7 +1067,7 @@ div, textarea {
   text-transform:  		var(--tt-level2, inherit);
 }
 
-.rm-level3, .rm-heading-level-3>.rm-block__self .rm-block__input, .rm-heading-level-3, .rm-level3 textarea, .rm-heading-level-3>.rm-block__self .rm-block__input textarea, .rm-heading-level-3 textarea {
+.rm-level3, .rm-heading-level-3>.rm-block__self .rm-block__input, .roam-body .roam-app .roam-main .roam-article .rm-heading-level-3.rm-block textarea {
   color:  				var(--co-level3, #5C7080);
   font-family:  		var(--ff-level3, inherit);
   font-size:  			var(--fs-level3, 1.2em);
@@ -1250,7 +1250,7 @@ div, textarea {
   text-decoration:  	var(--td-page__link, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article .rm-title-display, .rm-title-editing-textarea.textarea, .roam-body .roam-app .roam-main .roam-article .rm-title-display textarea {
+.roam-body .roam-app .roam-main .roam-article .rm-title-display, .roam-body .roam-app .roam-main .roam-article .rm-title-editing-display textarea.rm-title-textarea {
   color:  				var(--co-page__title, #202B33);
   font-family:  		var(--ff-page__title, inherit);
   font-size:  			var(--fs-page__title, 36px);
