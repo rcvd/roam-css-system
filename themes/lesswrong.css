@@ -1319,6 +1319,26 @@
 }
 
 :root {
+  --co-elevation__item-icon--selected: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__item-icon--selected: 	var(--cl-white);
+  }
+}
+
+:root {
+  --co-elevation__item-keyprompt--selected: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__item-keyprompt--selected: 	var(--cl-white);
+  }
+}
+
+:root {
   --bc-embed__container-10: 	var(--cl-gray-400);
 }
 

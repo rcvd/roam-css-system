@@ -596,6 +596,14 @@ div, textarea {
   opacity:  			var(--op-elevation__item-keyprompt, 0.8)!important;
 }
 
+.bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);'] .bp3-icon {
+  color:  				var(--co-elevation__item-icon--selected, inherit);
+}
+
+.bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);'] .rm-icon-key-prompt {
+  color:  				var(--co-elevation__item-keyprompt--selected, inherit);
+}
+
 .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container {
   background-color:  	var(--bc-embed__container-10, #D8E1E8);
 }

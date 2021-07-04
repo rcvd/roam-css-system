@@ -591,6 +591,14 @@
 }
 
 :root {
+  --co-elevation__item-icon--selected: 	;
+}
+
+:root {
+  --co-elevation__item-keyprompt--selected: 	;
+}
+
+:root {
   --bc-embed__container-10: 	var(--cl-gray-400);
 }
 
