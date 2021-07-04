@@ -599,6 +599,14 @@
 }
 
 :root {
+  --co-elevation__create-block: 	var(--cl-gray-500);
+}
+
+:root {
+  --co-elevation__create-block--selected: 	var(--cl-white);
+}
+
+:root {
   --bc-embed__container-10: 	var(--cl-gray-400);
 }
 
@@ -1651,17 +1659,17 @@
   --bb-tags--hover: 	1px solid var(--cl-gray-100);
   --bl-tags--hover: 	1px solid var(--cl-gray-100);
   --bd-tags--hover: 	3px;
-  --co-tags--hover: 	var(--cl-gray-200);
+  --co-tags--hover: 	var(--cl-gray-300);
 }
 
 :root {
   --bc-tags: 	;
-  --bt-tags: 	1px solid var(--cl-gray-100);
-  --br-tags: 	1px solid var(--cl-gray-100);
-  --bb-tags: 	1px solid var(--cl-gray-100);
-  --bl-tags: 	1px solid var(--cl-gray-100);
+  --bt-tags: 	1px solid var(--cl-gray-200);
+  --br-tags: 	1px solid var(--cl-gray-200);
+  --bb-tags: 	1px solid var(--cl-gray-200);
+  --bl-tags: 	1px solid var(--cl-gray-200);
   --bd-tags: 	3px;
-  --co-tags: 	var(--cl-gray-400);
+  --co-tags: 	var(--cl-gray-500);
   --ff-tags: 	'Source Sans Pro';
   --fs-tags: 	0.85rem;
   --ft-tags: 	;

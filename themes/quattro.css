@@ -1339,6 +1339,26 @@
 }
 
 :root {
+  --co-elevation__create-block: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__create-block: 	;
+  }
+}
+
+:root {
+  --co-elevation__create-block--selected: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-elevation__create-block--selected: 	;
+  }
+}
+
+:root {
   --bc-embed__container-10: 	var(--cl-gray-400);
 }
 

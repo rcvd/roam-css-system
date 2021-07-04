@@ -604,6 +604,14 @@ div, textarea {
   color:  				var(--co-elevation__item-keyprompt--selected, inherit);
 }
 
+.bp3-elevation-3 div[style*='color: rgb(129, 145, 157)'] {
+  color:  				var(--co-elevation__create-block, inherit);
+}
+
+.bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);']  div[style*='color: rgb(129, 145, 157)'] {
+  color:  				var(--co-elevation__create-block--selected, inherit);
+}
+
 .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container {
   background-color:  	var(--bc-embed__container-10, #D8E1E8);
 }

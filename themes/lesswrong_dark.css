@@ -599,6 +599,14 @@
 }
 
 :root {
+  --co-elevation__create-block: 	var(--cl-gray-500);
+}
+
+:root {
+  --co-elevation__create-block--selected: 	var(--cl-white);
+}
+
+:root {
   --bc-embed__container-10: 	var(--cl-gray-500);
 }
 
