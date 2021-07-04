@@ -1705,7 +1705,7 @@ span[style*='background-color: yellow'] {
 }
 
 .version-bullet {
-  background-color:  	var(--bc-version__bullet, inherit)!important;
+  background-color:  	var(--bc-version__bullet, #A7B6C2)!important;
 }
 
 .rm-zoom.zoom-path-view .rm-zoom-mask {

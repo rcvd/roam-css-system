@@ -295,7 +295,7 @@
 }
 
 :root {
-  --bc-checkmark--checked: 	var(--cl-gray-700);
+  --bc-checkmark--checked: 	var(--cl-gray-300);
   --bt-checkmark--checked: 	;
   --br-checkmark--checked: 	;
   --bb-checkmark--checked: 	;
@@ -1137,7 +1137,7 @@
 :root {
   --co-main: 	;
   --ff-main: 	'Source Serif Pro';
-  --fs-main: 	1rem;
+  --fs-main: 	1.15rem;
   --fw-main: 	normal;
 }
 
@@ -1357,7 +1357,7 @@
   --bl-quote: 	3px solid var(--cl-gray-800);
   --bd-quote: 	;
   --ff-quote: 	;
-  --fs-quote: 	1rem;
+  --fs-quote: 	1.15rem;
   --ft-quote: 	;
   --fw-quote: 	;
 }

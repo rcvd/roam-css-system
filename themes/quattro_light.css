@@ -1693,7 +1693,7 @@
 }
 
 :root {
-  --bc-version__bullet: 	;
+  --bc-version__bullet: 	var(--cl-gray-300);
 }
 
 :root {
