@@ -1399,7 +1399,7 @@
 }
 
 :root {
-  --bc-reference__nested-refs: 	var(--cl-green-300);
+  --bc-reference__nested-refs: 	var(--cl-green-100);
 }
 
 :root {
@@ -1714,6 +1714,7 @@
 
 :root {
   --co-zoom-item: 	var(--cl-gray-400);
+  --fs-zoom-item: 	1.15rem;
 }
 
 :root {

@@ -1726,6 +1726,7 @@ span[style*='background-color: yellow'] {
 
 .rm-zoom .rm-zoom-item, .rm-zoom-path .rm-zoom-item {
   color:  				var(--co-zoom-item, #5C7080);
+  font-size:  			var(--fs-zoom-item, inherit);
 }
 
 .zotero-roam-search-overlay .header-content h5 {
