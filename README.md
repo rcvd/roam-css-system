@@ -10,7 +10,7 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 
 ## How does this work?
 - Create or modify your 'roam/css' page.
-- Add a new code block and set the language to 'CSS'.
+- Add a new code block **at the top** and set the language to 'CSS'.
 - For the iA Quattro theme, add the following line to it:
 
 ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro.css');```
@@ -41,7 +41,7 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 ### Lesswrong
 ![](screenshots/lesswrong-light.png)
 
-![](screenshots/lesswrong-light.png)
+![](screenshots/lesswrong-dark.png)
 
 
 ## Bugs and feedback
