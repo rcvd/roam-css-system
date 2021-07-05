@@ -1713,6 +1713,7 @@
   }
 
 :root {
+  --fs-zoom-item: 	;
   --co-zoom-item: 	var(--cl-gray-500);
   }
 

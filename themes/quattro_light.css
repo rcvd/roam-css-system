@@ -1714,6 +1714,7 @@
 
 :root {
   --co-zoom-item: 	var(--cl-gray-400);
+  --fs-zoom-item: 	;
 }
 
 :root {
