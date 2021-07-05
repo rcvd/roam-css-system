@@ -190,3 +190,7 @@ div {
 .rm-inline-references .rm-inline-reference .rm-caret-wrapper {
     margin-top: 0;
 }
+
+#app {
+  border-top: 1px solid var(--cl-gray-100);
+}
