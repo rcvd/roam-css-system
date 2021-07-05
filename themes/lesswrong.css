@@ -286,7 +286,19 @@
   }
 }
 
-Error 2023
+:root {
+  --co-attributes: 	;
+  --ft-attributes: 	;
+  --fw-attributes: 	bold;
+  --td-attributes: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-attributes: 	;
+  }
+}
+
 :root {
   --co-block__ghost: 	var(--cl-gray-300);
 }
