@@ -1709,7 +1709,6 @@
   }
 
 :root {
-  --fs-zoom__mask: 	;
   --bc-zoom__mask: 	var(--cl-gray-800);
   }
 

@@ -1722,10 +1722,9 @@ span[style*='background-color: yellow'] {
 
 .rm-zoom.zoom-path-view .rm-zoom-mask {
   background-color:  	var(--bc-zoom__mask, white);
-  font-size:  			var(--fs-zoom__mask, inherit);
 }
 
-.rm-zoom .rm-zoom-item, .rm-zoom-path .rm-zoom-item {
+.rm-zoom .rm-zoom-item, .rm-zoom-path .rm-zoom-item, rm-zoom-item div {
   color:  				var(--co-zoom-item, #5C7080);
   font-size:  			var(--fs-zoom-item, inherit);
 }

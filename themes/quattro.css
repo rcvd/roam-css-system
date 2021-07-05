@@ -3761,7 +3761,6 @@
 
 :root {
   --bc-zoom__mask: 	var(--cl-gray-50);
-  --fs-zoom__mask: 	;
 }
 
 @media (prefers-color-scheme: dark) {
