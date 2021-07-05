@@ -183,7 +183,7 @@ div {
     line-height: 1.6rem;
 }
 
-.rm-nested-refs .flex-h-box {
+.rm-nested-refs .flex-h-box, .rm-inline-references .flex-h-box {
     align-items: center;
 }
 
