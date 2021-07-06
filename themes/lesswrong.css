@@ -3724,7 +3724,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-textarea__selection: 	var(--cl-gray-700);
+    --bc-textarea__selection: 	var(--cl-gray-300);
   }
 }
 
