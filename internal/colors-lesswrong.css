@@ -133,16 +133,16 @@
     --cl-emerald-800: #065f46;
     --cl-emerald-900: #064e3b;
 
-    --cl-green-50: #f0fdf4;
-    --cl-green-100: #dcfce7;
-    --cl-green-200: #bbf7d0;
-    --cl-green-300: #86efac;
-    --cl-green-400: #4ade80;
-    --cl-green-500: #22c55e;
-    --cl-green-600: #16a34a;
-    --cl-green-700: #15803d;
-    --cl-green-800: #166534;
-    --cl-green-900: #14532d;
+    --cl-green-50: hsl(126, 24%, 98%);
+    --cl-green-100: hsl(126, 24%, 93%);
+    --cl-green-200: hsl(126, 24%, 85%);
+    --cl-green-300: hsl(126, 24%, 70%);
+    --cl-green-400: hsl(126, 24%, 60%);
+    --cl-green-500: hsl(126, 24%, 50%);
+    --cl-green-600: hsl(126, 24%, 40%);
+    --cl-green-700: hsl(126, 24%, 30%);
+    --cl-green-800: hsl(126, 24%, 20%);
+    --cl-green-900: hsl(126, 24%, 10%);
 
     --cl-lime-50: #f7fee7;
     --cl-lime-100: #ecfccb;
