@@ -1029,6 +1029,7 @@ div, textarea {
   font-family:  		var(--ff-left-sidebar__db-title, inherit);
   font-size:  			var(--fs-left-sidebar__db-title, inherit);
   font-weight:  		var(--fw-left-sidebar__db-title, 600);
+  text-transform:  		var(--tt-left-sidebar__db-title, inherit);
 }
 
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper > div[style*='background-color: rgb(57, 75, 89);'] {
