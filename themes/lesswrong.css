@@ -3460,7 +3460,7 @@
 }
 
 :root {
-  --bc-settings__input--focus: 	;
+  --bc-settings__input--focus: 	var(--cl-gray-100);
   --bt-settings__input--focus: 	;
   --br-settings__input--focus: 	;
   --bb-settings__input--focus: 	;
@@ -3469,7 +3469,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-settings__input--focus: 	;
+    --bc-settings__input--focus: 	var(--cl-gray-800);
     --bt-settings__input--focus: 	;
     --br-settings__input--focus: 	;
     --bb-settings__input--focus: 	;
@@ -3478,7 +3478,7 @@
 }
 
 :root {
-  --bc-settings__input: 	;
+  --bc-settings__input: 	var(--cl-gray-50);
   --bt-settings__input: 	;
   --br-settings__input: 	;
   --bb-settings__input: 	;
@@ -3488,7 +3488,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-settings__input: 	;
+    --bc-settings__input: 	var(--cl-gray-700);
     --bt-settings__input: 	;
     --br-settings__input: 	;
     --bb-settings__input: 	;
@@ -3538,7 +3538,7 @@
   --br-settings__items: 	;
   --bb-settings__items: 	;
   --bl-settings__items: 	;
-  --co-settings__items: 	;
+  --co-settings__items: 	var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3548,7 +3548,7 @@
     --br-settings__items: 	;
     --bb-settings__items: 	;
     --bl-settings__items: 	;
-    --co-settings__items: 	;
+    --co-settings__items: 	var(--cl-gray-100);
   }
 }
 
@@ -3563,12 +3563,12 @@
 }
 
 :root {
-  --bc-settings__tab-list: 	;
+  --bc-settings__tab-list: 	var(--cl-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-settings__tab-list: 	;
+    --bc-settings__tab-list: 	var(--cl-gray-700);
   }
 }
 
