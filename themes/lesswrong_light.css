@@ -1564,6 +1564,10 @@
 }
 
 :root {
+  --co-settings__heading: 	var(--cl-gray-900);
+}
+
+:root {
   --bc-settings__input--focus: 	;
   --bt-settings__input--focus: 	;
   --br-settings__input--focus: 	;

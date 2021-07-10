@@ -3450,6 +3450,16 @@
 }
 
 :root {
+  --co-settings__heading: 	var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-settings__heading: 	var(--cl-gray-100);
+  }
+}
+
+:root {
   --bc-settings__input--focus: 	;
   --bt-settings__input--focus: 	;
   --br-settings__input--focus: 	;
