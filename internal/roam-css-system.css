@@ -1601,6 +1601,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
   border-right:  		var(--br-settings__items--hover, inherit);
   border-bottom:  		var(--bb-settings__items--hover, inherit);
   border-left:  		var(--bl-settings__items--hover, inherit);
+  color:  				var(--co-settings__items--hover, inherit);
 }
 
 .rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper)[aria-selected='true'] {
@@ -1609,6 +1610,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
   border-right:  		var(--br-settings__items--selected, inherit);
   border-bottom:  		var(--bb-settings__items--selected, inherit);
   border-left:  		var(--bl-settings__items--selected, inherit);
+  color:  				var(--co-settings__items--selected, inherit);
 }
 
 .rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper) {

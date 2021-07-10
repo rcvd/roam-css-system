@@ -1590,6 +1590,7 @@
   --br-settings__items--hover: 	1px solid var(--cl-blue-50);
   --bb-settings__items--hover: 	1px solid var(--cl-blue-100);
   --bl-settings__items--hover: 	1px solid var(--cl-blue-100);
+  --co-settings__items--hover: 	;
 }
 
 :root {
@@ -1598,6 +1599,7 @@
   --br-settings__items--selected: 	1px solid var(--cl-gray-50);
   --bb-settings__items--selected: 	1px solid var(--cl-gray-100);
   --bl-settings__items--selected: 	1px solid var(--cl-gray-100);
+  --co-settings__items--selected: 	;
 }
 
 :root {

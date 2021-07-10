@@ -1590,14 +1590,16 @@
   --br-settings__items--hover: 	;
   --bb-settings__items--hover: 	;
   --bl-settings__items--hover: 	;
+  --co-settings__items--hover: 	var(--cl-gray-300);
 }
 
 :root {
-  --bc-settings__items--selected: 	;
+  --bc-settings__items--selected: 	var(--cl-white);
   --bt-settings__items--selected: 	;
   --br-settings__items--selected: 	;
   --bb-settings__items--selected: 	;
   --bl-settings__items--selected: 	;
+  --co-settings__items--selected: 	var(--cl-gray-300);
 }
 
 :root {

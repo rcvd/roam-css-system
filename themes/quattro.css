@@ -3502,6 +3502,7 @@
   --br-settings__items--hover: 	1px solid var(--cl-blue-50);
   --bb-settings__items--hover: 	1px solid var(--cl-blue-100);
   --bl-settings__items--hover: 	1px solid var(--cl-blue-100);
+  --co-settings__items--hover: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3511,6 +3512,7 @@
     --br-settings__items--hover: 	1px solid var(--cl-blue-900);
     --bb-settings__items--hover: 	1px solid var(--cl-blue-800);
     --bl-settings__items--hover: 	1px solid var(--cl-blue-800);
+    --co-settings__items--hover: 	;
   }
 }
 
@@ -3520,6 +3522,7 @@
   --br-settings__items--selected: 	1px solid var(--cl-gray-50);
   --bb-settings__items--selected: 	1px solid var(--cl-gray-100);
   --bl-settings__items--selected: 	1px solid var(--cl-gray-100);
+  --co-settings__items--selected: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3529,6 +3532,7 @@
     --br-settings__items--selected: 	1px solid var(--cl-black);
     --bb-settings__items--selected: 	1px solid var(--cl-black);
     --bl-settings__items--selected: 	1px solid var(--cl-black);
+    --co-settings__items--selected: 	;
   }
 }
 
