@@ -3622,7 +3622,7 @@
   --br-starred__page: 	;
   --bb-starred__page: 	;
   --bl-starred__page: 	;
-  --co-starred__page: 	var(--cl-gray-300);
+  --co-starred__page: 	var(--cl-gray-700);
   --ff-starred__page: 	;
   --fs-starred__page: 	1em;
   --ft-starred__page: 	;
@@ -3636,12 +3636,12 @@
     --br-starred__page: 	;
     --bb-starred__page: 	;
     --bl-starred__page: 	;
-    --co-starred__page: 	var(--cl-gray-700);
+    --co-starred__page: 	var(--cl-gray-300);
   }
 }
 
 :root {
-  --co-starred__title: 	var(--cl-gray-300);
+  --co-starred__title: 	var(--cl-gray-700);
   --ff-starred__title: 	;
   --fs-starred__title: 	1em;
   --ft-starred__title: 	;
@@ -3651,7 +3651,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-starred__title: 	var(--cl-gray-700);
+    --co-starred__title: 	var(--cl-gray-300);
   }
 }
 
