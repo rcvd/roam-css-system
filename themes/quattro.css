@@ -2,6 +2,16 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/colors-quattro.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-quattro.css');
+:root {
+  --co-a--hover: 	var(--cl-red-500);
+  --td-a--hover: 	underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-a--hover: 	var(--cl-red-500);
+  }
+}
 
 :root {
   --co-a: 	var(--cl-red-600);
