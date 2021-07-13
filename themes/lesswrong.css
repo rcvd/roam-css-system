@@ -3661,7 +3661,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-sync--saving-local: 	;
+    --bc-sync--saving-local: 	var(--cl-orange-500);
   }
 }
 
@@ -3671,7 +3671,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-sync--saving-remote: 	;
+    --bc-sync--saving-remote: 	var(--cl-red-500);
   }
 }
 
@@ -3681,7 +3681,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-sync--synced: 	;
+    --bc-sync--synced: 	var(--cl-green-500);
   }
 }
 
