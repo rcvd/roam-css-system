@@ -2267,7 +2267,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	var(--cl-gray-300);
+  --co-left-sidebar__db-title--hover: 	#373b3e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2277,7 +2277,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title: 	var(--cl-gray-700);
+  --co-left-sidebar__db-title: 	#373b3e;
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
   --fw-left-sidebar__db-title: 	normal;
@@ -2332,7 +2332,7 @@
 }
 
 :root {
-  --co-left-sidebar__logo-text: 	var(--cl-gray-600);
+  --co-left-sidebar__logo-text: 	#373b3e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2437,7 +2437,7 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	var(--cl-gray-300);
+  --co-logbutton--hover: 	#373b3e;
   --td-logbutton--hover: 	;
 }
 
@@ -2453,7 +2453,7 @@
 }
 
 :root {
-  --co-logbutton: 	var(--cl-gray-700);
+  --co-logbutton: 	#373b3e;
   --ff-logbutton: 	;
   --fs-logbutton: 	1rem;
   --fw-logbutton: 	normal;
@@ -3083,7 +3083,7 @@
 
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
-  --ff-reference__linked-title: 	'Source Sans Pro';
+  --ff-reference__linked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-reference__linked-title: 	1.15rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
@@ -3622,7 +3622,7 @@
   --br-starred__page: 	;
   --bb-starred__page: 	;
   --bl-starred__page: 	;
-  --co-starred__page: 	var(--cl-gray-700);
+  --co-starred__page: 	#373b3e;
   --ff-starred__page: 	;
   --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
@@ -3641,12 +3641,12 @@
 }
 
 :root {
-  --co-starred__title: 	var(--cl-gray-700);
+  --co-starred__title: 	#363a3e;
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
-  --fw-starred__title: 	;
-  --tt-starred__title: 	;
+  --fw-starred__title: 	bold;
+  --tt-starred__title: 	lowercase;
 }
 
 @media (prefers-color-scheme: dark) {

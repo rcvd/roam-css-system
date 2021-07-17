@@ -1393,7 +1393,7 @@
 
 :root {
   --co-reference__linked-title: 	var(--cl-gray-500);
-  --ff-reference__linked-title: 	'Source Sans Pro';
+  --ff-reference__linked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-reference__linked-title: 	1.15rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
@@ -1656,8 +1656,8 @@
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
-  --fw-starred__title: 	;
-  --tt-starred__title: 	;
+  --fw-starred__title: 	bold;
+  --tt-starred__title: 	lowercase;
 }
 
 :root {
