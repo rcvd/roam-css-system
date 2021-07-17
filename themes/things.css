@@ -691,7 +691,7 @@
   --bl-code: 	1px solid var(--cl-gray-100);
   --bd-code: 	2px;
   --co-code: 	var(--cl-gray-900);
-  --ff-code: 	'iA Writer Mono S';
+  --ff-code: 	Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
   --fs-code: 	1rem;
 }
 
@@ -747,7 +747,7 @@
 }
 
 :root {
-  --ff-codeblock__code: 	'Source Code Pro';
+  --ff-codeblock__code: 	Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
   --fs-codeblock__code: 	1rem;
 }
 
@@ -823,7 +823,7 @@
   --br-codeblock__gutters: 	2px solid var(--cl-white);
   --bb-codeblock__gutters: 	;
   --bl-codeblock__gutters: 	;
-  --ff-codeblock__gutters: 	'Source Code Pro';
+  --ff-codeblock__gutters: 	Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
   --fs-codeblock__gutters: 	;
   --ft-codeblock__gutters: 	;
   --fw-codeblock__gutters: 	;
@@ -1129,7 +1129,7 @@
 :root {
   --br-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
   --co-datepicker__weeknumber: 	var(--cl-gray-500);
-  --ff-datepicker__weeknumber: 	'Source Sans Pro';
+  --ff-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-datepicker__weeknumber: 	1rem;
 }
 
@@ -1218,7 +1218,7 @@
 }
 
 :root {
-  --ff-div: 	'Source Sans Pro';
+  --ff-div: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-div: 	1rem;
 }
 
@@ -1304,7 +1304,7 @@
   --br-elevation__item: 	;
   --bb-elevation__item: 	;
   --bl-elevation__item: 	;
-  --ff-elevation__item: 	'Source Sans Pro';
+  --ff-elevation__item: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1544,7 +1544,7 @@
   --bl-emoji-mart: 	1px solid var(--cl-gray-100);
   --bd-emoji-mart: 	;
   --co-emoji-mart: 	var(--cl-gray-900);
-  --ff-emoji-mart: 	'Source Sans Pro';
+  --ff-emoji-mart: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-emoji-mart: 	1rem;
 }
 
@@ -2255,8 +2255,8 @@
 }
 
 :root {
-  --bc-left-sidebar__container: 	var(--cl-gray-50);
-  --br-left-sidebar__container: 	1px solid var(--cl-gray-100);;
+  --bc-left-sidebar__container: 	#f9fafb;
+  --br-left-sidebar__container: 	1px solid #eef0f4;;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2353,7 +2353,7 @@
 
 :root {
   --co-level1: 	;
-  --ff-level1: 	'Source Serif Pro';
+  --ff-level1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level1: 	1.4rem;
   --ft-level1: 	;
   --fw-level1: 	600;
@@ -2368,7 +2368,7 @@
 
 :root {
   --co-level2: 	;
-  --ff-level2: 	'Source Serif Pro';
+  --ff-level2: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level2: 	1.2rem;
   --ft-level2: 	;
   --fw-level2: 	600;
@@ -2383,7 +2383,7 @@
 
 :root {
   --co-level3: 	;
-  --ff-level3: 	'Source Serif Pro';
+  --ff-level3: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level3: 	1.15rem;
   --ft-level3: 	;
   --fw-level3: 	600;
@@ -2398,7 +2398,7 @@
 
 :root {
   --co-log-page__h1: 	var(--cl-gray-300);
-  --ff-log-page__h1: 	'Source Serif Pro';
+  --ff-log-page__h1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-log-page__h1: 	32px;
   --ft-log-page__h1: 	;
   --fw-log-page__h1: 	;
@@ -2520,7 +2520,7 @@
 
 :root {
   --co-main: 	var(--cl-gray-900);
-  --ff-main: 	'Source Serif Pro';
+  --ff-main: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-main: 	1.15rem;
   --fw-main: 	normal;
 }
@@ -2798,7 +2798,7 @@
 
 :root {
   --co-page__title: 	var(--cl-gray-900);
-  --ff-page__title: 	'Source Serif Pro';
+  --ff-page__title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-page__title: 	32px;
   --ft-page__title: 	;
   --fw-page__title: 	normal;
@@ -3141,7 +3141,7 @@
 
 :root {
   --co-reference__unlinked-title: 	var(--cl-gray-500);
-  --ff-reference__unlinked-title: 	'Source Sans Pro';
+  --ff-reference__unlinked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-reference__unlinked-title: 	1rem;
   --ft-reference__unlinked-title: 	normal;
   --fw-reference__unlinked-title: 	normal;
@@ -3714,7 +3714,7 @@
   --bl-tags: 	1px solid var(--cl-gray-200);
   --bd-tags: 	3px;
   --co-tags: 	var(--cl-gray-500);
-  --ff-tags: 	'Source Sans Pro';
+  --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	0.85rem;
   --ft-tags: 	;
   --fw-tags: 	;
