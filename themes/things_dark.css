@@ -1020,7 +1020,7 @@
   --co-left-sidebar__db-title: 	var(--cl-gray-300);
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
-  --fw-left-sidebar__db-title: 	normal;
+  --fw-left-sidebar__db-title: 	500;
   --tt-left-sidebar__db-title: 	;
 }
 
@@ -1108,7 +1108,7 @@
   --co-logbutton: 	var(--cl-gray-300);
   --ff-logbutton: 	;
   --fs-logbutton: 	1rem;
-  --fw-logbutton: 	normal;
+  --fw-logbutton: 	500;
   --tt-logbutton: 	normal;
 }
 
@@ -1656,7 +1656,7 @@
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
-  --fw-starred__title: 	bold;
+  --fw-starred__title: 	600;
   --tt-starred__title: 	lowercase;
 }
 

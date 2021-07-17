@@ -1019,7 +1019,7 @@
   --co-left-sidebar__db-title: 	#373b3e;
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
-  --fw-left-sidebar__db-title: 	normal;
+  --fw-left-sidebar__db-title: 	500;
   --tt-left-sidebar__db-title: 	;
 }
 
@@ -1107,7 +1107,7 @@
   --co-logbutton: 	#373b3e;
   --ff-logbutton: 	;
   --fs-logbutton: 	1rem;
-  --fw-logbutton: 	normal;
+  --fw-logbutton: 	500;
   --tt-logbutton: 	normal;
 }
 
@@ -1633,7 +1633,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	var(--cl-gray-300);
+  --co-starred__page--hover: 	#373b3e;
   --td-starred__page--hover: 	none;
 }
 
@@ -1655,7 +1655,7 @@
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
-  --fw-starred__title: 	bold;
+  --fw-starred__title: 	600;
   --tt-starred__title: 	lowercase;
 }
 
