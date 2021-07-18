@@ -3,7 +3,7 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 :root {
-  --co-a--hover: 	var(--cl-green-500);
+  --co-a--hover: 	#0076e3;
   --td-a--hover: 	underline;
 }
 
@@ -14,7 +14,7 @@
 }
 
 :root {
-  --co-a: 	var(--cl-green-400);
+  --co-a: 	#0076e3;
   --td-a: 	underline;
 }
 
