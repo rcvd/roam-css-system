@@ -1395,7 +1395,7 @@
   --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-reference__linked-title: 	1.15rem;
+  --fs-reference__linked-title: 	0.9rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	normal;
   --tt-reference__linked-title: 	normal;
@@ -1425,7 +1425,7 @@
   --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-reference__unlinked-title: 	1rem;
+  --fs-reference__unlinked-title: 	0.9rem;
   --ft-reference__unlinked-title: 	normal;
   --fw-reference__unlinked-title: 	normal;
   --tt-reference__unlinked-title: 	normal;
