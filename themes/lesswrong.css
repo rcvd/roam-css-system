@@ -3082,6 +3082,7 @@
 }
 
 :root {
+  --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	'Source Sans Pro';
   --fs-reference__linked-title: 	1.15rem;
@@ -3092,6 +3093,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-reference__linked-title: 	;
     --co-reference__linked-title: 	var(--cl-gray-500);
   }
 }
@@ -3140,6 +3142,7 @@
 }
 
 :root {
+  --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	'Source Sans Pro';
   --fs-reference__unlinked-title: 	1rem;
@@ -3150,6 +3153,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-reference__unlinked-title: 	;
     --co-reference__unlinked-title: 	var(--cl-gray-500);
   }
 }

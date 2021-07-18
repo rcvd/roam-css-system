@@ -1402,6 +1402,7 @@ div, textarea {
 }
 
 .rm-reference-container div[style*='color: rgb(206, 217, 224);'] strong {
+  border-bottom:  		var(--bb-reference__linked-title, inherit);
   color:  						var(--co-reference__linked-title, rgb(206, 217, 224));
   font-family:  			var(--ff-reference__linked-title, inherit);
   font-size:  				var(--fs-reference__linked-title, inherit);
@@ -1431,6 +1432,7 @@ div:hover > strong[style*='color: rgb(206, 217, 224);'] {
 }
 
 div > strong[style*='color: rgb(206, 217, 224);'] {
+  border-bottom:  		var(--bb-reference__unlinked-title, inherit);
   color:  						var(--co-reference__unlinked-title, inherit)!important;
   font-family:  			var(--ff-reference__unlinked-title, inherit);
   font-size:  				var(--fs-reference__unlinked-title, inherit);

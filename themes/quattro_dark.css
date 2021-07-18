@@ -1396,6 +1396,7 @@
   --ft-reference__linked-title: 	italic;
   --fw-reference__linked-title: 	normal;
   --tt-reference__linked-title: 	;
+  --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	var(--cl-gray-500);
   }
 
@@ -1425,6 +1426,7 @@
   --ft-reference__unlinked-title: 	italic;
   --fw-reference__unlinked-title: 	normal;
   --tt-reference__unlinked-title: 	;
+  --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   }
 

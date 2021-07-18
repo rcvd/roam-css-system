@@ -1391,6 +1391,7 @@
 }
 
 :root {
+  --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	;
   --fs-reference__linked-title: 	1em;
@@ -1420,6 +1421,7 @@
 }
 
 :root {
+  --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	;
   --fs-reference__unlinked-title: 	1em;
