@@ -2399,9 +2399,9 @@
 :root {
   --co-log-page__h1: 	var(--cl-gray-300);
   --ff-log-page__h1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-log-page__h1: 	32px;
+  --fs-log-page__h1: 	22px;
   --ft-log-page__h1: 	;
-  --fw-log-page__h1: 	;
+  --fw-log-page__h1: 	600;
   --tt-log-page__h1: 	;
 }
 
@@ -2775,7 +2775,7 @@
 }
 
 :root {
-  --co-page__link--hover: 	var(--cl-green-400);
+  --co-page__link--hover: 	#0076e3;
   --td-page__link--hover: 	none;
 }
 
@@ -2786,7 +2786,7 @@
 }
 
 :root {
-  --co-page__link: 	var(--cl-green-500);
+  --co-page__link: 	#0076e3;
   --td-page__link: 	none;
 }
 
@@ -2799,9 +2799,9 @@
 :root {
   --co-page__title: 	var(--cl-gray-900);
   --ff-page__title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-page__title: 	32px;
+  --fs-page__title: 	22px;
   --ft-page__title: 	;
-  --fw-page__title: 	normal;
+  --fw-page__title: 	600;
   --tt-page__title: 	;
 }
 
