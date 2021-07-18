@@ -3082,12 +3082,12 @@
 }
 
 :root {
-  --bb-reference__linked-title: 	1px solid #e6e8ec;
+  --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	#8d9195;
   --ff-reference__linked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-reference__linked-title: 	0.9rem;
   --ft-reference__linked-title: 	normal;
-  --fw-reference__linked-title: 	normal;
+  --fw-reference__linked-title: 	500;
   --tt-reference__linked-title: 	normal;
 }
 
@@ -3142,12 +3142,12 @@
 }
 
 :root {
-  --bb-reference__unlinked-title: 	1px solid #e6e8ec;
+  --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	#8d9195;
   --ff-reference__unlinked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-reference__unlinked-title: 	0.9rem;
   --ft-reference__unlinked-title: 	normal;
-  --fw-reference__unlinked-title: 	normal;
+  --fw-reference__unlinked-title: 	500;
   --tt-reference__unlinked-title: 	normal;
 }
 
