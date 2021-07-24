@@ -173,18 +173,18 @@
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid var(--cl-gray-200);
-  --br-bullet__closed: 	4px solid var(--cl-gray-200);
-  --bb-bullet__closed: 	4px solid var(--cl-gray-200);
-  --bl-bullet__closed: 	4px solid var(--cl-gray-200);
+  --bt-bullet__closed: 	4px solid #e6e8eb;
+  --br-bullet__closed: 	4px solid #e6e8eb;
+  --bb-bullet__closed: 	4px solid #e6e8eb;
+  --bl-bullet__closed: 	4px solid #e6e8eb;
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-200);
+  --bc-bullet__ghost: 	#e6e8eb;
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-200);
+  --bc-bullet__inner: 	#e6e8eb;
 }
 
 :root {
@@ -1241,11 +1241,11 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid var(--cl-gray-300);
+  --br-multibar--hover: 	3px solid #e6e8eb;
 }
 
 :root {
-  --br-multibar: 	1px solid var(--cl-gray-100);
+  --br-multibar: 	1px solid #e6e8eb;
 }
 
 :root {
