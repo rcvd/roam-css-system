@@ -310,7 +310,7 @@
 }
 
 :root {
-  --bc-block-highlight--blue: 	var(--cl-gray-100);
+  --bc-block-highlight--blue: 	#c9e2ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3738,7 +3738,7 @@
 }
 
 :root {
-  --bc-textarea__selection: 	var(--cl-gray-200);
+  --bc-textarea__selection: 	#c3d7ff;
 }
 
 @media (prefers-color-scheme: dark) {
