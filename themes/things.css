@@ -667,11 +667,11 @@
 }
 
 :root {
-  --bt-checkmark: 	1px solid var(--cl-gray-500);
-  --br-checkmark: 	1px solid var(--cl-gray-500);
-  --bb-checkmark: 	1px solid var(--cl-gray-500);
-  --bl-checkmark: 	1px solid var(--cl-gray-500);
-  --bd-checkmark: 	;
+  --bt-checkmark: 	1px solid #c1c3c6;
+  --br-checkmark: 	1px solid #c1c3c6;
+  --bb-checkmark: 	1px solid #c1c3c6;
+  --bl-checkmark: 	1px solid #c1c3c6;
+  --bd-checkmark: 	3px;
 }
 
 @media (prefers-color-scheme: dark) {
