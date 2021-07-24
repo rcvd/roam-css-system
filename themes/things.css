@@ -3630,7 +3630,7 @@
   --ff-starred__page: 	;
   --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
-  --fw-starred__page: 	;
+  --fw-starred__page: 	400;
   --tt-starred__page: 	normal;
 }
 
@@ -3649,7 +3649,7 @@
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
-  --fw-starred__title: 	600;
+  --fw-starred__title: 	500;
   --tt-starred__title: 	lowercase;
 }
 
