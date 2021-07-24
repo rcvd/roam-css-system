@@ -694,7 +694,7 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: 	var(--cl-gray-500);
+  --bc-find-or-create__menu-item--selected: 	#bed7f9;
   --bt-find-or-create__menu-item--selected: 	;
   --br-find-or-create__menu-item--selected: 	;
   --bb-find-or-create__menu-item--selected: 	;
