@@ -153,8 +153,8 @@ hr {
 }
 
 .rm-page-ref--tag {
-    padding: 3px;
-    border-radius: 3px
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px
 }
 
 span.rm-page-ref--tag[data-tag='evergreen'] {
