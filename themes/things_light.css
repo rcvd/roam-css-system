@@ -703,7 +703,7 @@
 }
 
 :root {
-  --co-find-or-create__menu-item--selected: 	var(--cl-white);
+  --co-find-or-create__menu-item--selected: 	;
 }
 
 :root {
