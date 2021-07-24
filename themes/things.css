@@ -3690,12 +3690,12 @@
 }
 
 :root {
-  --bc-tags--hover: 	;
+  --bc-tags--hover: 	#c3e1d3;
   --bt-tags--hover: 	;
   --br-tags--hover: 	;
   --bb-tags--hover: 	;
   --bl-tags--hover: 	;
-  --bd-tags--hover: 	;
+  --bd-tags--hover: 	10px;
   --co-tags--hover: 	#1d7d57;
 }
 

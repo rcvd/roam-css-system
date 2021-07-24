@@ -1680,7 +1680,7 @@
   --br-tags--hover: 	1px solid var(--cl-gray-600);
   --bb-tags--hover: 	1px solid var(--cl-gray-600);
   --bl-tags--hover: 	1px solid var(--cl-gray-600);
-  --bd-tags--hover: 	;
+  --bd-tags--hover: 	10px;
   --co-tags--hover: 	var(--cl-gray-400);
 }
 
