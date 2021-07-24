@@ -1139,7 +1139,7 @@
 :root {
   --co-main: 	;
   --ff-main: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-main: 	1.15rem;
+  --fs-main: 	1rem;
   --fw-main: 	normal;
 }
 
