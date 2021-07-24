@@ -945,7 +945,7 @@
   --br-input--focus: 	none;
   --bb-input--focus: 	none;
   --bl-input--focus: 	none;
-  --bd-input--focus: 	;
+  --bd-input--focus: 	3px;
   --sd-input--focus: 	none;
 }
 

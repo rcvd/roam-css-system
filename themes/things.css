@@ -2108,12 +2108,12 @@
 }
 
 :root {
-  --bc-input--focus: 	;
+  --bc-input--focus: 	#dbdde4;
   --bt-input--focus: 	;
   --br-input--focus: 	;
   --bb-input--focus: 	;
   --bl-input--focus: 	;
-  --bd-input--focus: 	;
+  --bd-input--focus: 	3px;
   --sd-input--focus: 	none;
 }
 
@@ -2946,7 +2946,7 @@
 }
 
 :root {
-  --bc-popover__content: 	var(--cl-white);
+  --bc-popover__content: 	#f2f3f5;
   --co-popover__content: 	var(--cl-gray-900);
 }
 
