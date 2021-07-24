@@ -1675,22 +1675,22 @@
 
 :root {
   --bc-tags--hover: 	;
-  --bt-tags--hover: 	1px solid var(--cl-gray-100);
-  --br-tags--hover: 	1px solid var(--cl-gray-100);
-  --bb-tags--hover: 	1px solid var(--cl-gray-100);
-  --bl-tags--hover: 	1px solid var(--cl-gray-100);
-  --bd-tags--hover: 	3px;
-  --co-tags--hover: 	var(--cl-gray-300);
+  --bt-tags--hover: 	;
+  --br-tags--hover: 	;
+  --bb-tags--hover: 	;
+  --bl-tags--hover: 	;
+  --bd-tags--hover: 	;
+  --co-tags--hover: 	#1d7d57;
 }
 
 :root {
-  --bc-tags: 	;
-  --bt-tags: 	1px solid var(--cl-gray-200);
-  --br-tags: 	1px solid var(--cl-gray-200);
-  --bb-tags: 	1px solid var(--cl-gray-200);
-  --bl-tags: 	1px solid var(--cl-gray-200);
-  --bd-tags: 	3px;
-  --co-tags: 	var(--cl-gray-500);
+  --bc-tags: 	#c3e1d3;
+  --bt-tags: 	;
+  --br-tags: 	;
+  --bb-tags: 	;
+  --bl-tags: 	;
+  --bd-tags: 	10px;
+  --co-tags: 	#1d7d57;
   --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	0.85rem;
   --ft-tags: 	;
