@@ -2703,7 +2703,7 @@
 }
 
 :root {
-  --bc-menu: 	var(--cl-white);
+  --bc-menu: 	#f2f3f5;
   --bd-menu: 	0px;
   --co-menu: 	var(--cl-gray-900);
 }
