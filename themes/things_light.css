@@ -1165,7 +1165,7 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-gray-500);
+  --bc-menu__item--hover: 	var(--cl-gray-400);
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
