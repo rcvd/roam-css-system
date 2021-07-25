@@ -1219,7 +1219,7 @@
 
 :root {
   --bc-menu: 	#f2f3f5;
-  --bd-menu: 	0px;
+  --bd-menu: 	5px;
   --co-menu: 	var(--cl-gray-900);
 }
 
@@ -1306,7 +1306,7 @@
 }
 
 :root {
-  --sd-popover__arrow-shadow: 	none;
+  --sd-popover__arrow-shadow: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 :root {
@@ -1339,7 +1339,7 @@
 
 :root {
   --bd-popover: 	5px;
-  --sd-popover: 	rgba(0,0,0,.30) 0 2px 3px;
+  --sd-popover: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 :root {

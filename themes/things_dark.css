@@ -1220,7 +1220,7 @@
 
 :root {
   --bc-menu: 	var(--cl-black);
-  --bd-menu: 	0px;
+  --bd-menu: 	5px;
   --co-menu: 	var(--cl-gray-100);
 }
 
