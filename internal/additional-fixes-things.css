@@ -200,3 +200,9 @@ div {
         border-top: 1px solid var(--cl-gray-800);
     }
 }
+
+.bp3-popover-arrow {
+    top:  -10px!important;
+    z-index:  1;
+}
+
