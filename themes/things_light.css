@@ -585,6 +585,7 @@
   --br-elevation__item: 	;
   --bb-elevation__item: 	;
   --bl-elevation__item: 	;
+  --co-elevation__item: 	var(--cl-white);
   --ff-elevation__item: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 

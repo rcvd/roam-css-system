@@ -1304,6 +1304,7 @@
   --br-elevation__item: 	1px solid transparent;
   --bb-elevation__item: 	1px solid transparent;
   --bl-elevation__item: 	1px solid transparent;
+  --co-elevation__item: 	;
   --ff-elevation__item: 	;
 }
 
@@ -1313,6 +1314,7 @@
     --br-elevation__item: 	1px solid transparent;
     --bb-elevation__item: 	1px solid transparent;
     --bl-elevation__item: 	1px solid transparent;
+    --co-elevation__item: 	;
   }
 }
 

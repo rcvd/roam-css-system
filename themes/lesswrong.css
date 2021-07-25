@@ -1304,6 +1304,7 @@
   --br-elevation__item: 	;
   --bb-elevation__item: 	;
   --bl-elevation__item: 	;
+  --co-elevation__item: 	;
   --ff-elevation__item: 	'Source Sans Pro';
 }
 
@@ -1313,6 +1314,7 @@
     --br-elevation__item: 	;
     --bb-elevation__item: 	;
     --bl-elevation__item: 	;
+    --co-elevation__item: 	;
   }
 }
 

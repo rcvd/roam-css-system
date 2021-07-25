@@ -591,6 +591,7 @@ div, textarea {
   border-right:  			var(--br-elevation__item, inherit);
   border-bottom:  		var(--bb-elevation__item, inherit);
   border-left:  			var(--bl-elevation__item, inherit);
+  color:  						var(--co-elevation__item, inherit);
   font-family:  			var(--ff-elevation__item, inherit);
 }
 

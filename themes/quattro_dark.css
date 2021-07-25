@@ -586,6 +586,7 @@
   --br-elevation__item: 	1px solid transparent;
   --bb-elevation__item: 	1px solid transparent;
   --bl-elevation__item: 	1px solid transparent;
+  --co-elevation__item: 	;
   }
 
 :root {
