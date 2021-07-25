@@ -1298,11 +1298,11 @@
 }
 
 :root {
-  --fl-popover__arrow-border: 	var(--cl-gray-100);
+  --fl-popover__arrow-border: 	1px solid #cacaca;
 }
 
 :root {
-  --fl-popover__arrow-fill: 	var(--cl-white);
+  --fl-popover__arrow-fill: 	#f2f3f5;
 }
 
 :root {
@@ -1330,6 +1330,11 @@
 
 :root {
   --bc-popover__content: 	#f2f3f5;
+  --bt-popover__content: 	1px solid #cacaca;
+  --br-popover__content: 	1px solid #cacaca;
+  --bb-popover__content: 	1px solid #cacaca;
+  --bl-popover__content: 	1px solid #cacaca;
+  --bd-popover__content: 	5px;
   --co-popover__content: 	var(--cl-gray-900);
 }
 

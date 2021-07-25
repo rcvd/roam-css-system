@@ -1340,6 +1340,11 @@ div, textarea {
 
 .bp3-popover .bp3-popover-content {
   background-color:  	var(--bc-popover__content, #fff);
+  border-top:  				var(--bt-popover__content, inherit);
+  border-right:  			var(--br-popover__content, inherit);
+  border-bottom:  		var(--bb-popover__content, inherit);
+  border-left:  			var(--bl-popover__content, inherit);
+  border-radius:  		var(--bd-popover__content, inherit);
   color:  						var(--co-popover__content, inherit);
 }
 

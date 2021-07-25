@@ -1329,7 +1329,12 @@
   }
 
 :root {
+  --bd-popover__content: 	;
   --bc-popover__content: 	var(--cl-black);
+  --bt-popover__content: 	;
+  --br-popover__content: 	;
+  --bb-popover__content: 	;
+  --bl-popover__content: 	;
   --co-popover__content: 	var(--cl-gray-100);
   }
 
