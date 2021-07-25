@@ -144,7 +144,7 @@
 }
 
 :root {
-  --co-block__ghost: 	var(--cl-gray-300);
+  --co-block__ghost: 	var(--cl-gray-400);
 }
 
 :root {
