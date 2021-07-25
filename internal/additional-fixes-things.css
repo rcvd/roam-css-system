@@ -206,3 +206,7 @@ div {
     z-index:  1;
 }
 
+
+.bp3-menu-item {
+    padding: 3px 10px;
+}
