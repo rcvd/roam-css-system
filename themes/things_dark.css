@@ -1339,7 +1339,7 @@
 }
 
 :root {
-  --bd-popover: 	0px;
+  --bd-popover: 	5px;
   --sd-popover: 	0px 0px 0px 1px var(--cl-black);
 }
 

@@ -2968,8 +2968,8 @@
 }
 
 :root {
-  --bd-popover: 	0px;
-  --sd-popover: 	0px 0px 0px 1px var(--cl-gray-100);
+  --bd-popover: 	5px;
+  --sd-popover: 	rgba(0,0,0,.30) 0 2px 3px;
 }
 
 @media (prefers-color-scheme: dark) {
