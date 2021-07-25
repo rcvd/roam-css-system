@@ -940,10 +940,10 @@
 
 :root {
   --bc-input--focus: 	#dbdde4;
-  --bt-input--focus: 	;
-  --br-input--focus: 	;
-  --bb-input--focus: 	;
-  --bl-input--focus: 	;
+  --bt-input--focus: 	2px solid #f2f3f5;
+  --br-input--focus: 	2px solid #f2f3f5;
+  --bb-input--focus: 	2px solid #f2f3f5;
+  --bl-input--focus: 	2px solid #f2f3f5;
   --bd-input--focus: 	3px;
   --sd-input--focus: 	none;
 }
