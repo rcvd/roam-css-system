@@ -945,7 +945,7 @@
   --br-input--focus: 	none;
   --bb-input--focus: 	none;
   --bl-input--focus: 	none;
-  --bd-input--focus: 	3px;
+  --bd-input--focus: 	5px;
   --sd-input--focus: 	none;
 }
 
@@ -1149,7 +1149,7 @@
   --br-menu__button--active: 	1px solid var(--cl-blue-800);
   --bb-menu__button--active: 	1px solid var(--cl-blue-800);
   --bl-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bd-menu__button--active: 	3px;
+  --bd-menu__button--active: 	5px;
 }
 
 :root {
@@ -1166,12 +1166,12 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-gray-500);
+  --bc-menu__item--hover: 	#aeaead;
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
-  --bd-menu__item--hover: 	3px;
+  --bd-menu__item--hover: 	5px;
   --co-menu__item--hover: 	var(--cl-white);
 }
 
@@ -1180,7 +1180,7 @@
   --br-menu__item: 	;
   --bb-menu__item: 	;
   --bl-menu__item: 	;
-  --bd-menu__item: 	3px;
+  --bd-menu__item: 	5px;
   --co-menu__item: 	var(--cl-gray-100);
 }
 
