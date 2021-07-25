@@ -1238,12 +1238,12 @@
 }
 
 :root {
-  --bc-elevation__container: 	var(--cl-white);
-  --bt-elevation__container: 	1px solid var(--cl-gray-100);
-  --br-elevation__container: 	1px solid var(--cl-gray-100);
-  --bb-elevation__container: 	1px solid var(--cl-gray-100);
-  --bl-elevation__container: 	1px solid var(--cl-gray-100);
-  --bd-elevation__container: 	;
+  --bc-elevation__container: 	var(--cl-gray-800);
+  --bt-elevation__container: 	;
+  --br-elevation__container: 	;
+  --bb-elevation__container: 	;
+  --bl-elevation__container: 	;
+  --bd-elevation__container: 	5px;
   --sd-elevation__container: 	;
 }
 
@@ -1279,12 +1279,12 @@
 }
 
 :root {
-  --bc-elevation__item--selected: 	var(--cl-gray-500);
+  --bc-elevation__item--selected: 	#509cfe;
   --bt-elevation__item--selected: 	;
   --br-elevation__item--selected: 	;
   --bb-elevation__item--selected: 	;
   --bl-elevation__item--selected: 	;
-  --bd-elevation__item--selected: 	3px;
+  --bd-elevation__item--selected: 	5px;
   --co-elevation__item--selected: 	var(--cl-white);
 }
 

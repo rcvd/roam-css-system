@@ -559,7 +559,7 @@
   --br-elevation__container: 	1px solid var(--cl-gray-800);
   --bb-elevation__container: 	1px solid var(--cl-gray-800);
   --bl-elevation__container: 	1px solid var(--cl-gray-800);
-  --bd-elevation__container: 	;
+  --bd-elevation__container: 	5px;
   --sd-elevation__container: 	;
 }
 
@@ -577,7 +577,7 @@
   --br-elevation__item--selected: 	;
   --bb-elevation__item--selected: 	;
   --bl-elevation__item--selected: 	;
-  --bd-elevation__item--selected: 	3px;
+  --bd-elevation__item--selected: 	5px;
   --co-elevation__item--selected: 	var(--cl-white);
 }
 
