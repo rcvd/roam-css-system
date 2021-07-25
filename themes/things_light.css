@@ -1298,7 +1298,7 @@
 }
 
 :root {
-  --fl-popover__arrow-border: 	1px solid #cacaca;
+  --fl-popover__arrow-border: 	#cacaca;
 }
 
 :root {
@@ -1306,7 +1306,7 @@
 }
 
 :root {
-  --sd-popover__arrow-shadow: 	0px 0px 15px 0px rgba(0,0,0,0.2);
+  --sd-popover__arrow-shadow: 	none;
 }
 
 :root {
