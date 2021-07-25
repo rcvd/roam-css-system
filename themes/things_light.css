@@ -173,10 +173,10 @@
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid #e6e8eb;
-  --br-bullet__closed: 	4px solid #e6e8eb;
-  --bb-bullet__closed: 	4px solid #e6e8eb;
-  --bl-bullet__closed: 	4px solid #e6e8eb;
+  --bt-bullet__closed: 	4px solid var(--cl-gray-200);
+  --br-bullet__closed: 	4px solid var(--cl-gray-200);
+  --bb-bullet__closed: 	4px solid var(--cl-gray-200);
+  --bl-bullet__closed: 	4px solid var(--cl-gray-200);
 }
 
 :root {
