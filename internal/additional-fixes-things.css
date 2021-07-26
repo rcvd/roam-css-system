@@ -214,4 +214,5 @@ div {
 
 .bp3-elevation-3 > div {
     border-radius: 5px!important;
+    padding:  3px 10px;
 }
