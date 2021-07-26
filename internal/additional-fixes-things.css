@@ -201,6 +201,7 @@ div {
     }
 }
 
+
 .bp3-popover-arrow {
     top:  -10px!important;
     z-index:  1;
@@ -209,4 +210,8 @@ div {
 
 .bp3-menu-item {
     padding: 3px 10px;
+}
+
+.bp3-elevation-3 > div {
+    border-radius: 5px!important;
 }
