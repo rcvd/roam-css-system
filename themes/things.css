@@ -2111,10 +2111,10 @@
 
 :root {
   --bc-input--focus: 	var(--cl-gray-300);
-  --bt-input--focus: 	2px solid var(--cl-gray-100);
-  --br-input--focus: 	2px solid var(--cl-gray-100);
-  --bb-input--focus: 	2px solid var(--cl-gray-100);
-  --bl-input--focus: 	2px solid var(--cl-gray-100);
+  --bt-input--focus: 	none;
+  --br-input--focus: 	none;
+  --bb-input--focus: 	none;
+  --bl-input--focus: 	none;
   --bd-input--focus: 	5px;
   --sd-input--focus: 	none;
 }
