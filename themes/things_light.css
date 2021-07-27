@@ -1069,9 +1069,10 @@
 }
 
 :root {
-  --co-level3: 	;
+  --bb-level3: 	1px solid var(--cl-gray-200);
+  --co-level3: 	#0362c1;
   --ff-level3: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-level3: 	1.15rem;
+  --fs-level3: 	1rem;
   --ft-level3: 	;
   --fw-level3: 	600;
   --tt-level3: 	normal;

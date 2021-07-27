@@ -1078,6 +1078,7 @@ div, textarea {
 }
 
 .rm-level3, .rm-heading-level-3>.rm-block__self .rm-block__input, .roam-body .roam-app .roam-main .roam-article .rm-heading-level-3.rm-block > div > div > textarea {
+  border-bottom:  		var(--bb-level3, inherit);
   color:  						var(--co-level3, #5C7080);
   font-family:  			var(--ff-level3, inherit);
   font-size:  				var(--fs-level3, 1.2em);
