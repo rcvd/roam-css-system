@@ -1376,7 +1376,7 @@
   --bl-quote: 	3px solid var(--cl-gray-800);
   --bd-quote: 	;
   --ff-quote: 	;
-  --fs-quote: 	1.15rem;
+  --fs-quote: 	1rem;
   --ft-quote: 	;
   --fw-quote: 	;
 }
@@ -1404,7 +1404,7 @@
   --bb-reference__linked-title: 	;
   --co-reference__linked-title: 	var(--cl-gray-500);
   --ff-reference__linked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-reference__linked-title: 	0.95rem;
+  --fs-reference__linked-title: 	1rem;
   --ft-reference__linked-title: 	normal;
   --fw-reference__linked-title: 	500;
   --tt-reference__linked-title: 	normal;
@@ -1420,7 +1420,7 @@
 
 :root {
   --co-reference__page-title: 	var(--cl-gray-500);
-  --fs-reference__page-title: 	1.15rem;
+  --fs-reference__page-title: 	1rem;
   --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
 }
@@ -1434,7 +1434,7 @@
   --bb-reference__unlinked-title: 	;
   --co-reference__unlinked-title: 	var(--cl-gray-500);
   --ff-reference__unlinked-title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-reference__unlinked-title: 	0.95rem;
+  --fs-reference__unlinked-title: 	1rem;
   --ft-reference__unlinked-title: 	normal;
   --fw-reference__unlinked-title: 	500;
   --tt-reference__unlinked-title: 	normal;
