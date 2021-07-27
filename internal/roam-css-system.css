@@ -1069,6 +1069,7 @@ div, textarea {
 }
 
 .rm-level2, .rm-heading-level-2>.rm-block__self .rm-block__input, .roam-body .roam-app .roam-main .roam-article .rm-heading-level-2.rm-block > div > div > textarea {
+  border-bottom:  		var(--bb-level2, inherit);
   color:  						var(--co-level2, inherit);
   font-family:  			var(--ff-level2, 'Inter',sans-serif)!important;
   font-size:  				var(--fs-level2, 1.4em);
