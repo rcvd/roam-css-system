@@ -1397,7 +1397,7 @@
   --br-reference__item: 	1px solid var(--cl-black);
   --bb-reference__item: 	1px solid var(--cl-black);
   --bl-reference__item: 	1px solid var(--cl-black);
-  --bd-reference__item: 	3px;
+  --bd-reference__item: 	5px;
 }
 
 :root {

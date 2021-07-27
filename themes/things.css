@@ -3085,7 +3085,7 @@
   --br-reference__item: 	1px solid var(--cl-gray-100);
   --bb-reference__item: 	1px solid var(--cl-gray-100);
   --bl-reference__item: 	1px solid var(--cl-gray-100);
-  --bd-reference__item: 	3px;
+  --bd-reference__item: 	5px;
 }
 
 @media (prefers-color-scheme: dark) {
