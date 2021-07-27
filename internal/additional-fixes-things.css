@@ -203,8 +203,7 @@ div {
 
 
 .bp3-popover-arrow {
-    top:  -10px!important;
-    z-index:  1;
+    display: none;
 }
 
 
