@@ -3,12 +3,12 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 :root {
-  --co-a--hover: 	#0362c1;
+  --co-a--hover: 	#0074e0;
   --td-a--hover: 	none;
 }
 
 :root {
-  --co-a: 	#0362c1;
+  --co-a: 	#0074e0;
   --td-a: 	none;
 }
 
@@ -931,7 +931,7 @@
 }
 
 :root {
-  --co-input__search-icon: 	var(--cl-gray-700);
+  --co-input__search-icon: 	var(--cl-gray-500);
 }
 
 :root {
@@ -1008,7 +1008,7 @@
 }
 
 :root {
-  --bc-left-sidebar__container: 	var(--cl-gray-50);
+  --bc-left-sidebar__container: 	var(--cl-gray-100);
   --br-left-sidebar__container: 	1px solid var(--cl-gray-200);;
 }
 
@@ -1245,20 +1245,20 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid #e6e8eb;
+  --br-multibar--hover: 	3px solid var(--cl-gray-200);
 }
 
 :root {
-  --br-multibar: 	1px solid #e6e8eb;
+  --br-multibar: 	1px solid var(--cl-gray-200);
 }
 
 :root {
-  --co-page__link--hover: 	#0362c1;
+  --co-page__link--hover: 	#0074e0;
   --td-page__link--hover: 	none;
 }
 
 :root {
-  --co-page__link: 	#0362c1;
+  --co-page__link: 	#0074e0;
   --td-page__link: 	none;
 }
 
@@ -1440,15 +1440,15 @@
 }
 
 :root {
-  --bt-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-300);
-  --br-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-300);
-  --bb-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-300);
-  --bl-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-300);
+  --bt-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-400);
+  --br-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-400);
+  --bb-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-400);
+  --bl-right-sidebar__bullet-closed: 	4px solid var(--cl-gray-400);
 }
 
 :root {
-  --bc-right-sidebar__container: 	var(--cl-gray-100);
-  --bl-right-sidebar__container: 	1px solid var(--cl-gray-200);
+  --bc-right-sidebar__container: 	var(--cl-gray-50);
+  --bl-right-sidebar__container: 	1px solid var(--cl-gray-100);
 }
 
 :root {
