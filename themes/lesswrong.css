@@ -2354,6 +2354,7 @@
 }
 
 :root {
+  --bb-level1: 	;
   --co-level1: 	;
   --ff-level1: 	'Source Serif Pro';
   --fs-level1: 	1.4rem;
@@ -2364,6 +2365,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-level1: 	;
     --co-level1: 	;
   }
 }

@@ -2354,16 +2354,18 @@
 }
 
 :root {
+  --bb-level1: 	1px solid var(--cl-gray-200);
   --co-level1: 	var(--cl-gray-800);
   --ff-level1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level1: 	1rem;
   --ft-level1: 	;
-  --fw-level1: 	600;
+  --fw-level1: 	700;
   --tt-level1: 	normal;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-level1: 	;
     --co-level1: 	;
   }
 }
@@ -2374,7 +2376,7 @@
   --ff-level2: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level2: 	1rem;
   --ft-level2: 	;
-  --fw-level2: 	600;
+  --fw-level2: 	700;
   --tt-level2: 	normal;
 }
 
@@ -2391,7 +2393,7 @@
   --ff-level3: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level3: 	1rem;
   --ft-level3: 	;
-  --fw-level3: 	600;
+  --fw-level3: 	700;
   --tt-level3: 	normal;
 }
 

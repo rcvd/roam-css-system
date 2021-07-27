@@ -1051,6 +1051,7 @@
 }
 
 :root {
+  --bb-level1: 	;
   --co-level1: 	;
   --ff-level1: 	'Source Serif Pro';
   --fs-level1: 	1.4rem;

@@ -2354,6 +2354,7 @@
 }
 
 :root {
+  --bb-level1: 	;
   --co-level1: 	;
   --ff-level1: 	'iA Writer Quattro S';
   --fs-level1: 	1.4em;
@@ -2364,6 +2365,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bb-level1: 	;
     --co-level1: 	;
   }
 }
