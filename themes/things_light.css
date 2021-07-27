@@ -161,7 +161,7 @@
 
 :root {
   --bc-block-ref--hover: 	;
-  --co-block-ref--hover: 	var(--cl-green-500);
+  --co-block-ref--hover: 	#0076e3;
 }
 
 :root {
@@ -226,7 +226,7 @@
 }
 
 :root {
-  --co-button__icon--hover: 	var(--cl-gray-700);
+  --co-button__icon--hover: 	#0076e3;
 }
 
 :root {
@@ -245,7 +245,7 @@
 :root {
   --bc-button--hover: 	transparent;
   --sd-button--hover: 	none;
-  --co-button--hover: 	var(--cl-green-500);
+  --co-button--hover: 	#0076e3;
 }
 
 :root {
