@@ -330,7 +330,7 @@
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-green-100);
+  --bc-block-highlight--yellow: 	var(--cl-yellow-100);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3192,7 +3192,7 @@
 }
 
 :root {
-  --bc-right-sidebar__container: 	var(--cl-green-50);
+  --bc-right-sidebar__container: 	var(--cl-gray-100);
   --bl-right-sidebar__container: 	1px solid var(--cl-green-100);
 }
 
