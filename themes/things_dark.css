@@ -5,12 +5,12 @@
 
 :root {
   --co-a--hover: 	var(--cl-green-500);
-  --td-a--hover: 	underline;
+  --td-a--hover: 	none;
 }
 
 :root {
   --co-a: 	var(--cl-green-600);
-  --td-a: 	underline;
+  --td-a: 	none;
 }
 
 :root {
@@ -1054,7 +1054,7 @@
 :root {
   --co-level1: 	;
   --ff-level1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-level1: 	1.4rem;
+  --fs-level1: 	1rem;
   --ft-level1: 	;
   --fw-level1: 	600;
   --tt-level1: 	normal;

@@ -3,8 +3,8 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 :root {
-  --co-a--hover: 	#0076e3;
-  --td-a--hover: 	underline;
+  --co-a--hover: 	#0362c1;
+  --td-a--hover: 	none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,8 +14,8 @@
 }
 
 :root {
-  --co-a: 	#0076e3;
-  --td-a: 	underline;
+  --co-a: 	#0362c1;
+  --td-a: 	none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2269,7 +2269,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	#373b3e;
+  --co-left-sidebar__db-title--hover: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2279,7 +2279,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title: 	#373b3e;
+  --co-left-sidebar__db-title: 	var(--cl-gray-700);
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
   --fw-left-sidebar__db-title: 	500;
@@ -2334,7 +2334,7 @@
 }
 
 :root {
-  --co-left-sidebar__logo-text: 	#373b3e;
+  --co-left-sidebar__logo-text: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2354,9 +2354,9 @@
 }
 
 :root {
-  --co-level1: 	;
+  --co-level1: 	var(--cl-gray-800);
   --ff-level1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-level1: 	1.4rem;
+  --fs-level1: 	1rem;
   --ft-level1: 	;
   --fw-level1: 	600;
   --tt-level1: 	normal;
@@ -2370,7 +2370,7 @@
 
 :root {
   --bb-level2: 	1px solid var(--cl-gray-200);
-  --co-level2: 	;
+  --co-level2: 	#0362c1;
   --ff-level2: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level2: 	1rem;
   --ft-level2: 	;
@@ -2387,7 +2387,7 @@
 
 :root {
   --bb-level3: 	1px solid var(--cl-gray-200);
-  --co-level3: 	#0362c1;
+  --co-level3: 	var(--cl-gray-600);
   --ff-level3: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level3: 	1rem;
   --ft-level3: 	;
@@ -2443,7 +2443,7 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	#373b3e;
+  --co-logbutton--hover: 	var(--cl-gray-700);
   --td-logbutton--hover: 	;
 }
 
@@ -2459,7 +2459,7 @@
 }
 
 :root {
-  --co-logbutton: 	#373b3e;
+  --co-logbutton: 	var(--cl-gray-700);
   --ff-logbutton: 	;
   --fs-logbutton: 	1rem;
   --fw-logbutton: 	500;
@@ -2781,7 +2781,7 @@
 }
 
 :root {
-  --co-page__link--hover: 	#0076e3;
+  --co-page__link--hover: 	#0362c1;
   --td-page__link--hover: 	none;
 }
 
@@ -2792,7 +2792,7 @@
 }
 
 :root {
-  --co-page__link: 	#0076e3;
+  --co-page__link: 	#0362c1;
   --td-page__link: 	none;
 }
 
@@ -3621,7 +3621,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	#373b3e;
+  --co-starred__page--hover: 	var(--cl-gray-700);
   --td-starred__page--hover: 	none;
 }
 
@@ -3641,7 +3641,7 @@
   --br-starred__page: 	;
   --bb-starred__page: 	;
   --bl-starred__page: 	;
-  --co-starred__page: 	#373b3e;
+  --co-starred__page: 	var(--cl-gray-700);
   --ff-starred__page: 	;
   --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
@@ -3660,7 +3660,7 @@
 }
 
 :root {
-  --co-starred__title: 	#363a3e;
+  --co-starred__title: 	var(--cl-gray-700);
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
@@ -3711,7 +3711,7 @@
   --bb-tags--hover: 	;
   --bl-tags--hover: 	;
   --bd-tags--hover: 	10px;
-  --co-tags--hover: 	#1d7d57;
+  --co-tags--hover: 	var(--cl-gray-600);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3732,7 +3732,7 @@
   --bb-tags: 	;
   --bl-tags: 	;
   --bd-tags: 	10px;
-  --co-tags: 	#1d7d57;
+  --co-tags: 	var(--cl-gray-600);
   --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	0.9rem;
   --ft-tags: 	;
