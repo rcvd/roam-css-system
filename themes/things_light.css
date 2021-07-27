@@ -1418,7 +1418,7 @@
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-gray-800);
+  --co-reference__page-title: 	#0076e4;
   --fs-reference__page-title: 	1rem;
   --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
