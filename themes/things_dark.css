@@ -319,7 +319,7 @@
   --bl-code: 	1px solid var(--cl-gray-700);
   --bd-code: 	2px;
   --co-code: 	var(--cl-gray-100);
-  --ff-code: 	Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+  --ff-code: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   --fs-code: 	1rem;
 }
 
@@ -376,7 +376,7 @@
   --br-codeblock__gutters: 	2px solid var(--cl-gray-900);
   --bb-codeblock__gutters: 	;
   --bl-codeblock__gutters: 	;
-  --ff-codeblock__gutters: 	Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+  --ff-codeblock__gutters: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   --fs-codeblock__gutters: 	;
   --ft-codeblock__gutters: 	;
   --fw-codeblock__gutters: 	;
