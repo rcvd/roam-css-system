@@ -295,7 +295,7 @@
 }
 
 :root {
-  --bc-checkmark--checked: 	var(--cl-gray-700);
+  --bc-checkmark--checked: 	#0362c1;
   --bt-checkmark--checked: 	;
   --br-checkmark--checked: 	;
   --bb-checkmark--checked: 	;
@@ -303,10 +303,10 @@
 }
 
 :root {
-  --bt-checkmark: 	1px solid #c1c3c6;
-  --br-checkmark: 	1px solid #c1c3c6;
-  --bb-checkmark: 	1px solid #c1c3c6;
-  --bl-checkmark: 	1px solid #c1c3c6;
+  --bt-checkmark: 	1px solid var(--cl-gray-400);
+  --br-checkmark: 	1px solid var(--cl-gray-400);
+  --bb-checkmark: 	1px solid var(--cl-gray-400);
+  --bl-checkmark: 	1px solid var(--cl-gray-400);
   --bd-checkmark: 	3px;
 }
 
