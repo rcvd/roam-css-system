@@ -38,11 +38,11 @@
 
 :root {
   --bc-allpages__checkbox: 	transparent;
-  --bt-allpages__checkbox: 	1px solid var(--cl-gray-300);
-  --br-allpages__checkbox: 	1px solid var(--cl-gray-300);
-  --bb-allpages__checkbox: 	1px solid var(--cl-gray-300);
-  --bl-allpages__checkbox: 	1px solid var(--cl-gray-300);
-  --bd-allpages__checkbox: 	;
+  --bt-allpages__checkbox: 	1px solid var(--cl-gray-400);
+  --br-allpages__checkbox: 	1px solid var(--cl-gray-400);
+  --bb-allpages__checkbox: 	1px solid var(--cl-gray-400);
+  --bl-allpages__checkbox: 	1px solid var(--cl-gray-400);
+  --bd-allpages__checkbox: 	3px;
   --sd-allpages__checkbox: 	;
 }
 
