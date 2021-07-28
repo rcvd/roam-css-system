@@ -125,7 +125,7 @@
 }
 
 :root {
-  --co-app__h1: 	var(--cl-gray-100);
+  --co-app__h1: 	#e5e5e5;
   --ff-app__h1: 	;
   --fs-app__h1: 	20px;
   --ft-app__h1: 	;
@@ -174,18 +174,18 @@
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid var(--cl-gray-600);
-  --br-bullet__closed: 	4px solid var(--cl-gray-600);
-  --bb-bullet__closed: 	4px solid var(--cl-gray-600);
-  --bl-bullet__closed: 	4px solid var(--cl-gray-600);
+  --bt-bullet__closed: 	4px solid #656464;
+  --br-bullet__closed: 	4px solid #656464;
+  --bb-bullet__closed: 	4px solid #656464;
+  --bl-bullet__closed: 	4px solid #656464;
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-700);
+  --bc-bullet__ghost: 	#656464;
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-600);
+  --bc-bullet__inner: 	#656464;
 }
 
 :root {
@@ -304,10 +304,10 @@
 }
 
 :root {
-  --bt-checkmark: 	1px solid var(--cl-gray-500);
-  --br-checkmark: 	1px solid var(--cl-gray-500);
-  --bb-checkmark: 	1px solid var(--cl-gray-500);
-  --bl-checkmark: 	1px solid var(--cl-gray-500);
+  --bt-checkmark: 	1px solid #656464;
+  --br-checkmark: 	1px solid #656464;
+  --bb-checkmark: 	1px solid #656464;
+  --bl-checkmark: 	1px solid #656464;
   --bd-checkmark: 	3px;
 }
 
@@ -1009,8 +1009,8 @@
 }
 
 :root {
-  --bc-left-sidebar__container: 	var(--cl-gray-800);
-  --br-left-sidebar__container: 	1px solid var(--cl-gray-800);
+  --bc-left-sidebar__container: 	#222120;
+  --br-left-sidebar__container: 	1px solid #191918;
 }
 
 :root {
@@ -1018,7 +1018,7 @@
 }
 
 :root {
-  --co-left-sidebar__db-title: 	var(--cl-gray-300);
+  --co-left-sidebar__db-title: 	#d2d3d2;
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
   --fw-left-sidebar__db-title: 	500;
@@ -1030,7 +1030,7 @@
 }
 
 :root {
-  --co-left-sidebar__icon: 	var(--cl-gray-300);
+  --co-left-sidebar__icon: 	#d2d3d2;
   --fs-left-sidebar__icon: 	16px;
 }
 
@@ -1044,7 +1044,7 @@
 }
 
 :root {
-  --co-left-sidebar__logo-text: 	var(--cl-gray-400);
+  --co-left-sidebar__logo-text: 	#d2d3d2;
 }
 
 :root {
@@ -1137,7 +1137,7 @@
 }
 
 :root {
-  --bc-main: 	var(--cl-gray-900);
+  --bc-main: 	#2b2a29;
 }
 
 :root {
@@ -1264,7 +1264,7 @@
 }
 
 :root {
-  --co-page__title: 	var(--cl-gray-50);
+  --co-page__title: 	#e5e5e5;
   --ff-page__title: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-page__title: 	22px;
   --ft-page__title: 	;
@@ -1448,8 +1448,8 @@
 }
 
 :root {
-  --bc-right-sidebar__container: 	var(--cl-gray-800);
-  --bl-right-sidebar__container: 	1px solid var(--cl-gray-800);
+  --bc-right-sidebar__container: 	#272625;
+  --bl-right-sidebar__container: 	1px solid #191918;
 }
 
 :root {
@@ -1645,7 +1645,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	var(--cl-gray-500);
+  --co-starred__page--hover: 	#d2d3d2;
   --td-starred__page--hover: 	none;
 }
 
@@ -1654,7 +1654,7 @@
   --br-starred__page: 	;
   --bb-starred__page: 	;
   --bl-starred__page: 	;
-  --co-starred__page: 	var(--cl-gray-300);
+  --co-starred__page: 	#d2d3d2;
   --ff-starred__page: 	;
   --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
@@ -1663,7 +1663,7 @@
 }
 
 :root {
-  --co-starred__title: 	var(--cl-gray-300);
+  --co-starred__title: 	#d2d3d2;
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
