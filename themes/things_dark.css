@@ -227,11 +227,11 @@
 }
 
 :root {
-  --co-button__icon--hover: 	var(--cl-gray-700);
+  --co-button__icon--hover: 	#a5a7ab;
 }
 
 :root {
-  --co-button__icon: 	var(--cl-gray-500);
+  --co-button__icon: 	#a5a7ab;
 }
 
 :root {
