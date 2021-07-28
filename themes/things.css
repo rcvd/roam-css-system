@@ -3090,11 +3090,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-reference__item: 	var(--cl-gray-800);
-    --bt-reference__item: 	1px solid var(--cl-black);
-    --br-reference__item: 	1px solid var(--cl-black);
-    --bb-reference__item: 	1px solid var(--cl-black);
-    --bl-reference__item: 	1px solid var(--cl-black);
+    --bc-reference__item: 	#333232;
+    --bt-reference__item: 	;
+    --br-reference__item: 	;
+    --bb-reference__item: 	;
+    --bl-reference__item: 	;
   }
 }
 
