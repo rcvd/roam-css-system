@@ -2022,7 +2022,7 @@
 }
 
 :root {
-  --bt-hr: 	1px solid var(--cl-gray-200);
+  --bt-hr: 	2px solid var(--cl-gray-100);
   --br-hr: 	;
   --bb-hr: 	;
   --bl-hr: 	;
@@ -2354,7 +2354,7 @@
 }
 
 :root {
-  --bb-level1: 	1px solid var(--cl-gray-200);
+  --bb-level1: 	2px solid var(--cl-gray-100);
   --co-level1: 	var(--cl-gray-800);
   --ff-level1: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level1: 	1rem;
@@ -2371,7 +2371,7 @@
 }
 
 :root {
-  --bb-level2: 	1px solid var(--cl-gray-200);
+  --bb-level2: 	2px solid var(--cl-gray-100);
   --co-level2: 	#0362c1;
   --ff-level2: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level2: 	1rem;
@@ -2388,7 +2388,7 @@
 }
 
 :root {
-  --bb-level3: 	1px solid var(--cl-gray-200);
+  --bb-level3: 	2px solid var(--cl-gray-100);
   --co-level3: 	var(--cl-gray-600);
   --ff-level3: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level3: 	1rem;
@@ -2430,7 +2430,7 @@
 }
 
 :root {
-  --bt-log-page: 	1px solid var(--cl-gray-200);
+  --bt-log-page: 	2px solid var(--cl-gray-100);
 }
 
 @media (prefers-color-scheme: dark) {
