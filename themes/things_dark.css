@@ -1733,7 +1733,7 @@
 
 :root {
   --co-zoom-item: 	var(--cl-gray-500);
-  --fs-zoom-item: 	1.15rem;
+  --fs-zoom-item: 	1rem;
 }
 
 :root {

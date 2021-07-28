@@ -2012,7 +2012,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-green-100);
+  --bc-highlight: 	var(--cl-yellow-200);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2763,7 +2763,7 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid var(--cl-gray-200);
+  --br-multibar--hover: 	3px solid var(--cl-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2773,7 +2773,7 @@
 }
 
 :root {
-  --br-multibar: 	1px solid var(--cl-gray-200);
+  --br-multibar: 	1px solid var(--cl-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3807,7 +3807,7 @@
 
 :root {
   --co-zoom-item: 	var(--cl-gray-400);
-  --fs-zoom-item: 	1.15rem;
+  --fs-zoom-item: 	1rem;
 }
 
 @media (prefers-color-scheme: dark) {

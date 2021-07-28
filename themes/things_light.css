@@ -899,7 +899,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-green-100);
+  --bc-highlight: 	var(--cl-yellow-200);
 }
 
 :root {
@@ -1245,11 +1245,11 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid var(--cl-gray-200);
+  --br-multibar--hover: 	3px solid var(--cl-gray-400);
 }
 
 :root {
-  --br-multibar: 	1px solid var(--cl-gray-200);
+  --br-multibar: 	1px solid var(--cl-gray-400);
 }
 
 :root {
@@ -1732,7 +1732,7 @@
 
 :root {
   --co-zoom-item: 	var(--cl-gray-400);
-  --fs-zoom-item: 	1.15rem;
+  --fs-zoom-item: 	1rem;
 }
 
 :root {
