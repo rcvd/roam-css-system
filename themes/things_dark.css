@@ -554,13 +554,13 @@
 }
 
 :root {
-  --bc-elevation__container: 	var(--cl-black);
-  --bt-elevation__container: 	1px solid var(--cl-gray-800);
-  --br-elevation__container: 	1px solid var(--cl-gray-800);
-  --bb-elevation__container: 	1px solid var(--cl-gray-800);
-  --bl-elevation__container: 	1px solid var(--cl-gray-800);
+  --bc-elevation__container: 	#2d2b29;
+  --bt-elevation__container: 	1px solid #3d3c3a;
+  --br-elevation__container: 	1px solid #3d3c3a;
+  --bb-elevation__container: 	1px solid #3d3c3a;
+  --bl-elevation__container: 	1px solid #3d3c3a;
   --bd-elevation__container: 	5px;
-  --sd-elevation__container: 	;
+  --sd-elevation__container: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 :root {
@@ -1334,11 +1334,11 @@
 }
 
 :root {
-  --bc-popover__content: 	var(--cl-black);
-  --bt-popover__content: 	;
-  --br-popover__content: 	;
-  --bb-popover__content: 	;
-  --bl-popover__content: 	;
+  --bc-popover__content: 	#2c2b2a;
+  --bt-popover__content: 	1px solid #3d3c3b;
+  --br-popover__content: 	1px solid #3d3c3b;
+  --bb-popover__content: 	1px solid #3d3c3b;
+  --bl-popover__content: 	1px solid #3d3c3b;
   --bd-popover__content: 	5px;
   --co-popover__content: 	var(--cl-gray-100);
 }
@@ -1349,7 +1349,7 @@
 
 :root {
   --bd-popover: 	5px;
-  --sd-popover: 	0px 0px 0px 1px var(--cl-black);
+  --sd-popover: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 :root {
