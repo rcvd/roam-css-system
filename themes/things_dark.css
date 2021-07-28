@@ -1063,7 +1063,7 @@
 
 :root {
   --bb-level2: 	;
-  --co-level2: 	;
+  --co-level2: 	#5d9be5;
   --ff-level2: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-level2: 	1rem;
   --ft-level2: 	;
@@ -1684,23 +1684,23 @@
 }
 
 :root {
-  --bc-tags--hover: 	;
-  --bt-tags--hover: 	1px solid var(--cl-gray-600);
-  --br-tags--hover: 	1px solid var(--cl-gray-600);
-  --bb-tags--hover: 	1px solid var(--cl-gray-600);
-  --bl-tags--hover: 	1px solid var(--cl-gray-600);
+  --bc-tags--hover: 	#296349;
+  --bt-tags--hover: 	;
+  --br-tags--hover: 	;
+  --bb-tags--hover: 	;
+  --bl-tags--hover: 	;
   --bd-tags--hover: 	10px;
-  --co-tags--hover: 	var(--cl-gray-400);
+  --co-tags--hover: 	#d1dcd8;
 }
 
 :root {
-  --bc-tags: 	;
-  --bt-tags: 	1px solid var(--cl-gray-700);
-  --br-tags: 	1px solid var(--cl-gray-700);
-  --bb-tags: 	1px solid var(--cl-gray-700);
-  --bl-tags: 	1px solid var(--cl-gray-700);
+  --bc-tags: 	#296349;
+  --bt-tags: 	;
+  --br-tags: 	;
+  --bb-tags: 	;
+  --bl-tags: 	;
   --bd-tags: 	10px;
-  --co-tags: 	var(--cl-gray-500);
+  --co-tags: 	#d1dcd8;
   --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	1rem;
   --ft-tags: 	;
