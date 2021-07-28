@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a--hover: 	var(--cl-green-500);
+    --co-a--hover: 	#67acff;
   }
 }
 
@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a: 	var(--cl-green-600);
+    --co-a: 	#67acff;
   }
 }
 
@@ -2789,7 +2789,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-page__link--hover: 	var(--cl-green-600);
+    --co-page__link--hover: 	#67acff;
   }
 }
 
@@ -2800,7 +2800,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-page__link: 	var(--cl-green-500);
+    --co-page__link: 	#67acff;
   }
 }
 
@@ -3143,7 +3143,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-reference__page-title: 	var(--cl-gray-500);
+    --co-reference__page-title: 	#67acff;
   }
 }
 

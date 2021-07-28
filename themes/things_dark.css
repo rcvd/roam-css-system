@@ -4,12 +4,12 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 
 :root {
-  --co-a--hover: 	var(--cl-green-500);
+  --co-a--hover: 	#67acff;
   --td-a--hover: 	none;
 }
 
 :root {
-  --co-a: 	var(--cl-green-600);
+  --co-a: 	#67acff;
   --td-a: 	none;
 }
 
@@ -1254,12 +1254,12 @@
 }
 
 :root {
-  --co-page__link--hover: 	var(--cl-green-600);
+  --co-page__link--hover: 	#67acff;
   --td-page__link--hover: 	none;
 }
 
 :root {
-  --co-page__link: 	var(--cl-green-500);
+  --co-page__link: 	#67acff;
   --td-page__link: 	none;
 }
 
@@ -1419,7 +1419,7 @@
 }
 
 :root {
-  --co-reference__page-title: 	var(--cl-gray-500);
+  --co-reference__page-title: 	#67acff;
   --fs-reference__page-title: 	1rem;
   --fw-reference__page-title: 	;
   --td-reference__page-title: 	none;
