@@ -305,7 +305,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-block__ghost: 	var(--cl-gray-700);
+    --co-block__ghost: 	#747373;
   }
 }
 
