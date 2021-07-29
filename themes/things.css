@@ -1011,6 +1011,7 @@
 
 :root {
   --bc-datepicker__day--hover: 	var(--cl-green-500);
+  --bd-datepicker__day--hover: 	;
   --co-datepicker__day--hover: 	var(--cl-white);
 }
 
@@ -1023,6 +1024,7 @@
 
 :root {
   --bc-datepicker__day--selected: 	var(--cl-green-400);
+  --bd-datepicker__day--selected: 	;
   --co-datepicker__day--selected: 	var(--cl-white);
 }
 
@@ -1035,6 +1037,7 @@
 
 :root {
   --bc-datepicker__day-selected--hover: 	var(--cl-green-400);
+  --bd-datepicker__day-selected--hover: 	;
 }
 
 @media (prefers-color-scheme: dark) {

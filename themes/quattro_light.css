@@ -451,16 +451,19 @@
 
 :root {
   --bc-datepicker__day--hover: 	var(--cl-red-500);
+  --bd-datepicker__day--hover: 	;
   --co-datepicker__day--hover: 	var(--cl-white);
 }
 
 :root {
   --bc-datepicker__day--selected: 	var(--cl-red-600);
+  --bd-datepicker__day--selected: 	;
   --co-datepicker__day--selected: 	var(--cl-white);
 }
 
 :root {
   --bc-datepicker__day-selected--hover: 	var(--cl-red-600);
+  --bd-datepicker__day-selected--hover: 	;
 }
 
 :root {

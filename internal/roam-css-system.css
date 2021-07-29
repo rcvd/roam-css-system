@@ -454,16 +454,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus {
   background-color:  	var(--bc-datepicker__day--hover, #d8e1e8);
+  border-radius:  		var(--bd-datepicker__day--hover, inherit);
   color:  						var(--co-datepicker__day--hover, #182026)!important;
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected {
   background-color:  	var(--bc-datepicker__day--selected, #5C7080);
+  border-radius:  		var(--bd-datepicker__day--selected, inherit);
   color:  						var(--co-datepicker__day--selected, #F5F8FA);
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected:hover {
   background-color:  	var(--bc-datepicker__day-selected--hover, hsl(204,20%,45%));
+  border-radius:  		var(--bd-datepicker__day-selected--hover, inherit);
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
