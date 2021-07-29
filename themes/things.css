@@ -658,7 +658,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-checkmark--checked: 	var(--cl-gray-300);
+    --bc-checkmark--checked: 	#4e94f7;
     --bt-checkmark--checked: 	;
     --br-checkmark--checked: 	;
     --bb-checkmark--checked: 	;
@@ -676,10 +676,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-checkmark: 	1px solid #656464;
-    --br-checkmark: 	1px solid #656464;
-    --bb-checkmark: 	1px solid #656464;
-    --bl-checkmark: 	1px solid #656464;
+    --bt-checkmark: 	1px solid #737372;
+    --br-checkmark: 	1px solid #737372;
+    --bb-checkmark: 	1px solid #737372;
+    --bl-checkmark: 	1px solid #737372;
   }
 }
 
@@ -1293,7 +1293,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-elevation__item--selected: 	var(--cl-gray-500);
+    --bc-elevation__item--selected: 	#2b6ec0;
     --bt-elevation__item--selected: 	;
     --br-elevation__item--selected: 	;
     --bb-elevation__item--selected: 	;
@@ -2266,8 +2266,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-left-sidebar__container: 	#222120;
-    --br-left-sidebar__container: 	1px solid #191918;
+    --bc-left-sidebar__container: 	#252525;
+    --br-left-sidebar__container: 	1px solid #1e1e1e;
   }
 }
 
@@ -2418,7 +2418,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-log-page__h1: 	#747373;
+    --co-log-page__h1: 	#4d4e4d;
   }
 }
 
@@ -2428,7 +2428,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-log-page__preview: 	#747373;
+    --co-log-page__preview: 	#4d4e4d;
   }
 }
 
@@ -2438,7 +2438,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-log-page: 	1px solid #747373;
+    --bt-log-page: 	1px solid #4d4e4d;
   }
 }
 
@@ -2525,7 +2525,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-main: 	#2b2a29;
+    --bc-main: 	#2e2e2e;
   }
 }
 
@@ -3779,10 +3779,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-topbar__container: 	#292a2e;
+    --bc-topbar__container: 	#2e2e2e;
     --bt-topbar__container: 	;
     --br-topbar__container: 	;
-    --bb-topbar__container: 	1px solid #20201f;
+    --bb-topbar__container: 	1px solid #252524;
     --bl-topbar__container: 	;
     --sd-topbar__container: 	;
   }
@@ -3794,7 +3794,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-version__bullet: 	var(--cl-gray-800);
+    --bc-version__bullet: 	#4d4e4d;
   }
 }
 
@@ -3804,7 +3804,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-zoom__mask: 	var(--cl-gray-800);
+    --bc-zoom__mask: 	#4d4e4d;
   }
 }
 
