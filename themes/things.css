@@ -2415,7 +2415,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-log-page__h1: 	var(--cl-gray-700);
+    --co-log-page__h1: 	#747373;
   }
 }
 
@@ -2425,7 +2425,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-log-page__preview: 	var(--cl-gray-700);
+    --co-log-page__preview: 	#747373;
   }
 }
 
@@ -2435,7 +2435,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bt-log-page: 	1px solid var(--cl-gray-700);
+    --bt-log-page: 	1px solid #747373;
   }
 }
 
