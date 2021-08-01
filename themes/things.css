@@ -2296,7 +2296,7 @@
 }
 
 :root {
-  --bc-left-sidebar__hr: 	var(--cl-gray-200);
+  --bc-left-sidebar__hr: 	#e5e9ec;
 }
 
 @media (prefers-color-scheme: dark) {
