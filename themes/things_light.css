@@ -1097,7 +1097,7 @@
 }
 
 :root {
-  --bt-log-page: 	2px solid #aeb2b8;
+  --bt-log-page: 	1px solid #e6e8ec;
 }
 
 :root {
@@ -1248,11 +1248,11 @@
 }
 
 :root {
-  --br-multibar--hover: 	3px solid 4px solid #aeb2b8;
+  --br-multibar--hover: 	3px solid #aeb2b8;
 }
 
 :root {
-  --br-multibar: 	1px solid 4px solid #aeb2b8;
+  --br-multibar: 	1px solid #aeb2b8;
 }
 
 :root {
