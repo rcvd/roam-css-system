@@ -1017,11 +1017,11 @@
 }
 
 :root {
-  --co-left-sidebar__db-title--hover: 	var(--cl-gray-500);
+  --co-left-sidebar__db-title--hover: 	#c5c5c5;
 }
 
 :root {
-  --co-left-sidebar__db-title: 	#d2d3d2;
+  --co-left-sidebar__db-title: 	#c5c5c5;
   --ff-left-sidebar__db-title: 	;
   --fs-left-sidebar__db-title: 	;
   --fw-left-sidebar__db-title: 	500;
@@ -1033,7 +1033,7 @@
 }
 
 :root {
-  --co-left-sidebar__icon: 	#d2d3d2;
+  --co-left-sidebar__icon: 	#c5c5c5;
   --fs-left-sidebar__icon: 	16px;
 }
 
@@ -1047,7 +1047,7 @@
 }
 
 :root {
-  --co-left-sidebar__logo-text: 	#d2d3d2;
+  --co-left-sidebar__logo-text: 	#c5c5c5;
 }
 
 :root {
@@ -1107,12 +1107,12 @@
   --br-logbutton--hover: 	;
   --bb-logbutton--hover: 	;
   --bl-logbutton--hover: 	;
-  --co-logbutton--hover: 	var(--cl-gray-500);
+  --co-logbutton--hover: 	#c5c5c5;
   --td-logbutton--hover: 	;
 }
 
 :root {
-  --co-logbutton: 	var(--cl-gray-300);
+  --co-logbutton: 	#c5c5c5;
   --ff-logbutton: 	;
   --fs-logbutton: 	1rem;
   --fw-logbutton: 	500;
@@ -1173,13 +1173,13 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	#aeaead;
+  --bc-menu__item--hover: 	#676666;
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
   --bd-menu__item--hover: 	5px;
-  --co-menu__item--hover: 	var(--cl-white);
+  --co-menu__item--hover: 	#eeeeee;
 }
 
 :root {
@@ -1188,23 +1188,23 @@
   --bb-menu__item: 	;
   --bl-menu__item: 	;
   --bd-menu__item: 	5px;
-  --co-menu__item: 	var(--cl-gray-100);
+  --co-menu__item: 	#eeeeee;
 }
 
 :root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
+  --co-menu__item-icon--hover: 	#eeeeee;
 }
 
 :root {
-  --co-menu__item-icon: 	var(--cl-gray-900);
+  --co-menu__item-icon: 	#eeeeee;
 }
 
 :root {
-  --co-menu__item-label--hover: 	var(--cl-white);
+  --co-menu__item-label--hover: 	#eeeeee;
 }
 
 :root {
-  --co-menu__item-label: 	var(--cl-gray-500);
+  --co-menu__item-label: 	#eeeeee;
   --td-menu__item-label: 	none;
 }
 
@@ -1648,7 +1648,7 @@
   --br-starred__page--hover: 	;
   --bb-starred__page--hover: 	;
   --bl-starred__page--hover: 	;
-  --co-starred__page--hover: 	#d2d3d2;
+  --co-starred__page--hover: 	#c5c5c5;
   --td-starred__page--hover: 	none;
 }
 
@@ -1657,7 +1657,7 @@
   --br-starred__page: 	;
   --bb-starred__page: 	;
   --bl-starred__page: 	;
-  --co-starred__page: 	#d2d3d2;
+  --co-starred__page: 	#c5c5c5;
   --ff-starred__page: 	;
   --fs-starred__page: 	1rem;
   --ft-starred__page: 	;
@@ -1666,7 +1666,7 @@
 }
 
 :root {
-  --co-starred__title: 	#d2d3d2;
+  --co-starred__title: 	#c5c5c5;
   --ff-starred__title: 	;
   --fs-starred__title: 	1rem;
   --ft-starred__title: 	;
