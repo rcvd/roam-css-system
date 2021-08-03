@@ -452,19 +452,19 @@
 
 :root {
   --bc-datepicker__day--hover: 	#296cbe;
-  --bd-datepicker__day--hover: 	;
+  --bd-datepicker__day--hover: 	2px;
   --co-datepicker__day--hover: 	var(--cl-white);
 }
 
 :root {
   --bc-datepicker__day--selected: 	#296cbe;
-  --bd-datepicker__day--selected: 	;
+  --bd-datepicker__day--selected: 	2px;
   --co-datepicker__day--selected: 	var(--cl-black);
 }
 
 :root {
   --bc-datepicker__day-selected--hover: 	#296cbe;
-  --bd-datepicker__day-selected--hover: 	;
+  --bd-datepicker__day-selected--hover: 	2px;
 }
 
 :root {

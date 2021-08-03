@@ -450,20 +450,20 @@
 }
 
 :root {
-  --bc-datepicker__day--hover: 	var(--cl-green-500);
-  --bd-datepicker__day--hover: 	;
+  --bc-datepicker__day--hover: 	#4f9dfe;
+  --bd-datepicker__day--hover: 	2px;
   --co-datepicker__day--hover: 	var(--cl-white);
 }
 
 :root {
-  --bc-datepicker__day--selected: 	var(--cl-green-400);
-  --bd-datepicker__day--selected: 	;
+  --bc-datepicker__day--selected: 	#4f9dfe;
+  --bd-datepicker__day--selected: 	2px;
   --co-datepicker__day--selected: 	var(--cl-white);
 }
 
 :root {
-  --bc-datepicker__day-selected--hover: 	var(--cl-green-400);
-  --bd-datepicker__day-selected--hover: 	;
+  --bc-datepicker__day-selected--hover: 	#4f9dfe;
+  --bd-datepicker__day-selected--hover: 	2px;
 }
 
 :root {
@@ -510,7 +510,7 @@
 }
 
 :root {
-  --bc-datepicker: 	var(--cl-white);
+  --bc-datepicker: 	#2c3239;
   --bt-datepicker: 	1px solid var(--cl-gray-100);
   --br-datepicker: 	1px solid var(--cl-gray-100);
   --bb-datepicker: 	1px solid var(--cl-gray-100);
