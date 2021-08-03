@@ -2702,7 +2702,7 @@
 }
 
 :root {
-  --co-menu__item-primary: 	var(--cl-green-500);
+  --co-menu__item-primary: 	#0074e0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2947,10 +2947,10 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-gray-100);
-  --br-popover__button--hover: 	1px solid var(--cl-gray-100);
-  --bb-popover__button--hover: 	1px solid var(--cl-gray-100);
-  --bl-popover__button--hover: 	1px solid var(--cl-gray-100);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-200);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-200);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-200);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-200);
   --co-popover__button--hover: 	;
 }
 
@@ -2967,11 +2967,11 @@
 
 :root {
   --bc-popover__button: 	;
-  --bt-popover__button: 	1px solid var(--cl-gray-300);
-  --br-popover__button: 	1px solid var(--cl-gray-300);
-  --bb-popover__button: 	1px solid var(--cl-gray-300);
-  --bl-popover__button: 	1px solid var(--cl-gray-300);
-  --bd-popover__button: 	0px;
+  --bt-popover__button: 	1px solid transparent;
+  --br-popover__button: 	1px solid transparent;
+  --bb-popover__button: 	1px solid transparent;
+  --bl-popover__button: 	1px solid transparent;
+  --bd-popover__button: 	5px;
   --co-popover__button: 	;
 }
 

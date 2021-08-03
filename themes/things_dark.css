@@ -1352,7 +1352,7 @@
   --br-popover__button: 	1px solid var(--cl-gray-700);
   --bb-popover__button: 	1px solid var(--cl-gray-700);
   --bl-popover__button: 	1px solid var(--cl-gray-700);
-  --bd-popover__button: 	0px;
+  --bd-popover__button: 	5px;
   --co-popover__button: 	;
 }
 
