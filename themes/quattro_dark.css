@@ -370,6 +370,7 @@
   }
 
 :root {
+  --bd-codeblock__gutters: 	;
   --ff-codeblock__gutters: 	'iA Writer Mono S';
   --fs-codeblock__gutters: 	;
   --ft-codeblock__gutters: 	;

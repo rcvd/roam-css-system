@@ -378,6 +378,7 @@ code {
   border-right:  			var(--br-codeblock__gutters, 1px solid #ddd);
   border-bottom:  		var(--bb-codeblock__gutters, inherit);
   border-left:  			var(--bl-codeblock__gutters, inherit);
+  border-radius:  		var(--bd-codeblock__gutters, inherit);
   font-family:  			var(--ff-codeblock__gutters, inherit);
   font-size:  				var(--fs-codeblock__gutters, inherit);
   font-style:  				var(--ft-codeblock__gutters, inherit);

@@ -823,6 +823,7 @@
   --br-codeblock__gutters: 	none;
   --bb-codeblock__gutters: 	;
   --bl-codeblock__gutters: 	;
+  --bd-codeblock__gutters: 	5px;
   --ff-codeblock__gutters: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   --fs-codeblock__gutters: 	;
   --ft-codeblock__gutters: 	;
