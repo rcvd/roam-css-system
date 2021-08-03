@@ -462,6 +462,10 @@
 }
 
 :root {
+  --co-datepicker__day: 	var(--cl-white);
+}
+
+:root {
   --bc-datepicker__day-selected--hover: 	#4f9dfe;
   --bd-datepicker__day-selected--hover: 	2px;
 }

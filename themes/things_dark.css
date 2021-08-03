@@ -463,6 +463,12 @@
 }
 
 :root {
+  --bc-datepicker__day--selected: 	#296cbe;
+  --bd-datepicker__day--selected: 	2px;
+  --co-datepicker__day--selected: 	var(--cl-black);
+}
+
+:root {
   --bc-datepicker__day-selected--hover: 	#296cbe;
   --bd-datepicker__day-selected--hover: 	2px;
 }
