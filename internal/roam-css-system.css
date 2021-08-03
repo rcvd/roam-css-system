@@ -464,7 +464,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color:  						var(--co-datepicker__day--selected, #F5F8FA);
 }
 
-.rm-jump-date-picker .bp3-datepicker-day-wrapper {
+.rm-jump-date-picker .DayPicker-Day {
   color:  						var(--co-datepicker__day, inherit);
 }
 
