@@ -1194,6 +1194,10 @@
 }
 
 :root {
+  --co-menu__button-icon: 	var(--cl-gray-300);
+}
+
+:root {
   --bc-menu__item--hover: 	#676666;
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;

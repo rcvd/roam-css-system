@@ -1186,6 +1186,10 @@
 }
 
 :root {
+  --co-menu__button-icon--active: 	var(--cl-gray-300);
+}
+
+:root {
   --bc-menu__item--hover: 	var(--cl-gray-500);
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;

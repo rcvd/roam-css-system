@@ -2622,6 +2622,16 @@
 }
 
 :root {
+  --co-menu__button-icon--active: 	var(--cl-gray-700);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-menu__button-icon--active: 	var(--cl-gray-300);
+  }
+}
+
+:root {
   --bc-menu__item--hover: 	var(--cl-blue-50);
   --bt-menu__item--hover: 	1px solid var(--cl-blue-100);
   --br-menu__item--hover: 	1px solid var(--cl-blue-100);

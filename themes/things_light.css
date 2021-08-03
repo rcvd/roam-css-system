@@ -173,18 +173,18 @@
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid var(--cl-gray-500);
-  --br-bullet__closed: 	4px solid var(--cl-gray-500);
-  --bb-bullet__closed: 	4px solid var(--cl-gray-500);
-  --bl-bullet__closed: 	4px solid var(--cl-gray-500);
+  --bt-bullet__closed: 	4px solid var(--cl-gray-400);
+  --br-bullet__closed: 	4px solid var(--cl-gray-400);
+  --bb-bullet__closed: 	4px solid var(--cl-gray-400);
+  --bl-bullet__closed: 	4px solid var(--cl-gray-400);
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-500);
+  --bc-bullet__ghost: 	var(--cl-gray-400);
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-500);
+  --bc-bullet__inner: 	var(--cl-gray-400);
 }
 
 :root {
@@ -1164,11 +1164,11 @@
 }
 
 :root {
-  --bc-menu__button--active: 	var(--cl-green-50);
-  --bt-menu__button--active: 	1px solid var(--cl-green-100);
-  --br-menu__button--active: 	1px solid var(--cl-green-100);
-  --bb-menu__button--active: 	1px solid var(--cl-green-100);
-  --bl-menu__button--active: 	1px solid var(--cl-green-100);
+  --bc-menu__button--active: 	#509cfe;
+  --bt-menu__button--active: 	none;
+  --br-menu__button--active: 	none;
+  --bb-menu__button--active: 	none;
+  --bl-menu__button--active: 	none;
   --bd-menu__button--active: 	5px;
 }
 
@@ -1183,6 +1183,10 @@
 
 :root {
   --co-menu__button-icon: 	var(--cl-gray-700);
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-white);
 }
 
 :root {
