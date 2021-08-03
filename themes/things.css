@@ -3801,7 +3801,7 @@
   --bc-topbar__container: 	;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;
-  --bb-topbar__container: 	1px solid #f0f1f3;
+  --bb-topbar__container: 	1px solid var(--cl-gray-200);
   --bl-topbar__container: 	;
   --bd-topbar__container: 	;
   --sd-topbar__container: 	;
@@ -3949,7 +3949,7 @@
 }
 
 :root {
-  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-400);
+  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -4050,8 +4050,8 @@
 }
 
 :root {
-  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-400);
-  --co-topbar-datepicker__weeknumber: 	var(--cl-gray-400);
+  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
+  --co-topbar-datepicker__weeknumber: 	var(--cl-gray-500);
   --ff-topbar-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-topbar-datepicker__weeknumber: 	1rem;
 }
@@ -4070,7 +4070,7 @@
   --bb-topbar-datepicker: 	;
   --bl-topbar-datepicker: 	;
   --bd-topbar-datepicker: 	5px;
-  --co-topbar-datepicker: 	var(--cl-gray-400);
+  --co-topbar-datepicker: 	var(--cl-gray-700);
   --ff-topbar-datepicker: 	;
 }
 
