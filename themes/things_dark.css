@@ -1252,7 +1252,7 @@
 }
 
 :root {
-  --bc-menu: 	var(--cl-gray-800);
+  --bc-menu: 	#2d2d2e;
   --bd-menu: 	5px;
   --co-menu: 	var(--cl-gray-100);
 }
@@ -1868,7 +1868,7 @@
 }
 
 :root {
-  --bc-topbar-datepicker: 	var(--cl-gray-800);
+  --bc-topbar-datepicker: 	#2d2d2e;
   --bt-topbar-datepicker: 	1px solid #3c3b3a;
   --br-topbar-datepicker: 	1px solid #3c3b3a;
   --bb-topbar-datepicker: 	1px solid #3c3b3a;
