@@ -280,7 +280,7 @@
   --bb-card: 	1px solid var(--cl-gray-100);
   --bl-card: 	1px solid var(--cl-gray-100);
   --bd-card: 	0px;
-  --sd-card: 	none;
+  --sd-card: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 :root {
