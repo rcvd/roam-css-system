@@ -1179,6 +1179,7 @@ div, textarea {
   border-bottom:  		var(--bb-menu__button--active, none)!important;
   border-left:  			var(--bl-menu__button--active, none)!important;
   border-radius:  		var(--bd-menu__button--active, inherit)!important;
+  color:  						var(--co-menu__button--active, inherit)!important;
 }
 
 .bp3-menu button {

@@ -1170,6 +1170,7 @@
   --bb-menu__button--active: 	1px solid var(--cl-blue-800);
   --bl-menu__button--active: 	1px solid var(--cl-blue-800);
   --bd-menu__button--active: 	3px;
+  --co-menu__button--active: 	;
 }
 
 :root {

@@ -1170,6 +1170,7 @@
   --bb-menu__button--active: 	none;
   --bl-menu__button--active: 	none;
   --bd-menu__button--active: 	5px;
+  --co-menu__button--active: 	var(--cl-white);
 }
 
 :root {
