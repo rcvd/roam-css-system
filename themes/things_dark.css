@@ -1861,3 +1861,23 @@
   --fs-topbar-datepicker__weeknumber: 	1rem;
 }
 
+:root {
+  --bc-topbar-datepicker: 	#cbe2ff;
+  --bt-topbar-datepicker: 	1px solid #3c3b3a;
+  --br-topbar-datepicker: 	1px solid #3c3b3a;
+  --bb-topbar-datepicker: 	1px solid #3c3b3a;
+  --bl-topbar-datepicker: 	1px solid #3c3b3a;
+  --bd-topbar-datepicker: 	5px;
+  --co-topbar-datepicker: 	;
+  --ff-topbar-datepicker: 	;
+}
+
+:root {
+  --bc-datepicker-html__select--hover: 	#cbe2ff;
+  --co-datepicker-html__select--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-datepicker-html__select: 	var(--cl-gray-100);
+}
+

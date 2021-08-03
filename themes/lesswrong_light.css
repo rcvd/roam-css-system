@@ -1857,3 +1857,16 @@
   --ff-topbar-datepicker: 	;
 }
 
+:root {
+  --bc-datepicker-html__select--hover: 	var(--cl-gray-200);
+  --co-datepicker-html__select--hover: 	var(--cl-black);
+}
+
+:root {
+  --co-datepicker-html__select: 	var(--cl-gray-900);
+}
+
+:root {
+  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+
