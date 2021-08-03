@@ -479,7 +479,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border-right:  			var(--br-datepicker__nav-button--hover, inherit);
   border-bottom:  		var(--bb-datepicker__nav-button--hover, inherit)!important;
   border-left:  			var(--bl-datepicker__nav-button--hover, inherit);
-  color:  						var(--co-datepicker__nav-button--hover, inherit);
+}
+
+.bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover .bp3-icon {
+  color:  						var(--co-datepicker__nav-button--hover, #5c7080);
 }
 
 .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton {
@@ -488,7 +491,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border-right:  			var(--br-datepicker__nav-button, inherit);
   border-bottom:  		var(--bb-datepicker__nav-button, inherit)!important;
   border-left:  			var(--bl-datepicker__nav-button, inherit);
-  color:  						var(--co-datepicker__nav-button, inherit);
+}
+
+.bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton .bp3-icon {
+  color:  						var(--co-datepicker__nav-button, #5c7080);
 }
 
 .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {

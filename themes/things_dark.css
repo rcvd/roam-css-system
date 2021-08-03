@@ -477,7 +477,10 @@
   --br-datepicker__nav-button--hover: 	;
   --bb-datepicker__nav-button--hover: 	;
   --bl-datepicker__nav-button--hover: 	;
-  --co-datepicker__nav-button--hover: 	#296cbe;
+}
+
+:root {
+  --co-datepicker__nav-button--hover: 	;
 }
 
 :root {
@@ -486,7 +489,14 @@
   --br-datepicker__nav-button: 	;
   --bb-datepicker__nav-button: 	;
   --bl-datepicker__nav-button: 	;
-  --co-datepicker__nav-button: 	var(--cl-gray-300);
+}
+
+:root {
+  --bc-datepicker__nav-button: 	;
+  --bt-datepicker__nav-button: 	;
+  --br-datepicker__nav-button: 	;
+  --bb-datepicker__nav-button: 	;
+  --bl-datepicker__nav-button: 	;
 }
 
 :root {
