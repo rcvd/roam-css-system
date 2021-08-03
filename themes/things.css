@@ -2988,10 +2988,10 @@
 
 :root {
   --bc-popover__content: 	var(--cl-gray-100);
-  --bt-popover__content: 	1px solid #cacaca;
-  --br-popover__content: 	1px solid #cacaca;
-  --bb-popover__content: 	1px solid #cacaca;
-  --bl-popover__content: 	1px solid #cacaca;
+  --bt-popover__content: 	none;
+  --br-popover__content: 	none;
+  --bb-popover__content: 	none;
+  --bl-popover__content: 	none;
   --bd-popover__content: 	5px;
   --co-popover__content: 	var(--cl-gray-900);
 }
