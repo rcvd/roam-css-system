@@ -1777,13 +1777,13 @@
 :root {
   --bc-topbar-datepicker__day--hover: 	#cbe2ff;
   --bd-topbar-datepicker__day--hover: 	2px;
-  --co-topbar-datepicker__day--hover: 	var(--cl-white);
+  --co-topbar-datepicker__day--hover: 	#121417;
 }
 
 :root {
   --bc-topbar-datepicker__day--selected: 	#cbe2ff;
   --bd-topbar-datepicker__day--selected: 	2px;
-  --co-topbar-datepicker__day--selected: 	var(--cl-white);
+  --co-topbar-datepicker__day--selected: 	#121417;
 }
 
 :root {
@@ -1822,12 +1822,12 @@
 }
 
 :root {
-  --co-topbar-datepicker__nav-button: 	var(--cl-white);
+  --co-topbar-datepicker__nav-button: 	#121417;
 }
 
 :root {
   --bc-topbar-datepicker__today--selected: 	#cbe2ff;
-  --co-topbar-datepicker__today--selected: 	var(--cl-white);
+  --co-topbar-datepicker__today--selected: 	#121417;
 }
 
 :root {
