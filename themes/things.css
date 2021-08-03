@@ -1062,6 +1062,7 @@
   --br-datepicker__nav-button--hover: 	none;
   --bb-datepicker__nav-button--hover: 	none;
   --bl-datepicker__nav-button--hover: 	none;
+  --bd-datepicker__nav-button--hover: 	2px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1090,6 +1091,7 @@
   --br-datepicker__nav-button: 	none;
   --bb-datepicker__nav-button: 	none;
   --bl-datepicker__nav-button: 	none;
+  --bd-datepicker__nav-button: 	2px;
 }
 
 @media (prefers-color-scheme: dark) {

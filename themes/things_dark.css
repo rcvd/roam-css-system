@@ -477,6 +477,7 @@
   --br-datepicker__nav-button--hover: 	;
   --bb-datepicker__nav-button--hover: 	;
   --bl-datepicker__nav-button--hover: 	;
+  --bd-datepicker__nav-button--hover: 	2px;
 }
 
 :root {
@@ -489,6 +490,7 @@
   --br-datepicker__nav-button: 	;
   --bb-datepicker__nav-button: 	;
   --bl-datepicker__nav-button: 	;
+  --bd-datepicker__nav-button: 	2px;
 }
 
 :root {
@@ -497,6 +499,7 @@
   --br-datepicker__nav-button: 	;
   --bb-datepicker__nav-button: 	;
   --bl-datepicker__nav-button: 	;
+  --bd-datepicker__nav-button: 	2px;
 }
 
 :root {
