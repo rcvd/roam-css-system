@@ -515,7 +515,7 @@
 }
 
 :root {
-  --br-datepicker__weeknumber: 	1px solid #8b9299;
+  --br-datepicker__weeknumber: 	1px solid #4e555e;
   --co-datepicker__weeknumber: 	#8b9299;
   --ff-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-datepicker__weeknumber: 	1rem;
