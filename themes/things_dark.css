@@ -713,7 +713,7 @@
   --br-emoji-mart: 	1px solid var(--cl-gray-900);
   --bb-emoji-mart: 	1px solid var(--cl-gray-900);
   --bl-emoji-mart: 	1px solid var(--cl-gray-900);
-  --bd-emoji-mart: 	5px;
+  --bd-emoji-mart: 	;
   --co-emoji-mart: 	var(--cl-gray-100);
   --ff-emoji-mart: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-emoji-mart: 	1rem;
