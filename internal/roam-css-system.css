@@ -1730,7 +1730,7 @@ span[style*='background-color: yellow'] {
   font-family:  			var(--ff-tags, inherit);
   font-size:  				var(--fs-tags, inherit);
   font-style:  				var(--ft-tags, inherit);
-  font-weight:  			var(--fw-tags, inherit);
+  font-weight:  			var(--fw-tags, inherit)!important;
   text-decoration:  	var(--td-tags, inherit);
   text-transform:  		var(--tt-tags, inherit);
 }

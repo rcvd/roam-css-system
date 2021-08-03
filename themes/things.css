@@ -692,7 +692,7 @@
   --bd-code: 	2px;
   --co-code: 	var(--cl-gray-900);
   --ff-code: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
-  --fs-code: 	1rem;
+  --fs-code: 	0.95rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3771,7 +3771,7 @@
   --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	0.95rem;
   --ft-tags: 	;
-  --fw-tags: 	;
+  --fw-tags: 	normal;
   --td-tags: 	;
   --tt-tags: 	;
 }
