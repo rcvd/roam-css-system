@@ -769,7 +769,7 @@
 :root {
   --bc-codeblock__container: 	var(--cl-gray-50);
   --bt-codeblock__container: 	;
-  --br-codeblock__container: 	;
+  --br-codeblock__container: 	none;
   --bb-codeblock__container: 	;
   --bl-codeblock__container: 	;
   --bd-codeblock__container: 	5px;

@@ -372,7 +372,7 @@ code {
   color:  						var(--co-codeblock__error, red);
 }
 
-.CodeMirror-gutter-elt {
+.CodeMirror-gutters, .CodeMirror-gutter-elt {
   background-color:  	var(--bc-codeblock__gutters, #f7f7f7);
   border-top:  				var(--bt-codeblock__gutters, inherit);
   border-right:  			var(--br-codeblock__gutters, 1px solid #ddd);
