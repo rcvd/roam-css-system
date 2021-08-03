@@ -522,7 +522,7 @@
 }
 
 :root {
-  --co-button--active: 	var(--cl-green-600);
+  --co-button--active: 	#0076e3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2947,10 +2947,10 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-gray-200);
-  --br-popover__button--hover: 	1px solid var(--cl-gray-200);
-  --bb-popover__button--hover: 	1px solid var(--cl-gray-200);
-  --bl-popover__button--hover: 	1px solid var(--cl-gray-200);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-400);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-400);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-400);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-400);
   --co-popover__button--hover: 	;
 }
 
