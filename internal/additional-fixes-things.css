@@ -215,3 +215,16 @@ div {
     border-radius: 5px!important;
     padding:  3px 10px;
 }
+
+.bp3-datepicker .bp3-datepicker-day-wrapper {
+    padding:  0px 7px;
+}
+
+.rm-jump-date-picker .bp3-datepicker-day-wrapper {
+    height:  unset;
+}
+
+.bp3-datepicker .DayPicker-Day {
+    width:  unset;
+    height:  unset;
+}
