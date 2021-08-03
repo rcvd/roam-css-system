@@ -720,7 +720,7 @@
 }
 
 :root {
-  --bc-find-or-create__menu-item--selected: 	var(--cl-gray-500);
+  --bc-find-or-create__menu-item--selected: 	#2b6ec0;
   --bt-find-or-create__menu-item--selected: 	;
   --br-find-or-create__menu-item--selected: 	;
   --bb-find-or-create__menu-item--selected: 	;
@@ -740,7 +740,7 @@
 }
 
 :root {
-  --co-find-or-create__new-page--selected: 	var(--cl-green-100);
+  --co-find-or-create__new-page--selected: 	var(--cl-green-500);
 }
 
 :root {
