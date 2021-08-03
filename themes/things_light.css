@@ -1331,10 +1331,10 @@
 
 :root {
   --bc-popover__button--hover: 	;
-  --bt-popover__button--hover: 	1px solid var(--cl-gray-400);
-  --br-popover__button--hover: 	1px solid var(--cl-gray-400);
-  --bb-popover__button--hover: 	1px solid var(--cl-gray-400);
-  --bl-popover__button--hover: 	1px solid var(--cl-gray-400);
+  --bt-popover__button--hover: 	1px solid var(--cl-gray-300);
+  --br-popover__button--hover: 	1px solid var(--cl-gray-300);
+  --bb-popover__button--hover: 	1px solid var(--cl-gray-300);
+  --bl-popover__button--hover: 	1px solid var(--cl-gray-300);
   --co-popover__button--hover: 	;
 }
 
