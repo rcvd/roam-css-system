@@ -1150,6 +1150,7 @@
   --bb-datepicker: 	1px solid var(--cl-gray-100);
   --bl-datepicker: 	1px solid var(--cl-gray-100);
   --bd-datepicker: 	0px;
+  --co-datepicker: 	;
   --ff-datepicker: 	;
 }
 
@@ -1160,6 +1161,7 @@
     --br-datepicker: 	1px solid var(--cl-gray-900);
     --bb-datepicker: 	1px solid var(--cl-gray-900);
     --bl-datepicker: 	1px solid var(--cl-gray-900);
+    --co-datepicker: 	;
   }
 }
 

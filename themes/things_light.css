@@ -516,6 +516,7 @@
   --bb-datepicker: 	;
   --bl-datepicker: 	;
   --bd-datepicker: 	5px;
+  --co-datepicker: 	var(--cl-white);
   --ff-datepicker: 	;
 }
 
