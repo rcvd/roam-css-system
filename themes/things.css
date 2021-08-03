@@ -4050,7 +4050,7 @@
 }
 
 :root {
-  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
+  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-200);
   --co-topbar-datepicker__weeknumber: 	var(--cl-gray-500);
   --ff-topbar-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-topbar-datepicker__weeknumber: 	1rem;
