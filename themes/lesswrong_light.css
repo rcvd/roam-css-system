@@ -1774,3 +1774,86 @@
   --fs-zotero__sequence: 	;
 }
 
+:root {
+  --bc-topbar-datepicker__day--hover: 	var(--cl-green-500);
+  --bd-topbar-datepicker__day--hover: 	;
+  --co-topbar-datepicker__day--hover: 	var(--cl-white);
+}
+
+:root {
+  --bc-topbar-datepicker__day--selected: 	var(--cl-green-400);
+  --bd-topbar-datepicker__day--selected: 	;
+  --co-topbar-datepicker__day--selected: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-datepicker__day: 	;
+}
+
+:root {
+  --bc-topbar-datepicker__day-selected--hover: 	var(--cl-green-400);
+  --bd-topbar-datepicker__day-selected--hover: 	;
+}
+
+:root {
+  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-600);
+}
+
+:root {
+  --bc-topbar-datepicker__nav-button--hover: 	;
+  --bt-topbar-datepicker__nav-button--hover: 	none;
+  --br-topbar-datepicker__nav-button--hover: 	none;
+  --bb-topbar-datepicker__nav-button--hover: 	none;
+  --bl-topbar-datepicker__nav-button--hover: 	none;
+  --bd-topbar-datepicker__nav-button--hover: 	;
+}
+
+:root {
+  --co-topbar-datepicker__nav-button--hover: 	;
+}
+
+:root {
+  --bc-topbar-datepicker__nav-button: 	;
+  --bt-topbar-datepicker__nav-button: 	none;
+  --br-topbar-datepicker__nav-button: 	none;
+  --bb-topbar-datepicker__nav-button: 	none;
+  --bl-topbar-datepicker__nav-button: 	none;
+  --bd-topbar-datepicker__nav-button: 	;
+}
+
+:root {
+  --co-topbar-datepicker__nav-button: 	;
+}
+
+:root {
+  --bc-topbar-datepicker__today--selected: 	var(--cl-red-500);
+  --co-topbar-datepicker__today--selected: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-datepicker__today: 	var(--cl-green-500);
+  --fw-topbar-datepicker__today: 	bold;
+}
+
+:root {
+  --bc-topbar-datepicker__today-selected--hover: 	var(--cl-red-600);
+}
+
+:root {
+  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-300);
+  --co-topbar-datepicker__weeknumber: 	var(--cl-gray-500);
+  --ff-topbar-datepicker__weeknumber: 	'Source Sans Pro';
+  --fs-topbar-datepicker__weeknumber: 	1rem;
+}
+
+:root {
+  --bc-topbar-datepicker: 	var(--cl-white);
+  --bt-topbar-datepicker: 	1px solid var(--cl-gray-100);
+  --br-topbar-datepicker: 	1px solid var(--cl-gray-100);
+  --bb-topbar-datepicker: 	1px solid var(--cl-gray-100);
+  --bl-topbar-datepicker: 	1px solid var(--cl-gray-100);
+  --bd-topbar-datepicker: 	0px;
+  --co-topbar-datepicker: 	;
+  --ff-topbar-datepicker: 	;
+}
+

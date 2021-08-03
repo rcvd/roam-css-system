@@ -1776,3 +1776,88 @@
   --co-zotero__primary: 	var(--cl-green-500);
 }
 
+:root {
+  --bc-zotero__sequence: 	var(--cl-gray-800);
+  --br-zotero__sequence: 	1px solid var(--cl-black);
+  --fs-zotero__sequence: 	;
+}
+
+:root {
+  --bc-topbar-datepicker__day--hover: 	#296cbe;
+  --bd-topbar-datepicker__day--hover: 	2px;
+  --co-topbar-datepicker__day--hover: 	var(--cl-white);
+}
+
+:root {
+  --bc-topbar-datepicker__day--selected: 	#296cbe;
+  --bd-topbar-datepicker__day--selected: 	2px;
+  --co-topbar-datepicker__day--selected: 	var(--cl-black);
+}
+
+:root {
+  --bc-topbar-datepicker__day--selected: 	#296cbe;
+  --bd-topbar-datepicker__day--selected: 	2px;
+  --co-topbar-datepicker__day--selected: 	var(--cl-black);
+}
+
+:root {
+  --bc-topbar-datepicker__day-selected--hover: 	#296cbe;
+  --bd-topbar-datepicker__day-selected--hover: 	2px;
+}
+
+:root {
+  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-400);
+}
+
+:root {
+  --bc-topbar-datepicker__nav-button--hover: 	;
+  --bt-topbar-datepicker__nav-button--hover: 	;
+  --br-topbar-datepicker__nav-button--hover: 	;
+  --bb-topbar-datepicker__nav-button--hover: 	;
+  --bl-topbar-datepicker__nav-button--hover: 	;
+  --bd-topbar-datepicker__nav-button--hover: 	2px;
+}
+
+:root {
+  --co-topbar-datepicker__nav-button--hover: 	;
+}
+
+:root {
+  --bc-topbar-datepicker__nav-button: 	;
+  --bt-topbar-datepicker__nav-button: 	;
+  --br-topbar-datepicker__nav-button: 	;
+  --bb-topbar-datepicker__nav-button: 	;
+  --bl-topbar-datepicker__nav-button: 	;
+  --bd-topbar-datepicker__nav-button: 	2px;
+}
+
+:root {
+  --bc-topbar-datepicker__nav-button: 	;
+  --bt-topbar-datepicker__nav-button: 	;
+  --br-topbar-datepicker__nav-button: 	;
+  --bb-topbar-datepicker__nav-button: 	;
+  --bl-topbar-datepicker__nav-button: 	;
+  --bd-topbar-datepicker__nav-button: 	2px;
+}
+
+:root {
+  --bc-topbar-datepicker__today--selected: 	#296cbe;
+  --co-topbar-datepicker__today--selected: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-datepicker__today: 	var(--cl-green-500);
+  --fw-topbar-datepicker__today: 	bold;
+}
+
+:root {
+  --bc-topbar-datepicker__today-selected--hover: 	#296cbe;
+}
+
+:root {
+  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-700);
+  --co-topbar-datepicker__weeknumber: 	var(--cl-gray-500);
+  --ff-topbar-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+  --fs-topbar-datepicker__weeknumber: 	1rem;
+}
+

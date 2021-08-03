@@ -1786,3 +1786,86 @@ span.zotero-roam-sequence {
   font-size:  				var(--fs-zotero__sequence, 0.85em);
 }
 
+.rm-topbar .bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus {
+  background-color:  	var(--bc-topbar-datepicker__day--hover, #d8e1e8);
+  border-radius:  		var(--bd-topbar-datepicker__day--hover, inherit);
+  color:  						var(--co-topbar-datepicker__day--hover, #182026)!important;
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected {
+  background-color:  	var(--bc-topbar-datepicker__day--selected, #5C7080);
+  border-radius:  		var(--bd-topbar-datepicker__day--selected, inherit);
+  color:  						var(--co-topbar-datepicker__day--selected, #F5F8FA);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day {
+  color:  						var(--co-topbar-datepicker__day, inherit);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected:hover {
+  background-color:  	var(--bc-topbar-datepicker__day-selected--hover, hsl(204,20%,45%));
+  border-radius:  		var(--bd-topbar-datepicker__day-selected--hover, inherit);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
+  color:  						var(--co-topbar-datepicker__day-without-page, #5C7080);
+}
+
+.rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover {
+  background-color:  	var(--bc-topbar-datepicker__nav-button--hover, inherit);
+  border-top:  				var(--bt-topbar-datepicker__nav-button--hover, inherit);
+  border-right:  			var(--br-topbar-datepicker__nav-button--hover, inherit);
+  border-bottom:  		var(--bb-topbar-datepicker__nav-button--hover, inherit)!important;
+  border-left:  			var(--bl-topbar-datepicker__nav-button--hover, inherit);
+  border-radius:  		var(--bd-topbar-datepicker__nav-button--hover, inherit);
+}
+
+.rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover .bp3-icon {
+  color:  						var(--co-topbar-datepicker__nav-button--hover, #5c7080);
+}
+
+.rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton {
+  background-color:  	var(--bc-topbar-datepicker__nav-button, inherit);
+  border-top:  				var(--bt-topbar-datepicker__nav-button, inherit);
+  border-right:  			var(--br-topbar-datepicker__nav-button, inherit);
+  border-bottom:  		var(--bb-topbar-datepicker__nav-button, inherit)!important;
+  border-left:  			var(--bl-topbar-datepicker__nav-button, inherit);
+  border-radius:  		var(--bd-topbar-datepicker__nav-button, inherit);
+}
+
+.rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton .bp3-icon {
+  color:  						var(--co-topbar-datepicker__nav-button, #5c7080);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
+  background-color:  	var(--bc-topbar-datepicker__today--selected, #2B95D6);
+  color:  						var(--co-topbar-datepicker__today--selected, #F5F8FA)!important;
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
+  color:  						var(--co-topbar-datepicker__today, #137CBD);
+  font-weight:  			var(--fw-topbar-datepicker__today, bold);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today:hover {
+  background-color:  	var(--bc-topbar-datepicker__today-selected--hover, #137CBD);
+}
+
+.rm-topbar .rm-jump-date-picker .DayPicker-WeekNumber {
+  border-right:  			var(--br-topbar-datepicker__weeknumber, 1px solid #BFCCD6);
+  color:  						var(--co-topbar-datepicker__weeknumber, rgba(92,112,128,0.6));
+  font-family:  			var(--ff-topbar-datepicker__weeknumber, inherit);
+  font-size:  				var(--fs-topbar-datepicker__weeknumber, 12px);
+}
+
+.rm-topbar .bp3-datepicker {
+  background-color:  	var(--bc-topbar-datepicker, #fff);
+  border-top:  				var(--bt-topbar-datepicker, inherit);
+  border-right:  			var(--br-topbar-datepicker, inherit);
+  border-bottom:  		var(--bb-topbar-datepicker, inherit);
+  border-left:  			var(--bl-topbar-datepicker, inherit);
+  border-radius:  		var(--bd-topbar-datepicker, 3px);
+  color:  						var(--co-topbar-datepicker, inherit);
+  font-family:  			var(--ff-topbar-datepicker, inherit);
+}
+
