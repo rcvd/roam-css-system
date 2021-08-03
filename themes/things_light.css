@@ -915,7 +915,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-yellow-200);
+  --bc-highlight: 	#f8e594;
 }
 
 :root {
@@ -1647,7 +1647,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-yellow-200);
+  --bc-span--highlighted: 	#f8e594;
 }
 
 :root {

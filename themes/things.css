@@ -2045,7 +2045,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-yellow-200);
+  --bc-highlight: 	#f8e594;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -3631,7 +3631,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-yellow-200);
+  --bc-span--highlighted: 	#f8e594;
 }
 
 @media (prefers-color-scheme: dark) {
