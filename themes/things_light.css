@@ -1699,23 +1699,23 @@
 }
 
 :root {
-  --bc-tags--hover: 	transparent;
-  --bt-tags--hover: 	1px solid var(--cl-gray-400);
-  --br-tags--hover: 	1px solid var(--cl-gray-400);
-  --bb-tags--hover: 	1px solid var(--cl-gray-400);
-  --bl-tags--hover: 	1px solid var(--cl-gray-400);
+  --bc-tags--hover: 	#c3e1d3;
+  --bt-tags--hover: 	none;
+  --br-tags--hover: 	none;
+  --bb-tags--hover: 	none;
+  --bl-tags--hover: 	none;
   --bd-tags--hover: 	10px;
-  --co-tags--hover: 	var(--cl-gray-400);
+  --co-tags--hover: 	#24805b;
 }
 
 :root {
-  --bc-tags: 	transparent;
-  --bt-tags: 	1px solid var(--cl-gray-400);
-  --br-tags: 	1px solid var(--cl-gray-400);
-  --bb-tags: 	1px solid var(--cl-gray-400);
-  --bl-tags: 	1px solid var(--cl-gray-400);
+  --bc-tags: 	#c3e1d3;
+  --bt-tags: 	none;
+  --br-tags: 	none;
+  --bb-tags: 	none;
+  --bl-tags: 	none;
   --bd-tags: 	10px;
-  --co-tags: 	var(--cl-gray-400);
+  --co-tags: 	#24805b;
   --ff-tags: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-tags: 	0.95rem;
   --ft-tags: 	;
