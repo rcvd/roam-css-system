@@ -3949,7 +3949,7 @@
 }
 
 :root {
-  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-900);
+  --co-topbar-datepicker__day-without-page: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
