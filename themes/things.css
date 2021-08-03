@@ -4089,7 +4089,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-topbar-datepicker: 	#cbe2ff;
+    --bc-topbar-datepicker: 	var(--cl-black);
     --bt-topbar-datepicker: 	1px solid #3c3b3a;
     --br-topbar-datepicker: 	1px solid #3c3b3a;
     --bb-topbar-datepicker: 	1px solid #3c3b3a;
