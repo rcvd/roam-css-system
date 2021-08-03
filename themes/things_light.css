@@ -1775,13 +1775,13 @@
 }
 
 :root {
-  --bc-topbar-datepicker__day--hover: 	#4f9dfe;
+  --bc-topbar-datepicker__day--hover: 	#cbe2ff;
   --bd-topbar-datepicker__day--hover: 	2px;
   --co-topbar-datepicker__day--hover: 	var(--cl-white);
 }
 
 :root {
-  --bc-topbar-datepicker__day--selected: 	#4f9dfe;
+  --bc-topbar-datepicker__day--selected: 	#cbe2ff;
   --bd-topbar-datepicker__day--selected: 	2px;
   --co-topbar-datepicker__day--selected: 	var(--cl-white);
 }
@@ -1791,16 +1791,16 @@
 }
 
 :root {
-  --bc-topbar-datepicker__day-selected--hover: 	#4f9dfe;
+  --bc-topbar-datepicker__day-selected--hover: 	#cbe2ff;
   --bd-topbar-datepicker__day-selected--hover: 	2px;
 }
 
 :root {
-  --co-topbar-datepicker__day-without-page: 	#8b929a;
+  --co-topbar-datepicker__day-without-page: 	#b5b9bf;
 }
 
 :root {
-  --bc-topbar-datepicker__nav-button--hover: 	#4f9dfe;
+  --bc-topbar-datepicker__nav-button--hover: 	#cbe2ff;
   --bt-topbar-datepicker__nav-button--hover: 	none;
   --br-topbar-datepicker__nav-button--hover: 	none;
   --bb-topbar-datepicker__nav-button--hover: 	none;
@@ -1809,7 +1809,7 @@
 }
 
 :root {
-  --co-topbar-datepicker__nav-button--hover: 	var(--cl-white);
+  --co-topbar-datepicker__nav-button--hover: 	#5d5f62;
 }
 
 :root {
@@ -1826,7 +1826,7 @@
 }
 
 :root {
-  --bc-topbar-datepicker__today--selected: 	var(--cl-red-500);
+  --bc-topbar-datepicker__today--selected: 	#cbe2ff;
   --co-topbar-datepicker__today--selected: 	var(--cl-white);
 }
 
@@ -1836,12 +1836,12 @@
 }
 
 :root {
-  --bc-topbar-datepicker__today-selected--hover: 	var(--cl-red-600);
+  --bc-topbar-datepicker__today-selected--hover: 	#cbe2ff;
 }
 
 :root {
   --br-topbar-datepicker__weeknumber: 	1px solid #4e555e;
-  --co-topbar-datepicker__weeknumber: 	#8b9299;
+  --co-topbar-datepicker__weeknumber: 	#b5b9bf;
   --ff-topbar-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-topbar-datepicker__weeknumber: 	1rem;
 }
@@ -1853,7 +1853,7 @@
   --bb-topbar-datepicker: 	;
   --bl-topbar-datepicker: 	;
   --bd-topbar-datepicker: 	5px;
-  --co-topbar-datepicker: 	#8b9299;
+  --co-topbar-datepicker: 	#0d1116;
   --ff-topbar-datepicker: 	;
 }
 
