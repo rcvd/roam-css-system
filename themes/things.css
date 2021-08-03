@@ -1036,7 +1036,7 @@
 }
 
 :root {
-  --co-datepicker__day: 	var(--cl-white);
+  --co-datepicker__day: 	var(--cl-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2712,7 +2712,7 @@
 }
 
 :root {
-  --bc-menu__menu-item--active: 	var(--cl-green-500);
+  --bc-menu__menu-item--active: 	#0074e0;
   --co-menu__menu-item--active: 	var(--cl-white);
 }
 
