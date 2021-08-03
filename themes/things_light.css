@@ -1840,8 +1840,8 @@
 }
 
 :root {
-  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-200);
-  --co-topbar-datepicker__weeknumber: 	#b5b9bf;
+  --br-topbar-datepicker__weeknumber: 	1px solid var(--cl-gray-400);
+  --co-topbar-datepicker__weeknumber: 	var(--cl-gray-400);
   --ff-topbar-datepicker__weeknumber: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-topbar-datepicker__weeknumber: 	1rem;
 }
@@ -1853,7 +1853,7 @@
   --bb-topbar-datepicker: 	;
   --bl-topbar-datepicker: 	;
   --bd-topbar-datepicker: 	5px;
-  --co-topbar-datepicker: 	#b5b9bf;
+  --co-topbar-datepicker: 	var(--cl-gray-400);
   --ff-topbar-datepicker: 	;
 }
 
