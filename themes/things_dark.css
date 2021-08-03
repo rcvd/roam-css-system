@@ -1881,3 +1881,16 @@
   --co-datepicker-html__select: 	var(--cl-gray-100);
 }
 
+:root {
+  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+
+:root {
+  --bc-topbar-datepicker-html__select--hover: 	#cbe2ff;
+  --co-topbar-datepicker-html__select--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-datepicker-html__select: 	var(--cl-gray-100);
+}
+

@@ -1870,3 +1870,16 @@
   --co-datepicker-html__select-icon: 	var(--cl-gray-500);
 }
 
+:root {
+  --bc-topbar-datepicker-html__select--hover: 	var(--cl-gray-200);
+  --co-topbar-datepicker-html__select--hover: 	var(--cl-black);
+}
+
+:root {
+  --co-topbar-datepicker-html__select: 	var(--cl-gray-900);
+}
+
+:root {
+  --co-topbar-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+

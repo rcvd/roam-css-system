@@ -4117,3 +4117,35 @@
   }
 }
 
+:root {
+  --bc-topbar-datepicker-html__select--hover: 	var(--cl-gray-200);
+  --co-topbar-datepicker-html__select--hover: 	var(--cl-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-topbar-datepicker-html__select--hover: 	var(--cl-gray-800);
+    --co-topbar-datepicker-html__select--hover: 	var(--cl-white);
+  }
+}
+
+:root {
+  --co-topbar-datepicker-html__select: 	var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-topbar-datepicker-html__select: 	var(--cl-gray-100);
+  }
+}
+
+:root {
+  --co-topbar-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-topbar-datepicker-html__select-icon: 	var(--cl-gray-500);
+  }
+}
+
