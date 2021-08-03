@@ -317,7 +317,7 @@
   --br-code: 	1px solid var(--cl-gray-700);
   --bb-code: 	1px solid var(--cl-gray-700);
   --bl-code: 	1px solid var(--cl-gray-700);
-  --bd-code: 	2px;
+  --bd-code: 	5px;
   --co-code: 	var(--cl-gray-100);
   --ff-code: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   --fs-code: 	0.95rem;
@@ -354,7 +354,7 @@
   --br-codeblock__container: 	;
   --bb-codeblock__container: 	;
   --bl-codeblock__container: 	;
-  --bd-codeblock__container: 	;
+  --bd-codeblock__container: 	5px;
   --co-codeblock__container: 	var(--cl-gray-100);
 }
 
