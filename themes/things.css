@@ -1573,12 +1573,12 @@
 }
 
 :root {
-  --bc-emoji-mart: 	var(--cl-white);
-  --bt-emoji-mart: 	1px solid var(--cl-gray-100);
-  --br-emoji-mart: 	1px solid var(--cl-gray-100);
-  --bb-emoji-mart: 	1px solid var(--cl-gray-100);
-  --bl-emoji-mart: 	1px solid var(--cl-gray-100);
-  --bd-emoji-mart: 	;
+  --bc-emoji-mart: 	var(--cl-gray-100);
+  --bt-emoji-mart: 	1px solid #cacaca;
+  --br-emoji-mart: 	1px solid #cacaca;
+  --bb-emoji-mart: 	1px solid #cacaca;
+  --bl-emoji-mart: 	1px solid #cacaca;
+  --bd-emoji-mart: 	5px;
   --co-emoji-mart: 	var(--cl-gray-900);
   --ff-emoji-mart: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-emoji-mart: 	1rem;
