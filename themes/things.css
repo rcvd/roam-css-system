@@ -3011,11 +3011,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-popover__content: 	#2c2b2a;
-    --bt-popover__content: 	1px solid #3d3c3b;
-    --br-popover__content: 	1px solid #3d3c3b;
-    --bb-popover__content: 	1px solid #3d3c3b;
-    --bl-popover__content: 	1px solid #3d3c3b;
+    --bc-popover__content: 	#2d2d2d;
+    --bt-popover__content: 	1px solid #555555;
+    --br-popover__content: 	1px solid #555555;
+    --bb-popover__content: 	1px solid #555555;
+    --bl-popover__content: 	1px solid #555555;
     --co-popover__content: 	var(--cl-gray-100);
   }
 }
@@ -4090,10 +4090,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-topbar-datepicker: 	#2d2d2e;
-    --bt-topbar-datepicker: 	1px solid #3c3b3a;
-    --br-topbar-datepicker: 	1px solid #3c3b3a;
-    --bb-topbar-datepicker: 	1px solid #3c3b3a;
-    --bl-topbar-datepicker: 	1px solid #3c3b3a;
+    --bt-topbar-datepicker: 	1px solid #555555;
+    --br-topbar-datepicker: 	1px solid #555555;
+    --bb-topbar-datepicker: 	1px solid #555555;
+    --bl-topbar-datepicker: 	1px solid #555555;
     --co-topbar-datepicker: 	;
   }
 }
