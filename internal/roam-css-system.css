@@ -297,7 +297,7 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   border-left:  			var(--bl-checkmark__mark--checked, 0px);
 }
 
-.check-container input:checked~.checkmark {
+.check-container input:checked~.checkmark, .bp3-control input:checked ~ .bp3-control-indicator {
   background-color:  	var(--bc-checkmark--checked, #137CBD);
   border-top:  				var(--bt-checkmark--checked, none);
   border-right:  			var(--br-checkmark--checked, none);

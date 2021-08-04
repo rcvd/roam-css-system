@@ -49,10 +49,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-allpages__checkbox: 	transparent;
-    --bt-allpages__checkbox: 	1px solid var(--cl-gray-700);
-    --br-allpages__checkbox: 	1px solid var(--cl-gray-700);
-    --bb-allpages__checkbox: 	1px solid var(--cl-gray-700);
-    --bl-allpages__checkbox: 	1px solid var(--cl-gray-700);
+    --bt-allpages__checkbox: 	1px solid #737372;
+    --br-allpages__checkbox: 	1px solid #737372;
+    --bb-allpages__checkbox: 	1px solid #737372;
+    --bl-allpages__checkbox: 	1px solid #737372;
     --sd-allpages__checkbox: 	;
   }
 }
