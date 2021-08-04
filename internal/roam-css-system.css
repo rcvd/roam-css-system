@@ -87,7 +87,7 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   font-weight:  			var(--fw-allpages__input, inherit);
 }
 
-.rm-pages-toolbar .toolbar-search-group .search-icon, , .rm-pages-toolbar .toolbar-search-group .search-icon.focused {
+.rm-pages-toolbar .toolbar-search-group .search-icon, .rm-pages-toolbar .toolbar-search-group .search-icon.focused {
   color:  						var(--co-allpages__input-icon, #BFCCD6);
 }
 
