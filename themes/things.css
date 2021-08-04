@@ -210,7 +210,7 @@
   --bd-allpages__row-header: 	0px;
   --co-allpages__row-header: 	#0063c0;
   --fs-allpages__row-header: 	1rem;
-  --fw-allpages__row-header: 	500;
+  --fw-allpages__row-header: 	600;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -222,7 +222,7 @@
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	#0063c0;
+  --co-allpages__sort-button--focused: 	#f91955;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,7 +233,7 @@
 
 :root {
   --co-allpages__sorted-header-text: 	#0063c0;
-  --fw-allpages__sorted-header-text: 	normal;
+  --fw-allpages__sorted-header-text: 	600;
 }
 
 @media (prefers-color-scheme: dark) {
