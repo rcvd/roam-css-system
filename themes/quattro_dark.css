@@ -101,7 +101,9 @@
 :root {
   --bd-allpages__row-header: 	0px;
   --fs-allpages__row-header: 	1em;
+  --fw-allpages__row-header: 	;
   --bc-allpages__row-header: 	var(--cl-gray-800);
+  --bb-allpages__row-header: 	;
   --co-allpages__row-header: 	var(--cl-gray-100);
   }
 

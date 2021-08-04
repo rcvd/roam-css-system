@@ -98,9 +98,11 @@ a, .rm-alias-tooltip__content .rm-alias--external {
 
 .rm-all-pages .table .rm-pages-row.rm-pages-row-header {
   background-color:  	var(--bc-allpages__row-header, #E1E8ED);
+  border-bottom:  		var(--bb-allpages__row-header, inherit);
   border-radius:  		var(--bd-allpages__row-header, 4px);
   color:  						var(--co-allpages__row-header, #BFCCD6);
   font-size:  				var(--fs-allpages__row-header, 12px);
+  font-weight:  			var(--fw-allpages__row-header, inherit);
 }
 
 .sorting-button-group .sort-button.focused {

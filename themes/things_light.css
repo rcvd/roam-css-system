@@ -100,9 +100,11 @@
 
 :root {
   --bc-allpages__row-header: 	transparent;
+  --bb-allpages__row-header: 	1px solid #e6e8eb;
   --bd-allpages__row-header: 	0px;
   --co-allpages__row-header: 	#0063c0;
   --fs-allpages__row-header: 	1rem;
+  --fw-allpages__row-header: 	500;
 }
 
 :root {

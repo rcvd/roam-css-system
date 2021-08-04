@@ -206,14 +206,17 @@
 
 :root {
   --bc-allpages__row-header: 	var(--cl-gray-50);
+  --bb-allpages__row-header: 	;
   --bd-allpages__row-header: 	0px;
   --co-allpages__row-header: 	var(--cl-gray-900);
   --fs-allpages__row-header: 	1rem;
+  --fw-allpages__row-header: 	;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-allpages__row-header: 	var(--cl-gray-800);
+    --bb-allpages__row-header: 	;
     --co-allpages__row-header: 	var(--cl-gray-100);
   }
 }
