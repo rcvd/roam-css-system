@@ -230,7 +230,7 @@
 
 :root {
   --co-allpages__sorted-header-text: 	#0063c0;
-  --fw-allpages__sorted-header-text: 	bold;
+  --fw-allpages__sorted-header-text: 	normal;
 }
 
 @media (prefers-color-scheme: dark) {
