@@ -94,7 +94,7 @@
 }
 
 :root {
-  --bb-allpages__row: 	1px solid #e6e8ec;
+  --bb-allpages__row: 	none;
   --co-allpages__row: 	#a7abb1;
 }
 
