@@ -87,6 +87,11 @@ hr {
     background-image: none;
 }
 
+.bp3-control input:checked ~ .bp3-control-indicator {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .rm-embed--page>.rm-embed-margin-action {
     left: -14px;
     width: 5px;
