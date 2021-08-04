@@ -522,12 +522,12 @@
 }
 
 :root {
-  --co-button--active: 	#0076e3;
+  --co-button--active: 	var(--cl-gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-button--active: 	var(--cl-green-400);
+    --co-button--active: 	#a5a7ab;
   }
 }
 
@@ -568,7 +568,7 @@
   :root {
     --bc-button: 	transparent;
     --sd-button: 	none;
-    --co-button: 	var(--cl-gray-300);
+    --co-button: 	#a5a7ab;
   }
 }
 

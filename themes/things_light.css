@@ -239,7 +239,7 @@
 }
 
 :root {
-  --co-button--active: 	#0076e3;
+  --co-button--active: 	var(--cl-gray-700);
 }
 
 :root {
