@@ -34,7 +34,7 @@
   --br-allpages__clickable-pill: 	none;
   --bb-allpages__clickable-pill: 	none;
   --bl-allpages__clickable-pill: 	none;
-  --bd-allpages__clickable-pill: 	2px;
+  --bd-allpages__clickable-pill: 	;
   --co-allpages__clickable-pill: 	var(--cl-black);
   --op-allpages__clickable-pill: 	;
 }
@@ -45,7 +45,7 @@
   --br-allpages__clickable-pill-1: 	none;
   --bb-allpages__clickable-pill-1: 	none;
   --bl-allpages__clickable-pill-1: 	none;
-  --bd-allpages__clickable-pill-1: 	2px;
+  --bd-allpages__clickable-pill-1: 	;
   --co-allpages__clickable-pill-1: 	var(--cl-black);
   --op-allpages__clickable-pill-1: 	1;
 }
@@ -56,7 +56,7 @@
   --br-allpages__clickable-pill-2: 	none;
   --bb-allpages__clickable-pill-2: 	none;
   --bl-allpages__clickable-pill-2: 	none;
-  --bd-allpages__clickable-pill-2: 	2px;
+  --bd-allpages__clickable-pill-2: 	;
   --co-allpages__clickable-pill-2: 	var(--cl-black);
   --op-allpages__clickable-pill-2: 	1;
 }
@@ -67,7 +67,7 @@
   --br-allpages__clickable-pill-3: 	none;
   --bb-allpages__clickable-pill-3: 	none;
   --bl-allpages__clickable-pill-3: 	none;
-  --bd-allpages__clickable-pill-3: 	2px;
+  --bd-allpages__clickable-pill-3: 	;
   --co-allpages__clickable-pill-3: 	var(--cl-black);
   --op-allpages__clickable-pill-3: 	1;
 }
