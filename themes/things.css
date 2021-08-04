@@ -2155,7 +2155,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-input--focus: 	transparent;
+    --bc-input--focus: 	#5c5b5b;
     --bt-input--focus: 	none;
     --br-input--focus: 	none;
     --bb-input--focus: 	none;
@@ -3157,7 +3157,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bb-reference__linked-title: 	;
-    --co-reference__linked-title: 	var(--cl-gray-500);
+    --co-reference__linked-title: 	#818281;
   }
 }
 
@@ -3217,7 +3217,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bb-reference__unlinked-title: 	;
-    --co-reference__unlinked-title: 	var(--cl-gray-500);
+    --co-reference__unlinked-title: 	#818281;
   }
 }
 
