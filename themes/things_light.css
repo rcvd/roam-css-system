@@ -99,9 +99,9 @@
 }
 
 :root {
-  --bc-allpages__row-header: 	#b5b9bf;
+  --bc-allpages__row-header: 	transparent;
   --bd-allpages__row-header: 	0px;
-  --co-allpages__row-header: 	#121417;
+  --co-allpages__row-header: 	#0063c0;
   --fs-allpages__row-header: 	1rem;
 }
 
