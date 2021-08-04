@@ -240,7 +240,7 @@
 }
 
 :root {
-  --co-allpages__title-col: 	#121417;
+  --co-allpages__title-col: 	#8d9195;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -250,7 +250,7 @@
 }
 
 :root {
-  --co-allpages__title-text: 	#8d9195;
+  --co-allpages__title-text: 	#121417;
   --td-allpages__title-text: 	none;
 }
 
