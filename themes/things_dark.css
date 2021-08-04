@@ -149,15 +149,15 @@
 }
 
 :root {
-  --bc-block-highlight--blue: 	var(--cl-gray-700);
+  --bc-block-highlight--blue: 	#244174;
 }
 
 :root {
-  --bc-block-highlight--grey: 	var(--cl-gray-700);
+  --bc-block-highlight--grey: 	#414141;
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-green-700);
+  --bc-block-highlight--yellow: 	#524c2e;
 }
 
 :root {
@@ -924,7 +924,7 @@
 }
 
 :root {
-  --bc-highlight: 	var(--cl-green-800);
+  --bc-highlight: 	#524c2e;
 }
 
 :root {
@@ -1661,7 +1661,7 @@
 }
 
 :root {
-  --bc-span--highlighted: 	var(--cl-green-700);
+  --bc-span--highlighted: 	#524c2e;
 }
 
 :root {
