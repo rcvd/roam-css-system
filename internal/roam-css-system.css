@@ -73,7 +73,7 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   color:  						var(--co-allpages__clickable-pill-empty, #0E5A8A);
 }
 
-.rm-pages-toolbar .toolbar-search-group .search-input {
+.rm-pages-toolbar .toolbar-search-group .search-input, .rm-pages-toolbar .toolbar-search-group .search-icon.focused {
   background-color:  	var(--bc-allpages__input, #F5F8FA);
   border-top:  				var(--bt-allpages__input, inherit);
   border-right:  			var(--br-allpages__input, inherit);

@@ -3,12 +3,12 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 :root {
-  --co-a--hover: 	#0074e0;
+  --co-a--hover: 	#0076e4;
   --td-a--hover: 	none;
 }
 
 :root {
-  --co-a: 	#0074e0;
+  --co-a: 	#0076e4;
   --td-a: 	none;
 }
 
@@ -28,52 +28,52 @@
 }
 
 :root {
-  --bc-allpages__clickable-pill: 	var(--cl-gray-300);
-  --bt-allpages__clickable-pill: 	none;
-  --br-allpages__clickable-pill: 	none;
-  --bb-allpages__clickable-pill: 	none;
-  --bl-allpages__clickable-pill: 	none;
-  --bd-allpages__clickable-pill: 	4px;
-  --co-allpages__clickable-pill: 	var(--cl-white);
+  --bc-allpages__clickable-pill: 	transparent;
+  --bt-allpages__clickable-pill: 	1px solid #b5b9bf;
+  --br-allpages__clickable-pill: 	1px solid #b5b9bf;
+  --bb-allpages__clickable-pill: 	1px solid #b5b9bf;
+  --bl-allpages__clickable-pill: 	1px solid #b5b9bf;
+  --bd-allpages__clickable-pill: 	2px;
+  --co-allpages__clickable-pill: 	#a7abb1;
   --op-allpages__clickable-pill: 	;
 }
 
 :root {
-  --bc-allpages__clickable-pill-1: 	var(--cl-gray-400);
-  --bt-allpages__clickable-pill-1: 	none;
-  --br-allpages__clickable-pill-1: 	none;
-  --bb-allpages__clickable-pill-1: 	none;
-  --bl-allpages__clickable-pill-1: 	none;
-  --bd-allpages__clickable-pill-1: 	4px;
-  --co-allpages__clickable-pill-1: 	var(--cl-white);
+  --bc-allpages__clickable-pill-1: 	transparent;
+  --bt-allpages__clickable-pill-1: 	1px solid #b5b9bf;
+  --br-allpages__clickable-pill-1: 	1px solid #b5b9bf;
+  --bb-allpages__clickable-pill-1: 	1px solid #b5b9bf;
+  --bl-allpages__clickable-pill-1: 	1px solid #b5b9bf;
+  --bd-allpages__clickable-pill-1: 	2px;
+  --co-allpages__clickable-pill-1: 	#a7abb1;
   --op-allpages__clickable-pill-1: 	1;
 }
 
 :root {
-  --bc-allpages__clickable-pill-2: 	var(--cl-gray-500);
-  --bt-allpages__clickable-pill-2: 	none;
-  --br-allpages__clickable-pill-2: 	none;
-  --bb-allpages__clickable-pill-2: 	none;
-  --bl-allpages__clickable-pill-2: 	none;
-  --bd-allpages__clickable-pill-2: 	4px;
-  --co-allpages__clickable-pill-2: 	var(--cl-white);
+  --bc-allpages__clickable-pill-2: 	transparent;
+  --bt-allpages__clickable-pill-2: 	1px solid #b5b9bf;
+  --br-allpages__clickable-pill-2: 	1px solid #b5b9bf;
+  --bb-allpages__clickable-pill-2: 	1px solid #b5b9bf;
+  --bl-allpages__clickable-pill-2: 	1px solid #b5b9bf;
+  --bd-allpages__clickable-pill-2: 	2px;
+  --co-allpages__clickable-pill-2: 	#a7abb1;
   --op-allpages__clickable-pill-2: 	1;
 }
 
 :root {
-  --bc-allpages__clickable-pill-3: 	var(--cl-gray-600);;
-  --bt-allpages__clickable-pill-3: 	none;
-  --br-allpages__clickable-pill-3: 	none;
-  --bb-allpages__clickable-pill-3: 	none;
-  --bl-allpages__clickable-pill-3: 	none;
-  --bd-allpages__clickable-pill-3: 	4px;
-  --co-allpages__clickable-pill-3: 	var(--cl-white);
+  --bc-allpages__clickable-pill-3: 	transparent;
+  --bt-allpages__clickable-pill-3: 	1px solid #b5b9bf;
+  --br-allpages__clickable-pill-3: 	1px solid #b5b9bf;
+  --bb-allpages__clickable-pill-3: 	1px solid #b5b9bf;
+  --bl-allpages__clickable-pill-3: 	1px solid #b5b9bf;
+  --bd-allpages__clickable-pill-3: 	2px;
+  --co-allpages__clickable-pill-3: 	#a7abb1;
   --op-allpages__clickable-pill-3: 	1;
 }
 
 :root {
   --bc-allpages__clickable-pill-empty: 	transparent;
-  --co-allpages__clickable-pill-empty: 	var(--cl-gray-400);
+  --co-allpages__clickable-pill-empty: 	#a7abb1;
 }
 
 :root {
@@ -84,42 +84,42 @@
   --bl-allpages__input: 	;
   --bd-allpages__input: 	0px;
   --sd-allpages__input: 	none;
-  --co-allpages__input: 	var(--cl-gray-900);
+  --co-allpages__input: 	#202227;
   --fs-allpages__input: 	1rem;
   --fw-allpages__input: 	normal;
 }
 
 :root {
-  --co-allpages__input-icon: 	var(--cl-gray-500);
+  --co-allpages__input-icon: 	#8c8e97;
 }
 
 :root {
-  --bb-allpages__row: 	1px solid var(--cl-gray-100);
-  --co-allpages__row: 	var(--cl-gray-400);
+  --bb-allpages__row: 	1px solid #e6e8ec;
+  --co-allpages__row: 	#c2c6c9;
 }
 
 :root {
-  --bc-allpages__row-header: 	var(--cl-gray-50);
+  --bc-allpages__row-header: 	#b5b9bf;
   --bd-allpages__row-header: 	0px;
-  --co-allpages__row-header: 	var(--cl-gray-900);
+  --co-allpages__row-header: 	#121417;
   --fs-allpages__row-header: 	1rem;
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	var(--cl-green-500);
+  --co-allpages__sort-button--focused: 	#0076e4;
 }
 
 :root {
-  --co-allpages__sorted-header-text: 	var(--cl-gray-700);
+  --co-allpages__sorted-header-text: 	#121417;
   --fw-allpages__sorted-header-text: 	bold;
 }
 
 :root {
-  --co-allpages__title-col: 	var(--cl-gray-900);
+  --co-allpages__title-col: 	#121417;
 }
 
 :root {
-  --co-allpages__title-text: 	var(--cl-gray-800);
+  --co-allpages__title-text: 	#8d9195;
   --td-allpages__title-text: 	none;
 }
 
@@ -161,7 +161,7 @@
 
 :root {
   --bc-block-ref--hover: 	;
-  --co-block-ref--hover: 	#0076e3;
+  --co-block-ref--hover: 	#0076e4;
 }
 
 :root {
