@@ -194,7 +194,7 @@
 
 :root {
   --bb-allpages__row: 	1px solid #e6e8ec;
-  --co-allpages__row: 	#c2c6c9;
+  --co-allpages__row: 	#a7abb1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -229,7 +229,7 @@
 }
 
 :root {
-  --co-allpages__sorted-header-text: 	#121417;
+  --co-allpages__sorted-header-text: 	#0063c0;
   --fw-allpages__sorted-header-text: 	bold;
 }
 
