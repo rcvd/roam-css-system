@@ -578,7 +578,7 @@
 }
 
 :root {
-  --bc-elevation__container: 	#292827;
+  --bc-elevation__container: 	#292826;
   --bt-elevation__container: 	1px solid #3a3938;
   --br-elevation__container: 	1px solid #3a3938;
   --bb-elevation__container: 	1px solid #3a3938;
@@ -1363,11 +1363,11 @@
 }
 
 :root {
-  --bc-popover__content: 	#333232;
-  --bt-popover__content: 	1px solid #434242;
-  --br-popover__content: 	1px solid #434242;
-  --bb-popover__content: 	1px solid #434242;
-  --bl-popover__content: 	1px solid #434242;
+  --bc-popover__content: 	#2c2c2c;
+  --bt-popover__content: 	1px solid #585858;
+  --br-popover__content: 	1px solid #585858;
+  --bb-popover__content: 	1px solid #585858;
+  --bl-popover__content: 	1px solid #585858;
   --bd-popover__content: 	5px;
   --co-popover__content: 	var(--cl-gray-100);
 }
