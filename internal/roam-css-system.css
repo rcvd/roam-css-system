@@ -114,7 +114,7 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   font-weight:  			var(--fw-allpages__sorted-header-text, 600);
 }
 
-.rm-all-pages-column-titles .rm-pages-title-col {
+#rm-all-pages-column-titles .rm-pages-title-col {
   color:  						var(--co-allpages__title-header, inherit);
   font-style:  				var(--ft-allpages__title-header, inherit);
   font-weight:  			var(--fw-allpages__title-header, inherit);
