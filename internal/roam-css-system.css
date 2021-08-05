@@ -1290,7 +1290,7 @@ div, textarea {
   color:  						var(--co-topbar-menu, #182026);
 }
 
-.bp3-portal .bp3-popover-content .bp3-menu .bp3-menu-item:hover {
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu .bp3-menu-item:hover {
   background-color:  	var(--bc-menu__item--hover, inherit);
   border-top:  				var(--bt-menu__item--hover, inherit);
   border-right:  			var(--br-menu__item--hover, inherit);
@@ -1300,7 +1300,7 @@ div, textarea {
   color:  						var(--co-menu__item--hover, inherit)!important;
 }
 
-.bp3-portal .bp3-popover-content .bp3-menu .bp3-menu-item {
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu .bp3-menu-item {
   border-top:  				var(--bt-menu__item, inherit);
   border-right:  			var(--br-menu__item, inherit);
   border-bottom:  		var(--bb-menu__item, inherit);
@@ -1309,7 +1309,7 @@ div, textarea {
   color:  						var(--co-menu__item, inherit);
 }
 
-.bp3-portal .bp3-popover-content {
+.bp3-portal .bp3-popover .bp3-popover-content {
   background-color:  	var(--bc-menu, inherit);
   border-top:  				var(--bt-menu, inherit);
   border-right:  			var(--br-menu, inherit);
