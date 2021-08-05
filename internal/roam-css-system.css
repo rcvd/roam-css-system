@@ -538,6 +538,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   font-family:  			var(--ff-datepicker, inherit);
 }
 
+.bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
+  background-color:  	var(--bc-datepicker-html__select--hover, rgba(167,182,194,0.3));
+  color:  						var(--co-datepicker-html__select--hover, #182026);
+}
+
+.bp3-datepicker .bp3-html-select select, .bp3-datepicker .bp3-select select {
+  color:  						var(--co-datepicker-html__select, #182026);
+}
+
+.bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
+  color:  						var(--co-datepicker-html__select-icon, #5c7080);
+}
+
 .bp3-heading {
   color:  						var(--co-dialog__heading, #182026);
   font-weight:  			var(--fw-dialog__heading, 600);
@@ -1193,12 +1206,12 @@ div, textarea {
   border-radius:  		var(--bd-menu__button, 2px)!important;
 }
 
-.bp3-menu span[style*='color: rgb(92, 112, 128);'] {
-  color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
-}
-
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
   color:  						var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
+}
+
+.bp3-menu span[style*='color: rgb(92, 112, 128);'] {
+  color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
 }
 
 .bp3-menu-item:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item {
@@ -1758,42 +1771,6 @@ span[style*='background-color: yellow'] {
   -webkit-box-shadow: var(--sd-topbar__container, inherit);
 }
 
-.version-bullet {
-  background-color:  	var(--bc-version__bullet, #A7B6C2)!important;
-}
-
-.rm-zoom.zoom-path-view .rm-zoom-mask {
-  background-color:  	var(--bc-zoom__mask, white);
-}
-
-.rm-zoom .rm-zoom-item, .rm-zoom-path .rm-zoom-item, rm-zoom-item div {
-  color:  						var(--co-zoom-item, #5C7080);
-  font-size:  				var(--fs-zoom-item, inherit);
-}
-
-.zotero-roam-search-overlay .header-content h5 {
-  color:  						var(--co-zotero__h5, #137cbd);
-}
-
-.zotero-roam-page-menu {
-  background-color:  	var(--bc-zotero__page-menu, inherit);
-  border-top:  				var(--bt-zotero__page-menu, 1px #eaeaea solid);
-  border-right:  			var(--br-zotero__page-menu, 1px #eaeaea solid);
-  border-bottom:  		var(--bb-zotero__page-menu, 1px #eaeaea solid);
-  border-left:  			var(--bl-zotero__page-menu, 1px #eaeaea solid);
-  border-radius:  		var(--bd-zotero__page-menu, 5px);
-}
-
-#zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary, .zotero-roam-page-div .bp3-button.bp3-minimal.bp3-intent-primary {
-  color:  						var(--co-zotero__primary, #106ba3);
-}
-
-span.zotero-roam-sequence {
-  background-color:  	var(--bc-zotero__sequence, khaki);
-  border-right:  			var(--br-zotero__sequence, inherit);
-  font-size:  				var(--fs-zotero__sequence, 0.85em);
-}
-
 .rm-topbar .bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus {
   background-color:  	var(--bc-topbar-datepicker__day--hover, #d8e1e8);
   border-radius:  		var(--bd-topbar-datepicker__day--hover, inherit);
@@ -1877,19 +1854,6 @@ span.zotero-roam-sequence {
   font-family:  			var(--ff-topbar-datepicker, inherit);
 }
 
-.bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
-  background-color:  	var(--bc-datepicker-html__select--hover, rgba(167,182,194,0.3));
-  color:  						var(--co-datepicker-html__select--hover, #182026);
-}
-
-.bp3-datepicker .bp3-html-select select, .bp3-datepicker .bp3-select select {
-  color:  						var(--co-datepicker-html__select, #182026);
-}
-
-.bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
-  color:  						var(--co-datepicker-html__select-icon, #5c7080);
-}
-
 .rm-topbar .bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
   background-color:  	var(--bc-topbar-datepicker-html__select--hover, rgba(167,182,194,0.3));
   color:  						var(--co-topbar-datepicker-html__select--hover, #182026);
@@ -1901,5 +1865,41 @@ span.zotero-roam-sequence {
 
 .rm-topbar .bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
   color:  						var(--co-topbar-datepicker-html__select-icon, #5c7080);
+}
+
+.version-bullet {
+  background-color:  	var(--bc-version__bullet, #A7B6C2)!important;
+}
+
+.rm-zoom.zoom-path-view .rm-zoom-mask {
+  background-color:  	var(--bc-zoom__mask, white);
+}
+
+.rm-zoom .rm-zoom-item, .rm-zoom-path .rm-zoom-item, rm-zoom-item div {
+  color:  						var(--co-zoom-item, #5C7080);
+  font-size:  				var(--fs-zoom-item, inherit);
+}
+
+.zotero-roam-search-overlay .header-content h5 {
+  color:  						var(--co-zotero__h5, #137cbd);
+}
+
+.zotero-roam-page-menu {
+  background-color:  	var(--bc-zotero__page-menu, inherit);
+  border-top:  				var(--bt-zotero__page-menu, 1px #eaeaea solid);
+  border-right:  			var(--br-zotero__page-menu, 1px #eaeaea solid);
+  border-bottom:  		var(--bb-zotero__page-menu, 1px #eaeaea solid);
+  border-left:  			var(--bl-zotero__page-menu, 1px #eaeaea solid);
+  border-radius:  		var(--bd-zotero__page-menu, 5px);
+}
+
+#zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary, .zotero-roam-page-div .bp3-button.bp3-minimal.bp3-intent-primary {
+  color:  						var(--co-zotero__primary, #106ba3);
+}
+
+span.zotero-roam-sequence {
+  background-color:  	var(--bc-zotero__sequence, khaki);
+  border-right:  			var(--br-zotero__sequence, inherit);
+  font-size:  				var(--fs-zotero__sequence, 0.85em);
 }
 

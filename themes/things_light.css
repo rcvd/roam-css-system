@@ -536,6 +536,19 @@
 }
 
 :root {
+  --bc-datepicker-html__select--hover: 	#4e9cfe;
+  --co-datepicker-html__select--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-datepicker-html__select: 	var(--cl-white);
+}
+
+:root {
+  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+
+:root {
   --co-dialog__heading: 	var(--cl-gray-900);
   --fw-dialog__heading: 	;
 }
@@ -1185,11 +1198,11 @@
 }
 
 :root {
-  --co-menu__button-icon: 	var(--cl-gray-700);
+  --co-menu__button-icon--active: 	var(--cl-white);
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-white);
+  --co-menu__button-icon: 	var(--cl-gray-700);
 }
 
 :root {
@@ -1740,46 +1753,10 @@
   --bc-topbar__container: 	;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;
-  --bb-topbar__container: 	1px solid var(--cl-gray-200);
+  --bb-topbar__container: 	1px solid #f0f1f2;
   --bl-topbar__container: 	;
   --bd-topbar__container: 	;
   --sd-topbar__container: 	;
-}
-
-:root {
-  --bc-version__bullet: 	var(--cl-gray-500);
-}
-
-:root {
-  --bc-zoom__mask: 	var(--cl-gray-50);
-}
-
-:root {
-  --co-zoom-item: 	var(--cl-gray-400);
-  --fs-zoom-item: 	1rem;
-}
-
-:root {
-  --co-zotero__h5: 	var(--cl-gray-900);
-}
-
-:root {
-  --bc-zotero__page-menu: 	var(--cl-blue-50);
-  --bt-zotero__page-menu: 	1px solid var(--cl-blue-100);
-  --br-zotero__page-menu: 	1px solid var(--cl-blue-100);
-  --bb-zotero__page-menu: 	1px solid var(--cl-blue-100);
-  --bl-zotero__page-menu: 	1px solid var(--cl-blue-100);
-  --bd-zotero__page-menu: 	0px;
-}
-
-:root {
-  --co-zotero__primary: 	var(--cl-green-500);
-}
-
-:root {
-  --bc-zotero__sequence: 	var(--cl-gray-50);
-  --br-zotero__sequence: 	1px solid var(--cl-gray-100);
-  --fs-zotero__sequence: 	;
 }
 
 :root {
@@ -1866,19 +1843,6 @@
 }
 
 :root {
-  --bc-datepicker-html__select--hover: 	#4e9cfe;
-  --co-datepicker-html__select--hover: 	var(--cl-white);
-}
-
-:root {
-  --co-datepicker-html__select: 	var(--cl-white);
-}
-
-:root {
-  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
-}
-
-:root {
   --bc-topbar-datepicker-html__select--hover: 	#c9e2ff;
   --co-topbar-datepicker-html__select--hover: 	var(--cl-gray-900);
 }
@@ -1889,5 +1853,41 @@
 
 :root {
   --co-topbar-datepicker-html__select-icon: 	var(--cl-gray-500);
+}
+
+:root {
+  --bc-version__bullet: 	var(--cl-gray-500);
+}
+
+:root {
+  --bc-zoom__mask: 	var(--cl-gray-50);
+}
+
+:root {
+  --co-zoom-item: 	var(--cl-gray-400);
+  --fs-zoom-item: 	1rem;
+}
+
+:root {
+  --co-zotero__h5: 	var(--cl-gray-900);
+}
+
+:root {
+  --bc-zotero__page-menu: 	var(--cl-blue-50);
+  --bt-zotero__page-menu: 	1px solid var(--cl-blue-100);
+  --br-zotero__page-menu: 	1px solid var(--cl-blue-100);
+  --bb-zotero__page-menu: 	1px solid var(--cl-blue-100);
+  --bl-zotero__page-menu: 	1px solid var(--cl-blue-100);
+  --bd-zotero__page-menu: 	0px;
+}
+
+:root {
+  --co-zotero__primary: 	var(--cl-green-500);
+}
+
+:root {
+  --bc-zotero__sequence: 	var(--cl-gray-50);
+  --br-zotero__sequence: 	1px solid var(--cl-gray-100);
+  --fs-zotero__sequence: 	;
 }
 
