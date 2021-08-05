@@ -1208,6 +1208,7 @@ Error 2023
   --bb-menu__button: 	none;
   --bl-menu__button: 	none;
   --bd-menu__button: 	;
+  --co-menu__button: 	;
 }
 
 :root {

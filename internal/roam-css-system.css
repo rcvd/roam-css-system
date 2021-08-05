@@ -1232,6 +1232,7 @@ div, textarea {
   border-bottom:  		var(--bb-menu__button, 0.5px solid rgb(206, 217, 224))!important;
   border-left:  			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224))!important;
   border-radius:  		var(--bd-menu__button, 2px)!important;
+  color:  						var(--co-menu__button, inherit)!important;
 }
 
 .bp3-portal .bp3-popover .bp3-popover-content .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {

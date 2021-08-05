@@ -1223,6 +1223,7 @@
   --bb-menu__button: 	none;
   --bl-menu__button: 	none;
   --bd-menu__button: 	;
+  --co-menu__button: 	var(--cl-white);
 }
 
 :root {

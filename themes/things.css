@@ -2683,6 +2683,7 @@
   --bb-menu__button: 	none;
   --bl-menu__button: 	none;
   --bd-menu__button: 	;
+  --co-menu__button: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2692,6 +2693,7 @@
     --br-menu__button: 	none;
     --bb-menu__button: 	none;
     --bl-menu__button: 	none;
+    --co-menu__button: 	;
   }
 }
 
