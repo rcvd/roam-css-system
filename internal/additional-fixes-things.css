@@ -243,3 +243,7 @@ div {
 .rm-pages-title-text strong {
     font-weight: 500;
 }
+
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    text-align: left;
+}
