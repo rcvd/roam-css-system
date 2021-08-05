@@ -1377,20 +1377,20 @@ div, textarea {
   -webkit-box-shadow: var(--sd-popover, 0 0 0 1px rgb(16 22 26 / 10%), 0 2px 4px rgb(16 22 26 / 20%), 0 8px 24px rgb(16 22 26 / 20%));
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover .bp3-popover-arrow-border {
+.bp3-popover:not(.bp3-minimal) .bp3-popover-arrow-border {
   fill:  							var(--fl-topbar-popover__arrow-border, #10161a);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover .bp3-popover-arrow-fill {
+.bp3-popover:not(.bp3-minimal) .bp3-popover-arrow-fill {
   fill:  							var(--fl-topbar-popover__arrow-fill, #fff);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover .bp3-popover-arrow::before {
+.bp3-popover:not(.bp3-minimal) .bp3-popover-arrow::before {
   box-shadow:  				var(--sd-topbar-popover__arrow-shadow, inherit);
   -webkit-box-shadow: var(--sd-topbar-popover__arrow-shadow, inherit);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container .bp3-popover-content .bp3-button:not([class*='bp3-intent-']):hover {
+.bp3-popover:not(.bp3-minimal) .bp3-popover-content .bp3-button:not([class*='bp3-intent-']):hover {
   background-color:  	var(--bc-topbar-popover__button--hover, inherit);
   border-top:  				var(--bt-topbar-popover__button--hover, inherit);
   border-right:  			var(--br-topbar-popover__button--hover, inherit);
@@ -1399,7 +1399,7 @@ body > .bp3-portal > .bp3-overlay > .bp3-transition-container .bp3-popover-conte
   color:  						var(--co-topbar-popover__button--hover, inherit);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container .bp3-popover-content .bp3-button:not([class*='bp3-intent-']) {
+.bp3-popover:not(.bp3-minimal) .bp3-popover-content .bp3-button:not([class*='bp3-intent-']) {
   background-color:  	var(--bc-topbar-popover__button, inherit);
   border-top:  				var(--bt-topbar-popover__button, inherit);
   border-right:  			var(--br-topbar-popover__button, inherit);
@@ -1409,7 +1409,7 @@ body > .bp3-portal > .bp3-overlay > .bp3-transition-container .bp3-popover-conte
   color:  						var(--co-topbar-popover__button, inherit);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover .bp3-popover-content {
+.bp3-popover:not(.bp3-minimal) .bp3-popover .bp3-popover-content {
   background-color:  	var(--bc-topbar-popover__content, #fff);
   border-top:  				var(--bt-topbar-popover__content, inherit);
   border-right:  			var(--br-topbar-popover__content, inherit);
@@ -1419,11 +1419,11 @@ body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover .bp
   color:  						var(--co-topbar-popover__content, inherit);
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container > .bp3-popover div[style*='color: rgb(167, 182, 194);'] {
+.bp3-popover:not(.bp3-minimal) div[style*='color: rgb(167, 182, 194);'] {
   color:  						var(--co-topbar-popover__description, inherit)!important;
 }
 
-body > .bp3-portal > .bp3-overlay > .bp3-transition-container >  .bp3-popover {
+.bp3-popover:not(.bp3-minimal) {
   border-radius:  		var(--bd-topbar-popover, 3px);
   box-shadow:  				var(--sd-topbar-popover, 0 0 0 1px rgb(16 22 26 / 10%), 0 2px 4px rgb(16 22 26 / 20%), 0 8px 24px rgb(16 22 26 / 20%));
   -webkit-box-shadow: var(--sd-topbar-popover, 0 0 0 1px rgb(16 22 26 / 10%), 0 2px 4px rgb(16 22 26 / 20%), 0 8px 24px rgb(16 22 26 / 20%));
