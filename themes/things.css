@@ -1641,7 +1641,7 @@
 }
 
 :root {
-  --co-find-or-create__new-page--selected: 	var(--cl-green-500);
+  --co-find-or-create__new-page--selected: 	#1d7d57;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1651,7 +1651,7 @@
 }
 
 :root {
-  --co-find-or-create__new-page: 	var(--cl-green-500);
+  --co-find-or-create__new-page: 	#1d7d57;
 }
 
 @media (prefers-color-scheme: dark) {
