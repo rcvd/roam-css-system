@@ -1777,7 +1777,7 @@ span[style*='background-color: yellow'] {
   background-color:  	var(--bc-textarea__selection, inherit);
 }
 
-1px solid #d5d5d5 {
+.bp3-tooltip .bp3-popover-content {
   background-color:  	var(--bc-tooltip, inherit);
   border-top:  				var(--bt-tooltip, inherit);
   border-right:  			var(--br-tooltip, inherit);
