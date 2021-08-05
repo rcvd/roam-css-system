@@ -1172,24 +1172,7 @@ Error 2023
   --co-menu__item: 	;
 }
 
-:root {
-  --bc-menu: 	;
-  --bt-menu: 	;
-  --br-menu: 	;
-  --bb-menu: 	;
-  --bl-menu: 	;
-  --bd-menu: 	5px;
-  --co-menu: 	;
-}
-
-:root {
-  --co-menu__item-icon--hover: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-icon: 	#eeeeee;
-}
-
+Error 2023
 :root {
   --co-menu__item-label--hover: 	#eeeeee;
 }

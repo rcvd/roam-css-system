@@ -1198,14 +1198,6 @@
 }
 
 :root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-:root {
-  --co-menu__item-icon: 	var(--cl-gray-900);
-}
-
-:root {
   --co-menu__item-label--hover: 	var(--cl-white);
 }
 

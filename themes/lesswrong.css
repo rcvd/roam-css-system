@@ -2635,26 +2635,6 @@
 }
 
 :root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-icon--hover: 	var(--cl-white);
-  }
-}
-
-:root {
-  --co-menu__item-icon: 	var(--cl-gray-100);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-icon: 	var(--cl-gray-900);
-  }
-}
-
-:root {
   --co-menu__item-label--hover: 	var(--cl-white);
 }
 

@@ -1303,7 +1303,7 @@
 }
 
 :root {
-  --co-elevation__create-block: 	#2c3239;
+  --co-elevation__create-block: 	#aeb2b8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1363,7 +1363,7 @@
 }
 
 :root {
-  --co-elevation__item-icon: 	#2c3239;
+  --co-elevation__item-icon: 	#aeb2b8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1383,7 +1383,7 @@
 }
 
 :root {
-  --co-elevation__item-keyprompt: 	#2c3239;
+  --co-elevation__item-keyprompt: 	#aeb2b8;
   --fs-elevation__item-keyprompt: 	0.8rem;
   --op-elevation__item-keyprompt: 	1;
 }
@@ -2631,26 +2631,6 @@
     --bb-menu: 	;
     --bl-menu: 	;
     --co-menu: 	;
-  }
-}
-
-:root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-icon--hover: 	#eeeeee;
-  }
-}
-
-:root {
-  --co-menu__item-icon: 	var(--cl-gray-100);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --co-menu__item-icon: 	#eeeeee;
   }
 }
 
