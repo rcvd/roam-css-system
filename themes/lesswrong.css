@@ -243,7 +243,24 @@
 }
 
 :root {
+  --co-allpages__title-header: 	;
+  --ft-allpages__title-header: 	;
+  --fw-allpages__title-header: 	;
+  --td-allpages__title-header: 	;
+  --tt-allpages__title-header: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --co-allpages__title-header: 	;
+  }
+}
+
+:root {
   --co-allpages__title-col: 	var(--cl-gray-900);
+  --ft-allpages__title-col: 	;
+  --fw-allpages__title-col: 	;
+  --td-allpages__title-col: 	;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -254,6 +271,8 @@
 
 :root {
   --co-allpages__title-text: 	var(--cl-gray-800);
+  --ft-allpages__title-text: 	;
+  --fw-allpages__title-text: 	;
   --td-allpages__title-text: 	none;
 }
 

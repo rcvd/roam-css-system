@@ -114,12 +114,25 @@ a, .rm-alias-tooltip__content .rm-alias--external {
   font-weight:  			var(--fw-allpages__sorted-header-text, 600);
 }
 
+.rm-all-pages-column-titles .rm-pages-title-col {
+  color:  						var(--co-allpages__title-header, inherit);
+  font-style:  				var(--ft-allpages__title-header, inherit);
+  font-weight:  			var(--fw-allpages__title-header, inherit);
+  text-decoration:  	var(--td-allpages__title-header, inherit);
+  text-transform:  		var(--tt-allpages__title-header, inherit);
+}
+
 .rm-all-pages .table .rm-pages-row .rm-pages-title-col {
   color:  						var(--co-allpages__title-col, #BFCCD6);
+  font-style:  				var(--ft-allpages__title-col, inherit);
+  font-weight:  			var(--fw-allpages__title-col, inherit);
+  text-decoration:  	var(--td-allpages__title-col, inherit);
 }
 
 .rm-pages-title-text {
   color:  						var(--co-allpages__title-text, black);
+  font-style:  				var(--ft-allpages__title-text, inherit);
+  font-weight:  			var(--fw-allpages__title-text, inherit);
   text-decoration:  	var(--td-allpages__title-text, inherit);
 }
 
