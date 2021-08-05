@@ -247,3 +247,7 @@ div {
 .rm-all-pages .table .rm-pages-row .rm-pages-col {
     text-align: left;
 }
+
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu {
+    background: none;
+}
