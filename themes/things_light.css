@@ -108,11 +108,11 @@
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	#f91955;
+  --co-allpages__sort-button--focused: 	#0076e4;
 }
 
 :root {
-  --co-allpages__sorted-header-text: 	#0063c0;
+  --co-allpages__sorted-header-text: 	#24282b;
   --fw-allpages__sorted-header-text: 	600;
 }
 
@@ -125,14 +125,14 @@
 }
 
 :root {
-  --co-allpages__title-col: 	#202227;
+  --co-allpages__title-col: 	#a7abb1;
   --ft-allpages__title-col: 	;
   --fw-allpages__title-col: 	;
   --td-allpages__title-col: 	;
 }
 
 :root {
-  --co-allpages__title-text: 	#a7abb1;
+  --co-allpages__title-text: 	#202227;
   --ft-allpages__title-text: 	;
   --fw-allpages__title-text: 	;
   --td-allpages__title-text: 	none;
