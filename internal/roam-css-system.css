@@ -863,7 +863,7 @@ div, textarea {
 }
 
 .rm-help-search__icon-container {
-  background-color:  	var(--bc-help__icon-container, inherit);
+  background-color:  	var(--bc-help__icon-container, transparent);
   border-top:  				var(--bt-help__icon-container, 1px solid #B4B7BB);
   border-right:  			var(--br-help__icon-container, none);
   border-bottom:  		var(--bb-help__icon-container, 1px solid #B4B7BB);

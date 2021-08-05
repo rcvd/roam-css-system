@@ -1908,7 +1908,7 @@
 }
 
 :root {
-  --bc-help__icon-container: 	var(--cl-white);
+  --bc-help__icon-container: 	;
   --bt-help__icon-container: 	none;
   --br-help__icon-container: 	none;
   --bb-help__icon-container: 	none;
