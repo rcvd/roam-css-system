@@ -251,3 +251,7 @@ div {
 .bp3-portal .bp3-popover .bp3-popover-content .bp3-menu {
     background: none;
 }
+
+.bp3-select-popover .bp3-popover-content {
+    padding: 0;
+}
