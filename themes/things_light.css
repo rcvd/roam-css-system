@@ -289,12 +289,12 @@
 }
 
 :root {
-  --bc-card: 	var(--cl-white);
-  --bt-card: 	1px solid var(--cl-gray-100);
-  --br-card: 	1px solid var(--cl-gray-100);
-  --bb-card: 	1px solid var(--cl-gray-100);
-  --bl-card: 	1px solid var(--cl-gray-100);
-  --bd-card: 	0px;
+  --bc-card: 	#e4e4e3;
+  --bt-card: 	1px solid #c8c8c8;
+  --br-card: 	1px solid #c8c8c8;
+  --bb-card: 	1px solid #c8c8c8;
+  --bl-card: 	1px solid #c8c8c8;
+  --bd-card: 	5px;
   --sd-card: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
