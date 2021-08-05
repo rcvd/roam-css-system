@@ -105,7 +105,7 @@
   --bd-allpages__row-header: 	0px;
   --co-allpages__row-header: 	var(--cl-gray-100);
   --fs-allpages__row-header: 	1rem;
-  --fw-allpages__row-header: 	600;
+  --fw-allpages__row-header: 	700;
 }
 
 :root {
@@ -114,12 +114,12 @@
 
 :root {
   --co-allpages__sorted-header-text: 	var(--cl-gray-300);
-  --fw-allpages__sorted-header-text: 	600;
+  --fw-allpages__sorted-header-text: 	700;
 }
 
 :root {
   --co-allpages__sorted-header-text: 	var(--cl-gray-300);
-  --fw-allpages__sorted-header-text: 	600;
+  --fw-allpages__sorted-header-text: 	700;
 }
 
 :root {
