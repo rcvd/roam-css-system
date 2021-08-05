@@ -1173,6 +1173,28 @@ Error 2023
 }
 
 :root {
+  --bc-menu: 	;
+  --bt-menu: 	;
+  --br-menu: 	;
+  --bb-menu: 	;
+  --bl-menu: 	;
+  --bd-menu: 	5px;
+  --co-menu: 	;
+}
+
+:root {
+  --co-menu__item-icon--hover: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-icon: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-label--hover: 	#eeeeee;
+}
+
+:root {
   --co-main: 	;
   --ff-main: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-main: 	1rem;

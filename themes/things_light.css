@@ -521,7 +521,7 @@
   --bb-datepicker: 	;
   --bl-datepicker: 	;
   --bd-datepicker: 	5px;
-  --co-datepicker: 	var(--cl-gray-600);
+  --co-datepicker: 	#b0b2b7;
   --ff-datepicker: 	;
 }
 
@@ -535,34 +535,34 @@
 }
 
 :root {
-  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+  --co-datepicker-html__select-icon: 	var(--cl-white);
 }
 
 :root {
-  --co-dialog__heading: 	var(--cl-gray-900);
+  --co-dialog__heading: 	#121417;
   --fw-dialog__heading: 	;
 }
 
 :root {
-  --bc-dialog__upload-button: 	var(--cl-gray-50);
-  --bt-dialog__upload-button: 	1px solid var(--cl-gray-100);
-  --br-dialog__upload-button: 	1px solid var(--cl-gray-100);
-  --bb-dialog__upload-button: 	1px solid var(--cl-gray-100);
-  --bl-dialog__upload-button: 	1px solid var(--cl-gray-100);
+  --bc-dialog__upload-button: 	#121417;
+  --bt-dialog__upload-button: 	1px solid #f5f6f8;
+  --br-dialog__upload-button: 	1px solid #f5f6f8;
+  --bb-dialog__upload-button: 	1px solid #f5f6f8;
+  --bl-dialog__upload-button: 	1px solid #f5f6f8;
   --bd-dialog__upload-button: 	3px;
   --sd-dialog__upload-button: 	none;
-  --co-dialog__upload-button: 	var(--cl-gray-900);
+  --co-dialog__upload-button: 	#121417;
 }
 
 :root {
-  --bc-dialog__upload-input: 	var(--cl-gray-50);
-  --bt-dialog__upload-input: 	1px solid var(--cl-gray-100);
-  --br-dialog__upload-input: 	1px solid var(--cl-gray-100);
-  --bb-dialog__upload-input: 	1px solid var(--cl-gray-100);
-  --bl-dialog__upload-input: 	1px solid var(--cl-gray-100);
+  --bc-dialog__upload-input: 	#121417;
+  --bt-dialog__upload-input: 	1px solid #f5f6f8;
+  --br-dialog__upload-input: 	1px solid #f5f6f8;
+  --bb-dialog__upload-input: 	1px solid #f5f6f8;
+  --bl-dialog__upload-input: 	1px solid #f5f6f8;
   --bd-dialog__upload-input: 	0px;
   --sd-dialog__upload-input: 	none;
-  --co-dialog__upload-input: 	var(--cl-gray-900);
+  --co-dialog__upload-input: 	#121417;
 }
 
 :root {
@@ -571,11 +571,11 @@
 }
 
 :root {
-  --bc-dropbar: 	var(--cl-gray-500);
+  --bc-dropbar: 	#2c3239;
 }
 
 :root {
-  --bc-elevation__container: 	var(--cl-gray-800);
+  --bc-elevation__container: 	#2c3239;
   --bt-elevation__container: 	;
   --br-elevation__container: 	;
   --bb-elevation__container: 	;
@@ -589,7 +589,7 @@
 }
 
 :root {
-  --co-elevation__create-block: 	var(--cl-gray-500);
+  --co-elevation__create-block: 	#2c3239;
 }
 
 :root {
@@ -616,7 +616,7 @@
 }
 
 :root {
-  --co-elevation__item-icon: 	var(--cl-gray-500);
+  --co-elevation__item-icon: 	#2c3239;
 }
 
 :root {
@@ -624,7 +624,7 @@
 }
 
 :root {
-  --co-elevation__item-keyprompt: 	var(--cl-gray-500);
+  --co-elevation__item-keyprompt: 	#2c3239;
   --fs-elevation__item-keyprompt: 	0.8rem;
   --op-elevation__item-keyprompt: 	1;
 }
@@ -1195,6 +1195,23 @@
   --bl-menu: 	;
   --bd-menu: 	5px;
   --co-menu: 	;
+}
+
+:root {
+  --co-menu__item-icon--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-menu__item-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --co-menu__item-label--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-menu__item-label: 	var(--cl-gray-500);
+  --td-menu__item-label: 	none;
 }
 
 :root {

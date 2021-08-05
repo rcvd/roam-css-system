@@ -1198,6 +1198,23 @@
 }
 
 :root {
+  --co-menu__item-icon--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-menu__item-icon: 	var(--cl-gray-900);
+}
+
+:root {
+  --co-menu__item-label--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-menu__item-label: 	var(--cl-gray-500);
+  --td-menu__item-label: 	none;
+}
+
+:root {
   --co-mobile-bar__icon: 	var(--cl-gray-100);
 }
 
