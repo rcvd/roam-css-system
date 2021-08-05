@@ -2810,7 +2810,27 @@
   }
 }
 
-Error 2023
+:root {
+  --bc-menu: 	var(--cl-gray-100);
+  --bt-menu: 	1px solid #cacaca;
+  --br-menu: 	1px solid #cacaca;
+  --bb-menu: 	1px solid #cacaca;
+  --bl-menu: 	1px solid #cacaca;
+  --bd-menu: 	5px;
+  --co-menu: 	var(--cl-gray-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-menu: 	#2d2d2e;
+    --bt-menu: 	;
+    --br-menu: 	;
+    --bb-menu: 	;
+    --bl-menu: 	;
+    --co-menu: 	var(--cl-gray-100);
+  }
+}
+
 :root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }

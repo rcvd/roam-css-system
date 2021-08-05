@@ -1271,7 +1271,16 @@
   --fl-menu__svg-icon: 	var(--cl-gray-900);
 }
 
-Error 2023
+:root {
+  --bc-menu: 	var(--cl-gray-100);
+  --bt-menu: 	1px solid #cacaca;
+  --br-menu: 	1px solid #cacaca;
+  --bb-menu: 	1px solid #cacaca;
+  --bl-menu: 	1px solid #cacaca;
+  --bd-menu: 	5px;
+  --co-menu: 	var(--cl-gray-900);
+}
+
 :root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }
