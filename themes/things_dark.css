@@ -1878,6 +1878,20 @@ Error 2023
 }
 
 :root {
+  --fl-topbar-menu__svg-icon--hover: 	var(--cl-gray-100);
+}
+
+:root {
+  --bc-topbar-menu: 	#2d2d2e;
+  --bt-topbar-menu: 	;
+  --br-topbar-menu: 	;
+  --bb-topbar-menu: 	;
+  --bl-topbar-menu: 	;
+  --bd-topbar-menu: 	5px;
+  --co-topbar-menu: 	var(--cl-gray-100);
+}
+
+:root {
   --bc-version__bullet: 	#4d4e4d;
 }
 

@@ -1898,6 +1898,14 @@
 }
 
 :root {
+  --fl-topbar-menu__svg-icon--hover: 	var(--cl-gray-100);
+}
+
+:root {
+  --fl-topbar-menu__svg-icon: 	var(--cl-gray-100);
+}
+
+:root {
   --bc-version__bullet: 	var(--cl-gray-800);
 }
 

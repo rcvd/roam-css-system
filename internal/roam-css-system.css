@@ -1909,6 +1909,14 @@ span[style*='background-color: yellow'] {
   color:  						var(--co-topbar-menu, #182026);
 }
 
+.rm-topbar .bp3-menu-item:hover>.bp3-icon svg {
+  fill:  							var(--fl-topbar-menu__svg-icon--hover, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item>.bp3-icon svg {
+  fill:  							var(--fl-topbar-menu__svg-icon, #8A9BA8)!important;
+}
+
 .version-bullet {
   background-color:  	var(--bc-version__bullet, #A7B6C2)!important;
 }
