@@ -1563,7 +1563,7 @@
 }
 
 :root {
-  --bc-emoji-mart__category-label: 	var(--cl-gray-100);
+  --bc-emoji-mart__category-label: 	#2c3239;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1573,13 +1573,13 @@
 }
 
 :root {
-  --bc-emoji-mart: 	var(--cl-gray-100);
+  --bc-emoji-mart: 	#2c3239;
   --bt-emoji-mart: 	;
   --br-emoji-mart: 	;
   --bb-emoji-mart: 	;
   --bl-emoji-mart: 	;
   --bd-emoji-mart: 	;
-  --co-emoji-mart: 	var(--cl-gray-900);
+  --co-emoji-mart: 	var(--cl-white);
   --ff-emoji-mart: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
   --fs-emoji-mart: 	1rem;
 }
