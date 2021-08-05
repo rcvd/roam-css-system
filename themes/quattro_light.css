@@ -1275,7 +1275,7 @@
 
 :root {
   --bc-popover__content: 	var(--cl-white);
-  --bt-popover__content: 	1px solid var(--cl-gray-200);
+  --bt-popover__content: 	;
   --br-popover__content: 	;
   --bb-popover__content: 	;
   --bl-popover__content: 	;
