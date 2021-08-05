@@ -1169,35 +1169,6 @@
 }
 
 :root {
-  --bc-menu__item--hover: 	#509cff;
-  --bt-menu__item--hover: 	;
-  --br-menu__item--hover: 	;
-  --bb-menu__item--hover: 	;
-  --bl-menu__item--hover: 	;
-  --bd-menu__item--hover: 	5px;
-  --co-menu__item--hover: 	var(--cl-white);
-}
-
-:root {
-  --bt-menu__item: 	;
-  --br-menu__item: 	;
-  --bb-menu__item: 	;
-  --bl-menu__item: 	;
-  --bd-menu__item: 	;
-  --co-menu__item: 	var(--cl-white);
-}
-
-:root {
-  --bc-menu: 	#2c3239;
-  --bt-menu: 	;
-  --br-menu: 	;
-  --bb-menu: 	;
-  --bl-menu: 	;
-  --bd-menu: 	5px;
-  --co-menu: 	;
-}
-
-:root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }
 
@@ -1798,93 +1769,93 @@
 }
 
 :root {
-  --bc-topbar-menu__button--active: 	#509cfe;
-  --bt-topbar-menu__button--active: 	none;
-  --br-topbar-menu__button--active: 	none;
-  --bb-topbar-menu__button--active: 	none;
-  --bl-topbar-menu__button--active: 	none;
-  --bd-topbar-menu__button--active: 	5px;
-  --co-topbar-menu__button--active: 	var(--cl-white);
+  --bc-menu__button--active: 	#509cfe;
+  --bt-menu__button--active: 	none;
+  --br-menu__button--active: 	none;
+  --bb-menu__button--active: 	none;
+  --bl-menu__button--active: 	none;
+  --bd-menu__button--active: 	5px;
+  --co-menu__button--active: 	var(--cl-white);
 }
 
 :root {
-  --bc-topbar-menu__button: 	transparent;
-  --bt-topbar-menu__button: 	none;
-  --br-topbar-menu__button: 	none;
-  --bb-topbar-menu__button: 	none;
-  --bl-topbar-menu__button: 	none;
-  --bd-topbar-menu__button: 	;
+  --bc-menu__button: 	transparent;
+  --bt-menu__button: 	none;
+  --br-menu__button: 	none;
+  --bb-menu__button: 	none;
+  --bl-menu__button: 	none;
+  --bd-menu__button: 	;
 }
 
 :root {
-  --co-topbar-menu__button-icon--active: 	var(--cl-white);
+  --co-menu__button-icon--active: 	var(--cl-white);
 }
 
 :root {
-  --co-topbar-menu__button-icon: 	var(--cl-gray-700);
+  --co-menu__button-icon: 	var(--cl-gray-700);
 }
 
 :root {
-  --bc-topbar-menu__item--hover: 	var(--cl-gray-400);
-  --bt-topbar-menu__item--hover: 	;
-  --br-topbar-menu__item--hover: 	;
-  --bb-topbar-menu__item--hover: 	;
-  --bl-topbar-menu__item--hover: 	;
-  --bd-topbar-menu__item--hover: 	5px;
-  --co-topbar-menu__item--hover: 	var(--cl-white);
+  --bc-menu__item--hover: 	var(--cl-gray-400);
+  --bt-menu__item--hover: 	;
+  --br-menu__item--hover: 	;
+  --bb-menu__item--hover: 	;
+  --bl-menu__item--hover: 	;
+  --bd-menu__item--hover: 	5px;
+  --co-menu__item--hover: 	var(--cl-white);
 }
 
 :root {
-  --bt-topbar-menu__item: 	;
-  --br-topbar-menu__item: 	;
-  --bb-topbar-menu__item: 	;
-  --bl-topbar-menu__item: 	;
-  --bd-topbar-menu__item: 	5px;
-  --co-topbar-menu__item: 	var(--cl-gray-900);
+  --bt-menu__item: 	;
+  --br-menu__item: 	;
+  --bb-menu__item: 	;
+  --bl-menu__item: 	;
+  --bd-menu__item: 	5px;
+  --co-menu__item: 	var(--cl-gray-900);
 }
 
 :root {
-  --co-topbar-menu__item-icon--hover: 	var(--cl-white);
+  --co-menu__item-icon--hover: 	var(--cl-white);
 }
 
 :root {
-  --co-topbar-menu__item-icon: 	var(--cl-gray-100);
+  --co-menu__item-icon: 	var(--cl-gray-100);
 }
 
 :root {
-  --co-topbar-menu__item-label--hover: 	var(--cl-white);
+  --co-menu__item-label--hover: 	var(--cl-white);
 }
 
 :root {
-  --co-topbar-menu__item-label: 	var(--cl-gray-500);
-  --td-topbar-menu__item-label: 	none;
+  --co-menu__item-label: 	var(--cl-gray-500);
+  --td-menu__item-label: 	none;
 }
 
 :root {
-  --co-topbar-menu__item-primary: 	#0074e0;
+  --co-menu__item-primary: 	#0074e0;
 }
 
 :root {
-  --bc-topbar-menu__menu-item--active: 	#0074e0;
-  --co-topbar-menu__menu-item--active: 	var(--cl-white);
+  --bc-menu__menu-item--active: 	#0074e0;
+  --co-menu__menu-item--active: 	var(--cl-white);
 }
 
 :root {
-  --fl-topbar-menu__svg-icon--hover: 	var(--cl-white);
+  --fl-menu__svg-icon--hover: 	var(--cl-white);
 }
 
 :root {
-  --fl-topbar-menu__svg-icon: 	var(--cl-gray-900);
+  --fl-menu__svg-icon: 	var(--cl-gray-900);
 }
 
 :root {
-  --bc-topbar-menu: 	var(--cl-gray-100);
-  --bt-topbar-menu: 	1px solid #cacaca;
-  --br-topbar-menu: 	1px solid #cacaca;
-  --bb-topbar-menu: 	1px solid #cacaca;
-  --bl-topbar-menu: 	1px solid #cacaca;
-  --bd-topbar-menu: 	5px;
-  --co-topbar-menu: 	var(--cl-gray-900);
+  --bc-menu: 	var(--cl-gray-100);
+  --bt-menu: 	1px solid #cacaca;
+  --br-menu: 	1px solid #cacaca;
+  --bb-menu: 	1px solid #cacaca;
+  --bl-menu: 	1px solid #cacaca;
+  --bd-menu: 	5px;
+  --co-menu: 	var(--cl-gray-900);
 }
 
 :root {
