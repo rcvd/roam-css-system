@@ -239,3 +239,7 @@ div {
 :focus {
     outline:  none;
 }
+
+.rm-pages-title-text strong {
+    font-weight: 500;
+}
