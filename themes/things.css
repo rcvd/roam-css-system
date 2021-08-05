@@ -2838,7 +2838,7 @@
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
   --bd-menu__item--hover: 	5px;
-  --co-menu__item--hover: 	;
+  --co-menu__item--hover: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2858,7 +2858,7 @@
   --bb-menu__item: 	;
   --bl-menu__item: 	;
   --bd-menu__item: 	;
-  --co-menu__item: 	;
+  --co-menu__item: 	var(--cl-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2877,7 +2877,7 @@
   --br-menu: 	;
   --bb-menu: 	;
   --bl-menu: 	;
-  --bd-menu: 	;
+  --bd-menu: 	5px;
   --co-menu: 	;
 }
 
