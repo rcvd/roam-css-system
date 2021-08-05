@@ -1274,6 +1274,10 @@
 :root {
   --bd-menu: 	0px;
   --bc-menu: 	var(--cl-black);
+  --bt-menu: 	;
+  --br-menu: 	;
+  --bb-menu: 	;
+  --bl-menu: 	;
   --co-menu: 	var(--cl-gray-100);
   }
 

@@ -1278,6 +1278,10 @@
 
 :root {
   --bc-menu: 	#2d2d2e;
+  --bt-menu: 	;
+  --br-menu: 	;
+  --bb-menu: 	;
+  --bl-menu: 	;
   --bd-menu: 	5px;
   --co-menu: 	var(--cl-gray-100);
 }

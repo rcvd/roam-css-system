@@ -2810,19 +2810,7 @@
   }
 }
 
-:root {
-  --bc-menu: 	var(--cl-gray-100);
-  --bd-menu: 	5px;
-  --co-menu: 	var(--cl-gray-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bc-menu: 	#2d2d2e;
-    --co-menu: 	var(--cl-gray-100);
-  }
-}
-
+Error 2023
 :root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }
