@@ -1655,7 +1655,7 @@
 
 :root {
   --bd-tooltip: 	;
-  --bc-tooltip: 	;
+  --bc-tooltip: 	var(--cl-black);
   --bt-tooltip: 	;
   --br-tooltip: 	;
   --bb-tooltip: 	;

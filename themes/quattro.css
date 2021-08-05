@@ -3615,7 +3615,7 @@
 }
 
 :root {
-  --bc-tooltip: 	;
+  --bc-tooltip: 	var(--cl-white);
   --bt-tooltip: 	;
   --br-tooltip: 	;
   --bb-tooltip: 	;
@@ -3625,7 +3625,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-tooltip: 	;
+    --bc-tooltip: 	var(--cl-black);
     --bt-tooltip: 	;
     --br-tooltip: 	;
     --bb-tooltip: 	;
