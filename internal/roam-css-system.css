@@ -1243,11 +1243,11 @@ div, textarea {
   color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
 }
 
-.rm-topbar .bp3-menu-item:hover>.bp3-icon svg {
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu-item:hover>.bp3-icon svg {
   fill:  							var(--fl-menu__svg-icon--hover, inherit)!important;
 }
 
-.rm-topbar .bp3-menu-item>.bp3-icon svg {
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu-item>.bp3-icon svg {
   fill:  							var(--fl-menu__svg-icon, #8A9BA8)!important;
 }
 
