@@ -1235,6 +1235,14 @@
 }
 
 :root {
+  --fl-menu__svg-icon--hover: 	var(--cl-white);
+}
+
+:root {
+  --fl-menu__svg-icon: 	var(--cl-gray-500);
+}
+
+:root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }
 
@@ -1835,33 +1843,6 @@
 }
 
 :root {
-  --bc-topbar-menu__button--active: 	#509cfe;
-  --bt-topbar-menu__button--active: 	none;
-  --br-topbar-menu__button--active: 	none;
-  --bb-topbar-menu__button--active: 	none;
-  --bl-topbar-menu__button--active: 	none;
-  --bd-topbar-menu__button--active: 	5px;
-  --co-topbar-menu__button--active: 	var(--cl-white);
-}
-
-:root {
-  --bc-topbar-menu__button: 	transparent;
-  --bt-topbar-menu__button: 	none;
-  --br-topbar-menu__button: 	none;
-  --bb-topbar-menu__button: 	none;
-  --bl-topbar-menu__button: 	none;
-  --bd-topbar-menu__button: 	;
-}
-
-:root {
-  --co-topbar-menu__button-icon--active: 	var(--cl-white);
-}
-
-:root {
-  --co-topbar-menu__button-icon: 	var(--cl-gray-700);
-}
-
-:root {
   --bc-topbar-menu__item--hover: 	var(--cl-gray-400);
   --bt-topbar-menu__item--hover: 	;
   --br-topbar-menu__item--hover: 	;
@@ -1904,14 +1885,6 @@
 :root {
   --bc-topbar-menu__menu-item--active: 	#0074e0;
   --co-topbar-menu__menu-item--active: 	var(--cl-white);
-}
-
-:root {
-  --fl-topbar-menu__svg-icon--hover: 	var(--cl-white);
-}
-
-:root {
-  --fl-topbar-menu__svg-icon: 	var(--cl-gray-900);
 }
 
 :root {
