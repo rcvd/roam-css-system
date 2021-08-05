@@ -326,11 +326,11 @@
 }
 
 :root {
-  --bc-code: 	#f9fafb;
-  --bt-code: 	1px solid #f9fafb;
-  --br-code: 	1px solid #f9fafb;
-  --bb-code: 	1px solid #f9fafb;
-  --bl-code: 	1px solid #f9fafb;
+  --bc-code: 	#f5f6f8;
+  --bt-code: 	1px solid #f5f6f8;
+  --br-code: 	1px solid #f5f6f8;
+  --bb-code: 	1px solid #f5f6f8;
+  --bl-code: 	1px solid #f5f6f8;
   --bd-code: 	5px;
   --co-code: 	var(--cl-gray-900);
   --ff-code: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;

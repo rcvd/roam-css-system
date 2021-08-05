@@ -1200,7 +1200,7 @@ div, textarea {
   font-weight:  			var(--fw-main, inherit);
 }
 
-.bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
+.rm-topbar .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
   background-color:  	var(--bc-menu__button--active, rgba(72, 176, 240, 0.5))!important;
   border-top:  				var(--bt-menu__button--active, none)!important;
   border-right:  			var(--br-menu__button--active, none)!important;
@@ -1210,7 +1210,7 @@ div, textarea {
   color:  						var(--co-menu__button--active, inherit)!important;
 }
 
-.bp3-menu button {
+.rm-topbar .bp3-menu button {
   background-color:  	var(--bc-menu__button, white)!important;
   border-top:  				var(--bt-menu__button, 0.5px solid rgb(206, 217, 224))!important;
   border-right:  			var(--br-menu__button, 0.5px solid rgb(206, 217, 224))!important;
@@ -1219,15 +1219,15 @@ div, textarea {
   border-radius:  		var(--bd-menu__button, 2px)!important;
 }
 
-.bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
+.rm-topbar .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
   color:  						var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
 }
 
-.bp3-menu span[style*='color: rgb(92, 112, 128);'] {
+.rm-topbar .bp3-menu span[style*='color: rgb(92, 112, 128);'] {
   color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
 }
 
-.bp3-menu-item:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item {
+.rm-topbar .bp3-menu-item:hover, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item {
   background-color:  	var(--bc-menu__item--hover, rgba(167,182,194,0.3));
   border-top:  				var(--bt-menu__item--hover, inherit);
   border-right:  			var(--br-menu__item--hover, inherit);
@@ -1237,7 +1237,7 @@ div, textarea {
   color:  						var(--co-menu__item--hover, inherit)!important;
 }
 
-.bp3-menu-item {
+.rm-topbar .bp3-menu-item {
   border-top:  				var(--bt-menu__item, inherit);
   border-right:  			var(--br-menu__item, inherit);
   border-bottom:  		var(--bb-menu__item, inherit);
@@ -1246,41 +1246,41 @@ div, textarea {
   color:  						var(--co-menu__item, inherit);
 }
 
-.bp3-menu-item:hover::before, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
+.rm-topbar .bp3-menu-item:hover::before, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
   color:  						var(--co-menu__item-icon--hover, inherit)!important;
 }
 
-.bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
+.rm-topbar .bp3-menu-item::before, .rm-topbar .bp3-menu-item>.bp3-icon {
   color:  						var(--co-menu__item-icon, #5c7080);
 }
 
-.bp3-menu-item:hover .bp3-menu-item-label, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
+.rm-topbar .bp3-menu-item:hover .bp3-menu-item-label, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
   color:  						var(--co-menu__item-label--hover, inherit)!important;
 }
 
-.bp3-menu-item .bp3-menu-item-label {
+.rm-topbar .bp3-menu-item .bp3-menu-item-label {
   color:  						var(--co-menu__item-label, #5c7080);
   text-decoration:  	var(--td-menu__item-label, inherit);
 }
 
-.bp3-menu-item.bp3-intent-primary {
+.rm-topbar .bp3-menu-item.bp3-intent-primary {
   color:  						var(--co-menu__item-primary, #106ba3);
 }
 
-.bp3-menu-item.bp3-intent-primary:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-intent-primary.bp3-menu-item, .bp3-menu-item.bp3-intent-primary.bp3-active {
+.rm-topbar .bp3-menu-item.bp3-intent-primary:hover, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-intent-primary.bp3-menu-item, .rm-topbar .bp3-menu-item.bp3-intent-primary.bp3-active {
   background-color:  	var(--bc-menu__menu-item--active, #137cbd);
   color:  						var(--co-menu__menu-item--active, inherit)!important;
 }
 
-.bp3-menu-item:hover>.bp3-icon svg {
+.rm-topbar .bp3-menu-item:hover>.bp3-icon svg {
   fill:  							var(--fl-menu__svg-icon--hover, inherit)!important;
 }
 
-.bp3-menu-item>.bp3-icon svg {
+.rm-topbar .bp3-menu-item>.bp3-icon svg {
   fill:  							var(--fl-menu__svg-icon, #8A9BA8)!important;
 }
 
-.bp3-menu {
+.rm-topbar .bp3-menu {
   background-color:  	var(--bc-menu, #fff);
   border-top:  				var(--bt-menu, inherit);
   border-right:  			var(--br-menu, inherit);
