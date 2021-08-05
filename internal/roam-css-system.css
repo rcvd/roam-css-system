@@ -1215,6 +1215,33 @@ div, textarea {
   text-decoration:  	var(--td-menu__item-label, inherit);
 }
 
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
+  background-color:  	var(--bc-menu__button--active, rgba(72, 176, 240, 0.5))!important;
+  border-top:  				var(--bt-menu__button--active, none)!important;
+  border-right:  			var(--br-menu__button--active, none)!important;
+  border-bottom:  		var(--bb-menu__button--active, none)!important;
+  border-left:  			var(--bl-menu__button--active, none)!important;
+  border-radius:  		var(--bd-menu__button--active, inherit)!important;
+  color:  						var(--co-menu__button--active, inherit)!important;
+}
+
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu button {
+  background-color:  	var(--bc-menu__button, white)!important;
+  border-top:  				var(--bt-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-right:  			var(--br-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-bottom:  		var(--bb-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-left:  			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-radius:  		var(--bd-menu__button, 2px)!important;
+}
+
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
+  color:  						var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
+}
+
+.bp3-portal .bp3-popover .bp3-popover-content .bp3-menu span[style*='color: rgb(92, 112, 128);'] {
+  color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
+}
+
 #rm-mobile-bar .rm-mobile-button .bp3-icon, #rm-mobile-bar .rm-mobile-button i, #rm-mobile-bar .rm-mobile-button {
   color:  						var(--co-mobile-bar__icon, #293742)!important;
 }

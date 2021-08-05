@@ -1172,16 +1172,50 @@ Error 2023
   --co-menu__item: 	;
 }
 
-Error 2023
+:root {
+  --bc-menu: 	;
+  --bt-menu: 	;
+  --br-menu: 	;
+  --bb-menu: 	;
+  --bl-menu: 	;
+  --bd-menu: 	5px;
+  --co-menu: 	;
+}
+
 :root {
   --co-menu__item-label--hover: 	#eeeeee;
 }
 
 :root {
-  --co-main: 	;
-  --ff-main: 	-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-  --fs-main: 	1rem;
-  --fw-main: 	normal;
+  --co-menu__item-label: 	#eeeeee;
+  --td-menu__item-label: 	none;
+}
+
+:root {
+  --bc-menu__button--active: 	var(--cl-blue-900);
+  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
+  --br-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bd-menu__button--active: 	5px;
+  --co-menu__button--active: 	;
+}
+
+:root {
+  --bc-menu__button: 	transparent;
+  --bt-menu__button: 	none;
+  --br-menu__button: 	none;
+  --bb-menu__button: 	none;
+  --bl-menu__button: 	none;
+  --bd-menu__button: 	;
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-gray-300);
+}
+
+:root {
+  --co-menu__button-icon: 	var(--cl-gray-300);
 }
 
 :root {

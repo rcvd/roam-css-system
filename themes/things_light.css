@@ -1207,6 +1207,33 @@
 }
 
 :root {
+  --bc-menu__button--active: 	#509cfe;
+  --bt-menu__button--active: 	none;
+  --br-menu__button--active: 	none;
+  --bb-menu__button--active: 	none;
+  --bl-menu__button--active: 	none;
+  --bd-menu__button--active: 	5px;
+  --co-menu__button--active: 	var(--cl-white);
+}
+
+:root {
+  --bc-menu__button: 	transparent;
+  --bt-menu__button: 	none;
+  --br-menu__button: 	none;
+  --bb-menu__button: 	none;
+  --bl-menu__button: 	none;
+  --bd-menu__button: 	;
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-white);
+}
+
+:root {
+  --co-menu__button-icon: 	var(--cl-gray-700);
+}
+
+:root {
   --co-mobile-bar__icon: 	var(--cl-gray-900);
 }
 

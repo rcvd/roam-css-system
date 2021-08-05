@@ -1207,6 +1207,33 @@
 }
 
 :root {
+  --bc-menu__button--active: 	var(--cl-blue-900);
+  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
+  --br-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bd-menu__button--active: 	3px;
+  --co-menu__button--active: 	;
+}
+
+:root {
+  --bc-menu__button: 	transparent;
+  --bt-menu__button: 	none;
+  --br-menu__button: 	none;
+  --bb-menu__button: 	none;
+  --bl-menu__button: 	none;
+  --bd-menu__button: 	;
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-gray-300);
+}
+
+:root {
+  --co-menu__button-icon: 	var(--cl-gray-300);
+}
+
+:root {
   --co-mobile-bar__icon: 	var(--cl-gray-100);
 }
 
