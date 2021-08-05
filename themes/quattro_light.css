@@ -1367,6 +1367,56 @@
 }
 
 :root {
+  --fl-topbar-popover__arrow-border: 	var(--cl-gray-100);
+}
+
+:root {
+  --fl-topbar-popover__arrow-fill: 	var(--cl-white);
+}
+
+:root {
+  --sd-topbar-popover__arrow-shadow: 	none;
+}
+
+:root {
+  --bc-topbar-popover__button--hover: 	;
+  --bt-topbar-popover__button--hover: 	1px solid var(--cl-red-500);
+  --br-topbar-popover__button--hover: 	1px solid var(--cl-red-500);
+  --bb-topbar-popover__button--hover: 	1px solid var(--cl-red-500);
+  --bl-topbar-popover__button--hover: 	1px solid var(--cl-red-500);
+  --co-topbar-popover__button--hover: 	;
+}
+
+:root {
+  --bc-topbar-popover__button: 	;
+  --bt-topbar-popover__button: 	;
+  --br-topbar-popover__button: 	1px solid var(--cl-gray-200);
+  --bb-topbar-popover__button: 	1px solid var(--cl-gray-200);
+  --bl-topbar-popover__button: 	1px solid var(--cl-gray-200);
+  --bd-topbar-popover__button: 	0px;
+  --co-topbar-popover__button: 	;
+}
+
+:root {
+  --bc-topbar-popover__content: 	var(--cl-white);
+  --bt-topbar-popover__content: 	1px solid var(--cl-gray-200);
+  --br-topbar-popover__content: 	;
+  --bb-topbar-popover__content: 	;
+  --bl-topbar-popover__content: 	;
+  --bd-topbar-popover__content: 	;
+  --co-topbar-popover__content: 	var(--cl-gray-900);
+}
+
+:root {
+  --co-topbar-popover__description: 	var(--cl-gray-400);
+}
+
+:root {
+  --bd-topbar-popover: 	0px;
+  --sd-topbar-popover: 	0px 0px 0px 1px var(--cl-gray-100);
+}
+
+:root {
   --bc-query__content: 	var(--cl-white);
 }
 

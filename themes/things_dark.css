@@ -1352,6 +1352,56 @@ Error 2023
 }
 
 :root {
+  --fl-topbar-popover__arrow-border: 	var(--cl-gray-800);
+}
+
+:root {
+  --fl-topbar-popover__arrow-fill: 	var(--cl-black);
+}
+
+:root {
+  --sd-topbar-popover__arrow-shadow: 	;
+}
+
+:root {
+  --bc-topbar-popover__button--hover: 	;
+  --bt-topbar-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --br-topbar-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --bb-topbar-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --bl-topbar-popover__button--hover: 	1px solid var(--cl-gray-800);
+  --co-topbar-popover__button--hover: 	;
+}
+
+:root {
+  --bc-topbar-popover__button: 	;
+  --bt-topbar-popover__button: 	1px solid var(--cl-gray-700);
+  --br-topbar-popover__button: 	1px solid var(--cl-gray-700);
+  --bb-topbar-popover__button: 	1px solid var(--cl-gray-700);
+  --bl-topbar-popover__button: 	1px solid var(--cl-gray-700);
+  --bd-topbar-popover__button: 	5px;
+  --co-topbar-popover__button: 	;
+}
+
+:root {
+  --bc-topbar-popover__content: 	#2c2c2c;
+  --bt-topbar-popover__content: 	1px solid #585858;
+  --br-topbar-popover__content: 	1px solid #585858;
+  --bb-topbar-popover__content: 	1px solid #585858;
+  --bl-topbar-popover__content: 	1px solid #585858;
+  --bd-topbar-popover__content: 	5px;
+  --co-topbar-popover__content: 	var(--cl-gray-100);
+}
+
+:root {
+  --co-topbar-popover__description: 	var(--cl-gray-600);
+}
+
+:root {
+  --bd-popover: 	5px;
+  --sd-popover: 	0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+
+:root {
   --bc-query__content: 	var(--cl-gray-900);
 }
 
