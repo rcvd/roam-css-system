@@ -1192,93 +1192,122 @@
   }
 
 :root {
-  --bd-menu__button--active: 	;
-  --bc-menu__button--active: 	var(--cl-blue-900);
-  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
-  --br-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
-  --co-menu__button--active: 	;
+  --bd-topbar-menu__button--active: 	;
+  --bc-topbar-menu__button--active: 	var(--cl-blue-900);
+  --bt-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --br-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bb-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bl-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --co-topbar-menu__button--active: 	;
   }
 
 :root {
-  --bd-menu__button: 	;
-  --bc-menu__button: 	transparent;
-  --bt-menu__button: 	none;
-  --br-menu__button: 	none;
-  --bb-menu__button: 	none;
-  --bl-menu__button: 	none;
+  --bd-topbar-menu__button: 	;
+  --bc-topbar-menu__button: 	transparent;
+  --bt-topbar-menu__button: 	none;
+  --br-topbar-menu__button: 	none;
+  --bb-topbar-menu__button: 	none;
+  --bl-topbar-menu__button: 	none;
   }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-topbar-menu__button-icon--active: 	var(--cl-gray-300);
   }
 
 :root {
-  --co-menu__button-icon: 	var(--cl-gray-300);
+  --co-topbar-menu__button-icon: 	var(--cl-gray-300);
   }
 
 :root {
-  --bd-menu__item--hover: 	0px;
-  --bc-menu__item--hover: 	var(--cl-blue-900);
-  --bt-menu__item--hover: 	1px solid var(--cl-blue-800);
-  --br-menu__item--hover: 	1px solid var(--cl-blue-800);
-  --bb-menu__item--hover: 	1px solid var(--cl-blue-800);
-  --bl-menu__item--hover: 	1px solid var(--cl-blue-800);
-  --co-menu__item--hover: 	var(--cl-white);
+  --bd-topbar-menu__item--hover: 	0px;
+  --bc-topbar-menu__item--hover: 	var(--cl-blue-900);
+  --bt-topbar-menu__item--hover: 	1px solid var(--cl-blue-800);
+  --br-topbar-menu__item--hover: 	1px solid var(--cl-blue-800);
+  --bb-topbar-menu__item--hover: 	1px solid var(--cl-blue-800);
+  --bl-topbar-menu__item--hover: 	1px solid var(--cl-blue-800);
+  --co-topbar-menu__item--hover: 	var(--cl-white);
   }
 
 :root {
-  --bd-menu__item: 	0px;
-  --bt-menu__item: 	1px solid transparent;
-  --br-menu__item: 	1px solid transparent;
-  --bb-menu__item: 	1px solid transparent;
-  --bl-menu__item: 	1px solid transparent;
-  --co-menu__item: 	var(--cl-gray-100);
+  --bd-topbar-menu__item: 	0px;
+  --bt-topbar-menu__item: 	1px solid transparent;
+  --br-topbar-menu__item: 	1px solid transparent;
+  --bb-topbar-menu__item: 	1px solid transparent;
+  --bl-topbar-menu__item: 	1px solid transparent;
+  --co-topbar-menu__item: 	var(--cl-gray-100);
   }
 
 :root {
-  --co-menu__item-icon--hover: 	;
+  --co-topbar-menu__item-icon--hover: 	;
   }
 
 :root {
-  --co-menu__item-icon: 	var(--cl-gray-900);
+  --co-topbar-menu__item-icon: 	var(--cl-gray-900);
   }
 
 :root {
-  --co-menu__item-label--hover: 	;
+  --co-topbar-menu__item-label--hover: 	;
   }
 
 :root {
-  --td-menu__item-label: 	none;
-  --co-menu__item-label: 	var(--cl-gray-500);
+  --td-topbar-menu__item-label: 	none;
+  --co-topbar-menu__item-label: 	var(--cl-gray-500);
   }
 
 :root {
-  --co-menu__item-primary: 	var(--cl-blue-500);
+  --co-topbar-menu__item-primary: 	var(--cl-blue-500);
   }
 
 :root {
-  --bc-menu__menu-item--active: 	var(--cl-blue-700);
-  --co-menu__menu-item--active: 	var(--cl-white);
+  --bc-topbar-menu__menu-item--active: 	var(--cl-blue-700);
+  --co-topbar-menu__menu-item--active: 	var(--cl-white);
   }
 
 :root {
-  --fl-menu__svg-icon--hover: 	var(--cl-gray-100);
+  --fl-topbar-menu__svg-icon--hover: 	var(--cl-gray-100);
   }
 
 :root {
-  --fl-menu__svg-icon: 	var(--cl-gray-100);
+  --fl-topbar-menu__svg-icon: 	var(--cl-gray-100);
   }
 
 :root {
-  --bd-menu: 	0px;
-  --bc-menu: 	var(--cl-black);
+  --bd-topbar-menu: 	0px;
+  --bc-topbar-menu: 	var(--cl-black);
+  --bt-topbar-menu: 	;
+  --br-topbar-menu: 	;
+  --bb-topbar-menu: 	;
+  --bl-topbar-menu: 	;
+  --co-topbar-menu: 	var(--cl-gray-100);
+  }
+
+:root {
+  --bd-menu__item--hover: 	;
+  --bc-menu__item--hover: 	;
+  --bt-menu__item--hover: 	;
+  --br-menu__item--hover: 	;
+  --bb-menu__item--hover: 	;
+  --bl-menu__item--hover: 	;
+  --co-menu__item--hover: 	;
+  }
+
+:root {
+  --bd-menu__item: 	;
+  --bt-menu__item: 	;
+  --br-menu__item: 	;
+  --bb-menu__item: 	;
+  --bl-menu__item: 	;
+  --co-menu__item: 	;
+  }
+
+:root {
+  --bd-menu: 	;
+  --bc-menu: 	;
   --bt-menu: 	;
   --br-menu: 	;
   --bb-menu: 	;
   --bl-menu: 	;
-  --co-menu: 	var(--cl-gray-100);
+  --co-menu: 	;
   }
 
 :root {

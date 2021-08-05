@@ -1201,34 +1201,97 @@ div, textarea {
 }
 
 .rm-topbar .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] {
-  background-color:  	var(--bc-menu__button--active, rgba(72, 176, 240, 0.5))!important;
-  border-top:  				var(--bt-menu__button--active, none)!important;
-  border-right:  			var(--br-menu__button--active, none)!important;
-  border-bottom:  		var(--bb-menu__button--active, none)!important;
-  border-left:  			var(--bl-menu__button--active, none)!important;
-  border-radius:  		var(--bd-menu__button--active, inherit)!important;
-  color:  						var(--co-menu__button--active, inherit)!important;
+  background-color:  	var(--bc-topbar-menu__button--active, rgba(72, 176, 240, 0.5))!important;
+  border-top:  				var(--bt-topbar-menu__button--active, none)!important;
+  border-right:  			var(--br-topbar-menu__button--active, none)!important;
+  border-bottom:  		var(--bb-topbar-menu__button--active, none)!important;
+  border-left:  			var(--bl-topbar-menu__button--active, none)!important;
+  border-radius:  		var(--bd-topbar-menu__button--active, inherit)!important;
+  color:  						var(--co-topbar-menu__button--active, inherit)!important;
 }
 
 .rm-topbar .bp3-menu button {
-  background-color:  	var(--bc-menu__button, white)!important;
-  border-top:  				var(--bt-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-  border-right:  			var(--br-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-  border-bottom:  		var(--bb-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-  border-left:  			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-  border-radius:  		var(--bd-menu__button, 2px)!important;
+  background-color:  	var(--bc-topbar-menu__button, white)!important;
+  border-top:  				var(--bt-topbar-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-right:  			var(--br-topbar-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-bottom:  		var(--bb-topbar-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-left:  			var(--bl-topbar-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+  border-radius:  		var(--bd-topbar-menu__button, 2px)!important;
 }
 
 .rm-topbar .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
-  color:  						var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
+  color:  						var(--co-topbar-menu__button-icon--active, rgb(92, 112, 128))!important;
 }
 
 .rm-topbar .bp3-menu span[style*='color: rgb(92, 112, 128);'] {
-  color:  						var(--co-menu__button-icon, rgb(92, 112, 128))!important;
+  color:  						var(--co-topbar-menu__button-icon, rgb(92, 112, 128))!important;
 }
 
 .rm-topbar .bp3-menu-item:hover, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item {
-  background-color:  	var(--bc-menu__item--hover, rgba(167,182,194,0.3));
+  background-color:  	var(--bc-topbar-menu__item--hover, rgba(167,182,194,0.3));
+  border-top:  				var(--bt-topbar-menu__item--hover, inherit);
+  border-right:  			var(--br-topbar-menu__item--hover, inherit);
+  border-bottom:  		var(--bb-topbar-menu__item--hover, inherit);
+  border-left:  			var(--bl-topbar-menu__item--hover, inherit);
+  border-radius:  		var(--bd-topbar-menu__item--hover, inherit);
+  color:  						var(--co-topbar-menu__item--hover, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item {
+  border-top:  				var(--bt-topbar-menu__item, inherit);
+  border-right:  			var(--br-topbar-menu__item, inherit);
+  border-bottom:  		var(--bb-topbar-menu__item, inherit);
+  border-left:  			var(--bl-topbar-menu__item, inherit);
+  border-radius:  		var(--bd-topbar-menu__item, inherit);
+  color:  						var(--co-topbar-menu__item, inherit);
+}
+
+.rm-topbar .bp3-menu-item:hover::before, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
+  color:  						var(--co-topbar-menu__item-icon--hover, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item::before, .rm-topbar .bp3-menu-item>.bp3-icon {
+  color:  						var(--co-topbar-menu__item-icon, #5c7080);
+}
+
+.rm-topbar .bp3-menu-item:hover .bp3-menu-item-label, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
+  color:  						var(--co-topbar-menu__item-label--hover, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item .bp3-menu-item-label {
+  color:  						var(--co-topbar-menu__item-label, #5c7080);
+  text-decoration:  	var(--td-topbar-menu__item-label, inherit);
+}
+
+.rm-topbar .bp3-menu-item.bp3-intent-primary {
+  color:  						var(--co-topbar-menu__item-primary, #106ba3);
+}
+
+.rm-topbar .bp3-menu-item.bp3-intent-primary:hover, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-intent-primary.bp3-menu-item, .rm-topbar .bp3-menu-item.bp3-intent-primary.bp3-active {
+  background-color:  	var(--bc-topbar-menu__menu-item--active, #137cbd);
+  color:  						var(--co-topbar-menu__menu-item--active, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item:hover>.bp3-icon svg {
+  fill:  							var(--fl-topbar-menu__svg-icon--hover, inherit)!important;
+}
+
+.rm-topbar .bp3-menu-item>.bp3-icon svg {
+  fill:  							var(--fl-topbar-menu__svg-icon, #8A9BA8)!important;
+}
+
+.rm-topbar .bp3-menu {
+  background-color:  	var(--bc-topbar-menu, #fff);
+  border-top:  				var(--bt-topbar-menu, inherit);
+  border-right:  			var(--br-topbar-menu, inherit);
+  border-bottom:  		var(--bb-topbar-menu, inherit);
+  border-left:  			var(--bl-topbar-menu, inherit);
+  border-radius:  		var(--bd-topbar-menu, 3px);
+  color:  						var(--co-topbar-menu, #182026);
+}
+
+.bp3-portal .bp3-popover-content .bp3-menu .bp3-menu-item:hover {
+  background-color:  	var(--bc-menu__item--hover, inherit);
   border-top:  				var(--bt-menu__item--hover, inherit);
   border-right:  			var(--br-menu__item--hover, inherit);
   border-bottom:  		var(--bb-menu__item--hover, inherit);
@@ -1237,7 +1300,7 @@ div, textarea {
   color:  						var(--co-menu__item--hover, inherit)!important;
 }
 
-.rm-topbar .bp3-menu-item {
+.bp3-portal .bp3-popover-content .bp3-menu .bp3-menu-item {
   border-top:  				var(--bt-menu__item, inherit);
   border-right:  			var(--br-menu__item, inherit);
   border-bottom:  		var(--bb-menu__item, inherit);
@@ -1246,48 +1309,14 @@ div, textarea {
   color:  						var(--co-menu__item, inherit);
 }
 
-.rm-topbar .bp3-menu-item:hover::before, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
-  color:  						var(--co-menu__item-icon--hover, inherit)!important;
-}
-
-.rm-topbar .bp3-menu-item::before, .rm-topbar .bp3-menu-item>.bp3-icon {
-  color:  						var(--co-menu__item-icon, #5c7080);
-}
-
-.rm-topbar .bp3-menu-item:hover .bp3-menu-item-label, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
-  color:  						var(--co-menu__item-label--hover, inherit)!important;
-}
-
-.rm-topbar .bp3-menu-item .bp3-menu-item-label {
-  color:  						var(--co-menu__item-label, #5c7080);
-  text-decoration:  	var(--td-menu__item-label, inherit);
-}
-
-.rm-topbar .bp3-menu-item.bp3-intent-primary {
-  color:  						var(--co-menu__item-primary, #106ba3);
-}
-
-.rm-topbar .bp3-menu-item.bp3-intent-primary:hover, .rm-topbar .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-intent-primary.bp3-menu-item, .rm-topbar .bp3-menu-item.bp3-intent-primary.bp3-active {
-  background-color:  	var(--bc-menu__menu-item--active, #137cbd);
-  color:  						var(--co-menu__menu-item--active, inherit)!important;
-}
-
-.rm-topbar .bp3-menu-item:hover>.bp3-icon svg {
-  fill:  							var(--fl-menu__svg-icon--hover, inherit)!important;
-}
-
-.rm-topbar .bp3-menu-item>.bp3-icon svg {
-  fill:  							var(--fl-menu__svg-icon, #8A9BA8)!important;
-}
-
-.rm-topbar .bp3-menu {
-  background-color:  	var(--bc-menu, #fff);
+.bp3-portal .bp3-popover-content {
+  background-color:  	var(--bc-menu, inherit);
   border-top:  				var(--bt-menu, inherit);
   border-right:  			var(--br-menu, inherit);
   border-bottom:  		var(--bb-menu, inherit);
   border-left:  			var(--bl-menu, inherit);
-  border-radius:  		var(--bd-menu, 3px);
-  color:  						var(--co-menu, #182026);
+  border-radius:  		var(--bd-menu, inherit);
+  color:  						var(--co-menu, inherit)!important;
 }
 
 #rm-mobile-bar .rm-mobile-button .bp3-icon, #rm-mobile-bar .rm-mobile-button i, #rm-mobile-bar .rm-mobile-button {

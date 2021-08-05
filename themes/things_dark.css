@@ -1197,40 +1197,103 @@
 }
 
 :root {
-  --bc-menu__button--active: 	var(--cl-blue-900);
-  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
-  --br-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bd-menu__button--active: 	5px;
-  --co-menu__button--active: 	;
+  --bc-topbar-menu__button--active: 	var(--cl-blue-900);
+  --bt-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --br-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bb-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bl-topbar-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bd-topbar-menu__button--active: 	5px;
+  --co-topbar-menu__button--active: 	;
 }
 
 :root {
-  --bc-menu__button: 	transparent;
-  --bt-menu__button: 	none;
-  --br-menu__button: 	none;
-  --bb-menu__button: 	none;
-  --bl-menu__button: 	none;
-  --bd-menu__button: 	;
+  --bc-topbar-menu__button: 	transparent;
+  --bt-topbar-menu__button: 	none;
+  --br-topbar-menu__button: 	none;
+  --bb-topbar-menu__button: 	none;
+  --bl-topbar-menu__button: 	none;
+  --bd-topbar-menu__button: 	;
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-topbar-menu__button-icon--active: 	var(--cl-gray-300);
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-topbar-menu__button-icon--active: 	var(--cl-gray-300);
 }
 
 :root {
-  --bc-menu__item--hover: 	#676666;
+  --bc-topbar-menu__item--hover: 	#676666;
+  --bt-topbar-menu__item--hover: 	;
+  --br-topbar-menu__item--hover: 	;
+  --bb-topbar-menu__item--hover: 	;
+  --bl-topbar-menu__item--hover: 	;
+  --bd-topbar-menu__item--hover: 	5px;
+  --co-topbar-menu__item--hover: 	#eeeeee;
+}
+
+:root {
+  --bt-topbar-menu__item: 	;
+  --br-topbar-menu__item: 	;
+  --bb-topbar-menu__item: 	;
+  --bl-topbar-menu__item: 	;
+  --bd-topbar-menu__item: 	5px;
+  --co-topbar-menu__item: 	#eeeeee;
+}
+
+:root {
+  --co-topbar-menu__item-icon--hover: 	#eeeeee;
+}
+
+:root {
+  --co-topbar-menu__item-icon: 	#eeeeee;
+}
+
+:root {
+  --co-topbar-menu__item-label--hover: 	#eeeeee;
+}
+
+:root {
+  --co-topbar-menu__item-label: 	#eeeeee;
+  --td-topbar-menu__item-label: 	none;
+}
+
+:root {
+  --co-topbar-menu__item-primary: 	var(--cl-blue-500);
+}
+
+:root {
+  --bc-topbar-menu__menu-item--active: 	var(--cl-blue-700);
+  --co-topbar-menu__menu-item--active: 	var(--cl-white);
+}
+
+:root {
+  --fl-topbar-menu__svg-icon--hover: 	var(--cl-gray-100);
+}
+
+:root {
+  --fl-topbar-menu__svg-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --bc-topbar-menu: 	#2d2d2e;
+  --bt-topbar-menu: 	;
+  --br-topbar-menu: 	;
+  --bb-topbar-menu: 	;
+  --bl-topbar-menu: 	;
+  --bd-topbar-menu: 	5px;
+  --co-topbar-menu: 	var(--cl-gray-100);
+}
+
+:root {
+  --bc-menu__item--hover: 	;
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
   --bd-menu__item--hover: 	5px;
-  --co-menu__item--hover: 	#eeeeee;
+  --co-menu__item--hover: 	;
 }
 
 :root {
@@ -1238,52 +1301,18 @@
   --br-menu__item: 	;
   --bb-menu__item: 	;
   --bl-menu__item: 	;
-  --bd-menu__item: 	5px;
-  --co-menu__item: 	#eeeeee;
+  --bd-menu__item: 	;
+  --co-menu__item: 	;
 }
 
 :root {
-  --co-menu__item-icon--hover: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-icon: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-label--hover: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-label: 	#eeeeee;
-  --td-menu__item-label: 	none;
-}
-
-:root {
-  --co-menu__item-primary: 	var(--cl-blue-500);
-}
-
-:root {
-  --bc-menu__menu-item--active: 	var(--cl-blue-700);
-  --co-menu__menu-item--active: 	var(--cl-white);
-}
-
-:root {
-  --fl-menu__svg-icon--hover: 	var(--cl-gray-100);
-}
-
-:root {
-  --fl-menu__svg-icon: 	var(--cl-gray-100);
-}
-
-:root {
-  --bc-menu: 	#2d2d2e;
-  --bt-menu: 	;
-  --br-menu: 	;
-  --bb-menu: 	;
-  --bl-menu: 	;
-  --bd-menu: 	5px;
-  --co-menu: 	var(--cl-gray-100);
+  --bc-topbar-menu: 	#2d2d2e;
+  --bt-topbar-menu: 	;
+  --br-topbar-menu: 	;
+  --bb-topbar-menu: 	;
+  --bl-topbar-menu: 	;
+  --bd-topbar-menu: 	5px;
+  --co-topbar-menu: 	var(--cl-gray-100);
 }
 
 :root {

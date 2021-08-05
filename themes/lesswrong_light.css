@@ -1192,40 +1192,103 @@
 }
 
 :root {
-  --bc-menu__button--active: 	var(--cl-green-50);
-  --bt-menu__button--active: 	1px solid var(--cl-green-100);
-  --br-menu__button--active: 	1px solid var(--cl-green-100);
-  --bb-menu__button--active: 	1px solid var(--cl-green-100);
-  --bl-menu__button--active: 	1px solid var(--cl-green-100);
-  --bd-menu__button--active: 	3px;
-  --co-menu__button--active: 	;
+  --bc-topbar-menu__button--active: 	var(--cl-green-50);
+  --bt-topbar-menu__button--active: 	1px solid var(--cl-green-100);
+  --br-topbar-menu__button--active: 	1px solid var(--cl-green-100);
+  --bb-topbar-menu__button--active: 	1px solid var(--cl-green-100);
+  --bl-topbar-menu__button--active: 	1px solid var(--cl-green-100);
+  --bd-topbar-menu__button--active: 	3px;
+  --co-topbar-menu__button--active: 	;
 }
 
 :root {
-  --bc-menu__button: 	transparent;
-  --bt-menu__button: 	none;
-  --br-menu__button: 	none;
-  --bb-menu__button: 	none;
-  --bl-menu__button: 	none;
-  --bd-menu__button: 	;
+  --bc-topbar-menu__button: 	transparent;
+  --bt-topbar-menu__button: 	none;
+  --br-topbar-menu__button: 	none;
+  --bb-topbar-menu__button: 	none;
+  --bl-topbar-menu__button: 	none;
+  --bd-topbar-menu__button: 	;
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-700);
+  --co-topbar-menu__button-icon--active: 	var(--cl-gray-700);
 }
 
 :root {
-  --co-menu__button-icon: 	var(--cl-gray-700);
+  --co-topbar-menu__button-icon: 	var(--cl-gray-700);
 }
 
 :root {
-  --bc-menu__item--hover: 	var(--cl-gray-500);
+  --bc-topbar-menu__item--hover: 	var(--cl-gray-500);
+  --bt-topbar-menu__item--hover: 	;
+  --br-topbar-menu__item--hover: 	;
+  --bb-topbar-menu__item--hover: 	;
+  --bl-topbar-menu__item--hover: 	;
+  --bd-topbar-menu__item--hover: 	3px;
+  --co-topbar-menu__item--hover: 	var(--cl-white);
+}
+
+:root {
+  --bt-topbar-menu__item: 	;
+  --br-topbar-menu__item: 	;
+  --bb-topbar-menu__item: 	;
+  --bl-topbar-menu__item: 	;
+  --bd-topbar-menu__item: 	3px;
+  --co-topbar-menu__item: 	var(--cl-gray-900);
+}
+
+:root {
+  --co-topbar-menu__item-icon--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-menu__item-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --co-topbar-menu__item-label--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-topbar-menu__item-label: 	var(--cl-gray-500);
+  --td-topbar-menu__item-label: 	none;
+}
+
+:root {
+  --co-topbar-menu__item-primary: 	var(--cl-green-500);
+}
+
+:root {
+  --bc-topbar-menu__menu-item--active: 	var(--cl-green-500);
+  --co-topbar-menu__menu-item--active: 	var(--cl-white);
+}
+
+:root {
+  --fl-topbar-menu__svg-icon--hover: 	var(--cl-white);
+}
+
+:root {
+  --fl-topbar-menu__svg-icon: 	var(--cl-gray-900);
+}
+
+:root {
+  --bc-topbar-menu: 	var(--cl-white);
+  --bt-topbar-menu: 	;
+  --br-topbar-menu: 	;
+  --bb-topbar-menu: 	;
+  --bl-topbar-menu: 	;
+  --bd-topbar-menu: 	0px;
+  --co-topbar-menu: 	var(--cl-gray-900);
+}
+
+:root {
+  --bc-menu__item--hover: 	;
   --bt-menu__item--hover: 	;
   --br-menu__item--hover: 	;
   --bb-menu__item--hover: 	;
   --bl-menu__item--hover: 	;
-  --bd-menu__item--hover: 	3px;
-  --co-menu__item--hover: 	var(--cl-white);
+  --bd-menu__item--hover: 	;
+  --co-menu__item--hover: 	;
 }
 
 :root {
@@ -1233,52 +1296,18 @@
   --br-menu__item: 	;
   --bb-menu__item: 	;
   --bl-menu__item: 	;
-  --bd-menu__item: 	3px;
-  --co-menu__item: 	var(--cl-gray-900);
+  --bd-menu__item: 	;
+  --co-menu__item: 	;
 }
 
 :root {
-  --co-menu__item-icon--hover: 	var(--cl-white);
-}
-
-:root {
-  --co-menu__item-icon: 	var(--cl-gray-100);
-}
-
-:root {
-  --co-menu__item-label--hover: 	var(--cl-white);
-}
-
-:root {
-  --co-menu__item-label: 	var(--cl-gray-500);
-  --td-menu__item-label: 	none;
-}
-
-:root {
-  --co-menu__item-primary: 	var(--cl-green-500);
-}
-
-:root {
-  --bc-menu__menu-item--active: 	var(--cl-green-500);
-  --co-menu__menu-item--active: 	var(--cl-white);
-}
-
-:root {
-  --fl-menu__svg-icon--hover: 	var(--cl-white);
-}
-
-:root {
-  --fl-menu__svg-icon: 	var(--cl-gray-900);
-}
-
-:root {
-  --bc-menu: 	var(--cl-white);
+  --bc-menu: 	;
   --bt-menu: 	;
   --br-menu: 	;
   --bb-menu: 	;
   --bl-menu: 	;
-  --bd-menu: 	0px;
-  --co-menu: 	var(--cl-gray-900);
+  --bd-menu: 	;
+  --co-menu: 	;
 }
 
 :root {
