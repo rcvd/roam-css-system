@@ -289,11 +289,11 @@
 }
 
 :root {
-  --bc-card: 	#e4e4e3;
-  --bt-card: 	1px solid #c8c8c8;
-  --br-card: 	1px solid #c8c8c8;
-  --bb-card: 	1px solid #c8c8c8;
-  --bl-card: 	1px solid #c8c8c8;
+  --bc-card: 	#f5f6f8;
+  --bt-card: 	1px solid #cacaca;
+  --br-card: 	1px solid #cacaca;
+  --bb-card: 	1px solid #cacaca;
+  --bl-card: 	1px solid #cacaca;
   --bd-card: 	5px;
   --sd-card: 	0px 0px 15px 0px rgba(0,0,0,0.2);
 }
@@ -318,19 +318,19 @@
 }
 
 :root {
-  --bt-checkmark: 	1px solid var(--cl-gray-400);
-  --br-checkmark: 	1px solid var(--cl-gray-400);
-  --bb-checkmark: 	1px solid var(--cl-gray-400);
-  --bl-checkmark: 	1px solid var(--cl-gray-400);
+  --bt-checkmark: 	1px solid #bfc3c5;
+  --br-checkmark: 	1px solid #bfc3c5;
+  --bb-checkmark: 	1px solid #bfc3c5;
+  --bl-checkmark: 	1px solid #bfc3c5;
   --bd-checkmark: 	3px;
 }
 
 :root {
-  --bc-code: 	var(--cl-gray-100);
-  --bt-code: 	1px solid var(--cl-gray-100);
-  --br-code: 	1px solid var(--cl-gray-100);
-  --bb-code: 	1px solid var(--cl-gray-100);
-  --bl-code: 	1px solid var(--cl-gray-100);
+  --bc-code: 	#f9fafb;
+  --bt-code: 	1px solid #f9fafb;
+  --br-code: 	1px solid #f9fafb;
+  --bb-code: 	1px solid #f9fafb;
+  --bl-code: 	1px solid #f9fafb;
   --bd-code: 	5px;
   --co-code: 	var(--cl-gray-900);
   --ff-code: 	SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
@@ -363,7 +363,7 @@
 }
 
 :root {
-  --bc-codeblock__container: 	var(--cl-gray-50);
+  --bc-codeblock__container: 	#f9fafb;
   --bt-codeblock__container: 	;
   --br-codeblock__container: 	none;
   --bb-codeblock__container: 	;
@@ -373,7 +373,7 @@
 }
 
 :root {
-  --br-codeblock__cursor: 	1px solid var(--cl-gray-900);
+  --br-codeblock__cursor: 	1px solid #5c9df5;
 }
 
 :root {
@@ -385,7 +385,7 @@
 }
 
 :root {
-  --bc-codeblock__gutters: 	var(--cl-gray-50);
+  --bc-codeblock__gutters: 	#f9fafb;
   --bt-codeblock__gutters: 	;
   --br-codeblock__gutters: 	none;
   --bb-codeblock__gutters: 	;
@@ -438,11 +438,11 @@
 }
 
 :root {
-  --bc-codeblock__selected--focused: 	var(--cl-gray-200);
+  --bc-codeblock__selected--focused: 	#c3d7ff;
 }
 
 :root {
-  --bc-codeblock__selected: 	var(--cl-gray-100);
+  --bc-codeblock__selected: 	#dbdbdb;
 }
 
 :root {
