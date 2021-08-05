@@ -1777,6 +1777,15 @@ span[style*='background-color: yellow'] {
   background-color:  	var(--bc-textarea__selection, inherit);
 }
 
+1px solid #d5d5d5 {
+  background-color:  	var(--bc-tooltip, inherit);
+  border-top:  				var(--bt-tooltip, inherit);
+  border-right:  			var(--br-tooltip, inherit);
+  border-bottom:  		var(--bb-tooltip, inherit);
+  border-left:  			var(--bl-tooltip, inherit);
+  border-radius:  		var(--bd-tooltip, inherit);
+}
+
 .rm-topbar {
   background-color:  	var(--bc-topbar__container, inherit);
   border-top:  				var(--bt-topbar__container, inherit);

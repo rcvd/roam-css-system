@@ -1767,6 +1767,15 @@
 }
 
 :root {
+  --bc-tooltip: 	#f2f3f5;
+  --bt-tooltip: 	1px solid #d5d5d5;
+  --br-tooltip: 	1px solid #d5d5d5;
+  --bb-tooltip: 	1px solid #d5d5d5;
+  --bl-tooltip: 	1px solid #d5d5d5;
+  --bd-tooltip: 	5px;
+}
+
+:root {
   --bc-topbar__container: 	;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;

@@ -3873,6 +3873,25 @@
 }
 
 :root {
+  --bc-tooltip: 	;
+  --bt-tooltip: 	;
+  --br-tooltip: 	;
+  --bb-tooltip: 	;
+  --bl-tooltip: 	;
+  --bd-tooltip: 	;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bc-tooltip: 	;
+    --bt-tooltip: 	;
+    --br-tooltip: 	;
+    --bb-tooltip: 	;
+    --bl-tooltip: 	;
+  }
+}
+
+:root {
   --bc-topbar__container: 	;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;

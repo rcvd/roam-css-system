@@ -1772,6 +1772,10 @@
 }
 
 :root {
+  --bc-textarea__selection: 	var(--cl-gray-300);
+}
+
+:root {
   --bc-topbar__container: 	#2e2e2e;
   --bt-topbar__container: 	;
   --br-topbar__container: 	;
