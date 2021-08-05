@@ -139,7 +139,7 @@
 }
 
 :root {
-  --co-app__h1: 	var(--cl-gray-900);
+  --co-app__h1: 	#24282b;
   --ff-app__h1: 	;
   --fs-app__h1: 	20px;
   --ft-app__h1: 	;
@@ -147,8 +147,8 @@
 }
 
 :root {
-  --bc-app: 	var(--cl-white);
-  --co-app: 	var(--cl-gray-900);
+  --bc-app: 	#ffffff;
+  --co-app: 	#24282b;
 }
 
 :root {
@@ -159,7 +159,7 @@
 }
 
 :root {
-  --co-block__ghost: 	var(--cl-gray-400);
+  --co-block__ghost: 	#b0b2b7;
 }
 
 :root {
@@ -167,11 +167,11 @@
 }
 
 :root {
-  --bc-block-highlight--grey: 	var(--cl-gray-100);
+  --bc-block-highlight--grey: 	#f5f6f8;
 }
 
 :root {
-  --bc-block-highlight--yellow: 	var(--cl-yellow-100);
+  --bc-block-highlight--yellow: 	#f7e594;
 }
 
 :root {
@@ -180,26 +180,26 @@
 }
 
 :root {
-  --bb-block-ref: 	.5px dotted var(--cl-gray-300);
+  --bb-block-ref: 	.5px dotted #bfc3c5;
 }
 
 :root {
-  --co-brackets: 	var(--cl-gray-500);
+  --co-brackets: 	#e6e8eb;
 }
 
 :root {
-  --bt-bullet__closed: 	4px solid var(--cl-gray-400);
-  --br-bullet__closed: 	4px solid var(--cl-gray-400);
-  --bb-bullet__closed: 	4px solid var(--cl-gray-400);
-  --bl-bullet__closed: 	4px solid var(--cl-gray-400);
+  --bt-bullet__closed: 	4px solid #bfc3c5;
+  --br-bullet__closed: 	4px solid #bfc3c5;
+  --bb-bullet__closed: 	4px solid #bfc3c5;
+  --bl-bullet__closed: 	4px solid #bfc3c5;
 }
 
 :root {
-  --bc-bullet__ghost: 	var(--cl-gray-400);
+  --bc-bullet__ghost: 	#bfc3c5;
 }
 
 :root {
-  --bc-bullet__inner: 	var(--cl-gray-400);
+  --bc-bullet__inner: 	#bfc3c5;
 }
 
 :root {
