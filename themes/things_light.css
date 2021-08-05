@@ -102,7 +102,7 @@
   --bc-allpages__row-header: 	transparent;
   --bb-allpages__row-header: 	1px solid #e6e8eb;
   --bd-allpages__row-header: 	0px;
-  --co-allpages__row-header: 	#0063c0;
+  --co-allpages__row-header: 	#24282b;
   --fs-allpages__row-header: 	1rem;
   --fw-allpages__row-header: 	600;
 }
@@ -922,7 +922,7 @@
 }
 
 :root {
-  --bt-hr: 	2px solid var(--cl-gray-100);
+  --bt-hr: 	1px solid #e6e8eb;
   --br-hr: 	;
   --bb-hr: 	;
   --bl-hr: 	;
