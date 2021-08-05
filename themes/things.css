@@ -811,11 +811,13 @@
 
 :root {
   --br-codeblock__cursor: 	1px solid #5c9df5;
+  --bl-codeblock__cursor: 	1px solid #5c9df5;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --br-codeblock__cursor: 	1px solid var(--cl-gray-100);
+    --bl-codeblock__cursor: 	;
   }
 }
 

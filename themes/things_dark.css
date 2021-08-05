@@ -372,6 +372,7 @@
 
 :root {
   --br-codeblock__cursor: 	1px solid var(--cl-gray-100);
+  --bl-codeblock__cursor: 	;
 }
 
 :root {

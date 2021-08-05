@@ -377,6 +377,7 @@ code {
 
 .CodeMirror-cursor {
   border-right:  			var(--br-codeblock__cursor, 1px solid black);
+  border-left:  			var(--bl-codeblock__cursor, inherit);
 }
 
 .cm-s-default .cm-def {
