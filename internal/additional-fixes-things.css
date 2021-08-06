@@ -156,3 +156,8 @@
 .roam-table td {
     overflow: auto;
 }
+
+/* Remove popover arrows */
+.bp3-popover-arrow {
+    display: none;
+}
