@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a--hover: 	#67acff;
+    --co-a--hover: 	#67acfe;
   }
 }
 
@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-a: 	#67acff;
+    --co-a: 	#67acfe;
   }
 }
 
@@ -49,10 +49,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-allpages__checkbox: 	transparent;
-    --bt-allpages__checkbox: 	1px solid #737372;
-    --br-allpages__checkbox: 	1px solid #737372;
-    --bb-allpages__checkbox: 	1px solid #737372;
-    --bl-allpages__checkbox: 	1px solid #737372;
+    --bt-allpages__checkbox: 	1px solid #727272;
+    --br-allpages__checkbox: 	1px solid #727272;
+    --bb-allpages__checkbox: 	1px solid #727272;
+    --bl-allpages__checkbox: 	1px solid #727272;
     --sd-allpages__checkbox: 	;
   }
 }
@@ -70,12 +70,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill: 	var(--cl-gray-400);
+    --bc-allpages__clickable-pill: 	transparent;
     --bt-allpages__clickable-pill: 	none;
     --br-allpages__clickable-pill: 	none;
     --bb-allpages__clickable-pill: 	none;
     --bl-allpages__clickable-pill: 	none;
-    --co-allpages__clickable-pill: 	var(--cl-black);
+    --co-allpages__clickable-pill: 	#818180;
   }
 }
 
@@ -92,12 +92,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-1: 	var(--cl-gray-500);
+    --bc-allpages__clickable-pill-1: 	transparent;
     --bt-allpages__clickable-pill-1: 	none;
     --br-allpages__clickable-pill-1: 	none;
     --bb-allpages__clickable-pill-1: 	none;
     --bl-allpages__clickable-pill-1: 	none;
-    --co-allpages__clickable-pill-1: 	var(--cl-black);
+    --co-allpages__clickable-pill-1: 	#818180;
   }
 }
 
@@ -114,12 +114,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-2: 	var(--cl-gray-600);
+    --bc-allpages__clickable-pill-2: 	transparent;
     --bt-allpages__clickable-pill-2: 	none;
     --br-allpages__clickable-pill-2: 	none;
     --bb-allpages__clickable-pill-2: 	none;
     --bl-allpages__clickable-pill-2: 	none;
-    --co-allpages__clickable-pill-2: 	var(--cl-black);
+    --co-allpages__clickable-pill-2: 	#818180;
   }
 }
 
@@ -136,12 +136,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__clickable-pill-3: 	var(--cl-gray-700);
+    --bc-allpages__clickable-pill-3: 	transparent;
     --bt-allpages__clickable-pill-3: 	none;
     --br-allpages__clickable-pill-3: 	none;
     --bb-allpages__clickable-pill-3: 	none;
     --bl-allpages__clickable-pill-3: 	none;
-    --co-allpages__clickable-pill-3: 	var(--cl-black);
+    --co-allpages__clickable-pill-3: 	#818180;
   }
 }
 
@@ -153,7 +153,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bc-allpages__clickable-pill-empty: 	transparent;
-    --co-allpages__clickable-pill-empty: 	var(--cl-gray-600);
+    --co-allpages__clickable-pill-empty: 	#818180;
   }
 }
 
@@ -178,7 +178,7 @@
     --bb-allpages__input: 	none;
     --bl-allpages__input: 	none;
     --sd-allpages__input: 	none;
-    --co-allpages__input: 	var(--cl-gray-100);
+    --co-allpages__input: 	#adadac;
   }
 }
 
@@ -188,7 +188,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__input-icon: 	var(--cl-gray-500);
+    --co-allpages__input-icon: 	#787877;
   }
 }
 
@@ -200,7 +200,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bb-allpages__row: 	none;
-    --co-allpages__row: 	var(--cl-gray-600);
+    --co-allpages__row: 	#818180;
   }
 }
 
@@ -3106,7 +3106,7 @@
     --bt-quote: 	;
     --br-quote: 	;
     --bb-quote: 	;
-    --bl-quote: 	3px solid var(--cl-gray-800);
+    --bl-quote: 	8px solid #67acfe;
   }
 }
 

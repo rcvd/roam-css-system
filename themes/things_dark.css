@@ -3,12 +3,12 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
 :root {
-  --co-a--hover: 	#67acff;
+  --co-a--hover: 	#67acfe;
   --td-a--hover: 	none;
 }
 
 :root {
-  --co-a: 	#67acff;
+  --co-a: 	#67acfe;
   --td-a: 	none;
 }
 
@@ -19,61 +19,61 @@
 
 :root {
   --bc-allpages__checkbox: 	transparent;
-  --bt-allpages__checkbox: 	1px solid #737372;
-  --br-allpages__checkbox: 	1px solid #737372;
-  --bb-allpages__checkbox: 	1px solid #737372;
-  --bl-allpages__checkbox: 	1px solid #737372;
+  --bt-allpages__checkbox: 	1px solid #727272;
+  --br-allpages__checkbox: 	1px solid #727272;
+  --bb-allpages__checkbox: 	1px solid #727272;
+  --bl-allpages__checkbox: 	1px solid #727272;
   --bd-allpages__checkbox: 	3px;
   --sd-allpages__checkbox: 	;
 }
 
 :root {
-  --bc-allpages__clickable-pill: 	var(--cl-gray-400);
+  --bc-allpages__clickable-pill: 	transparent;
   --bt-allpages__clickable-pill: 	none;
   --br-allpages__clickable-pill: 	none;
   --bb-allpages__clickable-pill: 	none;
   --bl-allpages__clickable-pill: 	none;
   --bd-allpages__clickable-pill: 	;
-  --co-allpages__clickable-pill: 	var(--cl-black);
+  --co-allpages__clickable-pill: 	#818180;
   --op-allpages__clickable-pill: 	;
 }
 
 :root {
-  --bc-allpages__clickable-pill-1: 	var(--cl-gray-500);
+  --bc-allpages__clickable-pill-1: 	transparent;
   --bt-allpages__clickable-pill-1: 	none;
   --br-allpages__clickable-pill-1: 	none;
   --bb-allpages__clickable-pill-1: 	none;
   --bl-allpages__clickable-pill-1: 	none;
   --bd-allpages__clickable-pill-1: 	;
-  --co-allpages__clickable-pill-1: 	var(--cl-black);
+  --co-allpages__clickable-pill-1: 	#818180;
   --op-allpages__clickable-pill-1: 	1;
 }
 
 :root {
-  --bc-allpages__clickable-pill-2: 	var(--cl-gray-600);
+  --bc-allpages__clickable-pill-2: 	transparent;
   --bt-allpages__clickable-pill-2: 	none;
   --br-allpages__clickable-pill-2: 	none;
   --bb-allpages__clickable-pill-2: 	none;
   --bl-allpages__clickable-pill-2: 	none;
   --bd-allpages__clickable-pill-2: 	;
-  --co-allpages__clickable-pill-2: 	var(--cl-black);
+  --co-allpages__clickable-pill-2: 	#818180;
   --op-allpages__clickable-pill-2: 	1;
 }
 
 :root {
-  --bc-allpages__clickable-pill-3: 	var(--cl-gray-700);
+  --bc-allpages__clickable-pill-3: 	transparent;
   --bt-allpages__clickable-pill-3: 	none;
   --br-allpages__clickable-pill-3: 	none;
   --bb-allpages__clickable-pill-3: 	none;
   --bl-allpages__clickable-pill-3: 	none;
   --bd-allpages__clickable-pill-3: 	;
-  --co-allpages__clickable-pill-3: 	var(--cl-black);
+  --co-allpages__clickable-pill-3: 	#818180;
   --op-allpages__clickable-pill-3: 	1;
 }
 
 :root {
   --bc-allpages__clickable-pill-empty: 	transparent;
-  --co-allpages__clickable-pill-empty: 	var(--cl-gray-600);
+  --co-allpages__clickable-pill-empty: 	#818180;
 }
 
 :root {
@@ -84,18 +84,18 @@
   --bl-allpages__input: 	none;
   --bd-allpages__input: 	0px;
   --sd-allpages__input: 	none;
-  --co-allpages__input: 	var(--cl-gray-100);
+  --co-allpages__input: 	#adadac;
   --fs-allpages__input: 	1rem;
   --fw-allpages__input: 	normal;
 }
 
 :root {
-  --co-allpages__input-icon: 	var(--cl-gray-500);
+  --co-allpages__input-icon: 	#787877;
 }
 
 :root {
   --bb-allpages__row: 	none;
-  --co-allpages__row: 	var(--cl-gray-600);
+  --co-allpages__row: 	#818180;
 }
 
 :root {
@@ -1403,7 +1403,7 @@
   --bt-quote: 	;
   --br-quote: 	;
   --bb-quote: 	;
-  --bl-quote: 	3px solid var(--cl-gray-800);
+  --bl-quote: 	8px solid #67acfe;
   --bd-quote: 	;
   --ff-quote: 	;
   --fs-quote: 	1rem;
