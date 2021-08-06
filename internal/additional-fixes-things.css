@@ -139,3 +139,11 @@
 .rm-all-pages .table .rm-pages-row .rm-pages-col {
     text-align: left;
 }
+
+/* Change padding for tags */
+.rm-page-ref--tag {
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px
+}
+
+

@@ -1163,34 +1163,34 @@
 }
 
 :root {
-  --bc-datepicker-html__select--hover: 	var(--cl-gray-200);
-  --co-datepicker-html__select--hover: 	var(--cl-black);
+  --bc-datepicker__select--hover: 	var(--cl-gray-200);
+  --co-datepicker__select--hover: 	var(--cl-black);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-datepicker-html__select--hover: 	var(--cl-gray-800);
-    --co-datepicker-html__select--hover: 	var(--cl-white);
+    --bc-datepicker__select--hover: 	var(--cl-gray-800);
+    --co-datepicker__select--hover: 	var(--cl-white);
   }
 }
 
 :root {
-  --co-datepicker-html__select: 	var(--cl-gray-900);
+  --co-datepicker__select: 	var(--cl-gray-900);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-datepicker-html__select: 	var(--cl-gray-100);
+    --co-datepicker__select: 	var(--cl-gray-100);
   }
 }
 
 :root {
-  --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+  --co-datepicker__select-icon: 	var(--cl-gray-500);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-datepicker-html__select-icon: 	var(--cl-gray-500);
+    --co-datepicker__select-icon: 	var(--cl-gray-500);
   }
 }
 
