@@ -95,3 +95,12 @@
         filter: brightness(70%);
     }
 }
+
+/* Remove transparency from graph menu */
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
+    opacity: 100%;
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
+    opacity: 100%;
+}
