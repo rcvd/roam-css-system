@@ -45,36 +45,6 @@ hr {
     width: 35px;
 }
 
-.controls .simple-bullet-outer,
-.rm-block__controls .simple-bullet-outer {
-    padding-left: 1px;
-    margin-top: 8px;
-}
-
-.roam-block-container .rm-block-main {
-    padding-left: 5px;
-}
-
-.rm-multibar {
-    left: -1px;
-}
-
-.rm-ref-page-view {
-    padding-left: 7px;
-}
-
-.rm-reference-container>.flex-h-box {
-    padding-bottom: 2px;
-}
-
-.rm-reference-main>div>div:nth-child(2)>div.flex-h-box {
-    margin-top: 12px;
-}
-
-.rm-reference-item {
-    margin-left: 16px;
-}
-
 .bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
 }
@@ -87,7 +57,7 @@ hr {
     background-image: none;
 }
 
-.bp3-control input:checked ~ .bp3-control-indicator {
+.bp3-control input:checked~.bp3-control-indicator {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -161,32 +131,33 @@ hr {
 }
 
 span.rm-page-ref--tag[data-tag='evergreen'] {
-  background-color:     transparent;
-  border-top:           1px solid var(--cl-green-500);
-  border-right:         1px solid var(--cl-green-500);
-  border-bottom:        1px solid var(--cl-green-500);
-  border-left:          1px solid var(--cl-green-500);
-  border-radius:        3px;
-  color:                var(--cl-green-500);
-  padding:              3px;
+    background-color: transparent;
+    border-top: 1px solid var(--cl-green-500);
+    border-right: 1px solid var(--cl-green-500);
+    border-bottom: 1px solid var(--cl-green-500);
+    border-left: 1px solid var(--cl-green-500);
+    border-radius: 3px;
+    color: var(--cl-green-500);
+    padding: 3px;
 }
 
 span.rm-page-ref--tag[data-tag='evergreen']:hover {
-  background-color:     transparent;
-  border-top:           1px solid var(--cl-green-700);
-  border-right:         1px solid var(--cl-green-700);
-  border-bottom:        1px solid var(--cl-green-700);
-  border-left:          1px solid var(--cl-green-700);
-  border-radius:        3px;
-  color:                var(--cl-green-700);
-  padding:              3px;
+    background-color: transparent;
+    border-top: 1px solid var(--cl-green-700);
+    border-right: 1px solid var(--cl-green-700);
+    border-bottom: 1px solid var(--cl-green-700);
+    border-left: 1px solid var(--cl-green-700);
+    border-radius: 3px;
+    color: var(--cl-green-700);
+    padding: 3px;
 }
 
 div {
     line-height: 1.6rem;
 }
 
-.rm-nested-refs .flex-h-box, .rm-inline-references .flex-h-box {
+.rm-nested-refs .flex-h-box,
+.rm-inline-references .flex-h-box {
     align-items: center;
 }
 
@@ -214,22 +185,22 @@ div {
     padding: 3px 10px;
 }
 
-.bp3-elevation-3 > div {
-    border-radius: 5px!important;
-    padding:  3px 10px;
+.bp3-elevation-3>div {
+    border-radius: 5px !important;
+    padding: 3px 10px;
 }
 
 .bp3-datepicker .bp3-datepicker-day-wrapper {
-    padding:  0px 7px;
+    padding: 0px 7px;
 }
 
 .rm-jump-date-picker .bp3-datepicker-day-wrapper {
-    height:  unset;
+    height: unset;
 }
 
 .bp3-datepicker .DayPicker-Day {
-    width:  unset;
-    height:  unset;
+    width: unset;
+    height: unset;
 }
 
 .bp3-datepicker .DayPicker-Day.DayPicker-Day--isToday .bp3-datepicker-day-wrapper {
@@ -237,7 +208,7 @@ div {
 }
 
 :focus {
-    outline:  none;
+    outline: none;
 }
 
 .rm-pages-title-text strong {
@@ -255,3 +226,85 @@ div {
 .bp3-select-popover .bp3-popover-content {
     padding: 0;
 }
+
+/* Fix bullet position */
+.controls .simple-bullet-outer,
+.rm-block__controls .simple-bullet-outer {
+    padding-left: 2px;
+    margin-top: 4px;
+}
+
+.roam-block-container .rm-block-main {
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.rm-bullet {
+    margin-top: 1px;
+}
+
+.rm-bullet--numbered {
+    margin-top: -1px;
+}
+
+@-moz-document url-prefix() {
+    .controls .simple-bullet-outer,
+    .rm-block__controls .simple-bullet-outer {
+        margin-top: 7.5px;
+    }
+
+    .controls,
+    .rm-block__controls {
+        padding-top: 0px;
+    }
+
+    .check-container {
+        top: 4px;
+    }
+
+    .block-expand .rm-caret {
+        margin-top: 6px;
+    }
+
+    .rm-bullet--numbered {
+        margin-top: 3px;
+    }
+}
+
+/* Align main block */
+.roam-block-container .rm-block-main {
+    padding-left: 4px;
+}
+
+/* Align multibar */
+.rm-multibar {
+  left: -2px;
+}
+
+/* Align references */
+.rm-ref-page-view {
+    padding-left: 7px;
+}
+
+.rm-reference-container>.flex-h-box {
+    padding-bottom: 2px;
+}
+
+.rm-reference-main>div>div:nth-child(2)>div.flex-h-box {
+    margin-top: 12px;
+}
+
+.rm-reference-item {
+    margin-left: 16px;
+}
+
+/* Align caret for linked references */
+.rm-reference-container>.flex-h-box {
+    align-items: center;
+}
+
+.rm-reference-container>.flex-h-box>.rm-caret {
+    margin-bottom: 1px;
+}
+
+/* Set min height for unlinked references */
