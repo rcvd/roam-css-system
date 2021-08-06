@@ -215,9 +215,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-allpages__row-header: 	var(--cl-gray-800);
-    --bb-allpages__row-header: 	;
-    --co-allpages__row-header: 	var(--cl-gray-100);
+    --bc-allpages__row-header: 	transparent;
+    --bb-allpages__row-header: 	1px solid #4a6b95;
+    --co-allpages__row-header: 	#ffffff;
   }
 }
 
@@ -238,7 +238,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__sorted-header-text: 	var(--cl-gray-300);
+    --co-allpages__sorted-header-text: 	#ffffff;
   }
 }
 
@@ -265,7 +265,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__title-header: 	;
+    --co-allpages__title-header: 	#ffffff;
   }
 }
 
@@ -278,7 +278,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-allpages__title-text: 	var(--cl-gray-200);
+    --co-allpages__title-text: 	#959595;
   }
 }
 
@@ -292,7 +292,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --co-app__h1: 	#e5e5e5;
+    --co-app__h1: 	#ffffff;
   }
 }
 
@@ -303,8 +303,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bc-app: 	var(--cl-gray-900);
-    --co-app: 	var(--cl-gray-50);
+    --bc-app: 	#2b2a2a;
+    --co-app: 	#ffffff;
   }
 }
 

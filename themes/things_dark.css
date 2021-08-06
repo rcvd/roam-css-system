@@ -99,10 +99,10 @@
 }
 
 :root {
-  --bc-allpages__row-header: 	var(--cl-gray-800);
-  --bb-allpages__row-header: 	;
+  --bc-allpages__row-header: 	transparent;
+  --bb-allpages__row-header: 	1px solid #4a6b95;
   --bd-allpages__row-header: 	0px;
-  --co-allpages__row-header: 	var(--cl-gray-100);
+  --co-allpages__row-header: 	#ffffff;
   --fs-allpages__row-header: 	1rem;
   --fw-allpages__row-header: 	700;
 }
@@ -112,7 +112,7 @@
 }
 
 :root {
-  --co-allpages__sorted-header-text: 	var(--cl-gray-300);
+  --co-allpages__sorted-header-text: 	#ffffff;
   --fw-allpages__sorted-header-text: 	700;
 }
 
@@ -124,7 +124,7 @@
 }
 
 :root {
-  --co-allpages__title-header: 	;
+  --co-allpages__title-header: 	#ffffff;
   --ft-allpages__title-header: 	;
   --fw-allpages__title-header: 	700;
   --td-allpages__title-header: 	;
@@ -132,14 +132,14 @@
 }
 
 :root {
-  --co-allpages__title-text: 	var(--cl-gray-200);
+  --co-allpages__title-text: 	#959595;
   --ft-allpages__title-text: 	;
   --fw-allpages__title-text: 	;
   --td-allpages__title-text: 	none;
 }
 
 :root {
-  --co-app__h1: 	#e5e5e5;
+  --co-app__h1: 	#ffffff;
   --ff-app__h1: 	;
   --fs-app__h1: 	20px;
   --ft-app__h1: 	;
@@ -147,8 +147,8 @@
 }
 
 :root {
-  --bc-app: 	var(--cl-gray-900);
-  --co-app: 	var(--cl-gray-50);
+  --bc-app: 	#2b2a2a;
+  --co-app: 	#ffffff;
 }
 
 :root {
