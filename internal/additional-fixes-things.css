@@ -105,3 +105,27 @@
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
     opacity: 1;
 }
+
+/* Remove gradient from buttons */
+.bp3-button:not([class*='bp3-intent-']) {
+    background-image: none;
+}
+
+/* Remove focus border */
+:focus {
+    outline: none;
+}
+
+/* Make menu items lower */
+.bp3-menu-item {
+    padding: 3px 10px;
+}
+
+/* Fix border for popover menus */
+.bp3-select-popover .bp3-popover-content {
+    padding: 0;
+}
+
+.bp3-select-popover .bp3-menu {
+  padding: 5px;
+}
