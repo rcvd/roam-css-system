@@ -2,7 +2,6 @@
 @import url('https://rcvd.github.io/roam-css-system/internal/colors-things.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
 @import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things.css');
-
 :root {
   --co-a--hover: 	#67acff;
   --td-a--hover: 	none;
@@ -113,7 +112,8 @@
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	var(--cl-green-500);
+  --co-allpages__sorted-header-text: 	var(--cl-gray-300);
+  --fw-allpages__sorted-header-text: 	700;
 }
 
 :root {
@@ -466,8 +466,16 @@
   --co-codeblock__variable-2: 	var(--cl-blue-300);
 }
 
-Error 2023
-Error 2023
+:root {
+  --bc-datepicker__day--hover: 	#296cbe;
+  --bd-datepicker__day--hover: 	2px;
+  --co-datepicker__day--hover: 	var(--cl-white);
+}
+
+:root {
+  --co-datepicker__day: 	;
+}
+
 :root {
   --bc-datepicker__nav-button--hover: 	;
   --bt-datepicker__nav-button--hover: 	;
@@ -490,8 +498,15 @@ Error 2023
   --bd-datepicker__nav-button: 	2px;
 }
 
-Error 2023
-Error 2023
+:root {
+  --co-datepicker__nav-button: 	;
+}
+
+:root {
+  --co-datepicker__today: 	var(--cl-green-500);
+  --fw-datepicker__today: 	bold;
+}
+
 :root {
   --br-datepicker__weeknumber: 	1px solid var(--cl-gray-700);
   --co-datepicker__weeknumber: 	var(--cl-gray-500);
@@ -1177,7 +1192,7 @@ Error 2023
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-menu__button-icon: 	var(--cl-gray-300);
 }
 
 :root {
@@ -1729,7 +1744,12 @@ Error 2023
 }
 
 :root {
-  --bc-textarea__selection: 	var(--cl-gray-300);
+  --bc-tooltip: 	;
+  --bt-tooltip: 	;
+  --br-tooltip: 	;
+  --bb-tooltip: 	;
+  --bl-tooltip: 	;
+  --bd-tooltip: 	5px;
 }
 
 :root {
@@ -1755,9 +1775,7 @@ Error 2023
 }
 
 :root {
-  --bc-topbar-datepicker__day--selected: 	#67acfe;
-  --bd-topbar-datepicker__day--selected: 	2px;
-  --co-topbar-datepicker__day--selected: 	var(--cl-white);
+  --co-topbar-datepicker__day: 	var(--cl-white);
 }
 
 :root {
@@ -1792,12 +1810,7 @@ Error 2023
 }
 
 :root {
-  --bc-topbar-datepicker__nav-button: 	;
-  --bt-topbar-datepicker__nav-button: 	none;
-  --br-topbar-datepicker__nav-button: 	none;
-  --bb-topbar-datepicker__nav-button: 	none;
-  --bl-topbar-datepicker__nav-button: 	none;
-  --bd-topbar-datepicker__nav-button: 	2px;
+  --co-topbar-datepicker__nav-button: 	var(--cl-white);
 }
 
 :root {
@@ -1873,5 +1886,11 @@ Error 2023
 
 :root {
   --co-zotero__primary: 	var(--cl-green-500);
+}
+
+:root {
+  --bc-zotero__sequence: 	var(--cl-gray-800);
+  --br-zotero__sequence: 	1px solid var(--cl-black);
+  --fs-zotero__sequence: 	;
 }
 
