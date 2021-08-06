@@ -1154,6 +1154,96 @@ Error 2023
 }
 
 :root {
+  --bc-menu__button--active: 	var(--cl-blue-900);
+  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
+  --br-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
+  --bd-menu__button--active: 	5px;
+  --co-menu__button--active: 	;
+}
+
+:root {
+  --bc-menu__button: 	transparent;
+  --bt-menu__button: 	none;
+  --br-menu__button: 	none;
+  --bb-menu__button: 	none;
+  --bl-menu__button: 	none;
+  --bd-menu__button: 	;
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-gray-300);
+}
+
+:root {
+  --co-menu__button-icon--active: 	var(--cl-gray-300);
+}
+
+:root {
+  --bc-menu__item--hover: 	#676666;
+  --bt-menu__item--hover: 	;
+  --br-menu__item--hover: 	;
+  --bb-menu__item--hover: 	;
+  --bl-menu__item--hover: 	;
+  --bd-menu__item--hover: 	5px;
+  --co-menu__item--hover: 	#eeeeee;
+}
+
+:root {
+  --bt-menu__item: 	;
+  --br-menu__item: 	;
+  --bb-menu__item: 	;
+  --bl-menu__item: 	;
+  --bd-menu__item: 	5px;
+  --co-menu__item: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-icon--hover: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-icon: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-label--hover: 	#eeeeee;
+}
+
+:root {
+  --co-menu__item-label: 	#eeeeee;
+  --td-menu__item-label: 	none;
+}
+
+:root {
+  --co-menu__item-primary: 	var(--cl-blue-500);
+}
+
+:root {
+  --bc-menu__menu-item--active: 	var(--cl-blue-700);
+  --co-menu__menu-item--active: 	var(--cl-white);
+}
+
+:root {
+  --fl-menu__svg-icon--hover: 	var(--cl-gray-100);
+}
+
+:root {
+  --fl-menu__svg-icon: 	var(--cl-gray-100);
+}
+
+:root {
+  --bc-menu: 	#2d2d2e;
+  --bt-menu: 	;
+  --br-menu: 	;
+  --bb-menu: 	;
+  --bl-menu: 	;
+  --bd-menu: 	5px;
+  --co-menu: 	var(--cl-gray-100);
+}
+
+:root {
   --co-mobile-bar__icon: 	var(--cl-gray-100);
 }
 
@@ -1756,82 +1846,32 @@ Error 2023
 }
 
 :root {
-  --bc-menu__button--active: 	var(--cl-blue-900);
-  --bt-menu__button--active: 	1px solid var(--cl-blue-800);
-  --br-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bb-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bl-menu__button--active: 	1px solid var(--cl-blue-800);
-  --bd-menu__button--active: 	5px;
-  --co-menu__button--active: 	;
+  --bc-version__bullet: 	#4d4e4d;
 }
 
 :root {
-  --bc-menu__button: 	transparent;
-  --bt-menu__button: 	none;
-  --br-menu__button: 	none;
-  --bb-menu__button: 	none;
-  --bl-menu__button: 	none;
-  --bd-menu__button: 	;
+  --bc-zoom__mask: 	#4d4e4d;
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-zoom-item: 	var(--cl-gray-500);
+  --fs-zoom-item: 	1rem;
 }
 
 :root {
-  --co-menu__button-icon--active: 	var(--cl-gray-300);
+  --co-zotero__h5: 	var(--cl-gray-100);
 }
 
 :root {
-  --bc-menu__item--hover: 	#676666;
-  --bt-menu__item--hover: 	;
-  --br-menu__item--hover: 	;
-  --bb-menu__item--hover: 	;
-  --bl-menu__item--hover: 	;
-  --bd-menu__item--hover: 	5px;
-  --co-menu__item--hover: 	#eeeeee;
+  --bc-zotero__page-menu: 	var(--cl-gray-800);
+  --bt-zotero__page-menu: 	1px solid var(--cl-black);
+  --br-zotero__page-menu: 	1px solid var(--cl-black);
+  --bb-zotero__page-menu: 	1px solid var(--cl-black);
+  --bl-zotero__page-menu: 	1px solid var(--cl-black);
+  --bd-zotero__page-menu: 	0px;
 }
 
 :root {
-  --bt-menu__item: 	;
-  --br-menu__item: 	;
-  --bb-menu__item: 	;
-  --bl-menu__item: 	;
-  --bd-menu__item: 	5px;
-  --co-menu__item: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-icon--hover: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-icon: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-label--hover: 	#eeeeee;
-}
-
-:root {
-  --co-menu__item-label: 	#eeeeee;
-  --td-menu__item-label: 	none;
-}
-
-:root {
-  --co-menu__item-primary: 	var(--cl-blue-500);
-}
-
-:root {
-  --bc-menu__menu-item--active: 	var(--cl-blue-700);
-  --co-menu__menu-item--active: 	var(--cl-white);
-}
-
-:root {
-  --fl-menu__svg-icon--hover: 	var(--cl-gray-100);
-}
-
-:root {
-  --fl-menu__svg-icon: 	var(--cl-gray-100);
+  --co-zotero__primary: 	var(--cl-green-500);
 }
 
