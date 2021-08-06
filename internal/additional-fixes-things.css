@@ -129,3 +129,8 @@
 .bp3-select-popover .bp3-menu {
   padding: 5px;
 }
+
+/* Fix starred pages wrapper */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 4px 0px 4px 0px;
+}
