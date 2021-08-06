@@ -1,8 +1,8 @@
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
-    padding-left: 2px;
     margin-top: 4px;
+    padding-left: 2px;
 }
 
 .roam-block-container .rm-block-main {
@@ -18,6 +18,7 @@
     margin-top: -1px;
 }
 
+/* Firefox specific fixes */
 @-moz-document url-prefix() {
     .controls .simple-bullet-outer,
     .rm-block__controls .simple-bullet-outer {
@@ -26,7 +27,7 @@
 
     .controls,
     .rm-block__controls {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .check-container {
@@ -98,9 +99,9 @@
 
 /* Remove transparency from graph menu */
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
-    opacity: 100%;
+    opacity: 1;
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
-    opacity: 100%;
+    opacity: 1;
 }
