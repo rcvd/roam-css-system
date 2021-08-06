@@ -1,5 +1,3 @@
-
-
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
@@ -32,7 +30,7 @@
     }
 
     .check-container {
-        top: 4px;
+        top: 5px;
     }
 
     .block-expand .rm-caret {
@@ -83,4 +81,17 @@
 /* Set min height for unlinked references */
 .rm-reference-main > div > div:nth-child(2) > div {
   min-height: 31px;
+}
+
+/* Re-color Roam Research Logo */
+#roam-sidebar-logo img {
+    --webkit-filter: brightness(40%);
+    filter: brightness(40%);
+}
+
+@media (prefers-color-scheme: dark) {
+    #roam-sidebar-logo img {
+        --webkit-filter: brightness(60%);
+        filter: brightness(60%);
+    }
 }
