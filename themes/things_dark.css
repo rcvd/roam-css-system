@@ -108,7 +108,7 @@
 }
 
 :root {
-  --co-allpages__sort-button--focused: 	var(--cl-green-500);
+  --co-allpages__sort-button--focused: 	#67acfe;
 }
 
 :root {
@@ -117,7 +117,7 @@
 }
 
 :root {
-  --co-allpages__title-col: 	var(--cl-gray-100);
+  --co-allpages__title-col: 	#959595;
   --ft-allpages__title-col: 	;
   --fw-allpages__title-col: 	;
   --td-allpages__title-col: 	;
@@ -132,7 +132,7 @@
 }
 
 :root {
-  --co-allpages__title-text: 	#959595;
+  --co-allpages__title-text: 	#ffffff;
   --ft-allpages__title-text: 	;
   --fw-allpages__title-text: 	;
   --td-allpages__title-text: 	none;
