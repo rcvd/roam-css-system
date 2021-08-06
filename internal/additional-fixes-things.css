@@ -146,4 +146,8 @@
     border-radius: 10px
 }
 
-
+/* Fix hr margin */
+.rm-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
