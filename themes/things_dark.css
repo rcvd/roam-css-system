@@ -365,7 +365,7 @@
 :root {
   --bc-codeblock__container: 	var(--cl-black);
   --bt-codeblock__container: 	;
-  --br-codeblock__container: 	;
+  --br-codeblock__container: 	none;
   --bb-codeblock__container: 	;
   --bl-codeblock__container: 	;
   --bd-codeblock__container: 	5px;
@@ -373,7 +373,7 @@
 }
 
 :root {
-  --br-codeblock__cursor: 	1px solid var(--cl-gray-100);
+  --br-codeblock__cursor: 	1px solid #5c9df5;
   --bl-codeblock__cursor: 	;
 }
 
@@ -388,7 +388,7 @@
 :root {
   --bc-codeblock__gutters: 	var(--cl-black);
   --bt-codeblock__gutters: 	;
-  --br-codeblock__gutters: 	2px solid var(--cl-gray-900);
+  --br-codeblock__gutters: 	none;
   --bb-codeblock__gutters: 	;
   --bl-codeblock__gutters: 	;
   --bd-codeblock__gutters: 	5px;
