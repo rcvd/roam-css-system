@@ -3257,7 +3257,7 @@
 
 :root {
 	--bc-popover__button: ;
-	--bt-popover__button: ;
+	--bt-popover__button: 1px solid var(--cl-gray-200);
 	--br-popover__button: 1px solid var(--cl-gray-200);
 	--bb-popover__button: 1px solid var(--cl-gray-200);
 	--bl-popover__button: 1px solid var(--cl-gray-200);
