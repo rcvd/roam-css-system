@@ -422,7 +422,7 @@ code {
 	border-radius: 			var(--bd-code, 4px);
 	color: 					var(--co-code, #333);
 	font-family: 			var(--ff-code, Menlo,Monaco,Consolas,'Courier New',monospace);
-	font-size: 				var(--fs-code, 0.9);
+	font-size: 				var(--fs-code, 90%);
 }
 
 .cm-s-default .cm-atom {
