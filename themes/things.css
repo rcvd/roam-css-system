@@ -3942,6 +3942,7 @@
 	--bb-tooltip: 1px solid #d5d5d5;
 	--bl-tooltip: 1px solid #d5d5d5;
 	--bd-tooltip: 5px;
+	--co-tooltip: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3951,6 +3952,7 @@
 		--br-tooltip: ;
 		--bb-tooltip: ;
 		--bl-tooltip: ;
+		--co-tooltip: ;
 	}
 }
 

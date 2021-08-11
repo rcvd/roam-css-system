@@ -1811,12 +1811,13 @@ span[style*='background-color: yellow'] {
 }
 
 .bp3-tooltip .bp3-popover-content {
-	background-color: 		var(--bc-tooltip, inherit);
+	background-color: 		var(--bc-tooltip, #394b59);
 	border-top: 			var(--bt-tooltip, inherit);
 	border-right: 			var(--br-tooltip, inherit);
 	border-bottom: 			var(--bb-tooltip, inherit);
 	border-left: 			var(--bl-tooltip, inherit);
 	border-radius: 			var(--bd-tooltip, inherit);
+	color: 					var(--co-tooltip, #f5f8fa);
 }
 
 .rm-topbar {
