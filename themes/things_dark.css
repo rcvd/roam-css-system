@@ -137,30 +137,19 @@
 
 :root {
 	--co-allpages__title-col: #959595;
-	--ft-allpages__title-col: ;
-	--fw-allpages__title-col: ;
-	--td-allpages__title-col: ;
 }
 
 :root {
 	--co-allpages__title-header: #ffffff;
-	--ft-allpages__title-header: ;
-	--fw-allpages__title-header: 700;
-	--td-allpages__title-header: ;
-	--tt-allpages__title-header: ;
 }
 
 :root {
 	--co-allpages__title-text: #ffffff;
-	--ft-allpages__title-text: ;
-	--fw-allpages__title-text: ;
-	--td-allpages__title-text: none;
 }
 
 :root {
 	--co-app__h1: #ffffff;
 	--ff-app__h1: ;
-	--fs-app__h1: 20px;
 	--ft-app__h1: ;
 	--fw-app__h1: normal;
 }

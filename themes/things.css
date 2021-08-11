@@ -282,9 +282,6 @@
 
 :root {
 	--co-allpages__title-col: #a7abb1;
-	--ft-allpages__title-col: ;
-	--fw-allpages__title-col: ;
-	--td-allpages__title-col: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -295,10 +292,6 @@
 
 :root {
 	--co-allpages__title-header: #24282b;
-	--ft-allpages__title-header: ;
-	--fw-allpages__title-header: 700;
-	--td-allpages__title-header: ;
-	--tt-allpages__title-header: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -309,9 +302,6 @@
 
 :root {
 	--co-allpages__title-text: #202227;
-	--ft-allpages__title-text: ;
-	--fw-allpages__title-text: ;
-	--td-allpages__title-text: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -323,7 +313,6 @@
 :root {
 	--co-app__h1: #24282b;
 	--ff-app__h1: ;
-	--fs-app__h1: 20px;
 	--ft-app__h1: ;
 	--fw-app__h1: normal;
 }
