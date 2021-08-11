@@ -213,7 +213,7 @@ a {
 	background-color: 		var(--bc-bullet__inner, #394B59);
 }
 
-.bp3-button.cancel-button:hover {
+.bp3-button:not([class*='bp3-intent-']).cancel-button:hover {
 	background-color: 		var(--bc-button__cancel--hover, #BFCCD6);
 	border-top: 			var(--bt-button__cancel--hover, inherit);
 	border-right: 			var(--br-button__cancel--hover, inherit);
@@ -224,7 +224,7 @@ a {
 	color: 					var(--co-button__cancel--hover, #BFCCD6);
 }
 
-.bp3-button.cancel-button {
+.bp3-button:not([class*='bp3-intent-']).cancel-button {
 	background-color: 		var(--bc-button__cancel, none);
 	border-top: 			var(--bt-button__cancel, 1px solid rgba(24,32,38,0.2));
 	border-right: 			var(--br-button__cancel, 1px solid rgba(24,32,38,0.2));
