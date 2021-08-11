@@ -1972,13 +1972,13 @@ span[style*='background-color: yellow'] {
 
 .rm-topbar .bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus {
 	background-color: 		var(--bc-topbar-datepicker__day--hover, #d8e1e8);
-	border-radius: 			var(--bd-topbar-datepicker__day--hover, inherit);
+	border-radius: 			var(--bd-topbar-datepicker__day--hover, 50%);
 	color: 					var(--co-topbar-datepicker__day--hover, #182026)!important;
 }
 
 .rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected {
 	background-color: 		var(--bc-topbar-datepicker__day--selected, #5C7080);
-	border-radius: 			var(--bd-topbar-datepicker__day--selected, inherit);
+	border-radius: 			var(--bd-topbar-datepicker__day--selected, 50%);
 	color: 					var(--co-topbar-datepicker__day--selected, #F5F8FA);
 }
 
@@ -1988,7 +1988,7 @@ span[style*='background-color: yellow'] {
 
 .rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected:hover {
 	background-color: 		var(--bc-topbar-datepicker__day-selected--hover, hsl(204,20%,45%));
-	border-radius: 			var(--bd-topbar-datepicker__day-selected--hover, inherit);
+	border-radius: 			var(--bd-topbar-datepicker__day-selected--hover, 50%);
 }
 
 .rm-topbar .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--dateHasNoPage {
