@@ -1638,22 +1638,22 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-bottom: 			var(--bb-right-sidebar__window, 1px solid rgb(138, 155, 168))!important;
 }
 
-.rm-roam-css--active .bp3-button:hover {
+.rm-roam-css--active .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-roam-css__button--active-hover, #ffc107);
 	color: 					var(--co-roam-css__button--active-hover, #212529);
 }
 
-.rm-roam-css--active .bp3-button {
+.rm-roam-css--active .bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-roam-css__button--active, #ffc107);
 	color: 					var(--co-roam-css__button--active, #212529);
 }
 
-.rm-roam-css--inactive .bp3-button:hover {
+.rm-roam-css--inactive .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-roam-css__button--inactive-hover, #dc3545);
 	color: 					var(--co-roam-css__button--inactive-hover, #fff);
 }
 
-.rm-roam-css--inactive .bp3-button {
+.rm-roam-css--inactive .bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-roam-css__button--inactive, #dc3545);
 	color: 					var(--co-roam-css__button--inactive, #fff);
 }
