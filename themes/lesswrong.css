@@ -739,6 +739,24 @@
 }
 
 :root {
+	--bt-button--default: ;
+	--br-button--default: ;
+	--bb-button--default: ;
+	--bl-button--default: ;
+	--bd-button--default: ;
+	--fs-button--default: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-button--default: ;
+		--br-button--default: ;
+		--bb-button--default: ;
+		--bl-button--default: ;
+	}
+}
+
+:root {
 	--co-callout__icon: ;
 }
 

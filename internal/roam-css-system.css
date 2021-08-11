@@ -344,6 +344,15 @@ a {
 	font-family: 			var(--ff-button, inherit);
 }
 
+.bp3-button {
+	border-top: 			var(--bt-button--default, none);
+	border-right: 			var(--br-button--default, none);
+	border-bottom: 			var(--bb-button--default, none);
+	border-left: 			var(--bl-button--default, none);
+	border-radius: 			var(--bd-button--default, 3px);
+	font-size: 				var(--fs-button--default, 14px);
+}
+
 .bp3-callout.bp3-intent-primary[class*='bp3-icon-']::before, .bp3-callout.bp3-intent-primary>.bp3-icon:first-child, .bp3-callout.bp3-intent-primary .bp3-heading {
 	color: 					var(--co-callout__icon, #106ba3);
 }
