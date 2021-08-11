@@ -559,7 +559,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus {
 	background-color: 		var(--bc-datepicker__day--hover, #d8e1e8);
-	border-radius: 			var(--bd-datepicker__day--hover, inherit);
+	border-radius: 			var(--bd-datepicker__day--hover, 50%);
 	color: 					var(--co-datepicker__day--hover, #182026)!important;
 }
 
