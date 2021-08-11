@@ -1,9 +1,9 @@
-a:hover, a:hover > span, a:focus, a:focus > span, .rm-alias-tooltip__content .rm-alias--external:hover {
+a:hover, a:hover > span, a:focus, a:focus > span {
 	color: 					var(--co-a--hover, #23527c);
 	text-decoration: 		var(--td-a--hover, underline);
 }
 
-a, .rm-alias-tooltip__content .rm-alias--external {
+a {
 	color: 					var(--co-a, #337ab7);
 	text-decoration: 		var(--td-a, none);
 }
@@ -11,6 +11,14 @@ a, .rm-alias-tooltip__content .rm-alias--external {
 .rm-alias-tooltip__content .rm-bq {
 	border-left: 			var(--bl-alias__tooltip-content-bq, 5px solid #d9822b);
 	color: 					var(--co-alias__tooltip-content-bq, #202B33);
+}
+
+.rm-alias-tooltip__content .rm-alias--external {
+	color: 					var(--co-alias__tooltip-external, #48AFF0);
+}
+
+.rm-alias-tooltip__content .rm-alias--external:hover {
+	color: 					var(--co-alias__tooltip-external--hover, #2B95D6);
 }
 
 .rm-all-pages .bp3-control .bp3-control-indicator {

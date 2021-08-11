@@ -20,6 +20,14 @@
 }
 
 :root {
+	--co-alias__tooltip-external: ;
+}
+
+:root {
+	--co-alias__tooltip-external--hover: ;
+}
+
+:root {
 	--bc-allpages__checkbox: transparent;
 	--bt-allpages__checkbox: 1px solid var(--cl-gray-400);
 	--br-allpages__checkbox: 1px solid var(--cl-gray-400);
