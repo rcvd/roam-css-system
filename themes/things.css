@@ -611,6 +611,51 @@
 }
 
 :root {
+	--bc-button__primary--hover: ;
+	--bt-button__primary--hover: ;
+	--br-button__primary--hover: ;
+	--bb-button__primary--hover: ;
+	--bl-button__primary--hover: ;
+	--sd-button__primary--hover: ;
+	--co-button__primary--hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button__primary--hover: ;
+		--bt-button__primary--hover: ;
+		--br-button__primary--hover: ;
+		--bb-button__primary--hover: ;
+		--bl-button__primary--hover: ;
+		--sd-button__primary--hover: ;
+		--co-button__primary--hover: ;
+	}
+}
+
+:root {
+	--bc-button__primary: ;
+	--bt-button__primary: ;
+	--br-button__primary: ;
+	--bb-button__primary: ;
+	--bl-button__primary: ;
+	--bd-button__primary: ;
+	--sd-button__primary: ;
+	--co-button__primary: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button__primary: ;
+		--bt-button__primary: ;
+		--br-button__primary: ;
+		--bb-button__primary: ;
+		--bl-button__primary: ;
+		--sd-button__primary: ;
+		--co-button__primary: ;
+	}
+}
+
+:root {
 	--co-button__icon--hover: #5d5f62;
 }
 

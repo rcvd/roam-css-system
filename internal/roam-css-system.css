@@ -242,8 +242,8 @@ a {
 	border-right: 			var(--br-button__danger--hover, inherit);
 	border-bottom: 			var(--bb-button__danger--hover, inherit);
 	border-left: 			var(--bl-button__danger--hover, inherit);
-	box-shadow: 			var(--sd-button__danger--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
-	--webkit-box-shadow: 	var(--sd-button__danger--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	box-shadow: 			var(--sd-button__danger--hover, none);
+	--webkit-box-shadow: 	var(--sd-button__danger--hover, none);
 	color: 					var(--co-button__danger--hover, inherit);
 }
 
@@ -280,6 +280,29 @@ a {
 	box-shadow: 			var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
 	--webkit-box-shadow: 	var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
 	color: 					var(--co-button__warning, #fff);
+}
+
+.bp3-button.bp3-intent-primary:hover {
+	background-color: 		var(--bc-button__primary--hover, #106ba3);
+	border-top: 			var(--bt-button__primary--hover, inherit);
+	border-right: 			var(--br-button__primary--hover, inherit);
+	border-bottom: 			var(--bb-button__primary--hover, inherit);
+	border-left: 			var(--bl-button__primary--hover, inherit);
+	box-shadow: 			var(--sd-button__primary--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	--webkit-box-shadow: 	var(--sd-button__primary--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	color: 					var(--co-button__primary--hover, #fff);
+}
+
+.bp3-button.bp3-intent-primary {
+	background-color: 		var(--bc-button__primary, #137cbd);
+	border-top: 			var(--bt-button__primary, inherit);
+	border-right: 			var(--br-button__primary, inherit);
+	border-bottom: 			var(--bb-button__primary, inherit);
+	border-left: 			var(--bl-button__primary, inherit);
+	border-radius: 			var(--bd-button__primary, inherit);
+	box-shadow: 			var(--sd-button__primary, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	--webkit-box-shadow: 	var(--sd-button__primary, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	color: 					var(--co-button__primary, #fff);
 }
 
 .bp3-button:not([class*='bp3-intent-']):hover .bp3-icon, .bp3-button:not([class*='bp3-intent-']):hover::before {
