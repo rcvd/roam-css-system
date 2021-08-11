@@ -2786,48 +2786,6 @@
 }
 
 :root {
-	--bc-main__button--hover: ;
-	--bt-main__button--hover: ;
-	--br-main__button--hover: ;
-	--bb-main__button--hover: ;
-	--bl-main__button--hover: ;
-	--bd-main__button--hover: ;
-	--co-main__button--hover: var(--cl-gray-700);
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bc-main__button--hover: ;
-		--bt-main__button--hover: ;
-		--br-main__button--hover: ;
-		--bb-main__button--hover: ;
-		--bl-main__button--hover: ;
-		--co-main__button--hover: var(--cl-gray-300);
-	}
-}
-
-:root {
-	--bc-main__button: ;
-	--bt-main__button: ;
-	--br-main__button: ;
-	--bb-main__button: ;
-	--bl-main__button: ;
-	--bd-main__button: ;
-	--co-main__button: var(--cl-gray-900);
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bc-main__button: ;
-		--bt-main__button: ;
-		--br-main__button: ;
-		--bb-main__button: ;
-		--bl-main__button: ;
-		--co-main__button: var(--cl-gray-100);
-	}
-}
-
-:root {
 	--bc-main: var(--cl-white);
 }
 

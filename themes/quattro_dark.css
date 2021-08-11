@@ -1269,26 +1269,6 @@
 }
 
 :root {
-	--bc-main__button--hover: var(--cl-blue-900);
-	--bt-main__button--hover: 1px solid var(--cl-blue-800);
-	--br-main__button--hover: 1px solid var(--cl-blue-800);
-	--bb-main__button--hover: 1px solid var(--cl-blue-800);
-	--bl-main__button--hover: 1px solid var(--cl-blue-800);
-	--bd-main__button--hover: 3px;
-	--co-main__button--hover: var(--cl-blue-50);
-}
-
-:root {
-	--bc-main__button: var(--cl-gray-800);
-	--bt-main__button: 1px solid var(--cl-gray-700);
-	--br-main__button: 1px solid var(--cl-gray-700);
-	--bb-main__button: 1px solid var(--cl-gray-700);
-	--bl-main__button: 1px solid var(--cl-gray-700);
-	--bd-main__button: 3px;
-	--co-main__button: var(--cl-gray-50);
-}
-
-:root {
 	--bc-main: var(--cl-gray-900);
 }
 
