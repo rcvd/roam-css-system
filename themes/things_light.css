@@ -223,6 +223,7 @@
 	--br-button__cancel--hover: ;
 	--bb-button__cancel--hover: ;
 	--bl-button__cancel--hover: ;
+	--sd-button__cancel--hover: ;
 	--co-button__cancel--hover: ;
 }
 
@@ -233,6 +234,7 @@
 	--bb-button__cancel: ;
 	--bl-button__cancel: ;
 	--bd-button__cancel: ;
+	--sd-button__cancel: ;
 	--co-button__cancel: ;
 }
 
@@ -242,6 +244,7 @@
 	--br-button__danger--hover: ;
 	--bb-button__danger--hover: ;
 	--bl-button__danger--hover: ;
+	--sd-button__danger--hover: ;
 	--co-button__danger--hover: ;
 }
 
@@ -252,6 +255,7 @@
 	--bb-button__danger: ;
 	--bl-button__danger: ;
 	--bd-button__danger: ;
+	--sd-button__danger: ;
 	--co-button__danger: ;
 }
 

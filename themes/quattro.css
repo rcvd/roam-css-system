@@ -481,6 +481,7 @@
 	--br-button__cancel--hover: 1px solid var(--cl-gray-200);
 	--bb-button__cancel--hover: 1px solid var(--cl-gray-200);
 	--bl-button__cancel--hover: 1px solid var(--cl-gray-200);
+	--sd-button__cancel--hover: ;
 	--co-button__cancel--hover: var(--cl-gray-900);
 }
 
@@ -491,6 +492,7 @@
 		--br-button__cancel--hover: 1px solid var(--cl-gray-800);
 		--bb-button__cancel--hover: 1px solid var(--cl-gray-800);
 		--bl-button__cancel--hover: 1px solid var(--cl-gray-800);
+		--sd-button__cancel--hover: ;
 		--co-button__cancel--hover: var(--cl-white);
 	}
 }
@@ -502,6 +504,7 @@
 	--bb-button__cancel: 1px solid var(--cl-gray-100);
 	--bl-button__cancel: 1px solid var(--cl-gray-100);
 	--bd-button__cancel: 0px;
+	--sd-button__cancel: ;
 	--co-button__cancel: var(--cl-gray-700);
 }
 
@@ -512,6 +515,7 @@
 		--br-button__cancel: 1px solid var(--cl-gray-900);
 		--bb-button__cancel: 1px solid var(--cl-gray-900);
 		--bl-button__cancel: 1px solid var(--cl-gray-900);
+		--sd-button__cancel: ;
 		--co-button__cancel: var(--cl-white);
 	}
 }
@@ -522,6 +526,7 @@
 	--br-button__danger--hover: 1px solid var(--cl-red-700);
 	--bb-button__danger--hover: 1px solid var(--cl-red-700);
 	--bl-button__danger--hover: 1px solid var(--cl-red-700);
+	--sd-button__danger--hover: ;
 	--co-button__danger--hover: var(--cl-white);
 }
 
@@ -532,6 +537,7 @@
 		--br-button__danger--hover: 1px solid var(--cl-red-600);
 		--bb-button__danger--hover: 1px solid var(--cl-red-600);
 		--bl-button__danger--hover: 1px solid var(--cl-red-600);
+		--sd-button__danger--hover: ;
 		--co-button__danger--hover: var(--cl-white);
 	}
 }
@@ -543,6 +549,7 @@
 	--bb-button__danger: 1px solid var(--cl-red-600);
 	--bl-button__danger: 1px solid var(--cl-red-600);
 	--bd-button__danger: 0px;
+	--sd-button__danger: ;
 	--co-button__danger: ;
 }
 
@@ -553,6 +560,7 @@
 		--br-button__danger: 1px solid var(--cl-red-600);
 		--bb-button__danger: 1px solid var(--cl-red-600);
 		--bl-button__danger: 1px solid var(--cl-red-600);
+		--sd-button__danger: ;
 		--co-button__danger: var(--cl-white);
 	}
 }
