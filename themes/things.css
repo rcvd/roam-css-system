@@ -46,6 +46,7 @@
 	--bl-allpages__checkbox: 1px solid var(--cl-gray-400);
 	--bd-allpages__checkbox: 3px;
 	--sd-allpages__checkbox: ;
+	--fs-allpages__checkbox: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -67,6 +68,8 @@
 	--bl-allpages__clickable-pill: none;
 	--bd-allpages__clickable-pill: ;
 	--co-allpages__clickable-pill: #a7abb1;
+	--fs-allpages__clickable-pill: ;
+	--fw-allpages__clickable-pill: ;
 	--op-allpages__clickable-pill: ;
 }
 
@@ -87,7 +90,6 @@
 	--br-allpages__clickable-pill-1: none;
 	--bb-allpages__clickable-pill-1: none;
 	--bl-allpages__clickable-pill-1: none;
-	--bd-allpages__clickable-pill-1: ;
 	--co-allpages__clickable-pill-1: #a7abb1;
 	--op-allpages__clickable-pill-1: 1;
 }
@@ -109,7 +111,6 @@
 	--br-allpages__clickable-pill-2: none;
 	--bb-allpages__clickable-pill-2: none;
 	--bl-allpages__clickable-pill-2: none;
-	--bd-allpages__clickable-pill-2: ;
 	--co-allpages__clickable-pill-2: #a7abb1;
 	--op-allpages__clickable-pill-2: 1;
 }
@@ -131,7 +132,6 @@
 	--br-allpages__clickable-pill-3: none;
 	--bb-allpages__clickable-pill-3: none;
 	--bl-allpages__clickable-pill-3: none;
-	--bd-allpages__clickable-pill-3: ;
 	--co-allpages__clickable-pill-3: #a7abb1;
 	--op-allpages__clickable-pill-3: 1;
 }
@@ -149,12 +149,21 @@
 
 :root {
 	--bc-allpages__clickable-pill-empty: transparent;
+	--bt-allpages__clickable-pill-empty: ;
+	--br-allpages__clickable-pill-empty: ;
+	--bb-allpages__clickable-pill-empty: ;
+	--bl-allpages__clickable-pill-empty: ;
 	--co-allpages__clickable-pill-empty: #a7abb1;
+	--op-allpages__clickable-pill-empty: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-allpages__clickable-pill-empty: transparent;
+		--bt-allpages__clickable-pill-empty: ;
+		--br-allpages__clickable-pill-empty: ;
+		--bb-allpages__clickable-pill-empty: ;
+		--bl-allpages__clickable-pill-empty: ;
 		--co-allpages__clickable-pill-empty: #818180;
 	}
 }
@@ -185,12 +194,38 @@
 }
 
 :root {
+	--bt-allpages__input--focused: ;
+	--br-allpages__input--focused: ;
+	--bb-allpages__input--focused: ;
+	--bl-allpages__input--focused: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-allpages__input--focused: ;
+		--br-allpages__input--focused: ;
+		--bb-allpages__input--focused: ;
+		--bl-allpages__input--focused: ;
+	}
+}
+
+:root {
 	--co-allpages__input-icon: #8c8e97;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-allpages__input-icon: #787877;
+	}
+}
+
+:root {
+	--co-allpages__input-icon--focused: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-allpages__input-icon--focused: ;
 	}
 }
 
@@ -225,6 +260,7 @@
 
 :root {
 	--co-allpages__sort-button--focused: #0076e4;
+	--fw-allpages__sort-button--focused: ;
 }
 
 @media(prefers-color-scheme: dark) {
