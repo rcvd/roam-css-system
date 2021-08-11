@@ -564,7 +564,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover {
-	background-color: 		var(--bc-datepicker__nav-button--hover, inherit);
+	background-color: 		var(--bc-datepicker__nav-button--hover, rgba(167,182,194,0.3));
 	border-top: 			var(--bt-datepicker__nav-button--hover, inherit);
 	border-right: 			var(--br-datepicker__nav-button--hover, inherit);
 	border-bottom: 			var(--bb-datepicker__nav-button--hover, inherit)!important;
