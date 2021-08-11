@@ -322,12 +322,13 @@
 }
 
 :root {
-	--bc-button--active: ;
-	--sd-button--active: ;
+	--bc-button__minimal--active: ;
+	--sd-button__minimal--active: ;
+	--co-button__minimal--active: ;
 }
 
 :root {
-	--co-button--active: #5d5f62;
+	--co-button__minimal-icon--active: #5d5f62;
 }
 
 :root {

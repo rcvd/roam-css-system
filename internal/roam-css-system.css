@@ -328,13 +328,14 @@ a {
 }
 
 .bp3-button.bp3-minimal:active, .bp3-button.bp3-minimal.bp3-active {
-	background-color: 		var(--bc-button--active, rgba(115,134,148,0.3));
-	box-shadow: 			var(--sd-button--active, none);
-	--webkit-box-shadow: 	var(--sd-button--active, none);
+	background-color: 		var(--bc-button__minimal--active, rgba(115,134,148,0.3));
+	box-shadow: 			var(--sd-button__minimal--active, none);
+	--webkit-box-shadow: 	var(--sd-button__minimal--active, none);
+	color: 					var(--co-button__minimal--active, #182026);
 }
 
 .bp3-button.bp3-minimal:active .bp3-icon, .bp3-button.bp3-minimal.bp3-active .bp3-icon {
-	color: 					var(--co-button--active, #5c7080);
+	color: 					var(--co-button__minimal-icon--active, #5c7080);
 }
 
 .bp3-button {

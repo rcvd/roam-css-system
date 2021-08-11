@@ -703,24 +703,26 @@
 }
 
 :root {
-	--bc-button--active: ;
-	--sd-button--active: ;
+	--bc-button__minimal--active: ;
+	--sd-button__minimal--active: ;
+	--co-button__minimal--active: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button--active: ;
-		--sd-button--active: ;
+		--bc-button__minimal--active: ;
+		--sd-button__minimal--active: ;
+		--co-button__minimal--active: ;
 	}
 }
 
 :root {
-	--co-button--active: #5d5f62;
+	--co-button__minimal-icon--active: #5d5f62;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-button--active: #a5a7ab;
+		--co-button__minimal-icon--active: #a5a7ab;
 	}
 }
 
