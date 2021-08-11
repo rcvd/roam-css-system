@@ -1658,12 +1658,12 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	color: 					var(--co-roam-css__button--inactive, #fff);
 }
 
- {
+.rm-roam-css--active {
 	background-color: 		var(--bc-roam-css__container-active, #fff3cd);
 	color: 					var(--co-roam-css__container-active, #856404);
 }
 
- {
+.rm-roam-css--inactive {
 	background-color: 		var(--bc-roam-css__container-inactive, #f8d7da);
 	color: 					var(--co-roam-css__container-inactive, #721c24);
 }
