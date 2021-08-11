@@ -359,7 +359,6 @@
 	--co-attributes: ;
 	--ft-attributes: ;
 	--fw-attributes: bold;
-	--td-attributes: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -555,6 +554,51 @@
 		--bb-button__danger: ;
 		--bl-button__danger: ;
 		--co-button__danger: ;
+	}
+}
+
+:root {
+	--bc-button__warning--hover: ;
+	--bt-button__warning--hover: ;
+	--br-button__warning--hover: ;
+	--bb-button__warning--hover: ;
+	--bl-button__warning--hover: ;
+	--sd-button__warning--hover: ;
+	--co-button__warning--hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button__warning--hover: ;
+		--bt-button__warning--hover: ;
+		--br-button__warning--hover: ;
+		--bb-button__warning--hover: ;
+		--bl-button__warning--hover: ;
+		--sd-button__warning--hover: ;
+		--co-button__warning--hover: ;
+	}
+}
+
+:root {
+	--bc-button__warning: ;
+	--bt-button__warning: ;
+	--br-button__warning: ;
+	--bb-button__warning: ;
+	--bl-button__warning: ;
+	--bd-button__warning: ;
+	--sd-button__warning: ;
+	--co-button__warning: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button__warning: ;
+		--bt-button__warning: ;
+		--br-button__warning: ;
+		--bb-button__warning: ;
+		--bl-button__warning: ;
+		--sd-button__warning: ;
+		--co-button__warning: ;
 	}
 }
 
