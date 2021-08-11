@@ -554,10 +554,6 @@
 }
 
 :root {
-	--co-datepicker__day: #e1e3e8;
-}
-
-:root {
 	--bc-datepicker__nav-button--hover: #4f9dfe;
 	--bt-datepicker__nav-button--hover: none;
 	--br-datepicker__nav-button--hover: none;

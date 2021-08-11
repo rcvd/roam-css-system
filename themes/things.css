@@ -1235,16 +1235,6 @@
 }
 
 :root {
-	--co-datepicker__day: #e1e3e8;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--co-datepicker__day: ;
-	}
-}
-
-:root {
 	--bc-datepicker__nav-button--hover: #4f9dfe;
 	--bt-datepicker__nav-button--hover: none;
 	--br-datepicker__nav-button--hover: none;
