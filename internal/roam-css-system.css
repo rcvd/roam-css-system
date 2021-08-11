@@ -13,12 +13,12 @@ a {
 	color: 					var(--co-alias__tooltip-content-bq, #202B33);
 }
 
-.rm-alias-tooltip__content .rm-alias--external {
-	color: 					var(--co-alias__tooltip-external, #48AFF0);
-}
-
 .rm-alias-tooltip__content .rm-alias--external:hover {
 	color: 					var(--co-alias__tooltip-external--hover, #2B95D6);
+}
+
+.rm-alias-tooltip__content .rm-alias--external {
+	color: 					var(--co-alias__tooltip-external, #48AFF0);
 }
 
 .rm-all-pages .bp3-control .bp3-control-indicator {
@@ -86,6 +86,13 @@ a {
 	opacity: 				var(--op-allpages__clickable-pill-empty, 1);
 }
 
+.rm-pages-toolbar .toolbar-search-group .search-input.focused {
+	border-top: 			var(--bt-allpages__input--focused, 1px solid #8A9BA8);
+	border-right: 			var(--br-allpages__input--focused, 1px solid #8A9BA8);
+	border-bottom: 			var(--bb-allpages__input--focused, 1px solid #8A9BA8);
+	border-left: 			var(--bl-allpages__input--focused, 1px solid #8A9BA8);
+}
+
 .rm-pages-toolbar .toolbar-search-group .search-input {
 	background-color: 		var(--bc-allpages__input, #F5F8FA);
 	border-top: 			var(--bt-allpages__input, inherit);
@@ -100,19 +107,12 @@ a {
 	font-weight: 			var(--fw-allpages__input, inherit);
 }
 
-.rm-pages-toolbar .toolbar-search-group .search-input.focused {
-	border-top: 			var(--bt-allpages__input--focused, 1px solid #8A9BA8);
-	border-right: 			var(--br-allpages__input--focused, 1px solid #8A9BA8);
-	border-bottom: 			var(--bb-allpages__input--focused, 1px solid #8A9BA8);
-	border-left: 			var(--bl-allpages__input--focused, 1px solid #8A9BA8);
+.rm-pages-toolbar .toolbar-search-group .search-icon.focused {
+	color: 					var(--co-allpages__input-icon--focused, #8A9BA8);
 }
 
 .rm-pages-toolbar .toolbar-search-group .search-icon {
 	color: 					var(--co-allpages__input-icon, #BFCCD6);
-}
-
-.rm-pages-toolbar .toolbar-search-group .search-icon.focused {
-	color: 					var(--co-allpages__input-icon--focused, #8A9BA8);
 }
 
 .rm-all-pages .table .rm-pages-row {
@@ -259,27 +259,18 @@ a {
 	color: 					var(--co-button__danger, inherit);
 }
 
-.bp3-button.bp3-intent-warning:hover {
-	background-color: 		var(--bc-button__warning--hover, #bf7326);
-	border-top: 			var(--bt-button__warning--hover, inherit);
-	border-right: 			var(--br-button__warning--hover, inherit);
-	border-bottom: 			var(--bb-button__warning--hover, inherit);
-	border-left: 			var(--bl-button__warning--hover, inherit);
-	box-shadow: 			var(--sd-button__warning--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
-	--webkit-box-shadow: 	var(--sd-button__warning--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
-	color: 					var(--co-button__warning--hover, #fff);
+.bp3-button:not([class*='bp3-intent-']):hover .bp3-icon, .bp3-button:not([class*='bp3-intent-']):hover::before {
+	color: 					var(--co-button__icon--hover, inherit);
 }
 
-.bp3-button.bp3-intent-warning {
-	background-color: 		var(--bc-button__warning, #d9822b);
-	border-top: 			var(--bt-button__warning, inherit);
-	border-right: 			var(--br-button__warning, inherit);
-	border-bottom: 			var(--bb-button__warning, inherit);
-	border-left: 			var(--bl-button__warning, inherit);
-	border-radius: 			var(--bd-button__warning, 3px);
-	box-shadow: 			var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
-	--webkit-box-shadow: 	var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
-	color: 					var(--co-button__warning, #fff);
+.bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large, .bp3-button[class*='bp3-icon-']::before {
+	color: 					var(--co-button__icon, #5c7080);
+}
+
+.bp3-button.bp3-minimal {
+	background-color: 		var(--bc-button__minimal, transparent);
+	box-shadow: 			var(--sd-button__minimal, none);
+	--webkit-box-shadow: 	var(--sd-button__minimal, none);
 }
 
 .bp3-button.bp3-intent-primary:hover {
@@ -305,12 +296,27 @@ a {
 	color: 					var(--co-button__primary, #fff);
 }
 
-.bp3-button:not([class*='bp3-intent-']):hover .bp3-icon, .bp3-button:not([class*='bp3-intent-']):hover::before {
-	color: 					var(--co-button__icon--hover, inherit);
+.bp3-button.bp3-intent-warning:hover {
+	background-color: 		var(--bc-button__warning--hover, #bf7326);
+	border-top: 			var(--bt-button__warning--hover, inherit);
+	border-right: 			var(--br-button__warning--hover, inherit);
+	border-bottom: 			var(--bb-button__warning--hover, inherit);
+	border-left: 			var(--bl-button__warning--hover, inherit);
+	box-shadow: 			var(--sd-button__warning--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	--webkit-box-shadow: 	var(--sd-button__warning--hover, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	color: 					var(--co-button__warning--hover, #fff);
 }
 
-.bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large, .bp3-button[class*='bp3-icon-']::before {
-	color: 					var(--co-button__icon, #5c7080);
+.bp3-button.bp3-intent-warning {
+	background-color: 		var(--bc-button__warning, #d9822b);
+	border-top: 			var(--bt-button__warning, inherit);
+	border-right: 			var(--br-button__warning, inherit);
+	border-bottom: 			var(--bb-button__warning, inherit);
+	border-left: 			var(--bl-button__warning, inherit);
+	border-radius: 			var(--bd-button__warning, 3px);
+	box-shadow: 			var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	--webkit-box-shadow: 	var(--sd-button__warning, inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2));
+	color: 					var(--co-button__warning, #fff);
 }
 
 .bp3-button.bp3-minimal:active, .bp3-button.bp3-minimal.bp3-active {
@@ -323,17 +329,20 @@ a {
 	color: 					var(--co-button--active, #5c7080);
 }
 
+.bp3-button {
+	border-top: 			var(--bt-button--default, none);
+	border-right: 			var(--br-button--default, none);
+	border-bottom: 			var(--bb-button--default, none);
+	border-left: 			var(--bl-button--default, none);
+	border-radius: 			var(--bd-button--default, 3px);
+	font-size: 				var(--fs-button--default, 14px);
+}
+
 .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-button--hover, #ebf1f5);
 	box-shadow: 			var(--sd-button--hover, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	--webkit-box-shadow: 	var(--sd-button--hover, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	color: 					var(--co-button--hover, inherit);
-}
-
-.bp3-button.bp3-minimal {
-	background-color: 		var(--bc-button__minimal, transparent);
-	box-shadow: 			var(--sd-button__minimal, none);
-	--webkit-box-shadow: 	var(--sd-button__minimal, none);
 }
 
 .bp3-button:not([class*='bp3-intent-']) {
@@ -342,15 +351,6 @@ a {
 	--webkit-box-shadow: 	var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	color: 					var(--co-button, #182026);
 	font-family: 			var(--ff-button, inherit);
-}
-
-.bp3-button {
-	border-top: 			var(--bt-button--default, none);
-	border-right: 			var(--br-button--default, none);
-	border-bottom: 			var(--bb-button--default, none);
-	border-left: 			var(--bl-button--default, none);
-	border-radius: 			var(--bd-button--default, 3px);
-	font-size: 				var(--fs-button--default, 14px);
 }
 
 .bp3-callout.bp3-intent-primary[class*='bp3-icon-']::before, .bp3-callout.bp3-intent-primary>.bp3-icon:first-child, .bp3-callout.bp3-intent-primary .bp3-heading {
@@ -581,6 +581,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-datepicker__nav-button, #5c7080);
 }
 
+.bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
+	background-color: 		var(--bc-datepicker__select--hover, rgba(167,182,194,0.3));
+	color: 					var(--co-datepicker__select--hover, #182026);
+}
+
+.bp3-datepicker .bp3-html-select select, .bp3-datepicker .bp3-select select {
+	color: 					var(--co-datepicker__select, #182026);
+}
+
+.bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
+	color: 					var(--co-datepicker__select-icon, #5c7080);
+}
+
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
 	color: 					var(--co-datepicker__today, #137CBD);
 	font-weight: 			var(--fw-datepicker__today, bold);
@@ -602,19 +615,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	border-radius: 			var(--bd-datepicker, 3px);
 	color: 					var(--co-datepicker, inherit);
 	font-family: 			var(--ff-datepicker, inherit);
-}
-
-.bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
-	background-color: 		var(--bc-datepicker__select--hover, rgba(167,182,194,0.3));
-	color: 					var(--co-datepicker__select--hover, #182026);
-}
-
-.bp3-datepicker .bp3-html-select select, .bp3-datepicker .bp3-select select {
-	color: 					var(--co-datepicker__select, #182026);
-}
-
-.bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
-	color: 					var(--co-datepicker__select-icon, #5c7080);
 }
 
 .bp3-heading {

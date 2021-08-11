@@ -39,22 +39,22 @@
 }
 
 :root {
-	--co-alias__tooltip-external: ;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--co-alias__tooltip-external: ;
-	}
-}
-
-:root {
 	--co-alias__tooltip-external--hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-alias__tooltip-external--hover: ;
+	}
+}
+
+:root {
+	--co-alias__tooltip-external: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-alias__tooltip-external: ;
 	}
 }
 
@@ -189,6 +189,22 @@
 }
 
 :root {
+	--bt-allpages__input--focused: ;
+	--br-allpages__input--focused: ;
+	--bb-allpages__input--focused: ;
+	--bl-allpages__input--focused: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-allpages__input--focused: ;
+		--br-allpages__input--focused: ;
+		--bb-allpages__input--focused: ;
+		--bl-allpages__input--focused: ;
+	}
+}
+
+:root {
 	--bc-allpages__input: ;
 	--bt-allpages__input: ;
 	--br-allpages__input: ;
@@ -214,18 +230,12 @@
 }
 
 :root {
-	--bt-allpages__input--focused: ;
-	--br-allpages__input--focused: ;
-	--bb-allpages__input--focused: ;
-	--bl-allpages__input--focused: ;
+	--co-allpages__input-icon--focused: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-allpages__input--focused: ;
-		--br-allpages__input--focused: ;
-		--bb-allpages__input--focused: ;
-		--bl-allpages__input--focused: ;
+		--co-allpages__input-icon--focused: ;
 	}
 }
 
@@ -236,16 +246,6 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-allpages__input-icon: #787877;
-	}
-}
-
-:root {
-	--co-allpages__input-icon--focused: ;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--co-allpages__input-icon--focused: ;
 	}
 }
 
@@ -566,47 +566,34 @@
 }
 
 :root {
-	--bc-button__warning--hover: ;
-	--bt-button__warning--hover: ;
-	--br-button__warning--hover: ;
-	--bb-button__warning--hover: ;
-	--bl-button__warning--hover: ;
-	--sd-button__warning--hover: ;
-	--co-button__warning--hover: ;
+	--co-button__icon--hover: #5d5f62;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__warning--hover: ;
-		--bt-button__warning--hover: ;
-		--br-button__warning--hover: ;
-		--bb-button__warning--hover: ;
-		--bl-button__warning--hover: ;
-		--sd-button__warning--hover: ;
-		--co-button__warning--hover: ;
+		--co-button__icon--hover: #a5a7ab;
 	}
 }
 
 :root {
-	--bc-button__warning: ;
-	--bt-button__warning: ;
-	--br-button__warning: ;
-	--bb-button__warning: ;
-	--bl-button__warning: ;
-	--bd-button__warning: ;
-	--sd-button__warning: ;
-	--co-button__warning: ;
+	--co-button__icon: #5d5f62;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__warning: ;
-		--bt-button__warning: ;
-		--br-button__warning: ;
-		--bb-button__warning: ;
-		--bl-button__warning: ;
-		--sd-button__warning: ;
-		--co-button__warning: ;
+		--co-button__icon: #a5a7ab;
+	}
+}
+
+:root {
+	--bc-button__minimal: ;
+	--sd-button__minimal: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button__minimal: ;
+		--sd-button__minimal: ;
 	}
 }
 
@@ -656,22 +643,47 @@
 }
 
 :root {
-	--co-button__icon--hover: #5d5f62;
+	--bc-button__warning--hover: ;
+	--bt-button__warning--hover: ;
+	--br-button__warning--hover: ;
+	--bb-button__warning--hover: ;
+	--bl-button__warning--hover: ;
+	--sd-button__warning--hover: ;
+	--co-button__warning--hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-button__icon--hover: #a5a7ab;
+		--bc-button__warning--hover: ;
+		--bt-button__warning--hover: ;
+		--br-button__warning--hover: ;
+		--bb-button__warning--hover: ;
+		--bl-button__warning--hover: ;
+		--sd-button__warning--hover: ;
+		--co-button__warning--hover: ;
 	}
 }
 
 :root {
-	--co-button__icon: #5d5f62;
+	--bc-button__warning: ;
+	--bt-button__warning: ;
+	--br-button__warning: ;
+	--bb-button__warning: ;
+	--bl-button__warning: ;
+	--bd-button__warning: ;
+	--sd-button__warning: ;
+	--co-button__warning: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-button__icon: #a5a7ab;
+		--bc-button__warning: ;
+		--bt-button__warning: ;
+		--br-button__warning: ;
+		--bb-button__warning: ;
+		--bl-button__warning: ;
+		--sd-button__warning: ;
+		--co-button__warning: ;
 	}
 }
 
@@ -698,6 +710,24 @@
 }
 
 :root {
+	--bt-button--default: ;
+	--br-button--default: ;
+	--bb-button--default: ;
+	--bl-button--default: ;
+	--bd-button--default: ;
+	--fs-button--default: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-button--default: ;
+		--br-button--default: ;
+		--bb-button--default: ;
+		--bl-button--default: ;
+	}
+}
+
+:root {
 	--bc-button--hover: transparent;
 	--sd-button--hover: none;
 	--co-button--hover: #0076e3;
@@ -708,18 +738,6 @@
 		--bc-button--hover: ;
 		--sd-button--hover: ;
 		--co-button--hover: var(--cl-green-500);
-	}
-}
-
-:root {
-	--bc-button__minimal: ;
-	--sd-button__minimal: ;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bc-button__minimal: ;
-		--sd-button__minimal: ;
 	}
 }
 
@@ -735,24 +753,6 @@
 		--bc-button: transparent;
 		--sd-button: none;
 		--co-button: #a5a7ab;
-	}
-}
-
-:root {
-	--bt-button--default: ;
-	--br-button--default: ;
-	--bb-button--default: ;
-	--bl-button--default: ;
-	--bd-button--default: ;
-	--fs-button--default: ;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bt-button--default: ;
-		--br-button--default: ;
-		--bb-button--default: ;
-		--bl-button--default: ;
 	}
 }
 
@@ -1278,6 +1278,38 @@
 }
 
 :root {
+	--bc-datepicker__select--hover: #4e9cfe;
+	--co-datepicker__select--hover: var(--cl-white);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-datepicker__select--hover: #67acfe;
+		--co-datepicker__select--hover: var(--cl-white);
+	}
+}
+
+:root {
+	--co-datepicker__select: var(--cl-white);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-datepicker__select: var(--cl-white);
+	}
+}
+
+:root {
+	--co-datepicker__select-icon: var(--cl-white);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-datepicker__select-icon: var(--cl-gray-500);
+	}
+}
+
+:root {
 	--co-datepicker__today: #4f9dfe;
 	--fw-datepicker__today: bold;
 }
@@ -1321,38 +1353,6 @@
 		--bb-datepicker: 1px solid #3c3b3a;
 		--bl-datepicker: 1px solid #3c3b3a;
 		--co-datepicker: ;
-	}
-}
-
-:root {
-	--bc-datepicker__select--hover: #4e9cfe;
-	--co-datepicker__select--hover: var(--cl-white);
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bc-datepicker__select--hover: #67acfe;
-		--co-datepicker__select--hover: var(--cl-white);
-	}
-}
-
-:root {
-	--co-datepicker__select: var(--cl-white);
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--co-datepicker__select: var(--cl-white);
-	}
-}
-
-:root {
-	--co-datepicker__select-icon: var(--cl-white);
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--co-datepicker__select-icon: var(--cl-gray-500);
 	}
 }
 
