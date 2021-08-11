@@ -267,7 +267,7 @@ a {
 	color: 					var(--co-button__icon, #5c7080);
 }
 
-.bp3-button.bp3-minimal {
+.bp3-button.bp3-minimal, .bp3-button:not([class*='bp3-intent-']).bp3-minimal {
 	background-color: 		var(--bc-button__minimal, transparent);
 	box-shadow: 			var(--sd-button__minimal, none);
 	--webkit-box-shadow: 	var(--sd-button__minimal, none);
