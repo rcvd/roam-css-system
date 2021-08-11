@@ -473,17 +473,20 @@ code {
 	color: 					var(--co-codeblock__error, red);
 }
 
-.CodeMirror-gutters, .CodeMirror-gutter-elt {
+.CodeMirror-gutters {
 	background-color: 		var(--bc-codeblock__gutters, #f7f7f7);
 	border-top: 			var(--bt-codeblock__gutters, inherit);
 	border-right: 			var(--br-codeblock__gutters, 1px solid #ddd);
 	border-bottom: 			var(--bb-codeblock__gutters, inherit);
 	border-left: 			var(--bl-codeblock__gutters, inherit);
 	border-radius: 			var(--bd-codeblock__gutters, inherit);
-	font-family: 			var(--ff-codeblock__gutters, inherit);
-	font-size: 				var(--fs-codeblock__gutters, inherit);
-	font-style: 			var(--ft-codeblock__gutters, inherit);
-	font-weight: 			var(--fw-codeblock__gutters, inherit);
+}
+
+.CodeMirror-gutter {
+	font-family: 			var(--ff-codeblock__gutter, inherit);
+	font-size: 				var(--fs-codeblock__gutter, inherit);
+	font-style: 			var(--ft-codeblock__gutter, inherit);
+	font-weight: 			var(--fw-codeblock__gutter, inherit);
 }
 
 .cm-s-default .cm-hr {

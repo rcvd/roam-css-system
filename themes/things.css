@@ -1027,10 +1027,6 @@
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
 	--bd-codeblock__gutters: 5px;
-	--ff-codeblock__gutters: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
-	--fs-codeblock__gutters: ;
-	--ft-codeblock__gutters: ;
-	--fw-codeblock__gutters: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1040,6 +1036,18 @@
 		--br-codeblock__gutters: none;
 		--bb-codeblock__gutters: ;
 		--bl-codeblock__gutters: ;
+	}
+}
+
+:root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 

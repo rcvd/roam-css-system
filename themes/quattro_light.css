@@ -470,10 +470,13 @@
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
 	--bd-codeblock__gutters: ;
-	--ff-codeblock__gutters: 'iA Writer Mono S';
-	--fs-codeblock__gutters: ;
-	--ft-codeblock__gutters: ;
-	--fw-codeblock__gutters: ;
+}
+
+:root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
 }
 
 :root {

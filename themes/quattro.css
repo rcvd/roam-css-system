@@ -1027,10 +1027,6 @@
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
 	--bd-codeblock__gutters: ;
-	--ff-codeblock__gutters: 'iA Writer Mono S';
-	--fs-codeblock__gutters: ;
-	--ft-codeblock__gutters: ;
-	--fw-codeblock__gutters: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1040,6 +1036,18 @@
 		--br-codeblock__gutters: 2px solid var(--cl-gray-900);
 		--bb-codeblock__gutters: ;
 		--bl-codeblock__gutters: ;
+	}
+}
+
+:root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 
