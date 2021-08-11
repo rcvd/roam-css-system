@@ -331,9 +331,9 @@ a {
 }
 
 .bp3-button.bp3-minimal {
-	background-color: 		var(--bc-button--minimal, transparent);
-	box-shadow: 			var(--sd-button--minimal, none);
-	--webkit-box-shadow: 	var(--sd-button--minimal, none);
+	background-color: 		var(--bc-button__minimal, transparent);
+	box-shadow: 			var(--sd-button__minimal, none);
+	--webkit-box-shadow: 	var(--sd-button__minimal, none);
 }
 
 .bp3-button:not([class*='bp3-intent-']) {

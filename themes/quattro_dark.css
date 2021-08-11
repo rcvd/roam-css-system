@@ -325,8 +325,8 @@
 }
 
 :root {
-	--bc-button--minimal: ;
-	--sd-button--minimal: ;
+	--bc-button__minimal: ;
+	--sd-button__minimal: ;
 }
 
 :root {

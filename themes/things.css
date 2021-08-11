@@ -712,14 +712,14 @@
 }
 
 :root {
-	--bc-button--minimal: ;
-	--sd-button--minimal: ;
+	--bc-button__minimal: ;
+	--sd-button__minimal: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button--minimal: ;
-		--sd-button--minimal: ;
+		--bc-button__minimal: ;
+		--sd-button__minimal: ;
 	}
 }
 
