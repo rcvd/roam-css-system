@@ -3554,6 +3554,7 @@
 	--br-roam-css__button--active-hover: ;
 	--bb-roam-css__button--active-hover: ;
 	--bl-roam-css__button--active-hover: ;
+	--bd-roam-css__button--active-hover: ;
 	--co-roam-css__button--active-hover: ;
 }
 
@@ -3595,6 +3596,7 @@
 	--br-roam-css__button--inactive-hover: ;
 	--bb-roam-css__button--inactive-hover: ;
 	--bl-roam-css__button--inactive-hover: ;
+	--bd-roam-css__button--inactive-hover: ;
 	--co-roam-css__button--inactive-hover: ;
 }
 
@@ -3678,6 +3680,7 @@
 	--br-roam-js__button--active-hover: ;
 	--bb-roam-js__button--active-hover: ;
 	--bl-roam-js__button--active-hover: ;
+	--bd-roam-js__button--active-hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3715,6 +3718,7 @@
 	--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
 	--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
 	--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
+	--bd-roam-js__button--inactive-hover: ;
 	--co-roam-js__button--inactive-hover: var(--cl-white);
 }
 

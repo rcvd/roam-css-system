@@ -1644,6 +1644,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-right: 			var(--br-roam-css__button--active-hover, inherit);
 	border-bottom: 			var(--bb-roam-css__button--active-hover, inherit);
 	border-left: 			var(--bl-roam-css__button--active-hover, inherit);
+	border-radius: 			var(--bd-roam-css__button--active-hover, 3px);
 	color: 					var(--co-roam-css__button--active-hover, #212529);
 }
 
@@ -1663,6 +1664,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-right: 			var(--br-roam-css__button--inactive-hover, inherit);
 	border-bottom: 			var(--bb-roam-css__button--inactive-hover, inherit);
 	border-left: 			var(--bl-roam-css__button--inactive-hover, inherit);
+	border-radius: 			var(--bd-roam-css__button--inactive-hover, 3px);
 	color: 					var(--co-roam-css__button--inactive-hover, #fff);
 }
 
@@ -1702,6 +1704,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-right: 			var(--br-roam-js__button--active-hover, inherit);
 	border-bottom: 			var(--bb-roam-js__button--active-hover, inherit);
 	border-left: 			var(--bl-roam-js__button--active-hover, inherit);
+	border-radius: 			var(--bd-roam-js__button--active-hover, 3px);
 }
 
 .rm-roam-js--active .bp3-button:not([class*='bp3-intent-']) {
@@ -1719,6 +1722,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-right: 			var(--br-roam-js__button--inactive-hover, inherit);
 	border-bottom: 			var(--bb-roam-js__button--inactive-hover, inherit);
 	border-left: 			var(--bl-roam-js__button--inactive-hover, inherit);
+	border-radius: 			var(--bd-roam-js__button--inactive-hover, 3px);
 	color: 					var(--co-roam-js__button--inactive-hover, #fff);
 }
 
