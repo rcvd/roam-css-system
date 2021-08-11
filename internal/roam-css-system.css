@@ -260,7 +260,7 @@ a {
 }
 
 .bp3-button:not([class*='bp3-intent-']):hover .bp3-icon, .bp3-button:not([class*='bp3-intent-']):hover::before {
-	color: 					var(--co-button__icon--hover, inherit);
+	color: 					var(--co-button__icon--hover, #5c7080);
 }
 
 .bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large, .bp3-button[class*='bp3-icon-']::before {
