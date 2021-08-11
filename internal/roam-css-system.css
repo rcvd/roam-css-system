@@ -569,7 +569,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	border-right: 			var(--br-datepicker__nav-button--hover, inherit);
 	border-bottom: 			var(--bb-datepicker__nav-button--hover, inherit)!important;
 	border-left: 			var(--bl-datepicker__nav-button--hover, inherit);
-	border-radius: 			var(--bd-datepicker__nav-button--hover, inherit);
+	border-radius: 			var(--bd-datepicker__nav-button--hover, 3px);
 }
 
 .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover .bp3-icon {
@@ -2001,7 +2001,7 @@ span[style*='background-color: yellow'] {
 	border-right: 			var(--br-topbar-datepicker__nav-button--hover, inherit);
 	border-bottom: 			var(--bb-topbar-datepicker__nav-button--hover, inherit)!important;
 	border-left: 			var(--bl-topbar-datepicker__nav-button--hover, inherit);
-	border-radius: 			var(--bd-topbar-datepicker__nav-button--hover, inherit);
+	border-radius: 			var(--bd-topbar-datepicker__nav-button--hover, 3px);
 }
 
 .rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover .bp3-icon {
