@@ -1640,69 +1640,116 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 
 .rm-roam-css--active .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-roam-css__button--active-hover, #ffc107);
+	border-top: 			var(--bt-roam-css__button--active-hover, inherit);
+	border-right: 			var(--br-roam-css__button--active-hover, inherit);
+	border-bottom: 			var(--bb-roam-css__button--active-hover, inherit);
+	border-left: 			var(--bl-roam-css__button--active-hover, inherit);
 	color: 					var(--co-roam-css__button--active-hover, #212529);
 }
 
 .rm-roam-css--active .bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-roam-css__button--active, #ffc107);
+	border-top: 			var(--bt-roam-css__button--active, inherit);
+	border-right: 			var(--br-roam-css__button--active, inherit);
+	border-bottom: 			var(--bb-roam-css__button--active, inherit);
+	border-left: 			var(--bl-roam-css__button--active, inherit);
+	border-radius: 			var(--bd-roam-css__button--active, inherit);
 	color: 					var(--co-roam-css__button--active, #212529);
 }
 
 .rm-roam-css--inactive .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-roam-css__button--inactive-hover, #dc3545);
+	border-top: 			var(--bt-roam-css__button--inactive-hover, inherit);
+	border-right: 			var(--br-roam-css__button--inactive-hover, inherit);
+	border-bottom: 			var(--bb-roam-css__button--inactive-hover, inherit);
+	border-left: 			var(--bl-roam-css__button--inactive-hover, inherit);
 	color: 					var(--co-roam-css__button--inactive-hover, #fff);
 }
 
 .rm-roam-css--inactive .bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-roam-css__button--inactive, #dc3545);
+	border-top: 			var(--bt-roam-css__button--inactive, inherit);
+	border-right: 			var(--br-roam-css__button--inactive, inherit);
+	border-bottom: 			var(--bb-roam-css__button--inactive, inherit);
+	border-left: 			var(--bl-roam-css__button--inactive, inherit);
+	border-radius: 			var(--bd-roam-css__button--inactive, inherit);
 	color: 					var(--co-roam-css__button--inactive, #fff);
 }
 
 .rm-roam-css--active {
 	background-color: 		var(--bc-roam-css__container-active, #fff3cd);
+	border-top: 			var(--bt-roam-css__container-active, inherit);
+	border-right: 			var(--br-roam-css__container-active, inherit);
+	border-bottom: 			var(--bb-roam-css__container-active, inherit);
+	border-left: 			var(--bl-roam-css__container-active, inherit);
+	border-radius: 			var(--bd-roam-css__container-active, inherit);
 	color: 					var(--co-roam-css__container-active, #856404);
 }
 
 .rm-roam-css--inactive {
 	background-color: 		var(--bc-roam-css__container-inactive, #f8d7da);
+	border-top: 			var(--bt-roam-css__container-inactive, inherit);
+	border-right: 			var(--br-roam-css__container-inactive, inherit);
+	border-bottom: 			var(--bb-roam-css__container-inactive, inherit);
+	border-left: 			var(--bl-roam-css__container-inactive, inherit);
+	border-radius: 			var(--bd-roam-css__container-inactive, inherit);
 	color: 					var(--co-roam-css__container-inactive, #721c24);
 }
 
-.rm-roam-js .bp3-button:not([class*='bp3-intent-']):hover {
-	background-color: 		var(--bc-roam-js__button--hover, inherit);
-	border-top: 			var(--bt-roam-js__button--hover, inherit);
-	border-right: 			var(--br-roam-js__button--hover, inherit);
-	border-bottom: 			var(--bb-roam-js__button--hover, inherit);
-	border-left: 			var(--bl-roam-js__button--hover, inherit);
-	color: 					var(--co-roam-js__button--hover, inherit);
+.rm-roam-js--active .bp3-button:not([class*='bp3-intent-']):hover {
+	background-color: 		var(--bc-roam-js__button--active-hover, #ffc107);
+	border-top: 			var(--bt-roam-js__button--active-hover, inherit);
+	border-right: 			var(--br-roam-js__button--active-hover, inherit);
+	border-bottom: 			var(--bb-roam-js__button--active-hover, inherit);
+	border-left: 			var(--bl-roam-js__button--active-hover, inherit);
 }
 
-.rm-roam-js .bp3-button:not([class*='bp3-intent-']) {
-	background-color: 		var(--bc-roam-js__button, inherit);
-	border-top: 			var(--bt-roam-js__button, inherit);
-	border-right: 			var(--br-roam-js__button, inherit);
-	border-bottom: 			var(--bb-roam-js__button, inherit);
-	border-left: 			var(--bl-roam-js__button, inherit);
-	border-radius: 			var(--bd-roam-js__button, inherit);
-	color: 					var(--co-roam-js__button, inherit);
+.rm-roam-js--active .bp3-button:not([class*='bp3-intent-']) {
+	background-color: 		var(--bc-roam-js__button--active, #ffc107);
+	border-top: 			var(--bt-roam-js__button--active, inherit);
+	border-right: 			var(--br-roam-js__button--active, inherit);
+	border-bottom: 			var(--bb-roam-js__button--active, inherit);
+	border-left: 			var(--bl-roam-js__button--active, inherit);
+	border-radius: 			var(--bd-roam-js__button--active, inherit);
+}
+
+.rm-roam-js--inactive .bp3-button:not([class*='bp3-intent-']):hover {
+	background-color: 		var(--bc-roam-js__button--inactive-hover, #dc3545);
+	border-top: 			var(--bt-roam-js__button--inactive-hover, inherit);
+	border-right: 			var(--br-roam-js__button--inactive-hover, inherit);
+	border-bottom: 			var(--bb-roam-js__button--inactive-hover, inherit);
+	border-left: 			var(--bl-roam-js__button--inactive-hover, inherit);
+	color: 					var(--co-roam-js__button--inactive-hover, #fff);
+}
+
+.rm-roam-js--inactive .bp3-button:not([class*='bp3-intent-']) {
+	background-color: 		var(--bc-roam-js__button--inactive, #dc3545);
+	border-top: 			var(--bt-roam-js__button--inactive, inherit);
+	border-right: 			var(--br-roam-js__button--inactive, inherit);
+	border-bottom: 			var(--bb-roam-js__button--inactive, inherit);
+	border-left: 			var(--bl-roam-js__button--inactive, inherit);
+	border-radius: 			var(--bd-roam-js__button--inactive, inherit);
+	color: 					var(--co-roam-js__button--inactive, #fff);
 }
 
 .rm-roam-js--active {
-	background-color: 		var(--bc-roam-js__container--active, #fff3cd);
-	border-top: 			var(--bt-roam-js__container--active, inherit);
-	border-right: 			var(--br-roam-js__container--active, inherit);
-	border-bottom: 			var(--bb-roam-js__container--active, inherit);
-	border-left: 			var(--bl-roam-js__container--active, inherit);
-	color: 					var(--co-roam-js__container--active, #856404);
+	background-color: 		var(--bc-roam-js__container-active, #fff3cd);
+	border-top: 			var(--bt-roam-js__container-active, inherit);
+	border-right: 			var(--br-roam-js__container-active, inherit);
+	border-bottom: 			var(--bb-roam-js__container-active, inherit);
+	border-left: 			var(--bl-roam-js__container-active, inherit);
+	border-radius: 			var(--bd-roam-js__container-active, inherit);
+	color: 					var(--co-roam-js__container-active, #856404);
 }
 
 .rm-roam-js--inactive {
-	background-color: 		var(--bc-roam-js__container--inactive, #f8d7da);
-	border-top: 			var(--bt-roam-js__container--inactive, inherit);
-	border-right: 			var(--br-roam-js__container--inactive, inherit);
-	border-bottom: 			var(--bb-roam-js__container--inactive, inherit);
-	border-left: 			var(--bl-roam-js__container--inactive, inherit);
-	color: 					var(--co-roam-js__container--inactive, #721c24);
+	background-color: 		var(--bc-roam-js__container-inactive, #f8d7da);
+	border-top: 			var(--bt-roam-js__container-inactive, inherit);
+	border-right: 			var(--br-roam-js__container-inactive, inherit);
+	border-bottom: 			var(--bb-roam-js__container-inactive, inherit);
+	border-left: 			var(--bl-roam-js__container-inactive, inherit);
+	border-radius: 			var(--bd-roam-js__container-inactive, inherit);
+	color: 					var(--co-roam-js__container-inactive, #721c24);
 }
 
 .rm-command-palette__scroll-container .rm-command-palette__menu .rm-menu-item--active {

@@ -3550,154 +3550,245 @@
 
 :root {
 	--bc-roam-css__button--active-hover: ;
+	--bt-roam-css__button--active-hover: ;
+	--br-roam-css__button--active-hover: ;
+	--bb-roam-css__button--active-hover: ;
+	--bl-roam-css__button--active-hover: ;
 	--co-roam-css__button--active-hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__button--active-hover: ;
+		--bt-roam-css__button--active-hover: ;
+		--br-roam-css__button--active-hover: ;
+		--bb-roam-css__button--active-hover: ;
+		--bl-roam-css__button--active-hover: ;
 		--co-roam-css__button--active-hover: ;
 	}
 }
 
 :root {
 	--bc-roam-css__button--active: ;
+	--bt-roam-css__button--active: ;
+	--br-roam-css__button--active: ;
+	--bb-roam-css__button--active: ;
+	--bl-roam-css__button--active: ;
+	--bd-roam-css__button--active: ;
 	--co-roam-css__button--active: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__button--active: ;
+		--bt-roam-css__button--active: ;
+		--br-roam-css__button--active: ;
+		--bb-roam-css__button--active: ;
+		--bl-roam-css__button--active: ;
 		--co-roam-css__button--active: ;
 	}
 }
 
 :root {
 	--bc-roam-css__button--inactive-hover: ;
+	--bt-roam-css__button--inactive-hover: ;
+	--br-roam-css__button--inactive-hover: ;
+	--bb-roam-css__button--inactive-hover: ;
+	--bl-roam-css__button--inactive-hover: ;
 	--co-roam-css__button--inactive-hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__button--inactive-hover: ;
+		--bt-roam-css__button--inactive-hover: ;
+		--br-roam-css__button--inactive-hover: ;
+		--bb-roam-css__button--inactive-hover: ;
+		--bl-roam-css__button--inactive-hover: ;
 		--co-roam-css__button--inactive-hover: ;
 	}
 }
 
 :root {
 	--bc-roam-css__button--inactive: ;
+	--bt-roam-css__button--inactive: ;
+	--br-roam-css__button--inactive: ;
+	--bb-roam-css__button--inactive: ;
+	--bl-roam-css__button--inactive: ;
+	--bd-roam-css__button--inactive: ;
 	--co-roam-css__button--inactive: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__button--inactive: ;
+		--bt-roam-css__button--inactive: ;
+		--br-roam-css__button--inactive: ;
+		--bb-roam-css__button--inactive: ;
+		--bl-roam-css__button--inactive: ;
 		--co-roam-css__button--inactive: ;
 	}
 }
 
 :root {
 	--bc-roam-css__container-active: ;
+	--bt-roam-css__container-active: ;
+	--br-roam-css__container-active: ;
+	--bb-roam-css__container-active: ;
+	--bl-roam-css__container-active: ;
+	--bd-roam-css__container-active: ;
 	--co-roam-css__container-active: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__container-active: ;
+		--bt-roam-css__container-active: ;
+		--br-roam-css__container-active: ;
+		--bb-roam-css__container-active: ;
+		--bl-roam-css__container-active: ;
 		--co-roam-css__container-active: ;
 	}
 }
 
 :root {
 	--bc-roam-css__container-inactive: ;
+	--bt-roam-css__container-inactive: ;
+	--br-roam-css__container-inactive: ;
+	--bb-roam-css__container-inactive: ;
+	--bl-roam-css__container-inactive: ;
+	--bd-roam-css__container-inactive: ;
 	--co-roam-css__container-inactive: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-roam-css__container-inactive: ;
+		--bt-roam-css__container-inactive: ;
+		--br-roam-css__container-inactive: ;
+		--bb-roam-css__container-inactive: ;
+		--bl-roam-css__container-inactive: ;
 		--co-roam-css__container-inactive: ;
 	}
 }
 
 :root {
-	--bc-roam-js__button--hover: var(--cl-red-500);
-	--bt-roam-js__button--hover: 1px solid var(--cl-red-600);
-	--br-roam-js__button--hover: 1px solid var(--cl-red-600);
-	--bb-roam-js__button--hover: 1px solid var(--cl-red-600);
-	--bl-roam-js__button--hover: 1px solid var(--cl-red-600);
-	--co-roam-js__button--hover: var(--cl-white);
+	--bc-roam-js__button--active-hover: ;
+	--bt-roam-js__button--active-hover: ;
+	--br-roam-js__button--active-hover: ;
+	--bb-roam-js__button--active-hover: ;
+	--bl-roam-js__button--active-hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam-js__button--hover: var(--cl-red-500);
-		--bt-roam-js__button--hover: 1px solid var(--cl-red-400);
-		--br-roam-js__button--hover: 1px solid var(--cl-red-400);
-		--bb-roam-js__button--hover: 1px solid var(--cl-red-400);
-		--bl-roam-js__button--hover: 1px solid var(--cl-red-400);
-		--co-roam-js__button--hover: var(--cl-white);
+		--bc-roam-js__button--active-hover: ;
+		--bt-roam-js__button--active-hover: ;
+		--br-roam-js__button--active-hover: ;
+		--bb-roam-js__button--active-hover: ;
+		--bl-roam-js__button--active-hover: ;
 	}
 }
 
 :root {
-	--bc-roam-js__button: transparent;
-	--bt-roam-js__button: 1px solid var(--cl-gray-500);
-	--br-roam-js__button: 1px solid var(--cl-gray-500);
-	--bb-roam-js__button: 1px solid var(--cl-gray-500);
-	--bl-roam-js__button: 1px solid var(--cl-gray-500);
-	--bd-roam-js__button: 0px;
-	--co-roam-js__button: var(--cl-gray-900);
+	--bc-roam-js__button--active: ;
+	--bt-roam-js__button--active: ;
+	--br-roam-js__button--active: ;
+	--bb-roam-js__button--active: ;
+	--bl-roam-js__button--active: ;
+	--bd-roam-js__button--active: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam-js__button: transparent;
-		--bt-roam-js__button: 1px solid var(--cl-gray-500);
-		--br-roam-js__button: 1px solid var(--cl-gray-500);
-		--bb-roam-js__button: 1px solid var(--cl-gray-500);
-		--bl-roam-js__button: 1px solid var(--cl-gray-500);
-		--co-roam-js__button: var(--cl-gray-100);
+		--bc-roam-js__button--active: ;
+		--bt-roam-js__button--active: ;
+		--br-roam-js__button--active: ;
+		--bb-roam-js__button--active: ;
+		--bl-roam-js__button--active: ;
 	}
 }
 
 :root {
-	--bc-roam-js__container--active: var(--cl-yellow-50);
-	--bt-roam-js__container--active: 1px solid var(--cl-yellow-100);
-	--br-roam-js__container--active: 1px solid var(--cl-yellow-100);
-	--bb-roam-js__container--active: 1px solid var(--cl-yellow-100);
-	--bl-roam-js__container--active: 1px solid var(--cl-yellow-100);
-	--co-roam-js__container--active: var(--cl-gray-900);
+	--bc-roam-js__button--inactive-hover: var(--cl-red-500);
+	--bt-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
+	--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
+	--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
+	--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);
+	--co-roam-js__button--inactive-hover: var(--cl-white);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam-js__container--active: var(--cl-yellow-800);
-		--bt-roam-js__container--active: 1px solid var(--cl-yellow-900);
-		--br-roam-js__container--active: 1px solid var(--cl-yellow-900);
-		--bb-roam-js__container--active: 1px solid var(--cl-yellow-900);
-		--bl-roam-js__container--active: 1px solid var(--cl-yellow-900);
-		--co-roam-js__container--active: var(--cl-gray-100);
+		--bc-roam-js__button--inactive-hover: var(--cl-red-500);
+		--bt-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+		--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+		--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+		--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+		--co-roam-js__button--inactive-hover: var(--cl-white);
 	}
 }
 
 :root {
-	--bc-roam-js__container--inactive: var(--cl-gray-50);
-	--bt-roam-js__container--inactive: 1px solid var(--cl-gray-100);
-	--br-roam-js__container--inactive: 1px solid var(--cl-gray-100);
-	--bb-roam-js__container--inactive: 1px solid var(--cl-gray-100);
-	--bl-roam-js__container--inactive: 1px solid var(--cl-gray-100);
-	--co-roam-js__container--inactive: var(--cl-gray-900);
+	--bc-roam-js__button--inactive: transparent;
+	--bt-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+	--br-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+	--bb-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+	--bl-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+	--bd-roam-js__button--inactive: 0px;
+	--co-roam-js__button--inactive: var(--cl-gray-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam-js__container--inactive: var(--cl-gray-800);
-		--bt-roam-js__container--inactive: 1px solid var(--cl-gray-700);
-		--br-roam-js__container--inactive: 1px solid var(--cl-gray-700);
-		--bb-roam-js__container--inactive: 1px solid var(--cl-gray-700);
-		--bl-roam-js__container--inactive: 1px solid var(--cl-gray-700);
-		--co-roam-js__container--inactive: var(--cl-gray-100);
+		--bc-roam-js__button--inactive: transparent;
+		--bt-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+		--br-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+		--bb-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+		--bl-roam-js__button--inactive: 1px solid var(--cl-gray-500);
+		--co-roam-js__button--inactive: var(--cl-gray-100);
+	}
+}
+
+:root {
+	--bc-roam-js__container-active: var(--cl-yellow-50);
+	--bt-roam-js__container-active: 1px solid var(--cl-yellow-100);
+	--br-roam-js__container-active: 1px solid var(--cl-yellow-100);
+	--bb-roam-js__container-active: 1px solid var(--cl-yellow-100);
+	--bl-roam-js__container-active: 1px solid var(--cl-yellow-100);
+	--bd-roam-js__container-active: ;
+	--co-roam-js__container-active: var(--cl-gray-900);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-js__container-active: var(--cl-yellow-800);
+		--bt-roam-js__container-active: 1px solid var(--cl-yellow-900);
+		--br-roam-js__container-active: 1px solid var(--cl-yellow-900);
+		--bb-roam-js__container-active: 1px solid var(--cl-yellow-900);
+		--bl-roam-js__container-active: 1px solid var(--cl-yellow-900);
+		--co-roam-js__container-active: var(--cl-gray-100);
+	}
+}
+
+:root {
+	--bc-roam-js__container-inactive: var(--cl-gray-50);
+	--bt-roam-js__container-inactive: 1px solid var(--cl-gray-100);
+	--br-roam-js__container-inactive: 1px solid var(--cl-gray-100);
+	--bb-roam-js__container-inactive: 1px solid var(--cl-gray-100);
+	--bl-roam-js__container-inactive: 1px solid var(--cl-gray-100);
+	--bd-roam-js__container-inactive: ;
+	--co-roam-js__container-inactive: var(--cl-gray-900);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-js__container-inactive: var(--cl-gray-800);
+		--bt-roam-js__container-inactive: 1px solid var(--cl-gray-700);
+		--br-roam-js__container-inactive: 1px solid var(--cl-gray-700);
+		--bb-roam-js__container-inactive: 1px solid var(--cl-gray-700);
+		--bl-roam-js__container-inactive: 1px solid var(--cl-gray-700);
+		--co-roam-js__container-inactive: var(--cl-gray-100);
 	}
 }
 
