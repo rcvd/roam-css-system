@@ -3549,6 +3549,78 @@
 }
 
 :root {
+	--bc-roam-css__button--active-hover: ;
+	--co-roam-css__button--active-hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__button--active-hover: ;
+		--co-roam-css__button--active-hover: ;
+	}
+}
+
+:root {
+	--bc-roam-css__button--active: ;
+	--co-roam-css__button--active: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__button--active: ;
+		--co-roam-css__button--active: ;
+	}
+}
+
+:root {
+	--bc-roam-css__button--inactive-hover: ;
+	--co-roam-css__button--inactive-hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__button--inactive-hover: ;
+		--co-roam-css__button--inactive-hover: ;
+	}
+}
+
+:root {
+	--bc-roam-css__button--inactive: ;
+	--co-roam-css__button--inactive: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__button--inactive: ;
+		--co-roam-css__button--inactive: ;
+	}
+}
+
+:root {
+	--bc-roam-css__container-active: ;
+	--co-roam-css__container-active: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__container-active: ;
+		--co-roam-css__container-active: ;
+	}
+}
+
+:root {
+	--bc-roam-css__container-inactive: ;
+	--co-roam-css__container-inactive: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-roam-css__container-inactive: ;
+		--co-roam-css__container-inactive: ;
+	}
+}
+
+:root {
 	--bc-roam-js__button--hover: var(--cl-red-500);
 	--bt-roam-js__button--hover: 1px solid var(--cl-red-600);
 	--br-roam-js__button--hover: 1px solid var(--cl-red-600);
