@@ -1102,7 +1102,7 @@ div, textarea {
 	background-color: 		var(--bc-inline-references, #F5F8FA);
 }
 
-.bp3-input[type='search'], .bp3-input.bp3-round, .rm-help-search__input {
+.bp3-input[type='search'], .bp3-input.bp3-round {
 	border-radius: 			var(--bd-input__search, 30px);
 }
 
