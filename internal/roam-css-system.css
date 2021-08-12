@@ -816,7 +816,7 @@ div, textarea {
 }
 
 .rm-embed-container--block {
-	background-color: 		var(--bc-embed, #D8E1E8);
+	background-color: 		var(--bc-embed, #EBF1F5);
 	border-top: 			var(--bt-embed, inherit);
 	border-right: 			var(--br-embed, inherit);
 	border-bottom: 			var(--bb-embed, inherit);
