@@ -2495,6 +2495,7 @@
 	--br-install-button--hover: 1px solid var(--cl-blue-100);
 	--bb-install-button--hover: 1px solid var(--cl-blue-100);
 	--bl-install-button--hover: 1px solid var(--cl-blue-100);
+	--bd-install-button--hover: ;
 	--co-install-button--hover: var(--cl-blue-900);
 }
 

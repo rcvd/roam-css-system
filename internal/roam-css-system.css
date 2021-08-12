@@ -1153,6 +1153,7 @@ div, textarea {
 	border-right: 			var(--br-install-button--hover, 1px solid transparent);
 	border-bottom: 			var(--bb-install-button--hover, 1px solid transparent);
 	border-left: 			var(--bl-install-button--hover, 1px solid transparent);
+	border-radius: 			var(--bd-install-button--hover, 2px);
 	color: 					var(--co-install-button--hover, #fff)!important;
 }
 
