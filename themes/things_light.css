@@ -814,7 +814,6 @@
 :root {
 	--bc-embed-page__margin: var(--cl-gray-300);
 	--bl-embed-page__margin: ;
-	--op-embed-page__margin: 1.0;
 }
 
 :root {

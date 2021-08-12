@@ -827,7 +827,6 @@ div, textarea {
 .rm-embed-margin-action {
 	background-color: 		var(--bc-embed-page__margin, #738694);
 	border-left: 			var(--bl-embed-page__margin, 1px solid #182026);
-	opacity: 				var(--op-embed-page__margin, inherit);
 }
 
 .rm-embed__content .rm-reference-main {
