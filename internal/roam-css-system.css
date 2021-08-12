@@ -1152,11 +1152,11 @@ div, textarea {
 
 .rm-install-menu-item {
 	background-color: 		var(--bc-install-button, inherit);
-	border-top: 			var(--bt-install-button, inherit);
-	border-right: 			var(--br-install-button, inherit);
-	border-bottom: 			var(--bb-install-button, inherit);
-	border-left: 			var(--bl-install-button, inherit);
-	border-radius: 			var(--bd-install-button, inherit);
+	border-top: 			var(--bt-install-button, 1px solid #106ba3);
+	border-right: 			var(--br-install-button, 1px solid #106ba3);
+	border-bottom: 			var(--bb-install-button, 1px solid #106ba3);
+	border-left: 			var(--bl-install-button, 1px solid #106ba3);
+	border-radius: 			var(--bd-install-button, 2px);
 	color: 					var(--co-install-button, inherit)!important;
 }
 
@@ -1337,7 +1337,7 @@ div, textarea {
 	border-right: 			var(--br-menu__item, inherit);
 	border-bottom: 			var(--bb-menu__item, inherit);
 	border-left: 			var(--bl-menu__item, inherit);
-	border-radius: 			var(--bd-menu__item, inherit);
+	border-radius: 			var(--bd-menu__item, 2px);
 	color: 					var(--co-menu__item, inherit);
 }
 
