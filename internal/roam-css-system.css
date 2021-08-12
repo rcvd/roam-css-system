@@ -1147,7 +1147,7 @@ div, textarea {
 	font-weight: 			var(--fw-input, 400);
 }
 
-.rm-install-menu-item:hover {
+.bp3-menu-item.rm-install-menu-item:hover {
 	background-color: 		var(--bc-install-button--hover, #137cbd);
 	border-top: 			var(--bt-install-button--hover, inherit);
 	border-right: 			var(--br-install-button--hover, inherit);
@@ -1156,7 +1156,7 @@ div, textarea {
 	color: 					var(--co-install-button--hover, #fff)!important;
 }
 
-.rm-install-menu-item {
+.bp3-menu-item.rm-install-menu-item {
 	background-color: 		var(--bc-install-button, inherit);
 	border-top: 			var(--bt-install-button, 1px solid #106ba3);
 	border-right: 			var(--br-install-button, 1px solid #106ba3);
