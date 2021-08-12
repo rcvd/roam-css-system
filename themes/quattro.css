@@ -2833,25 +2833,6 @@
 }
 
 :root {
-	--bc-menu__button: transparent;
-	--bt-menu__button: none;
-	--br-menu__button: none;
-	--bb-menu__button: none;
-	--bl-menu__button: none;
-	--bd-menu__button: ;
-}
-
-@media(prefers-color-scheme: dark) {
-	:root {
-		--bc-menu__button: transparent;
-		--bt-menu__button: none;
-		--br-menu__button: none;
-		--bb-menu__button: none;
-		--bl-menu__button: none;
-	}
-}
-
-:root {
 	--co-menu__button-icon--active: var(--cl-gray-700);
 }
 

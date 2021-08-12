@@ -1307,15 +1307,6 @@ div, textarea {
 	color: 					var(--co-menu__button--active, inherit)!important;
 }
 
-.bp3-menu button {
-	background-color: 		var(--bc-menu__button, white)!important;
-	border-top: 			var(--bt-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-	border-right: 			var(--br-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-	border-bottom: 			var(--bb-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-	border-left: 			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224))!important;
-	border-radius: 			var(--bd-menu__button, 2px)!important;
-}
-
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
 	color: 					var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
 }

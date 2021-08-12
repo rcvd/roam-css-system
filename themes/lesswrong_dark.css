@@ -1292,15 +1292,6 @@
 }
 
 :root {
-	--bc-menu__button: transparent;
-	--bt-menu__button: none;
-	--br-menu__button: none;
-	--bb-menu__button: none;
-	--bl-menu__button: none;
-	--bd-menu__button: ;
-}
-
-:root {
 	--co-menu__button-icon--active: var(--cl-gray-300);
 }
 
