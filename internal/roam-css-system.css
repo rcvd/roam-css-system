@@ -914,7 +914,7 @@ div, textarea {
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title:hover .expand-icon {
-	color: 					var(--co-graph-dropdown__expand-icon--hover, inherit);
+	color: 					var(--co-graph-dropdown__expand-icon--hover, #5c7080);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title .expand-icon {
@@ -1128,8 +1128,8 @@ div, textarea {
 	border-bottom: 			var(--bb-input--focus, inherit);
 	border-left: 			var(--bl-input--focus, inherit);
 	border-radius: 			var(--bd-input--focus, inherit);
-	box-shadow: 			var(--sd-input--focus, inherit);
-	--webkit-box-shadow: 	var(--sd-input--focus, inherit);
+	box-shadow: 			var(--sd-input--focus, 0 0 0 1px #137cbd,0 0 0 3px rgba(19,124,189,0.3),inset 0 1px 1px rgba(16,22,26,0.2));
+	--webkit-box-shadow: 	var(--sd-input--focus, 0 0 0 1px #137cbd,0 0 0 3px rgba(19,124,189,0.3),inset 0 1px 1px rgba(16,22,26,0.2));
 }
 
 .bp3-input, input[type=search] {
