@@ -1117,7 +1117,7 @@ div, textarea {
 }
 
 .bp3-input[type='search']::placeholder, .bp3-input.bp3-round::placeholder, .bp3-input::placeholder {
-	color: 					var(--co-input__search-placeholder, #424D57);
+	color: 					var(--co-input__search-placeholder, darkgray);
 	font-family: 			var(--ff-input__search-placeholder, inherit);
 }
 
@@ -1148,12 +1148,12 @@ div, textarea {
 }
 
 .rm-install-menu-item:hover {
-	background-color: 		var(--bc-install-button--hover, inherit);
+	background-color: 		var(--bc-install-button--hover, #137cbd);
 	border-top: 			var(--bt-install-button--hover, inherit);
 	border-right: 			var(--br-install-button--hover, inherit);
 	border-bottom: 			var(--bb-install-button--hover, inherit);
 	border-left: 			var(--bl-install-button--hover, inherit);
-	color: 					var(--co-install-button--hover, inherit)!important;
+	color: 					var(--co-install-button--hover, #fff)!important;
 }
 
 .rm-install-menu-item {
@@ -1163,7 +1163,7 @@ div, textarea {
 	border-bottom: 			var(--bb-install-button, 1px solid #106ba3);
 	border-left: 			var(--bl-install-button, 1px solid #106ba3);
 	border-radius: 			var(--bd-install-button, 2px);
-	color: 					var(--co-install-button, inherit)!important;
+	color: 					var(--co-install-button, #106ba3)!important;
 }
 
 .kanban-card {
