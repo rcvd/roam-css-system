@@ -790,6 +790,7 @@
 	--bb-callout__primary: ;
 	--bl-callout__primary: ;
 	--bd-callout__primary: ;
+	--fs-callout__primary: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1373,6 +1374,7 @@
 
 :root {
 	--co-dialog__heading: var(--cl-gray-900);
+	--fs-dialog__heading: ;
 	--fw-dialog__heading: ;
 }
 
@@ -1568,6 +1570,16 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-elevation__item-keyprompt: var(--cl-gray-500);
+	}
+}
+
+:root {
+	--co-elevation__search-block: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-elevation__search-block: ;
 	}
 }
 
@@ -1782,12 +1794,14 @@
 
 :root {
 	--bc-embed-page__margin: var(--cl-gray-300);
+	--bl-embed-page__margin: ;
 	--op-embed-page__margin: 1.0;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-embed-page__margin: var(--cl-gray-700);
+		--bl-embed-page__margin: ;
 	}
 }
 
@@ -4316,6 +4330,7 @@
 	--bb-topbar-datepicker__nav-button--hover: none;
 	--bl-topbar-datepicker__nav-button--hover: none;
 	--bd-topbar-datepicker__nav-button--hover: ;
+	--co-topbar-datepicker__nav-button--hover: var(--cl-green-500);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4325,6 +4340,7 @@
 		--br-topbar-datepicker__nav-button--hover: ;
 		--bb-topbar-datepicker__nav-button--hover: ;
 		--bl-topbar-datepicker__nav-button--hover: ;
+		--co-topbar-datepicker__nav-button--hover: var(--cl-green-500);
 	}
 }
 

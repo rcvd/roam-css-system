@@ -373,6 +373,7 @@ a {
 	border-bottom: 			var(--bb-callout__primary, inherit);
 	border-left: 			var(--bl-callout__primary, inherit);
 	border-radius: 			var(--bd-callout__primary, 3px);
+	font-size: 				var(--fs-callout__primary, 14px);
 }
 
 .bp3-card {
@@ -625,8 +626,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	font-family: 			var(--ff-datepicker, inherit);
 }
 
-.bp3-heading {
+h3.bp3-heading {
 	color: 					var(--co-dialog__heading, #182026);
+	font-size: 				var(--fs-dialog__heading, 1.2em);
 	font-weight: 			var(--fw-dialog__heading, 600);
 }
 
@@ -675,11 +677,11 @@ div, textarea {
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);']  div[style*='color: rgb(129, 145, 157)'] {
-	color: 					var(--co-elevation__create-block--selected, inherit)!important;
+	color: 					var(--co-elevation__create-block--selected, rgb(129, 145, 157))!important;
 }
 
 .bp3-elevation-3 div[style*='color: rgb(129, 145, 157)'] {
-	color: 					var(--co-elevation__create-block, inherit)!important;
+	color: 					var(--co-elevation__create-block, rgb(129, 145, 157))!important;
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style*='background-color: rgb(213, 218, 223);'] {
@@ -717,6 +719,10 @@ div, textarea {
 	color: 					var(--co-elevation__item-keyprompt, inherit);
 	font-size: 				var(--fs-elevation__item-keyprompt, 0.8em)!important;
 	opacity: 				var(--op-elevation__item-keyprompt, 0.8)!important;
+}
+
+.bp3-elevation-3 div[style*='color: lightgray'] {
+	color: 					var(--co-elevation__search-block, lightgray);
 }
 
 .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container .rm-embed-container {
@@ -810,7 +816,7 @@ div, textarea {
 }
 
 .rm-embed-container--block {
-	background-color: 		var(--bc-embed, #EBF1F5);
+	background-color: 		var(--bc-embed, #D8E1E8);
 	border-top: 			var(--bt-embed, inherit);
 	border-right: 			var(--br-embed, inherit);
 	border-bottom: 			var(--bb-embed, inherit);
@@ -818,8 +824,9 @@ div, textarea {
 	border-radius: 			var(--bd-embed, inherit);
 }
 
-.rm-embed--page>.rm-embed-margin-action {
-	background-color: 		var(--bc-embed-page__margin, #5C7080);
+.rm-embed-margin-action {
+	background-color: 		var(--bc-embed-page__margin, #738694);
+	border-left: 			var(--bl-embed-page__margin, 1px solid #182026);
 	opacity: 				var(--op-embed-page__margin, inherit);
 }
 
@@ -2002,6 +2009,7 @@ span[style*='background-color: yellow'] {
 	border-bottom: 			var(--bb-topbar-datepicker__nav-button--hover, inherit)!important;
 	border-left: 			var(--bl-topbar-datepicker__nav-button--hover, inherit);
 	border-radius: 			var(--bd-topbar-datepicker__nav-button--hover, 3px);
+	color: 					var(--co-topbar-datepicker__nav-button--hover, inherit);
 }
 
 .rm-topbar .bp3-popover-content .bp3-button:not([class*='bp3-intent-']).DayPicker-NavButton:hover .bp3-icon {

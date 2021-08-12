@@ -364,6 +364,7 @@
 	--bb-callout__primary: ;
 	--bl-callout__primary: ;
 	--bd-callout__primary: 0px;
+	--fs-callout__primary: ;
 }
 
 :root {
@@ -617,6 +618,7 @@
 
 :root {
 	--co-dialog__heading: var(--cl-gray-100);
+	--fs-dialog__heading: ;
 	--fw-dialog__heading: ;
 }
 
@@ -704,6 +706,10 @@
 	--co-elevation__item-keyprompt: var(--cl-gray-500);
 	--fs-elevation__item-keyprompt: 0.8em;
 	--op-elevation__item-keyprompt: 1;
+}
+
+:root {
+	--co-elevation__search-block: ;
 }
 
 :root {
@@ -807,6 +813,7 @@
 
 :root {
 	--bc-embed-page__margin: var(--cl-gray-700);
+	--bl-embed-page__margin: ;
 	--op-embed-page__margin: 1.0;
 }
 
@@ -1983,6 +1990,7 @@
 	--bb-topbar-datepicker__nav-button--hover: ;
 	--bl-topbar-datepicker__nav-button--hover: ;
 	--bd-topbar-datepicker__nav-button--hover: ;
+	--co-topbar-datepicker__nav-button--hover: ;
 }
 
 :root {
