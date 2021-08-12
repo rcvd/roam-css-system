@@ -1914,7 +1914,7 @@ span[style*='background-color: yellow'] {
 	font-family: 			var(--ff-starred__title, inherit);
 	font-size: 				var(--fs-starred__title, 13px);
 	font-style: 			var(--ft-starred__title, inherit);
-	font-weight: 			var(--fw-starred__title, inherit);
+	font-weight: 			var(--fw-starred__title, bold);
 	text-transform: 		var(--tt-starred__title, inherit);
 }
 
