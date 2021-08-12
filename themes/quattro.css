@@ -1973,6 +1973,7 @@
 
 :root {
 	--co-graph-dropdown__a--hover: ;
+	--td-graph-dropdown__a--hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2069,6 +2070,17 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-graph-dropdown__setting-icon--hover: ;
+	}
+}
+
+:root {
+	--fs-graph-dropdown__sign-out: ;
+	--fw-graph-dropdown__sign-out: ;
+	--op-graph-dropdown__sign-out: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 

@@ -887,7 +887,7 @@ div, textarea {
 }
 
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
-	color: 					var(--co-find-or-create__new-page, inherit);
+	color: 					var(--co-find-or-create__new-page, #0D8050);
 }
 
 .rm-find-or-create__menu > div[style*='color: rgb(206, 217, 224);'] {
@@ -905,6 +905,7 @@ div, textarea {
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a:hover {
 	color: 					var(--co-graph-dropdown__a--hover, inherit);
+	text-decoration: 		var(--td-graph-dropdown__a--hover, none);
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a {
@@ -946,6 +947,12 @@ div, textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content a:hover .icon.settings {
 	color: 					var(--co-graph-dropdown__setting-icon--hover, inherit);
 	text-decoration: 		var(--td-graph-dropdown__setting-icon--hover, inherit);
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
+	font-size: 				var(--fs-graph-dropdown__sign-out, 10px);
+	font-weight: 			var(--fw-graph-dropdown__sign-out, 400);
+	opacity: 				var(--op-graph-dropdown__sign-out, 80%);
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
@@ -1024,8 +1031,8 @@ div, textarea {
 	border-top: 			var(--bt-help__input, 1px solid #B4B7BB);
 	border-right: 			var(--br-help__input, 1px solid #B4B7BB);
 	border-bottom: 			var(--bb-help__input, 1px solid #B4B7BB);
-	border-left: 			var(--bl-help__input, 1px solid #B4B7BB);
-	border-radius: 			var(--bd-help__input, inherit);
+	border-left: 			var(--bl-help__input, none);
+	border-radius: 			var(--bd-help__input, 0px);
 }
 
 .rm-help-results .rm-help-functions .rm-help-markdown-function__markdown {

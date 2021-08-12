@@ -892,6 +892,7 @@
 
 :root {
 	--co-graph-dropdown__a--hover: var(--cl-gray-700);
+	--td-graph-dropdown__a--hover: ;
 }
 
 :root {
@@ -933,6 +934,12 @@
 :root {
 	--co-graph-dropdown__setting-icon--hover: var(--cl-gray-700);
 	--td-graph-dropdown__setting-icon--hover: none;
+}
+
+:root {
+	--fs-graph-dropdown__sign-out: ;
+	--fw-graph-dropdown__sign-out: ;
+	--op-graph-dropdown__sign-out: ;
 }
 
 :root {
