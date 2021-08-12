@@ -1149,10 +1149,10 @@ div, textarea {
 
 .bp3-menu-item.rm-install-menu-item:hover {
 	background-color: 		var(--bc-install-button--hover, #137cbd);
-	border-top: 			var(--bt-install-button--hover, inherit);
-	border-right: 			var(--br-install-button--hover, inherit);
-	border-bottom: 			var(--bb-install-button--hover, inherit);
-	border-left: 			var(--bl-install-button--hover, inherit);
+	border-top: 			var(--bt-install-button--hover, 1px solid transparent);
+	border-right: 			var(--br-install-button--hover, 1px solid transparent);
+	border-bottom: 			var(--bb-install-button--hover, 1px solid transparent);
+	border-left: 			var(--bl-install-button--hover, 1px solid transparent);
 	color: 					var(--co-install-button--hover, #fff)!important;
 }
 
