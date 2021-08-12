@@ -2365,22 +2365,29 @@
 
 :root {
 	--bc-html__select--hover: var(--cl-gray-200);
+	--sd-html__select--hover: ;
 	--co-html__select--hover: var(--cl-black);
+	--td-html__select--hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-html__select--hover: var(--cl-gray-800);
+		--sd-html__select--hover: ;
 		--co-html__select--hover: var(--cl-white);
 	}
 }
 
 :root {
+	--bc-html__select: ;
+	--sd-html__select: ;
 	--co-html__select: var(--cl-gray-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-html__select: ;
+		--sd-html__select: ;
 		--co-html__select: var(--cl-gray-100);
 	}
 }
