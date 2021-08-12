@@ -1019,11 +1019,11 @@ div, textarea {
 
 .rm-help-search__input:focus, .rm-help-search__input:active {
 	background-color: 		var(--bc-help__input--focus, inherit);
-	border-top: 			var(--bt-help__input--focus, inherit);
-	border-right: 			var(--br-help__input--focus, inherit);
-	border-bottom: 			var(--bb-help__input--focus, inherit);
-	border-left: 			var(--bl-help__input--focus, inherit);
-	border-radius: 			var(--bd-help__input--focus, inherit);
+	border-top: 			var(--bt-help__input--focus, 1px solid #B4B7BB);
+	border-right: 			var(--br-help__input--focus, 1px solid #B4B7BB);
+	border-bottom: 			var(--bb-help__input--focus, 1px solid #B4B7BB);
+	border-left: 			var(--bl-help__input--focus, none);
+	border-radius: 			var(--bd-help__input--focus, 0px);
 }
 
 .rm-help-search__input {
