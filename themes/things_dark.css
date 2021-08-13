@@ -1294,13 +1294,33 @@
 }
 
 :root {
-	--bc-menu__button--active: var(--cl-blue-900);
-	--bt-menu__button--active: 1px solid var(--cl-blue-800);
-	--br-menu__button--active: 1px solid var(--cl-blue-800);
-	--bb-menu__button--active: 1px solid var(--cl-blue-800);
-	--bl-menu__button--active: 1px solid var(--cl-blue-800);
+	--bc-menu__button--active: #434343;
+	--bt-menu__button--active: 1px solid #434343;
+	--br-menu__button--active: 1px solid #434343;
+	--bb-menu__button--active: 1px solid #434343;
+	--bl-menu__button--active: 1px solid #434343;
 	--bd-menu__button--active: 5px;
-	--co-menu__button--active: ;
+	--co-menu__button--active: #a1a1a1;
+}
+
+:root {
+	--bc-menu__button--hover: transparent;
+	--bt-menu__button--hover: 1px solid #676767;
+	--br-menu__button--hover: 1px solid #676767;
+	--bb-menu__button--hover: 1px solid #676767;
+	--bl-menu__button--hover: 1px solid #676767;
+	--bd-menu__button--hover: ;
+	--co-menu__button--hover: #b7b8b7;
+}
+
+:root {
+	--bc-menu__button: transparent;
+	--bt-menu__button: 1px solid transparent;
+	--br-menu__button: 1px solid transparent;
+	--bb-menu__button: 1px solid transparent;
+	--bl-menu__button: 1px solid transparent;
+	--bd-menu__button: ;
+	--co-menu__button: #b7b8b7;
 }
 
 :root {

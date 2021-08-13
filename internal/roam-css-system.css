@@ -354,7 +354,7 @@ a {
 	color: 					var(--co-button--hover, inherit);
 }
 
-.bp3-button:not([class*='bp3-intent-']) {
+.bp3-button:not([class*='bp3-intent-']), {
 	background-color: 		var(--bc-button, #f5f8fa);
 	box-shadow: 			var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	--webkit-box-shadow: 	var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
@@ -1319,6 +1319,26 @@ div, textarea {
 	border-left: 			var(--bl-menu__button--active, none)!important;
 	border-radius: 			var(--bd-menu__button--active, inherit)!important;
 	color: 					var(--co-menu__button--active, inherit)!important;
+}
+
+.bp3-menu button:hover {
+	background-color: 		var(--bc-menu__button--hover, inherit);
+	border-top: 			var(--bt-menu__button--hover, inherit);
+	border-right: 			var(--br-menu__button--hover, inherit);
+	border-bottom: 			var(--bb-menu__button--hover, inherit);
+	border-left: 			var(--bl-menu__button--hover, inherit);
+	border-radius: 			var(--bd-menu__button--hover, inherit);
+	color: 					var(--co-menu__button--hover, inherit);
+}
+
+.bp3-menu button {
+	background-color: 		var(--bc-menu__button, white);
+	border-top: 			var(--bt-menu__button, 0.5px solid rgb(206, 217, 224));
+	border-right: 			var(--br-menu__button, 0.5px solid rgb(206, 217, 224));
+	border-bottom: 			var(--bb-menu__button, 0.5px solid rgb(206, 217, 224));
+	border-left: 			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224));
+	border-radius: 			var(--bd-menu__button, inherit);
+	color: 					var(--co-menu__button, inherit);
 }
 
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
