@@ -1322,23 +1322,23 @@ div, textarea {
 }
 
 .bp3-menu button:hover {
-	background-color: 		var(--bc-menu__button--hover, inherit);
-	border-top: 			var(--bt-menu__button--hover, inherit);
-	border-right: 			var(--br-menu__button--hover, inherit);
-	border-bottom: 			var(--bb-menu__button--hover, inherit);
-	border-left: 			var(--bl-menu__button--hover, inherit);
-	border-radius: 			var(--bd-menu__button--hover, inherit);
-	color: 					var(--co-menu__button--hover, inherit);
+	background-color: 		var(--bc-menu__button--hover, inherit)!important;
+	border-top: 			var(--bt-menu__button--hover, inherit)!important;
+	border-right: 			var(--br-menu__button--hover, inherit)!important;
+	border-bottom: 			var(--bb-menu__button--hover, inherit)!important;
+	border-left: 			var(--bl-menu__button--hover, inherit)!important;
+	border-radius: 			var(--bd-menu__button--hover, inherit)!important;
+	color: 					var(--co-menu__button--hover, inherit)!important;
 }
 
 .bp3-menu button {
-	background-color: 		var(--bc-menu__button, white);
-	border-top: 			var(--bt-menu__button, 0.5px solid rgb(206, 217, 224));
-	border-right: 			var(--br-menu__button, 0.5px solid rgb(206, 217, 224));
-	border-bottom: 			var(--bb-menu__button, 0.5px solid rgb(206, 217, 224));
-	border-left: 			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224));
-	border-radius: 			var(--bd-menu__button, inherit);
-	color: 					var(--co-menu__button, inherit);
+	background-color: 		var(--bc-menu__button, white)!important;
+	border-top: 			var(--bt-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+	border-right: 			var(--br-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+	border-bottom: 			var(--bb-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+	border-left: 			var(--bl-menu__button, 0.5px solid rgb(206, 217, 224))!important;
+	border-radius: 			var(--bd-menu__button, inherit)!important;
+	color: 					var(--co-menu__button, inherit)!important;
 }
 
 .bp3-menu button[style*='background-color: rgba(72, 176, 240, 0.5);'] span[style*='color: rgb(92, 112, 128);'] {
