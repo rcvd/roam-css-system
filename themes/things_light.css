@@ -1299,27 +1299,27 @@
 	--br-menu__button--active: none;
 	--bb-menu__button--active: none;
 	--bl-menu__button--active: none;
-	--bd-menu__button--active: 5px;
+	--bd-menu__button--active: 3px;
 	--co-menu__button--active: var(--cl-white);
 }
 
 :root {
-	--bc-menu__button--hover: ;
-	--bt-menu__button--hover: ;
-	--br-menu__button--hover: ;
-	--bb-menu__button--hover: ;
-	--bl-menu__button--hover: ;
-	--bd-menu__button--hover: ;
+	--bc-menu__button--hover: transparent;
+	--bt-menu__button--hover: 1px solid #e9ebee;
+	--br-menu__button--hover: 1px solid #e9ebee;
+	--bb-menu__button--hover: 1px solid #e9ebee;
+	--bl-menu__button--hover: 1px solid #e9ebee;
+	--bd-menu__button--hover: 3px;
 	--co-menu__button--hover: ;
 }
 
 :root {
-	--bc-menu__button: ;
-	--bt-menu__button: ;
-	--br-menu__button: ;
-	--bb-menu__button: ;
-	--bl-menu__button: ;
-	--bd-menu__button: ;
+	--bc-menu__button: transparent;
+	--bt-menu__button: none;
+	--br-menu__button: none;
+	--bb-menu__button: none;
+	--bl-menu__button: none;
+	--bd-menu__button: 3px;
 	--co-menu__button: ;
 }
 
