@@ -1345,6 +1345,10 @@ div, textarea {
 	color: 					var(--co-menu__button-icon--active, rgb(92, 112, 128))!important;
 }
 
+.bp3-menu span[style*='color: rgb(92, 112, 128);']:hover {
+	color: 					var(--co-menu__button-icon--hover, inherit)!important;
+}
+
 .bp3-menu span[style*='color: rgb(92, 112, 128);'] {
 	color: 					var(--co-menu__button-icon, rgb(92, 112, 128))!important;
 }

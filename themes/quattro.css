@@ -2905,6 +2905,16 @@
 }
 
 :root {
+	--co-menu__button-icon--hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-menu__button-icon--hover: ;
+	}
+}
+
+:root {
 	--co-menu__button-icon: var(--cl-gray-700);
 }
 

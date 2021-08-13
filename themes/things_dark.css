@@ -1328,6 +1328,10 @@
 }
 
 :root {
+	--co-menu__button-icon--hover: #b7b8b7;
+}
+
+:root {
 	--co-menu__button-icon: #525151;
 }
 
