@@ -1375,7 +1375,7 @@ div, textarea {
 }
 
 .bp3-menu-item:hover>.bp3-icon svg {
-	fill: 		var(--fl-menu__svg-icon--hover, inherit)!important;
+	fill: 		var(--fl-menu__svg-icon--hover, #8A9BA8)!important;
 }
 
 .bp3-menu-item>.bp3-icon svg {
