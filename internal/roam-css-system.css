@@ -27,7 +27,7 @@ a {
 	border-right: 			var(--br-allpages__checkbox, none);
 	border-bottom: 			var(--bb-allpages__checkbox, none);
 	border-left: 			var(--bl-allpages__checkbox, none);
-	border-radius: 			var(--bd-allpages__checkbox, inherit);
+	border-radius: 			var(--bd-allpages__checkbox, 3px);
 	box-shadow: 			var(--sd-allpages__checkbox, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	--webkit-box-shadow: 	var(--sd-allpages__checkbox, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	font-size: 				var(--fs-allpages__checkbox, 16px);
