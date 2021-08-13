@@ -4243,10 +4243,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-tooltip: #282828;
-		--bt-tooltip: 1px solid #1b1a1a;
-		--br-tooltip: 1px solid #1b1a1a;
-		--bb-tooltip: 1px solid #1b1a1a;
-		--bl-tooltip: 1px solid #1b1a1a;
+		--bt-tooltip: 1px solid #3a3938;
+		--br-tooltip: 1px solid #3a3938;
+		--bb-tooltip: 1px solid #3a3938;
+		--bl-tooltip: 1px solid #3a3938;
 		--co-tooltip: #fbfbfb;
 	}
 }
