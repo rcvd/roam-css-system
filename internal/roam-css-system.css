@@ -1228,7 +1228,7 @@ div, textarea {
 }
 
 #roam-sidebar-logo > div > span {
-	color: 					var(--co-left-sidebar__logo-text, inherit)!important;
+	color: 					var(--co-left-sidebar__logo-text, white)!important;
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
