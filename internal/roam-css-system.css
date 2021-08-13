@@ -99,7 +99,7 @@ a {
 	border-right: 			var(--br-allpages__input, inherit);
 	border-bottom: 			var(--bb-allpages__input, inherit);
 	border-left: 			var(--bl-allpages__input, inherit);
-	border-radius: 			var(--bd-allpages__input, inherit);
+	border-radius: 			var(--bd-allpages__input, 30px);
 	box-shadow: 			var(--sd-allpages__input, none);
 	--webkit-box-shadow: 	var(--sd-allpages__input, none);
 	color: 					var(--co-allpages__input, inherit);
