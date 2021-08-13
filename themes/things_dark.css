@@ -1320,11 +1320,11 @@
 	--bb-menu__button: 1px solid transparent;
 	--bl-menu__button: 1px solid transparent;
 	--bd-menu__button: ;
-	--co-menu__button: #b7b8b7;
+	--co-menu__button: #525151;
 }
 
 :root {
-	--co-menu__button-icon--active: var(--cl-gray-300);
+	--co-menu__button-icon--active: #b7b8b7;
 }
 
 :root {

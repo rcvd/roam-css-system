@@ -2890,7 +2890,7 @@
 		--br-menu__button: 1px solid transparent;
 		--bb-menu__button: 1px solid transparent;
 		--bl-menu__button: 1px solid transparent;
-		--co-menu__button: #b7b8b7;
+		--co-menu__button: #525151;
 	}
 }
 
@@ -2900,7 +2900,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-menu__button-icon--active: var(--cl-gray-300);
+		--co-menu__button-icon--active: #b7b8b7;
 	}
 }
 
