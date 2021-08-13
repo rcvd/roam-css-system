@@ -838,11 +838,11 @@
 }
 
 :root {
-	--bc-emoji-mart: var(--cl-black);
-	--bt-emoji-mart: 1px solid var(--cl-gray-900);
-	--br-emoji-mart: 1px solid var(--cl-gray-900);
-	--bb-emoji-mart: 1px solid var(--cl-gray-900);
-	--bl-emoji-mart: 1px solid var(--cl-gray-900);
+	--bc-emoji-mart: #2d2d2e;
+	--bt-emoji-mart: 1px solid #585858;
+	--br-emoji-mart: 1px solid #585858;
+	--bb-emoji-mart: 1px solid #585858;
+	--bl-emoji-mart: 1px solid #585858;
 	--bd-emoji-mart: ;
 	--co-emoji-mart: var(--cl-gray-100);
 	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
@@ -1395,7 +1395,7 @@
 	--bb-menu: ;
 	--bl-menu: ;
 	--bd-menu: 5px;
-	--co-menu: var(--cl-gray-100);
+	--co-menu: #f5f6f8;
 }
 
 :root {
