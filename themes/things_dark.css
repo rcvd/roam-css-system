@@ -1465,19 +1465,19 @@
 
 :root {
 	--bc-popover__button--hover: ;
-	--bt-popover__button--hover: 1px solid var(--cl-gray-800);
-	--br-popover__button--hover: 1px solid var(--cl-gray-800);
-	--bb-popover__button--hover: 1px solid var(--cl-gray-800);
-	--bl-popover__button--hover: 1px solid var(--cl-gray-800);
+	--bt-popover__button--hover: 1px solid #4a4a4a;
+	--br-popover__button--hover: 1px solid #4a4a4a;
+	--bb-popover__button--hover: 1px solid #4a4a4a;
+	--bl-popover__button--hover: 1px solid #4a4a4a;
 	--co-popover__button--hover: ;
 }
 
 :root {
 	--bc-popover__button: ;
-	--bt-popover__button: 1px solid var(--cl-gray-700);
-	--br-popover__button: 1px solid var(--cl-gray-700);
-	--bb-popover__button: 1px solid var(--cl-gray-700);
-	--bl-popover__button: 1px solid var(--cl-gray-700);
+	--bt-popover__button: none;
+	--br-popover__button: none;
+	--bb-popover__button: none;
+	--bl-popover__button: none;
 	--bd-popover__button: 5px;
 	--co-popover__button: ;
 }
