@@ -1442,7 +1442,7 @@ div, textarea {
 	border-right: 			var(--br-pomodoro--break, 1px solid #0F9960);
 	border-bottom: 			var(--bb-pomodoro--break, 1px solid #0F9960);
 	border-left: 			var(--bl-pomodoro--break, 1px solid #0F9960);
-	border-radius: 			var(--bd-pomodoro--break, inherit);
+	border-radius: 			var(--bd-pomodoro--break, 3px);
 	box-shadow: 			var(--sd-pomodoro--break, none);
 	--webkit-box-shadow: 	var(--sd-pomodoro--break, none);
 	color: 					var(--co-pomodoro--break, #0F9960)!important;
@@ -1454,7 +1454,7 @@ div, textarea {
 	border-right: 			var(--br-pomodoro--running, 1px solid #cd3838);
 	border-bottom: 			var(--bb-pomodoro--running, 1px solid #cd3838);
 	border-left: 			var(--bl-pomodoro--running, 1px solid #cd3838);
-	border-radius: 			var(--bd-pomodoro--running, inherit);
+	border-radius: 			var(--bd-pomodoro--running, 3px);
 	box-shadow: 			var(--sd-pomodoro--running, none);
 	--webkit-box-shadow: 	var(--sd-pomodoro--running, none);
 	color: 					var(--co-pomodoro--running, #cd3838)!important;
@@ -1466,7 +1466,7 @@ div, textarea {
 	border-right: 			var(--br-pomodoro, 1px solid #CED9E0);
 	border-bottom: 			var(--bb-pomodoro, 1px solid #CED9E0);
 	border-left: 			var(--bl-pomodoro, 1px solid #CED9E0);
-	border-radius: 			var(--bd-pomodoro, inherit);
+	border-radius: 			var(--bd-pomodoro, 3px);
 	box-shadow: 			var(--sd-pomodoro, none);
 	--webkit-box-shadow: 	var(--sd-pomodoro, none);
 	color: 					var(--co-pomodoro, inherit)!important;
