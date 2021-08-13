@@ -851,10 +851,10 @@
 
 :root {
 	--bc-find-or-create__menu-item--selected: #bed7f9;
-	--bt-find-or-create__menu-item--selected: ;
-	--br-find-or-create__menu-item--selected: ;
-	--bb-find-or-create__menu-item--selected: ;
-	--bl-find-or-create__menu-item--selected: ;
+	--bt-find-or-create__menu-item--selected: none;
+	--br-find-or-create__menu-item--selected: none;
+	--bb-find-or-create__menu-item--selected: none;
+	--bl-find-or-create__menu-item--selected: none;
 	--bd-find-or-create__menu-item--selected: 3px;
 }
 
