@@ -1349,7 +1349,7 @@ div, textarea {
 }
 
 .bp3-menu-item:hover::before, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
-	color: 					var(--co-menu__item-icon--hover, inherit)!important;
+	color: 					var(--co-menu__item-icon--hover, #5c7080)!important;
 }
 
 .bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
@@ -1357,7 +1357,7 @@ div, textarea {
 }
 
 .bp3-menu-item:hover .bp3-menu-item-label, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item .bp3-menu-item-label {
-	color: 					var(--co-menu__item-label--hover, inherit)!important;
+	color: 					var(--co-menu__item-label--hover, #5c7080)!important;
 }
 
 .bp3-menu-item .bp3-menu-item-label {
