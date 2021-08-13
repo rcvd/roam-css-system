@@ -1443,6 +1443,8 @@ div, textarea {
 	border-bottom: 			var(--bb-pomodoro--break, 1px solid #0F9960);
 	border-left: 			var(--bl-pomodoro--break, 1px solid #0F9960);
 	border-radius: 			var(--bd-pomodoro--break, inherit);
+	box-shadow: 			var(--sd-pomodoro--break, none);
+	--webkit-box-shadow: 	var(--sd-pomodoro--break, none);
 	color: 					var(--co-pomodoro--break, #0F9960)!important;
 }
 
@@ -1453,16 +1455,20 @@ div, textarea {
 	border-bottom: 			var(--bb-pomodoro--running, 1px solid #cd3838);
 	border-left: 			var(--bl-pomodoro--running, 1px solid #cd3838);
 	border-radius: 			var(--bd-pomodoro--running, inherit);
+	box-shadow: 			var(--sd-pomodoro--running, none);
+	--webkit-box-shadow: 	var(--sd-pomodoro--running, none);
 	color: 					var(--co-pomodoro--running, #cd3838)!important;
 }
 
 .rm-pomodoro {
 	background-color: 		var(--bc-pomodoro, transparent)!important;
-	border-top: 			var(--bt-pomodoro, inherit);
-	border-right: 			var(--br-pomodoro, inherit);
-	border-bottom: 			var(--bb-pomodoro, inherit);
-	border-left: 			var(--bl-pomodoro, inherit);
+	border-top: 			var(--bt-pomodoro, 1px solid #CED9E0);
+	border-right: 			var(--br-pomodoro, 1px solid #CED9E0);
+	border-bottom: 			var(--bb-pomodoro, 1px solid #CED9E0);
+	border-left: 			var(--bl-pomodoro, 1px solid #CED9E0);
 	border-radius: 			var(--bd-pomodoro, inherit);
+	box-shadow: 			var(--sd-pomodoro, none);
+	--webkit-box-shadow: 	var(--sd-pomodoro, none);
 	color: 					var(--co-pomodoro, inherit)!important;
 }
 
