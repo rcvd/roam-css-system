@@ -440,10 +440,10 @@
 }
 
 :root {
-	--bt-bullet__closed: ;
-	--br-bullet__closed: ;
-	--bb-bullet__closed: ;
-	--bl-bullet__closed: ;
+	--bt-bullet__closed: 4px solid #e5e6e6;
+	--br-bullet__closed: 4px solid #e5e6e6;
+	--bb-bullet__closed: 4px solid #e5e6e6;
+	--bl-bullet__closed: 4px solid #e5e6e6;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -456,7 +456,7 @@
 }
 
 :root {
-	--bc-bullet__ghost: ;
+	--bc-bullet__ghost: #e5e6e6;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -466,7 +466,7 @@
 }
 
 :root {
-	--bc-bullet__inner: ;
+	--bc-bullet__inner: #e5e6e6;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3108,7 +3108,7 @@
 }
 
 :root {
-	--br-multibar--hover: ;
+	--br-multibar--hover: 1px solid #d8d8d7;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3118,7 +3118,7 @@
 }
 
 :root {
-	--br-multibar: ;
+	--br-multibar: 1px solid #d8d8d7;
 }
 
 @media(prefers-color-scheme: dark) {
