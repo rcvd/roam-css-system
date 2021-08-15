@@ -1923,7 +1923,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #32d74b;
+	--co-find-or-create__new-page--selected: #262626;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1933,7 +1933,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page: #27cd41;
+	--co-find-or-create__new-page: #262626;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4285,13 +4285,13 @@
 }
 
 :root {
-	--bc-tooltip: ;
-	--bt-tooltip: ;
-	--br-tooltip: ;
-	--bb-tooltip: ;
-	--bl-tooltip: ;
-	--bd-tooltip: ;
-	--co-tooltip: ;
+	--bc-tooltip: #e6e6e7;
+	--bt-tooltip: 1px solid #dbdcdc;
+	--br-tooltip: 1px solid #dbdcdc;
+	--bb-tooltip: 1px solid #dbdcdc;
+	--bl-tooltip: 1px solid #dbdcdc;
+	--bd-tooltip: 3px;
+	--co-tooltip: #4e4e4e;
 }
 
 @media(prefers-color-scheme: dark) {

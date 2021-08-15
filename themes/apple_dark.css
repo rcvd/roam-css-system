@@ -1975,7 +1975,7 @@
 	--br-tooltip: ;
 	--bb-tooltip: ;
 	--bl-tooltip: ;
-	--bd-tooltip: ;
+	--bd-tooltip: 3px;
 	--co-tooltip: ;
 }
 
