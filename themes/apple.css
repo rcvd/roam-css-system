@@ -4142,7 +4142,7 @@
 	--bb-starred__page--hover: ;
 	--bl-starred__page--hover: ;
 	--co-starred__page--hover: #525251;
-	--td-starred__page--hover: ;
+	--td-starred__page--hover: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4164,9 +4164,9 @@
 	--co-starred__page: #525251;
 	--ff-starred__page: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 13px;
-	--ft-starred__page: ;
-	--fw-starred__page: ;
-	--tt-starred__page: ;
+	--ft-starred__page: normal;
+	--fw-starred__page: 400;
+	--tt-starred__page: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4183,9 +4183,9 @@
 	--co-starred__title: #a2a1a0;
 	--ff-starred__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__title: 11px;
-	--ft-starred__title: ;
-	--fw-starred__title: ;
-	--tt-starred__title: ;
+	--ft-starred__title: normal;
+	--fw-starred__title: 500;
+	--tt-starred__title: none;
 }
 
 @media(prefers-color-scheme: dark) {
