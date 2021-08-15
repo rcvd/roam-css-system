@@ -376,7 +376,7 @@
 	--bb-card: ;
 	--bl-card: ;
 	--bd-card: ;
-	--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.15);
+	--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
@@ -662,7 +662,7 @@
 	--bb-elevation__container: ;
 	--bl-elevation__container: ;
 	--bd-elevation__container: ;
-	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.15);
+	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
@@ -1524,7 +1524,7 @@
 
 :root {
 	--bd-popover: ;
-	--sd-popover: 3px 3px 11px 3px rgba(0,0,0,0.15);
+	--sd-popover: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
