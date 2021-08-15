@@ -4513,8 +4513,8 @@
 }
 
 :root {
-	--bc-topbar-datepicker-html__select--hover: ;
-	--co-topbar-datepicker-html__select--hover: ;
+	--bc-topbar-datepicker-html__select--hover: #b4b5b5;
+	--co-topbar-datepicker-html__select--hover: #fff;
 }
 
 @media(prefers-color-scheme: dark) {
