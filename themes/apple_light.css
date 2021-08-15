@@ -1194,7 +1194,7 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: ;
+	--bc-left-sidebar__hr: #d2d1d1;
 }
 
 :root {
@@ -1338,13 +1338,13 @@
 }
 
 :root {
-	--bc-menu__item--hover: #b4b4b3;
+	--bc-menu__item--hover: #b4b5b5;
 	--bt-menu__item--hover: none;
 	--br-menu__item--hover: none;
 	--bb-menu__item--hover: none;
 	--bl-menu__item--hover: none;
 	--bd-menu__item--hover: 3px;
-	--co-menu__item--hover: #f6f6f6;
+	--co-menu__item--hover: #ffffff;
 }
 
 :root {
@@ -1353,7 +1353,7 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 3px;
-	--co-menu__item: #242424;
+	--co-menu__item: #353535;
 }
 
 :root {
@@ -1392,10 +1392,10 @@
 
 :root {
 	--bc-menu: #eff0f0;
-	--bt-menu: 1px solid #b8b7b7;
-	--br-menu: 1px solid #b8b7b7;
-	--bb-menu: 1px solid #b8b7b7;
-	--bl-menu: 1px solid #b8b7b7;
+	--bt-menu: 1px solid #c7c7c7;
+	--br-menu: 1px solid #c7c7c7;
+	--bb-menu: 1px solid #c7c7c7;
+	--bl-menu: 1px solid #c7c7c7;
 	--bd-menu: 5px;
 	--co-menu: #242424;
 }
@@ -1990,9 +1990,9 @@
 }
 
 :root {
-	--bc-topbar-datepicker__day--hover: ;
+	--bc-topbar-datepicker__day--hover: #b4b5b5;
 	--bd-topbar-datepicker__day--hover: ;
-	--co-topbar-datepicker__day--hover: ;
+	--co-topbar-datepicker__day--hover: #fff;
 }
 
 :root {
@@ -2015,13 +2015,13 @@
 }
 
 :root {
-	--bc-topbar-datepicker__nav-button--hover: #eaeaea;
+	--bc-topbar-datepicker__nav-button--hover: #b4b5b5;
 	--bt-topbar-datepicker__nav-button--hover: ;
 	--br-topbar-datepicker__nav-button--hover: ;
 	--bb-topbar-datepicker__nav-button--hover: ;
 	--bl-topbar-datepicker__nav-button--hover: ;
 	--bd-topbar-datepicker__nav-button--hover: ;
-	--co-topbar-datepicker__nav-button--hover: ;
+	--co-topbar-datepicker__nav-button--hover: #fff;
 }
 
 :root {
@@ -2063,13 +2063,13 @@
 }
 
 :root {
-	--bc-topbar-datepicker: #e7e7e6;
-	--bt-topbar-datepicker: 1px solid #cacaca;
-	--br-topbar-datepicker: 1px solid #cacaca;
-	--bb-topbar-datepicker: 1px solid #cacaca;
-	--bl-topbar-datepicker: 1px solid #cacaca;
+	--bc-topbar-datepicker: #eff0f0;
+	--bt-topbar-datepicker: 1px solid #c7c7c7;
+	--br-topbar-datepicker: 1px solid #c7c7c7;
+	--bb-topbar-datepicker: 1px solid #c7c7c7;
+	--bl-topbar-datepicker: 1px solid #c7c7c7;
 	--bd-topbar-datepicker: 5px;
-	--co-topbar-datepicker: #242424;
+	--co-topbar-datepicker: #353535;
 	--ff-topbar-datepicker: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
