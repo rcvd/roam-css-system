@@ -1383,11 +1383,11 @@
 }
 
 :root {
-	--fl-menu__svg-icon--hover: ;
+	--fl-menu__svg-icon--hover: #fdfdfd;
 }
 
 :root {
-	--fl-menu__svg-icon: ;
+	--fl-menu__svg-icon: #242424;
 }
 
 :root {

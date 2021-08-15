@@ -3030,7 +3030,7 @@
 }
 
 :root {
-	--fl-menu__svg-icon--hover: ;
+	--fl-menu__svg-icon--hover: #fdfdfd;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3040,7 +3040,7 @@
 }
 
 :root {
-	--fl-menu__svg-icon: ;
+	--fl-menu__svg-icon: #242424;
 }
 
 @media(prefers-color-scheme: dark) {
