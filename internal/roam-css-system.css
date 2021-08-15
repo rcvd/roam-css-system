@@ -1159,10 +1159,10 @@ div, textarea {
 
 .bp3-menu-item.rm-install-menu-item {
 	background-color: 		var(--bc-install-button, inherit);
-	border-top: 			var(--bt-install-button, 1px solid #106ba3);
-	border-right: 			var(--br-install-button, 1px solid #106ba3);
-	border-bottom: 			var(--bb-install-button, 1px solid #106ba3);
-	border-left: 			var(--bl-install-button, 1px solid #106ba3);
+	border-top: 			var(--bt-install-button, 1px solid #c2c6cc);
+	border-right: 			var(--br-install-button, 1px solid #c2c6cc);
+	border-bottom: 			var(--bb-install-button, 1px solid #c2c6cc);
+	border-left: 			var(--bl-install-button, 1px solid #c2c6cc);
 	border-radius: 			var(--bd-install-button, 2px);
 	color: 					var(--co-install-button, #106ba3)!important;
 }
