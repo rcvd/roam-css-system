@@ -5,13 +5,13 @@
 
 
 :root {
-	--co-a--hover: ;
-	--td-a--hover: ;
+	--co-a--hover: #2073dd;
+	--td-a--hover: underline;
 }
 
 :root {
-	--co-a: ;
-	--td-a: ;
+	--co-a: #2073dd;
+	--td-a: underline;
 }
 
 :root {
@@ -1426,13 +1426,13 @@
 }
 
 :root {
-	--co-page__link--hover: ;
-	--td-page__link--hover: ;
+	--co-page__link--hover: #2073dd;
+	--td-page__link--hover: none;
 }
 
 :root {
-	--co-page__link: ;
-	--td-page__link: ;
+	--co-page__link: #2073dd;
+	--td-page__link: none;
 }
 
 :root {

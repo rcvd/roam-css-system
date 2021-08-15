@@ -6,12 +6,12 @@
 
 :root {
 	--co-a--hover: ;
-	--td-a--hover: ;
+	--td-a--hover: underline;
 }
 
 :root {
 	--co-a: ;
-	--td-a: ;
+	--td-a: underline;
 }
 
 :root {
@@ -1427,12 +1427,12 @@
 
 :root {
 	--co-page__link--hover: ;
-	--td-page__link--hover: ;
+	--td-page__link--hover: none;
 }
 
 :root {
 	--co-page__link: ;
-	--td-page__link: ;
+	--td-page__link: none;
 }
 
 :root {
