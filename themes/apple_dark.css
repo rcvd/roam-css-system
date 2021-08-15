@@ -1095,7 +1095,7 @@
 }
 
 :root {
-	--bd-input__search: ;
+	--bd-input__search: 3px;
 }
 
 :root {

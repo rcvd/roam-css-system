@@ -2415,7 +2415,7 @@
 }
 
 :root {
-	--bd-input__search: ;
+	--bd-input__search: 3px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2424,7 +2424,7 @@
 }
 
 :root {
-	--co-input__search-icon: ;
+	--co-input__search-icon: #565656;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2434,7 +2434,7 @@
 }
 
 :root {
-	--co-input__search-placeholder: ;
+	--co-input__search-placeholder: #acacac;
 	--ff-input__search-placeholder: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
