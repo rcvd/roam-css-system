@@ -857,7 +857,7 @@
 	--br-find-or-create__menu-item--selected: ;
 	--bb-find-or-create__menu-item--selected: ;
 	--bl-find-or-create__menu-item--selected: ;
-	--bd-find-or-create__menu-item--selected: ;
+	--bd-find-or-create__menu-item--selected: 3px;
 }
 
 :root {

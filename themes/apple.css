@@ -1878,12 +1878,12 @@
 }
 
 :root {
-	--bc-find-or-create__menu-item--selected: ;
-	--bt-find-or-create__menu-item--selected: ;
-	--br-find-or-create__menu-item--selected: ;
-	--bb-find-or-create__menu-item--selected: ;
-	--bl-find-or-create__menu-item--selected: ;
-	--bd-find-or-create__menu-item--selected: ;
+	--bc-find-or-create__menu-item--selected: #b4b4b3;
+	--bt-find-or-create__menu-item--selected: none;
+	--br-find-or-create__menu-item--selected: none;
+	--bb-find-or-create__menu-item--selected: none;
+	--bl-find-or-create__menu-item--selected: none;
+	--bd-find-or-create__menu-item--selected: 3px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1897,7 +1897,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: ;
+	--co-find-or-create__menu-item--selected: #f6f6f6;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1907,10 +1907,10 @@
 }
 
 :root {
-	--bt-find-or-create__menu-item: ;
-	--br-find-or-create__menu-item: ;
-	--bb-find-or-create__menu-item: ;
-	--bl-find-or-create__menu-item: ;
+	--bt-find-or-create__menu-item: none;
+	--br-find-or-create__menu-item: none;
+	--bb-find-or-create__menu-item: none;
+	--bl-find-or-create__menu-item: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1923,7 +1923,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: ;
+	--co-find-or-create__new-page--selected: #27cd41;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1933,7 +1933,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page: ;
+	--co-find-or-create__new-page: #27cd41;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1943,7 +1943,7 @@
 }
 
 :root {
-	--co-find-or-create__recent: ;
+	--co-find-or-create__recent: #262626;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1953,7 +1953,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item: ;
+	--co-find-or-create__search-list-item: #262626;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1963,7 +1963,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item-title: ;
+	--co-find-or-create__search-list-item-title: #262626;
 	--fs-find-or-create__search-list-item-title: ;
 }
 
