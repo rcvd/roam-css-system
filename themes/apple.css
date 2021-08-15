@@ -3050,11 +3050,11 @@
 }
 
 :root {
-	--bc-menu: #e7e7e6;
-	--bt-menu: 1px solid #cacaca;
-	--br-menu: 1px solid #cacaca;
-	--bb-menu: 1px solid #cacaca;
-	--bl-menu: 1px solid #cacaca;
+	--bc-menu: #eff0f0;
+	--bt-menu: 1px solid #b8b7b7;
+	--br-menu: 1px solid #b8b7b7;
+	--bb-menu: 1px solid #b8b7b7;
+	--bl-menu: 1px solid #b8b7b7;
 	--bd-menu: 5px;
 	--co-menu: #242424;
 }
