@@ -260,11 +260,11 @@
 }
 
 :root {
-	--co-button__icon--hover: ;
+	--co-button__icon--hover: #6a6a6a;
 }
 
 :root {
-	--co-button__icon: ;
+	--co-button__icon: #6a6a6a;
 }
 
 :root {
@@ -1180,11 +1180,11 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: ;
+	--co-left-sidebar__db-title--hover: #525251;
 }
 
 :root {
-	--co-left-sidebar__db-title: ;
+	--co-left-sidebar__db-title: #525251;
 	--ff-left-sidebar__db-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 13px;
 	--fw-left-sidebar__db-title: ;
@@ -1196,7 +1196,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon: ;
+	--co-left-sidebar__icon: #6a6a6a;
 	--fs-left-sidebar__icon: ;
 }
 
@@ -1270,12 +1270,12 @@
 	--br-logbutton--hover: ;
 	--bb-logbutton--hover: ;
 	--bl-logbutton--hover: ;
-	--co-logbutton--hover: ;
+	--co-logbutton--hover: #525251;
 	--td-logbutton--hover: ;
 }
 
 :root {
-	--co-logbutton: ;
+	--co-logbutton: #525251;
 	--ff-logbutton: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 13px;
 	--fw-logbutton: ;
