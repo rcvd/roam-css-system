@@ -3050,13 +3050,13 @@
 }
 
 :root {
-	--bc-menu: ;
-	--bt-menu: ;
-	--br-menu: ;
-	--bb-menu: ;
-	--bl-menu: ;
-	--bd-menu: ;
-	--co-menu: ;
+	--bc-menu: #e7e7e6;
+	--bt-menu: 1px solid #cacaca;
+	--br-menu: 1px solid #cacaca;
+	--bb-menu: 1px solid #cacaca;
+	--bl-menu: 1px solid #cacaca;
+	--bd-menu: 5px;
+	--co-menu: #242424;
 }
 
 @media(prefers-color-scheme: dark) {
