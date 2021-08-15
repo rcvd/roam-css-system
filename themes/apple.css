@@ -2591,8 +2591,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: ;
-	--br-left-sidebar__container: ;
+	--bc-left-sidebar__container: #e2e1e0;
+	--br-left-sidebar__container: 1px solid #dfdfdf;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4126,7 +4126,7 @@
 }
 
 :root {
-	--co-starred__icon: ;
+	--co-starred__icon: #a2a1a0;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4141,7 +4141,7 @@
 	--br-starred__page--hover: ;
 	--bb-starred__page--hover: ;
 	--bl-starred__page--hover: ;
-	--co-starred__page--hover: ;
+	--co-starred__page--hover: #525251;
 	--td-starred__page--hover: ;
 }
 
@@ -4161,7 +4161,7 @@
 	--br-starred__page: ;
 	--bb-starred__page: ;
 	--bl-starred__page: ;
-	--co-starred__page: ;
+	--co-starred__page: #525251;
 	--ff-starred__page: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 13px;
 	--ft-starred__page: ;
@@ -4180,9 +4180,9 @@
 }
 
 :root {
-	--co-starred__title: ;
+	--co-starred__title: #a2a1a0;
 	--ff-starred__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-starred__title: 13px;
+	--fs-starred__title: 11px;
 	--ft-starred__title: ;
 	--fw-starred__title: ;
 	--tt-starred__title: ;
