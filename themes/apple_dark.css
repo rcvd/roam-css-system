@@ -1113,7 +1113,7 @@
 	--br-input--focus: ;
 	--bb-input--focus: ;
 	--bl-input--focus: ;
-	--bd-input--focus: ;
+	--bd-input--focus: 5px;
 	--sd-input--focus: ;
 }
 
@@ -1123,7 +1123,7 @@
 	--br-input: ;
 	--bb-input: ;
 	--bl-input: ;
-	--bd-input: 3px;
+	--bd-input: 5px;
 	--sd-input: ;
 	--co-input: ;
 	--ff-input: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
