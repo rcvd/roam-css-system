@@ -269,7 +269,7 @@
 
 :root {
 	--bc-button__minimal--hover: #e9e9e9;
-	--bd-button__minimal--hover: 10px;
+	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
