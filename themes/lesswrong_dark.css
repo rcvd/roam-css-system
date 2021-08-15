@@ -269,6 +269,7 @@
 
 :root {
 	--bc-button__minimal--hover: ;
+	--bd-button__minimal--hover: ;
 	--sd-button__minimal--hover: ;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
@@ -276,6 +277,7 @@
 
 :root {
 	--bc-button__minimal: ;
+	--bd-button__minimal: ;
 	--sd-button__minimal: ;
 }
 

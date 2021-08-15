@@ -269,6 +269,7 @@ a {
 
 .bp3-button.bp3-minimal:hover, .bp3-button:not([class*='bp3-intent-']).bp3-minimal:hover {
 	background-color: 		var(--bc-button__minimal--hover, rgba(167,182,194,0.3));
+	border-radius: 			var(--bd-button__minimal--hover, inherit);
 	box-shadow: 			var(--sd-button__minimal--hover, none);
 	--webkit-box-shadow: 	var(--sd-button__minimal--hover, none);
 	color: 					var(--co-button__minimal--hover, #182026);
@@ -277,6 +278,7 @@ a {
 
 .bp3-button.bp3-minimal, .bp3-button:not([class*='bp3-intent-']).bp3-minimal {
 	background-color: 		var(--bc-button__minimal, transparent);
+	border-radius: 			var(--bd-button__minimal, inherit);
 	box-shadow: 			var(--sd-button__minimal, none);
 	--webkit-box-shadow: 	var(--sd-button__minimal, none);
 }

@@ -587,6 +587,7 @@
 
 :root {
 	--bc-button__minimal--hover: #e9e9e9;
+	--bd-button__minimal--hover: 10px;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
@@ -602,6 +603,7 @@
 
 :root {
 	--bc-button__minimal: transparent;
+	--bd-button__minimal: ;
 	--sd-button__minimal: none;
 }
 
