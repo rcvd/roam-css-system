@@ -268,15 +268,15 @@
 }
 
 :root {
-	--bc-button__minimal--hover: ;
-	--sd-button__minimal--hover: ;
+	--bc-button__minimal--hover: #e9e9e9;
+	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
 }
 
 :root {
-	--bc-button__minimal: ;
-	--sd-button__minimal: ;
+	--bc-button__minimal: transparent;
+	--sd-button__minimal: none;
 }
 
 :root {
