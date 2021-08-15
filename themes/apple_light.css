@@ -1201,16 +1201,16 @@
 }
 
 :root {
-	--bc-left-sidebar__logo--hover: ;
-	--td-left-sidebar__logo--hover: ;
+	--bc-left-sidebar__logo--hover: transparent;
+	--td-left-sidebar__logo--hover: none;
 }
 
 :root {
-	--td-left-sidebar__logo: ;
+	--td-left-sidebar__logo: none;
 }
 
 :root {
-	--co-left-sidebar__logo-text: ;
+	--co-left-sidebar__logo-text: #a2a1a0;
 }
 
 :root {

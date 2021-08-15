@@ -2648,8 +2648,8 @@
 }
 
 :root {
-	--bc-left-sidebar__logo--hover: ;
-	--td-left-sidebar__logo--hover: ;
+	--bc-left-sidebar__logo--hover: transparent;
+	--td-left-sidebar__logo--hover: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2659,7 +2659,7 @@
 }
 
 :root {
-	--td-left-sidebar__logo: ;
+	--td-left-sidebar__logo: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2668,7 +2668,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: ;
+	--co-left-sidebar__logo-text: #a2a1a0;
 }
 
 @media(prefers-color-scheme: dark) {

@@ -1202,11 +1202,11 @@
 
 :root {
 	--bc-left-sidebar__logo--hover: ;
-	--td-left-sidebar__logo--hover: ;
+	--td-left-sidebar__logo--hover: none;
 }
 
 :root {
-	--td-left-sidebar__logo: ;
+	--td-left-sidebar__logo: none;
 }
 
 :root {
