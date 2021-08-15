@@ -183,3 +183,8 @@ div {
 .rm-all-pages .bp3-control .bp3-control-indicator {
     background-image: none;
 }
+
+/* Remove focus border */
+:focus {
+    outline: none;
+}
