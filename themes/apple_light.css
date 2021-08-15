@@ -2015,7 +2015,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker__nav-button--hover: ;
+	--bc-topbar-datepicker__nav-button--hover: #eaeaea;
 	--bt-topbar-datepicker__nav-button--hover: ;
 	--br-topbar-datepicker__nav-button--hover: ;
 	--bb-topbar-datepicker__nav-button--hover: ;
