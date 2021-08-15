@@ -108,7 +108,7 @@ div {
 
 @media (prefers-color-scheme: dark) {
     #roam-sidebar-logo img {
-        --webkit-filter: brightness(35%);
+        --webkit-filter: brightness(35%);x
         filter: brightness(35%);
     }
 }
@@ -125,11 +125,6 @@ div {
 /* Remove gradient from buttons */
 .bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
-}
-
-/* Remove focus border */
-:focus {
-    outline: none;
 }
 
 /* Make menu items lower */
