@@ -3338,7 +3338,7 @@
 }
 
 :root {
-	--bd-popover: ;
+	--bd-popover: 5px;
 	--sd-popover: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 

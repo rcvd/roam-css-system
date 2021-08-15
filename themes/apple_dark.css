@@ -1523,7 +1523,7 @@
 }
 
 :root {
-	--bd-popover: ;
+	--bd-popover: 5px;
 	--sd-popover: ;
 }
 
