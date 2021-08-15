@@ -1,0 +1,2122 @@
+@import url('https://rcvd.github.io/roam-css-system/fonts/apple.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-apple.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-apple.css');
+
+
+:root {
+	--co-a--hover: ;
+	--td-a--hover: ;
+}
+
+:root {
+	--co-a: ;
+	--td-a: ;
+}
+
+:root {
+	--bl-alias__tooltip-content-bq: ;
+	--co-alias__tooltip-content-bq: ;
+}
+
+:root {
+	--co-alias__tooltip-external--hover: ;
+}
+
+:root {
+	--co-alias__tooltip-external: ;
+}
+
+:root {
+	--bc-allpages__checkbox: ;
+	--bt-allpages__checkbox: ;
+	--br-allpages__checkbox: ;
+	--bb-allpages__checkbox: ;
+	--bl-allpages__checkbox: ;
+	--bd-allpages__checkbox: ;
+	--sd-allpages__checkbox: ;
+	--fs-allpages__checkbox: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill: ;
+	--bt-allpages__clickable-pill: ;
+	--br-allpages__clickable-pill: ;
+	--bb-allpages__clickable-pill: ;
+	--bl-allpages__clickable-pill: ;
+	--bd-allpages__clickable-pill: ;
+	--co-allpages__clickable-pill: ;
+	--fs-allpages__clickable-pill: ;
+	--fw-allpages__clickable-pill: ;
+	--op-allpages__clickable-pill: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill-1: ;
+	--bt-allpages__clickable-pill-1: ;
+	--br-allpages__clickable-pill-1: ;
+	--bb-allpages__clickable-pill-1: ;
+	--bl-allpages__clickable-pill-1: ;
+	--co-allpages__clickable-pill-1: ;
+	--op-allpages__clickable-pill-1: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill-2: ;
+	--bt-allpages__clickable-pill-2: ;
+	--br-allpages__clickable-pill-2: ;
+	--bb-allpages__clickable-pill-2: ;
+	--bl-allpages__clickable-pill-2: ;
+	--co-allpages__clickable-pill-2: ;
+	--op-allpages__clickable-pill-2: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill-3: ;
+	--bt-allpages__clickable-pill-3: ;
+	--br-allpages__clickable-pill-3: ;
+	--bb-allpages__clickable-pill-3: ;
+	--bl-allpages__clickable-pill-3: ;
+	--co-allpages__clickable-pill-3: ;
+	--op-allpages__clickable-pill-3: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill-empty: ;
+	--bt-allpages__clickable-pill-empty: ;
+	--br-allpages__clickable-pill-empty: ;
+	--bb-allpages__clickable-pill-empty: ;
+	--bl-allpages__clickable-pill-empty: ;
+	--co-allpages__clickable-pill-empty: ;
+	--op-allpages__clickable-pill-empty: ;
+}
+
+:root {
+	--bt-allpages__input--focused: ;
+	--br-allpages__input--focused: ;
+	--bb-allpages__input--focused: ;
+	--bl-allpages__input--focused: ;
+}
+
+:root {
+	--bc-allpages__input: ;
+	--bt-allpages__input: ;
+	--br-allpages__input: ;
+	--bb-allpages__input: ;
+	--bl-allpages__input: ;
+	--bd-allpages__input: ;
+	--sd-allpages__input: ;
+	--co-allpages__input: ;
+	--fs-allpages__input: ;
+	--fw-allpages__input: ;
+}
+
+:root {
+	--co-allpages__input-icon--focused: ;
+}
+
+:root {
+	--co-allpages__input-icon: ;
+}
+
+:root {
+	--bb-allpages__row: ;
+	--co-allpages__row: ;
+}
+
+:root {
+	--bc-allpages__row-header: ;
+	--bb-allpages__row-header: ;
+	--bd-allpages__row-header: ;
+	--co-allpages__row-header: ;
+	--fs-allpages__row-header: ;
+	--fw-allpages__row-header: ;
+}
+
+:root {
+	--co-allpages__sort-button--focused: ;
+	--fw-allpages__sort-button--focused: ;
+}
+
+:root {
+	--co-allpages__sorted-header-text: ;
+	--fw-allpages__sorted-header-text: ;
+}
+
+:root {
+	--co-allpages__title-col: ;
+}
+
+:root {
+	--co-allpages__title-header: ;
+}
+
+:root {
+	--co-allpages__title-text: ;
+}
+
+:root {
+	--co-app__h1: ;
+	--ff-app__h1: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ft-app__h1: ;
+	--fw-app__h1: ;
+}
+
+:root {
+	--bc-app: ;
+	--co-app: ;
+}
+
+:root {
+	--co-attributes: ;
+	--ft-attributes: ;
+	--fw-attributes: ;
+}
+
+:root {
+	--co-block__ghost: ;
+}
+
+:root {
+	--bc-block-highlight--blue: ;
+}
+
+:root {
+	--bc-block-highlight--grey: ;
+}
+
+:root {
+	--bc-block-highlight--yellow: ;
+}
+
+:root {
+	--bc-block-ref--hover: ;
+	--co-block-ref--hover: ;
+}
+
+:root {
+	--bb-block-ref: ;
+}
+
+:root {
+	--co-brackets: ;
+}
+
+:root {
+	--bt-bullet__closed: ;
+	--br-bullet__closed: ;
+	--bb-bullet__closed: ;
+	--bl-bullet__closed: ;
+}
+
+:root {
+	--bc-bullet__ghost: ;
+}
+
+:root {
+	--bc-bullet__inner: ;
+}
+
+:root {
+	--bc-button__cancel--hover: ;
+	--bt-button__cancel--hover: ;
+	--br-button__cancel--hover: ;
+	--bb-button__cancel--hover: ;
+	--bl-button__cancel--hover: ;
+	--sd-button__cancel--hover: ;
+	--co-button__cancel--hover: ;
+}
+
+:root {
+	--bc-button__cancel: ;
+	--bt-button__cancel: ;
+	--br-button__cancel: ;
+	--bb-button__cancel: ;
+	--bl-button__cancel: ;
+	--bd-button__cancel: ;
+	--sd-button__cancel: ;
+	--co-button__cancel: ;
+}
+
+:root {
+	--bc-button__danger--hover: ;
+	--bt-button__danger--hover: ;
+	--br-button__danger--hover: ;
+	--bb-button__danger--hover: ;
+	--bl-button__danger--hover: ;
+	--sd-button__danger--hover: ;
+	--co-button__danger--hover: ;
+}
+
+:root {
+	--bc-button__danger: ;
+	--bt-button__danger: ;
+	--br-button__danger: ;
+	--bb-button__danger: ;
+	--bl-button__danger: ;
+	--bd-button__danger: ;
+	--sd-button__danger: ;
+	--co-button__danger: ;
+}
+
+:root {
+	--co-button__icon--hover: ;
+}
+
+:root {
+	--co-button__icon: ;
+}
+
+:root {
+	--bc-button__minimal--hover: ;
+	--sd-button__minimal--hover: ;
+	--co-button__minimal--hover: ;
+	--td-button__minimal--hover: ;
+}
+
+:root {
+	--bc-button__minimal: ;
+	--sd-button__minimal: ;
+}
+
+:root {
+	--bc-button__primary--hover: ;
+	--bt-button__primary--hover: ;
+	--br-button__primary--hover: ;
+	--bb-button__primary--hover: ;
+	--bl-button__primary--hover: ;
+	--sd-button__primary--hover: ;
+	--co-button__primary--hover: ;
+}
+
+:root {
+	--bc-button__primary: ;
+	--bt-button__primary: ;
+	--br-button__primary: ;
+	--bb-button__primary: ;
+	--bl-button__primary: ;
+	--bd-button__primary: ;
+	--sd-button__primary: ;
+	--co-button__primary: ;
+}
+
+:root {
+	--bc-button__warning--hover: ;
+	--bt-button__warning--hover: ;
+	--br-button__warning--hover: ;
+	--bb-button__warning--hover: ;
+	--bl-button__warning--hover: ;
+	--sd-button__warning--hover: ;
+	--co-button__warning--hover: ;
+}
+
+:root {
+	--bc-button__warning: ;
+	--bt-button__warning: ;
+	--br-button__warning: ;
+	--bb-button__warning: ;
+	--bl-button__warning: ;
+	--bd-button__warning: ;
+	--sd-button__warning: ;
+	--co-button__warning: ;
+}
+
+:root {
+	--bc-button__minimal--active: ;
+	--sd-button__minimal--active: ;
+	--co-button__minimal--active: ;
+}
+
+:root {
+	--co-button__minimal-icon--active: ;
+}
+
+:root {
+	--bt-button--default: ;
+	--br-button--default: ;
+	--bb-button--default: ;
+	--bl-button--default: ;
+	--bd-button--default: ;
+	--fs-button--default: ;
+}
+
+:root {
+	--bc-button--hover: ;
+	--sd-button--hover: ;
+	--co-button--hover: ;
+}
+
+:root {
+	--bc-button: ;
+	--sd-button: ;
+	--co-button: ;
+	--ff-button: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+}
+
+:root {
+	--co-callout__icon: ;
+}
+
+:root {
+	--bc-callout__primary: ;
+	--bt-callout__primary: ;
+	--br-callout__primary: ;
+	--bb-callout__primary: ;
+	--bl-callout__primary: ;
+	--bd-callout__primary: ;
+	--fs-callout__primary: ;
+}
+
+:root {
+	--bc-card: ;
+	--bt-card: ;
+	--br-card: ;
+	--bb-card: ;
+	--bl-card: ;
+	--bd-card: ;
+	--sd-card: ;
+}
+
+:root {
+	--co-caret: ;
+}
+
+:root {
+	--bt-checkmark__mark--checked: ;
+	--br-checkmark__mark--checked: ;
+	--bb-checkmark__mark--checked: ;
+	--bl-checkmark__mark--checked: ;
+}
+
+:root {
+	--bc-checkmark--checked: ;
+	--bt-checkmark--checked: ;
+	--br-checkmark--checked: ;
+	--bb-checkmark--checked: ;
+	--bl-checkmark--checked: ;
+}
+
+:root {
+	--bt-checkmark: ;
+	--br-checkmark: ;
+	--bb-checkmark: ;
+	--bl-checkmark: ;
+	--bd-checkmark: ;
+}
+
+:root {
+	--bc-code: ;
+	--bt-code: ;
+	--br-code: ;
+	--bb-code: ;
+	--bl-code: ;
+	--bd-code: ;
+	--co-code: ;
+	--ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--fs-code: 13px;
+}
+
+:root {
+	--co-codeblock__atom: ;
+}
+
+:root {
+	--co-codeblock__attribute: ;
+}
+
+:root {
+	--co-codeblock__bracket: ;
+}
+
+:root {
+	--co-codeblock__builtin: ;
+}
+
+:root {
+	--ff-codeblock__code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--fs-codeblock__code: 13px;
+}
+
+:root {
+	--co-codeblock__comment: ;
+}
+
+:root {
+	--bc-codeblock__container: ;
+	--bt-codeblock__container: ;
+	--br-codeblock__container: ;
+	--bb-codeblock__container: ;
+	--bl-codeblock__container: ;
+	--bd-codeblock__container: ;
+	--co-codeblock__container: ;
+}
+
+:root {
+	--br-codeblock__cursor: ;
+	--bl-codeblock__cursor: ;
+}
+
+:root {
+	--co-codeblock__def: ;
+}
+
+:root {
+	--co-codeblock__error: ;
+}
+
+:root {
+	--bc-codeblock__gutters: ;
+	--bt-codeblock__gutters: ;
+	--br-codeblock__gutters: ;
+	--bb-codeblock__gutters: ;
+	--bl-codeblock__gutters: ;
+	--bd-codeblock__gutters: ;
+}
+
+:root {
+	--ff-codeblock__gutter: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--fs-codeblock__gutter: 13px;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+:root {
+	--co-codeblock__hr: ;
+}
+
+:root {
+	--co-codeblock__invalidchar: ;
+}
+
+:root {
+	--co-codeblock__keyword: ;
+}
+
+:root {
+	--co-codeblock__link: ;
+}
+
+:root {
+	--co-codeblock__matchingbracket: ;
+}
+
+:root {
+	--co-codeblock__meta: ;
+}
+
+:root {
+	--co-codeblock__nonmatchingbracket: ;
+}
+
+:root {
+	--co-codeblock__number: ;
+}
+
+:root {
+	--co-codeblock__qualifier: ;
+}
+
+:root {
+	--bc-codeblock__searching: ;
+}
+
+:root {
+	--bc-codeblock__selected--focused: ;
+}
+
+:root {
+	--bc-codeblock__selected: ;
+}
+
+:root {
+	--co-codeblock__string: ;
+}
+
+:root {
+	--co-codeblock__string-2: ;
+}
+
+:root {
+	--co-codeblock__tag: ;
+}
+
+:root {
+	--co-codeblock__type: ;
+}
+
+:root {
+	--co-codeblock__variable-2: ;
+}
+
+:root {
+	--bc-datepicker__day--hover: ;
+	--bd-datepicker__day--hover: ;
+	--co-datepicker__day--hover: ;
+}
+
+:root {
+	--bc-datepicker__nav-button--hover: ;
+	--bt-datepicker__nav-button--hover: ;
+	--br-datepicker__nav-button--hover: ;
+	--bb-datepicker__nav-button--hover: ;
+	--bl-datepicker__nav-button--hover: ;
+	--bd-datepicker__nav-button--hover: ;
+}
+
+:root {
+	--co-datepicker__nav-button--hover: ;
+}
+
+:root {
+	--bc-datepicker__nav-button: ;
+	--bt-datepicker__nav-button: ;
+	--br-datepicker__nav-button: ;
+	--bb-datepicker__nav-button: ;
+	--bl-datepicker__nav-button: ;
+	--bd-datepicker__nav-button: ;
+}
+
+:root {
+	--co-datepicker__nav-button: ;
+}
+
+:root {
+	--bc-datepicker__select--hover: ;
+	--co-datepicker__select--hover: ;
+}
+
+:root {
+	--co-datepicker__select: ;
+}
+
+:root {
+	--co-datepicker__select-icon: ;
+}
+
+:root {
+	--co-datepicker__today: ;
+	--fw-datepicker__today: ;
+}
+
+:root {
+	--br-datepicker__weeknumber: ;
+	--co-datepicker__weeknumber: ;
+	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-datepicker__weeknumber: 13px;
+}
+
+:root {
+	--bc-datepicker: ;
+	--bt-datepicker: ;
+	--br-datepicker: ;
+	--bb-datepicker: ;
+	--bl-datepicker: ;
+	--bd-datepicker: ;
+	--co-datepicker: ;
+	--ff-datepicker: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--co-dialog__heading: ;
+	--fs-dialog__heading: ;
+	--fw-dialog__heading: ;
+}
+
+:root {
+	--bc-dialog__upload-button: ;
+	--bt-dialog__upload-button: ;
+	--br-dialog__upload-button: ;
+	--bb-dialog__upload-button: ;
+	--bl-dialog__upload-button: ;
+	--bd-dialog__upload-button: ;
+	--sd-dialog__upload-button: ;
+	--co-dialog__upload-button: ;
+}
+
+:root {
+	--bc-dialog__upload-input: ;
+	--bt-dialog__upload-input: ;
+	--br-dialog__upload-input: ;
+	--bb-dialog__upload-input: ;
+	--bl-dialog__upload-input: ;
+	--bd-dialog__upload-input: ;
+	--sd-dialog__upload-input: ;
+	--co-dialog__upload-input: ;
+}
+
+:root {
+	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-div: 13px;
+}
+
+:root {
+	--bc-dropbar: ;
+}
+
+:root {
+	--bc-elevation__container: ;
+	--bt-elevation__container: ;
+	--br-elevation__container: ;
+	--bb-elevation__container: ;
+	--bl-elevation__container: ;
+	--bd-elevation__container: ;
+	--sd-elevation__container: ;
+}
+
+:root {
+	--co-elevation__create-block--selected: ;
+}
+
+:root {
+	--co-elevation__create-block: ;
+}
+
+:root {
+	--bc-elevation__item--selected: ;
+	--bt-elevation__item--selected: ;
+	--br-elevation__item--selected: ;
+	--bb-elevation__item--selected: ;
+	--bl-elevation__item--selected: ;
+	--bd-elevation__item--selected: ;
+	--co-elevation__item--selected: ;
+}
+
+:root {
+	--bt-elevation__item: ;
+	--br-elevation__item: ;
+	--bb-elevation__item: ;
+	--bl-elevation__item: ;
+	--co-elevation__item: ;
+	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--co-elevation__item-icon--selected: ;
+}
+
+:root {
+	--co-elevation__item-icon: ;
+}
+
+:root {
+	--co-elevation__item-keyprompt--selected: ;
+}
+
+:root {
+	--co-elevation__item-keyprompt: ;
+	--fs-elevation__item-keyprompt: ;
+	--op-elevation__item-keyprompt: ;
+}
+
+:root {
+	--co-elevation__search-block: ;
+}
+
+:root {
+	--bc-embed__container-10: ;
+	--bt-embed__container-10: ;
+	--br-embed__container-10: ;
+	--bb-embed__container-10: ;
+	--bl-embed__container-10: ;
+	--bd-embed__container-10: ;
+}
+
+:root {
+	--bc-embed__container-11: ;
+	--bt-embed__container-11: ;
+	--br-embed__container-11: ;
+	--bb-embed__container-11: ;
+	--bl-embed__container-11: ;
+	--bd-embed__container-11: ;
+}
+
+:root {
+	--bc-embed__container-2: ;
+	--bt-embed__container-2: ;
+	--br-embed__container-2: ;
+	--bb-embed__container-2: ;
+	--bl-embed__container-2: ;
+	--bd-embed__container-2: ;
+}
+
+:root {
+	--bc-embed__container-3: ;
+	--bt-embed__container-3: ;
+	--br-embed__container-3: ;
+	--bb-embed__container-3: ;
+	--bl-embed__container-3: ;
+	--bd-embed__container-3: ;
+}
+
+:root {
+	--bc-embed__container-4: ;
+	--bt-embed__container-4: ;
+	--br-embed__container-4: ;
+	--bb-embed__container-4: ;
+	--bl-embed__container-4: ;
+	--bd-embed__container-4: ;
+}
+
+:root {
+	--bc-embed__container-5: ;
+	--bt-embed__container-5: ;
+	--br-embed__container-5: ;
+	--bb-embed__container-5: ;
+	--bl-embed__container-5: ;
+	--bd-embed__container-5: ;
+}
+
+:root {
+	--bc-embed__container-6: ;
+	--bt-embed__container-6: ;
+	--br-embed__container-6: ;
+	--bb-embed__container-6: ;
+	--bl-embed__container-6: ;
+	--bd-embed__container-6: ;
+}
+
+:root {
+	--bc-embed__container-7: ;
+	--bt-embed__container-7: ;
+	--br-embed__container-7: ;
+	--bb-embed__container-7: ;
+	--bl-embed__container-7: ;
+	--bd-embed__container-7: ;
+}
+
+:root {
+	--bc-embed__container-8: ;
+	--bt-embed__container-8: ;
+	--br-embed__container-8: ;
+	--bb-embed__container-8: ;
+	--bl-embed__container-8: ;
+	--bd-embed__container-8: ;
+}
+
+:root {
+	--bc-embed__container-9: ;
+	--bt-embed__container-9: ;
+	--br-embed__container-9: ;
+	--bb-embed__container-9: ;
+	--bl-embed__container-9: ;
+	--bd-embed__container-9: ;
+}
+
+:root {
+	--bc-embed: ;
+	--bt-embed: ;
+	--br-embed: ;
+	--bb-embed: ;
+	--bl-embed: ;
+	--bd-embed: ;
+}
+
+:root {
+	--bc-embed-page__margin: ;
+	--bl-embed-page__margin: ;
+}
+
+:root {
+	--bt-embed-page__reference-main: ;
+}
+
+:root {
+	--fs-embed-page__title: ;
+}
+
+:root {
+	--bc-embed-page: ;
+	--bt-embed-page: ;
+	--br-embed-page: ;
+	--bb-embed-page: ;
+	--bl-embed-page: ;
+	--bd-embed-page: ;
+}
+
+:root {
+	--bc-emoji-mart__category-label: ;
+}
+
+:root {
+	--bc-emoji-mart: ;
+	--bt-emoji-mart: ;
+	--br-emoji-mart: ;
+	--bb-emoji-mart: ;
+	--bl-emoji-mart: ;
+	--bd-emoji-mart: ;
+	--co-emoji-mart: ;
+	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-emoji-mart: 13px;
+}
+
+:root {
+	--bc-find-or-create__menu-item--selected: ;
+	--bt-find-or-create__menu-item--selected: ;
+	--br-find-or-create__menu-item--selected: ;
+	--bb-find-or-create__menu-item--selected: ;
+	--bl-find-or-create__menu-item--selected: ;
+	--bd-find-or-create__menu-item--selected: ;
+}
+
+:root {
+	--co-find-or-create__menu-item--selected: ;
+}
+
+:root {
+	--bt-find-or-create__menu-item: ;
+	--br-find-or-create__menu-item: ;
+	--bb-find-or-create__menu-item: ;
+	--bl-find-or-create__menu-item: ;
+}
+
+:root {
+	--co-find-or-create__new-page--selected: ;
+}
+
+:root {
+	--co-find-or-create__new-page: ;
+}
+
+:root {
+	--co-find-or-create__recent: ;
+}
+
+:root {
+	--co-find-or-create__search-list-item: ;
+}
+
+:root {
+	--co-find-or-create__search-list-item-title: ;
+	--fs-find-or-create__search-list-item-title: ;
+}
+
+:root {
+	--co-graph-dropdown__a--hover: ;
+	--td-graph-dropdown__a--hover: ;
+}
+
+:root {
+	--co-graph-dropdown__a: ;
+	--td-graph-dropdown__a: ;
+}
+
+:root {
+	--co-graph-dropdown__expand-icon--hover: ;
+}
+
+:root {
+	--co-graph-dropdown__expand-icon: ;
+}
+
+:root {
+	--co-graph-dropdown__menu-item: ;
+	--td-graph-dropdown__menu-item: ;
+}
+
+:root {
+	--co-graph-dropdown__menu-title: ;
+	--fs-graph-dropdown__menu-title: ;
+	--ft-graph-dropdown__menu-title: ;
+	--fw-graph-dropdown__menu-title: ;
+	--tt-graph-dropdown__menu-title: ;
+}
+
+:root {
+	--bc-graph-dropdown__setting--hover: ;
+	--co-graph-dropdown__setting--hover: ;
+}
+
+:root {
+	--bc-graph-dropdown__setting: ;
+	--co-graph-dropdown__setting: ;
+}
+
+:root {
+	--co-graph-dropdown__setting-icon--hover: ;
+	--td-graph-dropdown__setting-icon--hover: ;
+}
+
+:root {
+	--fs-graph-dropdown__sign-out: ;
+	--fw-graph-dropdown__sign-out: ;
+	--op-graph-dropdown__sign-out: ;
+}
+
+:root {
+	--sd-graph-dropdown: ;
+}
+
+:root {
+	--bc-help__categories--hover: ;
+	--co-help__categories--hover: ;
+}
+
+:root {
+	--bc-help__categories--selected: ;
+}
+
+:root {
+	--co-help__categories: ;
+}
+
+:root {
+	--co-help__category-name: ;
+	--fs-help__category-name: ;
+	--ft-help__category-name: ;
+	--fw-help__category-name: ;
+	--tt-help__category-name: ;
+}
+
+:root {
+	--co-help__component-description: ;
+}
+
+:root {
+	--bc-help__component-notation: ;
+	--co-help__component-notation: ;
+	--fs-help__component-notation: ;
+}
+
+:root {
+	--co-help__component-title: ;
+	--fs-help__component-title: ;
+	--fw-help__component-title: ;
+}
+
+:root {
+	--co-help__function-name: ;
+	--fs-help__function-name: ;
+	--fw-help__function-name: ;
+}
+
+:root {
+	--co-help__help-version: ;
+	--fs-help__help-version: ;
+	--fw-help__help-version: ;
+}
+
+:root {
+	--bc-help__icon-container: ;
+	--bt-help__icon-container: ;
+	--br-help__icon-container: ;
+	--bb-help__icon-container: ;
+	--bl-help__icon-container: ;
+}
+
+:root {
+	--bc-help__input--focus: ;
+	--bt-help__input--focus: ;
+	--br-help__input--focus: ;
+	--bb-help__input--focus: ;
+	--bl-help__input--focus: ;
+	--bd-help__input--focus: ;
+}
+
+:root {
+	--bc-help__input: ;
+	--bt-help__input: ;
+	--br-help__input: ;
+	--bb-help__input: ;
+	--bl-help__input: ;
+	--bd-help__input: ;
+}
+
+:root {
+	--co-help__markdown-md: ;
+	--fs-help__markdown-md: ;
+	--fw-help__markdown-md: ;
+	--op-help__markdown-md: ;
+}
+
+:root {
+	--co-help__markdown-title: ;
+	--fs-help__markdown-title: ;
+	--fw-help__markdown-title: ;
+}
+
+:root {
+	--bc-help__resource--hover: ;
+}
+
+:root {
+	--co-help__resource-description: ;
+	--fs-help__resource-description: ;
+	--fw-help__resource-description: ;
+}
+
+:root {
+	--bc-help__resource-icon: ;
+	--co-help__resource-icon: ;
+}
+
+:root {
+	--co-help__resource-title: ;
+	--fs-help__resource-title: ;
+	--fw-help__resource-title: ;
+}
+
+:root {
+	--co-help__title: ;
+	--fs-help__title: ;
+}
+
+:root {
+	--bc-highlight: ;
+}
+
+:root {
+	--bt-hr: ;
+	--br-hr: ;
+	--bb-hr: ;
+	--bl-hr: ;
+}
+
+:root {
+	--bc-html__select--hover: ;
+	--sd-html__select--hover: ;
+	--co-html__select--hover: ;
+	--td-html__select--hover: ;
+}
+
+:root {
+	--bc-html__select: ;
+	--sd-html__select: ;
+	--co-html__select: ;
+}
+
+:root {
+	--co-html__select-icon: ;
+}
+
+:root {
+	--bc-inline-references: ;
+}
+
+:root {
+	--bd-input__search: ;
+}
+
+:root {
+	--co-input__search-icon: ;
+}
+
+:root {
+	--co-input__search-placeholder: ;
+	--ff-input__search-placeholder: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--bc-input--focus: ;
+	--bt-input--focus: ;
+	--br-input--focus: ;
+	--bb-input--focus: ;
+	--bl-input--focus: ;
+	--bd-input--focus: ;
+	--sd-input--focus: ;
+}
+
+:root {
+	--bc-input: ;
+	--bt-input: ;
+	--br-input: ;
+	--bb-input: ;
+	--bl-input: ;
+	--bd-input: ;
+	--sd-input: ;
+	--co-input: ;
+	--ff-input: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-input: 13px;
+	--fw-input: ;
+}
+
+:root {
+	--bc-install-button--hover: ;
+	--bt-install-button--hover: ;
+	--br-install-button--hover: ;
+	--bb-install-button--hover: ;
+	--bl-install-button--hover: ;
+	--bd-install-button--hover: ;
+	--co-install-button--hover: ;
+}
+
+:root {
+	--bc-install-button: ;
+	--bt-install-button: ;
+	--br-install-button: ;
+	--bb-install-button: ;
+	--bl-install-button: ;
+	--bd-install-button: ;
+	--co-install-button: ;
+}
+
+:root {
+	--bc-kanban__card: ;
+	--bt-kanban__card: ;
+	--br-kanban__card: ;
+	--bb-kanban__card: ;
+	--bl-kanban__card: ;
+	--bd-kanban__card: ;
+}
+
+:root {
+	--bc-kanban__column: ;
+}
+
+:root {
+	--bc-kanban__dropbar: ;
+}
+
+:root {
+	--bb-kanban__title: ;
+}
+
+:root {
+	--bc-kanban: ;
+}
+
+:root {
+	--bc-left-sidebar__container: ;
+	--br-left-sidebar__container: ;
+}
+
+:root {
+	--co-left-sidebar__db-title--hover: ;
+}
+
+:root {
+	--co-left-sidebar__db-title: ;
+	--ff-left-sidebar__db-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-left-sidebar__db-title: 13px;
+	--fw-left-sidebar__db-title: ;
+	--tt-left-sidebar__db-title: ;
+}
+
+:root {
+	--bc-left-sidebar__hr: ;
+}
+
+:root {
+	--co-left-sidebar__icon: ;
+	--fs-left-sidebar__icon: ;
+}
+
+:root {
+	--bc-left-sidebar__logo--hover: ;
+	--td-left-sidebar__logo--hover: ;
+}
+
+:root {
+	--td-left-sidebar__logo: ;
+}
+
+:root {
+	--co-left-sidebar__logo-text: ;
+}
+
+:root {
+	--bc-left-sidebar__toprow--hover: ;
+}
+
+:root {
+	--bb-level1: ;
+	--co-level1: ;
+	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level1: 22px;
+	--ft-level1: ;
+	--fw-level1: 600;
+	--tt-level1: ;
+}
+
+:root {
+	--bb-level2: ;
+	--co-level2: ;
+	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level2: 17px;
+	--ft-level2: ;
+	--fw-level2: 600;
+	--tt-level2: ;
+}
+
+:root {
+	--bb-level3: ;
+	--co-level3: ;
+	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level3: 15px;
+	--ft-level3: ;
+	--fw-level3: 500;
+	--tt-level3: ;
+}
+
+:root {
+	--co-log-page__h1: ;
+	--ff-log-page__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-log-page__h1: 22px;
+	--ft-log-page__h1: ;
+	--fw-log-page__h1: ;
+	--tt-log-page__h1: ;
+}
+
+:root {
+	--co-log-page__preview: ;
+}
+
+:root {
+	--bt-log-page: ;
+}
+
+:root {
+	--bc-logbutton--hover: ;
+	--bt-logbutton--hover: ;
+	--br-logbutton--hover: ;
+	--bb-logbutton--hover: ;
+	--bl-logbutton--hover: ;
+	--co-logbutton--hover: ;
+	--td-logbutton--hover: ;
+}
+
+:root {
+	--co-logbutton: ;
+	--ff-logbutton: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-logbutton: 13px;
+	--fw-logbutton: ;
+	--tt-logbutton: ;
+}
+
+:root {
+	--bc-main: ;
+}
+
+:root {
+	--co-main: ;
+	--ff-main: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-main: 13px;
+	--fw-main: ;
+}
+
+:root {
+	--bc-menu__button--active: ;
+	--bt-menu__button--active: ;
+	--br-menu__button--active: ;
+	--bb-menu__button--active: ;
+	--bl-menu__button--active: ;
+	--bd-menu__button--active: ;
+	--co-menu__button--active: ;
+}
+
+:root {
+	--bc-menu__button--hover: ;
+	--bt-menu__button--hover: ;
+	--br-menu__button--hover: ;
+	--bb-menu__button--hover: ;
+	--bl-menu__button--hover: ;
+	--bd-menu__button--hover: ;
+	--co-menu__button--hover: ;
+}
+
+:root {
+	--bc-menu__button: ;
+	--bt-menu__button: ;
+	--br-menu__button: ;
+	--bb-menu__button: ;
+	--bl-menu__button: ;
+	--bd-menu__button: ;
+	--co-menu__button: ;
+}
+
+:root {
+	--co-menu__button-icon--active: ;
+}
+
+:root {
+	--co-menu__button-icon--hover: ;
+}
+
+:root {
+	--co-menu__button-icon: ;
+}
+
+:root {
+	--bc-menu__item--hover: ;
+	--bt-menu__item--hover: ;
+	--br-menu__item--hover: ;
+	--bb-menu__item--hover: ;
+	--bl-menu__item--hover: ;
+	--bd-menu__item--hover: ;
+	--co-menu__item--hover: ;
+}
+
+:root {
+	--bt-menu__item: ;
+	--br-menu__item: ;
+	--bb-menu__item: ;
+	--bl-menu__item: ;
+	--bd-menu__item: ;
+	--co-menu__item: ;
+}
+
+:root {
+	--co-menu__item-icon--hover: ;
+}
+
+:root {
+	--co-menu__item-icon: ;
+}
+
+:root {
+	--co-menu__item-label--hover: ;
+}
+
+:root {
+	--co-menu__item-label: ;
+	--td-menu__item-label: ;
+}
+
+:root {
+	--co-menu__item-primary: ;
+}
+
+:root {
+	--bc-menu__menu-item--active: ;
+	--co-menu__menu-item--active: ;
+}
+
+:root {
+	--fl-menu__svg-icon--hover: ;
+}
+
+:root {
+	--fl-menu__svg-icon: ;
+}
+
+:root {
+	--bc-menu: ;
+	--bt-menu: ;
+	--br-menu: ;
+	--bb-menu: ;
+	--bl-menu: ;
+	--bd-menu: ;
+	--co-menu: ;
+}
+
+:root {
+	--co-mobile-bar__icon: ;
+}
+
+:root {
+	--bc-mobile-bar: ;
+}
+
+:root {
+	--bc-modal-dialog: ;
+	--bt-modal-dialog: ;
+	--br-modal-dialog: ;
+	--bb-modal-dialog: ;
+	--bl-modal-dialog: ;
+	--bd-modal-dialog: ;
+}
+
+:root {
+	--br-multibar--hover: ;
+}
+
+:root {
+	--br-multibar: ;
+}
+
+:root {
+	--co-page__link--hover: ;
+	--td-page__link--hover: ;
+}
+
+:root {
+	--co-page__link: ;
+	--td-page__link: ;
+}
+
+:root {
+	--co-page__title: ;
+	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-page__title: 22px;
+	--ft-page__title: ;
+	--fw-page__title: ;
+	--tt-page__title: ;
+}
+
+:root {
+	--bc-pomodoro--break: ;
+	--bt-pomodoro--break: ;
+	--br-pomodoro--break: ;
+	--bb-pomodoro--break: ;
+	--bl-pomodoro--break: ;
+	--bd-pomodoro--break: ;
+	--sd-pomodoro--break: ;
+	--co-pomodoro--break: ;
+}
+
+:root {
+	--bc-pomodoro--running: ;
+	--bt-pomodoro--running: ;
+	--br-pomodoro--running: ;
+	--bb-pomodoro--running: ;
+	--bl-pomodoro--running: ;
+	--bd-pomodoro--running: ;
+	--sd-pomodoro--running: ;
+	--co-pomodoro--running: ;
+}
+
+:root {
+	--bc-pomodoro: ;
+	--bt-pomodoro: ;
+	--br-pomodoro: ;
+	--bb-pomodoro: ;
+	--bl-pomodoro: ;
+	--bd-pomodoro: ;
+	--sd-pomodoro: ;
+	--co-pomodoro: ;
+}
+
+:root {
+	--fl-popover__arrow-border: ;
+}
+
+:root {
+	--fl-popover__arrow-fill: ;
+}
+
+:root {
+	--sd-popover__arrow-shadow: ;
+}
+
+:root {
+	--bc-popover__button--hover: ;
+	--bt-popover__button--hover: ;
+	--br-popover__button--hover: ;
+	--bb-popover__button--hover: ;
+	--bl-popover__button--hover: ;
+	--co-popover__button--hover: ;
+}
+
+:root {
+	--bc-popover__button: ;
+	--bt-popover__button: ;
+	--br-popover__button: ;
+	--bb-popover__button: ;
+	--bl-popover__button: ;
+	--bd-popover__button: ;
+	--co-popover__button: ;
+}
+
+:root {
+	--bc-popover__content: ;
+	--bt-popover__content: ;
+	--br-popover__content: ;
+	--bb-popover__content: ;
+	--bl-popover__content: ;
+	--bd-popover__content: ;
+	--co-popover__content: ;
+}
+
+:root {
+	--co-popover__description: ;
+}
+
+:root {
+	--bd-popover: ;
+	--sd-popover: ;
+}
+
+:root {
+	--bc-query__content: ;
+}
+
+:root {
+	--bc-query__title: ;
+	--co-query__title: ;
+}
+
+:root {
+	--bt-query: ;
+	--br-query: ;
+	--bb-query: ;
+	--bl-query: ;
+}
+
+:root {
+	--bc-quote: ;
+	--bt-quote: ;
+	--br-quote: ;
+	--bb-quote: ;
+	--bl-quote: ;
+	--bd-quote: ;
+	--ff-quote: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-quote: 13px;
+	--ft-quote: ;
+	--fw-quote: ;
+}
+
+:root {
+	--bc-ref-count--active: ;
+	--co-ref-count--active: ;
+}
+
+:root {
+	--co-reference__item--hover: ;
+	--td-reference__item--hover: ;
+}
+
+:root {
+	--bc-reference__item: ;
+	--bt-reference__item: ;
+	--br-reference__item: ;
+	--bb-reference__item: ;
+	--bl-reference__item: ;
+	--bd-reference__item: ;
+}
+
+:root {
+	--bb-reference__linked-title: ;
+	--co-reference__linked-title: ;
+	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-reference__linked-title: 13px;
+	--ft-reference__linked-title: ;
+	--fw-reference__linked-title: ;
+	--tt-reference__linked-title: ;
+}
+
+:root {
+	--bc-reference__nested-refs: ;
+}
+
+:root {
+	--td-reference__page-title--hover: ;
+}
+
+:root {
+	--co-reference__page-title: ;
+	--fs-reference__page-title: ;
+	--fw-reference__page-title: ;
+	--td-reference__page-title: ;
+}
+
+:root {
+	--co-reference__unlinked-title--hover: ;
+	--td-reference__unlinked-title--hover: ;
+}
+
+:root {
+	--bb-reference__unlinked-title: ;
+	--co-reference__unlinked-title: ;
+	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-reference__unlinked-title: 13px;
+	--ft-reference__unlinked-title: ;
+	--fw-reference__unlinked-title: ;
+	--tt-reference__unlinked-title: ;
+}
+
+:root {
+	--bt-right-sidebar__bullet-closed: ;
+	--br-right-sidebar__bullet-closed: ;
+	--bb-right-sidebar__bullet-closed: ;
+	--bl-right-sidebar__bullet-closed: ;
+}
+
+:root {
+	--bc-right-sidebar__container: ;
+	--bl-right-sidebar__container: ;
+}
+
+:root {
+	--co-right-sidebar__h1: ;
+	--fs-right-sidebar__h1: ;
+	--fw-right-sidebar__h1: ;
+}
+
+:root {
+	--bb-right-sidebar__window: ;
+}
+
+:root {
+	--bc-roam-css__button--active-hover: ;
+	--bt-roam-css__button--active-hover: ;
+	--br-roam-css__button--active-hover: ;
+	--bb-roam-css__button--active-hover: ;
+	--bl-roam-css__button--active-hover: ;
+	--bd-roam-css__button--active-hover: ;
+	--co-roam-css__button--active-hover: ;
+}
+
+:root {
+	--bc-roam-css__button--active: ;
+	--bt-roam-css__button--active: ;
+	--br-roam-css__button--active: ;
+	--bb-roam-css__button--active: ;
+	--bl-roam-css__button--active: ;
+	--bd-roam-css__button--active: ;
+	--co-roam-css__button--active: ;
+}
+
+:root {
+	--bc-roam-css__button--inactive-hover: ;
+	--bt-roam-css__button--inactive-hover: ;
+	--br-roam-css__button--inactive-hover: ;
+	--bb-roam-css__button--inactive-hover: ;
+	--bl-roam-css__button--inactive-hover: ;
+	--bd-roam-css__button--inactive-hover: ;
+	--co-roam-css__button--inactive-hover: ;
+}
+
+:root {
+	--bc-roam-css__button--inactive: ;
+	--bt-roam-css__button--inactive: ;
+	--br-roam-css__button--inactive: ;
+	--bb-roam-css__button--inactive: ;
+	--bl-roam-css__button--inactive: ;
+	--bd-roam-css__button--inactive: ;
+	--co-roam-css__button--inactive: ;
+}
+
+:root {
+	--bc-roam-css__container-active: ;
+	--bt-roam-css__container-active: ;
+	--br-roam-css__container-active: ;
+	--bb-roam-css__container-active: ;
+	--bl-roam-css__container-active: ;
+	--bd-roam-css__container-active: ;
+	--co-roam-css__container-active: ;
+}
+
+:root {
+	--bc-roam-css__container-inactive: ;
+	--bt-roam-css__container-inactive: ;
+	--br-roam-css__container-inactive: ;
+	--bb-roam-css__container-inactive: ;
+	--bl-roam-css__container-inactive: ;
+	--bd-roam-css__container-inactive: ;
+	--co-roam-css__container-inactive: ;
+}
+
+:root {
+	--bc-roam-js__button--active-hover: ;
+	--bt-roam-js__button--active-hover: ;
+	--br-roam-js__button--active-hover: ;
+	--bb-roam-js__button--active-hover: ;
+	--bl-roam-js__button--active-hover: ;
+	--bd-roam-js__button--active-hover: ;
+}
+
+:root {
+	--bc-roam-js__button--active: ;
+	--bt-roam-js__button--active: ;
+	--br-roam-js__button--active: ;
+	--bb-roam-js__button--active: ;
+	--bl-roam-js__button--active: ;
+	--bd-roam-js__button--active: ;
+}
+
+:root {
+	--bc-roam-js__button--inactive-hover: ;
+	--bt-roam-js__button--inactive-hover: ;
+	--br-roam-js__button--inactive-hover: ;
+	--bb-roam-js__button--inactive-hover: ;
+	--bl-roam-js__button--inactive-hover: ;
+	--bd-roam-js__button--inactive-hover: ;
+	--co-roam-js__button--inactive-hover: ;
+}
+
+:root {
+	--bc-roam-js__button--inactive: ;
+	--bt-roam-js__button--inactive: ;
+	--br-roam-js__button--inactive: ;
+	--bb-roam-js__button--inactive: ;
+	--bl-roam-js__button--inactive: ;
+	--bd-roam-js__button--inactive: ;
+	--co-roam-js__button--inactive: ;
+}
+
+:root {
+	--bc-roam-js__container-active: ;
+	--bt-roam-js__container-active: ;
+	--br-roam-js__container-active: ;
+	--bb-roam-js__container-active: ;
+	--bl-roam-js__container-active: ;
+	--bd-roam-js__container-active: ;
+	--co-roam-js__container-active: ;
+}
+
+:root {
+	--bc-roam-js__container-inactive: ;
+	--bt-roam-js__container-inactive: ;
+	--br-roam-js__container-inactive: ;
+	--bb-roam-js__container-inactive: ;
+	--bl-roam-js__container-inactive: ;
+	--bd-roam-js__container-inactive: ;
+	--co-roam-js__container-inactive: ;
+}
+
+:root {
+	--bc-roam42__cp-menu-item--selected: ;
+	--bt-roam42__cp-menu-item--selected: ;
+	--br-roam42__cp-menu-item--selected: ;
+	--bb-roam42__cp-menu-item--selected: ;
+	--bl-roam42__cp-menu-item--selected: ;
+	--bd-roam42__cp-menu-item--selected: ;
+}
+
+:root {
+	--bt-roam42__cp-menu-item: ;
+	--br-roam42__cp-menu-item: ;
+	--bb-roam42__cp-menu-item: ;
+	--bl-roam42__cp-menu-item: ;
+	--bd-roam42__cp-menu-item: ;
+}
+
+:root {
+	--bc-roam42__cp-menu-item-active--hover: ;
+	--bt-roam42__cp-menu-item-active--hover: ;
+	--br-roam42__cp-menu-item-active--hover: ;
+	--bb-roam42__cp-menu-item-active--hover: ;
+	--bl-roam42__cp-menu-item-active--hover: ;
+	--bd-roam42__cp-menu-item-active--hover: ;
+}
+
+:root {
+	--bc-roam42__cp-menu-shortcut: ;
+	--bd-roam42__cp-menu-shortcut: ;
+	--co-roam42__cp-menu-shortcut: ;
+}
+
+:root {
+	--bc-roam42__jj-menu: ;
+	--bt-roam42__jj-menu: ;
+	--br-roam42__jj-menu: ;
+	--bb-roam42__jj-menu: ;
+	--bl-roam42__jj-menu: ;
+	--bd-roam42__jj-menu: ;
+}
+
+:root {
+	--bc-roam42__jj-menu-item--highlight: ;
+	--bt-roam42__jj-menu-item--highlight: ;
+	--br-roam42__jj-menu-item--highlight: ;
+	--bb-roam42__jj-menu-item--highlight: ;
+	--bl-roam42__jj-menu-item--highlight: ;
+	--bd-roam42__jj-menu-item--highlight: ;
+}
+
+:root {
+	--bc-roam42__jj-menu-item: ;
+	--bt-roam42__jj-menu-item: ;
+	--br-roam42__jj-menu-item: ;
+	--bb-roam42__jj-menu-item: ;
+	--bl-roam42__jj-menu-item: ;
+	--bd-roam42__jj-menu-item: ;
+}
+
+:root {
+	--bd-settings__container: ;
+}
+
+:root {
+	--bc-settings__container: ;
+	--bt-settings__container: ;
+	--br-settings__container: ;
+	--bb-settings__container: ;
+	--bl-settings__container: ;
+	--co-settings__container: ;
+}
+
+:root {
+	--co-settings__description: ;
+}
+
+:root {
+	--co-settings__heading: ;
+}
+
+:root {
+	--bc-settings__input--focus: ;
+	--bt-settings__input--focus: ;
+	--br-settings__input--focus: ;
+	--bb-settings__input--focus: ;
+	--bl-settings__input--focus: ;
+}
+
+:root {
+	--bc-settings__input: ;
+	--bt-settings__input: ;
+	--br-settings__input: ;
+	--bb-settings__input: ;
+	--bl-settings__input: ;
+	--bd-settings__input: ;
+}
+
+:root {
+	--bc-settings__items--hover: ;
+	--bt-settings__items--hover: ;
+	--br-settings__items--hover: ;
+	--bb-settings__items--hover: ;
+	--bl-settings__items--hover: ;
+	--co-settings__items--hover: ;
+}
+
+:root {
+	--bc-settings__items--selected: ;
+	--bt-settings__items--selected: ;
+	--br-settings__items--selected: ;
+	--bb-settings__items--selected: ;
+	--bl-settings__items--selected: ;
+	--co-settings__items--selected: ;
+}
+
+:root {
+	--bc-settings__items: ;
+	--bt-settings__items: ;
+	--br-settings__items: ;
+	--bb-settings__items: ;
+	--bl-settings__items: ;
+	--co-settings__items: ;
+}
+
+:root {
+	--bc-settings__items-selected--before: ;
+}
+
+:root {
+	--bc-settings__tab-list: ;
+}
+
+:root {
+	--bc-span--highlighted: ;
+}
+
+:root {
+	--co-starred__icon: ;
+}
+
+:root {
+	--bc-starred__page--hover: ;
+	--bt-starred__page--hover: ;
+	--br-starred__page--hover: ;
+	--bb-starred__page--hover: ;
+	--bl-starred__page--hover: ;
+	--co-starred__page--hover: ;
+	--td-starred__page--hover: ;
+}
+
+:root {
+	--bt-starred__page: ;
+	--br-starred__page: ;
+	--bb-starred__page: ;
+	--bl-starred__page: ;
+	--co-starred__page: ;
+	--ff-starred__page: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-starred__page: 13px;
+	--ft-starred__page: ;
+	--fw-starred__page: ;
+	--tt-starred__page: ;
+}
+
+:root {
+	--co-starred__title: ;
+	--ff-starred__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-starred__title: 13px;
+	--ft-starred__title: ;
+	--fw-starred__title: ;
+	--tt-starred__title: ;
+}
+
+:root {
+	--bc-sync--saving-local: ;
+}
+
+:root {
+	--bc-sync--saving-remote: ;
+}
+
+:root {
+	--bc-sync--synced: ;
+}
+
+:root {
+	--bc-tags--hover: ;
+	--bt-tags--hover: ;
+	--br-tags--hover: ;
+	--bb-tags--hover: ;
+	--bl-tags--hover: ;
+	--bd-tags--hover: ;
+	--co-tags--hover: ;
+}
+
+:root {
+	--bc-tags: ;
+	--bt-tags: ;
+	--br-tags: ;
+	--bb-tags: ;
+	--bl-tags: ;
+	--bd-tags: ;
+	--co-tags: ;
+	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-tags: 13px;
+	--ft-tags: ;
+	--fw-tags: ;
+	--td-tags: ;
+	--tt-tags: ;
+}
+
+:root {
+	--bc-textarea__selection: ;
+}
+
+:root {
+	--bc-tooltip: ;
+	--bt-tooltip: ;
+	--br-tooltip: ;
+	--bb-tooltip: ;
+	--bl-tooltip: ;
+	--bd-tooltip: ;
+	--co-tooltip: ;
+}
+
+:root {
+	--bc-topbar__container: ;
+	--bt-topbar__container: ;
+	--br-topbar__container: ;
+	--bb-topbar__container: ;
+	--bl-topbar__container: ;
+	--bd-topbar__container: ;
+	--sd-topbar__container: ;
+}
+
+:root {
+	--bc-topbar-datepicker__day--hover: ;
+	--bd-topbar-datepicker__day--hover: ;
+	--co-topbar-datepicker__day--hover: ;
+}
+
+:root {
+	--bc-topbar-datepicker__day--selected: ;
+	--bd-topbar-datepicker__day--selected: ;
+	--co-topbar-datepicker__day--selected: ;
+}
+
+:root {
+	--co-topbar-datepicker__day: ;
+}
+
+:root {
+	--bc-topbar-datepicker__day-selected--hover: ;
+	--bd-topbar-datepicker__day-selected--hover: ;
+}
+
+:root {
+	--co-topbar-datepicker__day-without-page: ;
+}
+
+:root {
+	--bc-topbar-datepicker__nav-button--hover: ;
+	--bt-topbar-datepicker__nav-button--hover: ;
+	--br-topbar-datepicker__nav-button--hover: ;
+	--bb-topbar-datepicker__nav-button--hover: ;
+	--bl-topbar-datepicker__nav-button--hover: ;
+	--bd-topbar-datepicker__nav-button--hover: ;
+	--co-topbar-datepicker__nav-button--hover: ;
+}
+
+:root {
+	--co-topbar-datepicker__nav-button--hover: ;
+}
+
+:root {
+	--bc-topbar-datepicker__nav-button: ;
+	--bt-topbar-datepicker__nav-button: ;
+	--br-topbar-datepicker__nav-button: ;
+	--bb-topbar-datepicker__nav-button: ;
+	--bl-topbar-datepicker__nav-button: ;
+	--bd-topbar-datepicker__nav-button: ;
+}
+
+:root {
+	--co-topbar-datepicker__nav-button: ;
+}
+
+:root {
+	--bc-topbar-datepicker__today--selected: ;
+	--co-topbar-datepicker__today--selected: ;
+}
+
+:root {
+	--co-topbar-datepicker__today: ;
+	--fw-topbar-datepicker__today: ;
+}
+
+:root {
+	--bc-topbar-datepicker__today-selected--hover: ;
+}
+
+:root {
+	--br-topbar-datepicker__weeknumber: ;
+	--co-topbar-datepicker__weeknumber: ;
+	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-topbar-datepicker__weeknumber: 13px;
+}
+
+:root {
+	--bc-topbar-datepicker: ;
+	--bt-topbar-datepicker: ;
+	--br-topbar-datepicker: ;
+	--bb-topbar-datepicker: ;
+	--bl-topbar-datepicker: ;
+	--bd-topbar-datepicker: ;
+	--co-topbar-datepicker: ;
+	--ff-topbar-datepicker: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--bc-topbar-datepicker-html__select--hover: ;
+	--co-topbar-datepicker-html__select--hover: ;
+}
+
+:root {
+	--co-topbar-datepicker-html__select: ;
+}
+
+:root {
+	--co-topbar-datepicker-html__select-icon: ;
+}
+
+:root {
+	--bc-version__bullet: ;
+}
+
+:root {
+	--bc-zoom__mask: ;
+}
+
+:root {
+	--co-zoom-item: ;
+	--fs-zoom-item: ;
+}
+
+:root {
+	--co-zotero__h5: ;
+}
+
+:root {
+	--bc-zotero__page-menu: ;
+	--bt-zotero__page-menu: ;
+	--br-zotero__page-menu: ;
+	--bb-zotero__page-menu: ;
+	--bl-zotero__page-menu: ;
+	--bd-zotero__page-menu: ;
+}
+
+:root {
+	--co-zotero__primary: ;
+}
+
+:root {
+	--bc-zotero__sequence: ;
+	--br-zotero__sequence: ;
+	--fs-zotero__sequence: ;
+}
+
