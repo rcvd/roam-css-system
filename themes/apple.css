@@ -4185,7 +4185,7 @@
 	--fs-starred__title: 11px;
 	--ft-starred__title: normal;
 	--fw-starred__title: 500;
-	--tt-starred__title: none;
+	--tt-starred__title: capitalize;
 }
 
 @media(prefers-color-scheme: dark) {
