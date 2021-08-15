@@ -1123,7 +1123,7 @@
 	--br-input: ;
 	--bb-input: ;
 	--bl-input: ;
-	--bd-input: ;
+	--bd-input: 3px;
 	--sd-input: ;
 	--co-input: ;
 	--ff-input: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
@@ -1985,7 +1985,7 @@
 	--br-topbar__container: ;
 	--bb-topbar__container: ;
 	--bl-topbar__container: ;
-	--bd-topbar__container: ;
+	--bd-topbar__container: none;
 	--sd-topbar__container: ;
 }
 

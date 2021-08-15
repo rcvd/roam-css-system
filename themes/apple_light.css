@@ -1118,13 +1118,13 @@
 }
 
 :root {
-	--bc-input: ;
-	--bt-input: ;
-	--br-input: ;
-	--bb-input: ;
-	--bl-input: ;
-	--bd-input: ;
-	--sd-input: ;
+	--bc-input: #f6f6f6;
+	--bt-input: 1px solid #e9e9e9;
+	--br-input: 1px solid #e9e9e9;
+	--bb-input: 1px solid #e9e9e9;
+	--bl-input: 1px solid #e9e9e9;
+	--bd-input: 3px;
+	--sd-input: none;
 	--co-input: ;
 	--ff-input: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-input: 13px;
@@ -1980,13 +1980,13 @@
 }
 
 :root {
-	--bc-topbar__container: ;
-	--bt-topbar__container: ;
-	--br-topbar__container: ;
-	--bb-topbar__container: ;
-	--bl-topbar__container: ;
-	--bd-topbar__container: ;
-	--sd-topbar__container: ;
+	--bc-topbar__container: #f6f6f6;
+	--bt-topbar__container: none;
+	--br-topbar__container: none;
+	--bb-topbar__container: 1px solid #e6e6e6;
+	--bl-topbar__container: none;
+	--bd-topbar__container: none;
+	--sd-topbar__container: none;
 }
 
 :root {
