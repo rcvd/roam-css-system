@@ -1338,22 +1338,22 @@
 }
 
 :root {
-	--bc-menu__item--hover: ;
-	--bt-menu__item--hover: ;
-	--br-menu__item--hover: ;
-	--bb-menu__item--hover: ;
-	--bl-menu__item--hover: ;
-	--bd-menu__item--hover: ;
-	--co-menu__item--hover: ;
+	--bc-menu__item--hover: #b4b4b3;
+	--bt-menu__item--hover: none;
+	--br-menu__item--hover: none;
+	--bb-menu__item--hover: none;
+	--bl-menu__item--hover: none;
+	--bd-menu__item--hover: 3px;
+	--co-menu__item--hover: #f6f6f6;
 }
 
 :root {
-	--bt-menu__item: ;
-	--br-menu__item: ;
-	--bb-menu__item: ;
-	--bl-menu__item: ;
-	--bd-menu__item: ;
-	--co-menu__item: ;
+	--bt-menu__item: none;
+	--br-menu__item: none;
+	--bb-menu__item: none;
+	--bl-menu__item: none;
+	--bd-menu__item: 3px;
+	--co-menu__item: #242424;
 }
 
 :root {

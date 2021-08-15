@@ -1343,7 +1343,7 @@
 	--br-menu__item--hover: ;
 	--bb-menu__item--hover: ;
 	--bl-menu__item--hover: ;
-	--bd-menu__item--hover: ;
+	--bd-menu__item--hover: 3px;
 	--co-menu__item--hover: ;
 }
 
@@ -1352,7 +1352,7 @@
 	--br-menu__item: ;
 	--bb-menu__item: ;
 	--bl-menu__item: ;
-	--bd-menu__item: ;
+	--bd-menu__item: 3px;
 	--co-menu__item: ;
 }
 
