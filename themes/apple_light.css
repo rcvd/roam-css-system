@@ -1558,11 +1558,11 @@
 
 :root {
 	--bc-ref-count--active: ;
-	--co-ref-count--active: ;
+	--co-ref-count--active: #060606;
 }
 
 :root {
-	--co-reference__item--hover: ;
+	--co-reference__item--hover: #060606;
 	--td-reference__item--hover: ;
 }
 
@@ -1577,7 +1577,7 @@
 
 :root {
 	--bb-reference__linked-title: ;
-	--co-reference__linked-title: ;
+	--co-reference__linked-title: #060606;
 	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__linked-title: 13px;
 	--ft-reference__linked-title: ;
@@ -1594,20 +1594,20 @@
 }
 
 :root {
-	--co-reference__page-title: ;
-	--fs-reference__page-title: ;
+	--co-reference__page-title: #060606;
+	--fs-reference__page-title: 13px;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: ;
 }
 
 :root {
-	--co-reference__unlinked-title--hover: ;
+	--co-reference__unlinked-title--hover: #060606;
 	--td-reference__unlinked-title--hover: ;
 }
 
 :root {
 	--bb-reference__unlinked-title: ;
-	--co-reference__unlinked-title: ;
+	--co-reference__unlinked-title: #060606;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 13px;
 	--ft-reference__unlinked-title: ;

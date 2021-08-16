@@ -1595,7 +1595,7 @@
 
 :root {
 	--co-reference__page-title: ;
-	--fs-reference__page-title: ;
+	--fs-reference__page-title: 13px;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: ;
 }
