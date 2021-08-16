@@ -2593,8 +2593,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #e2e1e0;
-	--br-left-sidebar__container: 1px solid #dfdfdf;
+	--bc-left-sidebar__container: #e4e3e3;
+	--br-left-sidebar__container: 1px solid #d8d9d8;
 }
 
 @media(prefers-color-scheme: dark) {
