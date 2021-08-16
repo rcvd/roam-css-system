@@ -403,7 +403,7 @@
 	--br-checkmark: ;
 	--bb-checkmark: ;
 	--bl-checkmark: ;
-	--bd-checkmark: ;
+	--bd-checkmark: 3px;
 }
 
 :root {

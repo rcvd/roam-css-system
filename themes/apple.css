@@ -837,10 +837,10 @@
 }
 
 :root {
-	--bt-checkmark__mark--checked: ;
-	--br-checkmark__mark--checked: ;
-	--bb-checkmark__mark--checked: ;
-	--bl-checkmark__mark--checked: ;
+	--bt-checkmark__mark--checked: 0px;
+	--br-checkmark__mark--checked: 2px solid #fff;
+	--bb-checkmark__mark--checked: 2px solid #fff;
+	--bl-checkmark__mark--checked: 0px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -853,11 +853,11 @@
 }
 
 :root {
-	--bc-checkmark--checked: ;
-	--bt-checkmark--checked: ;
-	--br-checkmark--checked: ;
-	--bb-checkmark--checked: ;
-	--bl-checkmark--checked: ;
+	--bc-checkmark--checked: #898a8a;
+	--bt-checkmark--checked: 1px solid #898a8a;
+	--br-checkmark--checked: 1px solid #898a8a;
+	--bb-checkmark--checked: 1px solid #898a8a;
+	--bl-checkmark--checked: 1px solid #898a8a;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -871,11 +871,11 @@
 }
 
 :root {
-	--bt-checkmark: ;
-	--br-checkmark: ;
-	--bb-checkmark: ;
-	--bl-checkmark: ;
-	--bd-checkmark: ;
+	--bt-checkmark: 1px solid #e3e4e3;
+	--br-checkmark: 1px solid #e3e4e3;
+	--bb-checkmark: 1px solid #e3e4e3;
+	--bl-checkmark: 1px solid #e3e4e3;
+	--bd-checkmark: 3px;
 }
 
 @media(prefers-color-scheme: dark) {
