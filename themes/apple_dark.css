@@ -1514,7 +1514,7 @@
 	--br-popover__content: ;
 	--bb-popover__content: ;
 	--bl-popover__content: ;
-	--bd-popover__content: ;
+	--bd-popover__content: 5px;
 	--co-popover__content: ;
 }
 

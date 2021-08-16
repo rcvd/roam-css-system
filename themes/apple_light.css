@@ -1510,11 +1510,11 @@
 
 :root {
 	--bc-popover__content: ;
-	--bt-popover__content: ;
-	--br-popover__content: ;
-	--bb-popover__content: ;
-	--bl-popover__content: ;
-	--bd-popover__content: ;
+	--bt-popover__content: 1px solid #c4c4c4;
+	--br-popover__content: 1px solid #c4c4c4;
+	--bb-popover__content: 1px solid #c4c4c4;
+	--bl-popover__content: 1px solid #c4c4c4;
+	--bd-popover__content: 5px;
 	--co-popover__content: ;
 }
 
