@@ -2593,8 +2593,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #e4e3e3;
-	--br-left-sidebar__container: 1px solid #d8d9d8;
+	--bc-left-sidebar__container: #eaeaea;
+	--br-left-sidebar__container: 1px solid #efefef;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3546,7 +3546,7 @@
 
 :root {
 	--bc-right-sidebar__container: ;
-	--bl-right-sidebar__container: ;
+	--bl-right-sidebar__container: 1px solid #e6e6e6;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4306,7 +4306,7 @@
 }
 
 :root {
-	--bc-topbar__container: #f6f6f6;
+	--bc-topbar__container: #fdfdfd;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
 	--bb-topbar__container: 1px solid #e6e6e6;
