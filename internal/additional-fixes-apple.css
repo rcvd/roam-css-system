@@ -195,3 +195,7 @@ div {
     top: -0.5px;
 }
 
+/* Hide scrollbar on elevation */
+.bp3-elevation-3 {
+    overflow: hidden;
+}
