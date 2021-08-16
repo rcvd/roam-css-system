@@ -49,7 +49,7 @@ div {
 
     .controls,
     .rm-block__controls {
-        padding-top: 0;
+        padding-top: 3px;
     }
 
     .check-container {
@@ -188,3 +188,10 @@ div {
 :focus {
     outline: none;
 }
+
+/* Fix checkbox */
+.check-container .checkmark::after {
+    left: 2.5px;
+    top: -0.5px;
+}
+
