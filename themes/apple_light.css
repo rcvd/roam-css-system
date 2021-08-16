@@ -666,11 +666,11 @@
 }
 
 :root {
-	--co-elevation__create-block--selected: ;
+	--co-elevation__create-block--selected: #ffffff;
 }
 
 :root {
-	--co-elevation__create-block: ;
+	--co-elevation__create-block: #aaa9a9;
 }
 
 :root {
@@ -684,34 +684,34 @@
 }
 
 :root {
-	--bt-elevation__item: ;
-	--br-elevation__item: ;
-	--bb-elevation__item: ;
-	--bl-elevation__item: ;
-	--co-elevation__item: ;
+	--bt-elevation__item: none;
+	--br-elevation__item: none;
+	--bb-elevation__item: none;
+	--bl-elevation__item: none;
+	--co-elevation__item: #262626;
 	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
 :root {
-	--co-elevation__item-icon--selected: ;
+	--co-elevation__item-icon--selected: #ffffff;
 }
 
 :root {
-	--co-elevation__item-icon: ;
+	--co-elevation__item-icon: #262626;
 }
 
 :root {
-	--co-elevation__item-keyprompt--selected: ;
+	--co-elevation__item-keyprompt--selected: #ffffff;
 }
 
 :root {
-	--co-elevation__item-keyprompt: ;
+	--co-elevation__item-keyprompt: #aaa9a9;
 	--fs-elevation__item-keyprompt: ;
 	--op-elevation__item-keyprompt: ;
 }
 
 :root {
-	--co-elevation__search-block: ;
+	--co-elevation__search-block: #aaa9a9;
 }
 
 :root {
