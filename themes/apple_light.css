@@ -656,12 +656,12 @@
 }
 
 :root {
-	--bc-elevation__container: ;
-	--bt-elevation__container: ;
-	--br-elevation__container: ;
-	--bb-elevation__container: ;
-	--bl-elevation__container: ;
-	--bd-elevation__container: ;
+	--bc-elevation__container: #e5e4e4;
+	--bt-elevation__container: 1px solid ##c6c6c6;
+	--br-elevation__container: 1px solid ##c6c6c6;
+	--bb-elevation__container: 1px solid ##c6c6c6;
+	--bl-elevation__container: 1px solid ##c6c6c6;
+	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
@@ -674,13 +674,13 @@
 }
 
 :root {
-	--bc-elevation__item--selected: ;
-	--bt-elevation__item--selected: ;
-	--br-elevation__item--selected: ;
-	--bb-elevation__item--selected: ;
-	--bl-elevation__item--selected: ;
-	--bd-elevation__item--selected: ;
-	--co-elevation__item--selected: ;
+	--bc-elevation__item--selected: #b2b1b1;
+	--bt-elevation__item--selected: none;
+	--br-elevation__item--selected: none;
+	--bb-elevation__item--selected: none;
+	--bl-elevation__item--selected: none;
+	--bd-elevation__item--selected: 3px;
+	--co-elevation__item--selected: #ffffff;
 }
 
 :root {
@@ -1391,11 +1391,11 @@
 }
 
 :root {
-	--bc-menu: #eff0f0;
-	--bt-menu: 1px solid #c7c7c7;
-	--br-menu: 1px solid #c7c7c7;
-	--bb-menu: 1px solid #c7c7c7;
-	--bl-menu: 1px solid #c7c7c7;
+	--bc-menu: #e5e4e4;
+	--bt-menu: 1px solid ##c6c6c6;
+	--br-menu: 1px solid ##c6c6c6;
+	--bb-menu: 1px solid ##c6c6c6;
+	--bl-menu: 1px solid ##c6c6c6;
 	--bd-menu: 5px;
 	--co-menu: #242424;
 }

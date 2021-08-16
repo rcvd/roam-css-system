@@ -661,7 +661,7 @@
 	--br-elevation__container: ;
 	--bb-elevation__container: ;
 	--bl-elevation__container: ;
-	--bd-elevation__container: ;
+	--bd-elevation__container: 5px;
 	--sd-elevation__container: ;
 }
 
@@ -679,7 +679,7 @@
 	--br-elevation__item--selected: ;
 	--bb-elevation__item--selected: ;
 	--bl-elevation__item--selected: ;
-	--bd-elevation__item--selected: ;
+	--bd-elevation__item--selected: 3px;
 	--co-elevation__item--selected: ;
 }
 
