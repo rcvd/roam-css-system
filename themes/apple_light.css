@@ -178,15 +178,15 @@
 }
 
 :root {
-	--bc-block-highlight--blue: ;
+	--bc-block-highlight--blue: #dfe0df;
 }
 
 :root {
-	--bc-block-highlight--grey: ;
+	--bc-block-highlight--grey: #dfe0df;
 }
 
 :root {
-	--bc-block-highlight--yellow: ;
+	--bc-block-highlight--yellow: #ffcc02;
 }
 
 :root {
@@ -1063,7 +1063,7 @@
 }
 
 :root {
-	--bc-highlight: ;
+	--bc-highlight: #ffcc02;
 }
 
 :root {
@@ -1888,7 +1888,7 @@
 }
 
 :root {
-	--bc-span--highlighted: ;
+	--bc-span--highlighted: #ffcc02;
 }
 
 :root {
@@ -1966,7 +1966,7 @@
 }
 
 :root {
-	--bc-textarea__selection: ;
+	--bc-textarea__selection: #dfe0df;
 }
 
 :root {
