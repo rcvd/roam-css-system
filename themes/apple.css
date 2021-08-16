@@ -1454,10 +1454,10 @@
 
 :root {
 	--bc-elevation__container: #e5e4e4;
-	--bt-elevation__container: 1px solid ##c6c6c6;
-	--br-elevation__container: 1px solid ##c6c6c6;
-	--bb-elevation__container: 1px solid ##c6c6c6;
-	--bl-elevation__container: 1px solid ##c6c6c6;
+	--bt-elevation__container: 1px solid #c6c6c6;
+	--br-elevation__container: 1px solid #c6c6c6;
+	--bb-elevation__container: 1px solid #c6c6c6;
+	--bl-elevation__container: 1px solid #c6c6c6;
 	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
