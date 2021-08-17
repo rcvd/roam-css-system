@@ -455,7 +455,7 @@
 
 :root {
 	--br-codeblock__cursor: none;
-	--bl-codeblock__cursor: black;
+	--bl-codeblock__cursor: 1px solid black;
 }
 
 :root {
