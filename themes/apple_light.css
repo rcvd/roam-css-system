@@ -1946,7 +1946,7 @@
 	--bb-tags--hover: none;
 	--bl-tags--hover: none;
 	--bd-tags--hover: 2px;
-	--co-tags--hover: #9b9b9b;
+	--co-tags--hover: #353b48;
 }
 
 :root {
@@ -1956,7 +1956,7 @@
 	--bb-tags: none;
 	--bl-tags: none;
 	--bd-tags: 2px;
-	--co-tags: #9b9b9b;
+	--co-tags: #353b48;
 	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-tags: 13px;
 	--ft-tags: ;
