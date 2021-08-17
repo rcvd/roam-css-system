@@ -198,8 +198,3 @@ div {
 .bp3-elevation-3 {
     overflow: hidden!important;
 }
-
-/* Roam Sidebar container icons */
-.roam-sidebar-container .bp3-icon, .roam-sidebar-container .bp3-icon-small {
-    color: #0079ff;
-}
