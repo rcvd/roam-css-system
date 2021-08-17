@@ -449,7 +449,7 @@
 	--br-codeblock__container: ;
 	--bb-codeblock__container: ;
 	--bl-codeblock__container: ;
-	--bd-codeblock__container: ;
+	--bd-codeblock__container: 5px;
 	--co-codeblock__container: ;
 }
 
@@ -472,7 +472,7 @@
 	--br-codeblock__gutters: ;
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
-	--bd-codeblock__gutters: ;
+	--bd-codeblock__gutters: 5px;
 }
 
 :root {
