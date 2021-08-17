@@ -1215,6 +1215,9 @@ div, textarea {
 	background-color: 		var(--bc-left-sidebar__hr, rgb(57, 75, 89))!important;
 }
 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover .icon {
+}
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
 	color: 					var(--co-left-sidebar__icon, hsl(204,20%,45%));
 	font-size: 				var(--fs-left-sidebar__icon, 16px);
@@ -1284,7 +1287,7 @@ div, textarea {
 	border-top: 			var(--bt-log-page, 1px solid #738694);
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover .icon, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover div {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover div {
 	background-color: 		var(--bc-logbutton--hover, #10161A);
 	border-top: 			var(--bt-logbutton--hover, inherit);
 	border-right: 			var(--br-logbutton--hover, inherit);

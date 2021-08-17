@@ -1198,6 +1198,9 @@
 }
 
 :root {
+}
+
+:root {
 	--co-left-sidebar__icon: var(--cl-gray-300);
 	--fs-left-sidebar__icon: 16px;
 }

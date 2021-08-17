@@ -2639,6 +2639,14 @@
 }
 
 :root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--co-left-sidebar__icon: var(--cl-gray-700);
 	--fs-left-sidebar__icon: 16px;
 }
