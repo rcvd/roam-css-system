@@ -1964,7 +1964,7 @@
 
 :root {
 	--co-find-or-create__search-list-item-title: #232323;
-	--fs-find-or-create__search-list-item-title: ;
+	--fs-find-or-create__search-list-item-title: 13px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2935,7 +2935,7 @@
 }
 
 :root {
-	--bc-menu__item--hover: #b4b5b5;
+	--bc-menu__item--hover: #0064e0;
 	--bt-menu__item--hover: none;
 	--br-menu__item--hover: none;
 	--bb-menu__item--hover: none;
@@ -2961,7 +2961,7 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 3px;
-	--co-menu__item: #353535;
+	--co-menu__item: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
