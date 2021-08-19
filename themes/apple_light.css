@@ -893,12 +893,12 @@
 }
 
 :root {
-	--co-graph-dropdown__a--hover: #353535;
+	--co-graph-dropdown__a--hover: ;
 	--td-graph-dropdown__a--hover: ;
 }
 
 :root {
-	--co-graph-dropdown__a: #353535;
+	--co-graph-dropdown__a: ;
 	--td-graph-dropdown__a: ;
 }
 
