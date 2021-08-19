@@ -391,11 +391,11 @@
 }
 
 :root {
-	--bc-checkmark--checked: #898a8a;
-	--bt-checkmark--checked: 1px solid #898a8a;
-	--br-checkmark--checked: 1px solid #898a8a;
-	--bb-checkmark--checked: 1px solid #898a8a;
-	--bl-checkmark--checked: 1px solid #898a8a;
+	--bc-checkmark--checked: #1e8dff;
+	--bt-checkmark--checked: 1px solid #1e8dff;
+	--br-checkmark--checked: 1px solid #1e8dff;
+	--bb-checkmark--checked: 1px solid #1e8dff;
+	--bl-checkmark--checked: 1px solid #1e8dff;
 }
 
 :root {
@@ -1135,22 +1135,22 @@
 }
 
 :root {
-	--bc-install-button--hover: ;
-	--bt-install-button--hover: ;
-	--br-install-button--hover: ;
-	--bb-install-button--hover: ;
-	--bl-install-button--hover: ;
-	--bd-install-button--hover: ;
+	--bc-install-button--hover: #1082ff;
+	--bt-install-button--hover: 1px solid #1082ff;
+	--br-install-button--hover: 1px solid #1082ff;
+	--bb-install-button--hover: 1px solid #1082ff;
+	--bl-install-button--hover: 1px solid #1082ff;
+	--bd-install-button--hover: 5px;
 	--co-install-button--hover: ;
 }
 
 :root {
-	--bc-install-button: ;
-	--bt-install-button: ;
-	--br-install-button: ;
-	--bb-install-button: ;
-	--bl-install-button: ;
-	--bd-install-button: ;
+	--bc-install-button: #fff;
+	--bt-install-button: 1px solid #e6e6e6;
+	--br-install-button: 1px solid #eaeaea;
+	--bb-install-button: 1px solid #cccccc;
+	--bl-install-button: 1px solid #eaeaea;
+	--bd-install-button: 5px;
 	--co-install-button: ;
 }
 

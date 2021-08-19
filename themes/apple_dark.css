@@ -1140,7 +1140,7 @@
 	--br-install-button--hover: ;
 	--bb-install-button--hover: ;
 	--bl-install-button--hover: ;
-	--bd-install-button--hover: ;
+	--bd-install-button--hover: 5px;
 	--co-install-button--hover: ;
 }
 
@@ -1150,7 +1150,7 @@
 	--br-install-button: ;
 	--bb-install-button: ;
 	--bl-install-button: ;
-	--bd-install-button: ;
+	--bd-install-button: 5px;
 	--co-install-button: ;
 }
 
