@@ -1185,11 +1185,11 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #353535;
+	--co-left-sidebar__db-title--hover: rgb(29,29,31);
 }
 
 :root {
-	--co-left-sidebar__db-title: #353535;
+	--co-left-sidebar__db-title: rgb(29,29,31);
 	--ff-left-sidebar__db-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 1rem;
 	--fw-left-sidebar__db-title: ;
@@ -1218,7 +1218,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: #a2a1a0;
+	--co-left-sidebar__logo-text: rgb(29,29,31);
 }
 
 :root {
@@ -1227,7 +1227,7 @@
 
 :root {
 	--bb-level1: ;
-	--co-level1: ;
+	--co-level1: rgb(29,29,31);
 	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 22px;
 	--ft-level1: ;
@@ -1237,7 +1237,7 @@
 
 :root {
 	--bb-level2: ;
-	--co-level2: ;
+	--co-level2: rgb(29,29,31);
 	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 17px;
 	--ft-level2: ;
@@ -1247,7 +1247,7 @@
 
 :root {
 	--bb-level3: ;
-	--co-level3: ;
+	--co-level3: rgb(29,29,31);
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 15px;
 	--ft-level3: ;
@@ -1278,12 +1278,12 @@
 	--br-logbutton--hover: ;
 	--bb-logbutton--hover: ;
 	--bl-logbutton--hover: ;
-	--co-logbutton--hover: #353535;
+	--co-logbutton--hover: rgb(29,29,31);
 	--td-logbutton--hover: ;
 }
 
 :root {
-	--co-logbutton: #353535;
+	--co-logbutton: rgb(29,29,31);
 	--ff-logbutton: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: ;
@@ -1295,7 +1295,7 @@
 }
 
 :root {
-	--co-main: ;
+	--co-main: rgb(29,29,31);
 	--ff-main: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-main: 1rem;
 	--fw-main: ;
@@ -1359,7 +1359,7 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 3px;
-	--co-menu__item: #232323;
+	--co-menu__item: rgb(29,29,31);
 }
 
 :root {
@@ -1403,7 +1403,7 @@
 	--bb-menu: 1px solid #cacaca;
 	--bl-menu: 1px solid #cacaca;
 	--bd-menu: 5px;
-	--co-menu: #242424;
+	--co-menu: rgb(29,29,31);
 }
 
 :root {
@@ -1442,11 +1442,11 @@
 }
 
 :root {
-	--co-page__title: ;
+	--co-page__title: rgb(29,29,31);
 	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-page__title: 22px;
+	--fs-page__title: 48px;
 	--ft-page__title: ;
-	--fw-page__title: ;
+	--fw-page__title: 600;
 	--tt-page__title: ;
 }
 
@@ -1907,7 +1907,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #353535;
+	--co-starred__page--hover: rgb(29,29,31);
 	--td-starred__page--hover: none;
 }
 
@@ -1916,7 +1916,7 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: #353535;
+	--co-starred__page: rgb(29,29,31);
 	--ff-starred__page: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 1rem;
 	--ft-starred__page: normal;
@@ -2075,7 +2075,7 @@
 	--bb-topbar-datepicker: 1px solid #c7c7c7;
 	--bl-topbar-datepicker: 1px solid #c7c7c7;
 	--bd-topbar-datepicker: 5px;
-	--co-topbar-datepicker: #353535;
+	--co-topbar-datepicker: rgb(29,29,31);
 	--ff-topbar-datepicker: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 

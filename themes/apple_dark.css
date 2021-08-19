@@ -1444,9 +1444,9 @@
 :root {
 	--co-page__title: ;
 	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-page__title: 22px;
+	--fs-page__title: 48px;
 	--ft-page__title: ;
-	--fw-page__title: ;
+	--fw-page__title: 600;
 	--tt-page__title: ;
 }
 
