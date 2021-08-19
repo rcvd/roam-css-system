@@ -157,7 +157,7 @@
 
 :root {
 	--co-app__h1: ;
-	--ff-app__h1: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-app__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--ft-app__h1: ;
 	--fw-app__h1: ;
 }
