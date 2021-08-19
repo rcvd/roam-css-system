@@ -1878,7 +1878,7 @@
 }
 
 :root {
-	--bc-find-or-create__menu-item--selected: #5aa0ff;
+	--bc-find-or-create__menu-item--selected: #0064e0;
 	--bt-find-or-create__menu-item--selected: none;
 	--br-find-or-create__menu-item--selected: none;
 	--bb-find-or-create__menu-item--selected: none;
@@ -1897,7 +1897,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: #f6f6f6;
+	--co-find-or-create__menu-item--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1923,7 +1923,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #262626;
+	--co-find-or-create__new-page--selected: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1933,7 +1933,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page: #262626;
+	--co-find-or-create__new-page: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1943,7 +1943,7 @@
 }
 
 :root {
-	--co-find-or-create__recent: #262626;
+	--co-find-or-create__recent: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1953,7 +1953,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item: #262626;
+	--co-find-or-create__search-list-item: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1963,7 +1963,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item-title: #262626;
+	--co-find-or-create__search-list-item-title: #232323;
 	--fs-find-or-create__search-list-item-title: ;
 }
 
@@ -2027,8 +2027,8 @@
 }
 
 :root {
-	--co-graph-dropdown__menu-title: ;
-	--fs-graph-dropdown__menu-title: ;
+	--co-graph-dropdown__menu-title: #d0d0d0;
+	--fs-graph-dropdown__menu-title: 11px;
 	--ft-graph-dropdown__menu-title: ;
 	--fw-graph-dropdown__menu-title: ;
 	--tt-graph-dropdown__menu-title: ;
@@ -2041,8 +2041,8 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: ;
-	--co-graph-dropdown__setting--hover: ;
+	--bc-graph-dropdown__setting--hover: #0064e0;
+	--co-graph-dropdown__setting--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2053,8 +2053,8 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting: ;
-	--co-graph-dropdown__setting: ;
+	--bc-graph-dropdown__setting: transparent;
+	--co-graph-dropdown__setting: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2065,7 +2065,7 @@
 }
 
 :root {
-	--co-graph-dropdown__setting-icon--hover: ;
+	--co-graph-dropdown__setting-icon--hover: #ffffff;
 	--td-graph-dropdown__setting-icon--hover: ;
 }
 
