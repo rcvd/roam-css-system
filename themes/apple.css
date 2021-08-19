@@ -440,10 +440,10 @@
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #484848;
-	--br-bullet__closed: 4px solid #484848;
-	--bb-bullet__closed: 4px solid #484848;
-	--bl-bullet__closed: 4px solid #484848;
+	--bt-bullet__closed: 4px solid #898a8a;
+	--br-bullet__closed: 4px solid #898a8a;
+	--bb-bullet__closed: 4px solid #898a8a;
+	--bl-bullet__closed: 4px solid #898a8a;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -456,7 +456,7 @@
 }
 
 :root {
-	--bc-bullet__ghost: #484848;
+	--bc-bullet__ghost: #898a8a;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -466,7 +466,7 @@
 }
 
 :root {
-	--bc-bullet__inner: #484848;
+	--bc-bullet__inner: #898a8a;
 }
 
 @media(prefers-color-scheme: dark) {
