@@ -33,11 +33,11 @@ div {
 }
 
 .rm-bullet {
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .rm-bullet--numbered {
-    margin-top: -1px;
+    margin-top: 1px;
 }
 
 /* Firefox specific fixes */
