@@ -4,6 +4,10 @@ body, input, textarea, select, button {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    border-top: 1px solid #e6e6e6;
+}
+
 .level1 {
     line-height: 26px;
     letter-spacing: 0.22px;
