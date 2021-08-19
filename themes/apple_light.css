@@ -399,10 +399,10 @@
 }
 
 :root {
-	--bt-checkmark: 1px solid #e3e4e3;
-	--br-checkmark: 1px solid #e3e4e3;
-	--bb-checkmark: 1px solid #e3e4e3;
-	--bl-checkmark: 1px solid #e3e4e3;
+	--bt-checkmark: 1px solid #cfcfcf;
+	--br-checkmark: 1px solid #cfcfcf;
+	--bb-checkmark: 1px solid #cfcfcf;
+	--bl-checkmark: 1px solid #cfcfcf;
 	--bd-checkmark: 3px;
 }
 
