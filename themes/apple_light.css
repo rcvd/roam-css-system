@@ -1135,13 +1135,13 @@
 }
 
 :root {
-	--bc-install-button--hover: #fff;
+	--bc-install-button--hover: #0064e0;
 	--bt-install-button--hover: 1px solid #cccccc;
 	--br-install-button--hover: 1px solid #cccccc;
 	--bb-install-button--hover: 1px solid #cccccc;
 	--bl-install-button--hover: 1px solid #cccccc;
 	--bd-install-button--hover: 5px;
-	--co-install-button--hover: ;
+	--co-install-button--hover: #fff;
 }
 
 :root {
