@@ -1550,12 +1550,12 @@
 }
 
 :root {
-	--bc-quote: ;
-	--bt-quote: ;
-	--br-quote: ;
-	--bb-quote: ;
-	--bl-quote: ;
-	--bd-quote: ;
+	--bc-quote: #f5f5f7;
+	--bt-quote: 2px solid #9a9a9b;
+	--br-quote: 2px solid #9a9a9b;
+	--bb-quote: 2px solid #9a9a9b;
+	--bl-quote: 2px solid #9a9a9b;
+	--bd-quote: 15px;
 	--ff-quote: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-quote: 1rem;
 	--ft-quote: ;

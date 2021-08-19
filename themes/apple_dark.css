@@ -1555,7 +1555,7 @@
 	--br-quote: ;
 	--bb-quote: ;
 	--bl-quote: ;
-	--bd-quote: ;
+	--bd-quote: 15px;
 	--ff-quote: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-quote: 1rem;
 	--ft-quote: ;
