@@ -2418,7 +2418,7 @@
 }
 
 :root {
-	--bd-input__search: 3px;
+	--bd-input__search: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
