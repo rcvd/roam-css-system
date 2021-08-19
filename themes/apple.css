@@ -332,7 +332,7 @@
 
 :root {
 	--co-app__h1: ;
-	--ff-app__h1: 'SF Pro Text',sans-serif;;
+	--ff-app__h1: 'Inter',sans-serif;;
 	--ft-app__h1: ;
 	--fw-app__h1: ;
 }
@@ -1347,7 +1347,7 @@
 :root {
 	--br-datepicker__weeknumber: ;
 	--co-datepicker__weeknumber: ;
-	--ff-datepicker__weeknumber: 'SF Pro Text',sans-serif;;
+	--ff-datepicker__weeknumber: 'Inter',sans-serif;;
 	--fs-datepicker__weeknumber: 1rem;
 }
 
@@ -1366,7 +1366,7 @@
 	--bl-datepicker: 1px solid #c7c7c7;
 	--bd-datepicker: 5px;
 	--co-datepicker: #353535;
-	--ff-datepicker: 'SF Pro Text',sans-serif;;
+	--ff-datepicker: 'Inter',sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1439,7 +1439,7 @@
 }
 
 :root {
-	--ff-div: 'SF Pro Text',sans-serif;;
+	--ff-div: 'Inter',sans-serif;;
 	--fs-div: 1rem;
 }
 
@@ -1526,7 +1526,7 @@
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
 	--co-elevation__item: #353535;
-	--ff-elevation__item: 'SF Pro Text',sans-serif;;
+	--ff-elevation__item: 'Inter',sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1868,7 +1868,7 @@
 	--bl-emoji-mart: ;
 	--bd-emoji-mart: ;
 	--co-emoji-mart: ;
-	--ff-emoji-mart: 'SF Pro Text',sans-serif;;
+	--ff-emoji-mart: 'Inter',sans-serif;;
 	--fs-emoji-mart: 1rem;
 }
 
@@ -2444,7 +2444,7 @@
 
 :root {
 	--co-input__search-placeholder: #acacac;
-	--ff-input__search-placeholder: 'SF Pro Text',sans-serif;;
+	--ff-input__search-placeholder: 'Inter',sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2483,7 +2483,7 @@
 	--bd-input: 5px;
 	--sd-input: none;
 	--co-input: ;
-	--ff-input: 'SF Pro Text',sans-serif;;
+	--ff-input: 'Inter',sans-serif;;
 	--fs-input: 1rem;
 	--fw-input: ;
 }
@@ -2625,7 +2625,7 @@
 
 :root {
 	--co-left-sidebar__db-title: #272727;
-	--ff-left-sidebar__db-title: 'SF Pro Text',sans-serif;;
+	--ff-left-sidebar__db-title: 'Inter',sans-serif;;
 	--fs-left-sidebar__db-title: 1rem;
 	--fw-left-sidebar__db-title: ;
 	--tt-left-sidebar__db-title: ;
@@ -2709,7 +2709,7 @@
 :root {
 	--bb-level1: ;
 	--co-level1: #272727;
-	--ff-level1: 'SF Pro Text',sans-serif;;
+	--ff-level1: 'Inter',sans-serif;;
 	--fs-level1: 1.375rem;
 	--ft-level1: normal;
 	--fw-level1: 400;
@@ -2726,7 +2726,7 @@
 :root {
 	--bb-level2: ;
 	--co-level2: #272727;
-	--ff-level2: 'SF Pro Text',sans-serif;;
+	--ff-level2: 'Inter',sans-serif;;
 	--fs-level2: 1.25rem;
 	--ft-level2: normal;
 	--fw-level2: 400;
@@ -2743,7 +2743,7 @@
 :root {
 	--bb-level3: ;
 	--co-level3: #272727;
-	--ff-level3: 'SF Pro Text',sans-serif;;
+	--ff-level3: 'Inter',sans-serif;;
 	--fs-level3: 1.063rem;
 	--ft-level3: normal;
 	--fw-level3: 500;
@@ -2759,7 +2759,7 @@
 
 :root {
 	--co-log-page__h1: #bdbdbd;
-	--ff-log-page__h1: 'SF Pro Text',sans-serif;;
+	--ff-log-page__h1: 'Inter',sans-serif;;
 	--fs-log-page__h1: 1.25rem;
 	--ft-log-page__h1: normal;
 	--fw-log-page__h1: 400;
@@ -2815,7 +2815,7 @@
 
 :root {
 	--co-logbutton: #272727;
-	--ff-logbutton: 'SF Pro Text',sans-serif;;
+	--ff-logbutton: 'Inter',sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: ;
 	--tt-logbutton: ;
@@ -2839,7 +2839,7 @@
 
 :root {
 	--co-main: #272727;
-	--ff-main: 'SF Pro Text',sans-serif;;
+	--ff-main: 'Inter',sans-serif;;
 	--fs-main: 1rem;
 	--fw-main: ;
 }
@@ -3170,7 +3170,7 @@
 
 :root {
 	--co-page__title: #272727;
-	--ff-page__title: 'SF Pro Text',sans-serif;;
+	--ff-page__title: 'Inter',sans-serif;;
 	--fs-page__title: 1.375rem;
 	--ft-page__title: ;
 	--fw-page__title: 600;
@@ -3410,7 +3410,7 @@
 	--bb-quote: 2px solid #9a9a9b;
 	--bl-quote: 2px solid #9a9a9b;
 	--bd-quote: 15px;
-	--ff-quote: 'SF Pro Text',sans-serif;;
+	--ff-quote: 'Inter',sans-serif;;
 	--fs-quote: 1rem;
 	--ft-quote: ;
 	--fw-quote: ;
@@ -3471,7 +3471,7 @@
 :root {
 	--bb-reference__linked-title: ;
 	--co-reference__linked-title: #060606;
-	--ff-reference__linked-title: 'SF Pro Text',sans-serif;;
+	--ff-reference__linked-title: 'Inter',sans-serif;;
 	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: ;
 	--fw-reference__linked-title: ;
@@ -3531,7 +3531,7 @@
 :root {
 	--bb-reference__unlinked-title: ;
 	--co-reference__unlinked-title: #060606;
-	--ff-reference__unlinked-title: 'SF Pro Text',sans-serif;;
+	--ff-reference__unlinked-title: 'Inter',sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: ;
 	--fw-reference__unlinked-title: ;
@@ -4181,7 +4181,7 @@
 	--bb-starred__page: none;
 	--bl-starred__page: none;
 	--co-starred__page: #272727;
-	--ff-starred__page: 'SF Pro Text',sans-serif;;
+	--ff-starred__page: 'Inter',sans-serif;;
 	--fs-starred__page: 1rem;
 	--ft-starred__page: normal;
 	--fw-starred__page: 400;
@@ -4200,7 +4200,7 @@
 
 :root {
 	--co-starred__title: #b6b6b6;
-	--ff-starred__title: 'SF Pro Text',sans-serif;;
+	--ff-starred__title: 'Inter',sans-serif;;
 	--fs-starred__title: 0.8rem;
 	--ft-starred__title: normal;
 	--fw-starred__title: 500;
@@ -4272,7 +4272,7 @@
 	--bl-tags: none;
 	--bd-tags: 2px;
 	--co-tags: #353b48;
-	--ff-tags: 'SF Pro Text',sans-serif;;
+	--ff-tags: 'Inter',sans-serif;;
 	--fs-tags: 1rem;
 	--ft-tags: ;
 	--fw-tags: ;
@@ -4496,7 +4496,7 @@
 :root {
 	--br-topbar-datepicker__weeknumber: ;
 	--co-topbar-datepicker__weeknumber: ;
-	--ff-topbar-datepicker__weeknumber: 'SF Pro Text',sans-serif;;
+	--ff-topbar-datepicker__weeknumber: 'Inter',sans-serif;;
 	--fs-topbar-datepicker__weeknumber: 1rem;
 }
 
@@ -4515,7 +4515,7 @@
 	--bl-topbar-datepicker: 1px solid #c7c7c7;
 	--bd-topbar-datepicker: 5px;
 	--co-topbar-datepicker: #272727;
-	--ff-topbar-datepicker: 'SF Pro Text',sans-serif;;
+	--ff-topbar-datepicker: 'Inter',sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
