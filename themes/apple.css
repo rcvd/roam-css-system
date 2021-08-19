@@ -2077,7 +2077,7 @@
 }
 
 :root {
-	--fs-graph-dropdown__sign-out: 13px;
+	--fs-graph-dropdown__sign-out: 11px;
 	--fw-graph-dropdown__sign-out: ;
 	--op-graph-dropdown__sign-out: ;
 }
@@ -2089,7 +2089,7 @@
 
 :root {
 	--sd-graph-dropdown: none;
-	--fs-graph-dropdown: 11px;
+	--fs-graph-dropdown: 13px;
 	--fw-graph-dropdown: 400;
 }
 
