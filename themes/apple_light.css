@@ -1112,10 +1112,10 @@
 
 :root {
 	--bc-input--focus: ;
-	--bt-input--focus: 4px solid #c8c7c9;
-	--br-input--focus: 4px solid #c8c7c9;
-	--bb-input--focus: 4px solid #c8c7c9;
-	--bl-input--focus: 4px solid #c8c7c9;
+	--bt-input--focus: 4px solid #8db3fa;
+	--br-input--focus: 4px solid #8db3fa;
+	--bb-input--focus: 4px solid #8db3fa;
+	--bl-input--focus: 4px solid #8db3fa;
 	--bd-input--focus: 5px;
 	--sd-input--focus: none;
 }
