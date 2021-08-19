@@ -940,7 +940,7 @@
 }
 
 :root {
-	--fs-graph-dropdown__sign-out: ;
+	--fs-graph-dropdown__sign-out: 13px;
 	--fw-graph-dropdown__sign-out: ;
 	--op-graph-dropdown__sign-out: ;
 }
