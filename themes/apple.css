@@ -2042,7 +2042,7 @@
 
 :root {
 	--bc-graph-dropdown__setting--hover: #0064e0;
-	--co-graph-dropdown__setting--hover: #ffffff;
+	--co-graph-dropdown__setting--hover: #fff;
 }
 
 @media(prefers-color-scheme: dark) {
