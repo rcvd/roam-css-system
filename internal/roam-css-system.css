@@ -663,7 +663,7 @@ h3.bp3-heading {
 
 div, textarea {
 	font-family: 			var(--ff-div, 'Inter',sans-serif);
-	font-size: 				var(--fs-div, 1em);
+	font-size: 				var(--fs-div, 1rem);
 }
 
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .rm-dnd-separator .rm-dnd-drop-bar, .sidebar-content .rm-dnd-separator .rm-dnd-drop-bar, .dnd-separator .dnd-drop-bar,.kanban-column .rm-dnd-separator .rm-dnd-drop-area .rm-dnd-drop-bar {

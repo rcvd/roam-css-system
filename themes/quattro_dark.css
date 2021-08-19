@@ -107,7 +107,7 @@
 	--bd-allpages__input: 0px;
 	--sd-allpages__input: none;
 	--co-allpages__input: var(--cl-gray-100);
-	--fs-allpages__input: 1em;
+	--fs-allpages__input: 1rem;
 	--fw-allpages__input: normal;
 }
 
@@ -129,7 +129,7 @@
 	--bb-allpages__row-header: ;
 	--bd-allpages__row-header: 0px;
 	--co-allpages__row-header: var(--cl-gray-100);
-	--fs-allpages__row-header: 1em;
+	--fs-allpages__row-header: 1rem;
 	--fw-allpages__row-header: ;
 }
 
@@ -418,7 +418,7 @@
 	--bd-code: 2px;
 	--co-code: var(--cl-gray-100);
 	--ff-code: 'iA Writer Mono S';
-	--fs-code: 1em;
+	--fs-code: 1rem;
 }
 
 :root {
@@ -439,7 +439,7 @@
 
 :root {
 	--ff-codeblock__code: 'iA Writer Mono S';
-	--fs-codeblock__code: 1em;
+	--fs-codeblock__code: 1rem;
 }
 
 :root {
@@ -607,7 +607,7 @@
 	--br-datepicker__weeknumber: 1px solid var(--cl-gray-700);
 	--co-datepicker__weeknumber: var(--cl-gray-500);
 	--ff-datepicker__weeknumber: 'iA Writer Quattro S';
-	--fs-datepicker__weeknumber: 1em;
+	--fs-datepicker__weeknumber: 1rem;
 }
 
 :root {
@@ -651,7 +651,7 @@
 
 :root {
 	--ff-div: 'iA Writer Quattro S';
-	--fs-div: 1em;
+	--fs-div: 1rem;
 }
 
 :root {
@@ -851,7 +851,7 @@
 	--bd-emoji-mart: 0px;
 	--co-emoji-mart: var(--cl-gray-100);
 	--ff-emoji-mart: 'iA Writer Quattro S';
-	--fs-emoji-mart: 1em;
+	--fs-emoji-mart: 1rem;
 }
 
 :root {
@@ -892,7 +892,7 @@
 
 :root {
 	--co-find-or-create__search-list-item-title: var(--cl-gray-200);
-	--fs-find-or-create__search-list-item-title: 1em;
+	--fs-find-or-create__search-list-item-title: 1rem;
 }
 
 :root {
@@ -969,7 +969,7 @@
 
 :root {
 	--co-help__category-name: var(--cl-gray-300);
-	--fs-help__category-name: 1em;
+	--fs-help__category-name: 1rem;
 	--ft-help__category-name: normal;
 	--fw-help__category-name: normal;
 	--tt-help__category-name: uppercase;
@@ -982,7 +982,7 @@
 :root {
 	--bc-help__component-notation: var(--cl-gray-900);
 	--co-help__component-notation: var(--cl-gray-100);
-	--fs-help__component-notation: 1em;
+	--fs-help__component-notation: 1rem;
 }
 
 :root {
@@ -993,7 +993,7 @@
 
 :root {
 	--co-help__function-name: var(--cl-gray-100);
-	--fs-help__function-name: 1em;
+	--fs-help__function-name: 1rem;
 	--fw-help__function-name: 500;
 }
 
@@ -1038,7 +1038,7 @@
 
 :root {
 	--co-help__markdown-title: var(--cl-gray-100);
-	--fs-help__markdown-title: 1em;
+	--fs-help__markdown-title: 1rem;
 	--fw-help__markdown-title: 500;
 }
 
@@ -1048,7 +1048,7 @@
 
 :root {
 	--co-help__resource-description: var(--cl-gray-400);
-	--fs-help__resource-description: 1em;
+	--fs-help__resource-description: 1rem;
 	--fw-help__resource-description: normal;
 }
 
@@ -1059,7 +1059,7 @@
 
 :root {
 	--co-help__resource-title: var(--cl-gray-300);
-	--fs-help__resource-title: 1em;
+	--fs-help__resource-title: 1rem;
 	--fw-help__resource-title: bold;
 }
 
@@ -1133,7 +1133,7 @@
 	--sd-input: none;
 	--co-input: var(--cl-gray-100);
 	--ff-input: ;
-	--fs-input: 1em;
+	--fs-input: 1rem;
 	--fw-input: normal;
 }
 
@@ -1252,7 +1252,7 @@
 	--bb-level3: ;
 	--co-level3: ;
 	--ff-level3: 'iA Writer Quattro S';
-	--fs-level3: 1em;
+	--fs-level3: 1rem;
 	--ft-level3: ;
 	--fw-level3: 600;
 	--tt-level3: normal;
@@ -1288,7 +1288,7 @@
 :root {
 	--co-logbutton: var(--cl-gray-300);
 	--ff-logbutton: ;
-	--fs-logbutton: 1em;
+	--fs-logbutton: 1rem;
 	--fw-logbutton: normal;
 	--tt-logbutton: normal;
 }
@@ -1560,7 +1560,7 @@
 	--bl-quote: 1px solid var(--cl-gray-600);
 	--bd-quote: ;
 	--ff-quote: ;
-	--fs-quote: 1em;
+	--fs-quote: 1rem;
 	--ft-quote: ;
 	--fw-quote: ;
 }
@@ -1588,7 +1588,7 @@
 	--bb-reference__linked-title: ;
 	--co-reference__linked-title: var(--cl-gray-500);
 	--ff-reference__linked-title: ;
-	--fs-reference__linked-title: 1em;
+	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: italic;
 	--fw-reference__linked-title: normal;
 	--tt-reference__linked-title: ;
@@ -1618,7 +1618,7 @@
 	--bb-reference__unlinked-title: ;
 	--co-reference__unlinked-title: var(--cl-gray-500);
 	--ff-reference__unlinked-title: ;
-	--fs-reference__unlinked-title: 1em;
+	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: italic;
 	--fw-reference__unlinked-title: normal;
 	--tt-reference__unlinked-title: ;
@@ -1638,7 +1638,7 @@
 
 :root {
 	--co-right-sidebar__h1: ;
-	--fs-right-sidebar__h1: 1em;
+	--fs-right-sidebar__h1: 1rem;
 	--fw-right-sidebar__h1: 600;
 }
 
@@ -1921,7 +1921,7 @@
 	--bl-starred__page: ;
 	--co-starred__page: var(--cl-gray-300);
 	--ff-starred__page: ;
-	--fs-starred__page: 1em;
+	--fs-starred__page: 1rem;
 	--ft-starred__page: ;
 	--fw-starred__page: ;
 	--tt-starred__page: normal;
@@ -1930,7 +1930,7 @@
 :root {
 	--co-starred__title: var(--cl-gray-300);
 	--ff-starred__title: ;
-	--fs-starred__title: 1em;
+	--fs-starred__title: 1rem;
 	--ft-starred__title: ;
 	--fw-starred__title: ;
 	--tt-starred__title: ;
@@ -2068,7 +2068,7 @@
 	--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-700);
 	--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
 	--ff-topbar-datepicker__weeknumber: 'iA Writer Quattro S';
-	--fs-topbar-datepicker__weeknumber: 1em;
+	--fs-topbar-datepicker__weeknumber: 1rem;
 }
 
 :root {
