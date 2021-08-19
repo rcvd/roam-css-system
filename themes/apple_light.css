@@ -893,30 +893,30 @@
 }
 
 :root {
-	--co-graph-dropdown__a--hover: ;
+	--co-graph-dropdown__a--hover: #353535;
 	--td-graph-dropdown__a--hover: ;
 }
 
 :root {
-	--co-graph-dropdown__a: ;
+	--co-graph-dropdown__a: #353535;
 	--td-graph-dropdown__a: ;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon--hover: ;
+	--co-graph-dropdown__expand-icon--hover: #353535;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon: ;
+	--co-graph-dropdown__expand-icon: #353535;
 }
 
 :root {
-	--co-graph-dropdown__menu-item: ;
+	--co-graph-dropdown__menu-item: #353535;
 	--td-graph-dropdown__menu-item: ;
 }
 
 :root {
-	--co-graph-dropdown__menu-title: #d0d0d0;
+	--co-graph-dropdown__menu-title: #b6b6b6;
 	--fs-graph-dropdown__menu-title: 11px;
 	--ft-graph-dropdown__menu-title: ;
 	--fw-graph-dropdown__menu-title: ;
@@ -930,7 +930,7 @@
 
 :root {
 	--bc-graph-dropdown__setting: transparent;
-	--co-graph-dropdown__setting: #232323;
+	--co-graph-dropdown__setting: #353535;
 	--fs-graph-dropdown__setting: 13px;
 }
 
