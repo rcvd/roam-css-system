@@ -1433,7 +1433,7 @@
 
 :root {
 	--co-page__link--hover: ;
-	--td-page__link--hover: underline;
+	--td-page__link--hover: none;
 }
 
 :root {

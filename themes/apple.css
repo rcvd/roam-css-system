@@ -3121,7 +3121,7 @@
 }
 
 :root {
-	--br-multibar--hover: 1px solid #dddede;
+	--br-multibar--hover: 3px solid #dddede;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3142,7 +3142,7 @@
 
 :root {
 	--co-page__link--hover: #06c;
-	--td-page__link--hover: underline;
+	--td-page__link--hover: none;
 }
 
 @media(prefers-color-scheme: dark) {
