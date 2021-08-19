@@ -2608,7 +2608,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #595a59;
+	--co-left-sidebar__db-title--hover: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2618,7 +2618,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title: #595a59;
+	--co-left-sidebar__db-title: #353535;
 	--ff-left-sidebar__db-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 13px;
 	--fw-left-sidebar__db-title: ;
@@ -2792,7 +2792,7 @@
 	--br-logbutton--hover: ;
 	--bb-logbutton--hover: ;
 	--bl-logbutton--hover: ;
-	--co-logbutton--hover: #595a59;
+	--co-logbutton--hover: #353535;
 	--td-logbutton--hover: ;
 }
 
@@ -2808,7 +2808,7 @@
 }
 
 :root {
-	--co-logbutton: #595a59;
+	--co-logbutton: #353535;
 	--ff-logbutton: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 13px;
 	--fw-logbutton: ;
@@ -4154,7 +4154,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #595a59;
+	--co-starred__page--hover: #353535;
 	--td-starred__page--hover: none;
 }
 
@@ -4174,7 +4174,7 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: #595a59;
+	--co-starred__page: #353535;
 	--ff-starred__page: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 13px;
 	--ft-starred__page: normal;
@@ -4193,7 +4193,7 @@
 }
 
 :root {
-	--co-starred__title: #b6b6b6;
+	--co-starred__title: #838488;
 	--ff-starred__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__title: 11px;
 	--ft-starred__title: normal;
