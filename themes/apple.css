@@ -566,7 +566,7 @@
 }
 
 :root {
-	--co-button__icon--hover: #6b6b6a;
+	--co-button__icon--hover: #838488;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -576,7 +576,7 @@
 }
 
 :root {
-	--co-button__icon: #6b6b6a;
+	--co-button__icon: #838488;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2424,7 +2424,7 @@
 }
 
 :root {
-	--co-input__search-icon: #565656;
+	--co-input__search-icon: #838488;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2466,11 +2466,11 @@
 }
 
 :root {
-	--bc-input: #f6f6f6;
-	--bt-input: 1px solid #e9e9e9;
-	--br-input: 1px solid #e9e9e9;
-	--bb-input: 1px solid #e9e9e9;
-	--bl-input: 1px solid #e9e9e9;
+	--bc-input: #ffffff;
+	--bt-input: 1px solid #f2f2f2;
+	--br-input: 1px solid #f2f2f2;
+	--bb-input: 1px solid #f2f2f2;
+	--bl-input: 1px solid #f2f2f2;
 	--bd-input: 5px;
 	--sd-input: none;
 	--co-input: ;
@@ -3315,11 +3315,11 @@
 }
 
 :root {
-	--bc-popover__content: ;
-	--bt-popover__content: 1px solid #c4c4c4;
-	--br-popover__content: 1px solid #c4c4c4;
-	--bb-popover__content: 1px solid #c4c4c4;
-	--bl-popover__content: 1px solid #c4c4c4;
+	--bc-popover__content: #ececec;
+	--bt-popover__content: 1px solid #c9c9c9;
+	--br-popover__content: 1px solid #c9c9c9;
+	--bb-popover__content: 1px solid #c9c9c9;
+	--bl-popover__content: 1px solid #c9c9c9;
 	--bd-popover__content: 5px;
 	--co-popover__content: ;
 }
