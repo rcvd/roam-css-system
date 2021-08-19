@@ -4199,9 +4199,9 @@
 }
 
 :root {
-	--co-starred__title: #737373;
+	--co-starred__title: #b6b6b6;
 	--ff-starred__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-starred__title: 0.9rem;
+	--fs-starred__title: 0.8rem;
 	--ft-starred__title: normal;
 	--fw-starred__title: 500;
 	--tt-starred__title: capitalize;
