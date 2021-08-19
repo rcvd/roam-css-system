@@ -20,12 +20,12 @@ body, input, textarea, select, button {
 }
 
 div {
-    line-height: 16px;
+    line-height: 17px;
     letter-spacing: -0.08px;
 }
 
 textarea {
-    line-height: 16px;
+    line-height: 17px;
 }
 
 /* Fix bullet position */
