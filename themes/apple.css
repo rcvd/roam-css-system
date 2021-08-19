@@ -2055,6 +2055,7 @@
 :root {
 	--bc-graph-dropdown__setting: transparent;
 	--co-graph-dropdown__setting: #232323;
+	--fs-graph-dropdown__setting: 13px;
 }
 
 @media(prefers-color-scheme: dark) {

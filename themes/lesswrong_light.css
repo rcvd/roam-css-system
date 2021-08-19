@@ -931,6 +931,7 @@
 :root {
 	--bc-graph-dropdown__setting: var(--cl-gray-100);
 	--co-graph-dropdown__setting: var(--cl-gray-700);
+	--fs-graph-dropdown__setting: ;
 }
 
 :root {
