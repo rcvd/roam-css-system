@@ -1070,10 +1070,10 @@
 }
 
 :root {
-	--bt-hr: ;
-	--br-hr: ;
-	--bb-hr: ;
-	--bl-hr: ;
+	--bt-hr: 1px solid #e8e8eb;
+	--br-hr: none;
+	--bb-hr: 1px solid #e8e8eb;
+	--bl-hr: none;
 }
 
 :root {
