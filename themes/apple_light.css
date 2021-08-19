@@ -203,18 +203,18 @@
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #dddede;
-	--br-bullet__closed: 4px solid #dddede;
-	--bb-bullet__closed: 4px solid #dddede;
-	--bl-bullet__closed: 4px solid #dddede;
+	--bt-bullet__closed: 4px solid #484848;
+	--br-bullet__closed: 4px solid #484848;
+	--bb-bullet__closed: 4px solid #484848;
+	--bl-bullet__closed: 4px solid #484848;
 }
 
 :root {
-	--bc-bullet__ghost: #dddede;
+	--bc-bullet__ghost: #484848;
 }
 
 :root {
-	--bc-bullet__inner: #dddede;
+	--bc-bullet__inner: #484848;
 }
 
 :root {
@@ -380,7 +380,7 @@
 }
 
 :root {
-	--co-caret: ;
+	--co-caret: #838488;
 }
 
 :root {
