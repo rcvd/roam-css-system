@@ -6,18 +6,22 @@ body, input, textarea, select, button {
 
 .level1 {
     line-height: 26px;
+    letter-spacing: 0.22px;
 }
 
 .level2 {
     line-height: 22px;
+    letter-spacing: -0.26px;
 }
 
 .level3 {
     line-height: 20px;
+    letter-spacing: -0.45px;
 }
 
 div {
     line-height: 16px;
+    letter-spacing: -0.08px;
 }
 
 /* Fix bullet position */
