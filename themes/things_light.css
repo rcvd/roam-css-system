@@ -179,14 +179,17 @@
 
 :root {
 	--bc-block-highlight--blue: #c9e2ff;
+	--co-block-highlight--blue: ;
 }
 
 :root {
 	--bc-block-highlight--grey: #f5f6f8;
+	--co-block-highlight--grey: ;
 }
 
 :root {
 	--bc-block-highlight--yellow: #f7e594;
+	--co-block-highlight--yellow: ;
 }
 
 :root {

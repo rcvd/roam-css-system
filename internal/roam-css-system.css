@@ -175,14 +175,17 @@ a {
 
 .block-highlight-blue {
 	background-color: 		var(--bc-block-highlight--blue, #7cccff);
+	color: 					var(--co-block-highlight--blue, #202B33)!important;
 }
 
 .block-highlight-grey {
 	background-color: 		var(--bc-block-highlight--grey, #CED9E0);
+	color: 					var(--co-block-highlight--grey, #202B33)!important;
 }
 
 .block-highlight-yellow {
 	background-color: 		var(--bc-block-highlight--yellow, yellow);
+	color: 					var(--co-block-highlight--yellow, #202B33)!important;
 }
 
 .rm-block-ref:hover {

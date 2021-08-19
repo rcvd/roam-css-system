@@ -379,31 +379,37 @@
 
 :root {
 	--bc-block-highlight--blue: #0064e1;
+	--co-block-highlight--blue: #fff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-block-highlight--blue: ;
+		--co-block-highlight--blue: ;
 	}
 }
 
 :root {
 	--bc-block-highlight--grey: #0064e1;
+	--co-block-highlight--grey: #fff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-block-highlight--grey: ;
+		--co-block-highlight--grey: ;
 	}
 }
 
 :root {
 	--bc-block-highlight--yellow: #ffcc02;
+	--co-block-highlight--yellow: #272727;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-block-highlight--yellow: ;
+		--co-block-highlight--yellow: ;
 	}
 }
 
