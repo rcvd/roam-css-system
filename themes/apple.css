@@ -2650,7 +2650,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon: #007cff;
+	--co-left-sidebar__icon: #86868b;
 	--fs-left-sidebar__icon: ;
 }
 
@@ -3142,7 +3142,7 @@
 
 :root {
 	--co-page__link--hover: #06c;
-	--td-page__link--hover: none;
+	--td-page__link--hover: underline;
 }
 
 @media(prefers-color-scheme: dark) {
