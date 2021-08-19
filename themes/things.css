@@ -2089,6 +2089,8 @@
 
 :root {
 	--sd-graph-dropdown: none;
+	--fs-graph-dropdown: ;
+	--fw-graph-dropdown: ;
 }
 
 @media(prefers-color-scheme: dark) {

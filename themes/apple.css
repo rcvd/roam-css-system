@@ -1923,7 +1923,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #232323;
+	--co-find-or-create__new-page--selected: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1933,7 +1933,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page: #232323;
+	--co-find-or-create__new-page: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1943,7 +1943,7 @@
 }
 
 :root {
-	--co-find-or-create__recent: #232323;
+	--co-find-or-create__recent: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1953,7 +1953,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item: #232323;
+	--co-find-or-create__search-list-item: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1963,7 +1963,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item-title: #232323;
+	--co-find-or-create__search-list-item-title: #353535;
 	--fs-find-or-create__search-list-item-title: 13px;
 }
 
@@ -2089,6 +2089,8 @@
 
 :root {
 	--sd-graph-dropdown: none;
+	--fs-graph-dropdown: 13px;
+	--fw-graph-dropdown: 400;
 }
 
 @media(prefers-color-scheme: dark) {

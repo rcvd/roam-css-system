@@ -961,6 +961,8 @@ div, textarea {
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
 	box-shadow: 			var(--sd-graph-dropdown, 0 0 4px #BFCCD6);
 	--webkit-box-shadow: 	var(--sd-graph-dropdown, 0 0 4px #BFCCD6);
+	font-size: 				var(--fs-graph-dropdown, inherit);
+	font-weight: 			var(--fw-graph-dropdown, inherit);
 }
 
 .rm-help-results .rm-help-categories .rm-help-category-menu-item:hover {

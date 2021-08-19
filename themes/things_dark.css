@@ -947,6 +947,8 @@
 
 :root {
 	--sd-graph-dropdown: none;
+	--fs-graph-dropdown: ;
+	--fw-graph-dropdown: ;
 }
 
 :root {
