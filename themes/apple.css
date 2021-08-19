@@ -1453,11 +1453,11 @@
 }
 
 :root {
-	--bc-elevation__container: #ececec;
-	--bt-elevation__container: 1px solid #cacaca;
-	--br-elevation__container: 1px solid #cacaca;
-	--bb-elevation__container: 1px solid #cacaca;
-	--bl-elevation__container: 1px solid #cacaca;
+	--bc-elevation__container: #eaeaea;
+	--bt-elevation__container: 1px solid #c7c7c7;
+	--br-elevation__container: 1px solid #c7c7c7;
+	--bb-elevation__container: 1px solid #c7c7c7;
+	--bl-elevation__container: 1px solid #c7c7c7;
 	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
@@ -3061,11 +3061,11 @@
 }
 
 :root {
-	--bc-menu: #ececec;
-	--bt-menu: 1px solid #cacaca;
-	--br-menu: 1px solid #cacaca;
-	--bb-menu: 1px solid #cacaca;
-	--bl-menu: 1px solid #cacaca;
+	--bc-menu: #eaeaea;
+	--bt-menu: 1px solid #c7c7c7;
+	--br-menu: 1px solid #c7c7c7;
+	--bb-menu: 1px solid #c7c7c7;
+	--bl-menu: 1px solid #c7c7c7;
 	--bd-menu: 5px;
 	--co-menu: rgb(29,29,31);
 }
@@ -3318,7 +3318,7 @@
 }
 
 :root {
-	--bc-popover__content: #ececec;
+	--bc-popover__content: #eaeaea;
 	--bt-popover__content: none;
 	--br-popover__content: none;
 	--bb-popover__content: none;
@@ -4502,7 +4502,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker: #eff0f0;
+	--bc-topbar-datepicker: #eaeaea;
 	--bt-topbar-datepicker: 1px solid #c7c7c7;
 	--br-topbar-datepicker: 1px solid #c7c7c7;
 	--bb-topbar-datepicker: 1px solid #c7c7c7;
