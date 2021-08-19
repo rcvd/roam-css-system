@@ -189,6 +189,11 @@ textarea {
     overflow: auto;
 }
 
+/* Remove popover arrows */
+.bp3-popover-arrow {
+    display: none;
+}
+
 /* Remove gradient from all pages checkboxes */
 .rm-all-pages .bp3-control .bp3-control-indicator {
     background-image: none;
