@@ -946,7 +946,7 @@
 }
 
 :root {
-	--sd-graph-dropdown: ;
+	--sd-graph-dropdown: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
