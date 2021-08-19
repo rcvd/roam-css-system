@@ -92,6 +92,10 @@ div {
     margin-left: 16px;
 }
 
+.rm-caret {
+    padding-top:  1px;
+}
+
 /* Align caret for linked references */
 .rm-reference-container>.flex-h-box {
     align-items: center;
