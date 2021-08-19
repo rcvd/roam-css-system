@@ -947,7 +947,7 @@ div, textarea {
 	font-size: 				var(--fs-graph-dropdown__setting, inherit);
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content a:hover .icon.settings {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .bp3-menu-item:hover .icon.settings {
 	color: 					var(--co-graph-dropdown__setting-icon--hover, inherit);
 	text-decoration: 		var(--td-graph-dropdown__setting-icon--hover, inherit);
 }

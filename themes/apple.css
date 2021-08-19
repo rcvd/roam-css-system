@@ -1519,7 +1519,7 @@
 	--br-elevation__item: none;
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
-	--co-elevation__item: #262626;
+	--co-elevation__item: #353535;
 	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
@@ -1544,7 +1544,7 @@
 }
 
 :root {
-	--co-elevation__item-icon: #262626;
+	--co-elevation__item-icon: #353535;
 }
 
 @media(prefers-color-scheme: dark) {
