@@ -352,7 +352,7 @@
 	--bc-button: ;
 	--sd-button: ;
 	--co-button: ;
-	--ff-button: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-button: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 }
 
 :root {
@@ -414,7 +414,7 @@
 	--bl-code: ;
 	--bd-code: ;
 	--co-code: ;
-	--ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-code: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-code: 13px;
 }
 
@@ -435,7 +435,7 @@
 }
 
 :root {
-	--ff-codeblock__code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-codeblock__code: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-codeblock__code: 13px;
 }
 
@@ -444,12 +444,12 @@
 }
 
 :root {
-	--bc-codeblock__container: #fff;
-	--bt-codeblock__container: 1px solid #e6e6e6;
-	--br-codeblock__container: 1px solid #e6e6e6;
-	--bb-codeblock__container: 1px solid #e6e6e6;
-	--bl-codeblock__container: 1px solid #e6e6e6;
-	--bd-codeblock__container: 5px;
+	--bc-codeblock__container: #f5f5f7;
+	--bt-codeblock__container: none;
+	--br-codeblock__container: none;
+	--bb-codeblock__container: none;
+	--bl-codeblock__container: none;
+	--bd-codeblock__container: 15px;
 	--co-codeblock__container: #262626;
 }
 
@@ -467,16 +467,16 @@
 }
 
 :root {
-	--bc-codeblock__gutters: #fff;
-	--bt-codeblock__gutters: 1px solid #e6e6e6;
-	--br-codeblock__gutters: 1px solid #e6e6e6;
-	--bb-codeblock__gutters: 1px solid #e6e6e6;
-	--bl-codeblock__gutters: 1px solid #e6e6e6;
-	--bd-codeblock__gutters: 5px;
+	--bc-codeblock__gutters: #f5f5f7;
+	--bt-codeblock__gutters: none;
+	--br-codeblock__gutters: none;
+	--bb-codeblock__gutters: none;
+	--bl-codeblock__gutters: none;
+	--bd-codeblock__gutters: 15px;
 }
 
 :root {
-	--ff-codeblock__gutter: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-codeblock__gutter: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-codeblock__gutter: 13px;
 	--ft-codeblock__gutter: ;
 	--fw-codeblock__gutter: ;

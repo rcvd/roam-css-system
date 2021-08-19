@@ -352,7 +352,7 @@
 	--bc-button: ;
 	--sd-button: ;
 	--co-button: ;
-	--ff-button: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-button: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 }
 
 :root {
@@ -414,7 +414,7 @@
 	--bl-code: ;
 	--bd-code: ;
 	--co-code: ;
-	--ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-code: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-code: 13px;
 }
 
@@ -435,7 +435,7 @@
 }
 
 :root {
-	--ff-codeblock__code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-codeblock__code: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-codeblock__code: 13px;
 }
 
@@ -449,7 +449,7 @@
 	--br-codeblock__container: ;
 	--bb-codeblock__container: ;
 	--bl-codeblock__container: ;
-	--bd-codeblock__container: 5px;
+	--bd-codeblock__container: 15px;
 	--co-codeblock__container: ;
 }
 
@@ -472,11 +472,11 @@
 	--br-codeblock__gutters: ;
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
-	--bd-codeblock__gutters: 5px;
+	--bd-codeblock__gutters: 15px;
 }
 
 :root {
-	--ff-codeblock__gutter: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-codeblock__gutter: SF Mono,SFMono-Regular,ui-monospace,Menlo,monospace;
 	--fs-codeblock__gutter: 13px;
 	--ft-codeblock__gutter: ;
 	--fw-codeblock__gutter: ;
