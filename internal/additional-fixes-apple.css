@@ -124,8 +124,8 @@ textarea {
 
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
-    --webkit-filter: brightness(65%);
-    filter: brightness(65%);
+    --webkit-filter: brightness(15%);
+    filter: brightness(15%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -187,11 +187,6 @@ textarea {
 /* Fix table scrolling for Safari */
 .roam-table td {
     overflow: auto;
-}
-
-/* Remove popover arrows */
-.bp3-popover-arrow {
-    display: none;
 }
 
 /* Remove gradient from all pages checkboxes */
