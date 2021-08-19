@@ -2361,7 +2361,7 @@
 :root {
 	--bt-hr: 1px solid #e8e8eb;
 	--br-hr: none;
-	--bb-hr: 1px solid #e8e8eb;
+	--bb-hr: none;
 	--bl-hr: none;
 }
 
