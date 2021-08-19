@@ -5,7 +5,7 @@
 
 
 :root {
-	--co-a--hover: #2073dd;
+	--co-a--hover: #06c;
 	--td-a--hover: underline;
 }
 
@@ -16,7 +16,7 @@
 }
 
 :root {
-	--co-a: #2073dd;
+	--co-a: #06c;
 	--td-a: underline;
 }
 
@@ -3141,7 +3141,7 @@
 }
 
 :root {
-	--co-page__link--hover: #2073dd;
+	--co-page__link--hover: #06c;
 	--td-page__link--hover: none;
 }
 
@@ -3152,7 +3152,7 @@
 }
 
 :root {
-	--co-page__link: #2073dd;
+	--co-page__link: #06c;
 	--td-page__link: none;
 }
 
