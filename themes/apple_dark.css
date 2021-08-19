@@ -1635,7 +1635,7 @@
 
 :root {
 	--co-right-sidebar__h1: ;
-	--fs-right-sidebar__h1: ;
+	--fs-right-sidebar__h1: 17px;
 	--fw-right-sidebar__h1: ;
 }
 
