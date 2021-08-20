@@ -83,27 +83,27 @@
 
 :root {
 	--bc-allpages__clickable-pill-empty: transparent;
-	--bt-allpages__clickable-pill-empty: ;
-	--br-allpages__clickable-pill-empty: ;
-	--bb-allpages__clickable-pill-empty: ;
-	--bl-allpages__clickable-pill-empty: ;
+	--bt-allpages__clickable-pill-empty: none;
+	--br-allpages__clickable-pill-empty: none;
+	--bb-allpages__clickable-pill-empty: none;
+	--bl-allpages__clickable-pill-empty: none;
 	--co-allpages__clickable-pill-empty: #a7abb1;
 	--op-allpages__clickable-pill-empty: ;
 }
 
 :root {
-	--bt-allpages__input--focused: ;
-	--br-allpages__input--focused: ;
-	--bb-allpages__input--focused: ;
-	--bl-allpages__input--focused: ;
+	--bt-allpages__input--focused: none;
+	--br-allpages__input--focused: none;
+	--bb-allpages__input--focused: none;
+	--bl-allpages__input--focused: none;
 }
 
 :root {
 	--bc-allpages__input: ;
-	--bt-allpages__input: ;
-	--br-allpages__input: ;
-	--bb-allpages__input: ;
-	--bl-allpages__input: ;
+	--bt-allpages__input: none;
+	--br-allpages__input: none;
+	--bb-allpages__input: none;
+	--bl-allpages__input: none;
 	--bd-allpages__input: 0px;
 	--sd-allpages__input: none;
 	--co-allpages__input: #202227;
