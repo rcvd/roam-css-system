@@ -359,7 +359,7 @@ a {
 	color: 					var(--co-button--hover, inherit);
 }
 
-.bp3-button:not([class*='bp3-intent-']), {
+.bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-button, #f5f8fa);
 	box-shadow: 			var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
 	--webkit-box-shadow: 	var(--sd-button, inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1));
