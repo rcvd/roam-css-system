@@ -1979,13 +1979,13 @@
 }
 
 :root {
-	--bc-tooltip: ;
+	--bc-tooltip: var(--cl-black);
 	--bt-tooltip: ;
 	--br-tooltip: ;
 	--bb-tooltip: ;
 	--bl-tooltip: ;
 	--bd-tooltip: ;
-	--co-tooltip: ;
+	--co-tooltip: var(--cl-gray-100);
 }
 
 :root {
