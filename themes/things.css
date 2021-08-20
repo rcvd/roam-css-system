@@ -823,12 +823,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-card: var(--cl-black);
-		--bt-card: ;
-		--br-card: ;
-		--bb-card: ;
-		--bl-card: ;
-		--sd-card: none;
+		--bc-card: #1c1c1c;
+		--bt-card: 1px solid #161616;
+		--br-card: 1px solid #161616;
+		--bb-card: 1px solid #161616;
+		--bl-card: 1px solid #161616;
+		--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.1);
 	}
 }
 
@@ -852,8 +852,8 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bt-checkmark__mark--checked: 0px;
-		--br-checkmark__mark--checked: 2px solid var(--cl-white);
-		--bb-checkmark__mark--checked: 2px solid var(--cl-white);
+		--br-checkmark__mark--checked: 2px solid #262626;
+		--bb-checkmark__mark--checked: 2px solid #262626;
 		--bl-checkmark__mark--checked: 0px;
 	}
 }
@@ -868,7 +868,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-checkmark--checked: #4e94f7;
+		--bc-checkmark--checked: #64a6f5;
 		--bt-checkmark--checked: ;
 		--br-checkmark--checked: ;
 		--bb-checkmark--checked: ;
@@ -886,10 +886,10 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-checkmark: 1px solid #737372;
-		--br-checkmark: 1px solid #737372;
-		--bb-checkmark: 1px solid #737372;
-		--bl-checkmark: 1px solid #737372;
+		--bt-checkmark: 1px solid #6e6e6e;
+		--br-checkmark: 1px solid #6e6e6e;
+		--bb-checkmark: 1px solid #6e6e6e;
+		--bl-checkmark: 1px solid #6e6e6e;
 	}
 }
 
@@ -907,12 +907,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-code: var(--cl-gray-800);
-		--bt-code: 1px solid var(--cl-gray-700);
-		--br-code: 1px solid var(--cl-gray-700);
-		--bb-code: 1px solid var(--cl-gray-700);
-		--bl-code: 1px solid var(--cl-gray-700);
-		--co-code: var(--cl-gray-100);
+		--bc-code: #222222;
+		--bt-code: 1px solid #151515;
+		--br-code: 1px solid #151515;
+		--bb-code: 1px solid #151515;
+		--bl-code: 1px solid #151515;
+		--co-code: #ffffff;
 	}
 }
 
@@ -988,7 +988,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-codeblock__container: var(--cl-black);
+		--bc-codeblock__container: #222222;
 		--bt-codeblock__container: ;
 		--br-codeblock__container: none;
 		--bb-codeblock__container: ;
@@ -1040,7 +1040,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-codeblock__gutters: var(--cl-black);
+		--bc-codeblock__gutters: #222222;
 		--bt-codeblock__gutters: ;
 		--br-codeblock__gutters: none;
 		--bb-codeblock__gutters: ;
@@ -1166,7 +1166,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-codeblock__selected--focused: var(--cl-gray-700);
+		--bc-codeblock__selected--focused: #2260ae;
 	}
 }
 
@@ -1176,7 +1176,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-codeblock__selected: var(--cl-gray-700);
+		--bc-codeblock__selected: #585958;
 	}
 }
 
@@ -1309,7 +1309,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-datepicker__select--hover: #67acfe;
-		--co-datepicker__select--hover: var(--cl-white);
+		--co-datepicker__select--hover: #fbfdfd;
 	}
 }
 
@@ -1319,7 +1319,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-datepicker__select: var(--cl-white);
+		--co-datepicker__select: #fbfdfd;
 	}
 }
 
@@ -1329,7 +1329,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-datepicker__select-icon: var(--cl-gray-500);
+		--co-datepicker__select-icon: #fbfdfd;
 	}
 }
 
@@ -1340,7 +1340,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-datepicker__today: var(--cl-green-500);
+		--co-datepicker__today: #fbfbfb;
 	}
 }
 
@@ -1354,7 +1354,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--br-datepicker__weeknumber: 1px solid var(--cl-gray-700);
-		--co-datepicker__weeknumber: var(--cl-gray-500);
+		--co-datepicker__weeknumber: #939393;
 	}
 }
 
@@ -1371,12 +1371,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-datepicker: #2b2a29;
-		--bt-datepicker: 1px solid #3c3b3a;
-		--br-datepicker: 1px solid #3c3b3a;
-		--bb-datepicker: 1px solid #3c3b3a;
-		--bl-datepicker: 1px solid #3c3b3a;
-		--co-datepicker: ;
+		--bc-datepicker: #262626;
+		--bt-datepicker: 1px solid #373737;
+		--br-datepicker: 1px solid #373737;
+		--bb-datepicker: 1px solid #373737;
+		--bl-datepicker: 1px solid #373737;
+		--co-datepicker: #fbfbfb;
 	}
 }
 
