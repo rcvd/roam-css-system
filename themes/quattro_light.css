@@ -586,6 +586,10 @@
 }
 
 :root {
+	--bc-datepicker__outside--hover: ;
+}
+
+:root {
 	--bc-datepicker__select--hover: var(--cl-gray-200);
 	--co-datepicker__select--hover: var(--cl-black);
 }
@@ -601,6 +605,10 @@
 :root {
 	--co-datepicker__today: var(--cl-red-500);
 	--fw-datepicker__today: bold;
+}
+
+:root {
+	--co-datepicker__weekdays: ;
 }
 
 :root {

@@ -595,6 +595,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-datepicker__nav-button, #5c7080);
 }
 
+.bp3-datepicker .DayPicker-Day.DayPicker-Day--outside:hover {
+	background-color: 		var(--bc-datepicker__outside--hover, white);
+}
+
 .bp3-datepicker .bp3-html-select.bp3-minimal select:hover, .bp3-datepicker  .bp3-select.bp3-minimal select:hover {
 	background-color: 		var(--bc-datepicker__select--hover, rgba(167,182,194,0.3));
 	color: 					var(--co-datepicker__select--hover, #182026);
@@ -611,6 +615,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
 	color: 					var(--co-datepicker__today, #137CBD);
 	font-weight: 			var(--fw-datepicker__today, bold);
+}
+
+.bp3-datepicker .DayPicker-WeekdaysRow {
+	color: 					var(--co-datepicker__weekdays, inherit);
 }
 
 .rm-jump-date-picker .DayPicker-WeekNumber {

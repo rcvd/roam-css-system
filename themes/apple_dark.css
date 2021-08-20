@@ -586,6 +586,10 @@
 }
 
 :root {
+	--bc-datepicker__outside--hover: ;
+}
+
+:root {
 	--bc-datepicker__select--hover: ;
 	--co-datepicker__select--hover: ;
 }
@@ -601,6 +605,10 @@
 :root {
 	--co-datepicker__today: ;
 	--fw-datepicker__today: ;
+}
+
+:root {
+	--co-datepicker__weekdays: ;
 }
 
 :root {
