@@ -718,7 +718,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__minimal--active: #1574d8;
+		--bc-button__minimal--active: transparent;
 		--sd-button__minimal--active: none;
 		--co-button__minimal--active: #dfeaf9;
 	}
