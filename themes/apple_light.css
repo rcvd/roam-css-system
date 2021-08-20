@@ -452,7 +452,7 @@
 	--br-codeblock__container: none;
 	--bb-codeblock__container: none;
 	--bl-codeblock__container: none;
-	--bd-codeblock__container: 15px;
+	--bd-codeblock__container: 10px;
 	--co-codeblock__container: #272727;
 }
 
@@ -475,7 +475,7 @@
 	--br-codeblock__gutters: none;
 	--bb-codeblock__gutters: none;
 	--bl-codeblock__gutters: none;
-	--bd-codeblock__gutters: 15px;
+	--bd-codeblock__gutters: 10px;
 }
 
 :root {
