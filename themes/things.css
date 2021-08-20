@@ -2006,7 +2006,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__a--hover: var(--cl-gray-700);
+		--co-graph-dropdown__a--hover: #ebebeb;
 	}
 }
 
@@ -2017,7 +2017,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__a: var(--cl-gray-100);
+		--co-graph-dropdown__a: #ebebeb;
 	}
 }
 
@@ -2027,7 +2027,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__expand-icon--hover: var(--cl-green-500);
+		--co-graph-dropdown__expand-icon--hover: #dfeaf9;
 	}
 }
 
@@ -2037,7 +2037,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__expand-icon: var(--cl-gray-500);
+		--co-graph-dropdown__expand-icon: #dfeaf9;
 	}
 }
 
@@ -2048,7 +2048,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__menu-item: var(--cl-gray-100);
+		--co-graph-dropdown__menu-item: #ebebeb;
 	}
 }
 
@@ -2062,7 +2062,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__menu-title: var(--cl-gray-500);
+		--co-graph-dropdown__menu-title: #ebebeb;
 	}
 }
 
@@ -2073,8 +2073,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-graph-dropdown__setting--hover: var(--cl-gray-500);
-		--co-graph-dropdown__setting--hover: var(--cl-white);
+		--bc-graph-dropdown__setting--hover: #266bbd;
+		--co-graph-dropdown__setting--hover: #ebebeb;
 	}
 }
 
@@ -2086,8 +2086,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-graph-dropdown__setting: var(--cl-gray-800);
-		--co-graph-dropdown__setting: ;
+		--bc-graph-dropdown__setting: transparent;
+		--co-graph-dropdown__setting: #dfeaf9;
 	}
 }
 
@@ -2098,7 +2098,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__setting-icon--hover: ;
+		--co-graph-dropdown__setting-icon--hover: #ebebeb;
 	}
 }
 
@@ -2374,7 +2374,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-highlight: #524c2e;
+		--bc-highlight: #4f482b;
 	}
 }
 

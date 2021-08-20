@@ -904,30 +904,30 @@
 }
 
 :root {
-	--co-graph-dropdown__a--hover: var(--cl-gray-700);
+	--co-graph-dropdown__a--hover: #ebebeb;
 	--td-graph-dropdown__a--hover: ;
 }
 
 :root {
-	--co-graph-dropdown__a: var(--cl-gray-100);
+	--co-graph-dropdown__a: #ebebeb;
 	--td-graph-dropdown__a: none;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon--hover: var(--cl-green-500);
+	--co-graph-dropdown__expand-icon--hover: #dfeaf9;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon: var(--cl-gray-500);
+	--co-graph-dropdown__expand-icon: #dfeaf9;
 }
 
 :root {
-	--co-graph-dropdown__menu-item: var(--cl-gray-100);
+	--co-graph-dropdown__menu-item: #ebebeb;
 	--td-graph-dropdown__menu-item: none;
 }
 
 :root {
-	--co-graph-dropdown__menu-title: var(--cl-gray-500);
+	--co-graph-dropdown__menu-title: #ebebeb;
 	--fs-graph-dropdown__menu-title: 12px;
 	--ft-graph-dropdown__menu-title: normal;
 	--fw-graph-dropdown__menu-title: normal;
@@ -935,18 +935,18 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: var(--cl-gray-500);
-	--co-graph-dropdown__setting--hover: var(--cl-white);
+	--bc-graph-dropdown__setting--hover: #266bbd;
+	--co-graph-dropdown__setting--hover: #ebebeb;
 }
 
 :root {
-	--bc-graph-dropdown__setting: var(--cl-gray-800);
-	--co-graph-dropdown__setting: ;
+	--bc-graph-dropdown__setting: transparent;
+	--co-graph-dropdown__setting: #dfeaf9;
 	--fs-graph-dropdown__setting: ;
 }
 
 :root {
-	--co-graph-dropdown__setting-icon--hover: ;
+	--co-graph-dropdown__setting-icon--hover: #ebebeb;
 	--td-graph-dropdown__setting-icon--hover: none;
 }
 
@@ -1077,7 +1077,7 @@
 }
 
 :root {
-	--bc-highlight: #524c2e;
+	--bc-highlight: #4f482b;
 }
 
 :root {
