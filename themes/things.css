@@ -601,7 +601,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__minimal--hover: #1574d8;
+		--bc-button__minimal--hover: transparent;
 		--sd-button__minimal--hover: none;
 		--co-button__minimal--hover: #dfeaf9;
 	}
@@ -615,7 +615,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__minimal: #1574d8;
+		--bc-button__minimal: transparent;
 		--sd-button__minimal: none;
 	}
 }
@@ -745,10 +745,10 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-button--default: ;
-		--br-button--default: ;
-		--bb-button--default: ;
-		--bl-button--default: ;
+		--bt-button--default: none;
+		--br-button--default: none;
+		--bb-button--default: none;
+		--bl-button--default: none;
 	}
 }
 
@@ -761,8 +761,8 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-button--hover: transparent;
-		--sd-button--hover: ;
-		--co-button--hover: var(--cl-green-500);
+		--sd-button--hover: none;
+		--co-button--hover: #a5a7ab;
 	}
 }
 

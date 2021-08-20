@@ -271,7 +271,7 @@
 }
 
 :root {
-	--bc-button__minimal--hover: #1574d8;
+	--bc-button__minimal--hover: transparent;
 	--bd-button__minimal--hover: ;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: #dfeaf9;
@@ -279,7 +279,7 @@
 }
 
 :root {
-	--bc-button__minimal: #1574d8;
+	--bc-button__minimal: transparent;
 	--bd-button__minimal: ;
 	--sd-button__minimal: none;
 }
@@ -337,18 +337,18 @@
 }
 
 :root {
-	--bt-button--default: ;
-	--br-button--default: ;
-	--bb-button--default: ;
-	--bl-button--default: ;
+	--bt-button--default: none;
+	--br-button--default: none;
+	--bb-button--default: none;
+	--bl-button--default: none;
 	--bd-button--default: ;
 	--fs-button--default: ;
 }
 
 :root {
 	--bc-button--hover: transparent;
-	--sd-button--hover: ;
-	--co-button--hover: var(--cl-green-500);
+	--sd-button--hover: none;
+	--co-button--hover: #a5a7ab;
 }
 
 :root {
