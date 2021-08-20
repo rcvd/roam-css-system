@@ -3315,10 +3315,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-popover__button: ;
-		--bt-popover__button: none;
-		--br-popover__button: none;
-		--bb-popover__button: none;
-		--bl-popover__button: none;
+		--bt-popover__button: 1px solid transparent;
+		--br-popover__button: 1px solid transparent;
+		--bb-popover__button: 1px solid transparent;
+		--bl-popover__button: 1px solid transparent;
 		--co-popover__button: ;
 	}
 }
