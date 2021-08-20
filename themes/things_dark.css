@@ -1409,10 +1409,10 @@
 
 :root {
 	--bc-menu: #333333;
-	--bt-menu: 1px solid #5c5c5c;
-	--br-menu: 1px solid #5c5c5c;
-	--bb-menu: 1px solid #5c5c5c;
-	--bl-menu: 1px solid #5c5c5c;
+	--bt-menu: none;
+	--br-menu: none;
+	--bb-menu: none;
+	--bl-menu: none;
 	--bd-menu: 5px;
 	--co-menu: #eeeeee;
 }
