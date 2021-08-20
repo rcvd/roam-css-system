@@ -327,7 +327,7 @@
 }
 
 :root {
-	--bc-button__minimal--active: ;
+	--bc-button__minimal--active: var(--cl-gray-50);
 	--sd-button__minimal--active: ;
 	--co-button__minimal--active: ;
 }
