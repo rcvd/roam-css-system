@@ -3460,11 +3460,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-reference__item: var(--cl-gray-800);
-		--bt-reference__item: 1px solid var(--cl-black);
-		--br-reference__item: 1px solid var(--cl-black);
-		--bb-reference__item: 1px solid var(--cl-black);
-		--bl-reference__item: 1px solid var(--cl-black);
+		--bc-reference__item: var(--cl-gray-700);
+		--bt-reference__item: 1px solid var(--cl-gray-600);
+		--br-reference__item: 1px solid var(--cl-gray-600);
+		--bb-reference__item: 1px solid var(--cl-gray-600);
+		--bl-reference__item: 1px solid var(--cl-gray-600);
 	}
 }
 
