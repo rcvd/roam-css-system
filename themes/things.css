@@ -1565,7 +1565,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-icon--selected: var(--cl-white);
+		--co-elevation__item-icon--selected: #ffffff;
 	}
 }
 
@@ -1575,7 +1575,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-icon: var(--cl-gray-500);
+		--co-elevation__item-icon: #67acfe;
 	}
 }
 
@@ -1585,7 +1585,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-keyprompt--selected: var(--cl-white);
+		--co-elevation__item-keyprompt--selected: #ffffff;
 	}
 }
 
@@ -1597,7 +1597,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-keyprompt: var(--cl-gray-500);
+		--co-elevation__item-keyprompt: #939393;
 	}
 }
 
@@ -2062,7 +2062,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__menu-title: #ebebeb;
+		--co-graph-dropdown__menu-title: #6d6d6d;
 	}
 }
 
@@ -2121,7 +2121,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--sd-graph-dropdown: none;
+		--sd-graph-dropdown: 0px 0px 15px 0px rgba(0,0,0,0.2);
 	}
 }
 
@@ -2825,10 +2825,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-logbutton--hover: transparent;
-		--bt-logbutton--hover: ;
-		--br-logbutton--hover: ;
-		--bb-logbutton--hover: ;
-		--bl-logbutton--hover: ;
+		--bt-logbutton--hover: none;
+		--br-logbutton--hover: none;
+		--bb-logbutton--hover: none;
+		--bl-logbutton--hover: none;
 		--co-logbutton--hover: #c5c5c5;
 	}
 }
@@ -2866,7 +2866,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-main: ;
+		--co-main: #ffffff;
 	}
 }
 
@@ -2975,11 +2975,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-menu__item--hover: #676666;
-		--bt-menu__item--hover: ;
-		--br-menu__item--hover: ;
-		--bb-menu__item--hover: ;
-		--bl-menu__item--hover: ;
+		--bc-menu__item--hover: #0058d0;
+		--bt-menu__item--hover: none;
+		--br-menu__item--hover: none;
+		--bb-menu__item--hover: none;
+		--bl-menu__item--hover: none;
 		--co-menu__item--hover: #eeeeee;
 	}
 }
@@ -2995,10 +2995,10 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-menu__item: ;
-		--br-menu__item: ;
-		--bb-menu__item: ;
-		--bl-menu__item: ;
+		--bt-menu__item: none;
+		--br-menu__item: none;
+		--bb-menu__item: none;
+		--bl-menu__item: none;
 		--co-menu__item: #eeeeee;
 	}
 }
@@ -3050,7 +3050,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-menu__item-primary: var(--cl-blue-500);
+		--co-menu__item-primary: #eeeeee;
 	}
 }
 
@@ -3061,8 +3061,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-menu__menu-item--active: var(--cl-blue-700);
-		--co-menu__menu-item--active: var(--cl-white);
+		--bc-menu__menu-item--active: #0058d0;
+		--co-menu__menu-item--active: #eeeeee;
 	}
 }
 
@@ -3072,7 +3072,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--fl-menu__svg-icon--hover: var(--cl-gray-100);
+		--fl-menu__svg-icon--hover: #eeeeee;
 	}
 }
 
@@ -3082,7 +3082,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--fl-menu__svg-icon: var(--cl-gray-100);
+		--fl-menu__svg-icon: #eeeeee;
 	}
 }
 
@@ -3099,11 +3099,11 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-menu: #333333;
-		--bt-menu: ;
-		--br-menu: ;
-		--bb-menu: ;
-		--bl-menu: ;
-		--co-menu: #f5f6f8;
+		--bt-menu: 1px solid #5c5c5c;
+		--br-menu: 1px solid #5c5c5c;
+		--bb-menu: 1px solid #5c5c5c;
+		--bl-menu: 1px solid #5c5c5c;
+		--co-menu: #eeeeee;
 	}
 }
 
@@ -3113,7 +3113,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-mobile-bar__icon: var(--cl-gray-100);
+		--co-mobile-bar__icon: #eeeeee;
 	}
 }
 
@@ -3123,7 +3123,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-mobile-bar: var(--cl-black);
+		--bc-mobile-bar: #1c1c1c;
 	}
 }
 
@@ -3138,11 +3138,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-modal-dialog: var(--cl-gray-800);
-		--bt-modal-dialog: 1px solid var(--cl-gray-700);
-		--br-modal-dialog: 1px solid var(--cl-gray-700);
-		--bb-modal-dialog: 1px solid var(--cl-gray-700);
-		--bl-modal-dialog: 1px solid var(--cl-gray-700);
+		--bc-modal-dialog: #282828;
+		--bt-modal-dialog: 1px solid #535353;
+		--br-modal-dialog: 1px solid #535353;
+		--bb-modal-dialog: 1px solid #535353;
+		--bl-modal-dialog: 1px solid #535353;
 	}
 }
 
@@ -3152,7 +3152,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-multibar--hover: 3px solid var(--cl-gray-600);
+		--br-multibar--hover: 3px solid #676767;
 	}
 }
 
@@ -3162,7 +3162,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-multibar: 1px solid var(--cl-gray-700);
+		--br-multibar: 1px solid #464646;
 	}
 }
 
@@ -3173,7 +3173,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-page__link--hover: #67acff;
+		--co-page__link--hover: #65a6f5;
 	}
 }
 
@@ -3184,7 +3184,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-page__link: #67acff;
+		--co-page__link: #65a6f5;
 	}
 }
 
@@ -3216,13 +3216,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-pomodoro--break: var(--cl-green-800);
-		--bt-pomodoro--break: 1px solid var(--cl-green-900);
-		--br-pomodoro--break: 1px solid var(--cl-green-900);
-		--bb-pomodoro--break: 1px solid var(--cl-green-900);
-		--bl-pomodoro--break: 1px solid var(--cl-green-900);
-		--sd-pomodoro--break: ;
-		--co-pomodoro--break: var(--cl-green-50);
+		--bc-pomodoro--break: #2f7055;
+		--bt-pomodoro--break: none;
+		--br-pomodoro--break: none;
+		--bb-pomodoro--break: none;
+		--bl-pomodoro--break: none;
+		--sd-pomodoro--break: none;
+		--co-pomodoro--break: #262626;
 	}
 }
 
@@ -3239,13 +3239,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-pomodoro--running: var(--cl-red-800);
-		--bt-pomodoro--running: 1px solid var(--cl-red-900);
-		--br-pomodoro--running: 1px solid var(--cl-red-900);
-		--bb-pomodoro--running: 1px solid var(--cl-red-900);
-		--bl-pomodoro--running: 1px solid var(--cl-red-900);
-		--sd-pomodoro--running: ;
-		--co-pomodoro--running: var(--cl-red-50);
+		--bc-pomodoro--running: #cf3350;
+		--bt-pomodoro--running: none;
+		--br-pomodoro--running: none;
+		--bb-pomodoro--running: none;
+		--bl-pomodoro--running: none;
+		--sd-pomodoro--running: none;
+		--co-pomodoro--running: #262626;
 	}
 }
 
@@ -3262,13 +3262,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-pomodoro: var(--cl-gray-800);
-		--bt-pomodoro: 1px solid var(--cl-gray-900);
-		--br-pomodoro: 1px solid var(--cl-gray-900);
-		--bb-pomodoro: 1px solid var(--cl-gray-900);
-		--bl-pomodoro: 1px solid var(--cl-gray-900);
-		--sd-pomodoro: ;
-		--co-pomodoro: var(--cl-gray-50);
+		--bc-pomodoro: #848484;
+		--bt-pomodoro: none;
+		--br-pomodoro: none;
+		--bb-pomodoro: none;
+		--bl-pomodoro: none;
+		--sd-pomodoro: none;
+		--co-pomodoro: #262626;
 	}
 }
 
@@ -3313,12 +3313,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-popover__button--hover: ;
-		--bt-popover__button--hover: 1px solid #4a4a4a;
-		--br-popover__button--hover: 1px solid #4a4a4a;
-		--bb-popover__button--hover: 1px solid #4a4a4a;
-		--bl-popover__button--hover: 1px solid #4a4a4a;
-		--co-popover__button--hover: ;
+		--bc-popover__button--hover: transparent;
+		--bt-popover__button--hover: 1px solid #939393;
+		--br-popover__button--hover: 1px solid #939393;
+		--bb-popover__button--hover: 1px solid #939393;
+		--bl-popover__button--hover: 1px solid #939393;
+		--co-popover__button--hover: #8b8c8c;
 	}
 }
 
@@ -3334,12 +3334,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-popover__button: ;
+		--bc-popover__button: transparent;
 		--bt-popover__button: 1px solid transparent;
 		--br-popover__button: 1px solid transparent;
 		--bb-popover__button: 1px solid transparent;
 		--bl-popover__button: 1px solid transparent;
-		--co-popover__button: ;
+		--co-popover__button: #8b8c8c;
 	}
 }
 
@@ -3360,7 +3360,7 @@
 		--br-popover__content: 1px solid #585858;
 		--bb-popover__content: 1px solid #585858;
 		--bl-popover__content: 1px solid #585858;
-		--co-popover__content: var(--cl-gray-100);
+		--co-popover__content: #e5e5e5;
 	}
 }
 
@@ -3370,7 +3370,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-popover__description: var(--cl-gray-600);
+		--co-popover__description: #939393;
 	}
 }
 
