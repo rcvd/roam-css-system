@@ -760,8 +760,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button--hover: ;
-		--sd-button--hover: ;
+		--bc-button--hover: transparent;
+		--sd-button--hover: none;
 		--co-button--hover: var(--cl-green-500);
 	}
 }
