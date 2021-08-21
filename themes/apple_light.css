@@ -2032,9 +2032,9 @@
 }
 
 :root {
-	--co-starred__title: #595a59;
+	--co-starred__title: #b6b6b6;
 	--ff-starred__title: ;
-	--fs-starred__title: 1rem;
+	--fs-starred__title: 0.8rem;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
 	--tt-starred__title: lowercase;

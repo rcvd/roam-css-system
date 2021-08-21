@@ -2034,7 +2034,7 @@
 :root {
 	--co-starred__title: #d1d2d1;
 	--ff-starred__title: ;
-	--fs-starred__title: 1rem;
+	--fs-starred__title: 0.8rem;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
 	--tt-starred__title: lowercase;
