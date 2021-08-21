@@ -1262,7 +1262,7 @@
 	--bb-level1: 1px solid #464746;
 	--co-level1: #ffffff;
 	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-level1: 1rem;
+	--fs-level1: 22px;
 	--ft-level1: ;
 	--fw-level1: 700;
 	--tt-level1: normal;
@@ -1272,7 +1272,7 @@
 	--bb-level2: 1px solid #466a93;
 	--co-level2: #64a6f5;
 	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-level2: 1rem;
+	--fs-level2: 17px;
 	--ft-level2: ;
 	--fw-level2: 700;
 	--tt-level2: normal;
@@ -1282,7 +1282,7 @@
 	--bb-level3: none;
 	--co-level3: #d1d2d1;
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-level3: 1rem;
+	--fs-level3: 15px;
 	--ft-level3: ;
 	--fw-level3: 700;
 	--tt-level3: normal;
@@ -1477,7 +1477,7 @@
 :root {
 	--co-page__title: #e5e5e5;
 	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-page__title: 22px;
+	--fs-page__title: 26px;
 	--ft-page__title: ;
 	--fw-page__title: 600;
 	--tt-page__title: ;
