@@ -1913,7 +1913,7 @@
 	--br-settings__input: none;
 	--bb-settings__input: none;
 	--bl-settings__input: none;
-	--bd-settings__input: ;
+	--bd-settings__input: 5px;
 	--co-settings__input: #ebebeb;
 }
 
@@ -1935,7 +1935,7 @@
 	--br-settings__password-input: none;
 	--bb-settings__password-input: none;
 	--bl-settings__password-input: none;
-	--bd-settings__password-input: ;
+	--bd-settings__password-input: 5px;
 	--co-settings__password-input: #ebebeb;
 }
 

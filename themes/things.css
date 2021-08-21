@@ -4065,7 +4065,7 @@
 }
 
 :root {
-	--co-settings__button: ;
+	--co-settings__button: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4089,7 +4089,7 @@
 	--br-settings__container: none;
 	--bb-settings__container: none;
 	--bl-settings__container: none;
-	--co-settings__container: ;
+	--co-settings__container: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4104,7 +4104,7 @@
 }
 
 :root {
-	--co-settings__description: ;
+	--co-settings__description: #969a9e;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4114,7 +4114,7 @@
 }
 
 :root {
-	--co-settings__email-header: ;
+	--co-settings__email-header: #2c2c2c;
 	--td-settings__email-header: none;
 }
 
@@ -4168,7 +4168,7 @@
 	--br-settings__input: none;
 	--bb-settings__input: none;
 	--bl-settings__input: none;
-	--bd-settings__input: ;
+	--bd-settings__input: 5px;
 	--co-settings__input: #373837;
 }
 
@@ -4217,7 +4217,7 @@
 	--br-settings__password-input: none;
 	--bb-settings__password-input: none;
 	--bl-settings__password-input: none;
-	--bd-settings__password-input: ;
+	--bd-settings__password-input: 5px;
 	--co-settings__password-input: #373837;
 }
 
@@ -4303,7 +4303,7 @@
 }
 
 :root {
-	--bc-settings__hotkeys: ;
+	--bc-settings__hotkeys: #b5b9bf;
 }
 
 @media(prefers-color-scheme: dark) {
