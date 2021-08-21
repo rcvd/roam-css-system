@@ -1083,21 +1083,21 @@
 
 :root {
 	--bt-hr: 1px solid #464646;
-	--br-hr: ;
-	--bb-hr: ;
-	--bl-hr: ;
+	--br-hr: none;
+	--bb-hr: none;
+	--bl-hr: none;
 }
 
 :root {
 	--bc-html__select--hover: #286bbd;
-	--sd-html__select--hover: ;
+	--sd-html__select--hover: none;
 	--co-html__select--hover: #fff;
 	--td-html__select--hover: ;
 }
 
 :root {
-	--bc-html__select: ;
-	--sd-html__select: ;
+	--bc-html__select: transparent;
+	--sd-html__select: none;
 	--co-html__select: #fff;
 }
 
