@@ -4207,7 +4207,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__tab-list: #141414;
+		--bc-settings__tab-list: #1c1c1c;
 	}
 }
 
