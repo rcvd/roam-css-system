@@ -1560,7 +1560,7 @@
 	--br-query: 1px solid var(--cl-gray-200);
 	--bb-query: 1px solid var(--cl-gray-200);
 	--bl-query: 1px solid var(--cl-gray-200);
-	--bd-query: ;
+	--bd-query: 5px;
 	--sd-query: ;
 }
 
@@ -1570,7 +1570,7 @@
 	--br-quote: ;
 	--bb-quote: ;
 	--bl-quote: 8px solid #0362c1;
-	--bd-quote: 5px;
+	--bd-quote: ;
 	--ff-quote: ;
 	--fs-quote: 1rem;
 	--ft-quote: ;
