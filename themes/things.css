@@ -2143,7 +2143,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-help__categories--selected: #393939;
+		--bc-help__categories--selected: #286bbd;
 	}
 }
 
@@ -2317,7 +2317,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-help__resource--hover: #286bbd;
+		--bc-help__resource--hover: #6d6e6d;
 	}
 }
 
