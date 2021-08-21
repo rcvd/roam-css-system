@@ -1802,7 +1802,7 @@
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
 	--bl-roam42__cp-menu-item--selected: none;
-	--bd-roam42__cp-menu-item--selected: ;
+	--bd-roam42__cp-menu-item--selected: 5px;
 }
 
 :root {
@@ -1810,7 +1810,7 @@
 	--br-roam42__cp-menu-item: none;
 	--bb-roam42__cp-menu-item: none;
 	--bl-roam42__cp-menu-item: none;
-	--bd-roam42__cp-menu-item: ;
+	--bd-roam42__cp-menu-item: 5px;
 }
 
 :root {
@@ -1819,7 +1819,7 @@
 	--br-roam42__cp-menu-item-active--hover: none;
 	--bb-roam42__cp-menu-item-active--hover: none;
 	--bl-roam42__cp-menu-item-active--hover: none;
-	--bd-roam42__cp-menu-item-active--hover: ;
+	--bd-roam42__cp-menu-item-active--hover: 5px;
 }
 
 :root {
@@ -1843,7 +1843,7 @@
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
 	--bl-roam42__jj-menu-item--highlight: none;
-	--bd-roam42__jj-menu-item--highlight: ;
+	--bd-roam42__jj-menu-item--highlight: 5px;
 }
 
 :root {
@@ -1852,7 +1852,7 @@
 	--br-roam42__jj-menu-item: none;
 	--bb-roam42__jj-menu-item: none;
 	--bl-roam42__jj-menu-item: none;
-	--bd-roam42__jj-menu-item: ;
+	--bd-roam42__jj-menu-item: 5px;
 }
 
 :root {
