@@ -218,3 +218,8 @@ textarea {
 .bp3-elevation-3 {
     overflow: hidden!important;
 }
+
+/* Hide left sidebar icons */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
+    display:  none;
+}
