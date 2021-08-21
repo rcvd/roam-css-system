@@ -749,7 +749,7 @@
 	--br-embed__container-10: none;
 	--bb-embed__container-10: none;
 	--bl-embed__container-10: none;
-	--bd-embed__container-10: ;
+	--bd-embed__container-10: 5px;
 }
 
 :root {
@@ -758,7 +758,7 @@
 	--br-embed__container-11: none;
 	--bb-embed__container-11: none;
 	--bl-embed__container-11: none;
-	--bd-embed__container-11: ;
+	--bd-embed__container-11: 5px;
 }
 
 :root {
@@ -767,7 +767,7 @@
 	--br-embed__container-2: none;
 	--bb-embed__container-2: none;
 	--bl-embed__container-2: none;
-	--bd-embed__container-2: ;
+	--bd-embed__container-2: 5px;
 }
 
 :root {
@@ -776,7 +776,7 @@
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
 	--bl-embed__container-3: none;
-	--bd-embed__container-3: ;
+	--bd-embed__container-3: 5px;
 }
 
 :root {
@@ -785,7 +785,7 @@
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
 	--bl-embed__container-4: none;
-	--bd-embed__container-4: ;
+	--bd-embed__container-4: 5px;
 }
 
 :root {
@@ -794,7 +794,7 @@
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
 	--bl-embed__container-5: none;
-	--bd-embed__container-5: ;
+	--bd-embed__container-5: 5px;
 }
 
 :root {
@@ -803,7 +803,7 @@
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
 	--bl-embed__container-6: none;
-	--bd-embed__container-6: ;
+	--bd-embed__container-6: 5px;
 }
 
 :root {
@@ -812,7 +812,7 @@
 	--br-embed__container-7: none;
 	--bb-embed__container-7: none;
 	--bl-embed__container-7: none;
-	--bd-embed__container-7: ;
+	--bd-embed__container-7: 5px;
 }
 
 :root {
@@ -821,7 +821,7 @@
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
 	--bl-embed__container-8: none;
-	--bd-embed__container-8: ;
+	--bd-embed__container-8: 5px;
 }
 
 :root {
@@ -830,7 +830,7 @@
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
 	--bl-embed__container-9: none;
-	--bd-embed__container-9: ;
+	--bd-embed__container-9: 5px;
 }
 
 :root {
@@ -839,7 +839,7 @@
 	--br-embed: none;
 	--bb-embed: none;
 	--bl-embed: none;
-	--bd-embed: ;
+	--bd-embed: 5px;
 }
 
 :root {
