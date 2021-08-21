@@ -4226,6 +4226,15 @@
 }
 
 :root {
+	--bd-settings__scrollbar: 5px;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-settings__select-wrapper: ;
 	--bt-settings__select-wrapper: ;
 	--br-settings__select-wrapper: ;

@@ -1935,6 +1935,10 @@
 }
 
 :root {
+	--bd-settings__scrollbar: 5px;
+}
+
+:root {
 	--bc-settings__select-wrapper: ;
 	--bt-settings__select-wrapper: ;
 	--br-settings__select-wrapper: ;

@@ -1958,6 +1958,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	background-color: 		var(--bc-settings__tab-list, #293742);
 }
 
+ {
+	border-radius: 			var(--bd-settings__scrollbar, 6px);
+}
+
 .rm-settings .rm-settings-panel .rm-select-wrapper {
 	background-color: 		var(--bc-settings__select-wrapper, #30404D);
 	border-top: 			var(--bt-settings__select-wrapper, solid 1px #293742);
