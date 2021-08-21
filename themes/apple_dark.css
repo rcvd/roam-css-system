@@ -424,19 +424,19 @@
 }
 
 :root {
-	--co-codeblock__atom: var(--cl-indigo-300);
+	--co-codeblock__atom: rgb(102,212,207);
 }
 
 :root {
-	--co-codeblock__attribute: var(--cl-blue-500);
+	--co-codeblock__attribute: rgb(10,132,255);
 }
 
 :root {
-	--co-codeblock__bracket: var(--cl-gray-600);
+	--co-codeblock__bracket: rgb(152,152,157);
 }
 
 :root {
-	--co-codeblock__builtin: var(--cl-indigo-400);
+	--co-codeblock__builtin: rgb(102,212,207);
 }
 
 :root {
@@ -445,7 +445,7 @@
 }
 
 :root {
-	--co-codeblock__comment: var(--cl-yellow-300);
+	--co-codeblock__comment: rgb(255,214,10);
 }
 
 :root {
@@ -455,7 +455,7 @@
 	--bb-codeblock__container: ;
 	--bl-codeblock__container: ;
 	--bd-codeblock__container: 5px;
-	--co-codeblock__container: var(--cl-gray-100);
+	--co-codeblock__container: rgb(152,152,157);
 }
 
 :root {
@@ -464,11 +464,11 @@
 }
 
 :root {
-	--co-codeblock__def: var(--cl-blue-400);
+	--co-codeblock__def: rgb(10,132,255);
 }
 
 :root {
-	--co-codeblock__error: var(--cl-red-500);
+	--co-codeblock__error: rgb(255,69,58);
 }
 
 :root {
@@ -488,39 +488,39 @@
 }
 
 :root {
-	--co-codeblock__hr: var(--cl-gray-500);
+	--co-codeblock__hr: rgb(142,142,147);
 }
 
 :root {
-	--co-codeblock__invalidchar: var(--cl-red-500);
+	--co-codeblock__invalidchar: rgb(255,59,48);
 }
 
 :root {
-	--co-codeblock__keyword: var(--cl-pink-300);
+	--co-codeblock__keyword: rgb(191,90,242);
 }
 
 :root {
-	--co-codeblock__link: var(--cl-blue-300);
+	--co-codeblock__link: rgb(90,200,245);
 }
 
 :root {
-	--co-codeblock__matchingbracket: var(--cl-green-500);
+	--co-codeblock__matchingbracket: rgb(50,215,75);
 }
 
 :root {
-	--co-codeblock__meta: var(--cl-gray-300);
+	--co-codeblock__meta: rgb(142,142,147);
 }
 
 :root {
-	--co-codeblock__nonmatchingbracket: var(--cl-red-500);
+	--co-codeblock__nonmatchingbracket: rgb(255,59,48);
 }
 
 :root {
-	--co-codeblock__number: var(--cl-green-300);
+	--co-codeblock__number: rgb(50,215,75);
 }
 
 :root {
-	--co-codeblock__qualifier: var(--cl-gray-300);
+	--co-codeblock__qualifier: rgb(142,142,147);
 }
 
 :root {
@@ -536,23 +536,23 @@
 }
 
 :root {
-	--co-codeblock__string: var(--cl-red-500);
+	--co-codeblock__string: rgb(255,59,48);
 }
 
 :root {
-	--co-codeblock__string-2: var(--cl-yellow-600);
+	--co-codeblock__string-2: rgb(255,214,10);
 }
 
 :root {
-	--co-codeblock__tag: var(--cl-green-300);
+	--co-codeblock__tag: rgb(50,215,75);
 }
 
 :root {
-	--co-codeblock__type: var(--cl-green-300);
+	--co-codeblock__type: rgb(50,215,75);
 }
 
 :root {
-	--co-codeblock__variable-2: var(--cl-blue-300);
+	--co-codeblock__variable-2: rgb(90,200,245);
 }
 
 :root {
