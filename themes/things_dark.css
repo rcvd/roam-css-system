@@ -1879,6 +1879,10 @@
 }
 
 :root {
+	--co-settings__input--placeholder: #a8a8a9;
+}
+
+:root {
 	--bc-settings__input--focus: #5c5b5b;
 	--bt-settings__input--focus: none;
 	--br-settings__input--focus: none;

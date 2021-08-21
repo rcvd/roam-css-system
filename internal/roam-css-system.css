@@ -1902,6 +1902,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	color: 					var(--co-settings__heading, #E1E8ED);
 }
 
+.rm-settings input[type='text']::placeholder {
+	color: 					var(--co-settings__input--placeholder, inherit);
+}
+
 .rm-settings input[type='text']:focus {
 	background-color: 		var(--bc-settings__input--focus, #182026);
 	border-top: 			var(--bt-settings__input--focus, inherit);
