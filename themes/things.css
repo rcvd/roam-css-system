@@ -3576,7 +3576,7 @@
 }
 
 :root {
-	--co-reference__page-title: #95999d;
+	--co-reference__page-title: #121418;
 	--fs-reference__page-title: 1rem;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: none;
@@ -3584,7 +3584,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-reference__page-title: #939393;
+		--co-reference__page-title: #ffffff;
 	}
 }
 
