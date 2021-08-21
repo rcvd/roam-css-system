@@ -4788,8 +4788,8 @@
 }
 
 :root {
-	--bc-topbar-datepicker-html__select--hover: #c9e2ff;
-	--co-topbar-datepicker-html__select--hover: var(--cl-gray-900);
+	--bc-topbar-datepicker-html__select--hover: #0064e0;
+	--co-topbar-datepicker-html__select--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4800,7 +4800,7 @@
 }
 
 :root {
-	--co-topbar-datepicker-html__select: var(--cl-gray-900);
+	--co-topbar-datepicker-html__select: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4810,7 +4810,7 @@
 }
 
 :root {
-	--co-topbar-datepicker-html__select-icon: var(--cl-gray-500);
+	--co-topbar-datepicker-html__select-icon: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
