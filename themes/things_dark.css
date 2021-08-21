@@ -1842,12 +1842,12 @@
 }
 
 :root {
-	--bc-settings__container: #282828;
-	--bt-settings__container: 1px solid #535353;
-	--br-settings__container: 1px solid #535353;
-	--bb-settings__container: 1px solid #535353;
-	--bl-settings__container: 1px solid #535353;
-	--co-settings__container: #dcdcdc;
+	--bc-settings__container: transparent;
+	--bt-settings__container: ;
+	--br-settings__container: ;
+	--bb-settings__container: ;
+	--bl-settings__container: ;
+	--co-settings__container: ;
 }
 
 :root {
