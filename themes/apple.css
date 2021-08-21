@@ -4180,6 +4180,55 @@
 }
 
 :root {
+	--co-settings__password-input--placeholder: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__password-input--placeholder: ;
+	}
+}
+
+:root {
+	--bc-settings__password-input--focus: ;
+	--bt-settings__password-input--focus: ;
+	--br-settings__password-input--focus: ;
+	--bb-settings__password-input--focus: ;
+	--bl-settings__password-input--focus: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__password-input--focus: ;
+		--bt-settings__password-input--focus: ;
+		--br-settings__password-input--focus: ;
+		--bb-settings__password-input--focus: ;
+		--bl-settings__password-input--focus: ;
+	}
+}
+
+:root {
+	--bc-settings__password-input: ;
+	--bt-settings__password-input: ;
+	--br-settings__password-input: ;
+	--bb-settings__password-input: ;
+	--bl-settings__password-input: ;
+	--bd-settings__password-input: ;
+	--co-settings__password-input: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__password-input: ;
+		--bt-settings__password-input: ;
+		--br-settings__password-input: ;
+		--bb-settings__password-input: ;
+		--bl-settings__password-input: ;
+		--co-settings__password-input: ;
+	}
+}
+
+:root {
 	--bc-settings__items--hover: ;
 	--bt-settings__items--hover: ;
 	--br-settings__items--hover: ;

@@ -1916,6 +1916,28 @@
 }
 
 :root {
+	--co-settings__password-input--placeholder: #a8a8a9;
+}
+
+:root {
+	--bc-settings__password-input--focus: #5c5b5b;
+	--bt-settings__password-input--focus: none;
+	--br-settings__password-input--focus: none;
+	--bb-settings__password-input--focus: none;
+	--bl-settings__password-input--focus: none;
+}
+
+:root {
+	--bc-settings__password-input: transparent;
+	--bt-settings__password-input: none;
+	--br-settings__password-input: none;
+	--bb-settings__password-input: none;
+	--bl-settings__password-input: none;
+	--bd-settings__password-input: ;
+	--co-settings__password-input: #ebebeb;
+}
+
+:root {
 	--bc-settings__items--hover: transparent;
 	--bt-settings__items--hover: none;
 	--br-settings__items--hover: none;
