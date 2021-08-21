@@ -1779,61 +1779,61 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: var(--cl-blue-900);
-	--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
-	--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
-	--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
-	--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
+	--bc-roam42__cp-menu-item--selected: #0059d0;
+	--bt-roam42__cp-menu-item--selected: none;
+	--br-roam42__cp-menu-item--selected: none;
+	--bb-roam42__cp-menu-item--selected: none;
+	--bl-roam42__cp-menu-item--selected: none;
 	--bd-roam42__cp-menu-item--selected: ;
 }
 
 :root {
-	--bt-roam42__cp-menu-item: 1px solid transparent;
-	--br-roam42__cp-menu-item: 1px solid transparent;
-	--bb-roam42__cp-menu-item: 1px solid transparent;
-	--bl-roam42__cp-menu-item: 1px solid transparent;
+	--bt-roam42__cp-menu-item: none;
+	--br-roam42__cp-menu-item: none;
+	--bb-roam42__cp-menu-item: none;
+	--bl-roam42__cp-menu-item: none;
 	--bd-roam42__cp-menu-item: ;
 }
 
 :root {
-	--bc-roam42__cp-menu-item-active--hover: var(--cl-blue-800);
-	--bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
-	--br-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
-	--bb-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
-	--bl-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-700);
+	--bc-roam42__cp-menu-item-active--hover: #0059d0;
+	--bt-roam42__cp-menu-item-active--hover: none;
+	--br-roam42__cp-menu-item-active--hover: none;
+	--bb-roam42__cp-menu-item-active--hover: none;
+	--bl-roam42__cp-menu-item-active--hover: none;
 	--bd-roam42__cp-menu-item-active--hover: ;
 }
 
 :root {
 	--bc-roam42__cp-menu-shortcut: ;
 	--bd-roam42__cp-menu-shortcut: ;
-	--co-roam42__cp-menu-shortcut: var(--cl-gray-500);
+	--co-roam42__cp-menu-shortcut: #939393;
 }
 
 :root {
-	--bc-roam42__jj-menu: var(--cl-black);
-	--bt-roam42__jj-menu: 1px solid var(--cl-gray-800);
-	--br-roam42__jj-menu: 1px solid var(--cl-gray-800);
-	--bb-roam42__jj-menu: 1px solid var(--cl-gray-800);
-	--bl-roam42__jj-menu: 1px solid var(--cl-gray-800);
+	--bc-roam42__jj-menu: #262626;
+	--bt-roam42__jj-menu: 1px solid #373737;
+	--br-roam42__jj-menu: 1px solid #373737;
+	--bb-roam42__jj-menu: 1px solid #373737;
+	--bl-roam42__jj-menu: 1px solid #373737;
 	--bd-roam42__jj-menu: 0px;
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: var(--cl-blue-900);
-	--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
-	--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
-	--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
-	--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
+	--bc-roam42__jj-menu-item--highlight: #0059d0;
+	--bt-roam42__jj-menu-item--highlight: none;
+	--br-roam42__jj-menu-item--highlight: none;
+	--bb-roam42__jj-menu-item--highlight: none;
+	--bl-roam42__jj-menu-item--highlight: none;
 	--bd-roam42__jj-menu-item--highlight: ;
 }
 
 :root {
-	--bc-roam42__jj-menu-item: ;
-	--bt-roam42__jj-menu-item: 1px solid transparent;
-	--br-roam42__jj-menu-item: 1px solid transparent;
-	--bb-roam42__jj-menu-item: 1px solid transparent;
-	--bl-roam42__jj-menu-item: 1px solid transparent;
+	--bc-roam42__jj-menu-item: transparent;
+	--bt-roam42__jj-menu-item: none;
+	--br-roam42__jj-menu-item: none;
+	--bb-roam42__jj-menu-item: none;
+	--bl-roam42__jj-menu-item: none;
 	--bd-roam42__jj-menu-item: ;
 }
 
@@ -1842,12 +1842,12 @@
 }
 
 :root {
-	--bc-settings__container: ;
-	--bt-settings__container: ;
-	--br-settings__container: ;
-	--bb-settings__container: ;
-	--bl-settings__container: ;
-	--co-settings__container: ;
+	--bc-settings__container: #282828;
+	--bt-settings__container: 1px solid #535353;
+	--br-settings__container: 1px solid #535353;
+	--bb-settings__container: 1px solid #535353;
+	--bl-settings__container: 1px solid #535353;
+	--co-settings__container: #dcdcdc;
 }
 
 :root {
@@ -1859,47 +1859,47 @@
 }
 
 :root {
-	--bc-settings__input--focus: var(--cl-gray-800);
-	--bt-settings__input--focus: ;
-	--br-settings__input--focus: ;
-	--bb-settings__input--focus: ;
-	--bl-settings__input--focus: ;
+	--bc-settings__input--focus: #5c5b5b;
+	--bt-settings__input--focus: none;
+	--br-settings__input--focus: none;
+	--bb-settings__input--focus: none;
+	--bl-settings__input--focus: none;
 }
 
 :root {
-	--bc-settings__input: var(--cl-gray-700);
-	--bt-settings__input: ;
-	--br-settings__input: ;
-	--bb-settings__input: ;
-	--bl-settings__input: ;
+	--bc-settings__input: transparent;
+	--bt-settings__input: none;
+	--br-settings__input: none;
+	--bb-settings__input: none;
+	--bl-settings__input: none;
 	--bd-settings__input: ;
 }
 
 :root {
-	--bc-settings__items--hover: ;
-	--bt-settings__items--hover: ;
-	--br-settings__items--hover: ;
-	--bb-settings__items--hover: ;
-	--bl-settings__items--hover: ;
-	--co-settings__items--hover: var(--cl-gray-700);
+	--bc-settings__items--hover: transparent;
+	--bt-settings__items--hover: none;
+	--br-settings__items--hover: none;
+	--bb-settings__items--hover: none;
+	--bl-settings__items--hover: none;
+	--co-settings__items--hover: #ffffff;
 }
 
 :root {
-	--bc-settings__items--selected: ;
-	--bt-settings__items--selected: ;
-	--br-settings__items--selected: ;
-	--bb-settings__items--selected: ;
-	--bl-settings__items--selected: ;
-	--co-settings__items--selected: var(--cl-gray-700);
+	--bc-settings__items--selected: #282828;
+	--bt-settings__items--selected: none;
+	--br-settings__items--selected: none;
+	--bb-settings__items--selected: none;
+	--bl-settings__items--selected: none;
+	--co-settings__items--selected: #ffffff;
 }
 
 :root {
-	--bc-settings__items: ;
-	--bt-settings__items: ;
-	--br-settings__items: ;
-	--bb-settings__items: ;
-	--bl-settings__items: ;
-	--co-settings__items: var(--cl-gray-100);
+	--bc-settings__items: transparent;
+	--bt-settings__items: none;
+	--br-settings__items: none;
+	--bb-settings__items: none;
+	--bl-settings__items: none;
+	--co-settings__items: #ffffff;
 }
 
 :root {
@@ -1907,7 +1907,7 @@
 }
 
 :root {
-	--bc-settings__tab-list: var(--cl-gray-700);
+	--bc-settings__tab-list: #212121;
 }
 
 :root {
@@ -1989,15 +1989,15 @@
 }
 
 :root {
-	--bc-textarea__selection: var(--cl-gray-300);
+	--bc-textarea__selection: #2260ae;
 }
 
 :root {
 	--bc-tooltip: #262626;
-	--bt-tooltip: 1px solid #2e2f2e;
-	--br-tooltip: 1px solid #2e2f2e;
-	--bb-tooltip: 1px solid #2e2f2e;
-	--bl-tooltip: 1px solid #2e2f2e;
+	--bt-tooltip: 1px solid #383939;
+	--br-tooltip: 1px solid #383939;
+	--bb-tooltip: 1px solid #383939;
+	--bl-tooltip: 1px solid #383939;
 	--bd-tooltip: 5px;
 	--co-tooltip: #feffff;
 }
