@@ -1170,7 +1170,7 @@ div, textarea {
 	border-right: 			var(--br-install-button--hover, 1px solid transparent);
 	border-bottom: 			var(--bb-install-button--hover, 1px solid transparent);
 	border-left: 			var(--bl-install-button--hover, 1px solid transparent);
-	border-radius: 			var(--bd-install-button--hover, 2px);
+	border-radius: 			var(--bd-install-button--hover, 5px);
 	color: 					var(--co-install-button--hover, #fff)!important;
 }
 
@@ -1180,7 +1180,7 @@ div, textarea {
 	border-right: 			var(--br-install-button, 1px solid #c2c6cc);
 	border-bottom: 			var(--bb-install-button, 1px solid #c2c6cc);
 	border-left: 			var(--bl-install-button, 1px solid #c2c6cc);
-	border-radius: 			var(--bd-install-button, 2px);
+	border-radius: 			var(--bd-install-button, 5px);
 	color: 					var(--co-install-button, #106ba3)!important;
 }
 
