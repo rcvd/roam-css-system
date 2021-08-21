@@ -673,7 +673,7 @@
 	--bb-elevation__container: 1px solid #373737;
 	--bl-elevation__container: 1px solid #373737;
 	--bd-elevation__container: 5px;
-	--sd-elevation__container: 0px 0px 15px 0px rgba(0,0,0,0.2);
+	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
@@ -1051,11 +1051,11 @@
 }
 
 :root {
-	--bc-help__resource--hover: #6d6e6d;
+	--bc-help__resource--hover: transparent;
 }
 
 :root {
-	--co-help__resource-description: #6d6e6d;
+	--co-help__resource-description: #939393;
 	--fs-help__resource-description: 1rem;
 	--fw-help__resource-description: normal;
 }
@@ -1066,7 +1066,7 @@
 }
 
 :root {
-	--co-help__resource-title: #939393;
+	--co-help__resource-title: #ebebeb;
 	--fs-help__resource-title: 1rem;
 	--fw-help__resource-title: bold;
 }
@@ -1542,7 +1542,7 @@
 
 :root {
 	--bd-popover: 5px;
-	--sd-popover: 0px 0px 15px 0px rgba(0,0,0,0.2);
+	--sd-popover: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
