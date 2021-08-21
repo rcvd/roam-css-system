@@ -1486,7 +1486,7 @@
 	--br-pomodoro--break: none;
 	--bb-pomodoro--break: none;
 	--bl-pomodoro--break: none;
-	--bd-pomodoro--break: 0px;
+	--bd-pomodoro--break: 5px;
 	--sd-pomodoro--break: none;
 	--co-pomodoro--break: #262626;
 }
@@ -1497,7 +1497,7 @@
 	--br-pomodoro--running: none;
 	--bb-pomodoro--running: none;
 	--bl-pomodoro--running: none;
-	--bd-pomodoro--running: 0px;
+	--bd-pomodoro--running: 5px;
 	--sd-pomodoro--running: none;
 	--co-pomodoro--running: #262626;
 }
@@ -1508,7 +1508,7 @@
 	--br-pomodoro: none;
 	--bb-pomodoro: none;
 	--bl-pomodoro: none;
-	--bd-pomodoro: 0px;
+	--bd-pomodoro: 5px;
 	--sd-pomodoro: none;
 	--co-pomodoro: #262626;
 }

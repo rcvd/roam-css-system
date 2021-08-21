@@ -1366,11 +1366,11 @@
 }
 
 :root {
-	--co-menu__button-icon--hover: #b5b9bd;
+	--co-menu__button-icon--hover: #abacac;
 }
 
 :root {
-	--co-menu__button-icon: #abacac;
+	--co-menu__button-icon: #b5b9bd;
 }
 
 :root {
@@ -1389,63 +1389,63 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 5px;
-	--co-menu__item: var(--cl-gray-900);
+	--co-menu__item: #121417;
 }
 
 :root {
-	--co-menu__item-icon--hover: var(--cl-white);
+	--co-menu__item-icon--hover: #ffffff;
 }
 
 :root {
-	--co-menu__item-icon: var(--cl-gray-100);
+	--co-menu__item-icon: #121417;
 }
 
 :root {
-	--co-menu__item-label--hover: var(--cl-white);
+	--co-menu__item-label--hover: #ffffff;
 }
 
 :root {
-	--co-menu__item-label: var(--cl-gray-500);
+	--co-menu__item-label: #121417;
 	--td-menu__item-label: none;
 }
 
 :root {
-	--co-menu__item-primary: #0074e0;
+	--co-menu__item-primary: #121417;
 }
 
 :root {
-	--bc-menu__menu-item--active: #0074e0;
-	--co-menu__menu-item--active: var(--cl-white);
+	--bc-menu__menu-item--active: #0064e0;
+	--co-menu__menu-item--active: #ffffff;
 }
 
 :root {
-	--fl-menu__svg-icon--hover: var(--cl-white);
+	--fl-menu__svg-icon--hover: #ffffff;
 }
 
 :root {
-	--fl-menu__svg-icon: var(--cl-gray-900);
+	--fl-menu__svg-icon: #121417;
 }
 
 :root {
-	--bc-menu: var(--cl-gray-100);
+	--bc-menu: #ececec;
 	--bt-menu: none;
 	--br-menu: none;
 	--bb-menu: none;
 	--bl-menu: none;
 	--bd-menu: 5px;
-	--co-menu: var(--cl-gray-900);
+	--co-menu: #121417;
 }
 
 :root {
-	--co-mobile-bar__icon: var(--cl-gray-900);
+	--co-mobile-bar__icon: #121417;
 }
 
 :root {
-	--bc-mobile-bar: var(--cl-white);
+	--bc-mobile-bar: #f9fafb;
 }
 
 :root {
-	--bc-modal-dialog: var(--cl-gray-50);
+	--bc-modal-dialog: #f5f6f8;
 	--bt-modal-dialog: 1px solid var(--cl-gray-100);
 	--br-modal-dialog: 1px solid var(--cl-gray-100);
 	--bb-modal-dialog: 1px solid var(--cl-gray-100);
@@ -1454,7 +1454,7 @@
 }
 
 :root {
-	--br-multibar--hover: 3px solid #aeb2b8;
+	--br-multibar--hover: 3px solid #b5b9bd;
 }
 
 :root {
@@ -1462,17 +1462,17 @@
 }
 
 :root {
-	--co-page__link--hover: #0074e0;
+	--co-page__link--hover: #1d72d1;
 	--td-page__link--hover: none;
 }
 
 :root {
-	--co-page__link: #0074e0;
+	--co-page__link: #1d72d1;
 	--td-page__link: none;
 }
 
 :root {
-	--co-page__title: var(--cl-gray-900);
+	--co-page__title: #23272b;
 	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-page__title: 22px;
 	--ft-page__title: ;
@@ -1481,36 +1481,36 @@
 }
 
 :root {
-	--bc-pomodoro--break: var(--cl-green-50);
-	--bt-pomodoro--break: 1px solid var(--cl-green-100);
-	--br-pomodoro--break: 1px solid var(--cl-green-100);
-	--bb-pomodoro--break: 1px solid var(--cl-green-100);
-	--bl-pomodoro--break: 1px solid var(--cl-green-100);
-	--bd-pomodoro--break: 0px;
+	--bc-pomodoro--break: #4cbd5e;
+	--bt-pomodoro--break: none;
+	--br-pomodoro--break: none;
+	--bb-pomodoro--break: none;
+	--bl-pomodoro--break: none;
+	--bd-pomodoro--break: 5px;
 	--sd-pomodoro--break: ;
-	--co-pomodoro--break: var(--cl-green-900);
+	--co-pomodoro--break: #ffffff;
 }
 
 :root {
-	--bc-pomodoro--running: var(--cl-red-50);
-	--bt-pomodoro--running: 1px solid var(--cl-red-100);
-	--br-pomodoro--running: 1px solid var(--cl-red-100);
-	--bb-pomodoro--running: 1px solid var(--cl-red-100);
-	--bl-pomodoro--running: 1px solid var(--cl-red-100);
-	--bd-pomodoro--running: 0px;
+	--bc-pomodoro--running: #ff2f69;
+	--bt-pomodoro--running: none;
+	--br-pomodoro--running: none;
+	--bb-pomodoro--running: none;
+	--bl-pomodoro--running: none;
+	--bd-pomodoro--running: 5px;
 	--sd-pomodoro--running: ;
-	--co-pomodoro--running: var(--cl-red-900);
+	--co-pomodoro--running: #ffffff;
 }
 
 :root {
-	--bc-pomodoro: var(--cl-gray-50);
-	--bt-pomodoro: 1px solid var(--cl-gray-100);
-	--br-pomodoro: 1px solid var(--cl-gray-100);
-	--bb-pomodoro: 1px solid var(--cl-gray-100);
-	--bl-pomodoro: 1px solid var(--cl-gray-100);
-	--bd-pomodoro: 0px;
+	--bc-pomodoro: #b5b9bd;
+	--bt-pomodoro: none;
+	--br-pomodoro: none;
+	--bb-pomodoro: none;
+	--bl-pomodoro: none;
+	--bd-pomodoro: 5px;
 	--sd-pomodoro: ;
-	--co-pomodoro: var(--cl-gray-900);
+	--co-pomodoro: #ffffff;
 }
 
 :root {
@@ -1526,16 +1526,16 @@
 }
 
 :root {
-	--bc-popover__button--hover: ;
-	--bt-popover__button--hover: 1px solid var(--cl-gray-300);
-	--br-popover__button--hover: 1px solid var(--cl-gray-300);
-	--bb-popover__button--hover: 1px solid var(--cl-gray-300);
-	--bl-popover__button--hover: 1px solid var(--cl-gray-300);
+	--bc-popover__button--hover: transparent;
+	--bt-popover__button--hover: 1px solid #b5b9bd;
+	--br-popover__button--hover: 1px solid #b5b9bd;
+	--bb-popover__button--hover: 1px solid #b5b9bd;
+	--bl-popover__button--hover: 1px solid #b5b9bd;
 	--co-popover__button--hover: ;
 }
 
 :root {
-	--bc-popover__button: ;
+	--bc-popover__button: transparent;
 	--bt-popover__button: 1px solid transparent;
 	--br-popover__button: 1px solid transparent;
 	--bb-popover__button: 1px solid transparent;
@@ -1545,17 +1545,17 @@
 }
 
 :root {
-	--bc-popover__content: var(--cl-gray-100);
-	--bt-popover__content: none;
-	--br-popover__content: none;
-	--bb-popover__content: none;
-	--bl-popover__content: none;
+	--bc-popover__content: #ececec;
+	--bt-popover__content: 1px solid #cbcbcb;
+	--br-popover__content: 1px solid #cbcbcb;
+	--bb-popover__content: 1px solid #cbcbcb;
+	--bl-popover__content: 1px solid #cbcbcb;
 	--bd-popover__content: 5px;
-	--co-popover__content: var(--cl-gray-900);
+	--co-popover__content: #232323;
 }
 
 :root {
-	--co-popover__description: var(--cl-gray-400);
+	--co-popover__description: #acacac;
 }
 
 :root {
