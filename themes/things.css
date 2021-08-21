@@ -4034,7 +4034,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-settings__description: ;
+		--co-settings__description: #d1d2d1;
 	}
 }
 
@@ -4044,7 +4044,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-settings__heading: var(--cl-gray-100);
+		--co-settings__heading: #ffffff;
 	}
 }
 
@@ -4116,7 +4116,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__items--selected: #333333;
+		--bc-settings__items--selected: #282828;
 		--bt-settings__items--selected: none;
 		--br-settings__items--selected: none;
 		--bb-settings__items--selected: none;
@@ -4161,7 +4161,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__tab-list: #212121;
+		--bc-settings__tab-list: #141414;
 	}
 }
 
