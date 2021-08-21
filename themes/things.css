@@ -2111,7 +2111,7 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: #bed7f9;
+	--bc-graph-dropdown__setting--hover: #0064e0;
 	--co-graph-dropdown__setting--hover: #ffffff;
 }
 
@@ -2170,8 +2170,8 @@
 }
 
 :root {
-	--bc-help__categories--hover: var(--cl-gray-300);
-	--co-help__categories--hover: var(--cl-gray-900);
+	--bc-help__categories--hover: transparent;
+	--co-help__categories--hover: #272727;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2192,7 +2192,7 @@
 }
 
 :root {
-	--co-help__categories: var(--cl-gray-700);
+	--co-help__categories: #5d5f62;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2202,7 +2202,7 @@
 }
 
 :root {
-	--co-help__category-name: var(--cl-gray-700);
+	--co-help__category-name: #5d5f62;
 	--fs-help__category-name: 1rem;
 	--ft-help__category-name: normal;
 	--fw-help__category-name: normal;
@@ -2216,7 +2216,7 @@
 }
 
 :root {
-	--co-help__component-description: var(--cl-gray-500);
+	--co-help__component-description: #95999d;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2227,7 +2227,7 @@
 
 :root {
 	--bc-help__component-notation: var(--cl-gray-100);
-	--co-help__component-notation: var(--cl-gray-900);
+	--co-help__component-notation: #272727;
 	--fs-help__component-notation: 1rem;
 }
 
@@ -2239,7 +2239,7 @@
 }
 
 :root {
-	--co-help__component-title: var(--cl-gray-700);
+	--co-help__component-title: #5d5f62;
 	--fs-help__component-title: ;
 	--fw-help__component-title: ;
 }
@@ -2251,7 +2251,7 @@
 }
 
 :root {
-	--co-help__function-name: var(--cl-gray-900);
+	--co-help__function-name: #272727;
 	--fs-help__function-name: 1rem;
 	--fw-help__function-name: 500;
 }
@@ -2263,7 +2263,7 @@
 }
 
 :root {
-	--co-help__help-version: var(--cl-gray-500);
+	--co-help__help-version: #95999d;
 	--fs-help__help-version: 12px;
 	--fw-help__help-version: normal;
 }
@@ -2331,7 +2331,7 @@
 }
 
 :root {
-	--co-help__markdown-md: var(--cl-gray-700);
+	--co-help__markdown-md: #5d5f62;
 	--fs-help__markdown-md: 12px;
 	--fw-help__markdown-md: normal;
 	--op-help__markdown-md: 1;
@@ -2344,7 +2344,7 @@
 }
 
 :root {
-	--co-help__markdown-title: var(--cl-gray-900);
+	--co-help__markdown-title: #272727;
 	--fs-help__markdown-title: 1rem;
 	--fw-help__markdown-title: 500;
 }
@@ -2366,7 +2366,7 @@
 }
 
 :root {
-	--co-help__resource-description: var(--cl-gray-600);
+	--co-help__resource-description: #95999d;
 	--fs-help__resource-description: 1rem;
 	--fw-help__resource-description: normal;
 }
@@ -2379,7 +2379,7 @@
 
 :root {
 	--bc-help__resource-icon: var(--cl-gray-100);
-	--co-help__resource-icon: var(--cl-gray-700);
+	--co-help__resource-icon: #5d5f62;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2390,7 +2390,7 @@
 }
 
 :root {
-	--co-help__resource-title: var(--cl-gray-700);
+	--co-help__resource-title: #5d5f62;
 	--fs-help__resource-title: 1rem;
 	--fw-help__resource-title: bold;
 }
@@ -2402,7 +2402,7 @@
 }
 
 :root {
-	--co-help__title: var(--cl-gray-900);
+	--co-help__title: #272727;
 	--fs-help__title: 16px;
 }
 
