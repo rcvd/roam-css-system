@@ -167,3 +167,8 @@
     padding-top: unset;
     border: none;
 }
+
+/* Remove background from scrollbar */
+.bp3-dark .bp3-slider-handle.bp3-active {
+    background-color: transparent;
+}
