@@ -400,6 +400,7 @@
 	--br-checkmark--checked: 1px solid #64a6f5;
 	--bb-checkmark--checked: 1px solid #64a6f5;
 	--bl-checkmark--checked: 1px solid #64a6f5;
+	--sd-checkmark--checked: none;
 }
 
 :root {

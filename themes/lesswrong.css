@@ -866,6 +866,7 @@
 	--br-checkmark--checked: ;
 	--bb-checkmark--checked: ;
 	--bl-checkmark--checked: ;
+	--sd-checkmark--checked: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -875,6 +876,7 @@
 		--br-checkmark--checked: ;
 		--bb-checkmark--checked: ;
 		--bl-checkmark--checked: ;
+		--sd-checkmark--checked: ;
 	}
 }
 
