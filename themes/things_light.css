@@ -1362,7 +1362,7 @@
 }
 
 :root {
-	--co-menu__button-icon--active: var(--cl-white);
+	--co-menu__button-icon--active: #ffffff;
 }
 
 :root {
@@ -1606,11 +1606,11 @@
 }
 
 :root {
-	--bc-reference__item: var(--cl-gray-50);
-	--bt-reference__item: 1px solid var(--cl-gray-100);
-	--br-reference__item: 1px solid var(--cl-gray-100);
-	--bb-reference__item: 1px solid var(--cl-gray-100);
-	--bl-reference__item: 1px solid var(--cl-gray-100);
+	--bc-reference__item: transparent;
+	--bt-reference__item: none;
+	--br-reference__item: none;
+	--bb-reference__item: none;
+	--bl-reference__item: none;
 	--bd-reference__item: 5px;
 }
 
@@ -1625,7 +1625,7 @@
 }
 
 :root {
-	--bc-reference__nested-refs: var(--cl-green-100);
+	--bc-reference__nested-refs: #f9fafb;
 }
 
 :root {
@@ -1633,20 +1633,20 @@
 }
 
 :root {
-	--co-reference__page-title: #0076e4;
+	--co-reference__page-title: #95999d;
 	--fs-reference__page-title: 1rem;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: none;
 }
 
 :root {
-	--co-reference__unlinked-title--hover: ;
+	--co-reference__unlinked-title--hover: #95999d;
 	--td-reference__unlinked-title--hover: ;
 }
 
 :root {
 	--bb-reference__unlinked-title: ;
-	--co-reference__unlinked-title: var(--cl-gray-600);
+	--co-reference__unlinked-title: #95999d;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: normal;
@@ -1655,25 +1655,25 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid #bfc3c5;
-	--br-right-sidebar__bullet-closed: 4px solid #bfc3c5;
-	--bb-right-sidebar__bullet-closed: 4px solid #bfc3c5;
-	--bl-right-sidebar__bullet-closed: 4px solid #bfc3c5;
+	--bt-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--br-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--bb-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--bl-right-sidebar__bullet-closed: 4px solid #b5b9bf;
 }
 
 :root {
-	--bc-right-sidebar__container: var(--cl-gray-50);
-	--bl-right-sidebar__container: 1px solid var(--cl-gray-100);
+	--bc-right-sidebar__container: #f9fafa;
+	--bl-right-sidebar__container: 1px solid #eef0f4;
 }
 
 :root {
-	--co-right-sidebar__h1: var(--cl-gray-700);
+	--co-right-sidebar__h1: #121418;
 	--fs-right-sidebar__h1: 1rem;
 	--fw-right-sidebar__h1: 600;
 }
 
 :root {
-	--bb-right-sidebar__window: 1px solid var(--cl-gray-300);
+	--bb-right-sidebar__window: transparent;
 }
 
 :root {
