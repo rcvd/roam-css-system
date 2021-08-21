@@ -202,7 +202,7 @@ textarea {
     padding:  7px 16px;
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:nth-child(2) {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content div:nth-child(2) {
     padding-top:  16px;
 }
 
@@ -240,4 +240,16 @@ textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
     background-color:  #fff;
     border-bottom: 1px solid #d1d2d2;
+}
+
+#right-sidebar .flex-h-box {
+    background-color: #fff;
+    padding: 0;
+    margin:  0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d2d2;
+}
+
+#right-sidebar {
+    padding-top:  0px;
 }
