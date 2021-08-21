@@ -244,7 +244,8 @@ textarea {
 
 #right-sidebar .flex-h-box {
     background-color: #fff;
-    padding-bottom: 20px!important;
+    padding: 8px;
+    padding-bottom: 12px!important;
     border-bottom: 1px solid #d1d2d2;
 }
 
