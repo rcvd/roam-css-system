@@ -2181,6 +2181,7 @@ span[style*='background-color: yellow'] {
 }
 
 .rm-topbar .bp3-datepicker .DayPicker-Day.DayPicker-Day--outside:hover {
+	background-color: 		var(--bc-topbar-datepicker__outside, inherit);
 }
 
 .rm-topbar .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {

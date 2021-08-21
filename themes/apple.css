@@ -4699,10 +4699,12 @@
 }
 
 :root {
+	--bc-topbar-datepicker__outside: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-topbar-datepicker__outside: ;
 	}
 }
 

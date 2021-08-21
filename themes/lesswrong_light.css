@@ -2155,6 +2155,7 @@
 }
 
 :root {
+	--bc-topbar-datepicker__outside: ;
 }
 
 :root {
