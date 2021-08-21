@@ -1929,6 +1929,15 @@
 }
 
 :root {
+	--bc-settings__select-wrapper: ;
+	--bt-settings__select-wrapper: ;
+	--br-settings__select-wrapper: ;
+	--bb-settings__select-wrapper: ;
+	--bl-settings__select-wrapper: ;
+	--bd-settings__select-wrapper: 5px;
+}
+
+:root {
 	--bc-span--highlighted: #f8e594;
 }
 
