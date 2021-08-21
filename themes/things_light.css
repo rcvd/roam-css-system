@@ -1210,16 +1210,16 @@
 }
 
 :root {
-	--bc-left-sidebar__container: var(--cl-gray-100);
-	--br-left-sidebar__container: 1px solid var(--cl-gray-200);;
+	--bc-left-sidebar__container: #f5f6f8;
+	--br-left-sidebar__container: 1px solid #eaecf0;
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: var(--cl-gray-700);
+	--co-left-sidebar__db-title--hover: #525659;
 }
 
 :root {
-	--co-left-sidebar__db-title: var(--cl-gray-700);
+	--co-left-sidebar__db-title: #525659;
 	--ff-left-sidebar__db-title: ;
 	--fs-left-sidebar__db-title: ;
 	--fw-left-sidebar__db-title: 500;
@@ -1227,14 +1227,14 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: var(--cl-gray-200);
+	--bc-left-sidebar__hr: #f9fafb;
 }
 
 :root {
 }
 
 :root {
-	--co-left-sidebar__icon: var(--cl-gray-700);
+	--co-left-sidebar__icon: #525659;
 	--fs-left-sidebar__icon: 16px;
 }
 
@@ -1248,7 +1248,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: var(--cl-gray-700);
+	--co-left-sidebar__logo-text: #525659;
 }
 
 :root {
@@ -1257,7 +1257,7 @@
 
 :root {
 	--bb-level1: 1px solid #e6e8ec;
-	--co-level1: var(--cl-gray-800);
+	--co-level1: #24282b;
 	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 1rem;
 	--ft-level1: ;
@@ -1267,7 +1267,7 @@
 
 :root {
 	--bb-level2: 1px solid #e6e8ec;
-	--co-level2: #0362c1;
+	--co-level2: #0063c0;
 	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 1rem;
 	--ft-level2: ;
@@ -1276,8 +1276,8 @@
 }
 
 :root {
-	--bb-level3: 1px solid #e6e8ec;
-	--co-level3: var(--cl-gray-600);
+	--bb-level3: none;
+	--co-level3: #b5b9bf;
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 1rem;
 	--ft-level3: ;
@@ -1286,7 +1286,7 @@
 }
 
 :root {
-	--co-log-page__h1: var(--cl-gray-500);
+	--co-log-page__h1: #b0b2b7;
 	--ff-log-page__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-log-page__h1: 22px;
 	--ft-log-page__h1: ;
@@ -1295,25 +1295,25 @@
 }
 
 :root {
-	--co-log-page__preview: var(--cl-gray-500);
+	--co-log-page__preview: #b0b2b7;
 }
 
 :root {
-	--bt-log-page: 1px solid var(--cl-gray-200);
+	--bt-log-page: 1px solid #b0b2b7;
 }
 
 :root {
 	--bc-logbutton--hover: transparent;
-	--bt-logbutton--hover: ;
-	--br-logbutton--hover: ;
-	--bb-logbutton--hover: ;
-	--bl-logbutton--hover: ;
-	--co-logbutton--hover: var(--cl-gray-700);
+	--bt-logbutton--hover: none;
+	--br-logbutton--hover: none;
+	--bb-logbutton--hover: none;
+	--bl-logbutton--hover: none;
+	--co-logbutton--hover: #525659;
 	--td-logbutton--hover: ;
 }
 
 :root {
-	--co-logbutton: var(--cl-gray-700);
+	--co-logbutton: #525659;
 	--ff-logbutton: ;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 500;
@@ -1321,11 +1321,11 @@
 }
 
 :root {
-	--bc-main: var(--cl-white);
+	--bc-main: #ffffff;
 }
 
 :root {
-	--co-main: var(--cl-gray-900);
+	--co-main: #121417;
 	--ff-main: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-main: 1rem;
 	--fw-main: normal;
@@ -1333,32 +1333,32 @@
 
 :root {
 	--bc-menu__button--active: #509cfe;
-	--bt-menu__button--active: none;
-	--br-menu__button--active: none;
-	--bb-menu__button--active: none;
-	--bl-menu__button--active: none;
+	--bt-menu__button--active: 1px solid #509cfe;
+	--br-menu__button--active: 1px solid #509cfe;
+	--bb-menu__button--active: 1px solid #509cfe;
+	--bl-menu__button--active: 1px solid #509cfe;
 	--bd-menu__button--active: 3px;
-	--co-menu__button--active: var(--cl-white);
+	--co-menu__button--active: #ffffff;
 }
 
 :root {
 	--bc-menu__button--hover: transparent;
-	--bt-menu__button--hover: 1px solid #e9ebee;
-	--br-menu__button--hover: 1px solid #e9ebee;
-	--bb-menu__button--hover: 1px solid #e9ebee;
-	--bl-menu__button--hover: 1px solid #e9ebee;
+	--bt-menu__button--hover: 1px solid #8d9195;
+	--br-menu__button--hover: 1px solid #8d9195;
+	--bb-menu__button--hover: 1px solid #8d9195;
+	--bl-menu__button--hover: 1px solid #8d9195;
 	--bd-menu__button--hover: 3px;
-	--co-menu__button--hover: ;
+	--co-menu__button--hover: #b5b9bd;
 }
 
 :root {
 	--bc-menu__button: transparent;
-	--bt-menu__button: none;
-	--br-menu__button: none;
-	--bb-menu__button: none;
-	--bl-menu__button: none;
+	--bt-menu__button: 1px solid transparent;
+	--br-menu__button: 1px solid transparent;
+	--bb-menu__button: 1px solid transparent;
+	--bl-menu__button: 1px solid transparent;
 	--bd-menu__button: 3px;
-	--co-menu__button: ;
+	--co-menu__button: #b5b9bd;
 }
 
 :root {
@@ -1375,19 +1375,19 @@
 
 :root {
 	--bc-menu__item--hover: #0064e0;
-	--bt-menu__item--hover: ;
-	--br-menu__item--hover: ;
-	--bb-menu__item--hover: ;
-	--bl-menu__item--hover: ;
+	--bt-menu__item--hover: none;
+	--br-menu__item--hover: none;
+	--bb-menu__item--hover: none;
+	--bl-menu__item--hover: none;
 	--bd-menu__item--hover: 5px;
 	--co-menu__item--hover: #ffffff;
 }
 
 :root {
-	--bt-menu__item: ;
-	--br-menu__item: ;
-	--bb-menu__item: ;
-	--bl-menu__item: ;
+	--bt-menu__item: none;
+	--br-menu__item: none;
+	--bb-menu__item: none;
+	--bl-menu__item: none;
 	--bd-menu__item: 5px;
 	--co-menu__item: var(--cl-gray-900);
 }
@@ -1428,10 +1428,10 @@
 
 :root {
 	--bc-menu: var(--cl-gray-100);
-	--bt-menu: 1px solid #cacaca;
-	--br-menu: 1px solid #cacaca;
-	--bb-menu: 1px solid #cacaca;
-	--bl-menu: 1px solid #cacaca;
+	--bt-menu: none;
+	--br-menu: none;
+	--bb-menu: none;
+	--bl-menu: none;
 	--bd-menu: 5px;
 	--co-menu: var(--cl-gray-900);
 }
