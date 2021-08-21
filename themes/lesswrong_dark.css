@@ -1078,6 +1078,7 @@
 
 :root {
 	--bc-highlight: var(--cl-green-800);
+	--co-highlight: ;
 }
 
 :root {

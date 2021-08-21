@@ -2370,11 +2370,13 @@
 
 :root {
 	--bc-highlight: #ffcc02;
+	--co-highlight: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-highlight: ;
+		--co-highlight: ;
 	}
 }
 
