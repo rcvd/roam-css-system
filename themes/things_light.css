@@ -1374,13 +1374,13 @@
 }
 
 :root {
-	--bc-menu__item--hover: var(--cl-gray-400);
+	--bc-menu__item--hover: #0064e0;
 	--bt-menu__item--hover: ;
 	--br-menu__item--hover: ;
 	--bb-menu__item--hover: ;
 	--bl-menu__item--hover: ;
 	--bd-menu__item--hover: 5px;
-	--co-menu__item--hover: var(--cl-white);
+	--co-menu__item--hover: #ffffff;
 }
 
 :root {
