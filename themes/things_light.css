@@ -1579,7 +1579,7 @@
 	--bb-query: none;
 	--bl-query: none;
 	--bd-query: 5px;
-	--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.3);
+	--sd-query: 0px 0px 5px 3px rgba(0,0,0,0.1);
 }
 
 :root {
