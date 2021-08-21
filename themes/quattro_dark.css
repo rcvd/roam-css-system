@@ -953,7 +953,10 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: var(--cl-blue-900);
+	--bc-graph-dropdown__setting--hover: ;
+}
+
+:root {
 	--co-graph-dropdown__setting--hover: ;
 }
 

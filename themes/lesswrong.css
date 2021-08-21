@@ -2111,13 +2111,21 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: var(--cl-gray-500);
+	--bc-graph-dropdown__setting--hover: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-graph-dropdown__setting--hover: ;
+	}
+}
+
+:root {
 	--co-graph-dropdown__setting--hover: var(--cl-white);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-graph-dropdown__setting--hover: var(--cl-gray-500);
 		--co-graph-dropdown__setting--hover: var(--cl-white);
 	}
 }

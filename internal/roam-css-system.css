@@ -966,8 +966,11 @@ div, textarea {
 	text-transform: 		var(--tt-graph-dropdown__menu-title, inherit);
 }
 
-.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover a {
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover {
 	background-color: 		var(--bc-graph-dropdown__setting--hover, #CED9E0);
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover a {
 	color: 					var(--co-graph-dropdown__setting--hover, inherit)!important;
 }
 

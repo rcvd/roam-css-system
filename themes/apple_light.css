@@ -954,6 +954,9 @@
 
 :root {
 	--bc-graph-dropdown__setting--hover: #0064e0;
+}
+
+:root {
 	--co-graph-dropdown__setting--hover: #ffffff;
 }
 
