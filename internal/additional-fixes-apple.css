@@ -242,7 +242,7 @@ textarea {
     border-bottom: 1px solid #d1d2d2;
 }
 
-#right-sidebar .flex-h-box {
+#right-sidebar > .flex-h-box {
     background-color: #fff;
     padding: 8px!important;
     padding-bottom: 12px!important;
