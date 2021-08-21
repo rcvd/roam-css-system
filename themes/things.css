@@ -814,11 +814,11 @@
 }
 
 :root {
-	--bc-card: #f9fafb;
-	--bt-card: 1px solid #cacaca;
-	--br-card: 1px solid #cacaca;
-	--bb-card: 1px solid #cacaca;
-	--bl-card: 1px solid #cacaca;
+	--bc-card: #f6f6f6;
+	--bt-card: 1px solid #b5b5b5;
+	--br-card: 1px solid #b5b5b5;
+	--bb-card: 1px solid #b5b5b5;
+	--bl-card: 1px solid #b5b5b5;
 	--bd-card: 5px;
 	--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
@@ -862,19 +862,19 @@
 
 :root {
 	--bc-checkmark--checked: #0362c1;
-	--bt-checkmark--checked: ;
-	--br-checkmark--checked: ;
-	--bb-checkmark--checked: ;
-	--bl-checkmark--checked: ;
+	--bt-checkmark--checked: 1px solid #0362c1;
+	--br-checkmark--checked: 1px solid #0362c1;
+	--bb-checkmark--checked: 1px solid #0362c1;
+	--bl-checkmark--checked: 1px solid #0362c1;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-checkmark--checked: #64a6f5;
-		--bt-checkmark--checked: ;
-		--br-checkmark--checked: ;
-		--bb-checkmark--checked: ;
-		--bl-checkmark--checked: ;
+		--bt-checkmark--checked: 1px solid #64a6f5;
+		--br-checkmark--checked: 1px solid #64a6f5;
+		--bb-checkmark--checked: 1px solid #64a6f5;
+		--bl-checkmark--checked: 1px solid #64a6f5;
 	}
 }
 

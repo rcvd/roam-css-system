@@ -396,10 +396,10 @@
 
 :root {
 	--bc-checkmark--checked: #64a6f5;
-	--bt-checkmark--checked: ;
-	--br-checkmark--checked: ;
-	--bb-checkmark--checked: ;
-	--bl-checkmark--checked: ;
+	--bt-checkmark--checked: 1px solid #64a6f5;
+	--br-checkmark--checked: 1px solid #64a6f5;
+	--bb-checkmark--checked: 1px solid #64a6f5;
+	--bl-checkmark--checked: 1px solid #64a6f5;
 }
 
 :root {
