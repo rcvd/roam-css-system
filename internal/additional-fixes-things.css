@@ -155,7 +155,7 @@
 /* Remove popover arrows */
 .bp3-popover-arrow {
     display: none;
-}
+}   
 
 /* Remove gradient from all pages checkboxes */
 .rm-all-pages .bp3-control .bp3-control-indicator {
@@ -179,9 +179,4 @@
 /* Remove background from button */
 .bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
-}
-
-/* Resize checkbox indicator on allpages */
-.bp3-control .bp3-control-indicator::before {
-    width: 0.9em;
 }
