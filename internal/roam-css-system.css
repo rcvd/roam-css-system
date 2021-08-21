@@ -968,7 +968,7 @@ div, textarea {
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover {
 	background-color: 		var(--bc-graph-dropdown__setting--hover, #CED9E0);
-	color: 					var(--co-graph-dropdown__setting--hover, inherit);
+	color: 					var(--co-graph-dropdown__setting--hover, inherit)!important;
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting {
