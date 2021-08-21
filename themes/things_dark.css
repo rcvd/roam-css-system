@@ -1167,7 +1167,7 @@
 }
 
 :root {
-	--bc-kanban__card: #222222;
+	--bc-kanban__card: #333333;
 	--bt-kanban__card: none;
 	--br-kanban__card: none;
 	--bb-kanban__card: none;
@@ -1180,7 +1180,7 @@
 }
 
 :root {
-	--bc-kanban__dropbar: #333333;
+	--bc-kanban__dropbar: #286bbd;
 }
 
 :root {
@@ -1188,7 +1188,7 @@
 }
 
 :root {
-	--bc-kanban: #e7e7e7;
+	--bc-kanban: #222222;
 }
 
 :root {
