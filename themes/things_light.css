@@ -1564,30 +1564,30 @@
 }
 
 :root {
-	--bc-query__content: var(--cl-white);
+	--bc-query__content: transparent;
 }
 
 :root {
-	--bc-query__title: var(--cl-gray-100);
+	--bc-query__title: transparent;
 	--co-query__title: var(--cl-gray-500);
 }
 
 :root {
-	--bc-query: ;
-	--bt-query: 1px solid var(--cl-gray-200);
-	--br-query: 1px solid var(--cl-gray-200);
-	--bb-query: 1px solid var(--cl-gray-200);
-	--bl-query: 1px solid var(--cl-gray-200);
+	--bc-query: #f5f6f8;
+	--bt-query: none;
+	--br-query: none;
+	--bb-query: none;
+	--bl-query: none;
 	--bd-query: 5px;
-	--sd-query: ;
+	--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.3);
 }
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: ;
-	--br-quote: ;
-	--bb-quote: ;
-	--bl-quote: 8px solid #0362c1;
+	--bt-quote: none;
+	--br-quote: none;
+	--bb-quote: none;
+	--bl-quote: 4px solid #0362c1;
 	--bd-quote: ;
 	--ff-quote: ;
 	--fs-quote: 1rem;
