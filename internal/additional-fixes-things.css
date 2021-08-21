@@ -166,3 +166,9 @@
 .rm-all-pages .bp3-control .bp3-control-indicator {
     background-image: none;
 }
+
+/* Remove border from top panel in settings */
+.rm-settings .rm-settings-panel__section.rm-settings-panel__section--top {
+    padding-top: unset;
+    border: none;
+}
