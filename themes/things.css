@@ -3414,6 +3414,8 @@
 	--br-query: 1px solid var(--cl-gray-200);
 	--bb-query: 1px solid var(--cl-gray-200);
 	--bl-query: 1px solid var(--cl-gray-200);
+	--bd-query: ;
+	--sd-query: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3422,6 +3424,7 @@
 		--br-query: none;
 		--bb-query: none;
 		--bl-query: none;
+		--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.25);
 	}
 }
 
@@ -3431,7 +3434,7 @@
 	--br-quote: ;
 	--bb-quote: ;
 	--bl-quote: 8px solid #0362c1;
-	--bd-quote: ;
+	--bd-quote: 5px;
 	--ff-quote: ;
 	--fs-quote: 1rem;
 	--ft-quote: ;

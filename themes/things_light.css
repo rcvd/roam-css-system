@@ -1559,6 +1559,8 @@
 	--br-query: 1px solid var(--cl-gray-200);
 	--bb-query: 1px solid var(--cl-gray-200);
 	--bl-query: 1px solid var(--cl-gray-200);
+	--bd-query: ;
+	--sd-query: ;
 }
 
 :root {
@@ -1567,7 +1569,7 @@
 	--br-quote: ;
 	--bb-quote: ;
 	--bl-quote: 8px solid #0362c1;
-	--bd-quote: ;
+	--bd-quote: 5px;
 	--ff-quote: ;
 	--fs-quote: 1rem;
 	--ft-quote: ;

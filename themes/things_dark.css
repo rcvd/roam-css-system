@@ -1559,6 +1559,8 @@
 	--br-query: none;
 	--bb-query: none;
 	--bl-query: none;
+	--bd-query: ;
+	--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.25);
 }
 
 :root {
@@ -1567,7 +1569,7 @@
 	--br-quote: ;
 	--bb-quote: ;
 	--bl-quote: 8px solid #67acfe;
-	--bd-quote: ;
+	--bd-quote: 5px;
 	--ff-quote: ;
 	--fs-quote: 1rem;
 	--ft-quote: ;

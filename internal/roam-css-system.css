@@ -1582,6 +1582,9 @@ div, textarea {
 	border-right: 			var(--br-query, .5px solid #BFCCD6);
 	border-bottom: 			var(--bb-query, .5px solid #BFCCD6);
 	border-left: 			var(--bl-query, .5px solid #BFCCD6);
+	border-radius: 			var(--bd-query, inherit);
+	box-shadow: 			var(--sd-query, inherit);
+	--webkit-box-shadow: 	var(--sd-query, inherit);
 }
 
 .rm-bq {
