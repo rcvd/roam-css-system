@@ -2712,7 +2712,7 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: #f0f0f0;
+	--bc-left-sidebar__hr: #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2902,7 +2902,7 @@
 }
 
 :root {
-	--bc-main: #ffffff;
+	--bc-main: #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
