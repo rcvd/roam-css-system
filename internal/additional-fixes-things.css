@@ -175,3 +175,13 @@
 .rm-settings ::-webkit-scrollbar:vertical {
     background: transparent;
 }
+
+/* Remove background from button */
+.bp3-button:not([class*='bp3-intent-']) {
+    background-image: none;
+}
+
+/* Resize checkbox indicator on allpages */
+.bp3-control .bp3-control-indicator::before {
+    width: 0.9em;
+}
