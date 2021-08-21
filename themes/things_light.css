@@ -554,6 +554,14 @@
 }
 
 :root {
+	--bc-control--checked: ;
+}
+
+:root {
+	--bc-control: ;
+}
+
+:root {
 	--bc-datepicker__day--hover: #4f9dfe;
 	--bd-datepicker__day--hover: 2px;
 	--co-datepicker__day--hover: var(--cl-white);

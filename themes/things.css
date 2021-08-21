@@ -1231,6 +1231,26 @@
 }
 
 :root {
+	--bc-control--checked: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-control--checked: #0059d0;
+	}
+}
+
+:root {
+	--bc-control: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-control: #6d6e6d;
+	}
+}
+
+:root {
 	--bc-datepicker__day--hover: #4f9dfe;
 	--bd-datepicker__day--hover: 2px;
 	--co-datepicker__day--hover: var(--cl-white);
