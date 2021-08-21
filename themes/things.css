@@ -3080,7 +3080,7 @@
 }
 
 :root {
-	--co-menu__item-label: #121417;
+	--co-menu__item-label: #abacac;
 	--td-menu__item-label: none;
 }
 
@@ -3411,7 +3411,7 @@
 }
 
 :root {
-	--co-popover__description: #acacac;
+	--co-popover__description: #abacac;
 }
 
 @media(prefers-color-scheme: dark) {
