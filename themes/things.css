@@ -4818,7 +4818,7 @@
 }
 
 :root {
-	--bc-version__bullet: var(--cl-gray-500);
+	--bc-version__bullet: #b5b9bf;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4828,7 +4828,7 @@
 }
 
 :root {
-	--bc-zoom__mask: var(--cl-gray-50);
+	--bc-zoom__mask: #f9fafb;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4838,7 +4838,7 @@
 }
 
 :root {
-	--co-zoom-item: var(--cl-gray-400);
+	--co-zoom-item: #b1b5bb;
 	--fs-zoom-item: 1rem;
 }
 
