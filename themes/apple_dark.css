@@ -2083,6 +2083,10 @@
 }
 
 :root {
+	--co-topbar-datepicker__weekdays: ;
+}
+
+:root {
 	--br-topbar-datepicker__weeknumber: ;
 	--co-topbar-datepicker__weeknumber: ;
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont,'Inter',sans-serif;;

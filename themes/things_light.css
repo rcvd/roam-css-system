@@ -2083,6 +2083,10 @@
 }
 
 :root {
+	--co-topbar-datepicker__weekdays: ;
+}
+
+:root {
 	--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-300);
 	--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;

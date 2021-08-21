@@ -4520,7 +4520,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__today: #333333;
+		--co-topbar-datepicker__today: #ffffff;
 	}
 }
 
@@ -4535,6 +4535,16 @@
 }
 
 :root {
+	--co-topbar-datepicker__weekdays: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-topbar-datepicker__weekdays: #939393;
+	}
+}
+
+:root {
 	--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-300);
 	--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
@@ -4543,7 +4553,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-topbar-datepicker__weeknumber: 1px solid #373737;
+		--br-topbar-datepicker__weeknumber: 1px solid #585858;
 		--co-topbar-datepicker__weeknumber: #939393;
 	}
 }
@@ -4562,11 +4572,11 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-topbar-datepicker: #3333333;
-		--bt-topbar-datepicker: ;
-		--br-topbar-datepicker: ;
-		--bb-topbar-datepicker: ;
-		--bl-topbar-datepicker: ;
-		--co-topbar-datepicker: var(--cl-gray-500);
+		--bt-topbar-datepicker: none;
+		--br-topbar-datepicker: none;
+		--bb-topbar-datepicker: none;
+		--bl-topbar-datepicker: none;
+		--co-topbar-datepicker: #ffffff;
 	}
 }
 
@@ -4578,7 +4588,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-topbar-datepicker-html__select--hover: #0058d0;
-		--co-topbar-datepicker-html__select--hover: var(--cl-white);
+		--co-topbar-datepicker-html__select--hover: #ffffff;
 	}
 }
 
@@ -4588,7 +4598,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker-html__select: var(--cl-white);
+		--co-topbar-datepicker-html__select: #ffffff;
 	}
 }
 
@@ -4598,7 +4608,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker-html__select-icon: var(--cl-gray-500);
+		--co-topbar-datepicker-html__select-icon: #ffffff;
 	}
 }
 
@@ -4608,7 +4618,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-version__bullet: #4d4e4d;
+		--bc-version__bullet: #646565;
 	}
 }
 
@@ -4629,7 +4639,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-zoom-item: var(--cl-gray-500);
+		--co-zoom-item: #939393;
 	}
 }
 

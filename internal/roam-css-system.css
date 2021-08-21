@@ -2107,6 +2107,10 @@ span[style*='background-color: yellow'] {
 	background-color: 		var(--bc-topbar-datepicker__today-selected--hover, #137CBD);
 }
 
+.rm-topbar .bp3-datepicker .DayPicker-WeekdaysRow {
+	color: 					var(--co-topbar-datepicker__weekdays, inherit);
+}
+
 .rm-topbar .rm-jump-date-picker .DayPicker-WeekNumber {
 	border-right: 			var(--br-topbar-datepicker__weeknumber, 1px solid #BFCCD6);
 	color: 					var(--co-topbar-datepicker__weeknumber, rgba(92,112,128,0.6));
