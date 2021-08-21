@@ -3642,7 +3642,7 @@
 
 :root {
 	--bc-right-sidebar__container: #f9fafa;
-	--bl-right-sidebar__container: 1px solid #eef0f4;
+	--bl-right-sidebar__container: none;
 }
 
 @media(prefers-color-scheme: dark) {
