@@ -1043,7 +1043,7 @@
 	--br-help__input--focus: none;
 	--bb-help__input--focus: none;
 	--bl-help__input--focus: none;
-	--bd-help__input--focus: ;
+	--bd-help__input--focus: 5px;
 }
 
 :root {
@@ -1052,7 +1052,7 @@
 	--br-help__input: none;
 	--bb-help__input: none;
 	--bl-help__input: none;
-	--bd-help__input: ;
+	--bd-help__input: 5px;
 }
 
 :root {

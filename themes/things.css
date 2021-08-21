@@ -2182,7 +2182,7 @@
 }
 
 :root {
-	--bc-help__categories--selected: var(--cl-blue-100);
+	--bc-help__categories--selected: #0064e0;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2226,7 +2226,7 @@
 }
 
 :root {
-	--bc-help__component-notation: var(--cl-gray-100);
+	--bc-help__component-notation: #f9fafa;
 	--co-help__component-notation: #272727;
 	--fs-help__component-notation: 1rem;
 }
@@ -2239,7 +2239,7 @@
 }
 
 :root {
-	--co-help__component-title: #5d5f62;
+	--co-help__component-title: #272727;
 	--fs-help__component-title: ;
 	--fw-help__component-title: ;
 }
@@ -2275,7 +2275,7 @@
 }
 
 :root {
-	--bc-help__icon-container: ;
+	--bc-help__icon-container: transparent;
 	--bt-help__icon-container: none;
 	--br-help__icon-container: none;
 	--bb-help__icon-container: none;
@@ -2293,12 +2293,12 @@
 }
 
 :root {
-	--bc-help__input--focus: ;
-	--bt-help__input--focus: ;
-	--br-help__input--focus: ;
-	--bb-help__input--focus: ;
-	--bl-help__input--focus: ;
-	--bd-help__input--focus: ;
+	--bc-help__input--focus: #dbdde4;
+	--bt-help__input--focus: none;
+	--br-help__input--focus: none;
+	--bb-help__input--focus: none;
+	--bl-help__input--focus: none;
+	--bd-help__input--focus: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2312,12 +2312,12 @@
 }
 
 :root {
-	--bc-help__input: ;
-	--bt-help__input: ;
-	--br-help__input: ;
-	--bb-help__input: ;
-	--bl-help__input: ;
-	--bd-help__input: ;
+	--bc-help__input: transparent;
+	--bt-help__input: none;
+	--br-help__input: none;
+	--bb-help__input: none;
+	--bl-help__input: none;
+	--bd-help__input: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2356,7 +2356,7 @@
 }
 
 :root {
-	--bc-help__resource--hover: var(--cl-blue-50);
+	--bc-help__resource--hover: transparent;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2366,7 +2366,7 @@
 }
 
 :root {
-	--co-help__resource-description: #95999d;
+	--co-help__resource-description: #5d5f62;
 	--fs-help__resource-description: 1rem;
 	--fw-help__resource-description: normal;
 }
@@ -2378,7 +2378,7 @@
 }
 
 :root {
-	--bc-help__resource-icon: var(--cl-gray-100);
+	--bc-help__resource-icon: transparent;
 	--co-help__resource-icon: #5d5f62;
 }
 
@@ -2390,7 +2390,7 @@
 }
 
 :root {
-	--co-help__resource-title: #5d5f62;
+	--co-help__resource-title: #272727;
 	--fs-help__resource-title: 1rem;
 	--fw-help__resource-title: bold;
 }
