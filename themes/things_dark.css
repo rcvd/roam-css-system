@@ -236,7 +236,7 @@
 	--br-button__cancel: 1px solid #707171;
 	--bb-button__cancel: 1px solid #707171;
 	--bl-button__cancel: 1px solid #707171;
-	--bd-button__cancel: ;
+	--bd-button__cancel: 5px;
 	--sd-button__cancel: ;
 	--co-button__cancel: #e6e7e7;
 }
@@ -257,7 +257,7 @@
 	--br-button__danger: none;
 	--bb-button__danger: none;
 	--bl-button__danger: none;
-	--bd-button__danger: ;
+	--bd-button__danger: 5px;
 	--sd-button__danger: none;
 	--co-button__danger: #2c2227;
 }
@@ -272,7 +272,7 @@
 
 :root {
 	--bc-button__minimal--hover: transparent;
-	--bd-button__minimal--hover: ;
+	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: #dfeaf9;
 	--td-button__minimal--hover: ;
@@ -280,7 +280,7 @@
 
 :root {
 	--bc-button__minimal: transparent;
-	--bd-button__minimal: ;
+	--bd-button__minimal: 5px;
 	--sd-button__minimal: none;
 }
 
@@ -300,7 +300,7 @@
 	--br-button__primary: none;
 	--bb-button__primary: none;
 	--bl-button__primary: none;
-	--bd-button__primary: ;
+	--bd-button__primary: 5px;
 	--sd-button__primary: none;
 	--co-button__primary: #dfeaf9;
 }
@@ -321,7 +321,7 @@
 	--br-button__warning: none;
 	--bb-button__warning: none;
 	--bl-button__warning: none;
-	--bd-button__warning: ;
+	--bd-button__warning: 5px;
 	--sd-button__warning: none;
 	--co-button__warning: #2c2504;
 }
@@ -341,7 +341,7 @@
 	--br-button--default: none;
 	--bb-button--default: none;
 	--bl-button--default: none;
-	--bd-button--default: ;
+	--bd-button--default: 5px;
 	--fs-button--default: ;
 }
 

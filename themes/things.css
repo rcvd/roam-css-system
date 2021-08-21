@@ -509,7 +509,7 @@
 	--br-button__cancel: ;
 	--bb-button__cancel: ;
 	--bl-button__cancel: ;
-	--bd-button__cancel: ;
+	--bd-button__cancel: 5px;
 	--sd-button__cancel: ;
 	--co-button__cancel: ;
 }
@@ -554,7 +554,7 @@
 	--br-button__danger: ;
 	--bb-button__danger: ;
 	--bl-button__danger: ;
-	--bd-button__danger: ;
+	--bd-button__danger: 5px;
 	--sd-button__danger: ;
 	--co-button__danger: ;
 }
@@ -593,7 +593,7 @@
 
 :root {
 	--bc-button__minimal--hover: ;
-	--bd-button__minimal--hover: ;
+	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: ;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
@@ -609,7 +609,7 @@
 
 :root {
 	--bc-button__minimal: ;
-	--bd-button__minimal: ;
+	--bd-button__minimal: 5px;
 	--sd-button__minimal: ;
 }
 
@@ -648,7 +648,7 @@
 	--br-button__primary: ;
 	--bb-button__primary: ;
 	--bl-button__primary: ;
-	--bd-button__primary: ;
+	--bd-button__primary: 5px;
 	--sd-button__primary: ;
 	--co-button__primary: ;
 }
@@ -693,7 +693,7 @@
 	--br-button__warning: ;
 	--bb-button__warning: ;
 	--bl-button__warning: ;
-	--bd-button__warning: ;
+	--bd-button__warning: 5px;
 	--sd-button__warning: ;
 	--co-button__warning: ;
 }
@@ -739,7 +739,7 @@
 	--br-button--default: ;
 	--bb-button--default: ;
 	--bl-button--default: ;
-	--bd-button--default: ;
+	--bd-button--default: 5px;
 	--fs-button--default: ;
 }
 
