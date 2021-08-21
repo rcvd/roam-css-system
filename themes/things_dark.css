@@ -44,11 +44,11 @@
 	--br-allpages__clickable-pill: none;
 	--bb-allpages__clickable-pill: none;
 	--bl-allpages__clickable-pill: none;
-	--bd-allpages__clickable-pill: ;
+	--bd-allpages__clickable-pill: 0;
 	--co-allpages__clickable-pill: #676767;
 	--fs-allpages__clickable-pill: ;
 	--fw-allpages__clickable-pill: ;
-	--op-allpages__clickable-pill: ;
+	--op-allpages__clickable-pill: 1;
 }
 
 :root {
@@ -88,7 +88,7 @@
 	--bb-allpages__clickable-pill-empty: none;
 	--bl-allpages__clickable-pill-empty: none;
 	--co-allpages__clickable-pill-empty: #676767;
-	--op-allpages__clickable-pill-empty: ;
+	--op-allpages__clickable-pill-empty: 1;
 }
 
 :root {
