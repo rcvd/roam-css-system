@@ -1583,7 +1583,7 @@
 }
 
 :root {
-	--co-reference__item--hover: ;
+	--co-reference__item--hover: #e5e5e5;
 	--td-reference__item--hover: ;
 }
 
@@ -1637,10 +1637,10 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid var(--cl-gray-700);
-	--br-right-sidebar__bullet-closed: 4px solid var(--cl-gray-700);
-	--bb-right-sidebar__bullet-closed: 4px solid var(--cl-gray-700);
-	--bl-right-sidebar__bullet-closed: 4px solid var(--cl-gray-700);
+	--bt-right-sidebar__bullet-closed: 4px solid #666767;
+	--br-right-sidebar__bullet-closed: 4px solid #666767;
+	--bb-right-sidebar__bullet-closed: 4px solid #666767;
+	--bl-right-sidebar__bullet-closed: 4px solid #666767;
 }
 
 :root {
@@ -1655,7 +1655,7 @@
 }
 
 :root {
-	--bb-right-sidebar__window: 1px solid var(--cl-gray-700);
+	--bb-right-sidebar__window: transparent;
 }
 
 :root {
