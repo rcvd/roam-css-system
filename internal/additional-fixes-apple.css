@@ -15,26 +15,26 @@ body {
 
 .level1 {
     line-height: 26px;
-    letter-spacing: 0.22px;
+    letter-spacing: -0.26px;
 }
 
 .level2 {
     line-height: 22px;
-    letter-spacing: -0.26px;
+    letter-spacing: -0.43px;
 }
 
 .level3 {
     line-height: 20px;
-    letter-spacing: -0.45px;
+    letter-spacing: -0.23px;
 }
 
 div {
-    line-height: 22px;
-    letter-spacing: -0.37400001287460327px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
 }
 
 textarea {
-    line-height: 17px;
+    line-height: 16px;
 }
 
 /* Fix bullet position */
