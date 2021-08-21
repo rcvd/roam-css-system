@@ -2688,7 +2688,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #595a59;
+	--co-left-sidebar__db-title--hover: #595959;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2698,9 +2698,9 @@
 }
 
 :root {
-	--co-left-sidebar__db-title: #595a59;
+	--co-left-sidebar__db-title: #595959;
 	--ff-left-sidebar__db-title: ;
-	--fs-left-sidebar__db-title: ;
+	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
 	--tt-left-sidebar__db-title: ;
 }
@@ -2731,7 +2731,7 @@
 
 :root {
 	--co-left-sidebar__icon: #007cff;
-	--fs-left-sidebar__icon: 16px;
+	--fs-left-sidebar__icon: 14px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4428,7 +4428,7 @@
 	--bl-starred__page: none;
 	--co-starred__page: #595a59;
 	--ff-starred__page: ;
-	--fs-starred__page: 1rem;
+	--fs-starred__page: 14px;
 	--ft-starred__page: ;
 	--fw-starred__page: 400;
 	--tt-starred__page: normal;
@@ -4447,7 +4447,7 @@
 :root {
 	--co-starred__title: #b6b6b6;
 	--ff-starred__title: ;
-	--fs-starred__title: 0.9rem;
+	--fs-starred__title: 14px;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
 	--tt-starred__title: lowercase;

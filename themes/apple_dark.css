@@ -1224,7 +1224,7 @@
 :root {
 	--co-left-sidebar__db-title: #c5c5c5;
 	--ff-left-sidebar__db-title: ;
-	--fs-left-sidebar__db-title: ;
+	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
 	--tt-left-sidebar__db-title: ;
 }
@@ -1238,7 +1238,7 @@
 
 :root {
 	--co-left-sidebar__icon: #c5c5c5;
-	--fs-left-sidebar__icon: 16px;
+	--fs-left-sidebar__icon: 14px;
 }
 
 :root {
@@ -2028,7 +2028,7 @@
 	--bl-starred__page: none;
 	--co-starred__page: #d1d2d1;
 	--ff-starred__page: ;
-	--fs-starred__page: 1rem;
+	--fs-starred__page: 14px;
 	--ft-starred__page: ;
 	--fw-starred__page: 400;
 	--tt-starred__page: normal;
@@ -2037,7 +2037,7 @@
 :root {
 	--co-starred__title: #d1d2d1;
 	--ff-starred__title: ;
-	--fs-starred__title: 0.9rem;
+	--fs-starred__title: 14px;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
 	--tt-starred__title: lowercase;
