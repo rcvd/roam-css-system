@@ -198,6 +198,14 @@ textarea {
     display: none;
 }
 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
+    padding:  7px 16px;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:first-child {
+    padding-top:  16px;
+}
+
 /* Remove gradient from all pages checkboxes */
 .rm-all-pages .bp3-control .bp3-control-indicator {
     background-image: none;
