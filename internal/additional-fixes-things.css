@@ -106,11 +106,6 @@
     opacity: 1;
 }
 
-/* Remove gradient from buttons */
-.bp3-button:not([class*='bp3-intent-']) {
-    background-image: none;
-}
-
 /* Remove focus border */
 :focus {
     outline: none;
