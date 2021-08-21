@@ -959,12 +959,12 @@
 
 :root {
 	--bc-graph-dropdown__setting: transparent;
-	--co-graph-dropdown__setting: #ffffff;
+	--co-graph-dropdown__setting: #272727;
 	--fs-graph-dropdown__setting: ;
 }
 
 :root {
-	--co-graph-dropdown__setting-icon--hover: #272727;
+	--co-graph-dropdown__setting-icon--hover: #ffffff;
 	--td-graph-dropdown__setting-icon--hover: none;
 }
 
