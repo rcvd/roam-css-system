@@ -4810,6 +4810,14 @@
 }
 
 :root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--co-topbar-datepicker-html__select-icon: #232323;
 }
 
