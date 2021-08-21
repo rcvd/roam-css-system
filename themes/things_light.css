@@ -630,7 +630,7 @@
 }
 
 :root {
-	--br-datepicker__weeknumber: 1px solid #8b9299;
+	--br-datepicker__weeknumber: 1px solid #373737;
 	--co-datepicker__weeknumber: #8b9299;
 	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-datepicker__weeknumber: 1rem;
@@ -699,7 +699,7 @@
 }
 
 :root {
-	--co-elevation__create-block: #aeb2b8;
+	--co-elevation__create-block: #abacac;
 }
 
 :root {
@@ -726,7 +726,7 @@
 }
 
 :root {
-	--co-elevation__item-icon: #aeb2b8;
+	--co-elevation__item-icon: #abacac;
 }
 
 :root {
@@ -734,13 +734,13 @@
 }
 
 :root {
-	--co-elevation__item-keyprompt: #aeb2b8;
+	--co-elevation__item-keyprompt: #abacac;
 	--fs-elevation__item-keyprompt: 0.8rem;
 	--op-elevation__item-keyprompt: 1;
 }
 
 :root {
-	--co-elevation__search-block: #aeb2b8;
+	--co-elevation__search-block: #abacac;
 }
 
 :root {
@@ -922,30 +922,30 @@
 }
 
 :root {
-	--co-graph-dropdown__a--hover: var(--cl-gray-700);
+	--co-graph-dropdown__a--hover: #272727;
 	--td-graph-dropdown__a--hover: ;
 }
 
 :root {
-	--co-graph-dropdown__a: var(--cl-gray-700);
+	--co-graph-dropdown__a: #272727;
 	--td-graph-dropdown__a: none;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon--hover: var(--cl-green-500);
+	--co-graph-dropdown__expand-icon--hover: #272727;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon: var(--cl-gray-500);
+	--co-graph-dropdown__expand-icon: #272727;
 }
 
 :root {
-	--co-graph-dropdown__menu-item: var(--cl-gray-900);
+	--co-graph-dropdown__menu-item: #272727;
 	--td-graph-dropdown__menu-item: none;
 }
 
 :root {
-	--co-graph-dropdown__menu-title: var(--cl-gray-500);
+	--co-graph-dropdown__menu-title: #abacac;
 	--fs-graph-dropdown__menu-title: 12px;
 	--ft-graph-dropdown__menu-title: normal;
 	--fw-graph-dropdown__menu-title: normal;
@@ -953,18 +953,18 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: var(--cl-gray-500);
-	--co-graph-dropdown__setting--hover: var(--cl-white);
+	--bc-graph-dropdown__setting--hover: #bed7f9;
+	--co-graph-dropdown__setting--hover: #ffffff;
 }
 
 :root {
-	--bc-graph-dropdown__setting: var(--cl-gray-100);
-	--co-graph-dropdown__setting: var(--cl-gray-700);
+	--bc-graph-dropdown__setting: transparent;
+	--co-graph-dropdown__setting: #ffffff;
 	--fs-graph-dropdown__setting: ;
 }
 
 :root {
-	--co-graph-dropdown__setting-icon--hover: var(--cl-gray-700);
+	--co-graph-dropdown__setting-icon--hover: #272727;
 	--td-graph-dropdown__setting-icon--hover: none;
 }
 
