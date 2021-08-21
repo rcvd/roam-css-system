@@ -2094,7 +2094,7 @@
 	--br-topbar__container: none;
 	--bb-topbar__container: 1px solid #1e1e1e;
 	--bl-topbar__container: ;
-	--bd-topbar__container: ;
+	--bd-topbar__container: 0px;
 	--sd-topbar__container: none;
 }
 

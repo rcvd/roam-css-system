@@ -4025,7 +4025,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item: ;
+	--bc-roam42__jj-menu-item: transparent;
 	--bt-roam42__jj-menu-item: none;
 	--br-roam42__jj-menu-item: none;
 	--bb-roam42__jj-menu-item: none;
@@ -4044,13 +4044,13 @@
 }
 
 :root {
-	--bc-settings__auth-provider: ;
+	--bc-settings__auth-provider: #b9bdc4;
 	--bt-settings__auth-provider: none;
 	--br-settings__auth-provider: none;
 	--bb-settings__auth-provider: none;
 	--bl-settings__auth-provider: none;
 	--bd-settings__auth-provider: 5px;
-	--co-settings__auth-provider: ;
+	--co-settings__auth-provider: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4084,11 +4084,11 @@
 }
 
 :root {
-	--bc-settings__container: ;
-	--bt-settings__container: ;
-	--br-settings__container: ;
-	--bb-settings__container: ;
-	--bl-settings__container: ;
+	--bc-settings__container: transparent;
+	--bt-settings__container: none;
+	--br-settings__container: none;
+	--bb-settings__container: none;
+	--bl-settings__container: none;
 	--co-settings__container: ;
 }
 
@@ -4145,11 +4145,11 @@
 }
 
 :root {
-	--bc-settings__input--focus: var(--cl-gray-100);
-	--bt-settings__input--focus: ;
-	--br-settings__input--focus: ;
-	--bb-settings__input--focus: ;
-	--bl-settings__input--focus: ;
+	--bc-settings__input--focus: #dbdde4;
+	--bt-settings__input--focus: none;
+	--br-settings__input--focus: none;
+	--bb-settings__input--focus: none;
+	--bl-settings__input--focus: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4163,11 +4163,11 @@
 }
 
 :root {
-	--bc-settings__input: var(--cl-gray-50);
-	--bt-settings__input: ;
-	--br-settings__input: ;
-	--bb-settings__input: ;
-	--bl-settings__input: ;
+	--bc-settings__input: transparen;
+	--bt-settings__input: none;
+	--br-settings__input: none;
+	--bb-settings__input: none;
+	--bl-settings__input: none;
 	--bd-settings__input: ;
 	--co-settings__input: ;
 }
@@ -4194,11 +4194,11 @@
 }
 
 :root {
-	--bc-settings__password-input--focus: ;
-	--bt-settings__password-input--focus: ;
-	--br-settings__password-input--focus: ;
-	--bb-settings__password-input--focus: ;
-	--bl-settings__password-input--focus: ;
+	--bc-settings__password-input--focus: #dbdde4;
+	--bt-settings__password-input--focus: none;
+	--br-settings__password-input--focus: none;
+	--bb-settings__password-input--focus: none;
+	--bl-settings__password-input--focus: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4212,11 +4212,11 @@
 }
 
 :root {
-	--bc-settings__password-input: ;
-	--bt-settings__password-input: ;
-	--br-settings__password-input: ;
-	--bb-settings__password-input: ;
-	--bl-settings__password-input: ;
+	--bc-settings__password-input: transparent;
+	--bt-settings__password-input: none;
+	--br-settings__password-input: none;
+	--bb-settings__password-input: none;
+	--bl-settings__password-input: none;
 	--bd-settings__password-input: ;
 	--co-settings__password-input: ;
 }
@@ -4233,11 +4233,11 @@
 }
 
 :root {
-	--bc-settings__items--hover: ;
-	--bt-settings__items--hover: ;
-	--br-settings__items--hover: ;
-	--bb-settings__items--hover: ;
-	--bl-settings__items--hover: ;
+	--bc-settings__items--hover: transparent;
+	--bt-settings__items--hover: none;
+	--br-settings__items--hover: none;
+	--bb-settings__items--hover: none;
+	--bl-settings__items--hover: none;
 	--co-settings__items--hover: var(--cl-gray-300);
 }
 
@@ -4254,10 +4254,10 @@
 
 :root {
 	--bc-settings__items--selected: var(--cl-white);
-	--bt-settings__items--selected: ;
-	--br-settings__items--selected: ;
-	--bb-settings__items--selected: ;
-	--bl-settings__items--selected: ;
+	--bt-settings__items--selected: none;
+	--br-settings__items--selected: none;
+	--bb-settings__items--selected: none;
+	--bl-settings__items--selected: none;
 	--co-settings__items--selected: var(--cl-gray-300);
 }
 
@@ -4273,11 +4273,11 @@
 }
 
 :root {
-	--bc-settings__items: ;
-	--bt-settings__items: ;
-	--br-settings__items: ;
-	--bb-settings__items: ;
-	--bl-settings__items: ;
+	--bc-settings__items: transparent;
+	--bt-settings__items: none;
+	--br-settings__items: none;
+	--bb-settings__items: none;
+	--bl-settings__items: none;
 	--co-settings__items: var(--cl-gray-900);
 }
 
@@ -4323,7 +4323,7 @@
 }
 
 :root {
-	--bc-settings__tab-list: var(--cl-gray-200);
+	--bc-settings__tab-list: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4333,7 +4333,7 @@
 }
 
 :root {
-	--bc-settings__scrollbar: ;
+	--bc-settings__scrollbar: #7e7e7e;
 	--bd-settings__scrollbar: 5px;
 }
 
@@ -4344,11 +4344,11 @@
 }
 
 :root {
-	--bc-settings__select-wrapper: ;
-	--bt-settings__select-wrapper: ;
-	--br-settings__select-wrapper: ;
-	--bb-settings__select-wrapper: ;
-	--bl-settings__select-wrapper: ;
+	--bc-settings__select-wrapper: #b9bdc4;
+	--bt-settings__select-wrapper: none;
+	--br-settings__select-wrapper: none;
+	--bb-settings__select-wrapper: none;
+	--bl-settings__select-wrapper: none;
 	--bd-settings__select-wrapper: 5px;
 }
 
@@ -4383,11 +4383,11 @@
 }
 
 :root {
-	--bc-starred__page--hover: ;
-	--bt-starred__page--hover: ;
-	--br-starred__page--hover: ;
-	--bb-starred__page--hover: ;
-	--bl-starred__page--hover: ;
+	--bc-starred__page--hover: transparent;
+	--bt-starred__page--hover: none;
+	--br-starred__page--hover: none;
+	--bb-starred__page--hover: none;
+	--bl-starred__page--hover: none;
 	--co-starred__page--hover: var(--cl-gray-700);
 	--td-starred__page--hover: none;
 }
@@ -4404,10 +4404,10 @@
 }
 
 :root {
-	--bt-starred__page: ;
-	--br-starred__page: ;
-	--bb-starred__page: ;
-	--bl-starred__page: ;
+	--bt-starred__page: none;
+	--br-starred__page: none;
+	--bb-starred__page: none;
+	--bl-starred__page: none;
 	--co-starred__page: var(--cl-gray-700);
 	--ff-starred__page: ;
 	--fs-starred__page: 1rem;
@@ -4552,11 +4552,11 @@
 
 :root {
 	--bc-topbar__container: ;
-	--bt-topbar__container: ;
-	--br-topbar__container: ;
+	--bt-topbar__container: none;
+	--br-topbar__container: none;
 	--bb-topbar__container: 1px solid #f0f1f2;
 	--bl-topbar__container: ;
-	--bd-topbar__container: ;
+	--bd-topbar__container: 0px;
 	--sd-topbar__container: ;
 }
 
@@ -4660,7 +4660,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker__nav-button: ;
+	--bc-topbar-datepicker__nav-button: transparent;
 	--bt-topbar-datepicker__nav-button: none;
 	--br-topbar-datepicker__nav-button: none;
 	--bb-topbar-datepicker__nav-button: none;
@@ -4747,10 +4747,10 @@
 
 :root {
 	--bc-topbar-datepicker: var(--cl-gray-100);
-	--bt-topbar-datepicker: ;
-	--br-topbar-datepicker: ;
-	--bb-topbar-datepicker: ;
-	--bl-topbar-datepicker: ;
+	--bt-topbar-datepicker: none;
+	--br-topbar-datepicker: none;
+	--bb-topbar-datepicker: none;
+	--bl-topbar-datepicker: none;
 	--bd-topbar-datepicker: 5px;
 	--co-topbar-datepicker: var(--cl-gray-500);
 	--ff-topbar-datepicker: ;
