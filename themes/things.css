@@ -4135,7 +4135,7 @@
 }
 
 :root {
-	--co-settings__input--placeholder: ;
+	--co-settings__input--placeholder: #90959e;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4169,7 +4169,7 @@
 	--bb-settings__input: none;
 	--bl-settings__input: none;
 	--bd-settings__input: ;
-	--co-settings__input: ;
+	--co-settings__input: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4184,7 +4184,7 @@
 }
 
 :root {
-	--co-settings__password-input--placeholder: ;
+	--co-settings__password-input--placeholder: #90959e;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4218,7 +4218,7 @@
 	--bb-settings__password-input: none;
 	--bl-settings__password-input: none;
 	--bd-settings__password-input: ;
-	--co-settings__password-input: ;
+	--co-settings__password-input: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
