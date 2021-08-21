@@ -1566,10 +1566,10 @@
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: ;
-	--br-quote: ;
-	--bb-quote: ;
-	--bl-quote: 8px solid #67acfe;
+	--bt-quote: none;
+	--br-quote: none;
+	--bb-quote: none;
+	--bl-quote: 4px solid #8b8c8c;
 	--bd-quote: ;
 	--ff-quote: ;
 	--fs-quote: 1rem;
@@ -1578,8 +1578,8 @@
 }
 
 :root {
-	--bc-ref-count--active: var(--cl-blue-900);
-	--co-ref-count--active: var(--cl-white);
+	--bc-ref-count--active: transparent;
+	--co-ref-count--active: #fb375e;
 }
 
 :root {
@@ -1588,16 +1588,16 @@
 }
 
 :root {
-	--bc-reference__item: #333232;
-	--bt-reference__item: ;
-	--br-reference__item: ;
-	--bb-reference__item: ;
-	--bl-reference__item: ;
+	--bc-reference__item: transaprent;
+	--bt-reference__item: none;
+	--br-reference__item: none;
+	--bb-reference__item: none;
+	--bl-reference__item: none;
 	--bd-reference__item: 5px;
 }
 
 :root {
-	--bb-reference__linked-title: ;
+	--bb-reference__linked-title: none;
 	--co-reference__linked-title: #7c7d7d;
 	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__linked-title: 1rem;
@@ -1607,7 +1607,7 @@
 }
 
 :root {
-	--bc-reference__nested-refs: var(--cl-green-700);
+	--bc-reference__nested-refs: #333333;
 }
 
 :root {
@@ -1627,7 +1627,7 @@
 }
 
 :root {
-	--bb-reference__unlinked-title: ;
+	--bb-reference__unlinked-title: none;
 	--co-reference__unlinked-title: #7c7d7d;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
