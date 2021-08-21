@@ -2111,7 +2111,7 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: ;
+	--bc-graph-dropdown__setting--hover: #0064e0;
 }
 
 @media(prefers-color-scheme: dark) {

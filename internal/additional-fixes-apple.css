@@ -170,7 +170,11 @@ textarea {
 
 /* Fix starred pages wrapper */
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
-    padding: 4px 0px 4px 19px;
+    padding: 2px 0px 2px 19px;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    padding:  2px 20px;
 }
 
 /* Change all pages column alignment to left */
