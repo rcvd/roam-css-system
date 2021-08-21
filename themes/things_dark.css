@@ -1156,7 +1156,7 @@
 	--br-input: none;
 	--bb-input: none;
 	--bl-input: none;
-	--bd-input: ;
+	--bd-input: 5px;
 	--sd-input: none;
 	--co-input: #ebebeb;
 	--ff-input: ;
@@ -1170,7 +1170,7 @@
 	--br-install-button--hover: none;
 	--bb-install-button--hover: none;
 	--bl-install-button--hover: none;
-	--bd-install-button--hover: ;
+	--bd-install-button--hover: 3px;
 	--co-install-button--hover: #e7e7e7;
 }
 
@@ -1180,7 +1180,7 @@
 	--br-install-button: none;
 	--bb-install-button: none;
 	--bl-install-button: none;
-	--bd-install-button: 0px;
+	--bd-install-button: 3px;
 	--co-install-button: #e7e7e7;
 }
 

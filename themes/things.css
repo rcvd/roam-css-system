@@ -2443,7 +2443,7 @@
 :root {
 	--bc-html__select--hover: #4e9cff;
 	--sd-html__select--hover: none;
-	--co-html__select--hover: #ffffff;
+	--co-html__select--hover: #272727;
 	--td-html__select--hover: ;
 }
 
@@ -2480,7 +2480,7 @@
 }
 
 :root {
-	--bc-inline-references: var(--cl-gray-50);
+	--bc-inline-references: #f5f6f8;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2499,7 +2499,7 @@
 }
 
 :root {
-	--co-input__search-icon: var(--cl-gray-500);
+	--co-input__search-icon: #8b8d96;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2509,7 +2509,7 @@
 }
 
 :root {
-	--co-input__search-placeholder: var(--cl-gray-400);
+	--co-input__search-placeholder: #8a8e98;
 	--ff-input__search-placeholder: ;
 }
 
@@ -2520,7 +2520,7 @@
 }
 
 :root {
-	--bc-input--focus: var(--cl-gray-300);
+	--bc-input--focus: #dbdde4;
 	--bt-input--focus: none;
 	--br-input--focus: none;
 	--bb-input--focus: none;
@@ -2546,9 +2546,9 @@
 	--br-input: none;
 	--bb-input: none;
 	--bl-input: none;
-	--bd-input: ;
+	--bd-input: 5px;
 	--sd-input: none;
-	--co-input: var(--cl-gray-900);
+	--co-input: #202128;
 	--ff-input: ;
 	--fs-input: 1rem;
 	--fw-input: normal;
@@ -2567,13 +2567,13 @@
 }
 
 :root {
-	--bc-install-button--hover: var(--cl-blue-50);
-	--bt-install-button--hover: 1px solid var(--cl-blue-100);
-	--br-install-button--hover: 1px solid var(--cl-blue-100);
-	--bb-install-button--hover: 1px solid var(--cl-blue-100);
-	--bl-install-button--hover: 1px solid var(--cl-blue-100);
-	--bd-install-button--hover: ;
-	--co-install-button--hover: var(--cl-blue-900);
+	--bc-install-button--hover: #509cfe;
+	--bt-install-button--hover: none;
+	--br-install-button--hover: none;
+	--bb-install-button--hover: none;
+	--bl-install-button--hover: none;
+	--bd-install-button--hover: 3px;
+	--co-install-button--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2588,13 +2588,13 @@
 }
 
 :root {
-	--bc-install-button: var(--cl-gray-100);
-	--bt-install-button: 1px solid var(--cl-gray-200);
-	--br-install-button: 1px solid var(--cl-gray-200);
-	--bb-install-button: 1px solid var(--cl-gray-200);
-	--bl-install-button: 1px solid var(--cl-gray-200);
-	--bd-install-button: 0px;
-	--co-install-button: var(--cl-gray-900);
+	--bc-install-button: #b8bdc4;
+	--bt-install-button: none;
+	--br-install-button: none;
+	--bb-install-button: none;
+	--bl-install-button: none;
+	--bd-install-button: 3px;
+	--co-install-button: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
