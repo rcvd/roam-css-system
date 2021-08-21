@@ -554,6 +554,7 @@
 }
 
 :root {
+	--bc-control--hover-checked: ;
 }
 
 :root {
@@ -561,6 +562,7 @@
 }
 
 :root {
+	--bc-control--hover: ;
 }
 
 :root {

@@ -1231,10 +1231,12 @@
 }
 
 :root {
+	--bc-control--hover-checked: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-control--hover-checked: ;
 	}
 }
 
@@ -1249,10 +1251,12 @@
 }
 
 :root {
+	--bc-control--hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-control--hover: ;
 	}
 }
 
