@@ -2230,6 +2230,7 @@ span[style*='background-color: yellow'] {
 }
 
 .rm-topbar .bp3-datepicker .bp3-html-select:hover .bp3-icon, .rm-topbar .bp3-datepicker .bp3-select:hover .bp3-icon {
+	color: 					var(--co-topbar-datepicker-html__select-icon--hover, inherit);
 }
 
 .rm-topbar .bp3-datepicker .bp3-html-select .bp3-icon, .rm-topbar .bp3-datepicker .bp3-select .bp3-icon {

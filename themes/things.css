@@ -4810,10 +4810,12 @@
 }
 
 :root {
+	--co-topbar-datepicker-html__select-icon--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--co-topbar-datepicker-html__select-icon--hover: ;
 	}
 }
 
