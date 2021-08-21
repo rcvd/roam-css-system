@@ -2712,7 +2712,7 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: #f9fafb;
+	--bc-left-sidebar__hr: #f0f0f0;
 }
 
 @media(prefers-color-scheme: dark) {
