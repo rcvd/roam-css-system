@@ -1838,7 +1838,7 @@
 }
 
 :root {
-	--bd-settings__container: ;
+	--bd-settings__container: 5px;
 }
 
 :root {

@@ -4000,7 +4000,7 @@
 }
 
 :root {
-	--bd-settings__container: ;
+	--bd-settings__container: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4116,7 +4116,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__items--selected: #282828;
+		--bc-settings__items--selected: #333333;
 		--bt-settings__items--selected: none;
 		--br-settings__items--selected: none;
 		--bb-settings__items--selected: none;
