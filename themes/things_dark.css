@@ -1546,11 +1546,11 @@
 }
 
 :root {
-	--bc-query__content: #333333;
+	--bc-query__content: #2f2f2f;
 }
 
 :root {
-	--bc-query__title: #222222;
+	--bc-query__title: #2f2f2f;
 	--co-query__title: #e5e5e5;
 }
 
@@ -1560,7 +1560,7 @@
 	--bb-query: none;
 	--bl-query: none;
 	--bd-query: ;
-	--sd-query: 0px 0px 5px 4px rgba(0,0,0,0.35);
+	--sd-query: 0px 0px 5px 5px rgba(0,0,0,0.25);
 }
 
 :root {
