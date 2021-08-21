@@ -1995,6 +1995,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	background-color: 		var(--bc-settings__items-selected--before, #8A9BA8);
 }
 
+.rm-file-list-item__link {
+	color: 					var(--co-settings__filelist-item, white)!important;
+}
+
 .rm-hotkeys-settings .rm-hotkeys-context .rm-hotkeys-action .rm-hotkeys-hotkey__part {
 	background-color: 		var(--bc-settings__hotkeys, #30404D);
 }

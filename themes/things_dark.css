@@ -1971,6 +1971,10 @@
 }
 
 :root {
+	--co-settings__filelist-item: ;
+}
+
+:root {
 	--bc-settings__hotkeys: #939393;
 }
 

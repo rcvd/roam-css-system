@@ -4303,6 +4303,16 @@
 }
 
 :root {
+	--co-settings__filelist-item: #1d72d1;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__filelist-item: ;
+	}
+}
+
+:root {
 	--bc-settings__hotkeys: #b5b9bf;
 }
 
@@ -4572,9 +4582,9 @@
 }
 
 :root {
-	--bc-topbar-datepicker__day--hover: #cbe2ff;
+	--bc-topbar-datepicker__day--hover: #0064e0;
 	--bd-topbar-datepicker__day--hover: 2px;
-	--co-topbar-datepicker__day--hover: var(--cl-gray-900);
+	--co-topbar-datepicker__day--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4585,9 +4595,9 @@
 }
 
 :root {
-	--bc-topbar-datepicker__day--selected: #cbe2ff;
+	--bc-topbar-datepicker__day--selected: #0064e0;
 	--bd-topbar-datepicker__day--selected: 2px;
-	--co-topbar-datepicker__day--selected: var(--cl-gray-900);
+	--co-topbar-datepicker__day--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4598,7 +4608,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__day: var(--cl-gray-900);
+	--co-topbar-datepicker__day: #232323;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4608,7 +4618,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker__day-selected--hover: #cbe2ff;
+	--bc-topbar-datepicker__day-selected--hover: #0064e0;
 	--bd-topbar-datepicker__day-selected--hover: 2px;
 }
 
@@ -4619,7 +4629,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__day-without-page: var(--cl-gray-900);
+	--co-topbar-datepicker__day-without-page: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4629,13 +4639,13 @@
 }
 
 :root {
-	--bc-topbar-datepicker__nav-button--hover: #cbe2ff;
+	--bc-topbar-datepicker__nav-button--hover: #0064e0;
 	--bt-topbar-datepicker__nav-button--hover: none;
 	--br-topbar-datepicker__nav-button--hover: none;
 	--bb-topbar-datepicker__nav-button--hover: none;
 	--bl-topbar-datepicker__nav-button--hover: none;
 	--bd-topbar-datepicker__nav-button--hover: 2px;
-	--co-topbar-datepicker__nav-button--hover: ;
+	--co-topbar-datepicker__nav-button--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4650,7 +4660,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__nav-button--hover: var(--cl-gray-900);
+	--co-topbar-datepicker__nav-button--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4679,7 +4689,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__nav-button: var(--cl-gray-900);
+	--co-topbar-datepicker__nav-button: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4689,8 +4699,8 @@
 }
 
 :root {
-	--bc-topbar-datepicker__today--selected: #cbe2ff;
-	--co-topbar-datepicker__today--selected: var(--cl-gray-900);
+	--bc-topbar-datepicker__today--selected: #0064e0;
+	--co-topbar-datepicker__today--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4701,7 +4711,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__today: #4f9dfe;
+	--co-topbar-datepicker__today: #232323;
 	--fw-topbar-datepicker__today: bold;
 }
 
@@ -4712,7 +4722,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker__today-selected--hover: #cbe2ff;
+	--bc-topbar-datepicker__today-selected--hover: #0064e0;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4722,7 +4732,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__weekdays: ;
+	--co-topbar-datepicker__weekdays: #b5b9bf;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4732,8 +4742,8 @@
 }
 
 :root {
-	--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-300);
-	--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
+	--br-topbar-datepicker__weeknumber: 1px solid #b5b9bd;
+	--co-topbar-datepicker__weeknumber: #b5b9bf;
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-topbar-datepicker__weeknumber: 1rem;
 }
@@ -4746,13 +4756,13 @@
 }
 
 :root {
-	--bc-topbar-datepicker: var(--cl-gray-100);
+	--bc-topbar-datepicker: #ececec;
 	--bt-topbar-datepicker: none;
 	--br-topbar-datepicker: none;
 	--bb-topbar-datepicker: none;
 	--bl-topbar-datepicker: none;
 	--bd-topbar-datepicker: 5px;
-	--co-topbar-datepicker: var(--cl-gray-500);
+	--co-topbar-datepicker: #232323;
 	--ff-topbar-datepicker: ;
 }
 

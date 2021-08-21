@@ -4303,6 +4303,16 @@
 }
 
 :root {
+	--co-settings__filelist-item: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__filelist-item: ;
+	}
+}
+
+:root {
 	--bc-settings__hotkeys: ;
 }
 
