@@ -180,3 +180,7 @@
 .bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
 }
+
+body {
+    border-top: 1px solid #e6e6e6;
+}
