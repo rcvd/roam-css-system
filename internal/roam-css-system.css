@@ -1578,6 +1578,7 @@ div, textarea {
 }
 
 .rm-query {
+	background-color: 		var(--bc-query, inherit);
 	border-top: 			var(--bt-query, .5px solid #BFCCD6);
 	border-right: 			var(--br-query, .5px solid #BFCCD6);
 	border-bottom: 			var(--bb-query, .5px solid #BFCCD6);

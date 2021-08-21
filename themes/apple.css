@@ -3410,6 +3410,7 @@
 }
 
 :root {
+	--bc-query: ;
 	--bt-query: ;
 	--br-query: ;
 	--bb-query: ;
@@ -3420,6 +3421,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-query: ;
 		--bt-query: ;
 		--br-query: ;
 		--bb-query: ;

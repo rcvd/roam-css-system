@@ -3410,6 +3410,7 @@
 }
 
 :root {
+	--bc-query: ;
 	--bt-query: 1px solid var(--cl-gray-200);
 	--br-query: 1px solid var(--cl-gray-200);
 	--bb-query: 1px solid var(--cl-gray-200);
@@ -3420,6 +3421,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-query: ;
 		--bt-query: 1px solid var(--cl-gray-600);
 		--br-query: 1px solid var(--cl-gray-600);
 		--bb-query: 1px solid var(--cl-gray-600);
