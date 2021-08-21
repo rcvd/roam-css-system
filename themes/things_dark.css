@@ -1190,7 +1190,7 @@
 	--br-kanban__card: none;
 	--bb-kanban__card: none;
 	--bl-kanban__card: none;
-	--bd-kanban__card: ;
+	--bd-kanban__card: 5px;
 }
 
 :root {

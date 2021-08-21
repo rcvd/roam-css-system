@@ -2609,12 +2609,12 @@
 }
 
 :root {
-	--bc-kanban__card: var(--cl-white);
-	--bt-kanban__card: 1px solid var(--cl-gray-200);
-	--br-kanban__card: 1px solid var(--cl-gray-200);
-	--bb-kanban__card: 1px solid var(--cl-gray-200);
-	--bl-kanban__card: 1px solid var(--cl-gray-200);
-	--bd-kanban__card: ;
+	--bc-kanban__card: #ffffff;
+	--bt-kanban__card: none;
+	--br-kanban__card: none;
+	--bb-kanban__card: none;
+	--bl-kanban__card: none;
+	--bd-kanban__card: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2628,7 +2628,7 @@
 }
 
 :root {
-	--bc-kanban__column: var(--cl-gray-100);
+	--bc-kanban__column: #f5f6f8;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2638,7 +2638,7 @@
 }
 
 :root {
-	--bc-kanban__dropbar: var(--cl-red-500);
+	--bc-kanban__dropbar: #8b8d96;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2648,7 +2648,7 @@
 }
 
 :root {
-	--bb-kanban__title: 1px solid var(--cl-gray-300);
+	--bb-kanban__title: 1px solid #f9fafb;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2658,7 +2658,7 @@
 }
 
 :root {
-	--bc-kanban: var(--cl-gray-200);
+	--bc-kanban: #f9fafb;
 }
 
 @media(prefers-color-scheme: dark) {
