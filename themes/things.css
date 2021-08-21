@@ -1236,7 +1236,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--hover-checked: ;
+		--bc-control--hover-checked: #0059d0;
 	}
 }
 
@@ -1256,7 +1256,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--hover: ;
+		--bc-control--hover: #6d6e6d;
 	}
 }
 
