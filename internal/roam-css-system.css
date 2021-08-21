@@ -1877,6 +1877,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-radius: 			var(--bd-roam42__jj-menu-item, inherit);
 }
 
+.rm-settings .rm-select-wrapper button.bp3-button {
+	color: 					var(--co-settings__button, #8A9BA8);
+}
+
 .rm-settings--desktop {
 	border-radius: 			var(--bd-settings__container, 6px);
 }

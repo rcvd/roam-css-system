@@ -1854,6 +1854,10 @@
 }
 
 :root {
+	--co-settings__button: #e5e5e5;
+}
+
+:root {
 	--bd-settings__container: 5px;
 }
 

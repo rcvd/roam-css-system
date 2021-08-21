@@ -4040,6 +4040,16 @@
 }
 
 :root {
+	--co-settings__button: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__button: ;
+	}
+}
+
+:root {
 	--bd-settings__container: ;
 }
 
