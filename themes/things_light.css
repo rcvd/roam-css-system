@@ -129,31 +129,31 @@
 	--bc-allpages__row-header: transparent;
 	--bb-allpages__row-header: 1px solid #e6e8eb;
 	--bd-allpages__row-header: 0px;
-	--co-allpages__row-header: #24282b;
+	--co-allpages__row-header: #1e2023;
 	--fs-allpages__row-header: 1rem;
 	--fw-allpages__row-header: 700;
 }
 
 :root {
-	--co-allpages__sort-button--focused: #0076e4;
+	--co-allpages__sort-button--focused: #1d72d1;
 	--fw-allpages__sort-button--focused: ;
 }
 
 :root {
-	--co-allpages__sorted-header-text: #24282b;
+	--co-allpages__sorted-header-text: #1e2023;
 	--fw-allpages__sorted-header-text: 700;
 }
 
 :root {
-	--co-allpages__title-col: #a7abb1;
+	--co-allpages__title-col: #94969b;
 }
 
 :root {
-	--co-allpages__title-header: #24282b;
+	--co-allpages__title-header: #1e2023;
 }
 
 :root {
-	--co-allpages__title-text: #202227;
+	--co-allpages__title-text: #1e2023;
 }
 
 :root {
@@ -175,7 +175,7 @@
 }
 
 :root {
-	--co-block__ghost: #b0b2b7;
+	--co-block__ghost: #aeb2b8;
 }
 
 :root {
@@ -184,83 +184,83 @@
 }
 
 :root {
-	--bc-block-highlight--grey: #f5f6f8;
+	--bc-block-highlight--grey: #e6eaec;
 	--co-block-highlight--grey: ;
 }
 
 :root {
-	--bc-block-highlight--yellow: #f7e594;
+	--bc-block-highlight--yellow: #f8e594;
 	--co-block-highlight--yellow: ;
 }
 
 :root {
-	--bc-block-ref--hover: ;
+	--bc-block-ref--hover: transparent;
 	--co-block-ref--hover: #0076e4;
 }
 
 :root {
-	--bb-block-ref: .5px dotted #bfc3c5;
+	--bb-block-ref: .5px dotted #b5b9bf;
 }
 
 :root {
-	--co-brackets: #bfc3c5;
+	--co-brackets: #b5b9bf;
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #bfc3c5;
-	--br-bullet__closed: 4px solid #bfc3c5;
-	--bb-bullet__closed: 4px solid #bfc3c5;
-	--bl-bullet__closed: 4px solid #bfc3c5;
+	--bt-bullet__closed: 4px solid #b5b9bf;
+	--br-bullet__closed: 4px solid #b5b9bf;
+	--bb-bullet__closed: 4px solid #b5b9bf;
+	--bl-bullet__closed: 4px solid #b5b9bf;
 }
 
 :root {
-	--bc-bullet__ghost: #bfc3c5;
+	--bc-bullet__ghost: #b5b9bf;
 }
 
 :root {
-	--bc-bullet__inner: #bfc3c5;
+	--bc-bullet__inner: #b5b9bf;
 }
 
 :root {
-	--bc-button__cancel--hover: ;
-	--bt-button__cancel--hover: ;
-	--br-button__cancel--hover: ;
-	--bb-button__cancel--hover: ;
-	--bl-button__cancel--hover: ;
-	--sd-button__cancel--hover: ;
-	--co-button__cancel--hover: ;
+	--bc-button__cancel--hover: #b9bdc4;
+	--bt-button__cancel--hover: none;
+	--br-button__cancel--hover: none;
+	--bb-button__cancel--hover: none;
+	--bl-button__cancel--hover: none;
+	--sd-button__cancel--hover: none;
+	--co-button__cancel--hover: #ffffff;
 }
 
 :root {
-	--bc-button__cancel: ;
-	--bt-button__cancel: ;
-	--br-button__cancel: ;
-	--bb-button__cancel: ;
-	--bl-button__cancel: ;
+	--bc-button__cancel: #b9bdc4;
+	--bt-button__cancel: none;
+	--br-button__cancel: none;
+	--bb-button__cancel: none;
+	--bl-button__cancel: none;
 	--bd-button__cancel: 5px;
-	--sd-button__cancel: ;
-	--co-button__cancel: ;
+	--sd-button__cancel: none;
+	--co-button__cancel: #ffffff;
 }
 
 :root {
-	--bc-button__danger--hover: ;
-	--bt-button__danger--hover: ;
-	--br-button__danger--hover: ;
-	--bb-button__danger--hover: ;
-	--bl-button__danger--hover: ;
-	--sd-button__danger--hover: ;
-	--co-button__danger--hover: ;
+	--bc-button__danger--hover: #fc4870;
+	--bt-button__danger--hover: none;
+	--br-button__danger--hover: none;
+	--bb-button__danger--hover: none;
+	--bl-button__danger--hover: none;
+	--sd-button__danger--hover: none;
+	--co-button__danger--hover: #ffffff;
 }
 
 :root {
-	--bc-button__danger: ;
-	--bt-button__danger: ;
-	--br-button__danger: ;
-	--bb-button__danger: ;
-	--bl-button__danger: ;
+	--bc-button__danger: #fc4870;
+	--bt-button__danger: none;
+	--br-button__danger: none;
+	--bb-button__danger: none;
+	--bl-button__danger: none;
 	--bd-button__danger: 5px;
-	--sd-button__danger: ;
-	--co-button__danger: ;
+	--sd-button__danger: none;
+	--co-button__danger: #ffffff;
 }
 
 :root {
@@ -272,65 +272,65 @@
 }
 
 :root {
-	--bc-button__minimal--hover: ;
+	--bc-button__minimal--hover: transparent;
 	--bd-button__minimal--hover: 5px;
-	--sd-button__minimal--hover: ;
-	--co-button__minimal--hover: ;
-	--td-button__minimal--hover: ;
+	--sd-button__minimal--hover: none;
+	--co-button__minimal--hover: #ffffff;
+	--td-button__minimal--hover: none;
 }
 
 :root {
-	--bc-button__minimal: ;
+	--bc-button__minimal: transparent;
 	--bd-button__minimal: 5px;
-	--sd-button__minimal: ;
+	--sd-button__minimal: none;
 }
 
 :root {
-	--bc-button__primary--hover: ;
-	--bt-button__primary--hover: ;
-	--br-button__primary--hover: ;
-	--bb-button__primary--hover: ;
-	--bl-button__primary--hover: ;
-	--sd-button__primary--hover: ;
-	--co-button__primary--hover: ;
+	--bc-button__primary--hover: #509cff;
+	--bt-button__primary--hover: none;
+	--br-button__primary--hover: none;
+	--bb-button__primary--hover: none;
+	--bl-button__primary--hover: none;
+	--sd-button__primary--hover: none;
+	--co-button__primary--hover: #ffffff;
 }
 
 :root {
-	--bc-button__primary: ;
-	--bt-button__primary: ;
-	--br-button__primary: ;
-	--bb-button__primary: ;
-	--bl-button__primary: ;
+	--bc-button__primary: #509cff;
+	--bt-button__primary: none;
+	--br-button__primary: none;
+	--bb-button__primary: none;
+	--bl-button__primary: none;
 	--bd-button__primary: 5px;
-	--sd-button__primary: ;
-	--co-button__primary: ;
+	--sd-button__primary: none;
+	--co-button__primary: #ffffff;
 }
 
 :root {
-	--bc-button__warning--hover: ;
-	--bt-button__warning--hover: ;
-	--br-button__warning--hover: ;
-	--bb-button__warning--hover: ;
-	--bl-button__warning--hover: ;
-	--sd-button__warning--hover: ;
-	--co-button__warning--hover: ;
+	--bc-button__warning--hover: #fb5276;
+	--bt-button__warning--hover: none;
+	--br-button__warning--hover: none;
+	--bb-button__warning--hover: none;
+	--bl-button__warning--hover: none;
+	--sd-button__warning--hover: none;
+	--co-button__warning--hover: #ffffff;
 }
 
 :root {
-	--bc-button__warning: ;
-	--bt-button__warning: ;
-	--br-button__warning: ;
-	--bb-button__warning: ;
-	--bl-button__warning: ;
+	--bc-button__warning: #fb5276;
+	--bt-button__warning: none;
+	--br-button__warning: none;
+	--bb-button__warning: none;
+	--bl-button__warning: none;
 	--bd-button__warning: 5px;
-	--sd-button__warning: ;
-	--co-button__warning: ;
+	--sd-button__warning: none;
+	--co-button__warning: #ffffff;
 }
 
 :root {
-	--bc-button__minimal--active: var(--cl-gray-50);
-	--sd-button__minimal--active: ;
-	--co-button__minimal--active: ;
+	--bc-button__minimal--active: transparent;
+	--sd-button__minimal--active: none;
+	--co-button__minimal--active: #5d5f62;
 }
 
 :root {
@@ -338,10 +338,10 @@
 }
 
 :root {
-	--bt-button--default: ;
-	--br-button--default: ;
-	--bb-button--default: ;
-	--bl-button--default: ;
+	--bt-button--default: none;
+	--br-button--default: none;
+	--bb-button--default: none;
+	--bl-button--default: none;
 	--bd-button--default: 5px;
 	--fs-button--default: ;
 }

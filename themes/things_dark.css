@@ -92,7 +92,7 @@
 }
 
 :root {
-	--bc-allpages__input--focused: ;
+	--bc-allpages__input--focused: #5c5b5b;
 	--bt-allpages__input--focused: none;
 	--br-allpages__input--focused: none;
 	--bb-allpages__input--focused: none;
@@ -276,7 +276,7 @@
 	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: #dfeaf9;
-	--td-button__minimal--hover: ;
+	--td-button__minimal--hover: none;
 }
 
 :root {
