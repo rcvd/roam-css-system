@@ -1866,7 +1866,7 @@
 
 :root {
 	--bc-embed-page__margin: #eef0f4;
-	--bl-embed-page__margin: ;
+	--bl-embed-page__margin: 1px solid #aeb2b8;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1877,7 +1877,7 @@
 }
 
 :root {
-	--bt-embed-page__reference-main: 1px solid var(--cl-gray-100);
+	--bt-embed-page__reference-main: 1px solid #e6e8ec;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1896,12 +1896,12 @@
 }
 
 :root {
-	--bc-embed-page: var(--cl-gray-50);
-	--bt-embed-page: 1px solid var(--cl-gray-100);
-	--br-embed-page: 1px solid var(--cl-gray-100);
-	--bb-embed-page: 1px solid var(--cl-gray-100);
-	--bl-embed-page: 1px solid var(--cl-gray-100);
-	--bd-embed-page: 0px;
+	--bc-embed-page: #ebecec;
+	--bt-embed-page: none;
+	--br-embed-page: none;
+	--bb-embed-page: none;
+	--bl-embed-page: none;
+	--bd-embed-page: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1915,7 +1915,7 @@
 }
 
 :root {
-	--bc-emoji-mart__category-label: var(--cl-gray-100);
+	--bc-emoji-mart__category-label: #ececec;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1925,13 +1925,13 @@
 }
 
 :root {
-	--bc-emoji-mart: var(--cl-gray-100);
-	--bt-emoji-mart: ;
-	--br-emoji-mart: ;
-	--bb-emoji-mart: ;
-	--bl-emoji-mart: ;
-	--bd-emoji-mart: ;
-	--co-emoji-mart: var(--cl-gray-900);
+	--bc-emoji-mart: #ececec;
+	--bt-emoji-mart: none;
+	--br-emoji-mart: none;
+	--bb-emoji-mart: none;
+	--bl-emoji-mart: none;
+	--bd-emoji-mart: 0px;
+	--co-emoji-mart: #000000;
 	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-emoji-mart: 1rem;
 }
@@ -1948,7 +1948,7 @@
 }
 
 :root {
-	--bc-find-or-create__menu-item--selected: #bed7f9;
+	--bc-find-or-create__menu-item--selected: #0064e0;
 	--bt-find-or-create__menu-item--selected: none;
 	--br-find-or-create__menu-item--selected: none;
 	--bb-find-or-create__menu-item--selected: none;
@@ -1967,7 +1967,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: ;
+	--co-find-or-create__menu-item--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1977,10 +1977,10 @@
 }
 
 :root {
-	--bt-find-or-create__menu-item: ;
-	--br-find-or-create__menu-item: ;
-	--bb-find-or-create__menu-item: ;
-	--bl-find-or-create__menu-item: ;
+	--bt-find-or-create__menu-item: none;
+	--br-find-or-create__menu-item: none;
+	--bb-find-or-create__menu-item: none;
+	--bl-find-or-create__menu-item: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1993,7 +1993,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #1d7d57;
+	--co-find-or-create__new-page--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2003,7 +2003,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page: #1d7d57;
+	--co-find-or-create__new-page: #4abd5d;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2013,7 +2013,7 @@
 }
 
 :root {
-	--co-find-or-create__recent: ;
+	--co-find-or-create__recent: #95999d;
 }
 
 @media(prefers-color-scheme: dark) {

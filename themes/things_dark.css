@@ -861,7 +861,7 @@
 	--br-embed-page: none;
 	--bb-embed-page: none;
 	--bl-embed-page: none;
-	--bd-embed-page: 0px;
+	--bd-embed-page: 5px;
 }
 
 :root {
@@ -874,7 +874,7 @@
 	--br-emoji-mart: 1px solid #5b5b5b;
 	--bb-emoji-mart: 1px solid #5b5b5b;
 	--bl-emoji-mart: 1px solid #5b5b5b;
-	--bd-emoji-mart: ;
+	--bd-emoji-mart: 0px;
 	--co-emoji-mart: #e7e8e7;
 	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-emoji-mart: 1rem;
