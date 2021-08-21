@@ -2939,10 +2939,10 @@
 
 :root {
 	--bc-menu__button--hover: transparent;
-	--bt-menu__button--hover: 1px solid #8d9195;
-	--br-menu__button--hover: 1px solid #8d9195;
-	--bb-menu__button--hover: 1px solid #8d9195;
-	--bl-menu__button--hover: 1px solid #8d9195;
+	--bt-menu__button--hover: 1px solid #b5b9bd;
+	--br-menu__button--hover: 1px solid #b5b9bd;
+	--bb-menu__button--hover: 1px solid #b5b9bd;
+	--bl-menu__button--hover: 1px solid #b5b9bd;
 	--bd-menu__button--hover: 3px;
 	--co-menu__button--hover: #b5b9bd;
 }
