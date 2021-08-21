@@ -1366,11 +1366,11 @@
 }
 
 :root {
-	--co-menu__button-icon--hover: ;
+	--co-menu__button-icon--hover: #b5b9bd;
 }
 
 :root {
-	--co-menu__button-icon: var(--cl-gray-700);
+	--co-menu__button-icon: #abacac;
 }
 
 :root {
