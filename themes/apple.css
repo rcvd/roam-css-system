@@ -574,7 +574,7 @@
 }
 
 :root {
-	--co-button__icon--hover: #5d5f62;
+	--co-button__icon--hover: #838488;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -584,7 +584,7 @@
 }
 
 :root {
-	--co-button__icon: #5d5f62;
+	--co-button__icon: #838488;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2668,8 +2668,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #f5f6f8;
-	--br-left-sidebar__container: 1px solid #eaecf0;
+	--bc-left-sidebar__container: #f6f6f6;
+	--br-left-sidebar__container: 1px solid #e5e5e5;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2680,7 +2680,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #525659;
+	--co-left-sidebar__db-title--hover: #595a59;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2690,7 +2690,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title: #525659;
+	--co-left-sidebar__db-title: #595a59;
 	--ff-left-sidebar__db-title: ;
 	--fs-left-sidebar__db-title: ;
 	--fw-left-sidebar__db-title: 500;
@@ -2722,7 +2722,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon: #525659;
+	--co-left-sidebar__icon: #007cff;
 	--fs-left-sidebar__icon: 16px;
 }
 
@@ -2753,7 +2753,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: #525659;
+	--co-left-sidebar__logo-text: #595a59;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4398,7 +4398,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: var(--cl-gray-700);
+	--co-starred__page--hover: #595a59;
 	--td-starred__page--hover: none;
 }
 
@@ -4418,7 +4418,7 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: var(--cl-gray-700);
+	--co-starred__page: #595a59;
 	--ff-starred__page: ;
 	--fs-starred__page: 1rem;
 	--ft-starred__page: ;
@@ -4437,7 +4437,7 @@
 }
 
 :root {
-	--co-starred__title: var(--cl-gray-700);
+	--co-starred__title: #595a59;
 	--ff-starred__title: ;
 	--fs-starred__title: 1rem;
 	--ft-starred__title: ;

@@ -2014,7 +2014,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: var(--cl-gray-700);
+	--co-starred__page--hover: #525659;
 	--td-starred__page--hover: none;
 }
 
@@ -2023,7 +2023,7 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: var(--cl-gray-700);
+	--co-starred__page: #525659;
 	--ff-starred__page: ;
 	--fs-starred__page: 1rem;
 	--ft-starred__page: ;
@@ -2032,7 +2032,7 @@
 }
 
 :root {
-	--co-starred__title: var(--cl-gray-700);
+	--co-starred__title: #525659;
 	--ff-starred__title: ;
 	--fs-starred__title: 1rem;
 	--ft-starred__title: ;
