@@ -1907,6 +1907,10 @@
 }
 
 :root {
+	--bt-settings__panel: ;
+}
+
+:root {
 	--bc-settings__tab-list: var(--cl-gray-200);
 }
 

@@ -4020,10 +4020,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-settings__container: transparent;
-		--bt-settings__container: ;
-		--br-settings__container: ;
-		--bb-settings__container: ;
-		--bl-settings__container: ;
+		--bt-settings__container: none;
+		--br-settings__container: none;
+		--bb-settings__container: none;
+		--bl-settings__container: none;
 		--co-settings__container: ;
 	}
 }
@@ -4156,6 +4156,16 @@
 }
 
 :root {
+	--bt-settings__panel: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-settings__panel: 1px solid #464746;
+	}
+}
+
+:root {
 	--bc-settings__tab-list: var(--cl-gray-200);
 }
 
@@ -4181,7 +4191,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-starred__icon: ;
+		--co-starred__icon: #d1d2d1;
 	}
 }
 
@@ -4197,11 +4207,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-starred__page--hover: ;
-		--bt-starred__page--hover: ;
-		--br-starred__page--hover: ;
-		--bb-starred__page--hover: ;
-		--bl-starred__page--hover: ;
+		--bc-starred__page--hover: transparent;
+		--bt-starred__page--hover: none;
+		--br-starred__page--hover: none;
+		--bb-starred__page--hover: none;
+		--bl-starred__page--hover: none;
 		--co-starred__page--hover: #d1d2d1;
 	}
 }
@@ -4221,10 +4231,10 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-starred__page: ;
-		--br-starred__page: ;
-		--bb-starred__page: ;
-		--bl-starred__page: ;
+		--bt-starred__page: none;
+		--br-starred__page: none;
+		--bb-starred__page: none;
+		--bl-starred__page: none;
 		--co-starred__page: #d1d2d1;
 	}
 }
@@ -4250,7 +4260,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-sync--saving-local: var(--cl-orange-500);
+		--bc-sync--saving-local: #ffd400;
 	}
 }
 
@@ -4260,7 +4270,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-sync--saving-remote: var(--cl-red-500);
+		--bc-sync--saving-remote: #ff316c;
 	}
 }
 
@@ -4270,7 +4280,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-sync--synced: var(--cl-green-500);
+		--bc-sync--synced: #4cbd5e;
 	}
 }
 
@@ -4287,10 +4297,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-tags--hover: #296349;
-		--bt-tags--hover: ;
-		--br-tags--hover: ;
-		--bb-tags--hover: ;
-		--bl-tags--hover: ;
+		--bt-tags--hover: none;
+		--br-tags--hover: none;
+		--bb-tags--hover: none;
+		--bl-tags--hover: none;
 		--co-tags--hover: #d1dcd8;
 	}
 }
@@ -4314,10 +4324,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-tags: #296349;
-		--bt-tags: ;
-		--br-tags: ;
-		--bb-tags: ;
-		--bl-tags: ;
+		--bt-tags: none;
+		--br-tags: none;
+		--bb-tags: none;
+		--bl-tags: none;
 		--co-tags: #d1dcd8;
 	}
 }
@@ -4366,11 +4376,11 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-topbar__container: #262626;
-		--bt-topbar__container: ;
-		--br-topbar__container: ;
+		--bt-topbar__container: none;
+		--br-topbar__container: none;
 		--bb-topbar__container: 1px solid #1e1e1e;
 		--bl-topbar__container: ;
-		--sd-topbar__container: ;
+		--sd-topbar__container: none;
 	}
 }
 
@@ -4382,8 +4392,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__day--hover: #67acfe;
-		--co-topbar-datepicker__day--hover: var(--cl-white);
+		--bc-topbar-datepicker__day--hover: #0058d0;
+		--co-topbar-datepicker__day--hover: #ffffff;
 	}
 }
 
@@ -4395,8 +4405,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__day--selected: #67acfe;
-		--co-topbar-datepicker__day--selected: var(--cl-white);
+		--bc-topbar-datepicker__day--selected: #0058d0;
+		--co-topbar-datepicker__day--selected: #ffffff;
 	}
 }
 
@@ -4406,7 +4416,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__day: var(--cl-white);
+		--co-topbar-datepicker__day: #ffffff;
 	}
 }
 
@@ -4417,7 +4427,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__day-selected--hover: #67acfe;
+		--bc-topbar-datepicker__day-selected--hover: #0058d0;
 	}
 }
 
@@ -4427,7 +4437,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__day-without-page: var(--cl-white);
+		--co-topbar-datepicker__day-without-page: #ffffff;
 	}
 }
 
@@ -4443,12 +4453,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__nav-button--hover: #67acfe;
+		--bc-topbar-datepicker__nav-button--hover: #0058d0;
 		--bt-topbar-datepicker__nav-button--hover: none;
 		--br-topbar-datepicker__nav-button--hover: none;
 		--bb-topbar-datepicker__nav-button--hover: none;
 		--bl-topbar-datepicker__nav-button--hover: none;
-		--co-topbar-datepicker__nav-button--hover: ;
+		--co-topbar-datepicker__nav-button--hover: #ffffff;
 	}
 }
 
@@ -4458,7 +4468,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__nav-button--hover: var(--cl-white);
+		--co-topbar-datepicker__nav-button--hover: #ffffff;
 	}
 }
 
@@ -4473,7 +4483,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__nav-button: ;
+		--bc-topbar-datepicker__nav-button: transparent;
 		--bt-topbar-datepicker__nav-button: none;
 		--br-topbar-datepicker__nav-button: none;
 		--bb-topbar-datepicker__nav-button: none;
@@ -4487,7 +4497,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__nav-button: var(--cl-white);
+		--co-topbar-datepicker__nav-button: #ffffff;
 	}
 }
 
@@ -4498,8 +4508,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__today--selected: #67acfe;
-		--co-topbar-datepicker__today--selected: var(--cl-white);
+		--bc-topbar-datepicker__today--selected: #0058d0;
+		--co-topbar-datepicker__today--selected: #ffffff;
 	}
 }
 
@@ -4510,7 +4520,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__today: #67acfe;
+		--co-topbar-datepicker__today: #333333;
 	}
 }
 
@@ -4520,7 +4530,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker__today-selected--hover: #67acfe;
+		--bc-topbar-datepicker__today-selected--hover: #0058d0;
 	}
 }
 
@@ -4533,8 +4543,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-700);
-		--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
+		--br-topbar-datepicker__weeknumber: 1px solid #373737;
+		--co-topbar-datepicker__weeknumber: #939393;
 	}
 }
 
@@ -4551,7 +4561,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker: #2d2f30;
+		--bc-topbar-datepicker: #3333333;
 		--bt-topbar-datepicker: ;
 		--br-topbar-datepicker: ;
 		--bb-topbar-datepicker: ;
@@ -4567,7 +4577,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker-html__select--hover: #67acfe;
+		--bc-topbar-datepicker-html__select--hover: #0058d0;
 		--co-topbar-datepicker-html__select--hover: var(--cl-white);
 	}
 }

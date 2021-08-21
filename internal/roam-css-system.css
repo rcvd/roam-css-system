@@ -1930,6 +1930,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	background-color: 		var(--bc-settings__items-selected--before, #8A9BA8);
 }
 
+.rm-settings .rm-settings-panel__section {
+	border-top: 			var(--bt-settings__panel, solid 1px #293742);
+}
+
 .rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
 	background-color: 		var(--bc-settings__tab-list, #293742);
 }
