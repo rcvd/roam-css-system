@@ -1225,7 +1225,7 @@
 	--co-left-sidebar__db-title: #c5c5c5;
 	--ff-left-sidebar__db-title: ;
 	--fs-left-sidebar__db-title: 14px;
-	--fw-left-sidebar__db-title: 400;
+	--fw-left-sidebar__db-title: 600;
 	--tt-left-sidebar__db-title: ;
 }
 
@@ -1319,7 +1319,7 @@
 	--co-logbutton: #c5c5c5;
 	--ff-logbutton: ;
 	--fs-logbutton: 1rem;
-	--fw-logbutton: 400;
+	--fw-logbutton: 600;
 	--tt-logbutton: normal;
 }
 

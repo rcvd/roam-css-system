@@ -223,3 +223,8 @@ textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
     display:  none;
 }
+
+/* Hide starred title */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
+    display:  none;
+}

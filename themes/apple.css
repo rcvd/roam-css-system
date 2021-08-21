@@ -2688,7 +2688,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #595959;
+	--co-left-sidebar__db-title--hover: #000;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2698,10 +2698,10 @@
 }
 
 :root {
-	--co-left-sidebar__db-title: #595959;
+	--co-left-sidebar__db-title: #000;
 	--ff-left-sidebar__db-title: ;
 	--fs-left-sidebar__db-title: 14px;
-	--fw-left-sidebar__db-title: 400;
+	--fw-left-sidebar__db-title: 600;
 	--tt-left-sidebar__db-title: ;
 }
 
@@ -2872,7 +2872,7 @@
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
 	--bl-logbutton--hover: none;
-	--co-logbutton--hover: #525659;
+	--co-logbutton--hover: #000;
 	--td-logbutton--hover: ;
 }
 
@@ -2888,10 +2888,10 @@
 }
 
 :root {
-	--co-logbutton: #525659;
+	--co-logbutton: #000;
 	--ff-logbutton: ;
 	--fs-logbutton: 1rem;
-	--fw-logbutton: 400;
+	--fw-logbutton: 600;
 	--tt-logbutton: normal;
 }
 
