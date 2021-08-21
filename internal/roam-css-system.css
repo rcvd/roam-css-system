@@ -87,6 +87,7 @@ a {
 }
 
 .rm-pages-toolbar .toolbar-search-group .search-input.focused {
+	background-color: 		var(--bc-allpages__input--focused, inherit);
 	border-top: 			var(--bt-allpages__input--focused, 1px solid #8A9BA8);
 	border-right: 			var(--br-allpages__input--focused, 1px solid #8A9BA8);
 	border-bottom: 			var(--bb-allpages__input--focused, 1px solid #8A9BA8);

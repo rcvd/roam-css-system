@@ -92,6 +92,7 @@
 }
 
 :root {
+	--bc-allpages__input--focused: ;
 	--bt-allpages__input--focused: none;
 	--br-allpages__input--focused: none;
 	--bb-allpages__input--focused: none;
@@ -104,7 +105,7 @@
 	--br-allpages__input: none;
 	--bb-allpages__input: none;
 	--bl-allpages__input: none;
-	--bd-allpages__input: 0px;
+	--bd-allpages__input: 5px;
 	--sd-allpages__input: none;
 	--co-allpages__input: #adadac;
 	--fs-allpages__input: 1rem;

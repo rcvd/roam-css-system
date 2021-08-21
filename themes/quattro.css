@@ -189,6 +189,7 @@
 }
 
 :root {
+	--bc-allpages__input--focused: ;
 	--bt-allpages__input--focused: ;
 	--br-allpages__input--focused: ;
 	--bb-allpages__input--focused: ;
@@ -197,6 +198,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-allpages__input--focused: ;
 		--bt-allpages__input--focused: ;
 		--br-allpages__input--focused: ;
 		--bb-allpages__input--focused: ;

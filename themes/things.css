@@ -189,6 +189,7 @@
 }
 
 :root {
+	--bc-allpages__input--focused: #dbdde4;
 	--bt-allpages__input--focused: none;
 	--br-allpages__input--focused: none;
 	--bb-allpages__input--focused: none;
@@ -197,6 +198,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-allpages__input--focused: ;
 		--bt-allpages__input--focused: none;
 		--br-allpages__input--focused: none;
 		--bb-allpages__input--focused: none;
@@ -205,12 +207,12 @@
 }
 
 :root {
-	--bc-allpages__input: #dbdde4;
+	--bc-allpages__input: transparent;
 	--bt-allpages__input: none;
 	--br-allpages__input: none;
 	--bb-allpages__input: none;
 	--bl-allpages__input: none;
-	--bd-allpages__input: 0px;
+	--bd-allpages__input: 5px;
 	--sd-allpages__input: none;
 	--co-allpages__input: #1f2128;
 	--fs-allpages__input: 1rem;
