@@ -1725,6 +1725,7 @@
 	--bb-roam-js__button--active-hover: ;
 	--bl-roam-js__button--active-hover: ;
 	--bd-roam-js__button--active-hover: ;
+	--co-roam-js__button--active-hover: ;
 }
 
 :root {
@@ -1734,6 +1735,7 @@
 	--bb-roam-js__button--active: ;
 	--bl-roam-js__button--active: ;
 	--bd-roam-js__button--active: ;
+	--co-roam-js__button--active: ;
 }
 
 :root {

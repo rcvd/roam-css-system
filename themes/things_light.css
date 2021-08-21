@@ -1704,7 +1704,7 @@
 	--br-roam-css__container-active: ;
 	--bb-roam-css__container-active: ;
 	--bl-roam-css__container-active: ;
-	--bd-roam-css__container-active: ;
+	--bd-roam-css__container-active: 5px;
 	--co-roam-css__container-active: ;
 }
 
@@ -1714,7 +1714,7 @@
 	--br-roam-css__container-inactive: ;
 	--bb-roam-css__container-inactive: ;
 	--bl-roam-css__container-inactive: ;
-	--bd-roam-css__container-inactive: ;
+	--bd-roam-css__container-inactive: 5px;
 	--co-roam-css__container-inactive: ;
 }
 
@@ -1725,6 +1725,7 @@
 	--bb-roam-js__button--active-hover: ;
 	--bl-roam-js__button--active-hover: ;
 	--bd-roam-js__button--active-hover: ;
+	--co-roam-js__button--active-hover: ;
 }
 
 :root {
@@ -1734,6 +1735,7 @@
 	--bb-roam-js__button--active: ;
 	--bl-roam-js__button--active: ;
 	--bd-roam-js__button--active: ;
+	--co-roam-js__button--active: ;
 }
 
 :root {
@@ -1762,7 +1764,7 @@
 	--br-roam-js__container-active: 1px solid var(--cl-yellow-100);
 	--bb-roam-js__container-active: 1px solid var(--cl-yellow-100);
 	--bl-roam-js__container-active: 1px solid var(--cl-yellow-100);
-	--bd-roam-js__container-active: ;
+	--bd-roam-js__container-active: 5px;
 	--co-roam-js__container-active: var(--cl-gray-900);
 }
 
@@ -1772,7 +1774,7 @@
 	--br-roam-js__container-inactive: 1px solid var(--cl-gray-100);
 	--bb-roam-js__container-inactive: 1px solid var(--cl-gray-100);
 	--bl-roam-js__container-inactive: 1px solid var(--cl-gray-100);
-	--bd-roam-js__container-inactive: ;
+	--bd-roam-js__container-inactive: 5px;
 	--co-roam-js__container-inactive: var(--cl-gray-900);
 }
 

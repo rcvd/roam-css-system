@@ -3755,6 +3755,7 @@
 	--bb-roam-js__button--active-hover: ;
 	--bl-roam-js__button--active-hover: ;
 	--bd-roam-js__button--active-hover: ;
+	--co-roam-js__button--active-hover: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3764,6 +3765,7 @@
 		--br-roam-js__button--active-hover: ;
 		--bb-roam-js__button--active-hover: ;
 		--bl-roam-js__button--active-hover: ;
+		--co-roam-js__button--active-hover: ;
 	}
 }
 
@@ -3774,6 +3776,7 @@
 	--bb-roam-js__button--active: ;
 	--bl-roam-js__button--active: ;
 	--bd-roam-js__button--active: ;
+	--co-roam-js__button--active: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3783,6 +3786,7 @@
 		--br-roam-js__button--active: ;
 		--bb-roam-js__button--active: ;
 		--bl-roam-js__button--active: ;
+		--co-roam-js__button--active: ;
 	}
 }
 

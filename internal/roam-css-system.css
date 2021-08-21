@@ -1749,6 +1749,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-bottom: 			var(--bb-roam-js__button--active-hover, inherit);
 	border-left: 			var(--bl-roam-js__button--active-hover, inherit);
 	border-radius: 			var(--bd-roam-js__button--active-hover, 3px);
+	color: 					var(--co-roam-js__button--active-hover, #212529);
 }
 
 .rm-roam-js--active .bp3-button:not([class*='bp3-intent-']) {
@@ -1758,6 +1759,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-bottom: 			var(--bb-roam-js__button--active, inherit);
 	border-left: 			var(--bl-roam-js__button--active, inherit);
 	border-radius: 			var(--bd-roam-js__button--active, 3px);
+	color: 					var(--co-roam-js__button--active, #212529);
 }
 
 .rm-roam-js--inactive .bp3-button:not([class*='bp3-intent-']):hover {

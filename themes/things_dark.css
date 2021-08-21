@@ -1704,7 +1704,7 @@
 	--br-roam-css__container-active: none;
 	--bb-roam-css__container-active: none;
 	--bl-roam-css__container-active: none;
-	--bd-roam-css__container-active: ;
+	--bd-roam-css__container-active: 5px;
 	--co-roam-css__container-active: #ffffff;
 }
 
@@ -1714,7 +1714,7 @@
 	--br-roam-css__container-inactive: none;
 	--bb-roam-css__container-inactive: none;
 	--bl-roam-css__container-inactive: none;
-	--bd-roam-css__container-inactive: ;
+	--bd-roam-css__container-inactive: 5px;
 	--co-roam-css__container-inactive: #ffffff;
 }
 
@@ -1725,6 +1725,7 @@
 	--bb-roam-js__button--active-hover: none;
 	--bl-roam-js__button--active-hover: none;
 	--bd-roam-js__button--active-hover: ;
+	--co-roam-js__button--active-hover: #ffffff;
 }
 
 :root {
@@ -1734,6 +1735,7 @@
 	--bb-roam-js__button--active: none;
 	--bl-roam-js__button--active: none;
 	--bd-roam-js__button--active: ;
+	--co-roam-js__button--active: #ffffff;
 }
 
 :root {
@@ -1762,7 +1764,7 @@
 	--br-roam-js__container-active: none;
 	--bb-roam-js__container-active: none;
 	--bl-roam-js__container-active: none;
-	--bd-roam-js__container-active: ;
+	--bd-roam-js__container-active: 5px;
 	--co-roam-js__container-active: #ffffff;
 }
 
@@ -1772,7 +1774,7 @@
 	--br-roam-js__container-inactive: none;
 	--bb-roam-js__container-inactive: none;
 	--bl-roam-js__container-inactive: none;
-	--bd-roam-js__container-inactive: ;
+	--bd-roam-js__container-inactive: 5px;
 	--co-roam-js__container-inactive: #ffffff;
 }
 
