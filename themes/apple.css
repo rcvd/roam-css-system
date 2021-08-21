@@ -2666,7 +2666,7 @@
 }
 
 :root {
-	--bc-kanban: #f9fafb;
+	--bc-kanban: #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2676,8 +2676,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #f6f6f6;
-	--br-left-sidebar__container: 1px solid #e5e5e5;
+	--bc-left-sidebar__container: #fafafa;
+	--br-left-sidebar__container: none;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2712,7 +2712,7 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: #fafafa;
+	--bc-left-sidebar__hr: #f0f0f0;
 }
 
 @media(prefers-color-scheme: dark) {
