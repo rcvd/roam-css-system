@@ -1231,12 +1231,28 @@
 }
 
 :root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-control--checked: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-control--checked: #0059d0;
+	}
+}
+
+:root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 
