@@ -1588,7 +1588,7 @@
 }
 
 :root {
-	--bc-reference__item: transaprent;
+	--bc-reference__item: transparent;
 	--bt-reference__item: none;
 	--br-reference__item: none;
 	--bb-reference__item: none;
