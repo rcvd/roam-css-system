@@ -2155,6 +2155,9 @@
 }
 
 :root {
+}
+
+:root {
 	--bc-topbar-datepicker__today--selected: var(--cl-green-500);
 	--co-topbar-datepicker__today--selected: var(--cl-white);
 }

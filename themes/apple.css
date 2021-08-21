@@ -4699,6 +4699,14 @@
 }
 
 :root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-topbar-datepicker__today--selected: ;
 	--co-topbar-datepicker__today--selected: ;
 }

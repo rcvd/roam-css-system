@@ -2180,6 +2180,9 @@ span[style*='background-color: yellow'] {
 	color: 					var(--co-topbar-datepicker__nav-button, #5c7080);
 }
 
+.rm-topbar .bp3-datepicker .DayPicker-Day.DayPicker-Day--outside:hover {
+}
+
 .rm-topbar .rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today {
 	background-color: 		var(--bc-topbar-datepicker__today--selected, #2B95D6);
 	color: 					var(--co-topbar-datepicker__today--selected, #F5F8FA)!important;
