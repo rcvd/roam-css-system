@@ -1893,6 +1893,7 @@
 	--bb-settings__input: none;
 	--bl-settings__input: none;
 	--bd-settings__input: ;
+	--co-settings__input: #ebebeb;
 }
 
 :root {

@@ -1893,6 +1893,7 @@
 	--bb-settings__input: 1px solid var(--cl-gray-100);
 	--bl-settings__input: 1px solid var(--cl-gray-100);
 	--bd-settings__input: 0px;
+	--co-settings__input: ;
 }
 
 :root {

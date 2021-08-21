@@ -4123,6 +4123,7 @@
 	--bb-settings__input: ;
 	--bl-settings__input: ;
 	--bd-settings__input: ;
+	--co-settings__input: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4132,6 +4133,7 @@
 		--br-settings__input: none;
 		--bb-settings__input: none;
 		--bl-settings__input: none;
+		--co-settings__input: #ebebeb;
 	}
 }
 

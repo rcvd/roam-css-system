@@ -1917,6 +1917,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-bottom: 			var(--bb-settings__input, 1px #394B59 solid);
 	border-left: 			var(--bl-settings__input, 1px #394B59 solid);
 	border-radius: 			var(--bd-settings__input, 5px);
+	color: 					var(--co-settings__input, inherit);
 }
 
 .rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper):hover {
