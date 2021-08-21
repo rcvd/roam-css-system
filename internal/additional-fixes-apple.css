@@ -244,7 +244,7 @@ textarea {
 
 #right-sidebar .flex-h-box {
     background-color: #fff;
-    padding: 8px;
+    padding: 8px!important;
     padding-bottom: 12px!important;
     border-bottom: 1px solid #d1d2d2;
 }
@@ -255,4 +255,8 @@ textarea {
 
 #app > div > div.roam-app > div.roam-sidebar-container.noselect > div > div:nth-child(2) {
     padding-top:  44px;
+}
+
+#roam-right-sidebar-content {
+    background-color: #f3f3f3;
 }
