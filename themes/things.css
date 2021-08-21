@@ -2389,7 +2389,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-hr: 1px solid var(--cl-gray-700);
+		--bt-hr: 1px solid #464646;
 		--br-hr: ;
 		--bb-hr: ;
 		--bl-hr: ;
@@ -2405,9 +2405,9 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-html__select--hover: var(--cl-gray-800);
+		--bc-html__select--hover: #286bbd;
 		--sd-html__select--hover: ;
-		--co-html__select--hover: var(--cl-white);
+		--co-html__select--hover: #fff;
 	}
 }
 
@@ -2421,7 +2421,7 @@
 	:root {
 		--bc-html__select: ;
 		--sd-html__select: ;
-		--co-html__select: var(--cl-gray-100);
+		--co-html__select: #fff;
 	}
 }
 
@@ -2431,7 +2431,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-html__select-icon: var(--cl-gray-500);
+		--co-html__select-icon: #fff;
 	}
 }
 
@@ -2441,7 +2441,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-inline-references: var(--cl-black);
+		--bc-inline-references: #222222;
 	}
 }
 
@@ -2460,7 +2460,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-input__search-icon: #adadae;
+		--co-input__search-icon: #a8a8a9;
 	}
 }
 
@@ -2471,7 +2471,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-input__search-placeholder: #adadae;
+		--co-input__search-placeholder: #a8a8a9;
 	}
 }
 
@@ -2518,7 +2518,7 @@
 		--bb-input: none;
 		--bl-input: none;
 		--sd-input: none;
-		--co-input: var(--cl-gray-100);
+		--co-input: #ebebeb;
 	}
 }
 
@@ -2534,12 +2534,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-install-button--hover: var(--cl-blue-900);
-		--bt-install-button--hover: 1px solid var(--cl-blue-800);
-		--br-install-button--hover: 1px solid var(--cl-blue-800);
-		--bb-install-button--hover: 1px solid var(--cl-blue-800);
-		--bl-install-button--hover: 1px solid var(--cl-blue-800);
-		--co-install-button--hover: var(--cl-blue-100);
+		--bc-install-button--hover: #5e5e5e;
+		--bt-install-button--hover: none;
+		--br-install-button--hover: none;
+		--bb-install-button--hover: none;
+		--bl-install-button--hover: none;
+		--co-install-button--hover: #e7e7e7;
 	}
 }
 
@@ -2555,12 +2555,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-install-button: var(--cl-gray-900);
-		--bt-install-button: 1px solid var(--cl-gray-800);
-		--br-install-button: 1px solid var(--cl-gray-800);
-		--bb-install-button: 1px solid var(--cl-gray-800);
-		--bl-install-button: 1px solid var(--cl-gray-800);
-		--co-install-button: var(--cl-gray-100);
+		--bc-install-button: #5e5e5e;
+		--bt-install-button: none;
+		--br-install-button: none;
+		--bb-install-button: none;
+		--bl-install-button: none;
+		--co-install-button: #e7e7e7;
 	}
 }
 
@@ -2575,11 +2575,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban__card: var(--cl-black);
-		--bt-kanban__card: 1px solid var(--cl-gray-800);
-		--br-kanban__card: 1px solid var(--cl-gray-800);
-		--bb-kanban__card: 1px solid var(--cl-gray-800);
-		--bl-kanban__card: 1px solid var(--cl-gray-800);
+		--bc-kanban__card: #222222;
+		--bt-kanban__card: none;
+		--br-kanban__card: none;
+		--bb-kanban__card: none;
+		--bl-kanban__card: none;
 	}
 }
 
@@ -2589,7 +2589,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban__column: var(--cl-gray-900);
+		--bc-kanban__column: #262626;
 	}
 }
 
@@ -2599,7 +2599,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban__dropbar: var(--cl-red-500);
+		--bc-kanban__dropbar: #333333;
 	}
 }
 
@@ -2609,7 +2609,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bb-kanban__title: 1px solid var(--cl-gray-700);
+		--bb-kanban__title: #a8a8a9;
 	}
 }
 
@@ -2619,7 +2619,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban: var(--cl-gray-800);
+		--bc-kanban: #e7e7e7;
 	}
 }
 
