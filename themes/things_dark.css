@@ -1258,7 +1258,7 @@
 }
 
 :root {
-	--bb-level3: 1px solid #464746;
+	--bb-level3: none;
 	--co-level3: #d1d2d1;
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 1rem;
@@ -1560,7 +1560,7 @@
 	--bb-query: none;
 	--bl-query: none;
 	--bd-query: ;
-	--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.25);
+	--sd-query: 0px 0px 5px 4px rgba(0,0,0,0.35);
 }
 
 :root {
