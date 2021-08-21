@@ -4125,7 +4125,7 @@
 }
 
 :root {
-	--co-settings__heading: var(--cl-gray-900);
+	--co-settings__heading: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4238,7 +4238,7 @@
 	--br-settings__items--hover: none;
 	--bb-settings__items--hover: none;
 	--bl-settings__items--hover: none;
-	--co-settings__items--hover: var(--cl-gray-300);
+	--co-settings__items--hover: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4253,12 +4253,12 @@
 }
 
 :root {
-	--bc-settings__items--selected: var(--cl-white);
+	--bc-settings__items--selected: #f5f6f8;
 	--bt-settings__items--selected: none;
 	--br-settings__items--selected: none;
 	--bb-settings__items--selected: none;
 	--bl-settings__items--selected: none;
-	--co-settings__items--selected: var(--cl-gray-300);
+	--co-settings__items--selected: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4278,7 +4278,7 @@
 	--br-settings__items: none;
 	--bb-settings__items: none;
 	--bl-settings__items: none;
-	--co-settings__items: var(--cl-gray-900);
+	--co-settings__items: #373837;
 }
 
 @media(prefers-color-scheme: dark) {
