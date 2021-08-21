@@ -3174,11 +3174,11 @@
 }
 
 :root {
-	--bc-modal-dialog: #f5f6f8;
-	--bt-modal-dialog: 1px solid var(--cl-gray-100);
-	--br-modal-dialog: 1px solid var(--cl-gray-100);
-	--bb-modal-dialog: 1px solid var(--cl-gray-100);
-	--bl-modal-dialog: 1px solid var(--cl-gray-100);
+	--bc-modal-dialog: #ececec;
+	--bt-modal-dialog: 1px solid #cacaca;
+	--br-modal-dialog: 1px solid #cacaca;
+	--bb-modal-dialog: 1px solid #cacaca;
+	--bl-modal-dialog: 1px solid #cacaca;
 	--bd-modal-dialog: 5px;
 }
 
@@ -3919,7 +3919,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);
+	--bc-roam42__cp-menu-item--selected: #0064e0;
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
@@ -3955,7 +3955,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);
+	--bc-roam42__cp-menu-item-active--hover: #0064e0;
 	--bt-roam42__cp-menu-item-active--hover: none;
 	--br-roam42__cp-menu-item-active--hover: none;
 	--bb-roam42__cp-menu-item-active--hover: none;
@@ -4006,7 +4006,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);
+	--bc-roam42__jj-menu-item--highlight: #0064e0;
 	--bt-roam42__jj-menu-item--highlight: none;
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
