@@ -1948,7 +1948,7 @@
 }
 
 :root {
-	--bc-find-or-create__menu-item--selected: #0064e0;
+	--bc-find-or-create__menu-item--selected: #bed7f9;
 	--bt-find-or-create__menu-item--selected: none;
 	--br-find-or-create__menu-item--selected: none;
 	--bb-find-or-create__menu-item--selected: none;
@@ -1967,7 +1967,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: #ffffff;
+	--co-find-or-create__menu-item--selected: #000000;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1993,7 +1993,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #ffffff;
+	--co-find-or-create__new-page--selected: #000000;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2023,7 +2023,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item: var(--cl-gray-600);
+	--co-find-or-create__search-list-item: #000000;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2033,7 +2033,7 @@
 }
 
 :root {
-	--co-find-or-create__search-list-item-title: var(--cl-gray-800);
+	--co-find-or-create__search-list-item-title: #000000;
 	--fs-find-or-create__search-list-item-title: 1rem;
 }
 
