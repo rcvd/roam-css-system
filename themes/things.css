@@ -2177,12 +2177,12 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-help__categories--hover: transparent;
-		--co-help__categories--hover: var(--cl-white);
+		--co-help__categories--hover: #ffffff;
 	}
 }
 
 :root {
-	--bc-help__categories--selected: #0064e0;
+	--bc-help__categories--selected: #bed7f9;
 }
 
 @media(prefers-color-scheme: dark) {

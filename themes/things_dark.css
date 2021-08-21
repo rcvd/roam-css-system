@@ -982,7 +982,7 @@
 
 :root {
 	--bc-help__categories--hover: transparent;
-	--co-help__categories--hover: var(--cl-white);
+	--co-help__categories--hover: #ffffff;
 }
 
 :root {
