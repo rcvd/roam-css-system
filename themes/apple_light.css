@@ -2096,10 +2096,10 @@
 }
 
 :root {
-	--bc-topbar__container: ;
+	--bc-topbar__container: #ffffff;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
-	--bb-topbar__container: 1px solid #f0f1f2;
+	--bb-topbar__container: 1px solid #d2d2d2;
 	--bl-topbar__container: ;
 	--bd-topbar__container: 0px;
 	--sd-topbar__container: ;
