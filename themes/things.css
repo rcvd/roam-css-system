@@ -1524,10 +1524,10 @@
 
 :root {
 	--bc-elevation__container: #ececec;
-	--bt-elevation__container: none;
-	--br-elevation__container: none;
-	--bb-elevation__container: none;
-	--bl-elevation__container: none;
+	--bt-elevation__container: 1px solid #c9c9c9;
+	--br-elevation__container: 1px solid #c9c9c9;
+	--bb-elevation__container: 1px solid #c9c9c9;
+	--bl-elevation__container: 1px solid #c9c9c9;
 	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
