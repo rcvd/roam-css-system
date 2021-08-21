@@ -2824,7 +2824,7 @@
 }
 
 :root {
-	--co-log-page__h1: #b0b2b7;
+	--co-log-page__h1: #e6e8ec;
 	--ff-log-page__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-log-page__h1: 22px;
 	--ft-log-page__h1: ;
@@ -2839,7 +2839,7 @@
 }
 
 :root {
-	--co-log-page__preview: #b0b2b7;
+	--co-log-page__preview: #e6e8ec;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2849,7 +2849,7 @@
 }
 
 :root {
-	--bt-log-page: 1px solid #b0b2b7;
+	--bt-log-page: 1px solid #e6e8ec;
 }
 
 @media(prefers-color-scheme: dark) {
