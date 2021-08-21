@@ -1238,8 +1238,8 @@
 }
 
 :root {
-	--bb-level1: ;
-	--co-level1: ;
+	--bb-level1: 1px solid #464746;
+	--co-level1: #ffffff;
 	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 1rem;
 	--ft-level1: ;
@@ -1248,8 +1248,8 @@
 }
 
 :root {
-	--bb-level2: ;
-	--co-level2: #5d9be5;
+	--bb-level2: 1px solid #466a93;
+	--co-level2: #64a6f5;
 	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 1rem;
 	--ft-level2: ;
@@ -1258,8 +1258,8 @@
 }
 
 :root {
-	--bb-level3: ;
-	--co-level3: ;
+	--bb-level3: 1px solid #464746;
+	--co-level3: #d1d2d1;
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 1rem;
 	--ft-level3: ;
@@ -1268,7 +1268,7 @@
 }
 
 :root {
-	--co-log-page__h1: #4d4e4d;
+	--co-log-page__h1: #737473;
 	--ff-log-page__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-log-page__h1: 22px;
 	--ft-log-page__h1: ;
@@ -1277,11 +1277,11 @@
 }
 
 :root {
-	--co-log-page__preview: #4d4e4d;
+	--co-log-page__preview: #737473;
 }
 
 :root {
-	--bt-log-page: 1px solid #4d4e4d;
+	--bt-log-page: 1px solid #464746;
 }
 
 :root {
@@ -1496,11 +1496,11 @@
 }
 
 :root {
-	--fl-popover__arrow-border: var(--cl-gray-800);
+	--fl-popover__arrow-border: none;
 }
 
 :root {
-	--fl-popover__arrow-fill: var(--cl-black);
+	--fl-popover__arrow-fill: none;
 }
 
 :root {
@@ -1546,19 +1546,19 @@
 }
 
 :root {
-	--bc-query__content: var(--cl-gray-900);
+	--bc-query__content: #333333;
 }
 
 :root {
-	--bc-query__title: var(--cl-gray-700);
-	--co-query__title: var(--cl-gray-200);
+	--bc-query__title: #222222;
+	--co-query__title: #e5e5e5;
 }
 
 :root {
-	--bt-query: 1px solid var(--cl-gray-600);
-	--br-query: 1px solid var(--cl-gray-600);
-	--bb-query: 1px solid var(--cl-gray-600);
-	--bl-query: 1px solid var(--cl-gray-600);
+	--bt-query: none;
+	--br-query: none;
+	--bb-query: none;
+	--bl-query: none;
 }
 
 :root {
