@@ -1955,6 +1955,10 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	background-color: 		var(--bc-settings__items-selected--before, #8A9BA8);
 }
 
+.rm-hotkeys-settings .rm-hotkeys-context .rm-hotkeys-action .rm-hotkeys-hotkey__part {
+	background-color: 		var(--bc-settings__hotkeys, #30404D);
+}
+
 .rm-settings .rm-settings-panel__section {
 	border-top: 			var(--bt-settings__panel, solid 1px #293742);
 }

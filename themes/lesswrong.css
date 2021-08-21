@@ -4218,6 +4218,16 @@
 }
 
 :root {
+	--bc-settings__hotkeys: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__hotkeys: ;
+	}
+}
+
+:root {
 	--bt-settings__panel: ;
 }
 

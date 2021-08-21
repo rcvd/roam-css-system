@@ -1932,6 +1932,10 @@
 }
 
 :root {
+	--bc-settings__hotkeys: ;
+}
+
+:root {
 	--bt-settings__panel: ;
 }
 

@@ -1932,6 +1932,10 @@
 }
 
 :root {
+	--bc-settings__hotkeys: #a8a8a9;
+}
+
+:root {
 	--bt-settings__panel: 1px solid #464746;
 }
 
