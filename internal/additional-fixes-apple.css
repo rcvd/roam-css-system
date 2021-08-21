@@ -228,3 +228,7 @@ textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
     display:  none;
 }
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
+    border-bottom: 1px solid #d1d2d2;
+}
