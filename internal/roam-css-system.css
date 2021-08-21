@@ -966,7 +966,7 @@ div, textarea {
 	text-transform: 		var(--tt-graph-dropdown__menu-title, inherit);
 }
 
-.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover {
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover a {
 	background-color: 		var(--bc-graph-dropdown__setting--hover, #CED9E0);
 	color: 					var(--co-graph-dropdown__setting--hover, inherit)!important;
 }
