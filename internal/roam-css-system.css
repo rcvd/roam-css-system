@@ -1877,6 +1877,16 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-radius: 			var(--bd-roam42__jj-menu-item, inherit);
 }
 
+.rm-auth-providers .rm-auth-provider {
+	background-color: 		var(--bc-settings__auth-provider, inherit);
+	border-top: 			var(--bt-settings__auth-provider, 1px solid #8A9BA8);
+	border-right: 			var(--br-settings__auth-provider, 1px solid #8A9BA8);
+	border-bottom: 			var(--bb-settings__auth-provider, 1px solid #8A9BA8);
+	border-left: 			var(--bl-settings__auth-provider, 1px solid #8A9BA8);
+	border-radius: 			var(--bd-settings__auth-provider, 4px);
+	color: 					var(--co-settings__auth-provider, #8A9BA8);
+}
+
 .rm-settings .rm-select-wrapper button.bp3-button {
 	color: 					var(--co-settings__button, #8A9BA8);
 }

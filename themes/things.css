@@ -538,13 +538,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__danger--hover: #cf3350;
+		--bc-button__danger--hover: #fb375e;
 		--bt-button__danger--hover: none;
 		--br-button__danger--hover: none;
 		--bb-button__danger--hover: none;
 		--bl-button__danger--hover: none;
 		--sd-button__danger--hover: none;
-		--co-button__danger--hover: #2c2227;
+		--co-button__danger--hover: #ffffff;
 	}
 }
 
@@ -561,13 +561,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button__danger: #cf3350;
+		--bc-button__danger: #fb375e;
 		--bt-button__danger: none;
 		--br-button__danger: none;
 		--bb-button__danger: none;
 		--bl-button__danger: none;
 		--sd-button__danger: none;
-		--co-button__danger: #2c2227;
+		--co-button__danger: #ffffff;
 	}
 }
 
@@ -4040,6 +4040,27 @@
 }
 
 :root {
+	--bc-settings__auth-provider: ;
+	--bt-settings__auth-provider: ;
+	--br-settings__auth-provider: ;
+	--bb-settings__auth-provider: ;
+	--bl-settings__auth-provider: ;
+	--bd-settings__auth-provider: 5px;
+	--co-settings__auth-provider: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__auth-provider: #5e5e5e;
+		--bt-settings__auth-provider: none;
+		--br-settings__auth-provider: none;
+		--bb-settings__auth-provider: none;
+		--bl-settings__auth-provider: none;
+		--co-settings__auth-provider: #e2e2e2;
+	}
+}
+
+:root {
 	--co-settings__button: ;
 }
 
@@ -4223,7 +4244,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__hotkeys: #a8a8a9;
+		--bc-settings__hotkeys: #939393;
 	}
 }
 

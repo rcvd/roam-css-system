@@ -1854,6 +1854,16 @@
 }
 
 :root {
+	--bc-settings__auth-provider: ;
+	--bt-settings__auth-provider: ;
+	--br-settings__auth-provider: ;
+	--bb-settings__auth-provider: ;
+	--bl-settings__auth-provider: ;
+	--bd-settings__auth-provider: ;
+	--co-settings__auth-provider: ;
+}
+
+:root {
 	--co-settings__button: ;
 }
 
