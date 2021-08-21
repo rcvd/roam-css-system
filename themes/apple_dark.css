@@ -1935,6 +1935,7 @@
 }
 
 :root {
+	--bc-settings__scrollbar: ;
 	--bd-settings__scrollbar: ;
 }
 

@@ -4226,11 +4226,13 @@
 }
 
 :root {
+	--bc-settings__scrollbar: ;
 	--bd-settings__scrollbar: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-settings__scrollbar: #919191;
 	}
 }
 

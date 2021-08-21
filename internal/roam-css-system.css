@@ -1959,6 +1959,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 }
 
 .rm-settings ::-webkit-scrollbar-thumb {
+	background-color: 		var(--bc-settings__scrollbar, #8A9BA8);
 	border-radius: 			var(--bd-settings__scrollbar, 6px);
 }
 
