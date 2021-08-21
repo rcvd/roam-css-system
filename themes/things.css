@@ -4110,6 +4110,17 @@
 }
 
 :root {
+	--co-settings__email-header: ;
+	--td-settings__email-header: none;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__email-header: #d1d2d1;
+	}
+}
+
+:root {
 	--co-settings__heading: var(--cl-gray-900);
 }
 

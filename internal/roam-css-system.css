@@ -1908,6 +1908,11 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	color: 					var(--co-settings__description, #8A9BA8);
 }
 
+.rm-email-header__email {
+	color: 					var(--co-settings__email-header, #A7B6C2);
+	text-decoration: 		var(--td-settings__email-header, underline);
+}
+
 .rm-settings--desktop .rm-settings-heading {
 	color: 					var(--co-settings__heading, #E1E8ED);
 }

@@ -1885,6 +1885,11 @@
 }
 
 :root {
+	--co-settings__email-header: #d1d2d1;
+	--td-settings__email-header: none;
+}
+
+:root {
 	--co-settings__heading: #ffffff;
 }
 

@@ -1885,6 +1885,11 @@
 }
 
 :root {
+	--co-settings__email-header: ;
+	--td-settings__email-header: ;
+}
+
+:root {
 	--co-settings__heading: ;
 }
 
