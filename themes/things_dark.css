@@ -1664,7 +1664,7 @@
 	--br-roam-css__button--active-hover: none;
 	--bb-roam-css__button--active-hover: none;
 	--bl-roam-css__button--active-hover: none;
-	--bd-roam-css__button--active-hover: ;
+	--bd-roam-css__button--active-hover: 5px;
 	--co-roam-css__button--active-hover: #ffffff;
 }
 
@@ -1674,7 +1674,7 @@
 	--br-roam-css__button--active: none;
 	--bb-roam-css__button--active: none;
 	--bl-roam-css__button--active: none;
-	--bd-roam-css__button--active: ;
+	--bd-roam-css__button--active: 5px;
 	--co-roam-css__button--active: #ffffff;
 }
 
@@ -1684,7 +1684,7 @@
 	--br-roam-css__button--inactive-hover: none;
 	--bb-roam-css__button--inactive-hover: none;
 	--bl-roam-css__button--inactive-hover: none;
-	--bd-roam-css__button--inactive-hover: ;
+	--bd-roam-css__button--inactive-hover: 5px;
 	--co-roam-css__button--inactive-hover: #ffffff;
 }
 
@@ -1694,7 +1694,7 @@
 	--br-roam-css__button--inactive: none;
 	--bb-roam-css__button--inactive: none;
 	--bl-roam-css__button--inactive: none;
-	--bd-roam-css__button--inactive: ;
+	--bd-roam-css__button--inactive: 5px;
 	--co-roam-css__button--inactive: #ffffff;
 }
 
@@ -1724,7 +1724,7 @@
 	--br-roam-js__button--active-hover: none;
 	--bb-roam-js__button--active-hover: none;
 	--bl-roam-js__button--active-hover: none;
-	--bd-roam-js__button--active-hover: ;
+	--bd-roam-js__button--active-hover: 5px;
 	--co-roam-js__button--active-hover: #ffffff;
 }
 
@@ -1734,7 +1734,7 @@
 	--br-roam-js__button--active: none;
 	--bb-roam-js__button--active: none;
 	--bl-roam-js__button--active: none;
-	--bd-roam-js__button--active: ;
+	--bd-roam-js__button--active: 5px;
 	--co-roam-js__button--active: #ffffff;
 }
 
@@ -1744,7 +1744,7 @@
 	--br-roam-js__button--inactive-hover: none;
 	--bb-roam-js__button--inactive-hover: none;
 	--bl-roam-js__button--inactive-hover: none;
-	--bd-roam-js__button--inactive-hover: ;
+	--bd-roam-js__button--inactive-hover: 5px;
 	--co-roam-js__button--inactive-hover: #ffffff;
 }
 
@@ -1754,7 +1754,7 @@
 	--br-roam-js__button--inactive: none;
 	--bb-roam-js__button--inactive: none;
 	--bl-roam-js__button--inactive: none;
-	--bd-roam-js__button--inactive: 0px;
+	--bd-roam-js__button--inactive: 5px;
 	--co-roam-js__button--inactive: #ffffff;
 }
 
