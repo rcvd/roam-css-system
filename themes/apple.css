@@ -3484,11 +3484,12 @@
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: none;
+	--bt-quote: 1px solid rgb(225,225,225);
 	--br-quote: none;
-	--bb-quote: none;
-	--bl-quote: 4px solid #0362c1;
+	--bb-quote: 1px solid rgb(225,225,225);
+	--bl-quote: none;
 	--bd-quote: ;
+	--co-quote: rgb(139,139,141);
 	--ff-quote: ;
 	--fs-quote: 1rem;
 	--ft-quote: ;
@@ -3502,6 +3503,7 @@
 		--br-quote: none;
 		--bb-quote: none;
 		--bl-quote: 4px solid #8b8c8c;
+		--co-quote: ;
 	}
 }
 

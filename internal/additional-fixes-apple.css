@@ -336,3 +336,8 @@ html {
     position: absolute;
     z-index: 100;
 }
+
+.rm-bq {
+    margin-top: 10px;
+    margin-bottom:  10px;
+}

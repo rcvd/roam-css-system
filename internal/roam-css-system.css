@@ -1617,6 +1617,7 @@ div, textarea {
 	border-bottom: 			var(--bb-quote, inherit);
 	border-left: 			var(--bl-quote, 5px solid #30404D);
 	border-radius: 			var(--bd-quote, inherit);
+	color: 					var(--co-quote, inherit);
 	font-family: 			var(--ff-quote, inherit);
 	font-size: 				var(--fs-quote, 14px);
 	font-style: 			var(--ft-quote, inherit);
