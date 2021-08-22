@@ -1665,8 +1665,8 @@
 }
 
 :root {
-	--bc-right-sidebar__container: #f5f5f7;
-	--bl-right-sidebar__container: none;
+	--bc-right-sidebar__container: #fafafa;
+	--bl-right-sidebar__container: 4px solid #fff;
 }
 
 :root {
