@@ -1214,7 +1214,7 @@
 
 :root {
 	--bc-left-sidebar__container: #fafafa;
-	--br-left-sidebar__container: none;
+	--br-left-sidebar__container: 4px solid white;
 }
 
 :root {
