@@ -685,11 +685,11 @@
 }
 
 :root {
-	--bc-elevation__container: #333333;
-	--bt-elevation__container: 1px solid #373737;
-	--br-elevation__container: 1px solid #373737;
-	--bb-elevation__container: 1px solid #373737;
-	--bl-elevation__container: 1px solid #373737;
+	--bc-elevation__container: #1f1f1f;
+	--bt-elevation__container: 1px solid #585858;
+	--br-elevation__container: 1px solid #585858;
+	--bb-elevation__container: 1px solid #585858;
+	--bl-elevation__container: 1px solid #585858;
 	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
