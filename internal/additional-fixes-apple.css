@@ -45,7 +45,7 @@ textarea {
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
-    margin-top: 4px;
+    margin-top: 3px;
     padding-left: 2px;
 }
 
