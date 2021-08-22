@@ -1559,7 +1559,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__create-block: #545454;
+		--co-elevation__create-block: #939393;
 	}
 }
 
@@ -1619,7 +1619,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-icon: #545454;
+		--co-elevation__item-icon: #939393;
 	}
 }
 
@@ -1641,7 +1641,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__item-keyprompt: #545454;
+		--co-elevation__item-keyprompt: #939393;
 	}
 }
 
@@ -1651,7 +1651,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-elevation__search-block: #545454;
+		--co-elevation__search-block: #939393;
 	}
 }
 

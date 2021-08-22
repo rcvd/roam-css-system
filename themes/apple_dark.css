@@ -699,7 +699,7 @@
 }
 
 :root {
-	--co-elevation__create-block: #545454;
+	--co-elevation__create-block: #939393;
 }
 
 :root {
@@ -726,7 +726,7 @@
 }
 
 :root {
-	--co-elevation__item-icon: #545454;
+	--co-elevation__item-icon: #939393;
 }
 
 :root {
@@ -734,13 +734,13 @@
 }
 
 :root {
-	--co-elevation__item-keyprompt: #545454;
+	--co-elevation__item-keyprompt: #939393;
 	--fs-elevation__item-keyprompt: 0.8rem;
 	--op-elevation__item-keyprompt: 1;
 }
 
 :root {
-	--co-elevation__search-block: #545454;
+	--co-elevation__search-block: #939393;
 }
 
 :root {
