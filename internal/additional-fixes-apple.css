@@ -246,6 +246,7 @@ textarea {
     background-color: #fff;
     padding: 8px!important;
     margin-top: 3px;
+    margin-right: 2px!important;
 }
 
 #right-sidebar > .flex-h-box > .bp3-button {
