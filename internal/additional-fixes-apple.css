@@ -28,6 +28,10 @@ textarea {
     line-height: 16px;
 }
 
+.controls, .rm-block__controls {
+    padding-top: 4px;
+}
+
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
@@ -41,7 +45,7 @@ textarea {
 }
 
 .rm-bullet {
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
 .rm-bullet--numbered {
