@@ -315,9 +315,23 @@ html {
     z-index: 100;
 }
 
+@media(prefers-color-scheme: dark) {
+    .bp3-popover {
+        background-color: rgba(0,0,0,0.72); 
+    }
+}
+
+
 .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
     background: rgba(255,255,255,0.5);
 }
+
+@media(prefers-color-scheme: dark) {
+    .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
+        background: rgba(0,0,0,0.5);
+    }
+}
+
 
 .roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100%);
@@ -334,6 +348,12 @@ html {
     top: 0;
     position: absolute;
     z-index: 100;
+}
+
+@media(prefers-color-scheme: dark) {
+    .rm-files-dropzone {
+        background-color: rgba(0,0,0,0.72); 
+    }
 }
 
 .rm-bq {
