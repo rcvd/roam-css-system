@@ -36,6 +36,12 @@ textarea {
     color: #666666;
 }
 
+@media (prefers-color-scheme: dark) {
+    .rm-sidebar-window > div {
+        color: #999999;
+    }
+}
+
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
@@ -360,7 +366,6 @@ html {
     }
 }
 
-
 .roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100%);
 }
@@ -396,4 +401,3 @@ html {
 .bp3-submenu.bp3-popover {
     padding: 0;
 }
-
