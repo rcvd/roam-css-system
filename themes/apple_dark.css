@@ -871,10 +871,10 @@
 
 :root {
 	--bc-emoji-mart: transparent;
-	--bt-emoji-mart: 1px solid #5b5b5b;
-	--br-emoji-mart: 1px solid #5b5b5b;
-	--bb-emoji-mart: 1px solid #5b5b5b;
-	--bl-emoji-mart: 1px solid #5b5b5b;
+	--bt-emoji-mart: none;
+	--br-emoji-mart: none;
+	--bb-emoji-mart: none;
+	--bl-emoji-mart: none;
 	--bd-emoji-mart: 0px;
 	--co-emoji-mart: #e7e8e7;
 	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
