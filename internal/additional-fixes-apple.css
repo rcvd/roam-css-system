@@ -283,3 +283,7 @@ textarea {
 .roam-body .roam-app .roam-main .roam-article {
     padding-top: 64px;
 }
+
+.bp3-menu-item .bp3-icon {
+    display: none;
+}
