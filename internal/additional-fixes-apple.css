@@ -175,11 +175,8 @@ textarea {
 
 /* Hide # for tags */
 .rm-page-ref--tag {
-    display: block;
-}
-
-.rm-page-ref--tag::first-letter {
-  color: transparent;    
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 /* Fix hr margin */
