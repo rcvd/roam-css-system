@@ -1135,11 +1135,11 @@
 }
 
 :root {
-	--co-input__search-icon: #8b8d96;
+	--co-input__search-icon: #666666;
 }
 
 :root {
-	--co-input__search-placeholder: #8a8e98;
+	--co-input__search-placeholder: #666666;
 	--ff-input__search-placeholder: ;
 }
 
