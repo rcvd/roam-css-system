@@ -395,7 +395,7 @@
 }
 
 :root {
-	--bc-checkmark--checked: #64a6f5;
+	--bc-checkmark--checked: #0058d0;
 	--bt-checkmark--checked: none;
 	--br-checkmark--checked: none;
 	--bb-checkmark--checked: none;
@@ -556,11 +556,11 @@
 }
 
 :root {
-	--bc-control--hover-checked: #0059d0;
+	--bc-control--hover-checked: #0058d0;
 }
 
 :root {
-	--bc-control--checked: #0059d0;
+	--bc-control--checked: #0058d0;
 }
 
 :root {
