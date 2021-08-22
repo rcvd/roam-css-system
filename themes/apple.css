@@ -4519,10 +4519,10 @@
 	--bd-tags: 0px;
 	--co-tags: #6e6e73;
 	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-tags: 0.95rem;
+	--fs-tags: 1rem;
 	--ft-tags: ;
 	--fw-tags: normal;
-	--td-tags: ;
+	--td-tags: uppercase;
 	--tt-tags: ;
 }
 
