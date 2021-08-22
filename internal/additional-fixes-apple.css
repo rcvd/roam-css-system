@@ -274,3 +274,8 @@ textarea {
     top: 0px;
     z-index: 2000;
 }
+
+.rm-block-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
