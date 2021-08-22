@@ -1423,7 +1423,7 @@
 }
 
 :root {
-	--bc-datepicker: #2c3239;
+	--bc-datepicker: transparent;
 	--bt-datepicker: none;
 	--br-datepicker: none;
 	--bb-datepicker: none;
