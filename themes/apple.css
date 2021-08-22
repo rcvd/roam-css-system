@@ -1435,7 +1435,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-datepicker: #262626;
+		--bc-datepicker: transparent;
 		--bt-datepicker: 1px solid #373737;
 		--br-datepicker: 1px solid #373737;
 		--bb-datepicker: 1px solid #373737;
@@ -1534,7 +1534,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-elevation__container: #262626;
+		--bc-elevation__container: transparent;
 		--bt-elevation__container: 1px solid #373737;
 		--br-elevation__container: 1px solid #373737;
 		--bb-elevation__container: 1px solid #373737;
@@ -1938,7 +1938,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-emoji-mart: #333333;
+		--bc-emoji-mart: transparent;
 		--bt-emoji-mart: 1px solid #5b5b5b;
 		--br-emoji-mart: 1px solid #5b5b5b;
 		--bb-emoji-mart: 1px solid #5b5b5b;
@@ -2116,7 +2116,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-graph-dropdown__setting--hover: ;
+		--bc-graph-dropdown__setting--hover: #286bbd;
 	}
 }
 
@@ -2539,7 +2539,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-input--focus: #5c5b5b;
+		--bc-input--focus: transparent;
 		--bt-input--focus: none;
 		--br-input--focus: none;
 		--bb-input--focus: none;
@@ -2907,7 +2907,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-main: #262626;
+		--bc-main: #141414;
 	}
 }
 
@@ -4503,12 +4503,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-tags--hover: #296349;
+		--bc-tags--hover: transparent;
 		--bt-tags--hover: none;
 		--br-tags--hover: none;
 		--bb-tags--hover: none;
 		--bl-tags--hover: none;
-		--co-tags--hover: #d1dcd8;
+		--co-tags--hover: #999999;
 	}
 }
 
@@ -4530,12 +4530,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-tags: #296349;
+		--bc-tags: transparent;
 		--bt-tags: none;
 		--br-tags: none;
 		--bb-tags: none;
 		--bl-tags: none;
-		--co-tags: #d1dcd8;
+		--co-tags: #999999;
 	}
 }
 
@@ -4582,7 +4582,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar__container: #262626;
+		--bc-topbar__container: transparent;
 		--bt-topbar__container: none;
 		--br-topbar__container: none;
 		--bb-topbar__container: 1px solid #1e1e1e;
@@ -4788,7 +4788,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-topbar-datepicker: #3333333;
+		--bc-topbar-datepicker: transparent;
 		--bt-topbar-datepicker: none;
 		--br-topbar-datepicker: none;
 		--bb-topbar-datepicker: none;
