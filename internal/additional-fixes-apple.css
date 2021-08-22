@@ -53,7 +53,7 @@ textarea {
 }
 
 .rm-bullet--numbered {
-    margin-top: 1px;
+    margin-top: 0px;
 }
 
 /* Firefox specific fixes */
