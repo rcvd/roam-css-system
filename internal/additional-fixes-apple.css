@@ -80,7 +80,7 @@ textarea {
 
 /* Align multibar */
 .rm-multibar {
-  left: -2px;
+    left: -2px;
 }
 
 /* Align references */
@@ -115,7 +115,7 @@ textarea {
 
 /* Set min height for unlinked references */
 .rm-reference-main > div > div:nth-child(2) > div {
-  min-height: 31px;
+    min-height: 31px;
 }
 
 /* Re-color Roam Research Logo */
@@ -151,7 +151,7 @@ textarea {
 }
 
 .bp3-select-popover .bp3-menu {
-  padding: 5px;
+    padding: 5px;
 }
 
 /* Fix starred pages wrapper */
@@ -236,7 +236,7 @@ textarea {
 #right-sidebar > .flex-h-box {
     background-color: #fff;
     padding: 8px!important;
-    padding-bottom: 12px!important;
+    margin-top: 4px;
 }
 
 #right-sidebar {
