@@ -341,3 +341,7 @@ html {
     margin-top: 10px;
     margin-bottom:  10px;
 }
+
+.rm-zoom.zoom-path-view {
+    margin-top: 20px;
+}
