@@ -3641,7 +3641,7 @@
 }
 
 :root {
-	--bc-right-sidebar__container: #f9fafa;
+	--bc-right-sidebar__container: #ffffff;
 	--bl-right-sidebar__container: none;
 }
 
@@ -4572,8 +4572,8 @@
 	--bc-topbar__container: #ffffff;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
-	--bb-topbar__container: 1px solid #d2d2d2;
-	--bl-topbar__container: ;
+	--bb-topbar__container: none;
+	--bl-topbar__container: none;
 	--bd-topbar__container: 0px;
 	--sd-topbar__container: ;
 }
