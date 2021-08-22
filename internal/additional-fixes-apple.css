@@ -275,3 +275,7 @@ textarea {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#right-sidebar .rm-sidebar-window:first-child {
+    margin-top: 30px;
+}
