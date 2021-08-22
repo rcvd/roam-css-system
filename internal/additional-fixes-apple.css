@@ -308,7 +308,7 @@ html {
 }
 
 .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
-    background: transparent;
+    background: rgba(255,255,255,0.72);
 }
 
 .roam-body .roam-app .roam-body-main {
