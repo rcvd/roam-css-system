@@ -1419,7 +1419,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-datepicker__weeknumber: 1px solid #585858;
+		--br-datepicker__weeknumber: 1px solid #404040;
 		--co-datepicker__weeknumber: #939393;
 	}
 }
@@ -4772,7 +4772,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-topbar-datepicker__weeknumber: 1px solid #585858;
+		--br-topbar-datepicker__weeknumber: 1px solid #404040;
 		--co-topbar-datepicker__weeknumber: #939393;
 	}
 }
