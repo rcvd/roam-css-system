@@ -4,10 +4,6 @@ body, input, textarea, select, button {
     direction: ltr;
 }
 
-body {
-    border-top: 1px solid #e6e6e6;
-}
-
 .level1 {
     line-height: 26px;
     letter-spacing: -0.26px;
@@ -239,7 +235,6 @@ textarea {
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
     background-color:  #fff;
-    border-bottom: 1px solid #d1d2d2;
 }
 
 #right-sidebar > .flex-h-box {
