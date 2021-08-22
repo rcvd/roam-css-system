@@ -277,9 +277,9 @@ textarea {
 }
 
 #roam-right-sidebar-content > div:first-child {
-    margin-top: 60px;
+    margin-top: 36px;
 }
 
 .roam-body .roam-app .roam-main .roam-article {
-    padding-top: 60px;
+    padding-top: 64px;
 }
