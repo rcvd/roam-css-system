@@ -568,6 +568,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .bp3-control.bp3-switch:hover input:checked ~ .bp3-control-indicator, .bp3-control:hover input:checked ~ .bp3-control-indicator {
 	background-color: 		var(--bc-control--hover-checked, inherit);
+	box-shadow: 			var(--sd-control--hover-checked, inherit);
+	--webkit-box-shadow: 	var(--sd-control--hover-checked, inherit);
 }
 
 .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator {

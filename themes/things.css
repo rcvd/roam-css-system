@@ -1236,11 +1236,13 @@
 
 :root {
 	--bc-control--hover-checked: #0161be;
+	--sd-control--hover-checked: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-control--hover-checked: #0059d0;
+		--sd-control--hover-checked: ;
 	}
 }
 

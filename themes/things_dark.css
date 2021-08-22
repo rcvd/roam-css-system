@@ -557,6 +557,7 @@
 
 :root {
 	--bc-control--hover-checked: #0059d0;
+	--sd-control--hover-checked: ;
 }
 
 :root {
