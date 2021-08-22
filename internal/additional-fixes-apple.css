@@ -416,3 +416,7 @@ html {
 .rm-settings ::-webkit-scrollbar:vertical {
     background: transparent;
 }
+
+.rm-all-pages {
+    margin-top: 68px;
+}

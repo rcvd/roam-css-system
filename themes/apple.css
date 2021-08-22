@@ -237,7 +237,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-allpages__input-icon--focused: ;
+		--co-allpages__input-icon--focused: #787877;
 	}
 }
 
