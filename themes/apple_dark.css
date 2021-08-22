@@ -699,7 +699,7 @@
 }
 
 :root {
-	--co-elevation__create-block: #939393;
+	--co-elevation__create-block: #545454;
 }
 
 :root {
@@ -717,7 +717,7 @@
 	--br-elevation__item: none;
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
-	--co-elevation__item: #cdcecd;
+	--co-elevation__item: #f5f5f7;
 	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
@@ -726,7 +726,7 @@
 }
 
 :root {
-	--co-elevation__item-icon: #67acfe;
+	--co-elevation__item-icon: #545454;
 }
 
 :root {
@@ -734,13 +734,13 @@
 }
 
 :root {
-	--co-elevation__item-keyprompt: #939393;
+	--co-elevation__item-keyprompt: #545454;
 	--fs-elevation__item-keyprompt: 0.8rem;
 	--op-elevation__item-keyprompt: 1;
 }
 
 :root {
-	--co-elevation__search-block: #939393;
+	--co-elevation__search-block: #545454;
 }
 
 :root {
