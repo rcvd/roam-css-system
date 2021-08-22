@@ -685,7 +685,7 @@
 }
 
 :root {
-	--bc-elevation__container: transparent;
+	--bc-elevation__container: #333333;
 	--bt-elevation__container: 1px solid #373737;
 	--br-elevation__container: 1px solid #373737;
 	--bb-elevation__container: 1px solid #373737;
