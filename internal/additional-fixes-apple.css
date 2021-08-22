@@ -245,7 +245,7 @@ textarea {
 #right-sidebar > .flex-h-box {
     background-color: #fff;
     padding: 8px!important;
-    margin-top: 4px;
+    margin-top: 3px;
 }
 
 #right-sidebar > .flex-h-box > .bp3-button {
@@ -267,7 +267,7 @@ textarea {
 
 .roam-main .rm-topbar {
     position: absolute;
-    left: -20px;
+    left: -28px;
     top: 0px;
     z-index: 2000;
 }
