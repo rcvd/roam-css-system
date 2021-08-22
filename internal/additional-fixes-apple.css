@@ -219,8 +219,8 @@ textarea {
 
 /* Fix checkbox */
 .check-container .checkmark::after {
-    left: 2.5px;
-    top: -0.5px;
+    left: 3.5px;
+    top: 0.5px;
 }
 
 /* Hide scrollbar on elevation */
