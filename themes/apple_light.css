@@ -1658,10 +1658,10 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid #b5b9bf;
-	--br-right-sidebar__bullet-closed: 4px solid #b5b9bf;
-	--bb-right-sidebar__bullet-closed: 4px solid #b5b9bf;
-	--bl-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--bt-right-sidebar__bullet-closed: 4px solid #dddede;
+	--br-right-sidebar__bullet-closed: 4px solid #dddede;
+	--bb-right-sidebar__bullet-closed: 4px solid #dddede;
+	--bl-right-sidebar__bullet-closed: 4px solid #dddede;
 }
 
 :root {
