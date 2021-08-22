@@ -425,6 +425,6 @@ html {
     height: 44px;
 }
 
-.DayPicker-Week {
-    line-height: unset;
+.bp3-datepicker .bp3-datepicker-day-wrapper {
+    padding: 8px;
 }
