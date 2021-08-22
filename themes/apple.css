@@ -2050,7 +2050,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__a--hover: #ebebeb;
+		--co-graph-dropdown__a--hover: #f5f5f7;
 	}
 }
 
@@ -2061,7 +2061,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__a: #ebebeb;
+		--co-graph-dropdown__a: #f5f5f7;
 	}
 }
 
@@ -2092,7 +2092,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__menu-item: #ebebeb;
+		--co-graph-dropdown__menu-item: #f5f5f7;
 	}
 }
 
@@ -2116,7 +2116,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-graph-dropdown__setting--hover: #286bbd;
+		--bc-graph-dropdown__setting--hover: #0058d0;
 	}
 }
 
@@ -2126,7 +2126,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-graph-dropdown__setting--hover: #ebebeb;
+		--co-graph-dropdown__setting--hover: #f5f5f7;
 	}
 }
 
@@ -2139,7 +2139,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-graph-dropdown__setting: transparent;
-		--co-graph-dropdown__setting: #dfeaf9;
+		--co-graph-dropdown__setting: #f5f5f7;
 	}
 }
 
@@ -2693,7 +2693,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__db-title--hover: #c5c5c5;
+		--co-left-sidebar__db-title--hover: #f5f5f7;
 	}
 }
 
@@ -2707,7 +2707,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__db-title: #c5c5c5;
+		--co-left-sidebar__db-title: #f5f5f7;
 	}
 }
 
@@ -2736,7 +2736,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__icon: #c5c5c5;
+		--co-left-sidebar__icon: #f5f5f7;
 	}
 }
 
@@ -2766,7 +2766,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__logo-text: #c5c5c5;
+		--co-left-sidebar__logo-text: #f5f5f7;
 	}
 }
 
@@ -2792,8 +2792,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bb-level1: 1px solid #464746;
-		--co-level1: #ffffff;
+		--bb-level1: none;
+		--co-level1: #f5f5f7;
 	}
 }
 
@@ -2809,8 +2809,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bb-level2: 1px solid #466a93;
-		--co-level2: #64a6f5;
+		--bb-level2: none;
+		--co-level2: #f5f5f7;
 	}
 }
 
@@ -2827,7 +2827,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-level3: none;
-		--co-level3: #d1d2d1;
+		--co-level3: #f5f5f7;
 	}
 }
 
@@ -2920,7 +2920,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-main: #ffffff;
+		--co-main: #f5f5f7;
 	}
 }
 
@@ -3562,7 +3562,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__linked-title: none;
-		--co-reference__linked-title: #7c7d7d;
+		--co-reference__linked-title: #999999;
 	}
 }
 
@@ -3605,7 +3605,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-reference__unlinked-title--hover: #7c7d7d;
+		--co-reference__unlinked-title--hover: #999999;
 	}
 }
 
@@ -3622,7 +3622,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__unlinked-title: none;
-		--co-reference__unlinked-title: #7c7d7d;
+		--co-reference__unlinked-title: #999999;
 	}
 }
 
@@ -4398,7 +4398,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-starred__icon: #d1d2d1;
+		--co-starred__icon: #f5f5f7;
 	}
 }
 
@@ -4419,7 +4419,7 @@
 		--br-starred__page--hover: none;
 		--bb-starred__page--hover: none;
 		--bl-starred__page--hover: none;
-		--co-starred__page--hover: #d1d2d1;
+		--co-starred__page--hover: #f5f5f7;
 	}
 }
 
@@ -4442,7 +4442,7 @@
 		--br-starred__page: none;
 		--bb-starred__page: none;
 		--bl-starred__page: none;
-		--co-starred__page: #d1d2d1;
+		--co-starred__page: #f5f5f7;
 	}
 }
 
@@ -4457,7 +4457,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-starred__title: #d1d2d1;
+		--co-starred__title: #f5f5f7;
 	}
 }
 
