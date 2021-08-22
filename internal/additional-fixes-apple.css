@@ -290,3 +290,39 @@ textarea {
 .rm-right-sidebar__helper-text {
     padding: 30px;
 }
+
+/* Blur Menus */
+html {
+  backgroundColor: white;
+}
+
+.bp3-popover-content {
+   -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,0.72);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
+    background: transparent;
+}
+
+.roam-body .roam-app .roam-body-main {
+    flex: 0 0 calc(100%);
+}
+
+.rm-files-dropzone {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,0.72); content: '';
+    height: 44px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 100;
+}
