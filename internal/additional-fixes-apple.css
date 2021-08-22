@@ -286,3 +286,7 @@ textarea {
 .bp3-menu-item .bp3-icon {
     display: none;
 }
+
+.rm-right-sidebar__helper-text {
+    padding: 30px;
+}
