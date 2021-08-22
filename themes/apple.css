@@ -2776,7 +2776,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-left-sidebar__toprow--hover: transparent;
+		--bc-left-sidebar__toprow--hover: #000;
 	}
 }
 

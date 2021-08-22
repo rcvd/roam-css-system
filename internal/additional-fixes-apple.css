@@ -245,6 +245,12 @@ textarea {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
     background-color:  #fff;
 }
+@media(prefers-color-scheme: dark) {
+    .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
+        background-color:  #000;
+    }
+}
+
 
 #right-sidebar > .flex-h-box {
     background-color: #fff;
