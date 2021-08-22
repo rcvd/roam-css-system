@@ -4857,12 +4857,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-zoom__mask: #4d4e4d;
+		--bc-zoom__mask: #141414;
 	}
 }
 
 :root {
-	--co-zoom-item: #b1b5bb;
+	--co-zoom-item: #666666;
 	--fs-zoom-item: 1rem;
 }
 
