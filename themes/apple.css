@@ -2682,7 +2682,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-left-sidebar__container: #1c1c1c;
+		--bc-left-sidebar__container: #141414;
 		--br-left-sidebar__container: 1px solid #161716;
 	}
 }
@@ -2717,7 +2717,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-left-sidebar__hr: #1d1c1b;
+		--bc-left-sidebar__hr: #141414;
 	}
 }
 
@@ -3649,7 +3649,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-right-sidebar__container: #272625;
+		--bc-right-sidebar__container: #141414;
 		--bl-right-sidebar__container: 1px solid #191918;
 	}
 }
