@@ -574,7 +574,7 @@
 }
 
 :root {
-	--co-button__icon--hover: #838488;
+	--co-button__icon--hover: #666666;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -584,7 +584,7 @@
 }
 
 :root {
-	--co-button__icon: #838488;
+	--co-button__icon: #666666;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2712,7 +2712,7 @@
 }
 
 :root {
-	--bc-left-sidebar__hr: #f0f0f0;
+	--bc-left-sidebar__hr: #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
