@@ -351,8 +351,12 @@ html {
 }
 
 @media(prefers-color-scheme: dark) {
-    .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
+    .rm-topbar, .bp3-input, input[type=search] {
         background: rgba(0,0,0,0.5);
+    }
+
+    .bp3-menu, .bp3-popover .bp3-popover-content {
+        background: rgba(33,33,33,0.5);
     }
 }
 
