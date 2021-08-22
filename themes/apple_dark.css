@@ -1214,7 +1214,7 @@
 
 :root {
 	--bc-left-sidebar__container: #141414;
-	--br-left-sidebar__container: 1px solid #161716;
+	--br-left-sidebar__container: 4px solid #000;
 }
 
 :root {
@@ -1667,7 +1667,7 @@
 
 :root {
 	--bc-right-sidebar__container: #141414;
-	--bl-right-sidebar__container: 1px solid #191918;
+	--bl-right-sidebar__container: 4px solid #000;
 }
 
 :root {
