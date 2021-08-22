@@ -341,7 +341,7 @@ html {
 
 @media(prefers-color-scheme: dark) {
     .bp3-popover {
-        background-color: rgba(33,33,33,0.22); 
+        background-color: rgba(33,33,33,0.3); 
     }
 }
 
