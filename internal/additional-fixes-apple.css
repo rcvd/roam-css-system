@@ -299,7 +299,6 @@ html {
 .bp3-popover-content {
    -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.5);
     height: 100%;
     position: absolute;
     width: 100%;
@@ -308,7 +307,7 @@ html {
 }
 
 .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
-    background: rgba(255,255,255,0.72);
+    background: rgba(255,255,255,0.5);
 }
 
 .roam-body .roam-app .roam-body-main {
