@@ -173,7 +173,7 @@ textarea {
     text-align: left;
 }
 
-/* Hider # for tags */
+/* Hide # for tags */
 .rm-page-ref--tag::first-letter {
   color: transparent;    
 }
