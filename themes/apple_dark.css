@@ -572,35 +572,35 @@
 }
 
 :root {
-	--bc-datepicker__day--hover: #296cbe;
+	--bc-datepicker__day--hover: #0058d0;
 	--bd-datepicker__day--hover: 2px;
-	--co-datepicker__day--hover: var(--cl-white);
+	--co-datepicker__day--hover: #f5f5f7;
 }
 
 :root {
-	--bc-datepicker__nav-button--hover: #266bbd;
-	--bt-datepicker__nav-button--hover: ;
-	--br-datepicker__nav-button--hover: ;
-	--bb-datepicker__nav-button--hover: ;
-	--bl-datepicker__nav-button--hover: ;
+	--bc-datepicker__nav-button--hover: #0058d0;
+	--bt-datepicker__nav-button--hover: none;
+	--br-datepicker__nav-button--hover: none;
+	--bb-datepicker__nav-button--hover: none;
+	--bl-datepicker__nav-button--hover: none;
 	--bd-datepicker__nav-button--hover: 2px;
 }
 
 :root {
-	--co-datepicker__nav-button--hover: #ffffff;
+	--co-datepicker__nav-button--hover: #f5f5f7;
 }
 
 :root {
 	--bc-datepicker__nav-button: transparent;
-	--bt-datepicker__nav-button: ;
-	--br-datepicker__nav-button: ;
-	--bb-datepicker__nav-button: ;
-	--bl-datepicker__nav-button: ;
+	--bt-datepicker__nav-button: none;
+	--br-datepicker__nav-button: none;
+	--bb-datepicker__nav-button: none;
+	--bl-datepicker__nav-button: none;
 	--bd-datepicker__nav-button: 2px;
 }
 
 :root {
-	--co-datepicker__nav-button: ;
+	--co-datepicker__nav-button: #f5f5f7;
 }
 
 :root {
@@ -608,20 +608,20 @@
 }
 
 :root {
-	--bc-datepicker__select--hover: #67acfe;
-	--co-datepicker__select--hover: #fbfdfd;
+	--bc-datepicker__select--hover: #0058d0;
+	--co-datepicker__select--hover: #f5f5f7;
 }
 
 :root {
-	--co-datepicker__select: #fbfdfd;
+	--co-datepicker__select: #f5f5f7;
 }
 
 :root {
-	--co-datepicker__select-icon: #fbfdfd;
+	--co-datepicker__select-icon: #f5f5f7;
 }
 
 :root {
-	--co-datepicker__today: #fbfbfb;
+	--co-datepicker__today: #f5f5f7;
 	--fw-datepicker__today: bold;
 }
 
@@ -630,7 +630,7 @@
 }
 
 :root {
-	--br-datepicker__weeknumber: 1px solid #373737;
+	--br-datepicker__weeknumber: 1px solid #c8c8c8;
 	--co-datepicker__weeknumber: #939393;
 	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-datepicker__weeknumber: 1rem;
@@ -638,12 +638,12 @@
 
 :root {
 	--bc-datepicker: transparent;
-	--bt-datepicker: 1px solid #373737;
-	--br-datepicker: 1px solid #373737;
-	--bb-datepicker: 1px solid #373737;
-	--bl-datepicker: 1px solid #373737;
+	--bt-datepicker: none;
+	--br-datepicker: none;
+	--bb-datepicker: none;
+	--bl-datepicker: none;
 	--bd-datepicker: 5px;
-	--co-datepicker: #fbfbfb;
+	--co-datepicker: #f5f5f7;
 	--ff-datepicker: ;
 }
 
