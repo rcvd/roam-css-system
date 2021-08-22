@@ -261,7 +261,7 @@ textarea {
     background-color: #f3f3f3;
 }
 
-#rm-topbar {
+.rm-topbar {
     position: absolute;
     left: -40px;
     top: 0px;
