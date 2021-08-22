@@ -32,6 +32,10 @@ textarea {
     padding-top: 5px;
 }
 
+.rm-sidebar-window > div {
+    color: #666666;
+}
+
 /* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
