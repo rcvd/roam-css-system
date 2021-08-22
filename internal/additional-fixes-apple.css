@@ -20,8 +20,8 @@ body, input, textarea, select, button {
 }
 
 div {
-    line-height: 16px;
-    letter-spacing: -0.08px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
 }
 
 textarea {
