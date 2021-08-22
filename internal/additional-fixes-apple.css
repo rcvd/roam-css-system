@@ -260,3 +260,10 @@ textarea {
 #roam-right-sidebar-content {
     background-color: #f3f3f3;
 }
+
+#rm-topbar {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    z-index: 2000;
+}
