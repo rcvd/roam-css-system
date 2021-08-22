@@ -2619,7 +2619,7 @@
 }
 
 :root {
-	--bc-kanban__card: #ffffff;
+	--bc-kanban__card: #fafafa;
 	--bt-kanban__card: none;
 	--br-kanban__card: none;
 	--bb-kanban__card: none;
@@ -2629,7 +2629,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban__card: #333333;
+		--bc-kanban__card: #141414;
 		--bt-kanban__card: none;
 		--br-kanban__card: none;
 		--bb-kanban__card: none;
@@ -2658,12 +2658,12 @@
 }
 
 :root {
-	--bb-kanban__title: 1px solid #f9fafb;
+	--bb-kanban__title: 1px solid #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bb-kanban__title: #a8a8a9;
+		--bb-kanban__title: #141414;
 	}
 }
 
