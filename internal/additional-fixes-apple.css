@@ -93,7 +93,7 @@ textarea {
 
 /* Align references */
 .rm-ref-page-view {
-    padding-left: 7px;
+    padding-left: 9px;
 }
 
 .rm-reference-container>.flex-h-box {
@@ -111,6 +111,10 @@ textarea {
 .rm-caret {
     width: 16px;
     height:  16px;
+}
+
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+    padding: 0px;
 }
 
 /* Align caret for linked references */
