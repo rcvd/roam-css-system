@@ -145,11 +145,6 @@ textarea {
     background-image: none;
 }
 
-/* Make menu items lower */
-.bp3-menu-item {
-    padding: 3px 10px;
-}
-
 /* Fix border for popover menus */
 .bp3-select-popover .bp3-popover-content {
     padding: 0;
