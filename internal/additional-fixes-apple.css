@@ -259,6 +259,12 @@ textarea {
     margin-right: 2px!important;
 }
 
+@media(prefers-color-scheme: dark) { 
+    #right-sidebar > .flex-h-box {
+        background-color: #000;
+    }
+}
+
 #right-sidebar > .flex-h-box > .bp3-button {
     z-index: 100;
 }
@@ -315,6 +321,12 @@ textarea {
 /* Blur Menus */
 html {
   backgroundColor: white;
+}
+
+@media(prefers-color-scheme: dark) {
+    html {
+      backgroundColor: black;
+    }
 }
 
 .bp3-popover {
