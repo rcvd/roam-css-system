@@ -424,3 +424,7 @@ html {
 .rm-topbar {
     height: 44px;
 }
+
+.DayPicker-Week {
+    line-height: unset;
+}
