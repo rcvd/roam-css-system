@@ -865,7 +865,7 @@
 }
 
 :root {
-	--bc-emoji-mart__category-label: transparent;
+	--bc-emoji-mart__category-label: #ffffff;
 }
 
 :root {
