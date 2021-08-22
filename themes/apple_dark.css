@@ -1588,9 +1588,9 @@
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: 1px solid rgb(100,100,100);
+	--bt-quote: 1px solid rgb(80,80,80);
 	--br-quote: none;
-	--bb-quote: 1px solid rgb(100,100,100);
+	--bb-quote: 1px solid rgb(80,80,80);
 	--bl-quote: none;
 	--bd-quote: ;
 	--co-quote: rgb(152,152,154);
