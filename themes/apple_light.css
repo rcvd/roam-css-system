@@ -1144,7 +1144,7 @@
 }
 
 :root {
-	--bc-input--focus: #dbdde4;
+	--bc-input--focus: transparent;
 	--bt-input--focus: none;
 	--br-input--focus: none;
 	--bb-input--focus: none;
