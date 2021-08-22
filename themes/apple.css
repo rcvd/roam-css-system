@@ -2430,7 +2430,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-highlight: #4f482b;
-		--co-highlight: #fee692;
+		--co-highlight: ;
 	}
 }
 
