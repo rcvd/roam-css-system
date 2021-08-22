@@ -566,7 +566,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-codeblock__variable-2, #05a);
 }
 
-.bp3-control.bp3-switch:hover input:checked ~ .bp3-control-indicator {
+.bp3-control.bp3-switch:hover input:checked ~ .bp3-control-indicator, .bp3-control:hover input:checked ~ .bp3-control-indicator {
 	background-color: 		var(--bc-control--hover-checked, inherit);
 }
 
