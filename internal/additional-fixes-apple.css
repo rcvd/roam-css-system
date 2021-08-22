@@ -41,7 +41,7 @@ textarea {
 }
 
 .rm-bullet {
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 .rm-bullet--numbered {
@@ -101,7 +101,8 @@ textarea {
 }
 
 .rm-caret {
-    padding-top:  2px;
+    width: 16px;
+    height:  16px;
 }
 
 /* Align caret for linked references */
