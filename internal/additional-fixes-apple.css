@@ -261,9 +261,16 @@ textarea {
     background-color: #f3f3f3;
 }
 
-.rm-topbar {
+.roam-main[style*='flex: 0 0 60%;'] .rm-topbar {
     position: absolute;
     left: -40px;
+    top: 0px;
+    z-index: 2000;
+}
+
+.roam-main[style*='flex: 0 0 100%;'] .rm-topbar {
+    position: absolute;
+    left: 0px;
     top: 0px;
     z-index: 2000;
 }
