@@ -401,3 +401,9 @@ html {
 .bp3-submenu.bp3-popover {
     padding: 0;
 }
+
+/* Remove border from top panel in settings */
+.rm-settings .rm-settings-panel__section.rm-settings-panel__section--top {
+    padding-top: unset;
+    border: none;
+}
