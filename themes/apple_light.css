@@ -685,7 +685,7 @@
 }
 
 :root {
-	--bc-elevation__container: #ececec;
+	--bc-elevation__container: transparent;
 	--bt-elevation__container: 1px solid #c9c9c9;
 	--br-elevation__container: 1px solid #c9c9c9;
 	--bb-elevation__container: 1px solid #c9c9c9;
@@ -1594,7 +1594,7 @@
 	--bd-quote: ;
 	--co-quote: rgb(139,139,141);
 	--ff-quote: ;
-	--fs-quote: 1rem;
+	--fs-quote: 16px;
 	--ft-quote: ;
 	--fw-quote: ;
 }
@@ -2083,7 +2083,7 @@
 }
 
 :root {
-	--bc-textarea__selection: #c3d7ff;
+	--bc-textarea__selection: #b4d7ff;
 }
 
 :root {
@@ -2097,7 +2097,7 @@
 }
 
 :root {
-	--bc-topbar__container: #ffffff;
+	--bc-topbar__container: transparent;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
 	--bb-topbar__container: none;
