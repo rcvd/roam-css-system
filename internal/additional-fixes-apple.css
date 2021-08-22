@@ -341,7 +341,7 @@ html {
 
 @media(prefers-color-scheme: dark) {
     .bp3-popover {
-        background-color: rgba(0,0,0,0.72); 
+        background-color: rgba(0,0,0,0.42); 
     }
 }
 
@@ -376,7 +376,7 @@ html {
 
 @media(prefers-color-scheme: dark) {
     .rm-files-dropzone {
-        background-color: rgba(0,0,0,0.72); 
+        background-color: rgba(0,0,0,0.42); 
     }
 }
 
