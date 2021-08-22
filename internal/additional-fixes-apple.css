@@ -420,3 +420,7 @@ html {
 .rm-all-pages {
     margin-top: 68px;
 }
+
+.rm-topbar {
+    height: 44px;
+}
