@@ -3549,7 +3549,7 @@
 
 :root {
 	--bb-reference__linked-title: ;
-	--co-reference__linked-title: #b5b9bd;
+	--co-reference__linked-title: #666666;
 	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: normal;
@@ -3597,7 +3597,7 @@
 }
 
 :root {
-	--co-reference__unlinked-title--hover: #95999d;
+	--co-reference__unlinked-title--hover: #666666;
 	--td-reference__unlinked-title--hover: ;
 }
 
@@ -3609,7 +3609,7 @@
 
 :root {
 	--bb-reference__unlinked-title: ;
-	--co-reference__unlinked-title: #95999d;
+	--co-reference__unlinked-title: #666666;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: normal;
@@ -4496,7 +4496,7 @@
 	--bb-tags--hover: none;
 	--bl-tags--hover: none;
 	--bd-tags--hover: 0px;
-	--co-tags--hover: #6e6e73;
+	--co-tags--hover: #666666;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4517,7 +4517,7 @@
 	--bb-tags: none;
 	--bl-tags: none;
 	--bd-tags: 0px;
-	--co-tags: #6e6e73;
+	--co-tags: #666666;
 	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-tags: 12px;
 	--ft-tags: ;
