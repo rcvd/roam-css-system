@@ -173,9 +173,9 @@ textarea {
     text-align: left;
 }
 
-/* Change padding for tags */
-.rm-page-ref--tag {
-    padding: 1px 15px 1px 15px;
+/* Hider # for tags */
+.rm-page-ref--tag::first-letter {
+  color: transparent;    
 }
 
 /* Fix hr margin */
