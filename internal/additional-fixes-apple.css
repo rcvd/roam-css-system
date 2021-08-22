@@ -239,6 +239,10 @@ textarea {
     margin-top: 4px;
 }
 
+#right-sidebar > .flex-h-box > .bp3-button {
+    z-index: 100;
+}
+
 #right-sidebar {
     padding-top:  0px;
 }
