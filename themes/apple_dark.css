@@ -1588,12 +1588,12 @@
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: none;
+	--bt-quote: 1px solid rgb(30,30,30);
 	--br-quote: none;
-	--bb-quote: none;
-	--bl-quote: 4px solid #8b8c8c;
+	--bb-quote: 1px solid rgb(30,30,30);
+	--bl-quote: none;
 	--bd-quote: ;
-	--co-quote: ;
+	--co-quote: rgb(116,116,114);
 	--ff-quote: ;
 	--fs-quote: 16px;
 	--ft-quote: ;
