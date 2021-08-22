@@ -2074,9 +2074,9 @@
 	--bd-tags: 0px;
 	--co-tags: #d1dcd8;
 	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-tags: 1rem;
+	--fs-tags: 12px;
 	--ft-tags: ;
-	--fw-tags: normal;
+	--fw-tags: 700;
 	--td-tags: ;
 	--tt-tags: uppercase;
 }
