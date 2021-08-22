@@ -344,3 +344,8 @@ html {
 .rm-zoom.zoom-path-view {
     margin-top: 20px;
 }
+
+.bp3-submenu.bp3-popover {
+    padding: 0;
+}
+

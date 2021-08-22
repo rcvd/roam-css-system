@@ -865,11 +865,11 @@
 }
 
 :root {
-	--bc-emoji-mart__category-label: #ececec;
+	--bc-emoji-mart__category-label: transparent;
 }
 
 :root {
-	--bc-emoji-mart: #ececec;
+	--bc-emoji-mart: transparent;
 	--bt-emoji-mart: none;
 	--br-emoji-mart: none;
 	--bb-emoji-mart: none;
