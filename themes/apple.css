@@ -2673,7 +2673,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-kanban: #222222;
+		--bc-kanban: #141414;
 	}
 }
 
