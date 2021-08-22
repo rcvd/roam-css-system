@@ -276,7 +276,7 @@ textarea {
     z-index: 2000;
 }
 
-.rm-level-0 .roam-block-container {
+.rm-level-0 > .roam-block-container {
     padding-top: 5px;
     padding-bottom: 5px;
 }
