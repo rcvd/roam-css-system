@@ -276,7 +276,7 @@ textarea {
     padding-bottom: 5px;
 }
 
-#right-sidebar > div:first-child .rm-sidebar-window {
+#roam-right-sidebar-content > div:first-child {
     margin-top: 60px;
 }
 
