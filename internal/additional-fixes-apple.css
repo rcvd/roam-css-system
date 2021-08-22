@@ -247,7 +247,7 @@ textarea {
 }
 @media(prefers-color-scheme: dark) {
     .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
-        background-color:  #000;
+        background-color:  #000 ;
     }
 }
 
@@ -273,6 +273,12 @@ textarea {
 
 #roam-right-sidebar-content {
     background-color: #fafafa;
+}
+
+@media(prefers-color-scheme: dark) {
+    #roam-right-sidebar-content {
+        background-color: #141414;
+    }   
 }
 
 
