@@ -2077,8 +2077,8 @@
 	--fs-tags: 1rem;
 	--ft-tags: ;
 	--fw-tags: normal;
-	--td-tags: uppercase;
-	--tt-tags: ;
+	--td-tags: ;
+	--tt-tags: uppercase;
 }
 
 :root {
