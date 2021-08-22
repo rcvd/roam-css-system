@@ -2188,7 +2188,7 @@
 }
 
 :root {
-	--bc-topbar-datepicker: #ececec;
+	--bc-topbar-datepicker: transparent;
 	--bt-topbar-datepicker: none;
 	--br-topbar-datepicker: none;
 	--bb-topbar-datepicker: none;
