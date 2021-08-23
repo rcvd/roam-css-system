@@ -2083,6 +2083,25 @@ span[style*='background-color: yellow'] {
 	background-color: 		var(--bc-sync--synced, #0F9960);
 }
 
+.roam-table th.roam-table > table > tbody > tr:nth-child(2) {
+	background-color: 		var(--bc-table__header, inherit);
+	border-top: 			var(--bt-table__header, inherit);
+	border-right: 			var(--br-table__header, inherit);
+	border-bottom: 			var(--bb-table__header, inherit);
+	border-left: 			var(--bl-table__header, inherit);
+	color: 					var(--co-table__header, inherit);
+	font-weight: 			var(--fw-table__header, inherit);
+}
+
+.roam-table th, .roam-table td, .roam-table tr {
+	background-color: 		var(--bc-table, inherit);
+	border-top: 			var(--bt-table, inherit);
+	border-right: 			var(--br-table, inherit);
+	border-bottom: 			var(--bb-table, inherit);
+	border-left: 			var(--bl-table, inherit);
+	color: 					var(--co-table, inherit);
+}
+
 .rm-page-ref--tag:hover {
 	background-color: 		var(--bc-tags--hover, inherit);
 	border-top: 			var(--bt-tags--hover, inherit);

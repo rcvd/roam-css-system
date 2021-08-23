@@ -2058,6 +2058,25 @@
 }
 
 :root {
+	--bc-table__header: transparent;
+	--bt-table__header: none;
+	--br-table__header: none;
+	--bb-table__header: 1px solid #333;
+	--bl-table__header: none;
+	--co-table__header: #333;
+	--fw-table__header: 600;
+}
+
+:root {
+	--bc-table: transparent;
+	--bt-table: none;
+	--br-table: none;
+	--bb-table: 1px solid #e6e6e6;
+	--bl-table: none;
+	--co-table: #666;
+}
+
+:root {
 	--bc-tags--hover: transparent;
 	--bt-tags--hover: none;
 	--br-tags--hover: none;
@@ -2217,7 +2236,7 @@
 }
 
 :root {
-	--bc-version__bullet: #b5b9bf;
+	--bc-version__bullet: #d7d7d7;
 }
 
 :root {
