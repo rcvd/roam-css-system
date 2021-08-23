@@ -2010,7 +2010,7 @@
 }
 
 :root {
-	--co-starred__icon: #f5f5f7;
+	--co-starred__icon: #a6a6a6;
 }
 
 :root {
@@ -2019,7 +2019,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #f5f5f7;
+	--co-starred__page--hover: #a6a6a6;
 	--td-starred__page--hover: none;
 }
 
@@ -2028,7 +2028,7 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: #f5f5f7;
+	--co-starred__page: #a6a6a6;
 	--ff-starred__page: ;
 	--fs-starred__page: 14px;
 	--ft-starred__page: ;
@@ -2037,7 +2037,7 @@
 }
 
 :root {
-	--co-starred__title: #f5f5f7;
+	--co-starred__title: #a6a6a6;
 	--ff-starred__title: ;
 	--fs-starred__title: 14px;
 	--ft-starred__title: ;

@@ -45,7 +45,7 @@
 	--bb-allpages__clickable-pill: none;
 	--bl-allpages__clickable-pill: none;
 	--bd-allpages__clickable-pill: 0;
-	--co-allpages__clickable-pill: #a7abb1;
+	--co-allpages__clickable-pill: #a8a8a9;
 	--fs-allpages__clickable-pill: ;
 	--fw-allpages__clickable-pill: ;
 	--op-allpages__clickable-pill: 1;
@@ -57,7 +57,7 @@
 	--br-allpages__clickable-pill-1: none;
 	--bb-allpages__clickable-pill-1: none;
 	--bl-allpages__clickable-pill-1: none;
-	--co-allpages__clickable-pill-1: #a7abb1;
+	--co-allpages__clickable-pill-1: #a8a8a9;
 	--op-allpages__clickable-pill-1: 1;
 }
 
@@ -67,7 +67,7 @@
 	--br-allpages__clickable-pill-2: none;
 	--bb-allpages__clickable-pill-2: none;
 	--bl-allpages__clickable-pill-2: none;
-	--co-allpages__clickable-pill-2: #a7abb1;
+	--co-allpages__clickable-pill-2: #a8a8a9;
 	--op-allpages__clickable-pill-2: 1;
 }
 
@@ -77,7 +77,7 @@
 	--br-allpages__clickable-pill-3: none;
 	--bb-allpages__clickable-pill-3: none;
 	--bl-allpages__clickable-pill-3: none;
-	--co-allpages__clickable-pill-3: #a7abb1;
+	--co-allpages__clickable-pill-3: #a8a8a9;
 	--op-allpages__clickable-pill-3: 1;
 }
 
@@ -87,7 +87,7 @@
 	--br-allpages__clickable-pill-empty: none;
 	--bb-allpages__clickable-pill-empty: none;
 	--bl-allpages__clickable-pill-empty: none;
-	--co-allpages__clickable-pill-empty: #a7abb1;
+	--co-allpages__clickable-pill-empty: #a8a8a9;
 	--op-allpages__clickable-pill-empty: 1;
 }
 
@@ -107,29 +107,29 @@
 	--bl-allpages__input: none;
 	--bd-allpages__input: 5px;
 	--sd-allpages__input: none;
-	--co-allpages__input: #1f2128;
+	--co-allpages__input: #1d1d1f;
 	--fs-allpages__input: 1rem;
 	--fw-allpages__input: normal;
 }
 
 :root {
-	--co-allpages__input-icon--focused: #8b8d96;
+	--co-allpages__input-icon--focused: #818182;
 }
 
 :root {
-	--co-allpages__input-icon: #8b8d96;
+	--co-allpages__input-icon: #818182;
 }
 
 :root {
 	--bb-allpages__row: none;
-	--co-allpages__row: #a7abb1;
+	--co-allpages__row: #a8a8a9;
 }
 
 :root {
 	--bc-allpages__row-header: transparent;
 	--bb-allpages__row-header: 1px solid #e6e8eb;
 	--bd-allpages__row-header: 0px;
-	--co-allpages__row-header: #1e2023;
+	--co-allpages__row-header: #1d1d1f;
 	--fs-allpages__row-header: 1rem;
 	--fw-allpages__row-header: 700;
 }
@@ -140,24 +140,24 @@
 }
 
 :root {
-	--co-allpages__sorted-header-text: #1e2023;
+	--co-allpages__sorted-header-text: #1d1d1f;
 	--fw-allpages__sorted-header-text: 700;
 }
 
 :root {
-	--co-allpages__title-col: #94969b;
+	--co-allpages__title-col: #818182;
 }
 
 :root {
-	--co-allpages__title-header: #1e2023;
+	--co-allpages__title-header: #1d1d1f;
 }
 
 :root {
-	--co-allpages__title-text: #1e2023;
+	--co-allpages__title-text: #1d1d1f;
 }
 
 :root {
-	--co-app__h1: #24282b;
+	--co-app__h1: #1d1d1f;
 	--ff-app__h1: ;
 	--ft-app__h1: ;
 	--fw-app__h1: normal;
@@ -165,7 +165,7 @@
 
 :root {
 	--bc-app: #ffffff;
-	--co-app: #24282b;
+	--co-app: #1d1d1f;
 }
 
 :root {
@@ -449,7 +449,7 @@
 }
 
 :root {
-	--bc-codeblock__container: #f9fafb;
+	--bc-codeblock__container: #d5d6d6;
 	--bt-codeblock__container: none;
 	--br-codeblock__container: none;
 	--bb-codeblock__container: none;
@@ -472,7 +472,7 @@
 }
 
 :root {
-	--bc-codeblock__gutters: #f9fafb;
+	--bc-codeblock__gutters: #d5d6d6;
 	--bt-codeblock__gutters: none;
 	--br-codeblock__gutters: none;
 	--bb-codeblock__gutters: none;
@@ -627,12 +627,12 @@
 }
 
 :root {
-	--co-datepicker__weekdays: #8b9299;
+	--co-datepicker__weekdays: #666666;
 }
 
 :root {
-	--br-datepicker__weeknumber: 1px solid #b5b9bd;
-	--co-datepicker__weeknumber: #8b9299;
+	--br-datepicker__weeknumber: 1px solid #f0f0f0;
+	--co-datepicker__weeknumber: #666666;
 	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-datepicker__weeknumber: 1rem;
 }
@@ -700,7 +700,7 @@
 }
 
 :root {
-	--co-elevation__create-block: #abacac;
+	--co-elevation__create-block: #a8a8a9;
 }
 
 :root {
@@ -727,7 +727,7 @@
 }
 
 :root {
-	--co-elevation__item-icon: #abacac;
+	--co-elevation__item-icon: #a8a8a9;
 }
 
 :root {
@@ -735,13 +735,13 @@
 }
 
 :root {
-	--co-elevation__item-keyprompt: #abacac;
+	--co-elevation__item-keyprompt: #a8a8a9;
 	--fs-elevation__item-keyprompt: 0.8rem;
 	--op-elevation__item-keyprompt: 1;
 }
 
 :root {
-	--co-elevation__search-block: #abacac;
+	--co-elevation__search-block: #a8a8a9;
 }
 
 :root {
@@ -2120,7 +2120,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__day: #232323;
+	--co-topbar-datepicker__day: #1d1d1f;
 }
 
 :root {
@@ -2129,7 +2129,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__day-without-page: #232323;
+	--co-topbar-datepicker__day-without-page: #1d1d1f;
 }
 
 :root {
@@ -2156,7 +2156,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__nav-button: #232323;
+	--co-topbar-datepicker__nav-button: #1d1d1f;
 }
 
 :root {
@@ -2169,7 +2169,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__today: #232323;
+	--co-topbar-datepicker__today: #1d1d1f;
 	--fw-topbar-datepicker__today: bold;
 }
 
@@ -2178,12 +2178,12 @@
 }
 
 :root {
-	--co-topbar-datepicker__weekdays: #7b7c7b;
+	--co-topbar-datepicker__weekdays: #666666;
 }
 
 :root {
-	--br-topbar-datepicker__weeknumber: 1px solid #b5b9bd;
-	--co-topbar-datepicker__weeknumber: #7b7c7b;
+	--br-topbar-datepicker__weeknumber: 1px solid #f0f0f0;
+	--co-topbar-datepicker__weeknumber: #666666;
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-topbar-datepicker__weeknumber: 1rem;
 }
@@ -2195,7 +2195,7 @@
 	--bb-topbar-datepicker: none;
 	--bl-topbar-datepicker: none;
 	--bd-topbar-datepicker: 5px;
-	--co-topbar-datepicker: #232323;
+	--co-topbar-datepicker: #1d1d1f;
 	--ff-topbar-datepicker: ;
 }
 
@@ -2205,7 +2205,7 @@
 }
 
 :root {
-	--co-topbar-datepicker-html__select: #232323;
+	--co-topbar-datepicker-html__select: #1d1d1f;
 }
 
 :root {
@@ -2213,7 +2213,7 @@
 }
 
 :root {
-	--co-topbar-datepicker-html__select-icon: #232323;
+	--co-topbar-datepicker-html__select-icon: #1d1d1f;
 }
 
 :root {
