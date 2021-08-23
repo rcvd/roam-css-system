@@ -4,7 +4,14 @@ body, input, textarea, select, button {
     direction: ltr;
 }
 
-.page-tile, .rm-title-textarea, .level1 {
+
+.page-title, .rm-title-textarea {
+    line-height: 32px;
+    letter-spacing: 0.22px;
+}
+
+
+.level1 {
     line-height: 26px;
     letter-spacing: -0.26px;
 }
