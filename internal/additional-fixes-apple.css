@@ -300,19 +300,13 @@ textarea {
     }   
 }
 
-
 .roam-main .rm-topbar {
-    position: absolute;
-    left: -28px;
-    top: 0px;
     z-index: 2000;
 }
 
 .roam-main[style*='flex: 0 0 100%;'] .rm-topbar {
-    position: absolute;
-    left: 0px;
-    top: 0px;
     z-index: 2000;
+    padding-right: 32px;
 }
 
 #roam-right-sidebar-content > div:first-child {
@@ -460,4 +454,8 @@ input,
 textarea,
 [contenteditable] {
     caret-color: #888;
+}
+
+.rm-pomodoro > span:first-child {
+    display:  none;
 }
