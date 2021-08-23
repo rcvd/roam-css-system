@@ -463,6 +463,6 @@ textarea,
 
 /* Fix elevation width for mobile */
 .bp3-elevation-3 {
-    width:  300px;
-    max-width: 300px;
+    width:  300px!important;
+    max-width: 300px!important;
 }
