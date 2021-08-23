@@ -428,3 +428,9 @@ html {
 .bp3-datepicker .bp3-datepicker-day-wrapper {
     padding: 8px;
 }
+
+/* Modify transitions */
+.rm-find-or-create-wrapper, .roam-main, .roam-app > .flex-h-box, #right-sidebar {
+    -webkit-transition: flex 40ms ease!important;
+    transition: flex 40ms ease!important;
+}
