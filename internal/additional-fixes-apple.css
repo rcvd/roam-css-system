@@ -301,12 +301,12 @@ textarea {
 }
 
 .roam-main .rm-topbar {
+    padding-right: 32px;
     z-index: 2000;
 }
 
 .roam-main[style*='flex: 0 0 100%;'] .rm-topbar {
     z-index: 2000;
-    padding-right: 32px;
 }
 
 #roam-right-sidebar-content > div:first-child {
