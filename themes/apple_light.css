@@ -449,7 +449,7 @@
 }
 
 :root {
-	--bc-codeblock__container: #d5d6d6;
+	--bc-codeblock__container: #f5f5f7;
 	--bt-codeblock__container: none;
 	--br-codeblock__container: none;
 	--bb-codeblock__container: none;
@@ -472,7 +472,7 @@
 }
 
 :root {
-	--bc-codeblock__gutters: #d5d6d6;
+	--bc-codeblock__gutters: #f5f5f7;
 	--bt-codeblock__gutters: none;
 	--br-codeblock__gutters: none;
 	--bb-codeblock__gutters: none;
