@@ -2859,7 +2859,7 @@
 }
 
 :root {
-	--bt-log-page: 1px solid #cecece;
+	--bt-log-page: 1px solid #f0f0f0;
 }
 
 @media(prefers-color-scheme: dark) {
