@@ -434,3 +434,8 @@ html {
     -webkit-transition: flex 40ms ease!important;
     transition: flex 40ms ease!important;
 }
+
+/* Remove bp3 divider */
+.bp3-divider {
+    display:  none;
+}
