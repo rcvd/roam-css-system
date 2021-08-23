@@ -6,7 +6,7 @@ body, input, textarea, select, button {
 
 
 .rm-title-display, .rm-title-textarea {
-    line-height: 32px;
+    line-height: 40px;
     letter-spacing: 0.22px;
 }
 
@@ -320,7 +320,7 @@ textarea {
 }
 
 .roam-body .roam-app .roam-main .roam-article {
-    padding-top: 64px;
+    padding-top: 60px;
 }
 
 .bp3-menu-item .bp3-icon {
@@ -454,4 +454,10 @@ html {
 
 .rm-mentions .rm-ref-page-view {
     margin-left: 15px;
+}
+
+input,
+textarea,
+[contenteditable] {
+    caret-color: #888;
 }
