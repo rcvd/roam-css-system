@@ -1658,7 +1658,7 @@
 }
 
 :root {
-	--bc-embed__container-10: #dce0e6;
+	--bc-embed__container-10: #d7d7d7;
 	--bt-embed__container-10: none;
 	--br-embed__container-10: none;
 	--bb-embed__container-10: none;
@@ -1668,7 +1668,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-10: #393939;
+		--bc-embed__container-10: #6e6e73;
 		--bt-embed__container-10: none;
 		--br-embed__container-10: none;
 		--bb-embed__container-10: none;
@@ -1677,7 +1677,7 @@
 }
 
 :root {
-	--bc-embed__container-11: #f9fafb;
+	--bc-embed__container-11: #f5f5f7;
 	--bt-embed__container-11: none;
 	--br-embed__container-11: none;
 	--bb-embed__container-11: none;
@@ -1687,7 +1687,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-11: #1c1c1c;
+		--bc-embed__container-11: #1d1d1f;
 		--bt-embed__container-11: none;
 		--br-embed__container-11: none;
 		--bb-embed__container-11: none;
@@ -1696,7 +1696,7 @@
 }
 
 :root {
-	--bc-embed__container-2: #f5f6f8;
+	--bc-embed__container-2: #f3f3f3;
 	--bt-embed__container-2: none;
 	--br-embed__container-2: none;
 	--bb-embed__container-2: none;
@@ -1715,7 +1715,7 @@
 }
 
 :root {
-	--bc-embed__container-3: #e5e6e7;
+	--bc-embed__container-3: #f0f0f0;
 	--bt-embed__container-3: none;
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
@@ -1725,7 +1725,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-3: #262626;
+		--bc-embed__container-3: #515154;
 		--bt-embed__container-3: none;
 		--br-embed__container-3: none;
 		--bb-embed__container-3: none;
@@ -1734,7 +1734,7 @@
 }
 
 :root {
-	--bc-embed__container-4: #eef0f4;
+	--bc-embed__container-4: #e8e8e8;
 	--bt-embed__container-4: none;
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
@@ -1744,7 +1744,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-4: #2f2f2f;
+		--bc-embed__container-4: #555555;
 		--bt-embed__container-4: none;
 		--br-embed__container-4: none;
 		--bb-embed__container-4: none;
@@ -1753,7 +1753,7 @@
 }
 
 :root {
-	--bc-embed__container-5: #dce0e6;
+	--bc-embed__container-5: #d7d7d7;
 	--bt-embed__container-5: none;
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
@@ -1763,7 +1763,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-5: #393939;
+		--bc-embed__container-5: #6e6e73;
 		--bt-embed__container-5: none;
 		--br-embed__container-5: none;
 		--bb-embed__container-5: none;
@@ -1772,7 +1772,7 @@
 }
 
 :root {
-	--bc-embed__container-6: #f9fafb;
+	--bc-embed__container-6: #f5f5f7;
 	--bt-embed__container-6: none;
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
@@ -1782,7 +1782,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-6: #1c1c1c;
+		--bc-embed__container-6: #1d1d1f;
 		--bt-embed__container-6: none;
 		--br-embed__container-6: none;
 		--bb-embed__container-6: none;
@@ -1791,7 +1791,7 @@
 }
 
 :root {
-	--bc-embed__container-7: #f5f6f8;
+	--bc-embed__container-7: #f3f3f3;
 	--bt-embed__container-7: none;
 	--br-embed__container-7: none;
 	--bb-embed__container-7: none;
@@ -1810,7 +1810,7 @@
 }
 
 :root {
-	--bc-embed__container-8: #e5e6e7;
+	--bc-embed__container-8: #f0f0f0;
 	--bt-embed__container-8: none;
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
@@ -1820,7 +1820,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-8: #262626;
+		--bc-embed__container-8: #515154;
 		--bt-embed__container-8: none;
 		--br-embed__container-8: none;
 		--bb-embed__container-8: none;
@@ -1829,7 +1829,7 @@
 }
 
 :root {
-	--bc-embed__container-9: #eef0f4;
+	--bc-embed__container-9: #e8e8e8;
 	--bt-embed__container-9: none;
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
@@ -1839,7 +1839,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed__container-9: #2f2f2f;
+		--bc-embed__container-9: #555555;
 		--bt-embed__container-9: none;
 		--br-embed__container-9: none;
 		--bb-embed__container-9: none;
@@ -1848,7 +1848,7 @@
 }
 
 :root {
-	--bc-embed: #f9fafb;
+	--bc-embed: #f5f5f7;
 	--bt-embed: none;
 	--br-embed: none;
 	--bb-embed: none;
@@ -1858,7 +1858,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-embed: #1c1c1c;
+		--bc-embed: #1d1d1f;
 		--bt-embed: none;
 		--br-embed: none;
 		--bb-embed: none;

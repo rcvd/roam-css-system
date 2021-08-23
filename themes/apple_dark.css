@@ -745,7 +745,7 @@
 }
 
 :root {
-	--bc-embed__container-10: #393939;
+	--bc-embed__container-10: #6e6e73;
 	--bt-embed__container-10: none;
 	--br-embed__container-10: none;
 	--bb-embed__container-10: none;
@@ -754,7 +754,7 @@
 }
 
 :root {
-	--bc-embed__container-11: #1c1c1c;
+	--bc-embed__container-11: #1d1d1f;
 	--bt-embed__container-11: none;
 	--br-embed__container-11: none;
 	--bb-embed__container-11: none;
@@ -772,7 +772,7 @@
 }
 
 :root {
-	--bc-embed__container-3: #262626;
+	--bc-embed__container-3: #515154;
 	--bt-embed__container-3: none;
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
@@ -781,7 +781,7 @@
 }
 
 :root {
-	--bc-embed__container-4: #2f2f2f;
+	--bc-embed__container-4: #555555;
 	--bt-embed__container-4: none;
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
@@ -790,7 +790,7 @@
 }
 
 :root {
-	--bc-embed__container-5: #393939;
+	--bc-embed__container-5: #6e6e73;
 	--bt-embed__container-5: none;
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
@@ -799,7 +799,7 @@
 }
 
 :root {
-	--bc-embed__container-6: #1c1c1c;
+	--bc-embed__container-6: #1d1d1f;
 	--bt-embed__container-6: none;
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
@@ -817,7 +817,7 @@
 }
 
 :root {
-	--bc-embed__container-8: #262626;
+	--bc-embed__container-8: #515154;
 	--bt-embed__container-8: none;
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
@@ -826,7 +826,7 @@
 }
 
 :root {
-	--bc-embed__container-9: #2f2f2f;
+	--bc-embed__container-9: #555555;
 	--bt-embed__container-9: none;
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
@@ -835,7 +835,7 @@
 }
 
 :root {
-	--bc-embed: #1c1c1c;
+	--bc-embed: #1d1d1f;
 	--bt-embed: none;
 	--br-embed: none;
 	--bb-embed: none;
