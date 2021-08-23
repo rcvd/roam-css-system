@@ -3486,14 +3486,14 @@
 
 :root {
 	--bc-quote: transparent;
-	--bt-quote: 1px solid rgb(225,225,225);
+	--bt-quote: none;
 	--br-quote: none;
-	--bb-quote: 1px solid rgb(225,225,225);
-	--bl-quote: none;
+	--bb-quote: none;
+	--bl-quote: 4px solid #0064e0;
 	--bd-quote: ;
 	--co-quote: rgb(139,139,141);
 	--ff-quote: ;
-	--fs-quote: 16px;
+	--fs-quote: 14px;
 	--ft-quote: ;
 	--fw-quote: ;
 }
@@ -3501,10 +3501,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-quote: transparent;
-		--bt-quote: 1px solid rgb(40,40,40);
+		--bt-quote: none;
 		--br-quote: none;
-		--bb-quote: 1px solid rgb(40,40,40);
-		--bl-quote: none;
+		--bb-quote: none;
+		--bl-quote: 4px solid #0058d0;
 		--co-quote: rgb(152,152,154);
 	}
 }
