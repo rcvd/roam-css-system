@@ -891,7 +891,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: #000000;
+	--co-find-or-create__menu-item--selected: #ffffff;
 }
 
 :root {
@@ -902,7 +902,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #000000;
+	--co-find-or-create__new-page--selected: #ffffff;
 }
 
 :root {

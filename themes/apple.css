@@ -1969,7 +1969,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: #000000;
+	--co-find-or-create__menu-item--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1995,7 +1995,7 @@
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #000000;
+	--co-find-or-create__new-page--selected: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
