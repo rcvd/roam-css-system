@@ -4,7 +4,7 @@ body, input, textarea, select, button {
     direction: ltr;
 }
 
-.level1 {
+.level1, .rm-title-textarea  {
     line-height: 26px;
     letter-spacing: -0.26px;
 }
@@ -261,7 +261,7 @@ textarea {
 #right-sidebar > .flex-h-box {
     background-color: #fff;
     padding: 8px!important;
-    margin-top: 3px;
+    margin-top: 2px;
     margin-right: 2px!important;
 }
 
