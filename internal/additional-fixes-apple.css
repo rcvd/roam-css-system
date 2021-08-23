@@ -111,7 +111,7 @@ textarea {
 }
 
 .rm-reference-item {
-    margin-left: 16px;
+    margin-left: -12px; /*was +16px*/
 }
 
 .rm-caret {
@@ -443,4 +443,8 @@ html {
 /* Padding table */
 .roam-table tr td {
     padding: .5em 1em .5em 0;
+}
+
+.rm-mentions .rm-ref-page-view {
+    margin-left: 15px;
 }
