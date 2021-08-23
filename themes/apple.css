@@ -2663,7 +2663,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bb-kanban__title: #141414;
+		--bb-kanban__title: 1px solid #141414;
 	}
 }
 
@@ -2864,7 +2864,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bt-log-page: 1px solid #464746;
+		--bt-log-page: 1px solid #222222;
 	}
 }
 
