@@ -4506,12 +4506,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-table__header: ;
-		--bt-table__header: ;
-		--br-table__header: ;
-		--bb-table__header: ;
-		--bl-table__header: ;
-		--co-table__header: ;
+		--bc-table__header: transparent;
+		--bt-table__header: none;
+		--br-table__header: none;
+		--bb-table__header: 1px solid #333;
+		--bl-table__header: none;
+		--co-table__header: #cccccc;
 	}
 }
 
@@ -4527,12 +4527,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-table: ;
-		--bt-table: ;
-		--br-table: ;
-		--bb-table: ;
-		--bl-table: ;
-		--co-table: ;
+		--bc-table: transparent;
+		--bt-table: none;
+		--br-table: none;
+		--bb-table: 1px solid #e6e6e6;
+		--bl-table: none;
+		--co-table: #999999;
 	}
 }
 
