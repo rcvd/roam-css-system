@@ -5,7 +5,7 @@ body, input, textarea, select, button {
 }
 
 
-.page-title, .rm-title-textarea {
+.rm-title-display, .rm-title-textarea {
     line-height: 32px;
     letter-spacing: 0.22px;
 }
