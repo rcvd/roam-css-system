@@ -462,7 +462,9 @@ textarea,
 }
 
 /* Fix elevation width for mobile */
-.bp3-elevation-3 {
-    width:  300px!important;
-    max-width: 300px!important;
+@media screen and (max-width:400px) {
+    .bp3-elevation-3 {
+        width:  300px!important;
+        max-width: 300px!important;
+    }
 }
