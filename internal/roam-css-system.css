@@ -1495,7 +1495,7 @@ div, textarea {
 	text-decoration: 		var(--td-page__link, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article .rm-title-display, .roam-body .roam-app .roam-main .roam-article .rm-title-editing-display textarea.rm-title-textarea, , .rm-title-textarea {
+.roam-body .roam-app .roam-main .roam-article .rm-title-display, .roam-body .roam-app .roam-main .roam-article .rm-title-editing-display textarea.rm-title-textarea, .rm-title-textarea {
 	color: 					var(--co-page__title, #202B33);
 	font-family: 			var(--ff-page__title, inherit);
 	font-size: 				var(--fs-page__title, 36px);
