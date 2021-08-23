@@ -5,7 +5,7 @@
 
 
 :root {
-	--co-a--hover: #1d72d1;
+	--co-a--hover: #06c;
 	--td-a--hover: none;
 }
 
@@ -16,7 +16,7 @@
 }
 
 :root {
-	--co-a: #1d72d1;
+	--co-a: #06c;
 	--td-a: none;
 }
 
@@ -380,7 +380,7 @@
 }
 
 :root {
-	--bc-block-highlight--blue: #0064e1;
+	--bc-block-highlight--blue: #0064e0;
 	--co-block-highlight--blue: #ffffff;
 }
 
@@ -392,7 +392,7 @@
 }
 
 :root {
-	--bc-block-highlight--grey: #dcdcdc;
+	--bc-block-highlight--grey: #d7d7d7;
 	--co-block-highlight--grey: ;
 }
 
@@ -448,10 +448,10 @@
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #dddede;
-	--br-bullet__closed: 4px solid #dddede;
-	--bb-bullet__closed: 4px solid #dddede;
-	--bl-bullet__closed: 4px solid #dddede;
+	--bt-bullet__closed: 4px solid #d7d7d7;
+	--br-bullet__closed: 4px solid #d7d7d7;
+	--bb-bullet__closed: 4px solid #d7d7d7;
+	--bl-bullet__closed: 4px solid #d7d7d7;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -464,7 +464,7 @@
 }
 
 :root {
-	--bc-bullet__ghost: #dddede;
+	--bc-bullet__ghost: #d7d7d7;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -474,7 +474,7 @@
 }
 
 :root {
-	--bc-bullet__inner: #dddede;
+	--bc-bullet__inner: #d7d7d7;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3223,7 +3223,7 @@
 }
 
 :root {
-	--co-page__link--hover: #1d72d1;
+	--co-page__link--hover: #06c;
 	--td-page__link--hover: none;
 }
 
@@ -3234,7 +3234,7 @@
 }
 
 :root {
-	--co-page__link: #1d72d1;
+	--co-page__link: #06c;
 	--td-page__link: none;
 }
 
@@ -3491,7 +3491,7 @@
 	--bb-quote: none;
 	--bl-quote: 4px solid #0064e0;
 	--bd-quote: ;
-	--co-quote: rgb(139,139,141);
+	--co-quote: #666666;
 	--ff-quote: ;
 	--fs-quote: 14px;
 	--ft-quote: ;
