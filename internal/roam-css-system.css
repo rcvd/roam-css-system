@@ -2083,7 +2083,7 @@ span[style*='background-color: yellow'] {
 	background-color: 		var(--bc-sync--synced, #0F9960);
 }
 
-.roam-table th.roam-table > table > tbody > tr:nth-child(2) {
+.roam-table tr:nth-child(2) {
 	background-color: 		var(--bc-table__header, inherit);
 	border-top: 			var(--bt-table__header, inherit);
 	border-right: 			var(--br-table__header, inherit);
