@@ -439,3 +439,8 @@ html {
 .bp3-divider {
     display:  none;
 }
+
+/* Padding table */
+.roam-table tr td {
+    padding: .5em 1em .5em 0;
+}
