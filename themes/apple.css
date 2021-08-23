@@ -4500,6 +4500,7 @@
 	--bb-table__header: 1px solid #333;
 	--bl-table__header: none;
 	--co-table__header: #333;
+	--fs-table__header: 14px;
 	--fw-table__header: 600;
 }
 
@@ -4521,6 +4522,7 @@
 	--bb-table: 1px solid #e6e6e6;
 	--bl-table: none;
 	--co-table: #666;
+	--fs-table: 14px;
 }
 
 @media(prefers-color-scheme: dark) {

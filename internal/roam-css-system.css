@@ -2090,6 +2090,7 @@ span[style*='background-color: yellow'] {
 	border-bottom: 			var(--bb-table__header, inherit);
 	border-left: 			var(--bl-table__header, inherit);
 	color: 					var(--co-table__header, inherit);
+	font-size: 				var(--fs-table__header, inherit);
 	font-weight: 			var(--fw-table__header, inherit);
 }
 
@@ -2100,6 +2101,7 @@ span[style*='background-color: yellow'] {
 	border-bottom: 			var(--bb-table, inherit);
 	border-left: 			var(--bl-table, inherit);
 	color: 					var(--co-table, inherit);
+	font-size: 				var(--fs-table, inherit);
 }
 
 .rm-page-ref--tag:hover {

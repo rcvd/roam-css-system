@@ -2064,6 +2064,7 @@
 	--bb-table__header: ;
 	--bl-table__header: ;
 	--co-table__header: ;
+	--fs-table__header: 14px;
 	--fw-table__header: 600;
 }
 
@@ -2074,6 +2075,7 @@
 	--bb-table: ;
 	--bl-table: ;
 	--co-table: ;
+	--fs-table: 14px;
 }
 
 :root {

@@ -4500,6 +4500,7 @@
 	--bb-table__header: ;
 	--bl-table__header: ;
 	--co-table__header: ;
+	--fs-table__header: ;
 	--fw-table__header: ;
 }
 
@@ -4521,6 +4522,7 @@
 	--bb-table: ;
 	--bl-table: ;
 	--co-table: ;
+	--fs-table: ;
 }
 
 @media(prefers-color-scheme: dark) {
