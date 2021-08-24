@@ -626,6 +626,11 @@
 }
 
 :root {
+	--bc-datepicker__today: transparent;
+	--bt-datepicker__today: none;
+	--br-datepicker__today: none;
+	--bb-datepicker__today: none;
+	--bl-datepicker__today: none;
 	--co-datepicker__today: #f5f5f7;
 	--fw-datepicker__today: bold;
 }

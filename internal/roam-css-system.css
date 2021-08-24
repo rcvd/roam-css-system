@@ -638,6 +638,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
+	background-color: 		var(--bc-datepicker__today, inherit);
+	border-top: 			var(--bt-datepicker__today, inherit);
+	border-right: 			var(--br-datepicker__today, inherit);
+	border-bottom: 			var(--bb-datepicker__today, inherit);
+	border-left: 			var(--bl-datepicker__today, inherit);
 	color: 					var(--co-datepicker__today, #137CBD);
 	font-weight: 			var(--fw-datepicker__today, bold);
 }

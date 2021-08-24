@@ -1400,12 +1400,22 @@
 }
 
 :root {
+	--bc-datepicker__today: ;
+	--bt-datepicker__today: ;
+	--br-datepicker__today: ;
+	--bb-datepicker__today: ;
+	--bl-datepicker__today: ;
 	--co-datepicker__today: var(--cl-red-500);
 	--fw-datepicker__today: bold;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--bc-datepicker__today: ;
+		--bt-datepicker__today: ;
+		--br-datepicker__today: ;
+		--bb-datepicker__today: ;
+		--bl-datepicker__today: ;
 		--co-datepicker__today: var(--cl-red-500);
 	}
 }
