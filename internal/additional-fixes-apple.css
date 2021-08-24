@@ -423,7 +423,7 @@ textarea,
     flex: 0 0 calc(100%);
 }
 
-.rm-files-dropzone {
+.roam-main > .rm-files-dropzone {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(255,255,255,0.6); 
@@ -438,7 +438,7 @@ textarea,
 
 
 @media(prefers-color-scheme: dark) {
-    .rm-files-dropzone {
+    .roam-main > .rm-files-dropzone {
         background-color: rgba(0,0,0,0.22); 
     }
 }
