@@ -1400,7 +1400,7 @@
 }
 
 :root {
-	--co-datepicker__today: #ffffff;
+	--co-datepicker__today: #0064e0;
 	--fw-datepicker__today: bold;
 }
 
@@ -4786,7 +4786,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__today: #1d1d1f;
+	--co-topbar-datepicker__today: #0064e0;
 	--fw-topbar-datepicker__today: bold;
 }
 
