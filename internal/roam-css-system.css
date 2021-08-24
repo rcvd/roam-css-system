@@ -1045,7 +1045,7 @@ div, textarea {
 .rm-help-results .rm-help-categories .rm-help-category-menu-item--selected {
 	background-color: 		var(--bc-help__categories--selected, #106BA3);
 	border-radius: 			var(--bd-help__categories--selected, inherit);
-	color: 					var(--co-help__categories--selected, inherit);
+	color: 					var(--co-help__categories--selected, inherit)!important;
 }
 
 .rm-help-results .rm-help-categories .rm-help-category-menu-item {
