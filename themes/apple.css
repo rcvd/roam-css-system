@@ -5018,12 +5018,12 @@
 }
 
 :root {
-	--bc-version__bullet: #d7d7d7;
+	--bc-version__bullet: #c1c2c2;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-version__bullet: #666767;
+		--bc-version__bullet: #666;
 	}
 }
 
