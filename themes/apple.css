@@ -1319,7 +1319,7 @@
 }
 
 :root {
-	--bc-datepicker__nav-button: transparent;
+	--bc-datepicker__nav-button: #121417;
 	--bt-datepicker__nav-button: none;
 	--br-datepicker__nav-button: none;
 	--bb-datepicker__nav-button: none;
