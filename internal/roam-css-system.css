@@ -637,7 +637,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-datepicker__select-icon, #5c7080);
 }
 
-.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today {
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--today, .bp3-datepicker .DayPicker-Day.DayPicker-Day--isToday .bp3-datepicker-day-wrapper {
 	background-color: 		var(--bc-datepicker__today, inherit);
 	border-top: 			var(--bt-datepicker__today, inherit);
 	border-right: 			var(--br-datepicker__today, inherit);
