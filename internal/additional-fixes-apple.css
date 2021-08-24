@@ -448,7 +448,7 @@ textarea,
 }
 
 @media(prefers-color-scheme: dark) {
-    .rm-topbar, .bp3-input, input[type=search] {
+    .rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
         background: rgba(0,0,0,0.5);
     }
 }
