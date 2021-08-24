@@ -264,14 +264,24 @@
 }
 
 :root {
-	--bc-button--disabled: ;
-	--bt-button--disabled: ;
-	--br-button--disabled: ;
-	--bb-button--disabled: ;
-	--bl-button--disabled: ;
-	--bd-button--disabled: ;
-	--sd-button--disabled: ;
-	--co-button--disabled: ;
+	--bc-button__disabled--hover: ;
+	--bt-button__disabled--hover: ;
+	--br-button__disabled--hover: ;
+	--bb-button__disabled--hover: ;
+	--bl-button__disabled--hover: ;
+	--sd-button__disabled--hover: ;
+	--co-button__disabled--hover: ;
+}
+
+:root {
+	--bc-button__disabled: ;
+	--bt-button__disabled: ;
+	--br-button__disabled: ;
+	--bb-button__disabled: ;
+	--bl-button__disabled: ;
+	--bd-button__disabled: ;
+	--sd-button__disabled: ;
+	--co-button__disabled: ;
 }
 
 :root {

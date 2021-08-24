@@ -264,14 +264,24 @@
 }
 
 :root {
-	--bc-button--disabled: #d7d7d7;
-	--bt-button--disabled: none;
-	--br-button--disabled: none;
-	--bb-button--disabled: none;
-	--bl-button--disabled: none;
-	--bd-button--disabled: 5px;
-	--sd-button--disabled: none;
-	--co-button--disabled: #ffffff;
+	--bc-button__disabled--hover: #d7d7d7;
+	--bt-button__disabled--hover: none;
+	--br-button__disabled--hover: none;
+	--bb-button__disabled--hover: none;
+	--bl-button__disabled--hover: none;
+	--sd-button__disabled--hover: none;
+	--co-button__disabled--hover: #ffffff;
+}
+
+:root {
+	--bc-button__disabled: #d7d7d7;
+	--bt-button__disabled: none;
+	--br-button__disabled: none;
+	--bb-button__disabled: none;
+	--bl-button__disabled: none;
+	--bd-button__disabled: 5px;
+	--sd-button__disabled: none;
+	--co-button__disabled: #ffffff;
 }
 
 :root {
