@@ -1139,6 +1139,13 @@ div, textarea {
 	border-left: 			var(--bl-hr, 1px solid #8A9BA8);
 }
 
+.bp3-html-select select:disabled, .bp3-select select:disabled {
+	background-color: 		var(--bc-html__select--disabled, rgba(206,217,224,0.5));
+	box-shadow: 			var(--sd-html__select--disabled, inherit);
+	--webkit-box-shadow: 	var(--sd-html__select--disabled, inherit);
+	color: 					var(--co-html__select--disabled, rgba(206,217,224,0.5));
+}
+
 .bp3-html-select.bp3-minimal select:hover, .bp3-select.bp3-minimal select:hover {
 	background-color: 		var(--bc-html__select--hover, rgba(167,182,194,0.3));
 	box-shadow: 			var(--sd-html__select--hover, none);

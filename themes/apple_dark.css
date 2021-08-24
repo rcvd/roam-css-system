@@ -1124,6 +1124,12 @@
 }
 
 :root {
+	--bc-html__select--disabled: transparent;
+	--sd-html__select--disabled: ;
+	--co-html__select--disabled: #666666;
+}
+
+:root {
 	--bc-html__select--hover: #0058d0;
 	--sd-html__select--hover: none;
 	--co-html__select--hover: #f5f5f7;

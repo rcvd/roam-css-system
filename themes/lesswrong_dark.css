@@ -1124,6 +1124,12 @@
 }
 
 :root {
+	--bc-html__select--disabled: ;
+	--sd-html__select--disabled: ;
+	--co-html__select--disabled: ;
+}
+
+:root {
 	--bc-html__select--hover: var(--cl-gray-800);
 	--sd-html__select--hover: ;
 	--co-html__select--hover: var(--cl-white);
