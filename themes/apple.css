@@ -835,12 +835,12 @@
 }
 
 :root {
-	--co-caret: ;
+	--co-caret: #666;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-caret: ;
+		--co-caret: #999;
 	}
 }
 
