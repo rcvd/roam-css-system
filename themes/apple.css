@@ -2856,7 +2856,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: #595a59;
+	--co-left-sidebar__logo-text: #000;
 }
 
 @media(prefers-color-scheme: dark) {
