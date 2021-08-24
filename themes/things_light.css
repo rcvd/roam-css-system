@@ -1707,6 +1707,13 @@
 }
 
 :root {
+	--bt-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--br-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--bb-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+	--bl-right-sidebar__bullet-closed: 4px solid #b5b9bf;
+}
+
+:root {
 	--bc-right-sidebar__content: ;
 }
 
