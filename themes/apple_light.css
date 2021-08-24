@@ -626,7 +626,6 @@
 }
 
 :root {
-	--bc-datepicker__today: #0064e0;
 	--co-datepicker__today: #ffffff;
 	--fw-datepicker__today: bold;
 }

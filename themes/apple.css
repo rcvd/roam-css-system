@@ -1400,14 +1400,12 @@
 }
 
 :root {
-	--bc-datepicker__today: #0064e0;
 	--co-datepicker__today: #ffffff;
 	--fw-datepicker__today: bold;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-datepicker__today: ;
 		--co-datepicker__today: #f5f5f7;
 	}
 }
