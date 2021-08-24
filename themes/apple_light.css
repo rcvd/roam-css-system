@@ -573,13 +573,13 @@
 }
 
 :root {
-	--bc-datepicker__day--hover: #529cff;
+	--bc-datepicker__day--hover: #0064e0;
 	--bd-datepicker__day--hover: 2px;
 	--co-datepicker__day--hover: #ffffff;
 }
 
 :root {
-	--bc-datepicker__nav-button--hover: #529cff;
+	--bc-datepicker__nav-button--hover: #0064e0;
 	--bt-datepicker__nav-button--hover: none;
 	--br-datepicker__nav-button--hover: none;
 	--bb-datepicker__nav-button--hover: none;
@@ -609,7 +609,7 @@
 }
 
 :root {
-	--bc-datepicker__select--hover: #529cff;
+	--bc-datepicker__select--hover: #0064e0;
 	--co-datepicker__select--hover: #ffffff;
 }
 
@@ -626,7 +626,8 @@
 }
 
 :root {
-	--co-datepicker__today: #121417;
+	--bc-datepicker__today: #0064e0;
+	--co-datepicker__today: #ffffff;
 	--fw-datepicker__today: bold;
 }
 
