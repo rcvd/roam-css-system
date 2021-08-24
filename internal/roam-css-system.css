@@ -263,6 +263,18 @@ a {
 	color: 					var(--co-button__danger, inherit);
 }
 
+.bp3-button:not([class*="bp3-intent-"]):disabled, .bp3-button:not([class*="bp3-intent-"]).bp3-disabled {
+	background-color: 		var(--bc-button--disabled, rgba(206,217,224,0.5));
+	border-top: 			var(--bt-button--disabled, inherit);
+	border-right: 			var(--br-button--disabled, inherit);
+	border-bottom: 			var(--bb-button--disabled, inherit);
+	border-left: 			var(--bl-button--disabled, inherit);
+	border-radius: 			var(--bd-button--disabled, inherit);
+	box-shadow: 			var(--sd-button--disabled, none);
+	--webkit-box-shadow: 	var(--sd-button--disabled, none);
+	color: 					var(--co-button--disabled, rgba(92,112,128,0.6));
+}
+
 .bp3-button:not([class*='bp3-intent-']):hover .bp3-icon, .bp3-button:not([class*='bp3-intent-']):hover::before {
 	color: 					var(--co-button__icon--hover, #5c7080);
 }

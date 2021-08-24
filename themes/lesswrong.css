@@ -574,6 +574,29 @@
 }
 
 :root {
+	--bc-button--disabled: ;
+	--bt-button--disabled: ;
+	--br-button--disabled: ;
+	--bb-button--disabled: ;
+	--bl-button--disabled: ;
+	--bd-button--disabled: ;
+	--sd-button--disabled: ;
+	--co-button--disabled: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-button--disabled: ;
+		--bt-button--disabled: ;
+		--br-button--disabled: ;
+		--bb-button--disabled: ;
+		--bl-button--disabled: ;
+		--sd-button--disabled: ;
+		--co-button--disabled: ;
+	}
+}
+
+:root {
 	--co-button__icon--hover: var(--cl-gray-300);
 }
 
