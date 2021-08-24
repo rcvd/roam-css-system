@@ -27,7 +27,7 @@ body, input, textarea, select, button {
     letter-spacing: -0.23px;
 }
 
-div {
+div, #right-sidebar .rm-title-display, #right-sidebar .rm-title-textarea {
     line-height: 18px;
     letter-spacing: -0.15px;
 }
