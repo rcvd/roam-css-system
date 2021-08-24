@@ -349,7 +349,7 @@ html {
 }
 */
 
-.rm-topbar, .bp3-input, input[type=search] {
+/*.rm-topbar, .bp3-input, input[type=search] {
     background: rgba(255,255,255,0.5);
 }
 
@@ -358,11 +358,11 @@ html {
         background: rgba(0,0,0,0.5);
     }
 }
-
+*/
 .roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100%);
 }
-
+/*
 .rm-files-dropzone {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
@@ -380,7 +380,7 @@ html {
     .rm-files-dropzone {
         background-color: rgba(0,0,0,0.22); 
     }
-}
+}*/
 
 .rm-bq {
     margin-top: 10px;
