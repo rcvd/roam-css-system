@@ -1467,14 +1467,14 @@
 }
 
 :root {
-	--co-dialog__heading: var(--cl-gray-900);
+	--co-dialog__heading: #121417;
 	--fs-dialog__heading: ;
 	--fw-dialog__heading: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-dialog__heading: var(--cl-gray-100);
+		--co-dialog__heading: #f5f5f7;
 	}
 }
 
@@ -1484,43 +1484,43 @@
 	--br-dialog__upload-button: none;
 	--bb-dialog__upload-button: none;
 	--bl-dialog__upload-button: none;
-	--bd-dialog__upload-button: 3px;
+	--bd-dialog__upload-button: 5px;
 	--sd-dialog__upload-button: none;
 	--co-dialog__upload-button: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-dialog__upload-button: var(--cl-gray-800);
-		--bt-dialog__upload-button: 1px solid var(--cl-gray-700);
-		--br-dialog__upload-button: 1px solid var(--cl-gray-700);
-		--bb-dialog__upload-button: 1px solid var(--cl-gray-700);
-		--bl-dialog__upload-button: 1px solid var(--cl-gray-700);
+		--bc-dialog__upload-button: #1574d8;
+		--bt-dialog__upload-button: none;
+		--br-dialog__upload-button: none;
+		--bb-dialog__upload-button: none;
+		--bl-dialog__upload-button: none;
 		--sd-dialog__upload-button: none;
-		--co-dialog__upload-button: var(--cl-gray-100);
+		--co-dialog__upload-button: #ffffff;
 	}
 }
 
 :root {
-	--bc-dialog__upload-input: #666;
-	--bt-dialog__upload-input: none;
-	--br-dialog__upload-input: none;
-	--bb-dialog__upload-input: none;
-	--bl-dialog__upload-input: none;
-	--bd-dialog__upload-input: 0px;
+	--bc-dialog__upload-input: transparent;
+	--bt-dialog__upload-input: 1px solid #c9c9c9;
+	--br-dialog__upload-input: 1px solid #c9c9c9;
+	--bb-dialog__upload-input: 1px solid #c9c9c9;
+	--bl-dialog__upload-input: 1px solid #c9c9c9;
+	--bd-dialog__upload-input: 5px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-dialog__upload-input: var(--cl-gray-800);
-		--bt-dialog__upload-input: 1px solid var(--cl-gray-700);
-		--br-dialog__upload-input: 1px solid var(--cl-gray-700);
-		--bb-dialog__upload-input: 1px solid var(--cl-gray-700);
-		--bl-dialog__upload-input: 1px solid var(--cl-gray-700);
+		--bc-dialog__upload-input: transparent;
+		--bt-dialog__upload-input: 1px solid #404040;
+		--br-dialog__upload-input: 1px solid #404040;
+		--bb-dialog__upload-input: 1px solid #404040;
+		--bl-dialog__upload-input: 1px solid #404040;
 		--sd-dialog__upload-input: none;
-		--co-dialog__upload-input: var(--cl-gray-100);
+		--co-dialog__upload-input: #f5f5f7;
 	}
 }
 

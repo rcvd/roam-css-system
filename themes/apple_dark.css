@@ -658,31 +658,31 @@
 }
 
 :root {
-	--co-dialog__heading: var(--cl-gray-100);
+	--co-dialog__heading: #f5f5f7;
 	--fs-dialog__heading: ;
 	--fw-dialog__heading: ;
 }
 
 :root {
-	--bc-dialog__upload-button: var(--cl-gray-800);
-	--bt-dialog__upload-button: 1px solid var(--cl-gray-700);
-	--br-dialog__upload-button: 1px solid var(--cl-gray-700);
-	--bb-dialog__upload-button: 1px solid var(--cl-gray-700);
-	--bl-dialog__upload-button: 1px solid var(--cl-gray-700);
-	--bd-dialog__upload-button: 3px;
+	--bc-dialog__upload-button: #1574d8;
+	--bt-dialog__upload-button: none;
+	--br-dialog__upload-button: none;
+	--bb-dialog__upload-button: none;
+	--bl-dialog__upload-button: none;
+	--bd-dialog__upload-button: 5px;
 	--sd-dialog__upload-button: none;
-	--co-dialog__upload-button: var(--cl-gray-100);
+	--co-dialog__upload-button: #ffffff;
 }
 
 :root {
-	--bc-dialog__upload-input: var(--cl-gray-800);
-	--bt-dialog__upload-input: 1px solid var(--cl-gray-700);
-	--br-dialog__upload-input: 1px solid var(--cl-gray-700);
-	--bb-dialog__upload-input: 1px solid var(--cl-gray-700);
-	--bl-dialog__upload-input: 1px solid var(--cl-gray-700);
-	--bd-dialog__upload-input: 0px;
+	--bc-dialog__upload-input: transparent;
+	--bt-dialog__upload-input: 1px solid #404040;
+	--br-dialog__upload-input: 1px solid #404040;
+	--bb-dialog__upload-input: 1px solid #404040;
+	--bl-dialog__upload-input: 1px solid #404040;
+	--bd-dialog__upload-input: 5px;
 	--sd-dialog__upload-input: none;
-	--co-dialog__upload-input: var(--cl-gray-100);
+	--co-dialog__upload-input: #f5f5f7;
 }
 
 :root {
