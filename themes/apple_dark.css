@@ -410,8 +410,8 @@
 
 :root {
 	--bt-checkmark__mark--checked: 0px;
-	--br-checkmark__mark--checked: 2px solid #262626;
-	--bb-checkmark__mark--checked: 2px solid #262626;
+	--br-checkmark__mark--checked: 2px solid #fff;
+	--bb-checkmark__mark--checked: 2px solid #fff;
 	--bl-checkmark__mark--checked: 0px;
 }
 
