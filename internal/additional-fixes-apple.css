@@ -456,3 +456,11 @@ textarea,
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
     padding: 2px 7px;
 }
+
+.bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
+    margin-top: 0;
+}
+
+.bp3-icon.bp3-icon-caret-right {
+    display: block;
+}
