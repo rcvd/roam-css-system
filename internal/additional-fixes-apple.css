@@ -233,6 +233,7 @@ textarea {
 .check-container {
     height: 13px;
     width: 13px;
+    top: 2px;
 }
 
 .check-container .checkmark::after {
