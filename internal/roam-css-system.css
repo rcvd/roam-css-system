@@ -675,7 +675,7 @@ h3.bp3-heading {
 	font-weight: 			var(--fw-dialog__heading, 600);
 }
 
-.bp3-file-upload-input::after {
+.bp3-file-upload-input::after,.bp3-file-upload-input:hover::after {
 	background-color: 		var(--bc-dialog__upload-button, #f5f8fa);
 	border-top: 			var(--bt-dialog__upload-button, inherit);
 	border-right: 			var(--br-dialog__upload-button, inherit);

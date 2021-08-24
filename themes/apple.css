@@ -1502,7 +1502,7 @@
 }
 
 :root {
-	--bc-dialog__upload-input: #509cff;
+	--bc-dialog__upload-input: #666;
 	--bt-dialog__upload-input: none;
 	--br-dialog__upload-input: none;
 	--bb-dialog__upload-input: none;
