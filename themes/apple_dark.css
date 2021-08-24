@@ -1505,11 +1505,11 @@
 }
 
 :root {
-	--br-multibar--hover: 3px solid #676767;
+	--br-multibar--hover: 3px solid #666;
 }
 
 :root {
-	--br-multibar: 1px solid #464646;
+	--br-multibar: 1px solid #333;
 }
 
 :root {

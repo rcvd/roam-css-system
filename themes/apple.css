@@ -3306,12 +3306,12 @@
 }
 
 :root {
-	--br-multibar--hover: 3px solid #dddede;
+	--br-multibar--hover: 3px solid #c1c2c2;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-multibar--hover: 3px solid #676767;
+		--br-multibar--hover: 3px solid #666;
 	}
 }
 
@@ -3321,7 +3321,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-multibar: 1px solid #464646;
+		--br-multibar: 1px solid #333;
 	}
 }
 
