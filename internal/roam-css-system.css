@@ -629,6 +629,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-datepicker__select, #182026);
 }
 
+.bp3-datepicker .bp3-html-select:hover .bp3-icon, .bp3-datepicker .bp3-select:hover .bp3-icon {
+	color: 					var(--co-datepicker__select-icon--hover, inherit);
+}
+
 .bp3-datepicker .bp3-html-select .bp3-icon, .bp3-datepicker .bp3-select .bp3-icon {
 	color: 					var(--co-datepicker__select-icon, #5c7080);
 }

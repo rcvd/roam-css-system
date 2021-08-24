@@ -618,6 +618,10 @@
 }
 
 :root {
+	--co-datepicker__select-icon--hover: #ffffff;
+}
+
+:root {
 	--co-datepicker__select-icon: #121417;
 }
 
