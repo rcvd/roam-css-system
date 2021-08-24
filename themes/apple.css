@@ -3659,10 +3659,10 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid #dddede;
-	--br-right-sidebar__bullet-closed: 4px solid #dddede;
-	--bb-right-sidebar__bullet-closed: 4px solid #dddede;
-	--bl-right-sidebar__bullet-closed: 4px solid #dddede;
+	--bt-right-sidebar__bullet-closed: 4px solid #d7d7d7;
+	--br-right-sidebar__bullet-closed: 4px solid #d7d7d7;
+	--bb-right-sidebar__bullet-closed: 4px solid #d7d7d7;
+	--bl-right-sidebar__bullet-closed: 4px solid #d7d7d7;
 }
 
 @media(prefers-color-scheme: dark) {

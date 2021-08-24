@@ -117,6 +117,10 @@ textarea {
     height:  16px;
 }
 
+.rm-mentions .rm-ref-page-view {
+    margin-left: 15px;
+}
+
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
     padding: 0px;
 }
@@ -226,9 +230,14 @@ textarea {
 }
 
 /* Fix checkbox */
+.check-container {
+    height: 13px;
+    width: 13px;
+}
+
 .check-container .checkmark::after {
-    left: 3.5px;
-    top: 0.5px;
+    left: 4px;
+    top: 1px;
 }
 
 /* Hide left sidebar icons */
@@ -345,16 +354,14 @@ html {
     padding: .5em 1em .5em 0;
 }
 
-.rm-mentions .rm-ref-page-view {
-    margin-left: 15px;
-}
-
+/* Cursor Color */
 input,
 textarea,
 [contenteditable] {
     caret-color: #888;
 }
 
+/* Hide Pomodoro Icons */
 .rm-pomodoro > span:first-child {
     display:  none;
 }
