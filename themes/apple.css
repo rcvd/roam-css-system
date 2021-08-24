@@ -906,7 +906,7 @@
 }
 
 :root {
-	--bc-checkmark--checked: #666;
+	--bc-checkmark--checked: #999;
 	--bt-checkmark--checked: none;
 	--br-checkmark--checked: none;
 	--bb-checkmark--checked: none;
@@ -916,7 +916,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-checkmark--checked: #999;
+		--bc-checkmark--checked: #666;
 		--bt-checkmark--checked: none;
 		--br-checkmark--checked: none;
 		--bb-checkmark--checked: none;
