@@ -109,7 +109,7 @@ textarea {
 }
 
 .rm-reference-item {
-    margin-left: -12px; /*was +16px*/
+    margin-left: -2px; /*was +16px*/
 }
 
 .rm-caret {
