@@ -415,6 +415,10 @@ textarea,
     border-radius: 0;
 }
 
+.roam-body .roam-app .roam-main .roam-article {
+    padding-top: 60px;
+}
+
 .roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100%);
 }
@@ -430,4 +434,21 @@ textarea,
     top: 0;
     position: absolute;
     z-index: 100;
+}
+
+
+@media(prefers-color-scheme: dark) {
+    .rm-files-dropzone {
+        background-color: rgba(0,0,0,0.22); 
+    }
+}
+
+.rm-topbar, .bp3-input, input[type=search] {
+    background: rgba(255,255,255,0.5);
+}
+
+@media(prefers-color-scheme: dark) {
+    .rm-topbar, .bp3-input, input[type=search] {
+        background: rgba(0,0,0,0.5);
+    }
 }
