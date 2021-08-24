@@ -96,7 +96,7 @@ textarea {
 }
 
 /* Align references */
-.rm-reference-container>.flex-h-box {
+    .rm-reference-container>.flex-h-box {
     padding-bottom: 2px;
 }
 
@@ -143,8 +143,8 @@ textarea {
 
 @media (prefers-color-scheme: dark) {
     #roam-sidebar-logo img {
-        --webkit-filter: brightness(35%);x
-        filter: brightness(35%);
+        --webkit-filter: brightness(100%);
+        filter: brightness(100%);
     }
 }
 
