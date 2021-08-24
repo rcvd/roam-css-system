@@ -688,7 +688,7 @@ h3.bp3-heading {
 }
 
 .bp3.dialog span[style*='color: rgb(167, 182, 194);'] {
-	color: 					var(--co-dialog__span, rgb(167, 182, 194));
+	color: 					var(--co-dialog__span, rgb(167, 182, 194))!important;
 }
 
 .bp3-file-upload-input::after,.bp3-file-upload-input:hover::after {
