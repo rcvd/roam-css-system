@@ -331,7 +331,7 @@ html {
       backgroundColor: black;
     }
 }
-
+/*
 .bp3-popover {
    -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
@@ -352,7 +352,7 @@ html {
 .bp3-menu, .rm-topbar, .bp3-popover .bp3-popover-content, .bp3-input, input[type=search] {
     background: rgba(255,255,255,0.5);
 }
-
+*/
 @media(prefers-color-scheme: dark) {
     .rm-topbar, .bp3-input, input[type=search] {
         background: rgba(0,0,0,0.5);
@@ -367,7 +367,7 @@ html {
     flex: 0 0 calc(100%);
 }
 
-.rm-files-dropzone {
+/*.rm-files-dropzone {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(255,255,255,0.72); 
@@ -385,7 +385,7 @@ html {
         background-color: rgba(0,0,0,0.22); 
     }
 }
-
+*/
 .rm-bq {
     margin-top: 10px;
     margin-bottom:  10px;
