@@ -443,7 +443,7 @@ textarea,
     }
 }
 
-.rm-topbar, .bp3-input, input[type=search] {
+.rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
     background: rgba(255,255,255,0.5);
 }
 
@@ -451,4 +451,8 @@ textarea,
     .rm-topbar, .bp3-input, input[type=search] {
         background: rgba(0,0,0,0.5);
     }
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
+    padding-top: 0px;
 }
