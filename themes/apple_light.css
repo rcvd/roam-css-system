@@ -1020,11 +1020,13 @@
 
 :root {
 	--bc-help__categories--hover: #0064e0;
+	--bd-help__categories--hover: 5px;
 	--co-help__categories--hover: #ffffff;
 }
 
 :root {
 	--bc-help__categories--selected: #0064e0;
+	--bd-help__categories--selected: 5px;
 	--co-help__categories--selected: #ffffff;
 }
 

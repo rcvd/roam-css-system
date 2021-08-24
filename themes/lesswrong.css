@@ -2256,6 +2256,7 @@
 
 :root {
 	--bc-help__categories--hover: var(--cl-gray-300);
+	--bd-help__categories--hover: ;
 	--co-help__categories--hover: var(--cl-gray-900);
 }
 
@@ -2268,6 +2269,7 @@
 
 :root {
 	--bc-help__categories--selected: var(--cl-blue-100);
+	--bd-help__categories--selected: ;
 	--co-help__categories--selected: ;
 }
 
