@@ -1751,7 +1751,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-left: 			var(--bl-right-sidebar__container, inherit);
 }
 
-.roam-body .roam-app .sidebar-content h1 {
+.roam-body .roam-app .sidebar-content h1, #right-sidebar .rm-title-textarea {
 	color: 					var(--co-right-sidebar__h1, inherit);
 	font-size: 				var(--fs-right-sidebar__h1, inherit);
 	font-weight: 			var(--fw-right-sidebar__h1, inherit);
