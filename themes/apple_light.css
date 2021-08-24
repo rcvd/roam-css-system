@@ -1019,12 +1019,13 @@
 }
 
 :root {
-	--bc-help__categories--hover: transparent;
+	--bc-help__categories--hover: #0064e0;
 	--co-help__categories--hover: #272727;
 }
 
 :root {
-	--bc-help__categories--selected: #bed7f9;
+	--bc-help__categories--selected: #0064e0;
+	--co-help__categories--selected: #272727;
 }
 
 :root {

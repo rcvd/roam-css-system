@@ -2268,11 +2268,13 @@
 
 :root {
 	--bc-help__categories--selected: #bed7f9;
+	--co-help__categories--selected: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-help__categories--selected: #286bbd;
+		--co-help__categories--selected: ;
 	}
 }
 

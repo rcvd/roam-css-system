@@ -2255,24 +2255,26 @@
 }
 
 :root {
-	--bc-help__categories--hover: transparent;
+	--bc-help__categories--hover: #0064e0;
 	--co-help__categories--hover: #272727;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-help__categories--hover: transparent;
+		--bc-help__categories--hover: #0058d0;
 		--co-help__categories--hover: #f5f5f7;
 	}
 }
 
 :root {
-	--bc-help__categories--selected: #bed7f9;
+	--bc-help__categories--selected: #0064e0;
+	--co-help__categories--selected: #272727;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-help__categories--selected: #286bbd;
+		--bc-help__categories--selected: #0058d0;
+		--co-help__categories--selected: ;
 	}
 }
 
