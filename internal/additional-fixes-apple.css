@@ -162,7 +162,7 @@ textarea {
 }
 
 /* Remove gradient from buttons */
-.bp3-button:not([class*='bp3-intent-']) {
+.bp3-file-upload-input::after, .bp3-button:not([class*='bp3-intent-']) {
     background-image: none;
 }
 
