@@ -698,7 +698,7 @@ h3.bp3-heading {
 	font-weight: 			var(--fw-dialog__heading, 600);
 }
 
-.bp3.dialog span[style*='color: rgb(167, 182, 194);'] {
+.bp3-dialog span[style*='color: rgb(167, 182, 194);'] {
 	color: 					var(--co-dialog__span, rgb(167, 182, 194))!important;
 }
 
