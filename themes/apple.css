@@ -1992,7 +1992,7 @@
 }
 
 :root {
-	--bc-emoji-mart__category-label: #ffffff;
+	--bc-emoji-mart__category-label: #ececec;
 }
 
 @media(prefers-color-scheme: dark) {
