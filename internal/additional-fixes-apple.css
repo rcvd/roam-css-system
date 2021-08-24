@@ -367,6 +367,29 @@ textarea,
     display:  none;
 }
 
+.rm-pomodoro.running:first-letter {
+  color: transparent;
+}
+
+.rm-pomodoro {
+  min-width: 100px;
+  text-align:    center;
+}
+
+.rm-pomodoro.running {
+  padding-top:   6px;
+  padding-right: 28px;
+}
+
+.rm-pomodoro.break:first-letter {
+  color: transparent;
+}
+
+.rm-pomodoro.break {
+  padding-top:   6px;
+  padding-right: 28px;
+}
+
 /* Fix elevation width for mobile */
 @media screen and (max-width:400px) {
     .bp3-elevation-3 {
