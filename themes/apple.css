@@ -4636,7 +4636,7 @@
 }
 
 :root {
-	--bc-topbar__container: transparent;
+	--bc-topbar__container: #fff;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
 	--bb-topbar__container: none;
