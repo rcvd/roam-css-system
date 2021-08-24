@@ -464,3 +464,7 @@ textarea,
 .bp3-icon.bp3-icon-caret-right {
     display: block;
 }
+
+.bp3-menu-item {
+    padding: 3px 7px;
+}
