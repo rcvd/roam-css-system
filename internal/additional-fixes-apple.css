@@ -463,3 +463,7 @@ textarea,
         max-width: 300px!important;
     }
 }
+
+.bp3-datepicker .DayPicker-Day.DayPicker-Day--isToday .bp3-datepicker-day-wrapper {
+    border: none;
+}
