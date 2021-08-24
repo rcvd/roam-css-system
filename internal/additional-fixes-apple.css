@@ -309,9 +309,9 @@ textarea {
     margin-top: 36px;
 }
 
-.roam-body .roam-app .roam-main .roam-article {
+/*.roam-body .roam-app .roam-main .roam-article {
     padding-top: 60px;
-}
+}*/
 
 .bp3-menu-item .bp3-icon {
     display: none;
@@ -359,9 +359,9 @@ html {
     }
 }
 */
-.roam-body .roam-app .roam-body-main {
+/*.roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100%);
-}
+}*/
 /*
 .rm-files-dropzone {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
