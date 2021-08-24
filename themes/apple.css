@@ -1380,7 +1380,7 @@
 }
 
 :root {
-	--co-datepicker__select-icon: #ffffff;
+	--co-datepicker__select-icon: #121417;
 }
 
 @media(prefers-color-scheme: dark) {
