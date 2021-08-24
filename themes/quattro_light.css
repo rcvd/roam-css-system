@@ -1707,13 +1707,6 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);
-	--br-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);
-	--bb-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);
-	--bl-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);
-}
-
-:root {
 	--bc-right-sidebar__content: ;
 }
 

@@ -1735,13 +1735,6 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	text-transform: 		var(--tt-reference__unlinked-title, inherit);
 }
 
-.sidebar-content .rm-bullet.rm-bullet--closed .rm-bullet__inner {
-	border-top: 			var(--bt-right-sidebar__bullet-closed, 4px solid #BFCCD6);
-	border-right: 			var(--br-right-sidebar__bullet-closed, 4px solid #BFCCD6);
-	border-bottom: 			var(--bb-right-sidebar__bullet-closed, 4px solid #BFCCD6);
-	border-left: 			var(--bl-right-sidebar__bullet-closed, 4px solid #BFCCD6);
-}
-
 #roam-right-sidebar-content {
 	background-color: 		var(--bc-right-sidebar__content, inherit);
 }
