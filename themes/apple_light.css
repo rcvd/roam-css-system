@@ -675,11 +675,11 @@
 }
 
 :root {
-	--bc-dialog__upload-input: transparent;
-	--bt-dialog__upload-input: 1px solid #c9c9c9;
-	--br-dialog__upload-input: 1px solid #c9c9c9;
-	--bb-dialog__upload-input: 1px solid #c9c9c9;
-	--bl-dialog__upload-input: 1px solid #c9c9c9;
+	--bc-dialog__upload-input: #c9c9c9;
+	--bt-dialog__upload-input: none;
+	--br-dialog__upload-input: none;
+	--bb-dialog__upload-input: none;
+	--bl-dialog__upload-input: none;
 	--bd-dialog__upload-input: 5px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: #ffffff;
