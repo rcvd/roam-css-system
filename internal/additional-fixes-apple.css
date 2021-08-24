@@ -1,10 +1,11 @@
+/* Enhance font smoothing */
 body, input, textarea, select, button {
     font-synthesis: none;
     -webkit-font-smoothing: antialiased;
     direction: ltr;
 }
 
-
+/* Enhance font spacing and line height */
 .rm-title-display, .rm-title-textarea {
     line-height: 40px;
     letter-spacing: 0.22px;
@@ -35,21 +36,11 @@ textarea {
     line-height: 16px;
 }
 
+/* Fix bullet position */
 .controls, .rm-block__controls {
     padding-top: 5px;
 }
 
-.rm-sidebar-window > div {
-    color: #666666;
-}
-
-@media (prefers-color-scheme: dark) {
-    .rm-sidebar-window > div {
-        color: #999999;
-    }
-}
-
-/* Fix bullet position */
 .controls .simple-bullet-outer,
 .rm-block__controls .simple-bullet-outer {
     margin-top: 3px;
@@ -250,26 +241,9 @@ textarea {
     display:  none;
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
-    background-color:  #fff;
-}
-@media(prefers-color-scheme: dark) {
-    .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
-        background-color:  #000 ;
-    }
-}
-
-
 #right-sidebar > .flex-h-box {
-    background-color: #fff;
     padding: 10px 8px!important;
     margin-right: 2px!important;
-}
-
-@media(prefers-color-scheme: dark) { 
-    #right-sidebar > .flex-h-box {
-        background-color: #000;
-    }
 }
 
 #right-sidebar > .flex-h-box > .bp3-button {
@@ -284,33 +258,17 @@ textarea {
     padding-top:  44px;
 }
 
-#roam-right-sidebar-content {
-    background-color: #fafafa;
-}
-
-@media(prefers-color-scheme: dark) {
-    #roam-right-sidebar-content {
-        background-color: #141414;
-    }   
-}
-
 .roam-main .rm-topbar {
     padding-right: 32px;
-    z-index: 2000;
 }
 
 .roam-main[style*='flex: 0 0 100%;'] .rm-topbar {
     padding-right: 16px;
-    z-index: 2000;
 }
 
 #roam-right-sidebar-content > div:first-child {
     margin-top: 36px;
 }
-
-/*.roam-body .roam-app .roam-main .roam-article {
-    padding-top: 60px;
-}*/
 
 .bp3-menu-item .bp3-icon {
     display: none;
@@ -330,56 +288,6 @@ html {
       backgroundColor: black;
     }
 }
-
-/*.bp3-popover {
-   -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.72); 
-    content: '';
-    height: 100%;
-    width: 100%;
-    z-index: 100;
-}
-
-@media(prefers-color-scheme: dark) {
-    .bp3-popover {
-        background-color: rgba(33,33,33,0.3); 
-    }
-}
-*/
-
-/*.rm-topbar, .bp3-input, input[type=search] {
-    background: rgba(255,255,255,0.5);
-}
-
-@media(prefers-color-scheme: dark) {
-    .rm-topbar, .bp3-input, input[type=search] {
-        background: rgba(0,0,0,0.5);
-    }
-}
-*/
-/*.roam-body .roam-app .roam-body-main {
-    flex: 0 0 calc(100%);
-}*/
-/*
-.rm-files-dropzone {
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.72); 
-    content: '';
-    height: 44px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    z-index: 100;
-}
-
-@media(prefers-color-scheme: dark) {
-    .rm-files-dropzone {
-        background-color: rgba(0,0,0,0.22); 
-    }
-}*/
 
 .rm-bq {
     margin-top: 10px;

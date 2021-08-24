@@ -2793,6 +2793,16 @@
 }
 
 :root {
+	--bc-left-sidebar__toprow: #ffffff;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-left-sidebar__toprow: #000;
+	}
+}
+
+:root {
 	--bc-left-sidebar__toprow--hover: #ffffff;
 }
 
@@ -3665,6 +3675,16 @@
 }
 
 :root {
+	--bc-right-sidebar__content: #fafafa;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-right-sidebar__content: #141414;
+	}
+}
+
+:root {
 	--bc-right-sidebar__container: #fafafa;
 	--bl-right-sidebar__container: 4px solid #fff;
 }
@@ -3685,6 +3705,26 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-right-sidebar__h1: #f5f5f7;
+	}
+}
+
+:root {
+	--bc-right-sidebar__toprow: #fff;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-right-sidebar__toprow: #000;
+	}
+}
+
+:root {
+	--co-right-sidebar__window-title: #666;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-right-sidebar__window-title: #999;
 	}
 }
 

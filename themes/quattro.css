@@ -2793,6 +2793,16 @@
 }
 
 :root {
+	--bc-left-sidebar__toprow: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-left-sidebar__toprow: ;
+	}
+}
+
+:root {
 	--bc-left-sidebar__toprow--hover: transparent;
 }
 
@@ -3665,6 +3675,16 @@
 }
 
 :root {
+	--bc-right-sidebar__content: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-right-sidebar__content: ;
+	}
+}
+
+:root {
 	--bc-right-sidebar__container: var(--cl-blue-50);
 	--bl-right-sidebar__container: 1px solid var(--cl-blue-100);
 }
@@ -3685,6 +3705,26 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-right-sidebar__h1: ;
+	}
+}
+
+:root {
+	--bc-right-sidebar__toprow: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-right-sidebar__toprow: ;
+	}
+}
+
+:root {
+	--co-right-sidebar__window-title: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-right-sidebar__window-title: ;
 	}
 }
 

@@ -1265,6 +1265,10 @@
 }
 
 :root {
+	--bc-left-sidebar__toprow: ;
+}
+
+:root {
 	--bc-left-sidebar__toprow--hover: transparent;
 }
 
@@ -1676,6 +1680,10 @@
 }
 
 :root {
+	--bc-right-sidebar__content: ;
+}
+
+:root {
 	--bc-right-sidebar__container: var(--cl-green-50);
 	--bl-right-sidebar__container: 1px solid var(--cl-green-100);
 }
@@ -1684,6 +1692,14 @@
 	--co-right-sidebar__h1: var(--cl-gray-700);
 	--fs-right-sidebar__h1: 1rem;
 	--fw-right-sidebar__h1: 600;
+}
+
+:root {
+	--bc-right-sidebar__toprow: ;
+}
+
+:root {
+	--co-right-sidebar__window-title: ;
 }
 
 :root {

@@ -1265,6 +1265,10 @@
 }
 
 :root {
+	--bc-left-sidebar__toprow: #ffffff;
+}
+
+:root {
 	--bc-left-sidebar__toprow--hover: #ffffff;
 }
 
@@ -1676,6 +1680,10 @@
 }
 
 :root {
+	--bc-right-sidebar__content: #fafafa;
+}
+
+:root {
 	--bc-right-sidebar__container: #fafafa;
 	--bl-right-sidebar__container: 4px solid #fff;
 }
@@ -1684,6 +1692,14 @@
 	--co-right-sidebar__h1: #121418;
 	--fs-right-sidebar__h1: 1rem;
 	--fw-right-sidebar__h1: 600;
+}
+
+:root {
+	--bc-right-sidebar__toprow: #fff;
+}
+
+:root {
+	--co-right-sidebar__window-title: #666;
 }
 
 :root {
