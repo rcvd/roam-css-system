@@ -664,6 +664,10 @@
 }
 
 :root {
+	--co-dialog__span: #999999;
+}
+
+:root {
 	--bc-dialog__upload-button: #1574d8;
 	--bt-dialog__upload-button: none;
 	--br-dialog__upload-button: none;

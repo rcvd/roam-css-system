@@ -1479,6 +1479,16 @@
 }
 
 :root {
+	--co-dialog__span: #6666666;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-dialog__span: #999999;
+	}
+}
+
+:root {
 	--bc-dialog__upload-button: #509cff;
 	--bt-dialog__upload-button: none;
 	--br-dialog__upload-button: none;

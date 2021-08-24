@@ -664,6 +664,10 @@
 }
 
 :root {
+	--co-dialog__span: ;
+}
+
+:root {
 	--bc-dialog__upload-button: var(--cl-gray-800);
 	--bt-dialog__upload-button: 1px solid var(--cl-gray-700);
 	--br-dialog__upload-button: 1px solid var(--cl-gray-700);
