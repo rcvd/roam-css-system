@@ -1076,7 +1076,7 @@
 }
 
 :root {
-	--bc-help__input--focus: #515151;
+	--bc-help__input--focus: transparent;
 	--bt-help__input--focus: none;
 	--br-help__input--focus: none;
 	--bb-help__input--focus: none;
