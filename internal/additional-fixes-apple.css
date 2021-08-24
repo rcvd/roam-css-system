@@ -374,3 +374,20 @@ textarea,
         max-width: 300px!important;
     }
 }
+
+/* Hide Code Block Gutter */
+.CodeMirror-gutter-wrapper, .CodeMirror-gutters {
+  display: none;
+}
+
+.CodeMirror {
+  padding: 20px;
+}
+
+.CodeMirror-sizer {
+  margin-left: 0px!important;
+}
+
+.roam-block-container {
+    border-radius: 0;
+}
