@@ -1464,6 +1464,7 @@ div, textarea {
 	border-left: 			var(--bl-menu__item, inherit);
 	border-radius: 			var(--bd-menu__item, 2px);
 	color: 					var(--co-menu__item, inherit);
+	font-weight: 			var(--fw-menu__item, inherit);
 }
 
 .bp3-menu-item:hover::before, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {

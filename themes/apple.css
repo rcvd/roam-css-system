@@ -1581,7 +1581,7 @@
 
 :root {
 	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-div: 1rem;
+	--fs-div: 13px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3150,6 +3150,7 @@
 	--bl-menu__item: none;
 	--bd-menu__item: 5px;
 	--co-menu__item: #121417;
+	--fw-menu__item: ;
 }
 
 @media(prefers-color-scheme: dark) {

@@ -3150,6 +3150,7 @@
 	--bl-menu__item: none;
 	--bd-menu__item: 5px;
 	--co-menu__item: #121417;
+	--fw-menu__item: ;
 }
 
 @media(prefers-color-scheme: dark) {

@@ -1441,6 +1441,7 @@
 	--bl-menu__item: 1px solid transparent;
 	--bd-menu__item: 0px;
 	--co-menu__item: var(--cl-gray-100);
+	--fw-menu__item: ;
 }
 
 :root {
