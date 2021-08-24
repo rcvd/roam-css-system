@@ -1604,9 +1604,9 @@
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #65a9f9;
+	--bl-quote: 4px solid #333;
 	--bd-quote: ;
-	--co-quote: rgb(152,152,154);
+	--co-quote: #fff;
 	--ff-quote: ;
 	--fs-quote: 14px;
 	--ft-quote: ;
