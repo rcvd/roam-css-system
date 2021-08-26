@@ -179,6 +179,27 @@
 }
 
 :root {
+	--bc-block__button--hover: ;
+	--bt-block__button--hover: ;
+	--br-block__button--hover: ;
+	--bb-block__button--hover: ;
+	--bl-block__button--hover: ;
+	--sd-block__button--hover: ;
+	--co-block__button--hover: ;
+}
+
+:root {
+	--bc-block__button: ;
+	--bt-block__button: ;
+	--br-block__button: ;
+	--bb-block__button: ;
+	--bl-block__button: ;
+	--bd-block__button: ;
+	--sd-block__button: ;
+	--co-block__button: ;
+}
+
+:root {
 	--bc-block-highlight--blue: #383c3e;
 	--co-block-highlight--blue: #ffffff;
 }

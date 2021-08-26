@@ -174,6 +174,29 @@ a {
 	color: 					var(--co-block__ghost, rgb(206, 217, 224))!important;
 }
 
+.roam-block .bp3-button:not([class*='bp3-intent-']):hover {
+	background-color: 		var(--bc-block__button--hover, #ebf1f5);
+	border-top: 			var(--bt-block__button--hover, inherit);
+	border-right: 			var(--br-block__button--hover, inherit);
+	border-bottom: 			var(--bb-block__button--hover, inherit);
+	border-left: 			var(--bl-block__button--hover, inherit);
+	box-shadow: 			var(--sd-block__button--hover, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	--webkit-box-shadow: 	var(--sd-block__button--hover, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	color: 					var(--co-block__button--hover, inherit);
+}
+
+.roam-block .bp3-button:not([class*='bp3-intent-']) {
+	background-color: 		var(--bc-block__button, #f5f8fa);
+	border-top: 			var(--bt-block__button, inherit);
+	border-right: 			var(--br-block__button, inherit);
+	border-bottom: 			var(--bb-block__button, inherit);
+	border-left: 			var(--bl-block__button, inherit);
+	border-radius: 			var(--bd-block__button, inherit);
+	box-shadow: 			var(--sd-block__button, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	--webkit-box-shadow: 	var(--sd-block__button, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	color: 					var(--co-block__button, inherit);
+}
+
 .block-highlight-blue {
 	background-color: 		var(--bc-block-highlight--blue, #7cccff);
 	color: 					var(--co-block-highlight--blue, #202B33)!important;
