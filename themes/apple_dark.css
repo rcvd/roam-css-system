@@ -478,6 +478,27 @@
 }
 
 :root {
+	--bc-codeblock__button--hover: ;
+	--bt-codeblock__button--hover: ;
+	--br-codeblock__button--hover: ;
+	--bb-codeblock__button--hover: ;
+	--bl-codeblock__button--hover: ;
+	--sd-codeblock__button--hover: ;
+	--co-codeblock__button--hover: #a5a7ab;
+}
+
+:root {
+	--bc-codeblock__button: ;
+	--bt-codeblock__button: ;
+	--br-codeblock__button: ;
+	--bb-codeblock__button: ;
+	--bl-codeblock__button: ;
+	--bd-codeblock__button: ;
+	--sd-codeblock__button: ;
+	--co-codeblock__button: #a5a7ab;
+}
+
+:root {
 	--co-codeblock__builtin: rgb(102,212,207);
 }
 

@@ -492,6 +492,29 @@ code {
 	color: 					var(--co-codeblock__bracket, #997);
 }
 
+.rm-code-block .bp3-button:not([class*='bp3-intent-']):hover {
+	background-color: 		var(--bc-codeblock__button--hover, #ebf1f5);
+	border-top: 			var(--bt-codeblock__button--hover, inherit);
+	border-right: 			var(--br-codeblock__button--hover, inherit);
+	border-bottom: 			var(--bb-codeblock__button--hover, inherit);
+	border-left: 			var(--bl-codeblock__button--hover, inherit);
+	box-shadow: 			var(--sd-codeblock__button--hover, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	--webkit-box-shadow: 	var(--sd-codeblock__button--hover, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	color: 					var(--co-codeblock__button--hover, inherit);
+}
+
+.rm-code-block .bp3-button:not([class*='bp3-intent-']) {
+	background-color: 		var(--bc-codeblock__button, #f5f8fa);
+	border-top: 			var(--bt-codeblock__button, inherit);
+	border-right: 			var(--br-codeblock__button, inherit);
+	border-bottom: 			var(--bb-codeblock__button, inherit);
+	border-left: 			var(--bl-codeblock__button, inherit);
+	border-radius: 			var(--bd-codeblock__button, inherit);
+	box-shadow: 			var(--sd-codeblock__button, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	--webkit-box-shadow: 	var(--sd-codeblock__button, inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1));
+	color: 					var(--co-codeblock__button, inherit);
+}
+
 .cm-s-default .cm-builtin {
 	color: 					var(--co-codeblock__builtin, #30a);
 }

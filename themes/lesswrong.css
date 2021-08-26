@@ -852,7 +852,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button--hover: transparent;
+		--bc-button--hover: var(--cl-green-500);
 		--sd-button--hover: none;
 		--co-button--hover: var(--cl-green-500);
 	}
@@ -867,7 +867,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-button: transparent;
+		--bc-button: var(--cl-gray-300);
 		--sd-button: none;
 		--co-button: var(--cl-gray-300);
 	}
@@ -1037,6 +1037,51 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--co-codeblock__bracket: var(--cl-gray-600);
+	}
+}
+
+:root {
+	--bc-codeblock__button--hover: ;
+	--bt-codeblock__button--hover: ;
+	--br-codeblock__button--hover: ;
+	--bb-codeblock__button--hover: ;
+	--bl-codeblock__button--hover: ;
+	--sd-codeblock__button--hover: ;
+	--co-codeblock__button--hover: var(--cl-green-500);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-codeblock__button--hover: ;
+		--bt-codeblock__button--hover: ;
+		--br-codeblock__button--hover: ;
+		--bb-codeblock__button--hover: ;
+		--bl-codeblock__button--hover: ;
+		--sd-codeblock__button--hover: ;
+		--co-codeblock__button--hover: var(--cl-green-500);
+	}
+}
+
+:root {
+	--bc-codeblock__button: ;
+	--bt-codeblock__button: ;
+	--br-codeblock__button: ;
+	--bb-codeblock__button: ;
+	--bl-codeblock__button: ;
+	--bd-codeblock__button: ;
+	--sd-codeblock__button: ;
+	--co-codeblock__button: var(--cl-gray-700);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-codeblock__button: ;
+		--bt-codeblock__button: ;
+		--br-codeblock__button: ;
+		--bb-codeblock__button: ;
+		--bl-codeblock__button: ;
+		--sd-codeblock__button: ;
+		--co-codeblock__button: var(--cl-gray-300);
 	}
 }
 
