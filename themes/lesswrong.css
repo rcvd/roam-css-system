@@ -380,47 +380,47 @@
 }
 
 :root {
-	--bc-block__button--hover: ;
-	--bt-block__button--hover: ;
-	--br-block__button--hover: ;
-	--bb-block__button--hover: ;
-	--bl-block__button--hover: ;
+	--bc-block__button--hover: var(--cl-blue-50);
+	--bt-block__button--hover: 1px solid var(--cl-blue-100);
+	--br-block__button--hover: 1px solid var(--cl-blue-100);
+	--bb-block__button--hover: 1px solid var(--cl-blue-100);
+	--bl-block__button--hover: 1px solid var(--cl-blue-100);
 	--sd-block__button--hover: ;
-	--co-block__button--hover: ;
+	--co-block__button--hover: var(--cl-blue-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-block__button--hover: ;
-		--bt-block__button--hover: ;
-		--br-block__button--hover: ;
-		--bb-block__button--hover: ;
-		--bl-block__button--hover: ;
+		--bc-block__button--hover: var(--cl-blue-900);
+		--bt-block__button--hover: 1px solid var(--cl-blue-800);
+		--br-block__button--hover: 1px solid var(--cl-blue-800);
+		--bb-block__button--hover: 1px solid var(--cl-blue-800);
+		--bl-block__button--hover: 1px solid var(--cl-blue-800);
 		--sd-block__button--hover: ;
-		--co-block__button--hover: ;
+		--co-block__button--hover: var(--cl-blue-100);
 	}
 }
 
 :root {
-	--bc-block__button: ;
-	--bt-block__button: ;
-	--br-block__button: ;
-	--bb-block__button: ;
-	--bl-block__button: ;
-	--bd-block__button: ;
+	--bc-block__button: var(--cl-gray-100);
+	--bt-block__button: 1px solid var(--cl-gray-200);
+	--br-block__button: 1px solid var(--cl-gray-200);
+	--bb-block__button: 1px solid var(--cl-gray-200);
+	--bl-block__button: 1px solid var(--cl-gray-200);
+	--bd-block__button: 0px;
 	--sd-block__button: ;
-	--co-block__button: ;
+	--co-block__button: var(--cl-gray-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-block__button: ;
-		--bt-block__button: ;
-		--br-block__button: ;
-		--bb-block__button: ;
-		--bl-block__button: ;
+		--bc-block__button: var(--cl-gray-900);
+		--bt-block__button: 1px solid var(--cl-gray-800);
+		--br-block__button: 1px solid var(--cl-gray-800);
+		--bb-block__button: 1px solid var(--cl-gray-800);
+		--bl-block__button: 1px solid var(--cl-gray-800);
 		--sd-block__button: ;
-		--co-block__button: ;
+		--co-block__button: var(--cl-gray-100);
 	}
 }
 
