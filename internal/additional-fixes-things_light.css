@@ -1,0 +1,179 @@
+/* Fix bullet position */
+.controls .simple-bullet-outer,
+.rm-block__controls .simple-bullet-outer {
+    margin-top: 4px;
+    padding-left: 2px;
+}
+
+.roam-block-container .rm-block-main {
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.rm-bullet {
+    margin-top: 1px;
+}
+
+.rm-bullet--numbered {
+    margin-top: -1px;
+}
+
+/* Firefox specific fixes */
+@-moz-document url-prefix() {
+    .controls .simple-bullet-outer,
+    .rm-block__controls .simple-bullet-outer {
+        margin-top: 7.5px;
+    }
+
+    .controls,
+    .rm-block__controls {
+        padding-top: 0;
+    }
+
+    .check-container {
+        top: 5px;
+    }
+
+    .block-expand .rm-caret {
+        margin-top: 6px;
+    }
+
+    .rm-bullet--numbered {
+        margin-top: 3px;
+    }
+}
+
+/* Align main block */
+.roam-block-container .rm-block-main {
+    padding-left: 4px;
+}
+
+/* Align multibar */
+.rm-multibar {
+  left: -2px;
+}
+
+/* Align references */
+.rm-ref-page-view {
+    padding-left: 7px;
+}
+
+.rm-reference-container>.flex-h-box {
+    padding-bottom: 2px;
+}
+
+.rm-reference-main>div>div:nth-child(2)>div.flex-h-box {
+    margin-top: 12px;
+}
+
+.rm-reference-item {
+    margin-left: 16px;
+}
+
+/* Align caret for linked references */
+.rm-reference-container>.flex-h-box {
+    align-items: center;
+}
+
+.rm-reference-container>.flex-h-box>.rm-caret {
+    margin-bottom: 1px;
+}
+
+/* Set min height for unlinked references */
+.rm-reference-main > div > div:nth-child(2) > div {
+  min-height: 31px;
+}
+
+/* Re-color Roam Research Logo */
+#roam-sidebar-logo img {
+    --webkit-filter: brightness(30%);
+    filter: brightness(30%);
+}
+
+/* Remove transparency from graph menu */
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
+    opacity: 1;
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
+    opacity: 1;
+}
+
+/* Remove focus border */
+:focus {
+    outline: none;
+}
+
+/* Make menu items lower */
+.bp3-menu-item {
+    padding: 3px 10px;
+}
+
+/* Fix border for popover menus */
+.bp3-select-popover .bp3-popover-content {
+    padding: 0;
+}
+
+.bp3-select-popover .bp3-menu {
+  padding: 5px;
+}
+
+/* Fix starred pages wrapper */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 4px 0px 4px 0px;
+}
+
+/* Change all pages column alignment to left */
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    text-align: left;
+}
+
+/* Change padding for tags */
+.rm-page-ref--tag {
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px
+}
+
+/* Fix hr margin */
+.rm-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Fix table scrolling for Safari */
+.roam-table td {
+    overflow: auto;
+}
+
+/* Remove popover arrows */
+.bp3-popover-arrow {
+    display: none;
+}   
+
+/* Remove gradient from all pages checkboxes */
+.rm-all-pages .bp3-control .bp3-control-indicator {
+    background-image: none;
+}
+
+/* Remove border from top panel in settings */
+.rm-settings .rm-settings-panel__section.rm-settings-panel__section--top {
+    padding-top: unset;
+    border: none;
+}
+
+/* Remove background from scrollbar */
+.bp3-dark .bp3-slider-handle.bp3-active {
+    background-color: transparent;
+}
+.rm-settings ::-webkit-scrollbar:vertical {
+    background: transparent;
+}
+
+/* Remove background from button */
+.bp3-button:not([class*='bp3-intent-']) {
+    background-image: none;
+}
+
+body {
+    border-top: 1px solid #e6e6e6;
+}
