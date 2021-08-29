@@ -1,8 +1,7 @@
-# roam-css-system
-Roam CSS System
+# The Roam CSS System
 
 ## What is it?
-The Roam CSS System is a powerful framework for customizing the look and feel of [Roam Research](https://roamresearch.com).
+The Roam CSS System is a modular, block-based approach for changing the look and feel of [Roam Research](https://roamresearch.com). It has been thoughtfully engineered to allow easy customization by the non-tech-affine end user and offers different minimal, beautiful designed elegant themes.
 
 ## If you want to support my work
 - [Flattr](https://flattr.com/@rcvd)
