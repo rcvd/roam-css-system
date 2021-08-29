@@ -998,7 +998,7 @@
 	--bc-encrypted__input: transparent;
 	--bt-encrypted__input: none;
 	--br-encrypted__input: none;
-	--bb-encrypted__input: none;
+	--bb-encrypted__input: 1px solid #333;
 	--bl-encrypted__input: none;
 	--bd-encrypted__input: 5px;
 	--co-encrypted__input: #ebebeb;

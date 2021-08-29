@@ -998,7 +998,7 @@
 	--bc-encrypted__input: ;
 	--bt-encrypted__input: ;
 	--br-encrypted__input: ;
-	--bb-encrypted__input: ;
+	--bb-encrypted__input: 1px solid var(--cl-gray-800);
 	--bl-encrypted__input: ;
 	--bd-encrypted__input: ;
 	--co-encrypted__input: ;
