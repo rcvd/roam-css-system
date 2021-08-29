@@ -154,3 +154,7 @@ hr {
 .rm-bullet--numbered {
     margin-top: 3px;
 }
+
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
+    padding: 0px 7px;
+}

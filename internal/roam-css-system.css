@@ -1007,6 +1007,14 @@ div, textarea {
 	border-radius: 			var(--bd-encrypted__form, inherit);
 }
 
+.rm-encrypted-block input:focus {
+	background-color: 		var(--bc-encrypted__input--focus, inherit);
+	border-top: 			var(--bt-encrypted__input--focus, inherit);
+	border-right: 			var(--br-encrypted__input--focus, inherit);
+	border-bottom: 			var(--bb-encrypted__input--focus, inherit);
+	border-left: 			var(--bl-encrypted__input--focus, inherit);
+}
+
 .rm-encrypted-block input {
 	background-color: 		var(--bc-encrypted__input, inherit);
 	border-top: 			var(--bt-encrypted__input, inherit);

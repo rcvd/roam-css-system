@@ -2176,6 +2176,24 @@
 }
 
 :root {
+	--bc-encrypted__input--focus: ;
+	--bt-encrypted__input--focus: ;
+	--br-encrypted__input--focus: ;
+	--bb-encrypted__input--focus: ;
+	--bl-encrypted__input--focus: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-encrypted__input--focus: ;
+		--bt-encrypted__input--focus: ;
+		--br-encrypted__input--focus: ;
+		--bb-encrypted__input--focus: ;
+		--bl-encrypted__input--focus: ;
+	}
+}
+
+:root {
 	--bc-encrypted__input: ;
 	--bt-encrypted__input: ;
 	--br-encrypted__input: ;

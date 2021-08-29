@@ -987,12 +987,20 @@
 }
 
 :root {
+	--bc-encrypted__input--focus: ;
+	--bt-encrypted__input--focus: ;
+	--br-encrypted__input--focus: ;
+	--bb-encrypted__input--focus: ;
+	--bl-encrypted__input--focus: ;
+}
+
+:root {
 	--bc-encrypted__input: ;
 	--bt-encrypted__input: ;
 	--br-encrypted__input: ;
 	--bb-encrypted__input: ;
 	--bl-encrypted__input: ;
-	--bd-encrypted__input: ;
+	--bd-encrypted__input: 0px;
 	--co-encrypted__input: ;
 	--fs-encrypted__input: 13px;
 }

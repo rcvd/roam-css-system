@@ -464,3 +464,7 @@ textarea,
 .bp3-menu-item {
     padding: 3px 7px;
 }
+
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
+    padding: 0px 7px;
+}

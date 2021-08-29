@@ -177,3 +177,7 @@
 body {
     border-top: 1px solid #e6e6e6;
 }
+
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
+    padding: 0px 7px;
+}

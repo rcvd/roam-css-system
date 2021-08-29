@@ -86,15 +86,8 @@
 
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
-    --webkit-filter: brightness(30%);
-    filter: brightness(30%);
-}
-
-@media (prefers-color-scheme: dark) {
-    #roam-sidebar-logo img {
-        --webkit-filter: brightness(70%);
-        filter: brightness(70%);
-    }
+    --webkit-filter: brightness(70%);
+    filter: brightness(70%);
 }
 
 /* Remove transparency from graph menu */
@@ -182,11 +175,9 @@
 }
 
 body {
-    border-top: 1px solid #e6e6e6;
+    border-top: 1px solid #1e1e1e;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        border-top: 1px solid #1e1e1e;
-    }
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
+    padding: 0px 7px;
 }
