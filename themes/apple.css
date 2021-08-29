@@ -2115,44 +2115,44 @@
 }
 
 :root {
-	--bc-encrypted__button: ;
-	--bt-encrypted__button: ;
-	--br-encrypted__button: ;
-	--bb-encrypted__button: ;
-	--bl-encrypted__button: ;
-	--co-encrypted__button: ;
+	--bc-encrypted__button: #b9bdc4;
+	--bt-encrypted__button: none;
+	--br-encrypted__button: none;
+	--bb-encrypted__button: none;
+	--bl-encrypted__button: none;
+	--co-encrypted__button: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-encrypted__button: ;
-		--bt-encrypted__button: ;
-		--br-encrypted__button: ;
-		--bb-encrypted__button: ;
-		--bl-encrypted__button: ;
-		--co-encrypted__button: ;
+		--bc-encrypted__button: #5e5e5e;
+		--bt-encrypted__button: 1px solid #707171;
+		--br-encrypted__button: 1px solid #707171;
+		--bb-encrypted__button: 1px solid #707171;
+		--bl-encrypted__button: 1px solid #707171;
+		--co-encrypted__button: #e6e7e7;
 	}
 }
 
 :root {
-	--bc-encrypted__button: ;
-	--bt-encrypted__button: ;
-	--br-encrypted__button: ;
-	--bb-encrypted__button: ;
-	--bl-encrypted__button: ;
-	--bd-encrypted__button: ;
-	--co-encrypted__button: ;
-	--fs-encrypted__button: ;
+	--bc-encrypted__button: #b9bdc4;
+	--bt-encrypted__button: none;
+	--br-encrypted__button: none;
+	--bb-encrypted__button: none;
+	--bl-encrypted__button: none;
+	--bd-encrypted__button: 5px;
+	--co-encrypted__button: #ffffff;
+	--fs-encrypted__button: 1rem;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-encrypted__button: ;
-		--bt-encrypted__button: ;
-		--br-encrypted__button: ;
-		--bb-encrypted__button: ;
-		--bl-encrypted__button: ;
-		--co-encrypted__button: ;
+		--bc-encrypted__button: #5e5e5e;
+		--bt-encrypted__button: 1px solid #707171;
+		--br-encrypted__button: 1px solid #707171;
+		--bb-encrypted__button: 1px solid #707171;
+		--bl-encrypted__button: 1px solid #707171;
+		--co-encrypted__button: #e6e7e7;
 	}
 }
 
@@ -2176,49 +2176,49 @@
 }
 
 :root {
-	--bc-encrypted__input--focus: ;
-	--bt-encrypted__input--focus: ;
-	--br-encrypted__input--focus: ;
-	--bb-encrypted__input--focus: ;
-	--bl-encrypted__input--focus: ;
+	--bc-encrypted__input--focus: transparent;
+	--bt-encrypted__input--focus: none;
+	--br-encrypted__input--focus: none;
+	--bb-encrypted__input--focus: none;
+	--bl-encrypted__input--focus: none;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-encrypted__input--focus: ;
-		--bt-encrypted__input--focus: ;
-		--br-encrypted__input--focus: ;
-		--bb-encrypted__input--focus: ;
-		--bl-encrypted__input--focus: ;
+		--bc-encrypted__input--focus: transparent;
+		--bt-encrypted__input--focus: none;
+		--br-encrypted__input--focus: none;
+		--bb-encrypted__input--focus: none;
+		--bl-encrypted__input--focus: none;
 	}
 }
 
 :root {
-	--bc-encrypted__input: ;
-	--bt-encrypted__input: ;
-	--br-encrypted__input: ;
-	--bb-encrypted__input: ;
-	--bl-encrypted__input: ;
-	--bd-encrypted__input: ;
-	--co-encrypted__input: ;
-	--fs-encrypted__input: ;
+	--bc-encrypted__input: transparent;
+	--bt-encrypted__input: none;
+	--br-encrypted__input: none;
+	--bb-encrypted__input: none;
+	--bl-encrypted__input: none;
+	--bd-encrypted__input: 5px;
+	--co-encrypted__input: #202128;
+	--fs-encrypted__input: 1rem;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-encrypted__input: ;
-		--bt-encrypted__input: ;
-		--br-encrypted__input: ;
-		--bb-encrypted__input: ;
-		--bl-encrypted__input: ;
-		--co-encrypted__input: ;
+		--bc-encrypted__input: transparent;
+		--bt-encrypted__input: none;
+		--br-encrypted__input: none;
+		--bb-encrypted__input: none;
+		--bl-encrypted__input: none;
+		--co-encrypted__input: #ebebeb;
 	}
 }
 
 :root {
 	--co-encrypted__label: ;
-	--fs-encrypted__label: ;
-	--fw-encrypted__label: ;
+	--fs-encrypted__label: 1rem;
+	--fw-encrypted__label: 500;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2235,8 +2235,8 @@
 	--bl-encrypted: ;
 	--bd-encrypted: ;
 	--co-encrypted: ;
-	--fs-encrypted: ;
-	--fw-encrypted: ;
+	--fs-encrypted: 1rem;
+	--fw-encrypted: 400;
 }
 
 @media(prefers-color-scheme: dark) {

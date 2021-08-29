@@ -974,7 +974,7 @@
 	--bl-encrypted__button: ;
 	--bd-encrypted__button: ;
 	--co-encrypted__button: ;
-	--fs-encrypted__button: ;
+	--fs-encrypted__button: 1rem;
 }
 
 :root {
@@ -1002,12 +1002,12 @@
 	--bl-encrypted__input: ;
 	--bd-encrypted__input: ;
 	--co-encrypted__input: ;
-	--fs-encrypted__input: ;
+	--fs-encrypted__input: 1rem;
 }
 
 :root {
 	--co-encrypted__label: ;
-	--fs-encrypted__label: ;
+	--fs-encrypted__label: 1rem;
 	--fw-encrypted__label: ;
 }
 
@@ -1019,7 +1019,7 @@
 	--bl-encrypted: ;
 	--bd-encrypted: ;
 	--co-encrypted: ;
-	--fs-encrypted: ;
+	--fs-encrypted: 1rem;
 	--fw-encrypted: ;
 }
 

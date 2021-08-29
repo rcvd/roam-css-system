@@ -958,23 +958,23 @@
 }
 
 :root {
-	--bc-encrypted__button: ;
-	--bt-encrypted__button: ;
-	--br-encrypted__button: ;
-	--bb-encrypted__button: ;
-	--bl-encrypted__button: ;
-	--co-encrypted__button: ;
+	--bc-encrypted__button: var(--cl-gray-700);
+	--bt-encrypted__button: 1px solid var(--cl-gray-800);
+	--br-encrypted__button: 1px solid var(--cl-gray-800);
+	--bb-encrypted__button: 1px solid var(--cl-gray-800);
+	--bl-encrypted__button: 1px solid var(--cl-gray-800);
+	--co-encrypted__button: var(--cl-white);
 }
 
 :root {
-	--bc-encrypted__button: ;
-	--bt-encrypted__button: ;
-	--br-encrypted__button: ;
-	--bb-encrypted__button: ;
-	--bl-encrypted__button: ;
+	--bc-encrypted__button: var(--cl-gray-800);
+	--bt-encrypted__button: 1px solid var(--cl-gray-900);
+	--br-encrypted__button: 1px solid var(--cl-gray-900);
+	--bb-encrypted__button: 1px solid var(--cl-gray-900);
+	--bl-encrypted__button: 1px solid var(--cl-gray-900);
 	--bd-encrypted__button: 0px;
-	--co-encrypted__button: ;
-	--fs-encrypted__button: 14px;
+	--co-encrypted__button: var(--cl-white);
+	--fs-encrypted__button: 1rem;
 }
 
 :root {
@@ -987,39 +987,39 @@
 }
 
 :root {
-	--bc-encrypted__input--focus: ;
-	--bt-encrypted__input--focus: ;
-	--br-encrypted__input--focus: ;
-	--bb-encrypted__input--focus: ;
-	--bl-encrypted__input--focus: ;
+	--bc-encrypted__input--focus: var(--cl-blue-800);
+	--bt-encrypted__input--focus: 1px solid var(--cl-blue-900);
+	--br-encrypted__input--focus: 1px solid var(--cl-blue-900);
+	--bb-encrypted__input--focus: 1px solid var(--cl-blue-900);
+	--bl-encrypted__input--focus: 1px solid var(--cl-blue-900);
 }
 
 :root {
-	--bc-encrypted__input: ;
-	--bt-encrypted__input: ;
-	--br-encrypted__input: ;
-	--bb-encrypted__input: ;
-	--bl-encrypted__input: ;
+	--bc-encrypted__input: var(--cl-gray-900);
+	--bt-encrypted__input: 1px solid var(--cl-gray-700);
+	--br-encrypted__input: 1px solid var(--cl-gray-700);
+	--bb-encrypted__input: 1px solid var(--cl-gray-700);
+	--bl-encrypted__input: 1px solid var(--cl-gray-700);
 	--bd-encrypted__input: 0px;
-	--co-encrypted__input: ;
-	--fs-encrypted__input: 14px;
+	--co-encrypted__input: var(--cl-white);
+	--fs-encrypted__input: 1rem;
 }
 
 :root {
 	--co-encrypted__label: ;
-	--fs-encrypted__label: 14px;
+	--fs-encrypted__label: 1rem;
 	--fw-encrypted__label: 400;
 }
 
 :root {
-	--bc-encrypted: ;
+	--bc-encrypted: var(--cl-gray-900);
 	--bt-encrypted: ;
 	--br-encrypted: ;
 	--bb-encrypted: ;
 	--bl-encrypted: ;
 	--bd-encrypted: ;
-	--co-encrypted: ;
-	--fs-encrypted: 14px;
+	--co-encrypted: var(--cl-white);
+	--fs-encrypted: 1rem;
 	--fw-encrypted: 500;
 }
 
