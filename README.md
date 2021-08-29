@@ -1,12 +1,13 @@
-# roam-css-system
-Roam CSS System
+# The Roam CSS System
 
 ## What is it?
-The Roam CSS System is a powerful framework for customizing the look and feel of [Roam Research](https://roamresearch.com).
+The Roam CSS System is a modular, block-based approach for changing the look and feel of [Roam Research](https://roamresearch.com). It has been thoughtfully engineered to allow easy customization by the non-tech-affine end user and offers different minimal, beautiful designed elegant themes.
 
 ## If you want to support my work
 - [Flattr](https://flattr.com/@rcvd)
 - [Paypal](https://paypal.me/rcvd)
+
+Thanks a lot for your support!
 
 ## How does this work?
 - Create or modify your 'roam/css' page.
@@ -31,8 +32,21 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
   ```@import url('https://rcvd.github.io/roam-css-system/themes/quattro_light.css');```
   
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
+  
+## Customize the themes
+You can easily customize more than 350 UI elements with more than 1.500 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
 
 ## Themes
+### Apple
+![](screenshots/apple-light.png)
+
+![](screenshots/apple-dark.png)
+
+### Things
+![](screenshots/things-light.png)
+
+![](screenshots/things-dark.png)
+
 ### iA Quattro
 ![](screenshots/quattro-light.png)
 
