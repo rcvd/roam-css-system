@@ -156,5 +156,5 @@ hr {
 }
 
 .rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
-    padding: 0px 7px;
+    padding: 0px 7px!important;
 }
