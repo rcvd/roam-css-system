@@ -8,6 +8,8 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
 - [Flattr](https://flattr.com/@rcvd)
 - [Paypal](https://paypal.me/rcvd)
 
+Thanks a lot for your support!
+
 ## How does this work?
 - Create or modify your 'roam/css' page.
 - Add a new code block **at the top** and set the language to 'CSS'.
@@ -33,6 +35,16 @@ The Roam CSS System is a powerful framework for customizing the look and feel of
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
 
 ## Themes
+### Apple
+![](screenshots/apple-light.png)
+
+![](screenshots/apple-dark.png)
+
+### Things
+![](screenshots/things-light.png)
+
+![](screenshots/things-dark.png)
+
 ### iA Quattro
 ![](screenshots/quattro-light.png)
 
