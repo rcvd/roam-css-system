@@ -2142,7 +2142,7 @@
 	--bl-encrypted__button: 1px solid var(--cl-gray-100);
 	--bd-encrypted__button: 0px;
 	--co-encrypted__button: var(--cl-gray-900);
-	--fs-encrypted__button: 13px;
+	--fs-encrypted__button: 14px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2201,7 +2201,7 @@
 	--bl-encrypted__input: 1px solid var(--cl-gray-100);
 	--bd-encrypted__input: 0px;
 	--co-encrypted__input: var(--cl-gray-900);
-	--fs-encrypted__input: 13px;
+	--fs-encrypted__input: 14px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2217,7 +2217,7 @@
 
 :root {
 	--co-encrypted__label: var(--cl-gray-900);
-	--fs-encrypted__label: 13px;
+	--fs-encrypted__label: 14px;
 	--fw-encrypted__label: 400;
 }
 
@@ -2235,7 +2235,7 @@
 	--bl-encrypted: ;
 	--bd-encrypted: ;
 	--co-encrypted: var(--cl-gray-900);
-	--fs-encrypted: 13px;
+	--fs-encrypted: 14px;
 	--fw-encrypted: 500;
 }
 
