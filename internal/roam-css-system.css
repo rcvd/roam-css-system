@@ -978,6 +978,64 @@ div, textarea {
 	font-size: 				var(--fs-emoji-mart, 16px);
 }
 
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']):hover {
+	background-color: 		var(--bc-encrypted__button, #ebf1f5);
+	border-top: 			var(--bt-encrypted__button, inherit);
+	border-right: 			var(--br-encrypted__button, inherit);
+	border-bottom: 			var(--bb-encrypted__button, inherit);
+	border-left: 			var(--bl-encrypted__button, inherit);
+	color: 					var(--co-encrypted__button, inherit);
+}
+
+.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
+	background-color: 		var(--bc-encrypted__button, #f5f8fa);
+	border-top: 			var(--bt-encrypted__button, inherit);
+	border-right: 			var(--br-encrypted__button, inherit);
+	border-bottom: 			var(--bb-encrypted__button, inherit);
+	border-left: 			var(--bl-encrypted__button, inherit);
+	border-radius: 			var(--bd-encrypted__button, inherit);
+	color: 					var(--co-encrypted__button, #182026);
+	font-size: 				var(--fs-encrypted__button, inherit);
+}
+
+.rm-encrypted-block form {
+	background-color: 		var(--bc-encrypted__form, inherit);
+	border-top: 			var(--bt-encrypted__form, inherit);
+	border-right: 			var(--br-encrypted__form, inherit);
+	border-bottom: 			var(--bb-encrypted__form, inherit);
+	border-left: 			var(--bl-encrypted__form, inherit);
+	border-radius: 			var(--bd-encrypted__form, inherit);
+}
+
+.rm-encrypted-block input {
+	background-color: 		var(--bc-encrypted__input, inherit);
+	border-top: 			var(--bt-encrypted__input, inherit);
+	border-right: 			var(--br-encrypted__input, inherit);
+	border-bottom: 			var(--bb-encrypted__input, inherit);
+	border-left: 			var(--bl-encrypted__input, inherit);
+	border-radius: 			var(--bd-encrypted__input, inherit);
+	color: 					var(--co-encrypted__input, inherit);
+	font-size: 				var(--fs-encrypted__input, inherit);
+}
+
+.rm-encrypted-block label {
+	color: 					var(--co-encrypted__label, inherit);
+	font-size: 				var(--fs-encrypted__label, inherit);
+	font-weight: 			var(--fw-encrypted__label, 700);
+}
+
+.rm-encrypted-block {
+	background-color: 		var(--bc-encrypted, #F5F8FA);
+	border-top: 			var(--bt-encrypted, inherit);
+	border-right: 			var(--br-encrypted, inherit);
+	border-bottom: 			var(--bb-encrypted, inherit);
+	border-left: 			var(--bl-encrypted, inherit);
+	border-radius: 			var(--bd-encrypted, 4px);
+	color: 					var(--co-encrypted, #8A9BA8);
+	font-size: 				var(--fs-encrypted, 12px);
+	font-weight: 			var(--fw-encrypted, 300);
+}
+
 .rm-find-or-create-wrapper .rm-menu-item[style*='background-color: rgb(213, 218, 223);'] {
 	background-color: 		var(--bc-find-or-create__menu-item--selected, rgb(213, 218, 223))!important;
 	border-top: 			var(--bt-find-or-create__menu-item--selected, inherit);

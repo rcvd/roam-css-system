@@ -958,6 +958,64 @@
 }
 
 :root {
+	--bc-encrypted__button: ;
+	--bt-encrypted__button: ;
+	--br-encrypted__button: ;
+	--bb-encrypted__button: ;
+	--bl-encrypted__button: ;
+	--co-encrypted__button: ;
+}
+
+:root {
+	--bc-encrypted__button: ;
+	--bt-encrypted__button: ;
+	--br-encrypted__button: ;
+	--bb-encrypted__button: ;
+	--bl-encrypted__button: ;
+	--bd-encrypted__button: ;
+	--co-encrypted__button: ;
+	--fs-encrypted__button: ;
+}
+
+:root {
+	--bc-encrypted__form: ;
+	--bt-encrypted__form: ;
+	--br-encrypted__form: ;
+	--bb-encrypted__form: ;
+	--bl-encrypted__form: ;
+	--bd-encrypted__form: ;
+}
+
+:root {
+	--bc-encrypted__input: ;
+	--bt-encrypted__input: ;
+	--br-encrypted__input: ;
+	--bb-encrypted__input: ;
+	--bl-encrypted__input: ;
+	--bd-encrypted__input: ;
+	--co-encrypted__input: ;
+	--fs-encrypted__input: ;
+}
+
+:root {
+	--co-encrypted__label: ;
+	--fs-encrypted__label: ;
+	--fw-encrypted__label: ;
+}
+
+:root {
+	--bc-encrypted: ;
+	--bt-encrypted: ;
+	--br-encrypted: ;
+	--bb-encrypted: ;
+	--bl-encrypted: ;
+	--bd-encrypted: ;
+	--co-encrypted: ;
+	--fs-encrypted: ;
+	--fw-encrypted: ;
+}
+
+:root {
 	--bc-find-or-create__menu-item--selected: #0058d0;
 	--bt-find-or-create__menu-item--selected: none;
 	--br-find-or-create__menu-item--selected: none;

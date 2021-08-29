@@ -958,6 +958,64 @@
 }
 
 :root {
+	--bc-encrypted__button: var(--cl-red-600);
+	--bt-encrypted__button: 1px solid var(--cl-red-700);
+	--br-encrypted__button: 1px solid var(--cl-red-700);
+	--bb-encrypted__button: 1px solid var(--cl-red-700);
+	--bl-encrypted__button: 1px solid var(--cl-red-700);
+	--co-encrypted__button: var(--cl-gray-900);
+}
+
+:root {
+	--bc-encrypted__button: var(--cl-red-500);
+	--bt-encrypted__button: 1px solid var(--cl-red-600);
+	--br-encrypted__button: 1px solid var(--cl-red-600);
+	--bb-encrypted__button: 1px solid var(--cl-red-600);
+	--bl-encrypted__button: 1px solid var(--cl-red-600);
+	--bd-encrypted__button: 0px;
+	--co-encrypted__button: var(--cl-gray-900);
+	--fs-encrypted__button: 13px;
+}
+
+:root {
+	--bc-encrypted__form: var(--cl-red-50);
+	--bt-encrypted__form: 1px solid var(--cl-red-600);
+	--br-encrypted__form: 1px solid var(--cl-red-600);
+	--bb-encrypted__form: 1px solid var(--cl-red-600);
+	--bl-encrypted__form: 1px solid var(--cl-red-600);
+	--bd-encrypted__form: ;
+}
+
+:root {
+	--bc-encrypted__input: ;
+	--bt-encrypted__input: ;
+	--br-encrypted__input: ;
+	--bb-encrypted__input: ;
+	--bl-encrypted__input: ;
+	--bd-encrypted__input: ;
+	--co-encrypted__input: var(--cl-gray-900);
+	--fs-encrypted__input: 13px;
+}
+
+:root {
+	--co-encrypted__label: var(--cl-gray-900);
+	--fs-encrypted__label: 13px;
+	--fw-encrypted__label: 400;
+}
+
+:root {
+	--bc-encrypted: var(--cl-red-50);
+	--bt-encrypted: ;
+	--br-encrypted: ;
+	--bb-encrypted: ;
+	--bl-encrypted: ;
+	--bd-encrypted: ;
+	--co-encrypted: var(--cl-gray-900);
+	--fs-encrypted: 13px;
+	--fw-encrypted: 500;
+}
+
+:root {
 	--bc-find-or-create__menu-item--selected: var(--cl-blue-50);
 	--bt-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
 	--br-find-or-create__menu-item--selected: 1px solid var(--cl-blue-100);
