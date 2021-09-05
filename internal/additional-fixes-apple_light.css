@@ -160,7 +160,7 @@ textarea {
     padding: 0;
 }
 
-.CodeMirror-scroll {
+.CodeMirror .CodeMirror-scroll {
   max-height: 960px;
 }
 

@@ -469,7 +469,6 @@ textarea,
     padding: 0px 7px!important;
 }
 
-.CodeMirror-scroll {
-  max-height: 940px;
+.CodeMirror .CodeMirror-scroll {
+  max-height: 960px;
 }
-
