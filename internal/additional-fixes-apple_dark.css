@@ -439,3 +439,7 @@ textarea,
 .bp3-menu-item {
     padding: 3px 7px!important;
 }
+
+.CodeMirror-scroll {
+  max-height: 960px;
+}
