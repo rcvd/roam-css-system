@@ -1272,6 +1272,8 @@
 	--bc-html__select: transparent;
 	--sd-html__select: none;
 	--co-html__select: #fff;
+	--ff-html__select: ;
+	--fs-html__select: ;
 }
 
 :root {
@@ -2395,6 +2397,8 @@
 
 :root {
 	--co-topbar-datepicker-html__select: #ffffff;
+	--ff-topbar-datepicker-html__select: ;
+	--fs-topbar-datepicker-html__select: ;
 }
 
 :root {

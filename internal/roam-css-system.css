@@ -1297,6 +1297,8 @@ div, textarea {
 	box-shadow: 			var(--sd-html__select, none);
 	--webkit-box-shadow: 	var(--sd-html__select, none);
 	color: 					var(--co-html__select, #182026);
+	font-family: 			var(--ff-html__select, inherit);
+	font-size: 				var(--fs-html__select, inherit);
 }
 
 .bp3-html-select .bp3-icon, .bp3-select .bp3-icon {
@@ -2429,6 +2431,8 @@ span[style*='background-color: yellow'] {
 
 .rm-topbar .bp3-datepicker .bp3-html-select select, .rm-topbar .bp3-datepicker .bp3-select select {
 	color: 					var(--co-topbar-datepicker-html__select, #182026);
+	font-family: 			var(--ff-topbar-datepicker-html__select, inherit);
+	font-size: 				var(--fs-topbar-datepicker-html__select, inherit);
 }
 
 .rm-topbar .bp3-datepicker .bp3-html-select:hover .bp3-icon, .rm-topbar .bp3-datepicker .bp3-select:hover .bp3-icon {

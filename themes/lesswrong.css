@@ -2788,6 +2788,8 @@
 	--bc-html__select: ;
 	--sd-html__select: ;
 	--co-html__select: var(--cl-gray-900);
+	--ff-html__select: ;
+	--fs-html__select: ;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -5216,6 +5218,8 @@
 
 :root {
 	--co-topbar-datepicker-html__select: var(--cl-gray-900);
+	--ff-topbar-datepicker-html__select: ;
+	--fs-topbar-datepicker-html__select: ;
 }
 
 @media(prefers-color-scheme: dark) {
