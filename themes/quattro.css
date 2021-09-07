@@ -2788,8 +2788,8 @@
 	--bc-html__select: ;
 	--sd-html__select: ;
 	--co-html__select: var(--cl-gray-900);
-	--ff-html__select: 'iA Writer Quattro S';
-	--fs-html__select: 1rem;
+	--ff-html__select: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-html__select: 13px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -5171,7 +5171,7 @@
 :root {
 	--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-300);
 	--co-topbar-datepicker__weeknumber: var(--cl-gray-500);
-	--ff-topbar-datepicker__weeknumber: 'iA Writer Quattro S';
+	--ff-topbar-datepicker__weeknumber: 'iA Quattro S';
 	--fs-topbar-datepicker__weeknumber: 1rem;
 }
 
@@ -5218,8 +5218,8 @@
 
 :root {
 	--co-topbar-datepicker-html__select: var(--cl-gray-900);
-	--ff-topbar-datepicker-html__select: 'iA Writer Quattro S';
-	--fs-topbar-datepicker-html__select: 1rem;
+	--ff-topbar-datepicker-html__select: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-topbar-datepicker-html__select: 13px;
 }
 
 @media(prefers-color-scheme: dark) {
