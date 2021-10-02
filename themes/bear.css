@@ -3022,7 +3022,7 @@
 
 :root {
 	--co-left-sidebar__db-title: #b8b9ba;
-	--ff-left-sidebar__db-title: ;
+	--ff-left-sidebar__db-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
 	--tt-left-sidebar__db-title: ;
@@ -3222,7 +3222,7 @@
 
 :root {
 	--co-logbutton: #000;
-	--ff-logbutton: ;
+	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 600;
 	--tt-logbutton: normal;
@@ -4794,7 +4794,7 @@
 	--bl-starred__page: none;
 	--bd-starred__page: 10px;
 	--co-starred__page: #b8b9ba;
-	--ff-starred__page: ;
+	--ff-starred__page: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 14px;
 	--ft-starred__page: ;
 	--fw-starred__page: 400;
@@ -4813,7 +4813,7 @@
 
 :root {
 	--co-starred__title: #555555;
-	--ff-starred__title: ;
+	--ff-starred__title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__title: 14px;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
