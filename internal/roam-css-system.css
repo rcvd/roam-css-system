@@ -1501,6 +1501,7 @@ div, textarea {
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button div {
+	border-radius: 			var(--bd-logbutton, inherit);
 	color: 					var(--co-logbutton, hsl(204,20%,45%));
 	font-family: 			var(--ff-logbutton, inherit);
 	font-size: 				var(--fs-logbutton, 16px);

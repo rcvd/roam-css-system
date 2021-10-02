@@ -1372,7 +1372,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #000;
+	--co-left-sidebar__db-title--hover: #b8b9ba;
 }
 
 :root {
@@ -1464,7 +1464,7 @@
 }
 
 :root {
-	--bc-logbutton--hover: transparent;
+	--bc-logbutton--hover: #dc4c4f;
 	--bt-logbutton--hover: none;
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
@@ -1474,7 +1474,8 @@
 }
 
 :root {
-	--co-logbutton: #000;
+	--bd-logbutton: 10px;
+	--co-logbutton: #b8b9ba;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 600;

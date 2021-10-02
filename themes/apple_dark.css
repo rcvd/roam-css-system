@@ -1474,6 +1474,7 @@
 }
 
 :root {
+	--bd-logbutton: ;
 	--co-logbutton: #f5f5f7;
 	--ff-logbutton: ;
 	--fs-logbutton: 1rem;

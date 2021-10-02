@@ -3221,6 +3221,7 @@
 }
 
 :root {
+	--bd-logbutton: ;
 	--co-logbutton: var(--cl-gray-700);
 	--ff-logbutton: ;
 	--fs-logbutton: 1rem;
