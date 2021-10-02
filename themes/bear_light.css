@@ -461,7 +461,7 @@
 	--bl-code: 1px solid #eeeff0;
 	--bd-code: 5px;
 	--co-code: #121417;
-	--ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-code: 0.95rem;
 }
 
@@ -1367,8 +1367,8 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #fafafa;
-	--br-left-sidebar__container: 4px solid white;
+	--bc-left-sidebar__container: #2d3234;
+	--br-left-sidebar__container: none;
 }
 
 :root {
@@ -1376,7 +1376,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title: #000;
+	--co-left-sidebar__db-title: #b8b9ba;
 	--ff-left-sidebar__db-title: ;
 	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
@@ -1405,7 +1405,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: #000;
+	--co-left-sidebar__logo-text: #b8b9ba;
 }
 
 :root {
@@ -2184,12 +2184,12 @@
 }
 
 :root {
-	--bc-starred__page--hover: transparent;
+	--bc-starred__page--hover: #dc4c4f;
 	--bt-starred__page--hover: none;
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #595a59;
+	--co-starred__page--hover: #ffffff;
 	--td-starred__page--hover: none;
 }
 
@@ -2198,7 +2198,8 @@
 	--br-starred__page: none;
 	--bb-starred__page: none;
 	--bl-starred__page: none;
-	--co-starred__page: #595a59;
+	--bd-starred__page: 10px;
+	--co-starred__page: #b8b9ba;
 	--ff-starred__page: ;
 	--fs-starred__page: 14px;
 	--ft-starred__page: ;
@@ -2207,7 +2208,7 @@
 }
 
 :root {
-	--co-starred__title: #b6b6b6;
+	--co-starred__title: #555555;
 	--ff-starred__title: ;
 	--fs-starred__title: 14px;
 	--ft-starred__title: ;

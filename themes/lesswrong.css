@@ -4792,6 +4792,7 @@
 	--br-starred__page: ;
 	--bb-starred__page: ;
 	--bl-starred__page: ;
+	--bd-starred__page: ;
 	--co-starred__page: var(--cl-gray-700);
 	--ff-starred__page: ;
 	--fs-starred__page: 1rem;

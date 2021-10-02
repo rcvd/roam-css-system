@@ -2231,6 +2231,7 @@ span[style*='background-color: yellow'] {
 	border-right: 			var(--br-starred__page, inherit);
 	border-bottom: 			var(--bb-starred__page, inherit);
 	border-left: 			var(--bl-starred__page, inherit);
+	border-radius: 			var(--bd-starred__page, inherit);
 	color: 					var(--co-starred__page, hsl(204,20%,45%));
 	font-family: 			var(--ff-starred__page, inherit);
 	font-size: 				var(--fs-starred__page, 14px);
