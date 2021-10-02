@@ -1391,7 +1391,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon: #007cff;
+	--co-left-sidebar__icon: #9fa0a0;
 	--fs-left-sidebar__icon: 14px;
 }
 
@@ -1409,11 +1409,11 @@
 }
 
 :root {
-	--bc-left-sidebar__toprow: #ffffff;
+	--bc-left-sidebar__toprow: #2d3234;
 }
 
 :root {
-	--bc-left-sidebar__toprow--hover: #ffffff;
+	--bc-left-sidebar__toprow--hover: #2d3234;
 }
 
 :root {
