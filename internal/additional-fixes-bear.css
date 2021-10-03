@@ -237,53 +237,6 @@ textarea {
     top: 1px;
 }
 
-/* Hide left sidebar icons */
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
-    display:  none;
-}
-
-/* Hide starred title */
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
-    display:  none;
-}
-
-#right-sidebar > .flex-h-box {
-    padding: 10px 8px!important;
-    margin-right: 2px!important;
-}
-
-#right-sidebar > .flex-h-box > .bp3-button {
-    z-index: 100;
-}
-
-#right-sidebar {
-    padding-top:  0px;
-}
-
-#app > div > div.roam-app > div.roam-sidebar-container.noselect > div > div:nth-child(2) {
-    padding-top:  44px;
-}
-
-.roam-main .rm-topbar {
-    padding-right: 44px;
-}
-
-.roam-main[style*='flex: 0 0 100%;'] .rm-topbar {
-    padding-right: 16px;
-}
-
-#roam-right-sidebar-content > div:first-child {
-    margin-top: 36px;
-}
-
-.bp3-menu-item .bp3-icon {
-    display: none;
-}
-
-.rm-right-sidebar__helper-text {
-    padding: 30px;
-}
-
 /* Blur Menus */
 html {
   backgroundColor: white;
