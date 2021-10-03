@@ -3045,10 +3045,12 @@
 }
 
 :root {
+	--co-left-sidebar__icon--hover: #ffffff;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--co-left-sidebar__icon--hover: ;
 	}
 }
 

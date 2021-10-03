@@ -1415,6 +1415,7 @@ div, textarea {
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover .icon {
+	color: 					var(--co-left-sidebar__icon--hover, inherit);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
