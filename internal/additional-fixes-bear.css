@@ -355,7 +355,7 @@ html {
 input,
 textarea,
 [contenteditable] {
-    caret-color: #888;
+    caret-color: #e06d71;
 }
 
 /* Hide Pomodoro Icons */
@@ -471,4 +471,4 @@ textarea,
 
 .CodeMirror .CodeMirror-scroll {
   max-height: 960px;
-}
+}   
