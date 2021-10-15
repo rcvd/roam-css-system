@@ -3985,7 +3985,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-right-sidebar__content: #141414;
+		--bc-right-sidebar__content: #1e2022;
 	}
 }
 
@@ -4019,7 +4019,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-right-sidebar__toprow: #000;
+		--bc-right-sidebar__toprow: #1e2022;
 	}
 }
 
