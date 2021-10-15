@@ -1410,11 +1410,11 @@
 }
 
 :root {
-	--bc-left-sidebar__toprow: #000;
+	--bc-left-sidebar__toprow: #2c2d2f;
 }
 
 :root {
-	--bc-left-sidebar__toprow--hover: #000;
+	--bc-left-sidebar__toprow--hover: #2c2d2f;
 }
 
 :root {
