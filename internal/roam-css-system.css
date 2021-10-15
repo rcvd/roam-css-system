@@ -379,7 +379,7 @@ a {
 	color: 					var(--co-button__warning, #fff);
 }
 
-.bp3-button.bp3-minimal:active, .bp3-button.bp3-minimal.bp3-active {
+.bp3-button.bp3-minimal:active, .bp3-button.bp3-minimal.bp3-active, .bp3-button.bp3-minimal:active::before, .bp3-button.bp3-minimal.bp3-active::before {
 	background-color: 		var(--bc-button__minimal--active, rgba(115,134,148,0.3));
 	box-shadow: 			var(--sd-button__minimal--active, none);
 	--webkit-box-shadow: 	var(--sd-button__minimal--active, none);
