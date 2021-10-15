@@ -669,7 +669,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-button__icon--hover: #a5a7ab;
+		--co-button__icon--hover: #5b5b5b;
 	}
 }
 
@@ -679,7 +679,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-button__icon: #a5a7ab;
+		--co-button__icon: #5b5b5b;
 	}
 }
 
