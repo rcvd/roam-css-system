@@ -2821,7 +2821,7 @@
 }
 
 :root {
-	--bd-input__search: 0px;
+	--bd-input__search: 5px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -2867,7 +2867,7 @@
 		--br-input--focus: 1px solid #31739d;
 		--bb-input--focus: 1px solid #31739d;
 		--bl-input--focus: 1px solid #31739d;
-		--sd-input--focus: 3px;
+		--sd-input--focus: ;
 	}
 }
 
@@ -2892,7 +2892,7 @@
 		--br-input: 1px solid #373b3d;
 		--bb-input: 1px solid #373b3d;
 		--bl-input: 1px solid #373b3d;
-		--sd-input: 3px;
+		--sd-input: ;
 		--co-input: #c6c7c7;
 	}
 }
@@ -3005,8 +3005,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-left-sidebar__container: #141414;
-		--br-left-sidebar__container: 4px solid #000;
+		--bc-left-sidebar__container: #2c2d2f;
+		--br-left-sidebar__container: 1px solid #000000;
 	}
 }
 
@@ -3243,7 +3243,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-main: #141414;
+		--bc-main: #1e2022;
 	}
 }
 
@@ -3996,8 +3996,8 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-right-sidebar__container: #141414;
-		--bl-right-sidebar__container: 4px solid #000;
+		--bc-right-sidebar__container: #1e2022;
+		--bl-right-sidebar__container: 1px solid #000000;
 	}
 }
 
