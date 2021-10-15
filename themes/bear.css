@@ -2835,7 +2835,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-input__search-icon: #a8a8a9;
+		--co-input__search-icon: #6c6e70;
 	}
 }
 
@@ -2846,7 +2846,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-input__search-placeholder: #a8a8a9;
+		--co-input__search-placeholder: #5d5e5f;
 	}
 }
 
@@ -2862,12 +2862,12 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-input--focus: transparent;
-		--bt-input--focus: none;
-		--br-input--focus: none;
-		--bb-input--focus: none;
-		--bl-input--focus: none;
-		--sd-input--focus: none;
+		--bc-input--focus: #292b2d;
+		--bt-input--focus: 1px solid #31739d;
+		--br-input--focus: 1px solid #31739d;
+		--bb-input--focus: 1px solid #31739d;
+		--bl-input--focus: 1px solid #31739d;
+		--sd-input--focus: 3px;
 	}
 }
 
@@ -2887,13 +2887,13 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-input: transparent;
-		--bt-input: none;
-		--br-input: none;
-		--bb-input: none;
-		--bl-input: none;
-		--sd-input: none;
-		--co-input: #ebebeb;
+		--bc-input: #292b2d;
+		--bt-input: 1px solid #373b3d;
+		--br-input: 1px solid #373b3d;
+		--bb-input: 1px solid #373b3d;
+		--bl-input: 1px solid #373b3d;
+		--sd-input: 3px;
+		--co-input: #c6c7c7;
 	}
 }
 
@@ -3223,7 +3223,7 @@
 }
 
 :root {
-	--bd-logbutton: 10px;
+	--bd-logbutton: 6px;
 	--co-logbutton: #b8b9ba;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;

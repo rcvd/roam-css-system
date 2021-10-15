@@ -1475,7 +1475,7 @@
 }
 
 :root {
-	--bd-logbutton: 10px;
+	--bd-logbutton: 6px;
 	--co-logbutton: #b8b9ba;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;

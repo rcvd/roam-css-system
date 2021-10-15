@@ -1289,33 +1289,33 @@
 }
 
 :root {
-	--co-input__search-icon: #a8a8a9;
+	--co-input__search-icon: #6c6e70;
 }
 
 :root {
-	--co-input__search-placeholder: #a8a8a9;
+	--co-input__search-placeholder: #5d5e5f;
 	--ff-input__search-placeholder: ;
 }
 
 :root {
-	--bc-input--focus: transparent;
-	--bt-input--focus: none;
-	--br-input--focus: none;
-	--bb-input--focus: none;
-	--bl-input--focus: none;
+	--bc-input--focus: #292b2d;
+	--bt-input--focus: 1px solid #31739d;
+	--br-input--focus: 1px solid #31739d;
+	--bb-input--focus: 1px solid #31739d;
+	--bl-input--focus: 1px solid #31739d;
 	--bd-input--focus: 5px;
-	--sd-input--focus: none;
+	--sd-input--focus: 3px;
 }
 
 :root {
-	--bc-input: transparent;
-	--bt-input: none;
-	--br-input: none;
-	--bb-input: none;
-	--bl-input: none;
+	--bc-input: #292b2d;
+	--bt-input: 1px solid #373b3d;
+	--br-input: 1px solid #373b3d;
+	--bb-input: 1px solid #373b3d;
+	--bl-input: 1px solid #373b3d;
 	--bd-input: 5px;
-	--sd-input: none;
-	--co-input: #ebebeb;
+	--sd-input: 3px;
+	--co-input: #c6c7c7;
 	--ff-input: ;
 	--fs-input: 1rem;
 	--fw-input: normal;
@@ -1475,7 +1475,7 @@
 }
 
 :root {
-	--bd-logbutton: 10px;
+	--bd-logbutton: 6px;
 	--co-logbutton: #f5f5f7;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
