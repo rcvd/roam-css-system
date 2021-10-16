@@ -1,0 +1,106 @@
+/* Enhance font smoothing */
+body, input, textarea, select, button {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+}
+
+/* Fix bullet position */
+.controls, .rm-block__controls {
+    padding-top: 5px;
+}
+
+.controls .simple-bullet-outer,
+.rm-block__controls .simple-bullet-outer {
+    margin-top: 3px;
+    padding-left: 2px;
+}
+
+.roam-block-container .rm-block-main {
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.rm-bullet {
+    margin-top: 2px;
+}
+
+.rm-bullet--numbered {
+    margin-top: 0px;
+}
+
+/* Firefox specific fixes */
+@-moz-document url-prefix() {
+    .controls .simple-bullet-outer,
+    .rm-block__controls .simple-bullet-outer {
+        margin-top: 7.5px;
+    }
+
+    .controls,
+    .rm-block__controls {
+        padding-top: 3px;
+    }
+
+    .check-container {
+        top: 4px;
+    }
+
+    .block-expand .rm-caret {
+        margin-top: 6px;
+    }
+
+    .rm-bullet--numbered {
+        margin-top: 3px;
+    }
+}
+
+/* Align main block */
+.roam-block-container .rm-block-main {
+    padding-left: 4px;
+}
+
+/* Align multibar */
+.rm-multibar {
+    left: -2px;
+}
+
+/* Align references */
+    .rm-reference-container>.flex-h-box {
+    padding-bottom: 2px;
+}
+
+.rm-reference-main>div>div:nth-child(2)>div.flex-h-box {
+    margin-top: 12px;
+}
+
+.rm-reference-item {
+    margin-left: -2px; /*was +16px*/
+}
+
+.rm-caret {
+    width: 16px;
+    height:  17px;
+}
+
+.rm-mentions .rm-ref-page-view {
+    margin-left: 15px;
+}
+
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+    padding: 0px;
+}
+
+/* Align caret for linked references */
+.rm-reference-container>.flex-h-box {
+    align-items: center;
+}
+
+.rm-reference-container>.flex-h-box>.rm-caret {
+    margin-bottom: 1px;
+}
+
+/* Set min height for unlinked references */
+.rm-reference-main > div > div:nth-child(2) > div {
+    min-height: 31px;
+}
+
