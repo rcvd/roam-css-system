@@ -150,5 +150,5 @@ body, input, textarea, select, button {
 }
 
 .bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
-    margin-top: 0;
+    margin-top: 2px;
 }
