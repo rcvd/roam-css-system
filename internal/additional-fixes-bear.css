@@ -154,5 +154,5 @@ body, input, textarea, select, button {
 }
 
 .rm-page-ref--tag, span[data-tag='tags'] {
-    padding:  5px 2px;
+    padding:  2px 5px;
 }
