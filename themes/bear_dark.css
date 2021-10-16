@@ -1372,11 +1372,11 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #f5f5f7;
+	--co-left-sidebar__db-title--hover: #d6d6d9;
 }
 
 :root {
-	--co-left-sidebar__db-title: #f5f5f7;
+	--co-left-sidebar__db-title: #a4a5a5;
 	--ff-left-sidebar__db-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
@@ -1419,7 +1419,7 @@
 
 :root {
 	--bb-level1: none;
-	--co-level1: #f5f5f7;
+	--co-level1: #cadce5;
 	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 22px;
 	--ft-level1: ;
@@ -1429,7 +1429,7 @@
 
 :root {
 	--bb-level2: none;
-	--co-level2: #f5f5f7;
+	--co-level2: #cadce5;
 	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 17px;
 	--ft-level2: ;
@@ -1439,7 +1439,7 @@
 
 :root {
 	--bb-level3: none;
-	--co-level3: #f5f5f7;
+	--co-level3: #cadce5;
 	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 15px;
 	--ft-level3: ;
@@ -1470,13 +1470,13 @@
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
 	--bl-logbutton--hover: none;
-	--co-logbutton--hover: #f5f5f7;
+	--co-logbutton--hover: #d6d6d9;
 	--td-logbutton--hover: ;
 }
 
 :root {
 	--bd-logbutton: 6px;
-	--co-logbutton: #f5f5f7;
+	--co-logbutton: #a2a4a3;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 400;
@@ -1636,7 +1636,7 @@
 }
 
 :root {
-	--co-page__title: #e5e5e5;
+	--co-page__title: #cadce5;
 	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-page__title: 26px;
 	--ft-page__title: ;
@@ -2182,7 +2182,7 @@
 }
 
 :root {
-	--co-starred__icon: #a6a6a6;
+	--co-starred__icon: #abacab;
 }
 
 :root {
@@ -2191,7 +2191,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #a6a6a6;
+	--co-starred__page--hover: #d6d6d9;
 	--td-starred__page--hover: none;
 }
 
@@ -2201,7 +2201,7 @@
 	--bb-starred__page: none;
 	--bl-starred__page: none;
 	--bd-starred__page: 10px;
-	--co-starred__page: #a6a6a6;
+	--co-starred__page: #a4a5a5;
 	--ff-starred__page: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 14px;
 	--ft-starred__page: ;
