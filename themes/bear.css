@@ -3061,7 +3061,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__icon: #f5f5f7;
+		--co-left-sidebar__icon: #abacab;
 	}
 }
 
