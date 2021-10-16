@@ -126,3 +126,29 @@ body, input, textarea, select, button {
 .bp3-select-popover .bp3-menu {
     padding: 5px;
 }
+
+/* Remove gradient from all pages checkboxes */
+.rm-all-pages .bp3-control .bp3-control-indicator {
+    background-image: none;
+}
+
+/* Remove focus border */
+:focus {
+    outline: none;
+}
+
+/* Fix checkbox */
+.check-container {
+    height: 13px;
+    width: 13px;
+    top: 2px;
+}
+
+.check-container .checkmark::after {
+    left: 4px;
+    top: 1px;
+}
+
+.bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
+    margin-top: 0;
+}
