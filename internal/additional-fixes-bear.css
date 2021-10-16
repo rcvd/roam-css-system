@@ -104,3 +104,25 @@ body, input, textarea, select, button {
     min-height: 31px;
 }
 
+/* Remove transparency from graph menu */
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
+    opacity: 1;
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
+    opacity: 1;
+}
+
+/* Remove gradient from buttons */
+.bp3-file-upload-input::after, .bp3-button:not([class*='bp3-intent-']) {
+    background-image: none;
+}
+
+/* Fix border for popover menus */
+.bp3-select-popover .bp3-popover-content {
+    padding: 0;
+}
+
+.bp3-select-popover .bp3-menu {
+    padding: 5px;
+}
