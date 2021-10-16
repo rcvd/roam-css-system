@@ -5,12 +5,12 @@
 
 
 :root {
-	--co-a--hover: #65a9f9;
+	--co-a--hover: #6acafb;
 	--td-a--hover: none;
 }
 
 :root {
-	--co-a: #65a9f9;
+	--co-a: #6acafb;
 	--td-a: none;
 }
 
@@ -1626,12 +1626,12 @@
 }
 
 :root {
-	--co-page__link--hover: #65a6f5;
+	--co-page__link--hover: #6acafb;
 	--td-page__link--hover: none;
 }
 
 :root {
-	--co-page__link: #65a6f5;
+	--co-page__link: #6acafb;
 	--td-page__link: none;
 }
 
