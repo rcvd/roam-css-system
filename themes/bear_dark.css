@@ -1638,9 +1638,9 @@
 :root {
 	--co-page__title: #cadce5;
 	--ff-page__title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-page__title: 20px;
+	--fs-page__title: 18px;
 	--ft-page__title: ;
-	--fw-page__title: 500;
+	--fw-page__title: 400;
 	--tt-page__title: ;
 }
 
