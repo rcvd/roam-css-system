@@ -2272,9 +2272,9 @@
 	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-tags: 12px;
 	--ft-tags: ;
-	--fw-tags: 700;
+	--fw-tags: 400;
 	--td-tags: ;
-	--tt-tags: uppercase;
+	--tt-tags: none;
 }
 
 :root {
