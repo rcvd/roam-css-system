@@ -152,3 +152,8 @@ body, input, textarea, select, button {
 .bp3-menu-item::before, .bp3-menu-item>.bp3-icon {
     margin-top: 2px;
 }
+
+.rm-page-ref--tag, span[data-tag='tags'] {
+    padding-left:  5px;
+    padding-right: 5px;
+}
