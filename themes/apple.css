@@ -5335,3 +5335,13 @@
 	}
 }
 
+:root {
+	--co-main__strikethrough: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-main__strikethrough: ;
+	}
+}
+

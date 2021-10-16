@@ -2734,7 +2734,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-highlight: #4f482b;
+		--bc-highlight: #253c92;
 		--co-highlight: ;
 	}
 }
@@ -5332,6 +5332,16 @@
 	:root {
 		--bc-zotero__sequence: var(--cl-gray-800);
 		--br-zotero__sequence: 1px solid var(--cl-black);
+	}
+}
+
+:root {
+	--co-main__strikethrough: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-main__strikethrough: #636767;
 	}
 }
 

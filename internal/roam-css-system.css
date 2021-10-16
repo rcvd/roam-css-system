@@ -2482,3 +2482,7 @@ span.zotero-roam-sequence {
 	font-size: 				var(--fs-zotero__sequence, 0.85em);
 }
 
+.rm-strikethrough {
+	color: 					var(--co-main__strikethrough, inherit);
+}
+

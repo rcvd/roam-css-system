@@ -1244,7 +1244,7 @@
 }
 
 :root {
-	--bc-highlight: #4f482b;
+	--bc-highlight: #253c92;
 	--co-highlight: ;
 }
 
@@ -2446,5 +2446,9 @@
 	--bc-zotero__sequence: var(--cl-gray-800);
 	--br-zotero__sequence: 1px solid var(--cl-black);
 	--fs-zotero__sequence: ;
+}
+
+:root {
+	--co-main__strikethrough: #636767;
 }
 
