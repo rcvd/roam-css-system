@@ -3991,7 +3991,7 @@
 
 :root {
 	--bc-right-sidebar__container: #fafafa;
-	--bl-right-sidebar__container: 4px solid #fff;
+	--bl-right-sidebar__container: 1px solid #dedede;
 }
 
 @media(prefers-color-scheme: dark) {
