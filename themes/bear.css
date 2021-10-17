@@ -1121,17 +1121,17 @@
 	--br-codeblock__container: none;
 	--bb-codeblock__container: none;
 	--bl-codeblock__container: none;
-	--bd-codeblock__container: 5px;
+	--bd-codeblock__container: 3px;
 	--co-codeblock__container: rgb(142,142,147);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-codeblock__container: #222222;
-		--bt-codeblock__container: ;
-		--br-codeblock__container: none;
-		--bb-codeblock__container: ;
-		--bl-codeblock__container: ;
+		--bt-codeblock__container: 1px solid #575757;
+		--br-codeblock__container: 1px solid #575757;
+		--bb-codeblock__container: 1px solid #575757;
+		--bl-codeblock__container: 1px solid #575757;
 		--co-codeblock__container: rgb(152,152,157);
 	}
 }
