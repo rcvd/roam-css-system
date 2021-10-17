@@ -771,7 +771,7 @@
 	--br-elevation__container: 1px solid #c9c9c9;
 	--bb-elevation__container: 1px solid #c9c9c9;
 	--bl-elevation__container: 1px solid #c9c9c9;
-	--bd-elevation__container: 10px;
+	--bd-elevation__container: 8px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
