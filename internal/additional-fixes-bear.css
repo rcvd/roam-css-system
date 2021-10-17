@@ -181,8 +181,8 @@
 
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
-    --webkit-filter: brightness(15%);
-    filter: brightness(15%);
+    --webkit-filter: brightness(75%);
+    filter: brightness(75%);
 }
 
 @media (prefers-color-scheme: dark) {
