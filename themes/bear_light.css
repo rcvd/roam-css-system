@@ -5,12 +5,12 @@
 
 
 :root {
-	--co-a--hover: #06c;
+	--co-a--hover: #d5555f;
 	--td-a--hover: none;
 }
 
 :root {
-	--co-a: #06c;
+	--co-a: #d5555f;
 	--td-a: none;
 }
 
@@ -1626,12 +1626,12 @@
 }
 
 :root {
-	--co-page__link--hover: #06c;
+	--co-page__link--hover: #d5555f;
 	--td-page__link--hover: none;
 }
 
 :root {
-	--co-page__link: #06c;
+	--co-page__link: #d5555f;
 	--td-page__link: none;
 }
 
@@ -1751,7 +1751,7 @@
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #ccc;
+	--bl-quote: 2px solid #d5555f;
 	--bd-quote: ;
 	--co-quote: #121418;
 	--ff-quote: ;
