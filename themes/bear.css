@@ -1097,7 +1097,7 @@
 
 :root {
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
-	--fs-codeblock__code: 1rem;
+	--fs-codeblock__code: 0.9rem;
 }
 
 @media(prefers-color-scheme: dark) {
