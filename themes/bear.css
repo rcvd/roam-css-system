@@ -2851,11 +2851,11 @@
 }
 
 :root {
-	--bc-input--focus: transparent;
-	--bt-input--focus: none;
-	--br-input--focus: none;
-	--bb-input--focus: none;
-	--bl-input--focus: none;
+	--bc-input--focus: #fff;
+	--bt-input--focus: 1px solid #7fabd9;
+	--br-input--focus: 1px solid #7fabd9;
+	--bb-input--focus: 1px solid #7fabd9;
+	--bl-input--focus: 1px solid #7fabd9;
 	--bd-input--focus: 5px;
 	--sd-input--focus: none;
 }
@@ -2872,14 +2872,14 @@
 }
 
 :root {
-	--bc-input: transparent;
-	--bt-input: none;
-	--br-input: none;
-	--bb-input: none;
-	--bl-input: none;
+	--bc-input: #fff;
+	--bt-input: 1px solid #cacaca;
+	--br-input: 1px solid #cacaca;
+	--bb-input: 1px solid #cacaca;
+	--bl-input: 1px solid #cacaca;
 	--bd-input: 5px;
 	--sd-input: none;
-	--co-input: #202128;
+	--co-input: #bdbdbd;
 	--ff-input: ;
 	--fs-input: 1rem;
 	--fw-input: normal;
