@@ -306,18 +306,18 @@
 }
 
 :root {
-	--co-button__icon--hover: #9fa0a0;
+	--co-button__icon--hover: #c9caca;
 }
 
 :root {
-	--co-button__icon: #9fa0a0;
+	--co-button__icon: #c9caca;
 }
 
 :root {
 	--bc-button__minimal--hover: transparent;
 	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
-	--co-button__minimal--hover: #9fa0a0;
+	--co-button__minimal--hover: #c9caca;
 	--td-button__minimal--hover: none;
 }
 
