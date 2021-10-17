@@ -228,10 +228,10 @@
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #666;
-	--br-bullet__closed: 4px solid #666;
-	--bb-bullet__closed: 4px solid #666;
-	--bl-bullet__closed: 4px solid #666;
+	--bt-bullet__closed: 4px solid #49a8fb;
+	--br-bullet__closed: 4px solid #49a8fb;
+	--bb-bullet__closed: 4px solid #49a8fb;
+	--bl-bullet__closed: 4px solid #49a8fb;
 }
 
 :root {
@@ -239,7 +239,7 @@
 }
 
 :root {
-	--bc-bullet__inner: #666;
+	--bc-bullet__inner: #49a8fb;
 }
 
 :root {
