@@ -1244,7 +1244,7 @@
 }
 
 :root {
-	--bc-highlight: #f7e594;
+	--bc-highlight: #d2ffa3;
 	--co-highlight: ;
 }
 
@@ -2252,24 +2252,24 @@
 }
 
 :root {
-	--bc-tags--hover: transparent;
+	--bc-tags--hover: #a6b0b2;
 	--bt-tags--hover: none;
 	--br-tags--hover: none;
 	--bb-tags--hover: none;
 	--bl-tags--hover: none;
 	--bd-tags--hover: 20px;
-	--co-tags--hover: #666666;
+	--co-tags--hover: #ffffff;
 }
 
 :root {
-	--bc-tags: transparent;
+	--bc-tags: #a6b0b2;
 	--bt-tags: none;
 	--br-tags: none;
 	--bb-tags: none;
 	--bl-tags: none;
 	--bd-tags: 20px;
-	--co-tags: #666666;
-	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--co-tags: #ffffff;
+	--ff-tags: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-tags: 12px;
 	--ft-tags: ;
 	--fw-tags: 400;
