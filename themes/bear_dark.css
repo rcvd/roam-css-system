@@ -306,11 +306,11 @@
 }
 
 :root {
-	--co-button__icon--hover: #5b5b5b;
+	--co-button__icon--hover: #545555;
 }
 
 :root {
-	--co-button__icon: #5b5b5b;
+	--co-button__icon: #2f3032;
 }
 
 :root {
