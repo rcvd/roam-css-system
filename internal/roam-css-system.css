@@ -600,6 +600,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .cm-operator {
+	color: 					var(--co-codeblock__operator, inherit);
 }
 
 .cm-s-default .cm-qualifier {

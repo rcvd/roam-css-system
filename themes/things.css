@@ -1280,10 +1280,12 @@
 }
 
 :root {
+	--co-codeblock__operator: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--co-codeblock__operator: ;
 	}
 }
 
