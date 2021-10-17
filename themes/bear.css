@@ -3410,7 +3410,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-menu__item-icon--hover: #eeeeee;
+		--co-menu__item-icon--hover: #545555;
 	}
 }
 
@@ -3420,7 +3420,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-menu__item-icon: #eeeeee;
+		--co-menu__item-icon: #2a2c2d;
 	}
 }
 
@@ -3909,7 +3909,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__linked-title: none;
-		--co-reference__linked-title: #999999;
+		--co-reference__linked-title: #a2a4a3;
 	}
 }
 
@@ -3952,7 +3952,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-reference__unlinked-title--hover: #999999;
+		--co-reference__unlinked-title--hover: #a2a4a3;
 	}
 }
 
@@ -3969,7 +3969,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__unlinked-title: none;
-		--co-reference__unlinked-title: #999999;
+		--co-reference__unlinked-title: #a2a4a3;
 	}
 }
 
