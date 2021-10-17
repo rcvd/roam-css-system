@@ -599,6 +599,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-codeblock__number, #164);
 }
 
+.cm-operator {
+}
+
 .cm-s-default .cm-qualifier {
 	color: 					var(--co-codeblock__qualifier, #555);
 }

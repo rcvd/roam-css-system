@@ -1280,6 +1280,14 @@
 }
 
 :root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--co-codeblock__qualifier: rgb(142,142,147);
 }
 

@@ -508,7 +508,7 @@
 }
 
 :root {
-	--co-codeblock__comment: rgb(255,214,10);
+	--co-codeblock__comment: #7c8893;
 }
 
 :root {
@@ -527,7 +527,7 @@
 }
 
 :root {
-	--co-codeblock__def: rgb(10,132,255);
+	--co-codeblock__def: #aeedda;
 }
 
 :root {
@@ -559,7 +559,7 @@
 }
 
 :root {
-	--co-codeblock__keyword: rgb(191,90,242);
+	--co-codeblock__keyword: #aeedda;
 }
 
 :root {
@@ -580,6 +580,9 @@
 
 :root {
 	--co-codeblock__number: rgb(50,215,75);
+}
+
+:root {
 }
 
 :root {

@@ -583,6 +583,9 @@
 }
 
 :root {
+}
+
+:root {
 	--co-codeblock__qualifier: var(--cl-gray-700);
 }
 
