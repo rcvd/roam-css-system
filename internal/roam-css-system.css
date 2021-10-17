@@ -461,6 +461,7 @@ a {
 }
 
 .checkmark {
+	background-color: 		var(--bc-checkmark, inherit);
 	border-top: 			var(--bt-checkmark, 1px solid #A7B6C2);
 	border-right: 			var(--br-checkmark, 1px solid #A7B6C2);
 	border-bottom: 			var(--bb-checkmark, 1px solid #A7B6C2);

@@ -446,6 +446,7 @@
 }
 
 :root {
+	--bc-checkmark: ;
 	--bt-checkmark: 1px solid var(--cl-gray-500);
 	--br-checkmark: 1px solid var(--cl-gray-500);
 	--bb-checkmark: 1px solid var(--cl-gray-500);
