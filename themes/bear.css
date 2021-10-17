@@ -805,7 +805,7 @@
 :root {
 	--bc-button__minimal--active: transparent;
 	--sd-button__minimal--active: none;
-	--co-button__minimal--active: #5d5f62;
+	--co-button__minimal--active: #dc4c4f;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -817,7 +817,7 @@
 }
 
 :root {
-	--co-button__minimal-icon--active: #5d5f62;
+	--co-button__minimal-icon--active: #dc4c4f;
 }
 
 @media(prefers-color-scheme: dark) {
