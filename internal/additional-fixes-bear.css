@@ -178,3 +178,16 @@
 #app > div > div > div.roam-sidebar-container.noselect > div > div.flex-v-box.starred-pages-wrapper > div:nth-child(1) {
     display:  none;
 }
+
+/* Re-color Roam Research Logo */
+#roam-sidebar-logo img {
+    --webkit-filter: brightness(15%);
+    filter: brightness(15%);
+}
+
+@media (prefers-color-scheme: dark) {
+    #roam-sidebar-logo img {
+        --webkit-filter: brightness(100%);
+        filter: brightness(100%);
+    }
+}
