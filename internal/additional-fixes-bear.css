@@ -163,3 +163,18 @@
 .bp3-popover-arrow {
     display: none;
 }
+
+/* Fix hr margin */
+.rm-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Fix table scrolling for Safari */
+.roam-table td {
+    overflow: auto;
+}
+
+#app > div > div > div.roam-sidebar-container.noselect > div > div.flex-v-box.starred-pages-wrapper > div:nth-child(1) {
+    display:  none;
+}
