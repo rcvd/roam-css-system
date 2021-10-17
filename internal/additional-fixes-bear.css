@@ -1,10 +1,3 @@
-/* Enhance font smoothing */
-body, input, textarea, select, button {
-    font-synthesis: none;
-    -webkit-font-smoothing: antialiased;
-    direction: ltr;
-}
-
 /* Fix bullet position */
 .controls, .rm-block__controls {
     padding-top: 5px;
@@ -155,4 +148,18 @@ body, input, textarea, select, button {
 
 .rm-page-ref--tag, span[data-tag='tags'] {
     padding:  2px 5px;
+}
+
+/* Fix border for popover menus */
+.bp3-select-popover .bp3-popover-content {
+    padding: 0;
+}
+
+.bp3-select-popover .bp3-menu {
+    padding: 5px;
+}
+
+/* Remove popover arrows */
+.bp3-popover-arrow {
+    display: none;
 }
