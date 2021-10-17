@@ -1289,11 +1289,11 @@
 }
 
 :root {
-	--co-input__search-icon: #666666;
+	--co-input__search-icon: #a8a9a8;
 }
 
 :root {
-	--co-input__search-placeholder: #666666;
+	--co-input__search-placeholder: #bdbdbd;
 	--ff-input__search-placeholder: ;
 }
 
@@ -1315,7 +1315,7 @@
 	--bl-input: 1px solid #cacaca;
 	--bd-input: 5px;
 	--sd-input: none;
-	--co-input: #bdbdbd;
+	--co-input: #333333;
 	--ff-input: ;
 	--fs-input: 1rem;
 	--fw-input: normal;
