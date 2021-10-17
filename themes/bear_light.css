@@ -2270,9 +2270,9 @@
 	--bd-tags: 20px;
 	--co-tags: #ffffff;
 	--ff-tags: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-tags: 12px;
+	--fs-tags: 1rem;
 	--ft-tags: ;
-	--fw-tags: 500;
+	--fw-tags: 400;
 	--td-tags: ;
 	--tt-tags: none;
 }
