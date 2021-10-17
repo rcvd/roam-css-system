@@ -147,7 +147,7 @@
 }
 
 .rm-page-ref--tag, span[data-tag='tags'] {
-    padding:  2px 5px;
+    padding:  0px 6px;
 }
 
 /* Fix border for popover menus */
