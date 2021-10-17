@@ -1099,7 +1099,7 @@
 
 :root {
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
-	--fs-codeblock__code: 0.9rem;
+	--fs-codeblock__code: 0.8rem;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3911,7 +3911,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__linked-title: none;
-		--co-reference__linked-title: #a2a4a3;
+		--co-reference__linked-title: #585958;
 	}
 }
 
@@ -3954,7 +3954,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-reference__unlinked-title--hover: #a2a4a3;
+		--co-reference__unlinked-title--hover: #585958;
 	}
 }
 
@@ -3971,7 +3971,7 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bb-reference__unlinked-title: none;
-		--co-reference__unlinked-title: #a2a4a3;
+		--co-reference__unlinked-title: #585958;
 	}
 }
 

@@ -505,7 +505,7 @@
 
 :root {
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
-	--fs-codeblock__code: 0.9rem;
+	--fs-codeblock__code: 0.8rem;
 }
 
 :root {
@@ -1786,7 +1786,7 @@
 
 :root {
 	--bb-reference__linked-title: none;
-	--co-reference__linked-title: #a2a4a3;
+	--co-reference__linked-title: #585958;
 	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: normal;
@@ -1810,13 +1810,13 @@
 }
 
 :root {
-	--co-reference__unlinked-title--hover: #a2a4a3;
+	--co-reference__unlinked-title--hover: #585958;
 	--td-reference__unlinked-title--hover: ;
 }
 
 :root {
 	--bb-reference__unlinked-title: none;
-	--co-reference__unlinked-title: #a2a4a3;
+	--co-reference__unlinked-title: #585958;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: normal;
