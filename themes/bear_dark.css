@@ -579,7 +579,7 @@
 }
 
 :root {
-	--co-codeblock__number: rgb(50,215,75);
+	--co-codeblock__number: #aac97f;
 }
 
 :root {
@@ -619,7 +619,7 @@
 }
 
 :root {
-	--co-codeblock__variable-2: rgb(90,200,245);
+	--co-codeblock__variable-2: #fefefe;
 }
 
 :root {
