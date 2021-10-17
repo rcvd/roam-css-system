@@ -1450,9 +1450,9 @@
 :root {
 	--co-log-page__h1: #737473;
 	--ff-log-page__h1: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-log-page__h1: 22px;
+	--fs-log-page__h1: 20px;
 	--ft-log-page__h1: ;
-	--fw-log-page__h1: 600;
+	--fw-log-page__h1: 500;
 	--tt-log-page__h1: ;
 }
 
