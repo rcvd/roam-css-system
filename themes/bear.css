@@ -4014,7 +4014,7 @@
 }
 
 :root {
-	--bc-right-sidebar__toprow: #fff;
+	--bc-right-sidebar__toprow: #fafafa;
 }
 
 @media(prefers-color-scheme: dark) {
