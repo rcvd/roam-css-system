@@ -200,7 +200,7 @@
 }
 
 :root {
-	--bc-block-highlight--blue: #b4d7ff;
+	--bc-block-highlight--blue: #363f49;
 	--co-block-highlight--blue: ;
 }
 
@@ -2178,7 +2178,7 @@
 }
 
 :root {
-	--bc-span--highlighted: #f8e594;
+	--bc-span--highlighted: #363f49;
 }
 
 :root {
