@@ -1792,7 +1792,7 @@
 	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: normal;
 	--fw-reference__linked-title: 500;
-	--tt-reference__linked-title: normal;
+	--tt-reference__linked-title: uppercase;
 }
 
 :root {
@@ -1822,7 +1822,7 @@
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: normal;
 	--fw-reference__unlinked-title: 500;
-	--tt-reference__unlinked-title: normal;
+	--tt-reference__unlinked-title: uppercase;
 }
 
 :root {
