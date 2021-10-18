@@ -2464,10 +2464,10 @@
 }
 
 :root {
-	--bt-main__image: ;
-	--br-main__image: ;
-	--bb-main__image: ;
-	--bl-main__image: ;
+	--bt-main__image: 1px solid rgba(115, 117, 117, 1.00);
+	--br-main__image: 1px solid rgba(115, 117, 117, 1.00);
+	--bb-main__image: 1px solid rgba(115, 117, 117, 1.00);
+	--bl-main__image: 1px solid rgba(115, 117, 117, 1.00);
 	--bd-main__image: ;
 }
 
