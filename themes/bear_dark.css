@@ -2306,7 +2306,7 @@
 	--bc-topbar__container: transparent;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
-	--bb-topbar__container: none;
+	--bb-topbar__container: 1px solid #000000;
 	--bl-topbar__container: none;
 	--bd-topbar__container: 0px;
 	--sd-topbar__container: none;
