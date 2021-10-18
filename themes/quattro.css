@@ -3938,6 +3938,7 @@
 
 :root {
 	--co-reference__page-title: var(--cl-red-500);
+	--ff-reference__page-title: ;
 	--fs-reference__page-title: 14px;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: none;

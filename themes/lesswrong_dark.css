@@ -1805,6 +1805,7 @@
 
 :root {
 	--co-reference__page-title: var(--cl-gray-500);
+	--ff-reference__page-title: ;
 	--fs-reference__page-title: 1.15rem;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: none;

@@ -1838,6 +1838,7 @@ div, textarea {
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a {
 	color: 					var(--co-reference__page-title, #337ab7);
+	font-family: 			var(--ff-reference__page-title, inherit);
 	font-size: 				var(--fs-reference__page-title, 14px);
 	font-weight: 			var(--fw-reference__page-title, inherit);
 	text-decoration: 		var(--td-reference__page-title, inherit);
