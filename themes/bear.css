@@ -1745,7 +1745,7 @@
 }
 
 :root {
-	--bc-elevation__item--selected: #0064e0;
+	--bc-elevation__item--selected: rgba(238, 239, 239, 1.00);
 	--bt-elevation__item--selected: none;
 	--br-elevation__item--selected: none;
 	--bb-elevation__item--selected: none;
