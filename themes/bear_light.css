@@ -625,12 +625,12 @@
 }
 
 :root {
-	--bc-control--hover-checked: #0161be;
+	--bc-control--hover-checked: rgba(220, 76, 79, 1.00);
 	--sd-control--hover-checked: none;
 }
 
 :root {
-	--bc-control--checked: #0161be;
+	--bc-control--checked: rgba(220, 76, 79, 1.00);
 }
 
 :root {
