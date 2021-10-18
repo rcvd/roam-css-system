@@ -1110,7 +1110,7 @@
 }
 
 :root {
-	--co-codeblock__comment: rgb(255,204,0);
+	--co-codeblock__comment: rgba(150, 150, 150, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
