@@ -1597,13 +1597,13 @@
 }
 
 :root {
-	--bc-menu: #ececec;
+	--bc-menu: rgba(251, 251, 251, 1.00);
 	--bt-menu: none;
 	--br-menu: none;
 	--bb-menu: none;
 	--bl-menu: none;
 	--bd-menu: 5px;
-	--co-menu: #121417;
+	--co-menu: #232323;
 }
 
 :root {
