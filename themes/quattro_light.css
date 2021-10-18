@@ -1722,7 +1722,6 @@
 	--bl-popover__content: ;
 	--bd-popover__content: ;
 	--co-popover__content: var(--cl-gray-900);
-	--ff-popover__content: ;
 }
 
 :root {
