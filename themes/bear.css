@@ -664,7 +664,7 @@
 }
 
 :root {
-	--co-button__icon--hover: #9fa0a0;
+	--co-button__icon--hover: rgba(160, 160, 160, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -674,7 +674,7 @@
 }
 
 :root {
-	--co-button__icon: #9fa0a0;
+	--co-button__icon: rgba(214, 214, 214, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
