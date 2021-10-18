@@ -437,7 +437,7 @@
 }
 
 :root {
-	--bc-checkmark--checked: rgba(85, 85, 85, 1.00);
+	--bc-checkmark--checked: rgba(255, 255, 255, 1.00);
 	--bt-checkmark--checked: none;
 	--br-checkmark--checked: none;
 	--bb-checkmark--checked: none;
