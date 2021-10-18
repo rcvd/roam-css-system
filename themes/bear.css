@@ -674,7 +674,7 @@
 }
 
 :root {
-	--co-button__icon: rgba(214, 214, 214, 1.00);
+	--co-button__icon: rgba(160, 160, 160, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
