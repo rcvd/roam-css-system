@@ -4029,6 +4029,15 @@
 }
 
 :root {
+	--ff-right-sidebar__helper-text: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-right-sidebar__toprow: #fafafa;
 }
 

@@ -1849,6 +1849,10 @@
 }
 
 :root {
+	--ff-right-sidebar__helper-text: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
 	--bc-right-sidebar__toprow: #1e2022;
 }
 

@@ -1849,6 +1849,10 @@
 }
 
 :root {
+	--ff-right-sidebar__helper-text: ;
+}
+
+:root {
 	--bc-right-sidebar__toprow: #000;
 }
 
