@@ -1722,6 +1722,7 @@
 	--bl-popover__content: 1px solid #cbcbcb;
 	--bd-popover__content: 5px;
 	--co-popover__content: #232323;
+	--ff-popover__content: ;
 }
 
 :root {

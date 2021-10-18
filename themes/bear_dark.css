@@ -1722,6 +1722,7 @@
 	--bl-popover__content: 1px solid #585858;
 	--bd-popover__content: 5px;
 	--co-popover__content: #e5e5e5;
+	--ff-popover__content: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
 :root {

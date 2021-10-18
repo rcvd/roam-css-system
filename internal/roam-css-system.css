@@ -1753,6 +1753,7 @@ div, textarea {
 	border-left: 			var(--bl-popover__content, inherit);
 	border-radius: 			var(--bd-popover__content, inherit);
 	color: 					var(--co-popover__content, inherit);
+	font-family: 			var(--ff-popover__content, inherit);
 }
 
 .bp3-popover div[style*='color: rgb(167, 182, 194);'] {
