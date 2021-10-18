@@ -990,13 +990,13 @@
 }
 
 :root {
-	--bc-code: #f9fafb;
-	--bt-code: 1px solid #eeeff0;
-	--br-code: 1px solid #eeeff0;
-	--bb-code: 1px solid #eeeff0;
-	--bl-code: 1px solid #eeeff0;
-	--bd-code: 5px;
-	--co-code: #121417;
+	--bc-code: rgba(255, 255, 255, 1.00);
+	--bt-code: 1px solid rgba(221, 221, 221, 1.00);
+	--br-code: 1px solid rgba(221, 221, 221, 1.00);
+	--bb-code: 1px solid rgba(221, 221, 221, 1.00);
+	--bl-code: 1px solid rgba(221, 221, 221, 1.00);
+	--bd-code: 0px;
+	--co-code: rgba(66, 66, 66, 1.00);
 	--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-code: 0.95rem;
 }
