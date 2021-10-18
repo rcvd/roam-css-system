@@ -4006,7 +4006,7 @@
 
 :root {
 	--bc-right-sidebar__container: #fafafa;
-	--bl-right-sidebar__container: 1px solid #dedede;
+	--bl-right-sidebar__container: 1px solid rgba(222, 222, 222, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -5009,7 +5009,7 @@
 	--bc-topbar__container: #fbfbfb;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
-	--bb-topbar__container: 1px solid rgba(147, 151, 152, 1.00);
+	--bb-topbar__container: 1px solid rgba(222, 222, 222, 1.00);
 	--bl-topbar__container: none;
 	--bd-topbar__container: 0px;
 	--sd-topbar__container: ;
