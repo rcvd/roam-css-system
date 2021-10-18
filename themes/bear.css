@@ -1390,7 +1390,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--hover-checked: #0058d0;
+		--bc-control--hover-checked: rgba(106, 202, 251, 1.00);
 		--sd-control--hover-checked: ;
 	}
 }
@@ -1401,7 +1401,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--checked: #0058d0;
+		--bc-control--checked: rgba(106, 202, 251, 1.00);
 	}
 }
 
