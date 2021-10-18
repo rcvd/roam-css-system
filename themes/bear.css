@@ -3059,7 +3059,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon--hover: #ffffff;
+	--co-left-sidebar__icon--hover: rgba(160, 160, 160, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3069,7 +3069,7 @@
 }
 
 :root {
-	--co-left-sidebar__icon: #9fa0a0;
+	--co-left-sidebar__icon: rgba(160, 160, 160, 1.00);
 	--fs-left-sidebar__icon: 14px;
 }
 
