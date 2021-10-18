@@ -4784,12 +4784,12 @@
 }
 
 :root {
-	--bc-starred__page--hover: #dc4c4f;
+	--bc-starred__page--hover: transparent;
 	--bt-starred__page--hover: none;
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #ffffff;
+	--co-starred__page--hover: #b8b9ba;
 	--td-starred__page--hover: none;
 }
 
