@@ -5009,7 +5009,7 @@
 	--bc-topbar__container: #fbfbfb;
 	--bt-topbar__container: none;
 	--br-topbar__container: none;
-	--bb-topbar__container: 1px solid rgba(222, 222, 222, 1.00);
+	--bb-topbar__container: none;
 	--bl-topbar__container: none;
 	--bd-topbar__container: 0px;
 	--sd-topbar__container: ;
@@ -5020,7 +5020,7 @@
 		--bc-topbar__container: transparent;
 		--bt-topbar__container: none;
 		--br-topbar__container: none;
-		--bb-topbar__container: 1px solid #000000;
+		--bb-topbar__container: none;
 		--bl-topbar__container: none;
 		--sd-topbar__container: none;
 	}
