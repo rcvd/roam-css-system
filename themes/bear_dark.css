@@ -1543,13 +1543,13 @@
 }
 
 :root {
-	--bc-menu__item--hover: #0058d0;
+	--bc-menu__item--hover: #2c2d30;
 	--bt-menu__item--hover: none;
 	--br-menu__item--hover: none;
 	--bb-menu__item--hover: none;
 	--bl-menu__item--hover: none;
 	--bd-menu__item--hover: 5px;
-	--co-menu__item--hover: #eeeeee;
+	--co-menu__item--hover: #edefef;
 }
 
 :root {
@@ -1558,16 +1558,16 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 5px;
-	--co-menu__item: #eeeeee;
+	--co-menu__item: #f5f5f7;
 	--fw-menu__item: ;
 }
 
 :root {
-	--co-menu__item-icon--hover: #545555;
+	--co-menu__item-icon--hover: #6acafb;
 }
 
 :root {
-	--co-menu__item-icon: #2a2c2d;
+	--co-menu__item-icon: #939393;
 }
 
 :root {
@@ -1715,11 +1715,11 @@
 }
 
 :root {
-	--bc-popover__content: #333333;
-	--bt-popover__content: 1px solid #585858;
-	--br-popover__content: 1px solid #585858;
-	--bb-popover__content: 1px solid #585858;
-	--bl-popover__content: 1px solid #585858;
+	--bc-popover__content: #232324;
+	--bt-popover__content: 1px solid #666667;
+	--br-popover__content: 1px solid #666667;
+	--bb-popover__content: 1px solid #666667;
+	--bl-popover__content: 1px solid #666667;
 	--bd-popover__content: 5px;
 	--co-popover__content: #e5e5e5;
 }
