@@ -238,6 +238,6 @@ textarea,
     text-align: left;
 }
 
-
-.rm-title-textarea {
-    line-height: 1.3em;
+.roam-body .roam-app .roam-main .roam-article .rm-title-editing-display {
+    margin-bottom: inherit;
+}
