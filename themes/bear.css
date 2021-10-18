@@ -198,11 +198,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-allpages__input--focused: #5c5b5b;
-		--bt-allpages__input--focused: none;
-		--br-allpages__input--focused: none;
-		--bb-allpages__input--focused: none;
-		--bl-allpages__input--focused: none;
+		--bc-allpages__input--focused: #292b2d;
+		--bt-allpages__input--focused: 1px solid #31739d;
+		--br-allpages__input--focused: 1px solid #31739d;
+		--bb-allpages__input--focused: 1px solid #31739d;
+		--bl-allpages__input--focused: 1px solid #31739d;
 	}
 }
 
@@ -221,11 +221,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-allpages__input: transparent;
-		--bt-allpages__input: none;
-		--br-allpages__input: none;
-		--bb-allpages__input: none;
-		--bl-allpages__input: none;
+		--bc-allpages__input: #292b2d;
+		--bt-allpages__input: 1px solid #373b3d;
+		--br-allpages__input: 1px solid #373b3d;
+		--bb-allpages__input: 1px solid #373b3d;
+		--bl-allpages__input: 1px solid #373b3d;
 		--sd-allpages__input: none;
 		--co-allpages__input: #adadac;
 	}
