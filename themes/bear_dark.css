@@ -700,7 +700,7 @@
 	--br-datepicker__today: none;
 	--bb-datepicker__today: none;
 	--bl-datepicker__today: none;
-	--co-datepicker__today: #edefef;
+	--co-datepicker__today: rgba(74, 168, 251, 1.00);
 	--fw-datepicker__today: bold;
 }
 
@@ -2370,11 +2370,11 @@
 
 :root {
 	--bc-topbar-datepicker__today--selected: #2c2d30;
-	--co-topbar-datepicker__today--selected: #edefef;
+	--co-topbar-datepicker__today--selected: rgba(74, 168, 251, 1.00);
 }
 
 :root {
-	--co-topbar-datepicker__today: #edefef;
+	--co-topbar-datepicker__today: rgba(74, 168, 251, 1.00);
 	--fw-topbar-datepicker__today: bold;
 }
 

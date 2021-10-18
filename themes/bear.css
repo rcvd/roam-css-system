@@ -1565,7 +1565,7 @@
 		--br-datepicker__today: none;
 		--bb-datepicker__today: none;
 		--bl-datepicker__today: none;
-		--co-datepicker__today: #edefef;
+		--co-datepicker__today: rgba(74, 168, 251, 1.00);
 	}
 }
 
@@ -5155,13 +5155,13 @@
 
 :root {
 	--bc-topbar-datepicker__today--selected: rgba(238, 239, 239, 1.00);
-	--co-topbar-datepicker__today--selected: rgba(84, 84, 84, 1.00);
+	--co-topbar-datepicker__today--selected: rgba(214, 85, 95, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-topbar-datepicker__today--selected: #2c2d30;
-		--co-topbar-datepicker__today--selected: #edefef;
+		--co-topbar-datepicker__today--selected: rgba(74, 168, 251, 1.00);
 	}
 }
 
@@ -5172,7 +5172,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-topbar-datepicker__today: #edefef;
+		--co-topbar-datepicker__today: rgba(74, 168, 251, 1.00);
 	}
 }
 
