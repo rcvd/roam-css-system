@@ -5369,3 +5369,20 @@
 	}
 }
 
+:root {
+	--bt-main__image: ;
+	--br-main__image: ;
+	--bb-main__image: ;
+	--bl-main__image: ;
+	--bd-main__image: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bt-main__image: ;
+		--br-main__image: ;
+		--bb-main__image: ;
+		--bl-main__image: ;
+	}
+}
+

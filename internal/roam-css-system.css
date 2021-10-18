@@ -2497,3 +2497,11 @@ span.zotero-roam-sequence {
 	color: 					var(--co-main__strikethrough, inherit);
 }
 
+.rm-inline-img {
+	border-top: 			var(--bt-main__image, inherit);
+	border-right: 			var(--br-main__image, inherit);
+	border-bottom: 			var(--bb-main__image, inherit);
+	border-left: 			var(--bl-main__image, inherit);
+	border-radius: 			var(--bd-main__image, inherit);
+}
+
