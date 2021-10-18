@@ -200,7 +200,7 @@
 }
 
 :root {
-	--bc-block-highlight--blue: #363f49;
+	--bc-block-highlight--blue: rgba(180, 216, 253, 1.00);
 	--co-block-highlight--blue: ;
 }
 
