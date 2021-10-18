@@ -431,13 +431,13 @@
 
 :root {
 	--bt-checkmark__mark--checked: 0px;
-	--br-checkmark__mark--checked: 2px solid var(--cl-white);
-	--bb-checkmark__mark--checked: 2px solid var(--cl-white);
+	--br-checkmark__mark--checked: 2px solid rgba(180, 180, 180, 1.00);
+	--bb-checkmark__mark--checked: 2px solid rgba(180, 180, 180, 1.00);
 	--bl-checkmark__mark--checked: 0px;
 }
 
 :root {
-	--bc-checkmark--checked: #999;
+	--bc-checkmark--checked: rgba(85, 85, 85, 1.00);
 	--bt-checkmark--checked: none;
 	--br-checkmark--checked: none;
 	--bb-checkmark--checked: none;
@@ -446,7 +446,7 @@
 }
 
 :root {
-	--bc-checkmark: ;
+	--bc-checkmark: rgba(255, 255, 255, 1.00);
 	--bt-checkmark: 1px solid #bfc3c5;
 	--br-checkmark: 1px solid #bfc3c5;
 	--bb-checkmark: 1px solid #bfc3c5;
@@ -471,7 +471,7 @@
 }
 
 :root {
-	--co-codeblock__attribute: rgb(0,122,255);
+	--co-codeblock__attribute: rgba(186, 43, 163, 1.00);
 }
 
 :root {
@@ -500,10 +500,11 @@
 }
 
 :root {
-	--co-codeblock__builtin: rgb(0,199,190);
+	--co-codeblock__builtin: rgba(0, 135, 178, 1.00);
 }
 
 :root {
+	--co-codeblock__code: rgba(84, 84, 84, 1.00);
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-codeblock__code: 0.8rem;
 }
@@ -513,11 +514,11 @@
 }
 
 :root {
-	--bc-codeblock__container: #f5f5f7;
-	--bt-codeblock__container: none;
-	--br-codeblock__container: none;
-	--bb-codeblock__container: none;
-	--bl-codeblock__container: none;
+	--bc-codeblock__container: rgba(255, 255, 255, 1.00);
+	--bt-codeblock__container: 1px solid rgba(221, 221, 221, 1.00);
+	--br-codeblock__container: 1px solid rgba(221, 221, 221, 1.00);
+	--bb-codeblock__container: 1px solid rgba(221, 221, 221, 1.00);
+	--bl-codeblock__container: 1px solid rgba(221, 221, 221, 1.00);
 	--bd-codeblock__container: 5px;
 	--co-codeblock__container: rgb(142,142,147);
 }
@@ -560,7 +561,7 @@
 }
 
 :root {
-	--co-codeblock__keyword: rgb(175,82,222);
+	--co-codeblock__keyword: rgba(0, 135, 178, 1.00);
 }
 
 :root {
@@ -580,7 +581,7 @@
 }
 
 :root {
-	--co-codeblock__number: rgb(40,205,65);
+	--co-codeblock__number: rgba(0, 135, 178, 1.00);
 }
 
 :root {
@@ -604,11 +605,11 @@
 }
 
 :root {
-	--co-codeblock__string: rgb(255,59,48);
+	--co-codeblock__string: rgba(222, 79, 0, 1.00);
 }
 
 :root {
-	--co-codeblock__string-2: rgb(255,204,0);
+	--co-codeblock__string-2: rgba(222, 79, 0, 1.00);
 }
 
 :root {
@@ -2183,7 +2184,7 @@
 }
 
 :root {
-	--bc-span--highlighted: #363f49;
+	--bc-span--highlighted: rgba(211, 255, 164, 1.00);
 }
 
 :root {

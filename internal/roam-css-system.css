@@ -521,6 +521,7 @@ code {
 }
 
 .CodeMirror .CodeMirror-code pre {
+	color: 					var(--co-codeblock__code, inherit);
 	font-family: 			var(--ff-codeblock__code, monospace);
 	font-size: 				var(--fs-codeblock__code, inherit);
 }

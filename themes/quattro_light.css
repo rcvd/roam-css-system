@@ -504,6 +504,7 @@
 }
 
 :root {
+	--co-codeblock__code: ;
 	--ff-codeblock__code: 'iA Writer Mono S';
 	--fs-codeblock__code: 1rem;
 }

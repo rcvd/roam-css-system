@@ -504,6 +504,7 @@
 }
 
 :root {
+	--co-codeblock__code: ;
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-codeblock__code: 0.8rem;
 }
