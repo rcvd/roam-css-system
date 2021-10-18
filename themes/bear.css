@@ -1684,7 +1684,7 @@
 }
 
 :root {
-	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-div: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-div: 13px;
 }
 
@@ -1704,11 +1704,11 @@
 }
 
 :root {
-	--bc-elevation__container: #ececec;
-	--bt-elevation__container: 1px solid #c9c9c9;
-	--br-elevation__container: 1px solid #c9c9c9;
-	--bb-elevation__container: 1px solid #c9c9c9;
-	--bl-elevation__container: 1px solid #c9c9c9;
+	--bc-elevation__container: rgba(251, 251, 251, 1.00);
+	--bt-elevation__container: 1px solid rgba(197, 197, 197, 1.00);
+	--br-elevation__container: 1px solid rgba(197, 197, 197, 1.00);
+	--bb-elevation__container: 1px solid rgba(197, 197, 197, 1.00);
+	--bl-elevation__container: 1px solid rgba(197, 197, 197, 1.00);
 	--bd-elevation__container: 8px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
@@ -1751,7 +1751,7 @@
 	--bb-elevation__item--selected: none;
 	--bl-elevation__item--selected: none;
 	--bd-elevation__item--selected: 5px;
-	--co-elevation__item--selected: #ffffff;
+	--co-elevation__item--selected: rgba(84, 84, 84, 1.00);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1770,7 +1770,7 @@
 	--br-elevation__item: none;
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
-	--co-elevation__item: #000000;
+	--co-elevation__item: rgba(84, 84, 84, 1.00);
 	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
@@ -1805,7 +1805,7 @@
 }
 
 :root {
-	--co-elevation__item-keyprompt--selected: #ffffff;
+	--co-elevation__item-keyprompt--selected: #a8a8a9;
 }
 
 @media(prefers-color-scheme: dark) {
