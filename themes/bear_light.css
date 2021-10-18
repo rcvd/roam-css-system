@@ -1424,7 +1424,7 @@
 
 :root {
 	--bb-level1: none;
-	--co-level1: #272727;
+	--co-level1: rgba(66, 66, 66, 1.00);
 	--ff-level1: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 20px;
 	--ft-level1: ;
@@ -1434,7 +1434,7 @@
 
 :root {
 	--bb-level2: none;
-	--co-level2: #272727;
+	--co-level2: rgba(66, 66, 66, 1.00);
 	--ff-level2: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 18px;
 	--ft-level2: ;
@@ -1444,7 +1444,7 @@
 
 :root {
 	--bb-level3: none;
-	--co-level3: #272727;
+	--co-level3: rgba(66, 66, 66, 1.00);
 	--ff-level3: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 15px;
 	--ft-level3: ;
@@ -1453,7 +1453,7 @@
 }
 
 :root {
-	--co-log-page__h1: #b2b2b2;
+	--co-log-page__h1: rgba(51, 51, 51, 1.00);
 	--ff-log-page__h1: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-log-page__h1: 20px;
 	--ft-log-page__h1: ;
@@ -1462,7 +1462,7 @@
 }
 
 :root {
-	--co-log-page__preview: #b2b2b2;
+	--co-log-page__preview: rgba(136, 136, 136, 1.00);
 }
 
 :root {
@@ -1489,11 +1489,11 @@
 }
 
 :root {
-	--bc-main: #fbfbfb;
+	--bc-main: rgba(251,251,251,1.0);
 }
 
 :root {
-	--co-main: #121417;
+	--co-main: rgba(66, 66, 66, 1.00);
 	--ff-main: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-main: 1rem;
 	--fw-main: normal;
@@ -1641,7 +1641,7 @@
 }
 
 :root {
-	--co-page__title: #23272b;
+	--co-page__title: rgba(51, 51, 51, 1.00);
 	--ff-page__title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-page__title: 20px;
 	--ft-page__title: ;
