@@ -1378,7 +1378,7 @@
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #d6d6d9;
+	--co-left-sidebar__db-title--hover: #a4a5a5;
 }
 
 :root {
@@ -1476,13 +1476,13 @@
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
 	--bl-logbutton--hover: none;
-	--co-logbutton--hover: #d6d6d9;
+	--co-logbutton--hover: #a4a5a5;
 	--td-logbutton--hover: ;
 }
 
 :root {
 	--bd-logbutton: 6px;
-	--co-logbutton: #a2a4a3;
+	--co-logbutton: #a4a5a5;
 	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 400;
@@ -2202,7 +2202,7 @@
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #d6d6d9;
+	--co-starred__page--hover: #a4a5a5;
 	--td-starred__page--hover: none;
 }
 

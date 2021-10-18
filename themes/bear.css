@@ -3030,7 +3030,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__db-title--hover: #d6d6d9;
+		--co-left-sidebar__db-title--hover: #a4a5a5;
 	}
 }
 
@@ -3232,7 +3232,7 @@
 		--br-logbutton--hover: none;
 		--bb-logbutton--hover: none;
 		--bl-logbutton--hover: none;
-		--co-logbutton--hover: #d6d6d9;
+		--co-logbutton--hover: #a4a5a5;
 	}
 }
 
@@ -3247,7 +3247,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-logbutton: #a2a4a3;
+		--co-logbutton: #a4a5a5;
 	}
 }
 
@@ -4810,7 +4810,7 @@
 		--br-starred__page--hover: none;
 		--bb-starred__page--hover: none;
 		--bl-starred__page--hover: none;
-		--co-starred__page--hover: #d6d6d9;
+		--co-starred__page--hover: #a4a5a5;
 	}
 }
 
