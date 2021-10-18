@@ -224,3 +224,8 @@ textarea,
 .bp3-control.bp3-switch.bp3-large.bp3-align-right .bp3-control-indicator {
     border: 0;
 }
+
+/* Change all pages column alignment to left */
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    text-align: left;
+}
