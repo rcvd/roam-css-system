@@ -3477,7 +3477,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--fl-menu__svg-icon--hover: #eeeeee;
+		--fl-menu__svg-icon--hover: #6acafb;
 	}
 }
 
@@ -3487,7 +3487,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--fl-menu__svg-icon: #eeeeee;
+		--fl-menu__svg-icon: #939393;
 	}
 }
 
