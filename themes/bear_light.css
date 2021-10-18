@@ -805,7 +805,7 @@
 }
 
 :root {
-	--co-elevation__item-icon--selected: #ffffff;
+	--co-elevation__item-icon--selected: rgba(214, 85, 95, 1.00);
 }
 
 :root {
