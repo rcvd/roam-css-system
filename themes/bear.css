@@ -1583,7 +1583,7 @@
 	--br-datepicker__weeknumber: 1px solid #f0f0f0;
 	--co-datepicker__weeknumber: #666666;
 	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-datepicker__weeknumber: 1rem;
+	--fs-datepicker__weeknumber: 13px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3216,12 +3216,12 @@
 }
 
 :root {
-	--bc-logbutton--hover: #dc4c4f;
+	--bc-logbutton--hover: transparent;
 	--bt-logbutton--hover: none;
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
 	--bl-logbutton--hover: none;
-	--co-logbutton--hover: #ffffff;
+	--co-logbutton--hover: #b8b9ba;
 	--td-logbutton--hover: ;
 }
 
