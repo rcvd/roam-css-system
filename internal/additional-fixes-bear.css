@@ -212,3 +212,10 @@
 .bp3-datepicker .bp3-datepicker-day-wrapper {
     padding: 8px;
 }
+
+/* Cursor Color */
+input,
+textarea,
+[contenteditable] {
+    caret-color: rgba(224, 109, 114, 1.00);
+}
