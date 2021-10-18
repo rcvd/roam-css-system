@@ -2386,7 +2386,7 @@
 	--br-topbar-datepicker__weeknumber: 1px solid #404040;
 	--co-topbar-datepicker__weeknumber: #939393;
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	--fs-topbar-datepicker__weeknumber: 1rem;
+	--fs-topbar-datepicker__weeknumber: 13px;
 }
 
 :root {
