@@ -187,8 +187,8 @@
 
 @media (prefers-color-scheme: dark) {
     #roam-sidebar-logo img {
-        --webkit-filter: brightness(100%);
-        filter: brightness(100%);
+        --webkit-filter: brightness(10%);
+        filter: brightness(10%);
     }
 }
 
