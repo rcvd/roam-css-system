@@ -220,6 +220,13 @@ textarea,
     caret-color: rgba(224, 109, 114, 1.00);
 }
 
+@media (prefers-color-scheme: dark) {
+    input,
+    textarea,
+    [contenteditable] {
+        caret-color: rgba(173, 196, 249, 1.00);
+    }
+}
 
 .bp3-control.bp3-switch.bp3-large.bp3-align-right .bp3-control-indicator {
     border: 0;
