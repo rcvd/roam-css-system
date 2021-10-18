@@ -1589,11 +1589,11 @@
 }
 
 :root {
-	--fl-menu__svg-icon--hover: #ffffff;
+	--fl-menu__svg-icon--hover: rgba(214, 85, 95, 1.00);
 }
 
 :root {
-	--fl-menu__svg-icon: #121417;
+	--fl-menu__svg-icon: #a8a8a9;
 }
 
 :root {
