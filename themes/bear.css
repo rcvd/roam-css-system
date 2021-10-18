@@ -1554,7 +1554,7 @@
 	--br-datepicker__today: none;
 	--bb-datepicker__today: none;
 	--bl-datepicker__today: none;
-	--co-datepicker__today: #0064e0;
+	--co-datepicker__today: rgba(214, 85, 95, 1.00);
 	--fw-datepicker__today: bold;
 }
 
