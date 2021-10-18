@@ -952,10 +952,10 @@
 
 :root {
 	--bc-checkmark--checked: rgba(255, 255, 255, 1.00);
-	--bt-checkmark--checked: none;
-	--br-checkmark--checked: none;
-	--bb-checkmark--checked: none;
-	--bl-checkmark--checked: none;
+	--bt-checkmark--checked: 1px solid #bfc3c5;
+	--br-checkmark--checked: 1px solid #bfc3c5;
+	--bb-checkmark--checked: 1px solid #bfc3c5;
+	--bl-checkmark--checked: 1px solid #bfc3c5;
 	--sd-checkmark--checked: none;
 }
 
