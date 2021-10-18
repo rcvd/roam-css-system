@@ -3105,7 +3105,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-left-sidebar__logo-text: #f5f5f7;
+		--co-left-sidebar__logo-text: rgba(25, 25, 25, 1.00);
 	}
 }
 
