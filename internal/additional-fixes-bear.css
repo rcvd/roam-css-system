@@ -237,3 +237,7 @@ textarea,
 .rm-all-pages .table .rm-pages-row .rm-pages-col {
     text-align: left;
 }
+
+
+.rm-title-textarea {
+    line-height: 1.3em;
