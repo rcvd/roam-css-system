@@ -3560,7 +3560,7 @@
 }
 
 :root {
-	--bc-modal-dialog: #ececec;
+	--bc-modal-dialog: rgba(251, 251, 251, 1.00);
 	--bt-modal-dialog: 1px solid #cacaca;
 	--br-modal-dialog: 1px solid #cacaca;
 	--bb-modal-dialog: 1px solid #cacaca;
@@ -4415,7 +4415,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu: #ececec;
+	--bc-roam42__jj-menu: rgba(251, 251, 251, 1.00);
 	--bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--br-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--bb-roam42__jj-menu: 1px solid var(--cl-gray-100);
