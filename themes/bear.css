@@ -2825,12 +2825,12 @@
 }
 
 :root {
-	--bc-inline-references: #f5f6f8;
+	--bc-inline-references: hsl(113, 1%, 93%);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-inline-references: #222222;
+		--bc-inline-references: hsl(207, 7%, 17%);
 	}
 }
 

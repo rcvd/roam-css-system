@@ -1287,7 +1287,7 @@
 }
 
 :root {
-	--bc-inline-references: #f5f6f8;
+	--bc-inline-references: hsl(113, 1%, 93%);
 }
 
 :root {
