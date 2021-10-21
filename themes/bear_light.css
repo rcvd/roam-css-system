@@ -175,10 +175,6 @@
 }
 
 :root {
-	--co-block__ghost: #aeb2b8;
-}
-
-:root {
 	--bc-block__button--hover: #509cfe;
 	--bt-block__button--hover: none;
 	--br-block__button--hover: none;
@@ -197,6 +193,10 @@
 	--bd-block__button: 3px;
 	--sd-block__button: ;
 	--co-block__button: #ffffff;
+}
+
+:root {
+	--co-block__ghost: #aeb2b8;
 }
 
 :root {
@@ -314,6 +314,12 @@
 }
 
 :root {
+	--bc-button__minimal--active: transparent;
+	--sd-button__minimal--active: none;
+	--co-button__minimal--active: #dc4c4f;
+}
+
+:root {
 	--bc-button__minimal--hover: transparent;
 	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
@@ -325,6 +331,10 @@
 	--bc-button__minimal: transparent;
 	--bd-button__minimal: 5px;
 	--sd-button__minimal: none;
+}
+
+:root {
+	--co-button__minimal-icon--active: #dc4c4f;
 }
 
 :root {
@@ -367,16 +377,6 @@
 	--bd-button__warning: 5px;
 	--sd-button__warning: none;
 	--co-button__warning: #ffffff;
-}
-
-:root {
-	--bc-button__minimal--active: transparent;
-	--sd-button__minimal--active: none;
-	--co-button__minimal--active: #dc4c4f;
-}
-
-:root {
-	--co-button__minimal-icon--active: #dc4c4f;
 }
 
 :root {
@@ -479,6 +479,10 @@
 }
 
 :root {
+	--co-codeblock__builtin: rgba(0, 135, 178, 1.00);
+}
+
+:root {
 	--bc-codeblock__button--hover: ;
 	--bt-codeblock__button--hover: ;
 	--br-codeblock__button--hover: ;
@@ -497,10 +501,6 @@
 	--bd-codeblock__button: ;
 	--sd-codeblock__button: ;
 	--co-codeblock__button: #5d5f62;
-}
-
-:root {
-	--co-codeblock__builtin: rgba(0, 135, 178, 1.00);
 }
 
 :root {
@@ -537,19 +537,19 @@
 }
 
 :root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+:root {
 	--bc-codeblock__gutters: #f5f5f7;
 	--bt-codeblock__gutters: none;
 	--br-codeblock__gutters: none;
 	--bb-codeblock__gutters: none;
 	--bl-codeblock__gutters: none;
 	--bd-codeblock__gutters: 5px;
-}
-
-:root {
-	--ff-codeblock__gutter: ;
-	--fs-codeblock__gutter: ;
-	--ft-codeblock__gutter: ;
-	--fw-codeblock__gutter: ;
 }
 
 :root {
@@ -625,16 +625,16 @@
 }
 
 :root {
-	--bc-control--hover-checked: rgba(220, 76, 79, 1.00);
-	--sd-control--hover-checked: none;
-}
-
-:root {
 	--bc-control--checked: rgba(220, 76, 79, 1.00);
 }
 
 :root {
 	--bc-control--hover: #b1b6bc;
+}
+
+:root {
+	--bc-control--hover-checked: rgba(220, 76, 79, 1.00);
+	--sd-control--hover-checked: none;
 }
 
 :root {
@@ -1416,11 +1416,11 @@
 }
 
 :root {
-	--bc-left-sidebar__toprow: #2d3234;
+	--bc-left-sidebar__toprow--hover: #2d3234;
 }
 
 :root {
-	--bc-left-sidebar__toprow--hover: #2d3234;
+	--bc-left-sidebar__toprow: #2d3234;
 }
 
 :root {
@@ -1487,6 +1487,18 @@
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 400;
 	--tt-logbutton: normal;
+}
+
+:root {
+	--bt-main__image: 1px solid rgba(232, 232, 232, 1.00);
+	--br-main__image: 1px solid rgba(232, 232, 232, 1.00);
+	--bb-main__image: 1px solid rgba(232, 232, 232, 1.00);
+	--bl-main__image: 1px solid rgba(232, 232, 232, 1.00);
+	--bd-main__image: ;
+}
+
+:root {
+	--co-main__strikethrough: ;
 }
 
 :root {
@@ -1834,12 +1846,12 @@
 }
 
 :root {
-	--bc-right-sidebar__content: #fafafa;
+	--bc-right-sidebar__container: #fafafa;
+	--bl-right-sidebar__container: 1px solid rgba(222, 222, 222, 1.00);
 }
 
 :root {
-	--bc-right-sidebar__container: #fafafa;
-	--bl-right-sidebar__container: 1px solid rgba(222, 222, 222, 1.00);
+	--bc-right-sidebar__content: #fafafa;
 }
 
 :root {
@@ -1857,21 +1869,11 @@
 }
 
 :root {
-	--co-right-sidebar__window-title: #666;
-}
-
-:root {
 	--bb-right-sidebar__window: transparent;
 }
 
 :root {
-	--bc-roam-css__button--active-hover: #f2d023;
-	--bt-roam-css__button--active-hover: none;
-	--br-roam-css__button--active-hover: none;
-	--bb-roam-css__button--active-hover: none;
-	--bl-roam-css__button--active-hover: none;
-	--bd-roam-css__button--active-hover: 5px;
-	--co-roam-css__button--active-hover: #3c350b;
+	--co-right-sidebar__window-title: #666;
 }
 
 :root {
@@ -1885,13 +1887,13 @@
 }
 
 :root {
-	--bc-roam-css__button--inactive-hover: #b9bdc4;
-	--bt-roam-css__button--inactive-hover: none;
-	--br-roam-css__button--inactive-hover: none;
-	--bb-roam-css__button--inactive-hover: none;
-	--bl-roam-css__button--inactive-hover: none;
-	--bd-roam-css__button--inactive-hover: 5px;
-	--co-roam-css__button--inactive-hover: #ffffff;
+	--bc-roam-css__button--active-hover: #f2d023;
+	--bt-roam-css__button--active-hover: none;
+	--br-roam-css__button--active-hover: none;
+	--bb-roam-css__button--active-hover: none;
+	--bl-roam-css__button--active-hover: none;
+	--bd-roam-css__button--active-hover: 5px;
+	--co-roam-css__button--active-hover: #3c350b;
 }
 
 :root {
@@ -1902,6 +1904,16 @@
 	--bl-roam-css__button--inactive: none;
 	--bd-roam-css__button--inactive: 5px;
 	--co-roam-css__button--inactive: #ffffff;
+}
+
+:root {
+	--bc-roam-css__button--inactive-hover: #b9bdc4;
+	--bt-roam-css__button--inactive-hover: none;
+	--br-roam-css__button--inactive-hover: none;
+	--bb-roam-css__button--inactive-hover: none;
+	--bl-roam-css__button--inactive-hover: none;
+	--bd-roam-css__button--inactive-hover: 5px;
+	--co-roam-css__button--inactive-hover: #ffffff;
 }
 
 :root {
@@ -1925,16 +1937,6 @@
 }
 
 :root {
-	--bc-roam-js__button--active-hover: #f2d023;
-	--bt-roam-js__button--active-hover: none;
-	--br-roam-js__button--active-hover: none;
-	--bb-roam-js__button--active-hover: none;
-	--bl-roam-js__button--active-hover: none;
-	--bd-roam-js__button--active-hover: 5px;
-	--co-roam-js__button--active-hover: #3c350b;
-}
-
-:root {
 	--bc-roam-js__button--active: #f2d023;
 	--bt-roam-js__button--active: none;
 	--br-roam-js__button--active: none;
@@ -1945,13 +1947,13 @@
 }
 
 :root {
-	--bc-roam-js__button--inactive-hover: #b9bdc4;
-	--bt-roam-js__button--inactive-hover: none;
-	--br-roam-js__button--inactive-hover: none;
-	--bb-roam-js__button--inactive-hover: none;
-	--bl-roam-js__button--inactive-hover: none;
-	--bd-roam-js__button--inactive-hover: 5px;
-	--co-roam-js__button--inactive-hover: #ffffff;
+	--bc-roam-js__button--active-hover: #f2d023;
+	--bt-roam-js__button--active-hover: none;
+	--br-roam-js__button--active-hover: none;
+	--bb-roam-js__button--active-hover: none;
+	--bl-roam-js__button--active-hover: none;
+	--bd-roam-js__button--active-hover: 5px;
+	--co-roam-js__button--active-hover: #3c350b;
 }
 
 :root {
@@ -1962,6 +1964,16 @@
 	--bl-roam-js__button--inactive: none;
 	--bd-roam-js__button--inactive: 5px;
 	--co-roam-js__button--inactive: #ffffff;
+}
+
+:root {
+	--bc-roam-js__button--inactive-hover: #b9bdc4;
+	--bt-roam-js__button--inactive-hover: none;
+	--br-roam-js__button--inactive-hover: none;
+	--bb-roam-js__button--inactive-hover: none;
+	--bl-roam-js__button--inactive-hover: none;
+	--bd-roam-js__button--inactive-hover: 5px;
+	--co-roam-js__button--inactive-hover: #ffffff;
 }
 
 :root {
@@ -1985,7 +1997,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: #0064e0;
+	--bc-roam42__cp-menu-item--selected: rgba(238, 239, 239, 1.00);
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
@@ -2002,7 +2014,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item-active--hover: #0064e0;
+	--bc-roam42__cp-menu-item-active--hover: rgba(238, 239, 239, 1.00);
 	--bt-roam42__cp-menu-item-active--hover: none;
 	--br-roam42__cp-menu-item-active--hover: none;
 	--bb-roam42__cp-menu-item-active--hover: none;
@@ -2017,7 +2029,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu: var(--cl-white);
+	--bc-roam42__jj-menu: rgba(251, 251, 251, 1.00);
 	--bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--br-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--bb-roam42__jj-menu: 1px solid var(--cl-gray-100);
@@ -2026,7 +2038,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: #0064e0;
+	--bc-roam42__jj-menu-item--highlight: rgba(238, 239, 239, 1.00);
 	--bt-roam42__jj-menu-item--highlight: none;
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
@@ -2080,11 +2092,15 @@
 }
 
 :root {
+	--co-settings__filelist-item: #1d72d1;
+}
+
+:root {
 	--co-settings__heading: #373837;
 }
 
 :root {
-	--co-settings__input--placeholder: #90959e;
+	--bc-settings__hotkeys: #b5b9bf;
 }
 
 :root {
@@ -2096,6 +2112,10 @@
 }
 
 :root {
+	--co-settings__input--placeholder: #90959e;
+}
+
+:root {
 	--bc-settings__input: transparen;
 	--bt-settings__input: none;
 	--br-settings__input: none;
@@ -2103,28 +2123,6 @@
 	--bl-settings__input: none;
 	--bd-settings__input: 5px;
 	--co-settings__input: #373837;
-}
-
-:root {
-	--co-settings__password-input--placeholder: #90959e;
-}
-
-:root {
-	--bc-settings__password-input--focus: #dbdde4;
-	--bt-settings__password-input--focus: none;
-	--br-settings__password-input--focus: none;
-	--bb-settings__password-input--focus: none;
-	--bl-settings__password-input--focus: none;
-}
-
-:root {
-	--bc-settings__password-input: transparent;
-	--bt-settings__password-input: none;
-	--br-settings__password-input: none;
-	--bb-settings__password-input: none;
-	--bl-settings__password-input: none;
-	--bd-settings__password-input: 5px;
-	--co-settings__password-input: #373837;
 }
 
 :root {
@@ -2159,19 +2157,29 @@
 }
 
 :root {
-	--co-settings__filelist-item: #1d72d1;
-}
-
-:root {
-	--bc-settings__hotkeys: #b5b9bf;
-}
-
-:root {
 	--bt-settings__panel: ;
 }
 
 :root {
-	--bc-settings__tab-list: #ffffff;
+	--bc-settings__password-input--focus: #dbdde4;
+	--bt-settings__password-input--focus: none;
+	--br-settings__password-input--focus: none;
+	--bb-settings__password-input--focus: none;
+	--bl-settings__password-input--focus: none;
+}
+
+:root {
+	--co-settings__password-input--placeholder: #90959e;
+}
+
+:root {
+	--bc-settings__password-input: transparent;
+	--bt-settings__password-input: none;
+	--br-settings__password-input: none;
+	--bb-settings__password-input: none;
+	--bl-settings__password-input: none;
+	--bd-settings__password-input: 5px;
+	--co-settings__password-input: #373837;
 }
 
 :root {
@@ -2186,6 +2194,10 @@
 	--bb-settings__select-wrapper: none;
 	--bl-settings__select-wrapper: none;
 	--bd-settings__select-wrapper: 5px;
+}
+
+:root {
+	--bc-settings__tab-list: #ffffff;
 }
 
 :root {
@@ -2457,17 +2469,5 @@
 	--bc-zotero__sequence: var(--cl-gray-50);
 	--br-zotero__sequence: 1px solid var(--cl-gray-100);
 	--fs-zotero__sequence: ;
-}
-
-:root {
-	--co-main__strikethrough: ;
-}
-
-:root {
-	--bt-main__image: 1px solid rgba(232, 232, 232, 1.00);
-	--br-main__image: 1px solid rgba(232, 232, 232, 1.00);
-	--bb-main__image: 1px solid rgba(232, 232, 232, 1.00);
-	--bl-main__image: 1px solid rgba(232, 232, 232, 1.00);
-	--bd-main__image: ;
 }
 

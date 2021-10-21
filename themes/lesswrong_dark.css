@@ -175,10 +175,6 @@
 }
 
 :root {
-	--co-block__ghost: var(--cl-gray-700);
-}
-
-:root {
 	--bc-block__button--hover: var(--cl-blue-900);
 	--bt-block__button--hover: 1px solid var(--cl-blue-800);
 	--br-block__button--hover: 1px solid var(--cl-blue-800);
@@ -197,6 +193,10 @@
 	--bd-block__button: 0px;
 	--sd-block__button: ;
 	--co-block__button: var(--cl-gray-100);
+}
+
+:root {
+	--co-block__ghost: var(--cl-gray-700);
 }
 
 :root {
@@ -314,6 +314,12 @@
 }
 
 :root {
+	--bc-button__minimal--active: ;
+	--sd-button__minimal--active: ;
+	--co-button__minimal--active: ;
+}
+
+:root {
 	--bc-button__minimal--hover: ;
 	--bd-button__minimal--hover: ;
 	--sd-button__minimal--hover: ;
@@ -325,6 +331,10 @@
 	--bc-button__minimal: ;
 	--bd-button__minimal: ;
 	--sd-button__minimal: ;
+}
+
+:root {
+	--co-button__minimal-icon--active: var(--cl-green-400);
 }
 
 :root {
@@ -367,16 +377,6 @@
 	--bd-button__warning: ;
 	--sd-button__warning: ;
 	--co-button__warning: ;
-}
-
-:root {
-	--bc-button__minimal--active: ;
-	--sd-button__minimal--active: ;
-	--co-button__minimal--active: ;
-}
-
-:root {
-	--co-button__minimal-icon--active: var(--cl-green-400);
 }
 
 :root {
@@ -479,6 +479,10 @@
 }
 
 :root {
+	--co-codeblock__builtin: var(--cl-indigo-400);
+}
+
+:root {
 	--bc-codeblock__button--hover: ;
 	--bt-codeblock__button--hover: ;
 	--br-codeblock__button--hover: ;
@@ -497,10 +501,6 @@
 	--bd-codeblock__button: ;
 	--sd-codeblock__button: ;
 	--co-codeblock__button: var(--cl-gray-300);
-}
-
-:root {
-	--co-codeblock__builtin: var(--cl-indigo-400);
 }
 
 :root {
@@ -537,19 +537,19 @@
 }
 
 :root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+:root {
 	--bc-codeblock__gutters: var(--cl-black);
 	--bt-codeblock__gutters: ;
 	--br-codeblock__gutters: 2px solid var(--cl-gray-900);
 	--bb-codeblock__gutters: ;
 	--bl-codeblock__gutters: ;
 	--bd-codeblock__gutters: ;
-}
-
-:root {
-	--ff-codeblock__gutter: ;
-	--fs-codeblock__gutter: ;
-	--ft-codeblock__gutter: ;
-	--fw-codeblock__gutter: ;
 }
 
 :root {
@@ -625,16 +625,16 @@
 }
 
 :root {
-	--bc-control--hover-checked: ;
-	--sd-control--hover-checked: ;
-}
-
-:root {
 	--bc-control--checked: ;
 }
 
 :root {
 	--bc-control--hover: ;
+}
+
+:root {
+	--bc-control--hover-checked: ;
+	--sd-control--hover-checked: ;
 }
 
 :root {
@@ -1416,11 +1416,11 @@
 }
 
 :root {
-	--bc-left-sidebar__toprow: ;
+	--bc-left-sidebar__toprow--hover: transparent;
 }
 
 :root {
-	--bc-left-sidebar__toprow--hover: transparent;
+	--bc-left-sidebar__toprow: ;
 }
 
 :root {
@@ -1487,6 +1487,18 @@
 	--fs-logbutton: 1rem;
 	--fw-logbutton: normal;
 	--tt-logbutton: normal;
+}
+
+:root {
+	--bt-main__image: ;
+	--br-main__image: ;
+	--bb-main__image: ;
+	--bl-main__image: ;
+	--bd-main__image: ;
+}
+
+:root {
+	--co-main__strikethrough: ;
 }
 
 :root {
@@ -1834,12 +1846,12 @@
 }
 
 :root {
-	--bc-right-sidebar__content: ;
+	--bc-right-sidebar__container: var(--cl-gray-800);
+	--bl-right-sidebar__container: 1px solid var(--cl-gray-800);
 }
 
 :root {
-	--bc-right-sidebar__container: var(--cl-gray-800);
-	--bl-right-sidebar__container: 1px solid var(--cl-gray-800);
+	--bc-right-sidebar__content: ;
 }
 
 :root {
@@ -1857,21 +1869,11 @@
 }
 
 :root {
-	--co-right-sidebar__window-title: ;
-}
-
-:root {
 	--bb-right-sidebar__window: 1px solid var(--cl-gray-700);
 }
 
 :root {
-	--bc-roam-css__button--active-hover: ;
-	--bt-roam-css__button--active-hover: ;
-	--br-roam-css__button--active-hover: ;
-	--bb-roam-css__button--active-hover: ;
-	--bl-roam-css__button--active-hover: ;
-	--bd-roam-css__button--active-hover: ;
-	--co-roam-css__button--active-hover: ;
+	--co-right-sidebar__window-title: ;
 }
 
 :root {
@@ -1885,13 +1887,13 @@
 }
 
 :root {
-	--bc-roam-css__button--inactive-hover: ;
-	--bt-roam-css__button--inactive-hover: ;
-	--br-roam-css__button--inactive-hover: ;
-	--bb-roam-css__button--inactive-hover: ;
-	--bl-roam-css__button--inactive-hover: ;
-	--bd-roam-css__button--inactive-hover: ;
-	--co-roam-css__button--inactive-hover: ;
+	--bc-roam-css__button--active-hover: ;
+	--bt-roam-css__button--active-hover: ;
+	--br-roam-css__button--active-hover: ;
+	--bb-roam-css__button--active-hover: ;
+	--bl-roam-css__button--active-hover: ;
+	--bd-roam-css__button--active-hover: ;
+	--co-roam-css__button--active-hover: ;
 }
 
 :root {
@@ -1902,6 +1904,16 @@
 	--bl-roam-css__button--inactive: ;
 	--bd-roam-css__button--inactive: ;
 	--co-roam-css__button--inactive: ;
+}
+
+:root {
+	--bc-roam-css__button--inactive-hover: ;
+	--bt-roam-css__button--inactive-hover: ;
+	--br-roam-css__button--inactive-hover: ;
+	--bb-roam-css__button--inactive-hover: ;
+	--bl-roam-css__button--inactive-hover: ;
+	--bd-roam-css__button--inactive-hover: ;
+	--co-roam-css__button--inactive-hover: ;
 }
 
 :root {
@@ -1925,16 +1937,6 @@
 }
 
 :root {
-	--bc-roam-js__button--active-hover: ;
-	--bt-roam-js__button--active-hover: ;
-	--br-roam-js__button--active-hover: ;
-	--bb-roam-js__button--active-hover: ;
-	--bl-roam-js__button--active-hover: ;
-	--bd-roam-js__button--active-hover: ;
-	--co-roam-js__button--active-hover: ;
-}
-
-:root {
 	--bc-roam-js__button--active: ;
 	--bt-roam-js__button--active: ;
 	--br-roam-js__button--active: ;
@@ -1945,13 +1947,13 @@
 }
 
 :root {
-	--bc-roam-js__button--inactive-hover: var(--cl-red-500);
-	--bt-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
-	--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
-	--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
-	--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
-	--bd-roam-js__button--inactive-hover: ;
-	--co-roam-js__button--inactive-hover: var(--cl-white);
+	--bc-roam-js__button--active-hover: ;
+	--bt-roam-js__button--active-hover: ;
+	--br-roam-js__button--active-hover: ;
+	--bb-roam-js__button--active-hover: ;
+	--bl-roam-js__button--active-hover: ;
+	--bd-roam-js__button--active-hover: ;
+	--co-roam-js__button--active-hover: ;
 }
 
 :root {
@@ -1962,6 +1964,16 @@
 	--bl-roam-js__button--inactive: 1px solid var(--cl-gray-500);
 	--bd-roam-js__button--inactive: 0px;
 	--co-roam-js__button--inactive: var(--cl-gray-100);
+}
+
+:root {
+	--bc-roam-js__button--inactive-hover: var(--cl-red-500);
+	--bt-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+	--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+	--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+	--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-400);
+	--bd-roam-js__button--inactive-hover: ;
+	--co-roam-js__button--inactive-hover: var(--cl-white);
 }
 
 :root {
@@ -2080,11 +2092,15 @@
 }
 
 :root {
+	--co-settings__filelist-item: ;
+}
+
+:root {
 	--co-settings__heading: var(--cl-gray-100);
 }
 
 :root {
-	--co-settings__input--placeholder: ;
+	--bc-settings__hotkeys: ;
 }
 
 :root {
@@ -2096,6 +2112,10 @@
 }
 
 :root {
+	--co-settings__input--placeholder: ;
+}
+
+:root {
 	--bc-settings__input: var(--cl-gray-700);
 	--bt-settings__input: ;
 	--br-settings__input: ;
@@ -2103,28 +2123,6 @@
 	--bl-settings__input: ;
 	--bd-settings__input: ;
 	--co-settings__input: ;
-}
-
-:root {
-	--co-settings__password-input--placeholder: ;
-}
-
-:root {
-	--bc-settings__password-input--focus: ;
-	--bt-settings__password-input--focus: ;
-	--br-settings__password-input--focus: ;
-	--bb-settings__password-input--focus: ;
-	--bl-settings__password-input--focus: ;
-}
-
-:root {
-	--bc-settings__password-input: ;
-	--bt-settings__password-input: ;
-	--br-settings__password-input: ;
-	--bb-settings__password-input: ;
-	--bl-settings__password-input: ;
-	--bd-settings__password-input: ;
-	--co-settings__password-input: ;
 }
 
 :root {
@@ -2159,19 +2157,29 @@
 }
 
 :root {
-	--co-settings__filelist-item: ;
-}
-
-:root {
-	--bc-settings__hotkeys: ;
-}
-
-:root {
 	--bt-settings__panel: ;
 }
 
 :root {
-	--bc-settings__tab-list: var(--cl-gray-700);
+	--bc-settings__password-input--focus: ;
+	--bt-settings__password-input--focus: ;
+	--br-settings__password-input--focus: ;
+	--bb-settings__password-input--focus: ;
+	--bl-settings__password-input--focus: ;
+}
+
+:root {
+	--co-settings__password-input--placeholder: ;
+}
+
+:root {
+	--bc-settings__password-input: ;
+	--bt-settings__password-input: ;
+	--br-settings__password-input: ;
+	--bb-settings__password-input: ;
+	--bl-settings__password-input: ;
+	--bd-settings__password-input: ;
+	--co-settings__password-input: ;
 }
 
 :root {
@@ -2186,6 +2194,10 @@
 	--bb-settings__select-wrapper: ;
 	--bl-settings__select-wrapper: ;
 	--bd-settings__select-wrapper: ;
+}
+
+:root {
+	--bc-settings__tab-list: var(--cl-gray-700);
 }
 
 :root {
@@ -2457,17 +2469,5 @@
 	--bc-zotero__sequence: var(--cl-gray-800);
 	--br-zotero__sequence: 1px solid var(--cl-black);
 	--fs-zotero__sequence: ;
-}
-
-:root {
-	--co-main__strikethrough: ;
-}
-
-:root {
-	--bt-main__image: ;
-	--br-main__image: ;
-	--bb-main__image: ;
-	--bl-main__image: ;
-	--bd-main__image: ;
 }
 
