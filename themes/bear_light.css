@@ -827,7 +827,7 @@
 }
 
 :root {
-	--bc-embed__container-10: #d7d7d7;
+	--bc-embed__container-10: hsl(113, 1%, 88%);
 	--bt-embed__container-10: none;
 	--br-embed__container-10: none;
 	--bb-embed__container-10: none;
@@ -836,7 +836,7 @@
 }
 
 :root {
-	--bc-embed__container-11: #f5f5f7;
+	--bc-embed__container-11: hsl(113, 1%, 93%);
 	--bt-embed__container-11: none;
 	--br-embed__container-11: none;
 	--bb-embed__container-11: none;
@@ -845,7 +845,7 @@
 }
 
 :root {
-	--bc-embed__container-2: #f3f3f3;
+	--bc-embed__container-2: hsl(113, 1%, 98%);
 	--bt-embed__container-2: none;
 	--br-embed__container-2: none;
 	--bb-embed__container-2: none;
@@ -854,7 +854,7 @@
 }
 
 :root {
-	--bc-embed__container-3: #f0f0f0;
+	--bc-embed__container-3: hsl(113, 1%, 83%);
 	--bt-embed__container-3: none;
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
@@ -863,7 +863,7 @@
 }
 
 :root {
-	--bc-embed__container-4: #e8e8e8;
+	--bc-embed__container-4: hsl(113, 1%, 88%);
 	--bt-embed__container-4: none;
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
@@ -872,7 +872,7 @@
 }
 
 :root {
-	--bc-embed__container-5: #d7d7d7;
+	--bc-embed__container-5: hsl(113, 1%, 93%);
 	--bt-embed__container-5: none;
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
@@ -881,7 +881,7 @@
 }
 
 :root {
-	--bc-embed__container-6: #f5f5f7;
+	--bc-embed__container-6: hsl(113, 1%, 98%);
 	--bt-embed__container-6: none;
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
@@ -890,7 +890,7 @@
 }
 
 :root {
-	--bc-embed__container-7: #f3f3f3;
+	--bc-embed__container-7: hsl(113, 1%, 83%);
 	--bt-embed__container-7: none;
 	--br-embed__container-7: none;
 	--bb-embed__container-7: none;
@@ -899,7 +899,7 @@
 }
 
 :root {
-	--bc-embed__container-8: #f0f0f0;
+	--bc-embed__container-8: hsl(113, 1%, 88%);
 	--bt-embed__container-8: none;
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
@@ -908,7 +908,7 @@
 }
 
 :root {
-	--bc-embed__container-9: #e8e8e8;
+	--bc-embed__container-9: hsl(113, 1%, 93%);
 	--bt-embed__container-9: none;
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
@@ -917,7 +917,7 @@
 }
 
 :root {
-	--bc-embed: #f5f5f7;
+	--bc-embed: hsl(113, 1%, 98%);
 	--bt-embed: none;
 	--br-embed: none;
 	--bb-embed: none;
