@@ -2029,7 +2029,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu: rgba(251, 251, 251, 1.00);
+	--bc-roam42__jj-menu: #ececec;
 	--bt-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--br-roam42__jj-menu: 1px solid var(--cl-gray-100);
 	--bb-roam42__jj-menu: 1px solid var(--cl-gray-100);
