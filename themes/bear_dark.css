@@ -1997,7 +1997,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: #0059d0;
+	--bc-roam42__cp-menu-item--selected: #2c2d30;
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
@@ -2014,7 +2014,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item-active--hover: #0059d0;
+	--bc-roam42__cp-menu-item-active--hover: #2c2d30;
 	--bt-roam42__cp-menu-item-active--hover: none;
 	--br-roam42__cp-menu-item-active--hover: none;
 	--bb-roam42__cp-menu-item-active--hover: none;
@@ -2038,7 +2038,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: #0059d0;
+	--bc-roam42__jj-menu-item--highlight: #2c2d30;
 	--bt-roam42__jj-menu-item--highlight: none;
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
