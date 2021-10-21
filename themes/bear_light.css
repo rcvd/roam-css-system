@@ -854,7 +854,7 @@
 }
 
 :root {
-	--bc-embed__container-3: hsl(113, 1%, 83%);
+	--bc-embed__container-3: hsl(113, 1%, 78%);
 	--bt-embed__container-3: none;
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
@@ -863,7 +863,7 @@
 }
 
 :root {
-	--bc-embed__container-4: hsl(113, 1%, 88%);
+	--bc-embed__container-4: hsl(113, 1%, 83%);
 	--bt-embed__container-4: none;
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
@@ -872,7 +872,7 @@
 }
 
 :root {
-	--bc-embed__container-5: hsl(113, 1%, 93%);
+	--bc-embed__container-5: hsl(113, 1%, 88%);
 	--bt-embed__container-5: none;
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
@@ -881,7 +881,7 @@
 }
 
 :root {
-	--bc-embed__container-6: hsl(113, 1%, 98%);
+	--bc-embed__container-6: hsl(113, 1%, 93%);
 	--bt-embed__container-6: none;
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
@@ -890,7 +890,7 @@
 }
 
 :root {
-	--bc-embed__container-7: hsl(113, 1%, 83%);
+	--bc-embed__container-7: hsl(113, 1%, 78%);
 	--bt-embed__container-7: none;
 	--br-embed__container-7: none;
 	--bb-embed__container-7: none;
@@ -899,7 +899,7 @@
 }
 
 :root {
-	--bc-embed__container-8: hsl(113, 1%, 88%);
+	--bc-embed__container-8: hsl(113, 1%, 83%);
 	--bt-embed__container-8: none;
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
@@ -908,7 +908,7 @@
 }
 
 :root {
-	--bc-embed__container-9: hsl(113, 1%, 93%);
+	--bc-embed__container-9: hsl(113, 1%, 88%);
 	--bt-embed__container-9: none;
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
@@ -917,7 +917,7 @@
 }
 
 :root {
-	--bc-embed: hsl(113, 1%, 98%);
+	--bc-embed: hsl(113, 1%, 93%);
 	--bt-embed: none;
 	--br-embed: none;
 	--bb-embed: none;
