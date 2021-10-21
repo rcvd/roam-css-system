@@ -1627,7 +1627,7 @@
 }
 
 :root {
-	--bc-modal-dialog: #ececec;
+	--bc-modal-dialog: rgba(251, 251, 251, 1.00);
 	--bt-modal-dialog: 1px solid #cacaca;
 	--br-modal-dialog: 1px solid #cacaca;
 	--bb-modal-dialog: 1px solid #cacaca;
