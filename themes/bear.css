@@ -1582,7 +1582,7 @@
 :root {
 	--br-datepicker__weeknumber: 1px solid #f0f0f0;
 	--co-datepicker__weeknumber: #666666;
-	--ff-datepicker__weeknumber: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-datepicker__weeknumber: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-datepicker__weeknumber: 13px;
 }
 
@@ -1684,7 +1684,7 @@
 }
 
 :root {
-	--ff-div: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-div: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-div: 13px;
 }
 
@@ -1771,7 +1771,7 @@
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
 	--co-elevation__item: rgba(84, 84, 84, 1.00);
-	--ff-elevation__item: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-elevation__item: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -3036,7 +3036,7 @@
 
 :root {
 	--co-left-sidebar__db-title: #b8b9ba;
-	--ff-left-sidebar__db-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-left-sidebar__db-title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-left-sidebar__db-title: 14px;
 	--fw-left-sidebar__db-title: 400;
 	--tt-left-sidebar__db-title: ;
@@ -3132,7 +3132,7 @@
 :root {
 	--bb-level1: none;
 	--co-level1: rgba(66, 66, 66, 1.00);
-	--ff-level1: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-level1: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level1: 20px;
 	--ft-level1: ;
 	--fw-level1: 500;
@@ -3149,7 +3149,7 @@
 :root {
 	--bb-level2: none;
 	--co-level2: rgba(66, 66, 66, 1.00);
-	--ff-level2: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-level2: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level2: 18px;
 	--ft-level2: ;
 	--fw-level2: 500;
@@ -3166,7 +3166,7 @@
 :root {
 	--bb-level3: none;
 	--co-level3: rgba(66, 66, 66, 1.00);
-	--ff-level3: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-level3: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-level3: 15px;
 	--ft-level3: ;
 	--fw-level3: 500;
@@ -3182,7 +3182,7 @@
 
 :root {
 	--co-log-page__h1: rgba(160, 160, 160, 1.00);
-	--ff-log-page__h1: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-log-page__h1: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-log-page__h1: 20px;
 	--ft-log-page__h1: ;
 	--fw-log-page__h1: 500;
@@ -3239,7 +3239,7 @@
 :root {
 	--bd-logbutton: 6px;
 	--co-logbutton: #b8b9ba;
-	--ff-logbutton: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-logbutton: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-logbutton: 1rem;
 	--fw-logbutton: 400;
 	--tt-logbutton: normal;
@@ -3290,7 +3290,7 @@
 
 :root {
 	--co-main: rgba(66, 66, 66, 1.00);
-	--ff-main: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-main: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-main: 1rem;
 	--fw-main: normal;
 }
@@ -3622,7 +3622,7 @@
 
 :root {
 	--co-page__title: rgba(51, 51, 51, 1.00);
-	--ff-page__title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-page__title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-page__title: 20px;
 	--ft-page__title: ;
 	--fw-page__title: 500;
@@ -3930,7 +3930,7 @@
 :root {
 	--bb-reference__linked-title: ;
 	--co-reference__linked-title: rgba(160,160,160,1);
-	--ff-reference__linked-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-reference__linked-title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__linked-title: 1rem;
 	--ft-reference__linked-title: normal;
 	--fw-reference__linked-title: 500;
@@ -3965,7 +3965,7 @@
 
 :root {
 	--co-reference__page-title: #121418;
-	--ff-reference__page-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-reference__page-title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__page-title: 1rem;
 	--fw-reference__page-title: ;
 	--td-reference__page-title: none;
@@ -3991,7 +3991,7 @@
 :root {
 	--bb-reference__unlinked-title: ;
 	--co-reference__unlinked-title: rgba(160,160,160,1);
-	--ff-reference__unlinked-title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-reference__unlinked-title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-reference__unlinked-title: 1rem;
 	--ft-reference__unlinked-title: normal;
 	--fw-reference__unlinked-title: 500;
@@ -4056,7 +4056,7 @@
 }
 
 :root {
-	--ff-right-sidebar__helper-text: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-right-sidebar__helper-text: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4848,7 +4848,7 @@
 	--bl-starred__page: none;
 	--bd-starred__page: 10px;
 	--co-starred__page: #b8b9ba;
-	--ff-starred__page: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-starred__page: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__page: 14px;
 	--ft-starred__page: ;
 	--fw-starred__page: 400;
@@ -4867,7 +4867,7 @@
 
 :root {
 	--co-starred__title: #b8b9ba;
-	--ff-starred__title: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-starred__title: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-starred__title: 14px;
 	--ft-starred__title: ;
 	--fw-starred__title: 500;
@@ -4982,7 +4982,7 @@
 	--bl-tags: none;
 	--bd-tags: 20px;
 	--co-tags: #ffffff;
-	--ff-tags: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-tags: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-tags: 1rem;
 	--ft-tags: ;
 	--fw-tags: 400;
@@ -5226,7 +5226,7 @@
 :root {
 	--br-topbar-datepicker__weeknumber: 1px solid #f0f0f0;
 	--co-topbar-datepicker__weeknumber: #666666;
-	--ff-topbar-datepicker__weeknumber: avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--ff-topbar-datepicker__weeknumber: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-topbar-datepicker__weeknumber: 13px;
 }
 
