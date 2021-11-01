@@ -37,6 +37,12 @@ Thanks a lot for your support!
 You can easily customize more than 350 UI elements with more than 1.500 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
 
 ## Themes
+### Bear
+![](screenshots/bear-light.jpeg)
+
+![](screenshots/bear-dark.jpeg)
+
+
 ### Apple
 ![](screenshots/apple-light.png)
 
