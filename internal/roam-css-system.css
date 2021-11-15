@@ -560,7 +560,7 @@ code {
 	font-weight: 			var(--fw-codeblock__gutter, inherit);
 }
 
-.e2 .cm-gutters {
+._2 .cm-gutters {
 	background-color: 		var(--bc-codeblock__gutters, #f7f7f7);
 	border-top: 			var(--bt-codeblock__gutters, inherit);
 	border-right: 			var(--br-codeblock__gutters, 1px solid #ddd);
