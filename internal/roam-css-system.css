@@ -530,7 +530,7 @@ code {
 	color: 					var(--co-codeblock__comment, #a50);
 }
 
-.CodeMirror {
+.rm-code-block {
 	background-color: 		var(--bc-codeblock__container, white);
 	border-top: 			var(--bt-codeblock__container, inherit);
 	border-right: 			var(--br-codeblock__container, inherit);
