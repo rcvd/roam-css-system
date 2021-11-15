@@ -118,10 +118,6 @@ hr {
     font:  inherit;
 }
 
-.rm-block-separator {
-    min-width: 0px;
-}
-
 .block-expand {
   margin-top: 4px;
 }
@@ -158,3 +154,7 @@ hr {
 .rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
     padding: 0px 7px!important;
 }
+
+.rm-code-block__language-chooser {
+    z-index: 1;
+  }

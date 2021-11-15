@@ -225,3 +225,7 @@
 .roam-body .roam-app .roam-main .roam-article .rm-title-editing-display {
     margin-bottom: 32px;
 }
+
+.rm-code-block__language-chooser {
+    z-index: 1;
+  }

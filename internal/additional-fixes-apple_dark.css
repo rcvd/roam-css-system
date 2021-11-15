@@ -442,3 +442,7 @@ textarea,
 .CodeMirror .CodeMirror-scroll {
   max-height: 960px;
 }
+
+.rm-code-block__language-chooser {
+  z-index: 1;
+}

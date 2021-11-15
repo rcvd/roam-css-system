@@ -442,3 +442,7 @@ textarea,
 .bp3-menu-item {
     padding: 3px 7px!important;
 }
+
+.rm-code-block__language-chooser {
+    z-index: 1;
+  }
