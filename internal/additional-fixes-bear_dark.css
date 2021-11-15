@@ -185,7 +185,7 @@
 }
 
 /* Hide Code Block Gutter */
-.CodeMirror-gutter-wrapper, .CodeMirror-gutters {
+.cm-gutters {
   display: none;
 }
 
