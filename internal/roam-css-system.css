@@ -560,13 +560,13 @@ code {
 	font-weight: 			var(--fw-codeblock__gutter, inherit);
 }
 
-._2 .cm-gutters {
-	background-color: 		var(--bc-codeblock__gutters, #f7f7f7);
-	border-top: 			var(--bt-codeblock__gutters, inherit);
-	border-right: 			var(--br-codeblock__gutters, 1px solid #ddd);
-	border-bottom: 			var(--bb-codeblock__gutters, inherit);
-	border-left: 			var(--bl-codeblock__gutters, inherit);
-	border-radius: 			var(--bd-codeblock__gutters, inherit);
+.cm-gutters {
+	background-color: 		var(--bc-codeblock__gutters, #f7f7f7)!important;
+	border-top: 			var(--bt-codeblock__gutters, inherit)!important;
+	border-right: 			var(--br-codeblock__gutters, 1px solid #ddd)!important;
+	border-bottom: 			var(--bb-codeblock__gutters, inherit)!important;
+	border-left: 			var(--bl-codeblock__gutters, inherit)!important;
+	border-radius: 			var(--bd-codeblock__gutters, inherit)!important;
 }
 
 .cm-s-default .cm-hr {
