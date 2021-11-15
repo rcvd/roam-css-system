@@ -396,7 +396,7 @@ textarea,
 
 /* Hide Code Block Gutter */
 .cm-gutters {
-  display: none;
+  display: none!important;
 }
 
 .CodeMirror {
