@@ -390,7 +390,7 @@ textarea,
   display: none!important;
 }
 
-.CodeMirror {
+.rm-code-block {
   padding: 20px;
 }
 
