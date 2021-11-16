@@ -1,0 +1,3487 @@
+[{
+	"title": "Roam CSS System - lesswrong - light",
+	"children":
+	[
+	{
+		"string": "a",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--co-a--hover: var(--cl-green-500);\n\t--td-a--hover: underline;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-a: var(--cl-green-400);\n\t--td-a: underline;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "alias",
+		"children": [
+		{
+			"string": "tooltip-content-bq",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bl-alias__tooltip-content-bq: 1px solid var(--cl-gray-100);\n\t--co-alias__tooltip-content-bq: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "tooltip-external",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-alias__tooltip-external--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-alias__tooltip-external: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "allpages",
+		"children": [
+		{
+			"string": "checkbox",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__checkbox: transparent;\n\t--bt-allpages__checkbox: 1px solid var(--cl-gray-300);\n\t--br-allpages__checkbox: 1px solid var(--cl-gray-300);\n\t--bb-allpages__checkbox: 1px solid var(--cl-gray-300);\n\t--bl-allpages__checkbox: 1px solid var(--cl-gray-300);\n\t--bd-allpages__checkbox: ;\n\t--sd-allpages__checkbox: ;\n\t--fs-allpages__checkbox: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "clickable-pill",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__clickable-pill: var(--cl-gray-300);\n\t--bt-allpages__clickable-pill: none;\n\t--br-allpages__clickable-pill: none;\n\t--bb-allpages__clickable-pill: none;\n\t--bl-allpages__clickable-pill: none;\n\t--bd-allpages__clickable-pill: 4px;\n\t--co-allpages__clickable-pill: var(--cl-white);\n\t--fs-allpages__clickable-pill: ;\n\t--fw-allpages__clickable-pill: ;\n\t--op-allpages__clickable-pill: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "clickable-pill-1",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__clickable-pill-1: var(--cl-gray-400);\n\t--bt-allpages__clickable-pill-1: none;\n\t--br-allpages__clickable-pill-1: none;\n\t--bb-allpages__clickable-pill-1: none;\n\t--bl-allpages__clickable-pill-1: none;\n\t--co-allpages__clickable-pill-1: var(--cl-white);\n\t--op-allpages__clickable-pill-1: 1;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "clickable-pill-2",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__clickable-pill-2: var(--cl-gray-500);\n\t--bt-allpages__clickable-pill-2: none;\n\t--br-allpages__clickable-pill-2: none;\n\t--bb-allpages__clickable-pill-2: none;\n\t--bl-allpages__clickable-pill-2: none;\n\t--co-allpages__clickable-pill-2: var(--cl-white);\n\t--op-allpages__clickable-pill-2: 1;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "clickable-pill-3",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__clickable-pill-3: var(--cl-gray-600);;\n\t--bt-allpages__clickable-pill-3: none;\n\t--br-allpages__clickable-pill-3: none;\n\t--bb-allpages__clickable-pill-3: none;\n\t--bl-allpages__clickable-pill-3: none;\n\t--co-allpages__clickable-pill-3: var(--cl-white);\n\t--op-allpages__clickable-pill-3: 1;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "clickable-pill-empty",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__clickable-pill-empty: transparent;\n\t--bt-allpages__clickable-pill-empty: ;\n\t--br-allpages__clickable-pill-empty: ;\n\t--bb-allpages__clickable-pill-empty: ;\n\t--bl-allpages__clickable-pill-empty: ;\n\t--co-allpages__clickable-pill-empty: var(--cl-gray-400);\n\t--op-allpages__clickable-pill-empty: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "input",
+			"children": [
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__input--focused: ;\n\t--bt-allpages__input--focused: ;\n\t--br-allpages__input--focused: ;\n\t--bb-allpages__input--focused: ;\n\t--bl-allpages__input--focused: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__input: ;\n\t--bt-allpages__input: ;\n\t--br-allpages__input: ;\n\t--bb-allpages__input: ;\n\t--bl-allpages__input: ;\n\t--bd-allpages__input: 0px;\n\t--sd-allpages__input: none;\n\t--co-allpages__input: var(--cl-gray-900);\n\t--fs-allpages__input: 1rem;\n\t--fw-allpages__input: normal;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "input-icon",
+			"children": [
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__input-icon--focused: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__input-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "row",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bb-allpages__row: 1px solid var(--cl-gray-100);\n\t--co-allpages__row: var(--cl-gray-400);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "row-header",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-allpages__row-header: var(--cl-gray-50);\n\t--bb-allpages__row-header: ;\n\t--bd-allpages__row-header: 0px;\n\t--co-allpages__row-header: var(--cl-gray-900);\n\t--fs-allpages__row-header: 1rem;\n\t--fw-allpages__row-header: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "sort-button",
+			"children": [
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__sort-button--focused: var(--cl-green-500);\n\t--fw-allpages__sort-button--focused: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "sorted-header-text",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__sorted-header-text: var(--cl-gray-700);\n\t--fw-allpages__sorted-header-text: bold;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title-col",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__title-col: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title-header",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__title-header: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title-text",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-allpages__title-text: var(--cl-gray-800);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "app",
+		"children": [
+		{
+			"string": "h1",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-app__h1: var(--cl-gray-900);\n\t--ff-app__h1: ;\n\t--ft-app__h1: ;\n\t--fw-app__h1: normal;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-app: var(--cl-white);\n\t--co-app: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "attributes",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-attributes: ;\n\t--ft-attributes: ;\n\t--fw-attributes: bold;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "block",
+		"children": [
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-block__button--hover: var(--cl-blue-50);\n\t--bt-block__button--hover: 1px solid var(--cl-blue-100);\n\t--br-block__button--hover: 1px solid var(--cl-blue-100);\n\t--bb-block__button--hover: 1px solid var(--cl-blue-100);\n\t--bl-block__button--hover: 1px solid var(--cl-blue-100);\n\t--sd-block__button--hover: ;\n\t--co-block__button--hover: var(--cl-blue-900);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-block__button: var(--cl-gray-100);\n\t--bt-block__button: 1px solid var(--cl-gray-200);\n\t--br-block__button: 1px solid var(--cl-gray-200);\n\t--bb-block__button: 1px solid var(--cl-gray-200);\n\t--bl-block__button: 1px solid var(--cl-gray-200);\n\t--bd-block__button: 0px;\n\t--sd-block__button: ;\n\t--co-block__button: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "ghost",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-block__ghost: var(--cl-gray-300);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "block-highlight",
+		"children": [
+		{
+			"string": "blue",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-block-highlight--blue: var(--cl-gray-100);\n\t--co-block-highlight--blue: ;\n}```"
+			}]
+		},
+		{
+			"string": "grey",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-block-highlight--grey: var(--cl-gray-100);\n\t--co-block-highlight--grey: ;\n}```"
+			}]
+		},
+		{
+			"string": "yellow",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-block-highlight--yellow: var(--cl-green-100);\n\t--co-block-highlight--yellow: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "block-ref",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-block-ref--hover: ;\n\t--co-block-ref--hover: var(--cl-green-500);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-block-ref: .5px dotted var(--cl-gray-300);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "brackets",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-brackets: var(--cl-gray-500);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "bullet",
+		"children": [
+		{
+			"string": "closed",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-bullet__closed: 4px solid var(--cl-gray-200);\n\t--br-bullet__closed: 4px solid var(--cl-gray-200);\n\t--bb-bullet__closed: 4px solid var(--cl-gray-200);\n\t--bl-bullet__closed: 4px solid var(--cl-gray-200);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "ghost",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-bullet__ghost: var(--cl-gray-200);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "inner",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-bullet__inner: var(--cl-gray-200);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "button",
+		"children": [
+		{
+			"string": "cancel",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__cancel--hover: ;\n\t--bt-button__cancel--hover: ;\n\t--br-button__cancel--hover: ;\n\t--bb-button__cancel--hover: ;\n\t--bl-button__cancel--hover: ;\n\t--sd-button__cancel--hover: ;\n\t--co-button__cancel--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__cancel: ;\n\t--bt-button__cancel: ;\n\t--br-button__cancel: ;\n\t--bb-button__cancel: ;\n\t--bl-button__cancel: ;\n\t--bd-button__cancel: ;\n\t--sd-button__cancel: ;\n\t--co-button__cancel: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "danger",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__danger--hover: ;\n\t--bt-button__danger--hover: ;\n\t--br-button__danger--hover: ;\n\t--bb-button__danger--hover: ;\n\t--bl-button__danger--hover: ;\n\t--sd-button__danger--hover: ;\n\t--co-button__danger--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__danger: ;\n\t--bt-button__danger: ;\n\t--br-button__danger: ;\n\t--bb-button__danger: ;\n\t--bl-button__danger: ;\n\t--bd-button__danger: ;\n\t--sd-button__danger: ;\n\t--co-button__danger: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "disabled",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__disabled--hover: ;\n\t--bt-button__disabled--hover: ;\n\t--br-button__disabled--hover: ;\n\t--bb-button__disabled--hover: ;\n\t--bl-button__disabled--hover: ;\n\t--sd-button__disabled--hover: ;\n\t--co-button__disabled--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__disabled: ;\n\t--bt-button__disabled: ;\n\t--br-button__disabled: ;\n\t--bb-button__disabled: ;\n\t--bl-button__disabled: ;\n\t--bd-button__disabled: ;\n\t--sd-button__disabled: ;\n\t--co-button__disabled: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-button__icon--hover: var(--cl-gray-300);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-button__icon: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "minimal",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__minimal--active: ;\n\t--sd-button__minimal--active: ;\n\t--co-button__minimal--active: ;\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__minimal--hover: ;\n\t--bd-button__minimal--hover: ;\n\t--sd-button__minimal--hover: ;\n\t--co-button__minimal--hover: ;\n\t--td-button__minimal--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__minimal: ;\n\t--bd-button__minimal: ;\n\t--sd-button__minimal: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "minimal-icon",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-button__minimal-icon--active: var(--cl-green-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "primary",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__primary--hover: ;\n\t--bt-button__primary--hover: ;\n\t--br-button__primary--hover: ;\n\t--bb-button__primary--hover: ;\n\t--bl-button__primary--hover: ;\n\t--sd-button__primary--hover: ;\n\t--co-button__primary--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__primary: ;\n\t--bt-button__primary: ;\n\t--br-button__primary: ;\n\t--bb-button__primary: ;\n\t--bl-button__primary: ;\n\t--bd-button__primary: ;\n\t--sd-button__primary: ;\n\t--co-button__primary: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "warning",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__warning--hover: ;\n\t--bt-button__warning--hover: ;\n\t--br-button__warning--hover: ;\n\t--bb-button__warning--hover: ;\n\t--bl-button__warning--hover: ;\n\t--sd-button__warning--hover: ;\n\t--co-button__warning--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-button__warning: ;\n\t--bt-button__warning: ;\n\t--br-button__warning: ;\n\t--bb-button__warning: ;\n\t--bl-button__warning: ;\n\t--bd-button__warning: ;\n\t--sd-button__warning: ;\n\t--co-button__warning: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "default",
+			"children": [{
+				"string": "```css\n:root {\n\t--bt-button--default: ;\n\t--br-button--default: ;\n\t--bb-button--default: ;\n\t--bl-button--default: ;\n\t--bd-button--default: ;\n\t--fs-button--default: ;\n}```"
+			}]
+		},
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-button--hover: transparent;\n\t--sd-button--hover: none;\n\t--co-button--hover: var(--cl-green-500);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-button: transparent;\n\t--sd-button: none;\n\t--co-button: var(--cl-gray-700);\n\t--ff-button: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "callout",
+		"children": [
+		{
+			"string": "icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-callout__icon: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "primary",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-callout__primary: ;\n\t--bt-callout__primary: ;\n\t--br-callout__primary: ;\n\t--bb-callout__primary: ;\n\t--bl-callout__primary: ;\n\t--bd-callout__primary: ;\n\t--fs-callout__primary: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "card",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-card: var(--cl-white);\n\t--bt-card: 1px solid var(--cl-gray-100);\n\t--br-card: 1px solid var(--cl-gray-100);\n\t--bb-card: 1px solid var(--cl-gray-100);\n\t--bl-card: 1px solid var(--cl-gray-100);\n\t--bd-card: 0px;\n\t--sd-card: none;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "caret",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-caret: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "checkmark",
+		"children": [
+		{
+			"string": "mark",
+			"children": [
+			{
+				"string": "checked",
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-checkmark__mark--checked: 0px;\n\t--br-checkmark__mark--checked: 2px solid var(--cl-white);\n\t--bb-checkmark__mark--checked: 2px solid var(--cl-white);\n\t--bl-checkmark__mark--checked: 0px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "checked",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-checkmark--checked: var(--cl-gray-700);\n\t--bt-checkmark--checked: ;\n\t--br-checkmark--checked: ;\n\t--bb-checkmark--checked: ;\n\t--bl-checkmark--checked: ;\n\t--sd-checkmark--checked: ;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-checkmark: ;\n\t--bt-checkmark: 1px solid var(--cl-gray-500);\n\t--br-checkmark: 1px solid var(--cl-gray-500);\n\t--bb-checkmark: 1px solid var(--cl-gray-500);\n\t--bl-checkmark: 1px solid var(--cl-gray-500);\n\t--bd-checkmark: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "code",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-code: var(--cl-gray-50);\n\t--bt-code: 1px solid var(--cl-gray-100);\n\t--br-code: 1px solid var(--cl-gray-100);\n\t--bb-code: 1px solid var(--cl-gray-100);\n\t--bl-code: 1px solid var(--cl-gray-100);\n\t--bd-code: 2px;\n\t--co-code: var(--cl-gray-900);\n\t--ff-code: 'iA Writer Mono S';\n\t--fs-code: 1rem;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "codeblock",
+		"children": [
+		{
+			"string": "activeline",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "atom",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__atom: var(--cl-indigo-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "attribute",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__attribute: var(--cl-blue-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "bracket",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__bracket: var(--cl-gray-400);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "builtin",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__builtin: var(--cl-indigo-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__button--hover: ;\n\t--bt-codeblock__button--hover: ;\n\t--br-codeblock__button--hover: ;\n\t--bb-codeblock__button--hover: ;\n\t--bl-codeblock__button--hover: ;\n\t--sd-codeblock__button--hover: ;\n\t--co-codeblock__button--hover: var(--cl-green-500);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__button: ;\n\t--bt-codeblock__button: ;\n\t--br-codeblock__button: ;\n\t--bb-codeblock__button: ;\n\t--bl-codeblock__button: ;\n\t--bd-codeblock__button: ;\n\t--sd-codeblock__button: ;\n\t--co-codeblock__button: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "code",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__code: ;\n\t--ff-codeblock__code: 'Source Code Pro';\n\t--fs-codeblock__code: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "comment",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__comment: var(--cl-yellow-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__container: var(--cl-gray-50);\n\t--bt-codeblock__container: ;\n\t--br-codeblock__container: ;\n\t--bb-codeblock__container: ;\n\t--bl-codeblock__container: ;\n\t--bd-codeblock__container: ;\n\t--co-codeblock__container: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "cursor",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--br-codeblock__cursor: 1px solid var(--cl-gray-900);\n\t--bl-codeblock__cursor: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "def",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__def: var(--cl-blue-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "error",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__error: var(--cl-red-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "gutter",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--ff-codeblock__gutter: ;\n\t--fs-codeblock__gutter: ;\n\t--ft-codeblock__gutter: ;\n\t--fw-codeblock__gutter: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "gutters",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__gutters: var(--cl-gray-50);\n\t--bt-codeblock__gutters: ;\n\t--br-codeblock__gutters: 2px solid var(--cl-white);\n\t--bb-codeblock__gutters: ;\n\t--bl-codeblock__gutters: ;\n\t--bd-codeblock__gutters: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "hr",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__hr: var(--cl-gray-400);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "invalidchar",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__invalidchar: var(--cl-red-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "keyword",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__keyword: var(--cl-pink-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "link",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__link: var(--cl-blue-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "matchingbracket",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__matchingbracket: var(--cl-green-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "meta",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__meta: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "nonmatchingbracket",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__nonmatchingbracket: var(--cl-red-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "number",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__number: var(--cl-green-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "operator",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__operator: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "qualifier",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__qualifier: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "searching",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__searching: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "selected",
+			"children": [
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__selected--focused: var(--cl-gray-200);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__selected: var(--cl-gray-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "string",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__string: var(--cl-red-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "string-2",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__string-2: var(--cl-yellow-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "tag",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__tag: var(--cl-green-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "type",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__type: var(--cl-green-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "variable-2",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-codeblock__variable-2: var(--cl-blue-700);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "control",
+		"children": [
+		{
+			"string": "checked",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-control--checked: ;\n}```"
+			}]
+		},
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-control--hover: ;\n}```"
+			}]
+		},
+		{
+			"string": "hover-checked",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-control--hover-checked: ;\n\t--sd-control--hover-checked: ;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-control: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "datepicker",
+		"children": [
+		{
+			"string": "day",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__day--hover: var(--cl-green-500);\n\t--bd-datepicker__day--hover: ;\n\t--co-datepicker__day--hover: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "nav-button",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__nav-button--hover: ;\n\t--bt-datepicker__nav-button--hover: none;\n\t--br-datepicker__nav-button--hover: none;\n\t--bb-datepicker__nav-button--hover: none;\n\t--bl-datepicker__nav-button--hover: none;\n\t--bd-datepicker__nav-button--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__nav-button--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__nav-button: ;\n\t--bt-datepicker__nav-button: none;\n\t--br-datepicker__nav-button: none;\n\t--bb-datepicker__nav-button: none;\n\t--bl-datepicker__nav-button: none;\n\t--bd-datepicker__nav-button: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__nav-button: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "outside",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__outside--hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "select",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__select--hover: var(--cl-gray-200);\n\t--co-datepicker__select--hover: var(--cl-black);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__select: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "select-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__select-icon--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__select-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "today",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-datepicker__today: ;\n\t--bt-datepicker__today: ;\n\t--br-datepicker__today: ;\n\t--bb-datepicker__today: ;\n\t--bl-datepicker__today: ;\n\t--co-datepicker__today: var(--cl-green-500);\n\t--fw-datepicker__today: bold;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "weekdays",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-datepicker__weekdays: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "weeknumber",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--br-datepicker__weeknumber: 1px solid var(--cl-gray-300);\n\t--co-datepicker__weeknumber: var(--cl-gray-500);\n\t--ff-datepicker__weeknumber: 'Source Sans Pro';\n\t--fs-datepicker__weeknumber: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-datepicker: var(--cl-white);\n\t--bt-datepicker: 1px solid var(--cl-gray-100);\n\t--br-datepicker: 1px solid var(--cl-gray-100);\n\t--bb-datepicker: 1px solid var(--cl-gray-100);\n\t--bl-datepicker: 1px solid var(--cl-gray-100);\n\t--bd-datepicker: 0px;\n\t--co-datepicker: ;\n\t--ff-datepicker: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "dialog",
+		"children": [
+		{
+			"string": "heading",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-dialog__heading: var(--cl-gray-900);\n\t--fs-dialog__heading: ;\n\t--fw-dialog__heading: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "span",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-dialog__span: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "upload-button",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-dialog__upload-button: var(--cl-gray-50);\n\t--bt-dialog__upload-button: 1px solid var(--cl-gray-100);\n\t--br-dialog__upload-button: 1px solid var(--cl-gray-100);\n\t--bb-dialog__upload-button: 1px solid var(--cl-gray-100);\n\t--bl-dialog__upload-button: 1px solid var(--cl-gray-100);\n\t--bd-dialog__upload-button: 3px;\n\t--sd-dialog__upload-button: none;\n\t--co-dialog__upload-button: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "upload-input",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-dialog__upload-input: var(--cl-gray-50);\n\t--bt-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--br-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bb-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bl-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bd-dialog__upload-input: 0px;\n\t--sd-dialog__upload-input: none;\n\t--co-dialog__upload-input: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "div",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--ff-div: 'Source Sans Pro';\n\t--fs-div: 1rem;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "dropbar",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-dropbar: var(--cl-gray-500);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "elevation",
+		"children": [
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-elevation__container: var(--cl-white);\n\t--bt-elevation__container: 1px solid var(--cl-gray-100);\n\t--br-elevation__container: 1px solid var(--cl-gray-100);\n\t--bb-elevation__container: 1px solid var(--cl-gray-100);\n\t--bl-elevation__container: 1px solid var(--cl-gray-100);\n\t--bd-elevation__container: ;\n\t--sd-elevation__container: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "create-block",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__create-block--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__create-block: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-elevation__item--selected: var(--cl-gray-500);\n\t--bt-elevation__item--selected: ;\n\t--br-elevation__item--selected: ;\n\t--bb-elevation__item--selected: ;\n\t--bl-elevation__item--selected: ;\n\t--bd-elevation__item--selected: 3px;\n\t--co-elevation__item--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-elevation__item: ;\n\t--br-elevation__item: ;\n\t--bb-elevation__item: ;\n\t--bl-elevation__item: ;\n\t--co-elevation__item: ;\n\t--ff-elevation__item: 'Source Sans Pro';\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item-icon",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__item-icon--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__item-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item-keyprompt",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__item-keyprompt--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__item-keyprompt: var(--cl-gray-500);\n\t--fs-elevation__item-keyprompt: 0.8rem;\n\t--op-elevation__item-keyprompt: 1;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-block",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-elevation__search-block: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "embed",
+		"children": [
+		{
+			"string": "container-10",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-10: var(--cl-gray-400);\n\t--bt-embed__container-10: 1px solid var(--cl-gray-500);\n\t--br-embed__container-10: 1px solid var(--cl-gray-500);\n\t--bb-embed__container-10: 1px solid var(--cl-gray-500);\n\t--bl-embed__container-10: 1px solid var(--cl-gray-500);\n\t--bd-embed__container-10: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-11",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-11: var(--cl-gray-50);\n\t--bt-embed__container-11: 1px solid var(--cl-gray-100);\n\t--br-embed__container-11: 1px solid var(--cl-gray-100);\n\t--bb-embed__container-11: 1px solid var(--cl-gray-100);\n\t--bl-embed__container-11: 1px solid var(--cl-gray-100);\n\t--bd-embed__container-11: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-2",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-2: var(--cl-gray-100);\n\t--bt-embed__container-2: 1px solid var(--cl-gray-200);\n\t--br-embed__container-2: 1px solid var(--cl-gray-200);\n\t--bb-embed__container-2: 1px solid var(--cl-gray-200);\n\t--bl-embed__container-2: 1px solid var(--cl-gray-200);\n\t--bd-embed__container-2: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-3",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-3: var(--cl-gray-200);\n\t--bt-embed__container-3: 1px solid var(--cl-gray-300);\n\t--br-embed__container-3: 1px solid var(--cl-gray-300);\n\t--bb-embed__container-3: 1px solid var(--cl-gray-300);\n\t--bl-embed__container-3: 1px solid var(--cl-gray-300);\n\t--bd-embed__container-3: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-4",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-4: var(--cl-gray-300);\n\t--bt-embed__container-4: 1px solid var(--cl-gray-400);\n\t--br-embed__container-4: 1px solid var(--cl-gray-400);\n\t--bb-embed__container-4: 1px solid var(--cl-gray-400);\n\t--bl-embed__container-4: 1px solid var(--cl-gray-400);\n\t--bd-embed__container-4: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-5",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-5: var(--cl-gray-400);\n\t--bt-embed__container-5: 1px solid var(--cl-gray-500);\n\t--br-embed__container-5: 1px solid var(--cl-gray-500);\n\t--bb-embed__container-5: 1px solid var(--cl-gray-500);\n\t--bl-embed__container-5: 1px solid var(--cl-gray-500);\n\t--bd-embed__container-5: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-6",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-6: var(--cl-gray-50);\n\t--bt-embed__container-6: 1px solid var(--cl-gray-100);\n\t--br-embed__container-6: 1px solid var(--cl-gray-100);\n\t--bb-embed__container-6: 1px solid var(--cl-gray-100);\n\t--bl-embed__container-6: 1px solid var(--cl-gray-100);\n\t--bd-embed__container-6: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-7",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-7: var(--cl-gray-100);\n\t--bt-embed__container-7: 1px solid var(--cl-gray-200);\n\t--br-embed__container-7: 1px solid var(--cl-gray-200);\n\t--bb-embed__container-7: 1px solid var(--cl-gray-200);\n\t--bl-embed__container-7: 1px solid var(--cl-gray-200);\n\t--bd-embed__container-7: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-8",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-8: var(--cl-gray-200);\n\t--bt-embed__container-8: 1px solid var(--cl-gray-300);\n\t--br-embed__container-8: 1px solid var(--cl-gray-300);\n\t--bb-embed__container-8: 1px solid var(--cl-gray-300);\n\t--bl-embed__container-8: 1px solid var(--cl-gray-300);\n\t--bd-embed__container-8: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-9",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed__container-9: var(--cl-gray-300);\n\t--bt-embed__container-9: 1px solid var(--cl-gray-400);\n\t--br-embed__container-9: 1px solid var(--cl-gray-400);\n\t--bb-embed__container-9: 1px solid var(--cl-gray-400);\n\t--bl-embed__container-9: 1px solid var(--cl-gray-400);\n\t--bd-embed__container-9: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-embed: var(--cl-gray-50);\n\t--bt-embed: 1px solid var(--cl-gray-100);\n\t--br-embed: 1px solid var(--cl-gray-100);\n\t--bb-embed: 1px solid var(--cl-gray-100);\n\t--bl-embed: 1px solid var(--cl-gray-100);\n\t--bd-embed: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "embed-page",
+		"children": [
+		{
+			"string": "margin",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-embed-page__margin: var(--cl-gray-300);\n\t--bl-embed-page__margin: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "reference-main",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-embed-page__reference-main: 1px solid var(--cl-gray-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--fs-embed-page__title: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-embed-page: var(--cl-gray-50);\n\t--bt-embed-page: 1px solid var(--cl-gray-100);\n\t--br-embed-page: 1px solid var(--cl-gray-100);\n\t--bb-embed-page: 1px solid var(--cl-gray-100);\n\t--bl-embed-page: 1px solid var(--cl-gray-100);\n\t--bd-embed-page: 0px;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "emoji-mart",
+		"children": [
+		{
+			"string": "category-label",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-emoji-mart__category-label: var(--cl-gray-50);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-emoji-mart: var(--cl-white);\n\t--bt-emoji-mart: 1px solid var(--cl-gray-100);\n\t--br-emoji-mart: 1px solid var(--cl-gray-100);\n\t--bb-emoji-mart: 1px solid var(--cl-gray-100);\n\t--bl-emoji-mart: 1px solid var(--cl-gray-100);\n\t--bd-emoji-mart: ;\n\t--co-emoji-mart: var(--cl-gray-900);\n\t--ff-emoji-mart: 'Source Sans Pro';\n\t--fs-emoji-mart: 1rem;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "encrypted",
+		"children": [
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-encrypted__button: ;\n\t--bt-encrypted__button: ;\n\t--br-encrypted__button: ;\n\t--bb-encrypted__button: ;\n\t--bl-encrypted__button: ;\n\t--co-encrypted__button: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-encrypted__button: ;\n\t--bt-encrypted__button: ;\n\t--br-encrypted__button: ;\n\t--bb-encrypted__button: ;\n\t--bl-encrypted__button: ;\n\t--bd-encrypted__button: ;\n\t--co-encrypted__button: ;\n\t--fs-encrypted__button: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "form",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-encrypted__form: ;\n\t--bt-encrypted__form: ;\n\t--br-encrypted__form: ;\n\t--bb-encrypted__form: ;\n\t--bl-encrypted__form: ;\n\t--bd-encrypted__form: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "input",
+			"children": [
+			{
+				"string": "focus",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-encrypted__input--focus: ;\n\t--bt-encrypted__input--focus: ;\n\t--br-encrypted__input--focus: ;\n\t--bb-encrypted__input--focus: ;\n\t--bl-encrypted__input--focus: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-encrypted__input: ;\n\t--bt-encrypted__input: ;\n\t--br-encrypted__input: ;\n\t--bb-encrypted__input: 1px solid var(--cl-gray-100);\n\t--bl-encrypted__input: ;\n\t--bd-encrypted__input: ;\n\t--co-encrypted__input: ;\n\t--fs-encrypted__input: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "label",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-encrypted__label: ;\n\t--fs-encrypted__label: 1rem;\n\t--fw-encrypted__label: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-encrypted: ;\n\t--bt-encrypted: ;\n\t--br-encrypted: ;\n\t--bb-encrypted: ;\n\t--bl-encrypted: ;\n\t--bd-encrypted: ;\n\t--co-encrypted: ;\n\t--fs-encrypted: 1rem;\n\t--fw-encrypted: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "find-or-create",
+		"children": [
+		{
+			"string": "menu-item",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-find-or-create__menu-item--selected: var(--cl-gray-500);\n\t--bt-find-or-create__menu-item--selected: ;\n\t--br-find-or-create__menu-item--selected: ;\n\t--bb-find-or-create__menu-item--selected: ;\n\t--bl-find-or-create__menu-item--selected: ;\n\t--bd-find-or-create__menu-item--selected: 3px;\n}```"
+				}]
+			},
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__menu-item--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-find-or-create__menu-item: ;\n\t--br-find-or-create__menu-item: ;\n\t--bb-find-or-create__menu-item: ;\n\t--bl-find-or-create__menu-item: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "new-page",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__new-page--selected: var(--cl-green-100);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__new-page: var(--cl-green-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "recent",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__recent: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-list-item",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__search-list-item: var(--cl-gray-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-list-item-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-find-or-create__search-list-item-title: var(--cl-gray-800);\n\t--fs-find-or-create__search-list-item-title: 1rem;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "graph-dropdown",
+		"children": [
+		{
+			"string": "a",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__a--hover: var(--cl-gray-700);\n\t--td-graph-dropdown__a--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__a: var(--cl-gray-700);\n\t--td-graph-dropdown__a: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "expand-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__expand-icon--hover: var(--cl-green-500);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__expand-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "menu-item",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__menu-item: var(--cl-gray-900);\n\t--td-graph-dropdown__menu-item: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "menu-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__menu-title: var(--cl-gray-500);\n\t--fs-graph-dropdown__menu-title: 12px;\n\t--ft-graph-dropdown__menu-title: normal;\n\t--fw-graph-dropdown__menu-title: normal;\n\t--tt-graph-dropdown__menu-title: uppercase;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "setting",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-graph-dropdown__setting--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__setting--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-graph-dropdown__setting: var(--cl-gray-100);\n\t--co-graph-dropdown__setting: var(--cl-gray-700);\n\t--fs-graph-dropdown__setting: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "setting-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-graph-dropdown__setting-icon--hover: var(--cl-gray-700);\n\t--td-graph-dropdown__setting-icon--hover: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "sign-out",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--fs-graph-dropdown__sign-out: ;\n\t--fw-graph-dropdown__sign-out: ;\n\t--op-graph-dropdown__sign-out: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--sd-graph-dropdown: none;\n\t--fs-graph-dropdown: ;\n\t--fw-graph-dropdown: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "help",
+		"children": [
+		{
+			"string": "categories",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__categories--hover: var(--cl-gray-300);\n\t--bd-help__categories--hover: ;\n\t--co-help__categories--hover: var(--cl-gray-900);\n}```"
+				}]
+			},
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__categories--selected: var(--cl-blue-100);\n\t--bd-help__categories--selected: ;\n\t--co-help__categories--selected: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__categories: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "category-name",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__category-name: var(--cl-gray-700);\n\t--fs-help__category-name: 1rem;\n\t--ft-help__category-name: normal;\n\t--fw-help__category-name: normal;\n\t--tt-help__category-name: uppercase;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "component-description",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__component-description: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "component-notation",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__component-notation: var(--cl-gray-100);\n\t--co-help__component-notation: var(--cl-gray-900);\n\t--fs-help__component-notation: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "component-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__component-title: var(--cl-gray-700);\n\t--fs-help__component-title: ;\n\t--fw-help__component-title: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "function-name",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__function-name: var(--cl-gray-900);\n\t--fs-help__function-name: 1rem;\n\t--fw-help__function-name: 500;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "help-version",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__help-version: var(--cl-gray-500);\n\t--fs-help__help-version: 12px;\n\t--fw-help__help-version: normal;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "icon-container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__icon-container: var(--cl-white);\n\t--bt-help__icon-container: none;\n\t--br-help__icon-container: none;\n\t--bb-help__icon-container: none;\n\t--bl-help__icon-container: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "input",
+			"children": [
+			{
+				"string": "focus",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__input--focus: ;\n\t--bt-help__input--focus: ;\n\t--br-help__input--focus: ;\n\t--bb-help__input--focus: ;\n\t--bl-help__input--focus: ;\n\t--bd-help__input--focus: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__input: ;\n\t--bt-help__input: ;\n\t--br-help__input: ;\n\t--bb-help__input: ;\n\t--bl-help__input: ;\n\t--bd-help__input: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "markdown-md",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__markdown-md: var(--cl-gray-700);\n\t--fs-help__markdown-md: 12px;\n\t--fw-help__markdown-md: normal;\n\t--op-help__markdown-md: 1;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "markdown-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__markdown-title: var(--cl-gray-900);\n\t--fs-help__markdown-title: 1rem;\n\t--fw-help__markdown-title: 500;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "resource",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__resource--hover: var(--cl-blue-50);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "resource-description",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__resource-description: var(--cl-gray-600);\n\t--fs-help__resource-description: 1rem;\n\t--fw-help__resource-description: normal;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "resource-icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-help__resource-icon: var(--cl-gray-100);\n\t--co-help__resource-icon: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "resource-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__resource-title: var(--cl-gray-700);\n\t--fs-help__resource-title: 1rem;\n\t--fw-help__resource-title: bold;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-help__title: var(--cl-gray-900);\n\t--fs-help__title: 16px;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "highlight",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-highlight: var(--cl-green-100);\n\t--co-highlight: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "hr",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bt-hr: 1px solid var(--cl-gray-200);\n\t--br-hr: ;\n\t--bb-hr: ;\n\t--bl-hr: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "html",
+		"children": [
+		{
+			"string": "select",
+			"children": [
+			{
+				"string": "disabled",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-html__select--disabled: ;\n\t--sd-html__select--disabled: ;\n\t--co-html__select--disabled: ;\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-html__select--hover: var(--cl-gray-200);\n\t--sd-html__select--hover: ;\n\t--co-html__select--hover: var(--cl-black);\n\t--td-html__select--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-html__select: ;\n\t--sd-html__select: ;\n\t--co-html__select: var(--cl-gray-900);\n\t--ff-html__select: ;\n\t--fs-html__select: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "select-icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-html__select-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "inline-references",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-inline-references: var(--cl-gray-50);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "input",
+		"children": [
+		{
+			"string": "search",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bd-input__search: 0px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-input__search-icon: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-placeholder",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-input__search-placeholder: var(--cl-gray-400);\n\t--ff-input__search-placeholder: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "focus",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-input--focus: ;\n\t--bt-input--focus: ;\n\t--br-input--focus: ;\n\t--bb-input--focus: ;\n\t--bl-input--focus: ;\n\t--bd-input--focus: ;\n\t--sd-input--focus: none;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-input: transparent;\n\t--bt-input: none;\n\t--br-input: none;\n\t--bb-input: none;\n\t--bl-input: none;\n\t--bd-input: ;\n\t--sd-input: none;\n\t--co-input: var(--cl-gray-900);\n\t--ff-input: ;\n\t--fs-input: 1rem;\n\t--fw-input: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "install-button",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-install-button--hover: var(--cl-blue-50);\n\t--bt-install-button--hover: 1px solid var(--cl-blue-100);\n\t--br-install-button--hover: 1px solid var(--cl-blue-100);\n\t--bb-install-button--hover: 1px solid var(--cl-blue-100);\n\t--bl-install-button--hover: 1px solid var(--cl-blue-100);\n\t--bd-install-button--hover: ;\n\t--co-install-button--hover: var(--cl-blue-900);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-install-button: var(--cl-gray-100);\n\t--bt-install-button: 1px solid var(--cl-gray-200);\n\t--br-install-button: 1px solid var(--cl-gray-200);\n\t--bb-install-button: 1px solid var(--cl-gray-200);\n\t--bl-install-button: 1px solid var(--cl-gray-200);\n\t--bd-install-button: 0px;\n\t--co-install-button: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "kanban",
+		"children": [
+		{
+			"string": "card",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-kanban__card: var(--cl-white);\n\t--bt-kanban__card: 1px solid var(--cl-gray-200);\n\t--br-kanban__card: 1px solid var(--cl-gray-200);\n\t--bb-kanban__card: 1px solid var(--cl-gray-200);\n\t--bl-kanban__card: 1px solid var(--cl-gray-200);\n\t--bd-kanban__card: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "column",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-kanban__column: var(--cl-gray-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "dropbar",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-kanban__dropbar: var(--cl-red-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bb-kanban__title: 1px solid var(--cl-gray-300);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-kanban: var(--cl-gray-200);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "left-sidebar",
+		"children": [
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-left-sidebar__container: var(--cl-gray-50);\n\t--br-left-sidebar__container: 1px solid var(--cl-gray-100);;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "db-title",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-left-sidebar__db-title--hover: var(--cl-gray-300);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-left-sidebar__db-title: var(--cl-gray-700);\n\t--ff-left-sidebar__db-title: ;\n\t--fs-left-sidebar__db-title: ;\n\t--fw-left-sidebar__db-title: normal;\n\t--tt-left-sidebar__db-title: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "hr",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-left-sidebar__hr: var(--cl-gray-200);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-left-sidebar__icon--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-left-sidebar__icon: var(--cl-gray-700);\n\t--fs-left-sidebar__icon: 16px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "logo",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-left-sidebar__logo--hover: transparent;\n\t--td-left-sidebar__logo--hover: none;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--td-left-sidebar__logo: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "logo-text",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-left-sidebar__logo-text: var(--cl-gray-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "toprow",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-left-sidebar__toprow--hover: transparent;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-left-sidebar__toprow: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "level1",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-level1: ;\n\t--co-level1: ;\n\t--ff-level1: 'Source Serif Pro';\n\t--fs-level1: 1.4rem;\n\t--ft-level1: ;\n\t--fw-level1: 600;\n\t--tt-level1: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "level2",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-level2: ;\n\t--co-level2: ;\n\t--ff-level2: 'Source Serif Pro';\n\t--fs-level2: 1.2rem;\n\t--ft-level2: ;\n\t--fw-level2: 600;\n\t--tt-level2: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "level3",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-level3: ;\n\t--co-level3: ;\n\t--ff-level3: 'Source Serif Pro';\n\t--fs-level3: 1.15rem;\n\t--ft-level3: ;\n\t--fw-level3: 600;\n\t--tt-level3: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "log-page",
+		"children": [
+		{
+			"string": "h1",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-log-page__h1: var(--cl-gray-300);\n\t--ff-log-page__h1: 'Source Serif Pro';\n\t--fs-log-page__h1: 32px;\n\t--ft-log-page__h1: ;\n\t--fw-log-page__h1: ;\n\t--tt-log-page__h1: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "preview",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-log-page__preview: var(--cl-gray-300);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bt-log-page: 1px solid var(--cl-gray-100);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "logbutton",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-logbutton--hover: transparent;\n\t--bt-logbutton--hover: ;\n\t--br-logbutton--hover: ;\n\t--bb-logbutton--hover: ;\n\t--bl-logbutton--hover: ;\n\t--co-logbutton--hover: var(--cl-gray-300);\n\t--td-logbutton--hover: ;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bd-logbutton: ;\n\t--co-logbutton: var(--cl-gray-700);\n\t--ff-logbutton: ;\n\t--fs-logbutton: 1rem;\n\t--fw-logbutton: normal;\n\t--tt-logbutton: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "main",
+		"children": [
+		{
+			"string": "image",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-main__image: ;\n\t--br-main__image: ;\n\t--bb-main__image: ;\n\t--bl-main__image: ;\n\t--bd-main__image: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "strikethrough",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-main__strikethrough: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-main: var(--cl-white);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-main: var(--cl-gray-900);\n\t--ff-main: 'Source Serif Pro';\n\t--fs-main: 1.15rem;\n\t--fw-main: normal;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "menu",
+		"children": [
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-menu__button--active: var(--cl-green-50);\n\t--bt-menu__button--active: 1px solid var(--cl-green-100);\n\t--br-menu__button--active: 1px solid var(--cl-green-100);\n\t--bb-menu__button--active: 1px solid var(--cl-green-100);\n\t--bl-menu__button--active: 1px solid var(--cl-green-100);\n\t--bd-menu__button--active: 3px;\n\t--co-menu__button--active: ;\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-menu__button--hover: ;\n\t--bt-menu__button--hover: ;\n\t--br-menu__button--hover: ;\n\t--bb-menu__button--hover: ;\n\t--bl-menu__button--hover: ;\n\t--bd-menu__button--hover: ;\n\t--co-menu__button--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-menu__button: ;\n\t--bt-menu__button: ;\n\t--br-menu__button: ;\n\t--bb-menu__button: ;\n\t--bl-menu__button: ;\n\t--bd-menu__button: ;\n\t--co-menu__button: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "button-icon",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__button-icon--active: var(--cl-gray-700);\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__button-icon--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__button-icon: var(--cl-gray-700);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-menu__item--hover: var(--cl-gray-500);\n\t--bt-menu__item--hover: ;\n\t--br-menu__item--hover: ;\n\t--bb-menu__item--hover: ;\n\t--bl-menu__item--hover: ;\n\t--bd-menu__item--hover: 3px;\n\t--co-menu__item--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-menu__item: ;\n\t--br-menu__item: ;\n\t--bb-menu__item: ;\n\t--bl-menu__item: ;\n\t--bd-menu__item: 3px;\n\t--co-menu__item: var(--cl-gray-900);\n\t--fw-menu__item: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__item-icon--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__item-icon: var(--cl-gray-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item-label",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__item-label--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__item-label: var(--cl-gray-500);\n\t--td-menu__item-label: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "item-primary",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-menu__item-primary: var(--cl-green-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "menu-item",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-menu__menu-item--active: var(--cl-green-500);\n\t--co-menu__menu-item--active: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "svg-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--fl-menu__svg-icon--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--fl-menu__svg-icon: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-menu: var(--cl-white);\n\t--bt-menu: ;\n\t--br-menu: ;\n\t--bb-menu: ;\n\t--bl-menu: ;\n\t--bd-menu: 0px;\n\t--co-menu: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "mobile-bar",
+		"children": [
+		{
+			"string": "icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-mobile-bar__icon: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-mobile-bar: var(--cl-white);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "modal-dialog",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-modal-dialog: var(--cl-gray-50);\n\t--bt-modal-dialog: 1px solid var(--cl-gray-100);\n\t--br-modal-dialog: 1px solid var(--cl-gray-100);\n\t--bb-modal-dialog: 1px solid var(--cl-gray-100);\n\t--bl-modal-dialog: 1px solid var(--cl-gray-100);\n\t--bd-modal-dialog: 5px;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "multibar",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--br-multibar--hover: 3px solid var(--cl-gray-300);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--br-multibar: 1px solid var(--cl-gray-100);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "page",
+		"children": [
+		{
+			"string": "link",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-page__link--hover: var(--cl-green-400);\n\t--td-page__link--hover: none;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-page__link: var(--cl-green-500);\n\t--td-page__link: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-page__title: var(--cl-gray-900);\n\t--ff-page__title: 'Source Serif Pro';\n\t--fs-page__title: 32px;\n\t--ft-page__title: ;\n\t--fw-page__title: normal;\n\t--tt-page__title: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "pomodoro",
+		"children": [
+		{
+			"string": "break",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-pomodoro--break: var(--cl-green-50);\n\t--bt-pomodoro--break: 1px solid var(--cl-green-100);\n\t--br-pomodoro--break: 1px solid var(--cl-green-100);\n\t--bb-pomodoro--break: 1px solid var(--cl-green-100);\n\t--bl-pomodoro--break: 1px solid var(--cl-green-100);\n\t--bd-pomodoro--break: 0px;\n\t--sd-pomodoro--break: ;\n\t--co-pomodoro--break: var(--cl-green-900);\n}```"
+			}]
+		},
+		{
+			"string": "running",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-pomodoro--running: var(--cl-red-50);\n\t--bt-pomodoro--running: 1px solid var(--cl-red-100);\n\t--br-pomodoro--running: 1px solid var(--cl-red-100);\n\t--bb-pomodoro--running: 1px solid var(--cl-red-100);\n\t--bl-pomodoro--running: 1px solid var(--cl-red-100);\n\t--bd-pomodoro--running: 0px;\n\t--sd-pomodoro--running: ;\n\t--co-pomodoro--running: var(--cl-red-900);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-pomodoro: var(--cl-gray-50);\n\t--bt-pomodoro: 1px solid var(--cl-gray-100);\n\t--br-pomodoro: 1px solid var(--cl-gray-100);\n\t--bb-pomodoro: 1px solid var(--cl-gray-100);\n\t--bl-pomodoro: 1px solid var(--cl-gray-100);\n\t--bd-pomodoro: 0px;\n\t--sd-pomodoro: ;\n\t--co-pomodoro: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "popover",
+		"children": [
+		{
+			"string": "arrow-border",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--fl-popover__arrow-border: var(--cl-gray-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "arrow-fill",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--fl-popover__arrow-fill: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "arrow-shadow",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--sd-popover__arrow-shadow: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-popover__button--hover: ;\n\t--bt-popover__button--hover: 1px solid var(--cl-gray-100);\n\t--br-popover__button--hover: 1px solid var(--cl-gray-100);\n\t--bb-popover__button--hover: 1px solid var(--cl-gray-100);\n\t--bl-popover__button--hover: 1px solid var(--cl-gray-100);\n\t--co-popover__button--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-popover__button: ;\n\t--bt-popover__button: 1px solid var(--cl-gray-300);\n\t--br-popover__button: 1px solid var(--cl-gray-300);\n\t--bb-popover__button: 1px solid var(--cl-gray-300);\n\t--bl-popover__button: 1px solid var(--cl-gray-300);\n\t--bd-popover__button: 0px;\n\t--co-popover__button: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "content",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-popover__content: var(--cl-white);\n\t--bt-popover__content: 1px solid var(--cl-gray-200);\n\t--br-popover__content: ;\n\t--bb-popover__content: ;\n\t--bl-popover__content: ;\n\t--bd-popover__content: ;\n\t--co-popover__content: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "description",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-popover__description: var(--cl-gray-400);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bd-popover: 0px;\n\t--sd-popover: 0px 0px 0px 1px var(--cl-gray-100);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "query",
+		"children": [
+		{
+			"string": "content",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-query__content: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-query__title: var(--cl-gray-100);\n\t--co-query__title: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-query: ;\n\t--bt-query: 1px solid var(--cl-gray-200);\n\t--br-query: 1px solid var(--cl-gray-200);\n\t--bb-query: 1px solid var(--cl-gray-200);\n\t--bl-query: 1px solid var(--cl-gray-200);\n\t--bd-query: ;\n\t--sd-query: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "quote",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-quote: transparent;\n\t--bt-quote: ;\n\t--br-quote: ;\n\t--bb-quote: ;\n\t--bl-quote: 3px solid var(--cl-gray-200);\n\t--bd-quote: ;\n\t--co-quote: ;\n\t--ff-quote: ;\n\t--fs-quote: 1.15rem;\n\t--ft-quote: ;\n\t--fw-quote: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "ref-count",
+		"children": [
+		{
+			"string": "active",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-ref-count--active: ;\n\t--co-ref-count--active: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "reference",
+		"children": [
+		{
+			"string": "item",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-reference__item--hover: ;\n\t--td-reference__item--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-reference__item: var(--cl-gray-50);\n\t--bt-reference__item: 1px solid var(--cl-gray-100);\n\t--br-reference__item: 1px solid var(--cl-gray-100);\n\t--bb-reference__item: 1px solid var(--cl-gray-100);\n\t--bl-reference__item: 1px solid var(--cl-gray-100);\n\t--bd-reference__item: 3px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "linked-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bb-reference__linked-title: ;\n\t--co-reference__linked-title: var(--cl-gray-500);\n\t--ff-reference__linked-title: 'Source Sans Pro';\n\t--fs-reference__linked-title: 1.15rem;\n\t--ft-reference__linked-title: normal;\n\t--fw-reference__linked-title: normal;\n\t--tt-reference__linked-title: uppercase;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "nested-refs",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-reference__nested-refs: var(--cl-green-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "page-title",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--td-reference__page-title--hover: none;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-reference__page-title: var(--cl-gray-500);\n\t--ff-reference__page-title: ;\n\t--fs-reference__page-title: 1.15rem;\n\t--fw-reference__page-title: ;\n\t--td-reference__page-title: none;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "unlinked-title",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-reference__unlinked-title--hover: ;\n\t--td-reference__unlinked-title--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bb-reference__unlinked-title: ;\n\t--co-reference__unlinked-title: var(--cl-gray-500);\n\t--ff-reference__unlinked-title: 'Source Sans Pro';\n\t--fs-reference__unlinked-title: 1rem;\n\t--ft-reference__unlinked-title: normal;\n\t--fw-reference__unlinked-title: normal;\n\t--tt-reference__unlinked-title: uppercase;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "right-sidebar",
+		"children": [
+		{
+			"string": "bullet-closed",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);\n\t--br-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);\n\t--bb-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);\n\t--bl-right-sidebar__bullet-closed: 4px solid var(--cl-gray-300);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-right-sidebar__container: var(--cl-green-50);\n\t--bl-right-sidebar__container: 1px solid var(--cl-green-100);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "content",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-right-sidebar__content: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "h1",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-right-sidebar__h1: var(--cl-gray-700);\n\t--fs-right-sidebar__h1: 1rem;\n\t--fw-right-sidebar__h1: 600;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "helper-text",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--ff-right-sidebar__helper-text: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "toprow",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-right-sidebar__toprow: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "window",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bb-right-sidebar__window: 1px solid var(--cl-gray-300);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "window-title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-right-sidebar__window-title: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "roam-css",
+		"children": [
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__button--active: ;\n\t--bt-roam-css__button--active: ;\n\t--br-roam-css__button--active: ;\n\t--bb-roam-css__button--active: ;\n\t--bl-roam-css__button--active: ;\n\t--bd-roam-css__button--active: ;\n\t--co-roam-css__button--active: ;\n}```"
+				}]
+			},
+			{
+				"string": "active-hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__button--active-hover: ;\n\t--bt-roam-css__button--active-hover: ;\n\t--br-roam-css__button--active-hover: ;\n\t--bb-roam-css__button--active-hover: ;\n\t--bl-roam-css__button--active-hover: ;\n\t--bd-roam-css__button--active-hover: ;\n\t--co-roam-css__button--active-hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "inactive",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__button--inactive: ;\n\t--bt-roam-css__button--inactive: ;\n\t--br-roam-css__button--inactive: ;\n\t--bb-roam-css__button--inactive: ;\n\t--bl-roam-css__button--inactive: ;\n\t--bd-roam-css__button--inactive: ;\n\t--co-roam-css__button--inactive: ;\n}```"
+				}]
+			},
+			{
+				"string": "inactive-hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__button--inactive-hover: ;\n\t--bt-roam-css__button--inactive-hover: ;\n\t--br-roam-css__button--inactive-hover: ;\n\t--bb-roam-css__button--inactive-hover: ;\n\t--bl-roam-css__button--inactive-hover: ;\n\t--bd-roam-css__button--inactive-hover: ;\n\t--co-roam-css__button--inactive-hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-active",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__container-active: ;\n\t--bt-roam-css__container-active: ;\n\t--br-roam-css__container-active: ;\n\t--bb-roam-css__container-active: ;\n\t--bl-roam-css__container-active: ;\n\t--bd-roam-css__container-active: ;\n\t--co-roam-css__container-active: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-inactive",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-css__container-inactive: ;\n\t--bt-roam-css__container-inactive: ;\n\t--br-roam-css__container-inactive: ;\n\t--bb-roam-css__container-inactive: ;\n\t--bl-roam-css__container-inactive: ;\n\t--bd-roam-css__container-inactive: ;\n\t--co-roam-css__container-inactive: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "roam-js",
+		"children": [
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "active",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__button--active: ;\n\t--bt-roam-js__button--active: ;\n\t--br-roam-js__button--active: ;\n\t--bb-roam-js__button--active: ;\n\t--bl-roam-js__button--active: ;\n\t--bd-roam-js__button--active: ;\n\t--co-roam-js__button--active: ;\n}```"
+				}]
+			},
+			{
+				"string": "active-hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__button--active-hover: ;\n\t--bt-roam-js__button--active-hover: ;\n\t--br-roam-js__button--active-hover: ;\n\t--bb-roam-js__button--active-hover: ;\n\t--bl-roam-js__button--active-hover: ;\n\t--bd-roam-js__button--active-hover: ;\n\t--co-roam-js__button--active-hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "inactive",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__button--inactive: transparent;\n\t--bt-roam-js__button--inactive: 1px solid var(--cl-gray-500);\n\t--br-roam-js__button--inactive: 1px solid var(--cl-gray-500);\n\t--bb-roam-js__button--inactive: 1px solid var(--cl-gray-500);\n\t--bl-roam-js__button--inactive: 1px solid var(--cl-gray-500);\n\t--bd-roam-js__button--inactive: 0px;\n\t--co-roam-js__button--inactive: var(--cl-gray-900);\n}```"
+				}]
+			},
+			{
+				"string": "inactive-hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__button--inactive-hover: var(--cl-red-500);\n\t--bt-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);\n\t--br-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);\n\t--bb-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);\n\t--bl-roam-js__button--inactive-hover: 1px solid var(--cl-red-600);\n\t--bd-roam-js__button--inactive-hover: ;\n\t--co-roam-js__button--inactive-hover: var(--cl-white);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-active",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__container-active: var(--cl-yellow-50);\n\t--bt-roam-js__container-active: 1px solid var(--cl-yellow-100);\n\t--br-roam-js__container-active: 1px solid var(--cl-yellow-100);\n\t--bb-roam-js__container-active: 1px solid var(--cl-yellow-100);\n\t--bl-roam-js__container-active: 1px solid var(--cl-yellow-100);\n\t--bd-roam-js__container-active: ;\n\t--co-roam-js__container-active: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container-inactive",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam-js__container-inactive: var(--cl-gray-50);\n\t--bt-roam-js__container-inactive: 1px solid var(--cl-gray-100);\n\t--br-roam-js__container-inactive: 1px solid var(--cl-gray-100);\n\t--bb-roam-js__container-inactive: 1px solid var(--cl-gray-100);\n\t--bl-roam-js__container-inactive: 1px solid var(--cl-gray-100);\n\t--bd-roam-js__container-inactive: ;\n\t--co-roam-js__container-inactive: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "roam42",
+		"children": [
+		{
+			"string": "cp-menu-item",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--selected: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-roam42__cp-menu-item: 1px solid transparent;\n\t--br-roam42__cp-menu-item: 1px solid transparent;\n\t--bb-roam42__cp-menu-item: 1px solid transparent;\n\t--bl-roam42__cp-menu-item: 1px solid transparent;\n\t--bd-roam42__cp-menu-item: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "cp-menu-item-active",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item-active--hover: var(--cl-blue-100);\n\t--bt-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);\n\t--br-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);\n\t--bb-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);\n\t--bl-roam42__cp-menu-item-active--hover: 1px solid var(--cl-blue-200);\n\t--bd-roam42__cp-menu-item-active--hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "cp-menu-shortcut",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-shortcut: ;\n\t--bd-roam42__cp-menu-shortcut: ;\n\t--co-roam42__cp-menu-shortcut: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "jj-menu",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu: var(--cl-white);\n\t--bt-roam42__jj-menu: 1px solid var(--cl-gray-100);\n\t--br-roam42__jj-menu: 1px solid var(--cl-gray-100);\n\t--bb-roam42__jj-menu: 1px solid var(--cl-gray-100);\n\t--bl-roam42__jj-menu: 1px solid var(--cl-gray-100);\n\t--bd-roam42__jj-menu: 0px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "jj-menu-item",
+			"children": [
+			{
+				"string": "highlight",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--highlight: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item: ;\n\t--bt-roam42__jj-menu-item: 1px solid transparent;\n\t--br-roam42__jj-menu-item: 1px solid transparent;\n\t--bb-roam42__jj-menu-item: 1px solid transparent;\n\t--bl-roam42__jj-menu-item: 1px solid transparent;\n\t--bd-roam42__jj-menu-item: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "settings",
+		"children": [
+		{
+			"string": "auth-provider",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__auth-provider: ;\n\t--bt-settings__auth-provider: ;\n\t--br-settings__auth-provider: ;\n\t--bb-settings__auth-provider: ;\n\t--bl-settings__auth-provider: ;\n\t--bd-settings__auth-provider: ;\n\t--co-settings__auth-provider: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "button",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__button: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bd-settings__container: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__container: ;\n\t--bt-settings__container: ;\n\t--br-settings__container: ;\n\t--bb-settings__container: ;\n\t--bl-settings__container: ;\n\t--co-settings__container: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "description",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__description: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "email-header",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__email-header: ;\n\t--td-settings__email-header: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "filelist-item",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__filelist-item: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "heading",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__heading: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "hotkeys",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__hotkeys: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "input",
+			"children": [
+			{
+				"string": "focus",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__input--focus: var(--cl-gray-100);\n\t--bt-settings__input--focus: ;\n\t--br-settings__input--focus: ;\n\t--bb-settings__input--focus: ;\n\t--bl-settings__input--focus: ;\n}```"
+				}]
+			},
+			{
+				"string": "placeholder",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__input--placeholder: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__input: var(--cl-gray-50);\n\t--bt-settings__input: ;\n\t--br-settings__input: ;\n\t--bb-settings__input: ;\n\t--bl-settings__input: ;\n\t--bd-settings__input: ;\n\t--co-settings__input: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "items",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__items--hover: ;\n\t--bt-settings__items--hover: ;\n\t--br-settings__items--hover: ;\n\t--bb-settings__items--hover: ;\n\t--bl-settings__items--hover: ;\n\t--co-settings__items--hover: var(--cl-gray-300);\n}```"
+				}]
+			},
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__items--selected: var(--cl-white);\n\t--bt-settings__items--selected: ;\n\t--br-settings__items--selected: ;\n\t--bb-settings__items--selected: ;\n\t--bl-settings__items--selected: ;\n\t--co-settings__items--selected: var(--cl-gray-300);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__items: ;\n\t--bt-settings__items: ;\n\t--br-settings__items: ;\n\t--bb-settings__items: ;\n\t--bl-settings__items: ;\n\t--co-settings__items: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "items-selected",
+			"children": [
+			{
+				"string": "before",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__items-selected--before: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "panel",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-settings__panel: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "password-input",
+			"children": [
+			{
+				"string": "focus",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__password-input--focus: ;\n\t--bt-settings__password-input--focus: ;\n\t--br-settings__password-input--focus: ;\n\t--bb-settings__password-input--focus: ;\n\t--bl-settings__password-input--focus: ;\n}```"
+				}]
+			},
+			{
+				"string": "placeholder",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__password-input--placeholder: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__password-input: ;\n\t--bt-settings__password-input: ;\n\t--br-settings__password-input: ;\n\t--bb-settings__password-input: ;\n\t--bl-settings__password-input: ;\n\t--bd-settings__password-input: ;\n\t--co-settings__password-input: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "scrollbar",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__scrollbar: ;\n\t--bd-settings__scrollbar: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "select-wrapper",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__select-wrapper: ;\n\t--bt-settings__select-wrapper: ;\n\t--br-settings__select-wrapper: ;\n\t--bb-settings__select-wrapper: ;\n\t--bl-settings__select-wrapper: ;\n\t--bd-settings__select-wrapper: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "tab-list",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__tab-list: var(--cl-gray-200);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "span",
+		"children": [
+		{
+			"string": "highlighted",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-span--highlighted: var(--cl-green-200);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "starred",
+		"children": [
+		{
+			"string": "icon",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-starred__icon: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "page",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-starred__page--hover: ;\n\t--bt-starred__page--hover: ;\n\t--br-starred__page--hover: ;\n\t--bb-starred__page--hover: ;\n\t--bl-starred__page--hover: ;\n\t--co-starred__page--hover: var(--cl-gray-300);\n\t--td-starred__page--hover: none;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bt-starred__page: ;\n\t--br-starred__page: ;\n\t--bb-starred__page: ;\n\t--bl-starred__page: ;\n\t--bd-starred__page: ;\n\t--co-starred__page: var(--cl-gray-700);\n\t--ff-starred__page: ;\n\t--fs-starred__page: 1rem;\n\t--ft-starred__page: ;\n\t--fw-starred__page: ;\n\t--tt-starred__page: normal;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "title",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-starred__title: var(--cl-gray-700);\n\t--ff-starred__title: ;\n\t--fs-starred__title: 1rem;\n\t--ft-starred__title: ;\n\t--fw-starred__title: ;\n\t--tt-starred__title: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "sync",
+		"children": [
+		{
+			"string": "saving-local",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-sync--saving-local: var(--cl-orange-500);\n}```"
+			}]
+		},
+		{
+			"string": "saving-remote",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-sync--saving-remote: var(--cl-red-500);\n}```"
+			}]
+		},
+		{
+			"string": "synced",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-sync--synced: var(--cl-green-500);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "table",
+		"children": [
+		{
+			"string": "header",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-table__header: ;\n\t--bt-table__header: ;\n\t--br-table__header: ;\n\t--bb-table__header: ;\n\t--bl-table__header: ;\n\t--co-table__header: ;\n\t--fs-table__header: ;\n\t--fw-table__header: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-table: ;\n\t--bt-table: ;\n\t--br-table: ;\n\t--bb-table: ;\n\t--bl-table: ;\n\t--co-table: ;\n\t--fs-table: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "tags",
+		"children": [
+		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-tags--hover: ;\n\t--bt-tags--hover: 1px solid var(--cl-gray-100);\n\t--br-tags--hover: 1px solid var(--cl-gray-100);\n\t--bb-tags--hover: 1px solid var(--cl-gray-100);\n\t--bl-tags--hover: 1px solid var(--cl-gray-100);\n\t--bd-tags--hover: 3px;\n\t--co-tags--hover: var(--cl-gray-300);\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-tags: ;\n\t--bt-tags: 1px solid var(--cl-gray-200);\n\t--br-tags: 1px solid var(--cl-gray-200);\n\t--bb-tags: 1px solid var(--cl-gray-200);\n\t--bl-tags: 1px solid var(--cl-gray-200);\n\t--bd-tags: 3px;\n\t--co-tags: var(--cl-gray-500);\n\t--ff-tags: 'Source Sans Pro';\n\t--fs-tags: 0.85rem;\n\t--ft-tags: ;\n\t--fw-tags: ;\n\t--td-tags: ;\n\t--tt-tags: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "textarea",
+		"children": [
+		{
+			"string": "selection",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-textarea__selection: var(--cl-gray-200);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "tooltip",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-tooltip: var(--cl-white);\n\t--bt-tooltip: ;\n\t--br-tooltip: ;\n\t--bb-tooltip: ;\n\t--bl-tooltip: ;\n\t--bd-tooltip: ;\n\t--co-tooltip: var(--cl-gray-900);\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "topbar",
+		"children": [
+		{
+			"string": "container",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar__container: ;\n\t--bt-topbar__container: ;\n\t--br-topbar__container: ;\n\t--bb-topbar__container: 1px solid var(--cl-gray-100);\n\t--bl-topbar__container: ;\n\t--bd-topbar__container: ;\n\t--sd-topbar__container: ;\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "topbar-datepicker",
+		"children": [
+		{
+			"string": "day",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__day--hover: var(--cl-green-500);\n\t--bd-topbar-datepicker__day--hover: ;\n\t--co-topbar-datepicker__day--hover: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__day--selected: var(--cl-green-400);\n\t--bd-topbar-datepicker__day--selected: ;\n\t--co-topbar-datepicker__day--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__day: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "day-selected",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__day-selected--hover: var(--cl-green-400);\n\t--bd-topbar-datepicker__day-selected--hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "day-without-page",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__day-without-page: var(--cl-gray-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "nav-button",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__nav-button--hover: ;\n\t--bt-topbar-datepicker__nav-button--hover: none;\n\t--br-topbar-datepicker__nav-button--hover: none;\n\t--bb-topbar-datepicker__nav-button--hover: none;\n\t--bl-topbar-datepicker__nav-button--hover: none;\n\t--bd-topbar-datepicker__nav-button--hover: ;\n\t--co-topbar-datepicker__nav-button--hover: var(--cl-green-500);\n}```"
+				}]
+			},
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__nav-button--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__nav-button: ;\n\t--bt-topbar-datepicker__nav-button: none;\n\t--br-topbar-datepicker__nav-button: none;\n\t--bb-topbar-datepicker__nav-button: none;\n\t--bl-topbar-datepicker__nav-button: none;\n\t--bd-topbar-datepicker__nav-button: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__nav-button: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "outside",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__outside: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "today",
+			"children": [
+			{
+				"string": "selected",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__today--selected: var(--cl-red-500);\n\t--co-topbar-datepicker__today--selected: var(--cl-white);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__today: var(--cl-green-500);\n\t--fw-topbar-datepicker__today: bold;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "today-selected",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker__today-selected--hover: var(--cl-red-600);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "weekdays",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker__weekdays: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "weeknumber",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--br-topbar-datepicker__weeknumber: 1px solid var(--cl-gray-300);\n\t--co-topbar-datepicker__weeknumber: var(--cl-gray-500);\n\t--ff-topbar-datepicker__weeknumber: 'Source Sans Pro';\n\t--fs-topbar-datepicker__weeknumber: 1rem;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bc-topbar-datepicker: var(--cl-white);\n\t--bt-topbar-datepicker: 1px solid var(--cl-gray-100);\n\t--br-topbar-datepicker: 1px solid var(--cl-gray-100);\n\t--bb-topbar-datepicker: 1px solid var(--cl-gray-100);\n\t--bl-topbar-datepicker: 1px solid var(--cl-gray-100);\n\t--bd-topbar-datepicker: 0px;\n\t--co-topbar-datepicker: ;\n\t--ff-topbar-datepicker: ;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "topbar-datepicker-html",
+		"children": [
+		{
+			"string": "select",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-topbar-datepicker-html__select--hover: var(--cl-gray-200);\n\t--co-topbar-datepicker-html__select--hover: var(--cl-black);\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker-html__select: var(--cl-gray-900);\n\t--ff-topbar-datepicker-html__select: ;\n\t--fs-topbar-datepicker-html__select: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "select-icon",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker-html__select-icon--hover: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-topbar-datepicker-html__select-icon: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "version",
+		"children": [
+		{
+			"string": "bullet",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-version__bullet: var(--cl-gray-500);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "zoom",
+		"children": [
+		{
+			"string": "mask",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-zoom__mask: var(--cl-gray-50);\n}```"
+				}]
+			}]
+		}]
+	},
+	{
+		"string": "zoom-item",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--co-zoom-item: var(--cl-gray-400);\n\t--fs-zoom-item: 1.15rem;\n}```"
+			}]
+		}]
+	},
+	{
+		"string": "zotero",
+		"children": [
+		{
+			"string": "h5",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__h5: var(--cl-gray-900);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "page-menu",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-zotero__page-menu: var(--cl-blue-50);\n\t--bt-zotero__page-menu: 1px solid var(--cl-blue-100);\n\t--br-zotero__page-menu: 1px solid var(--cl-blue-100);\n\t--bb-zotero__page-menu: 1px solid var(--cl-blue-100);\n\t--bl-zotero__page-menu: 1px solid var(--cl-blue-100);\n\t--bd-zotero__page-menu: 0px;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "primary",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__primary: var(--cl-green-500);\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "sequence",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-zotero__sequence: var(--cl-gray-50);\n\t--br-zotero__sequence: 1px solid var(--cl-gray-100);\n\t--fs-zotero__sequence: ;\n}```"
+				}]
+			}]
+		}]
+	}]
+}]

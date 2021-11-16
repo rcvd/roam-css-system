@@ -482,7 +482,7 @@ code {
 }
 
 .cm-activeLine {
-	background-color: 		var(--bc-codeblock__activeline, inherit);
+	background-color: 		var(--bc-codeblock__activeline, inherit)!important;
 }
 
 .cm-s-default .cm-atom {
