@@ -597,6 +597,12 @@
 				"children": [{
 					"string": "```css\n:root {\n\t--bc-codeblock__activeline: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-codeblock__activeline: ;\n\t}\n}```"
 				}]
+			},
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline--focused: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-codeblock__activeline--focused: ;\n\t}\n}```"
+				}]
 			}]
 		},
 		{

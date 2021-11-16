@@ -467,7 +467,11 @@
 }
 
 :root {
-	--bc-codeblock__activeline: #fafafa;
+	--bc-codeblock__activeline: rgba(255, 255, 255, 1.00);
+}
+
+:root {
+	--bc-codeblock__activeline--focused: #fafafa;
 }
 
 :root {

@@ -467,7 +467,11 @@
 }
 
 :root {
-	--bc-codeblock__activeline: var(--cl-white);
+	--bc-codeblock__activeline: var(--cl-gray-50);
+}
+
+:root {
+	--bc-codeblock__activeline--focused: var(--cl-white);
 }
 
 :root {

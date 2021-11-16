@@ -595,7 +595,13 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-codeblock__activeline: #fff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-codeblock__activeline: #333;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline: #f9fafb;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-codeblock__activeline: #222222;\n\t}\n}```"
+				}]
+			},
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline--focused: #fff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-codeblock__activeline--focused: #333;\n\t}\n}```"
 				}]
 			}]
 		},

@@ -595,7 +595,13 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-codeblock__activeline: #fff;\n}```"
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline: #f9fafb;\n}```"
+				}]
+			},
+			{
+				"string": "focused",
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-codeblock__activeline--focused: #fff;\n}```"
 				}]
 			}]
 		},

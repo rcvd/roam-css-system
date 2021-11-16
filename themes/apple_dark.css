@@ -471,6 +471,10 @@
 }
 
 :root {
+	--bc-codeblock__activeline--focused: ;
+}
+
+:root {
 	--co-codeblock__atom: rgb(102,212,207);
 }
 

@@ -481,8 +481,12 @@ code {
 	font-size: 				var(--fs-code, 90%);
 }
 
-.cm-activeLine, .cm-activeLineGutter, .cm-focused .cm-activeLine, .cm-focused .cm-activeLineGutter {
+.cm-activeLine, .cm-activeLineGutter {
 	background-color: 		var(--bc-codeblock__activeline, inherit)!important;
+}
+
+.cm-focused .cm-activeLine, .cm-focused .cm-activeLineGutter {
+	background-color: 		var(--bc-codeblock__activeline--focused, inherit)!important;
 }
 
 .cm-s-default .cm-atom {

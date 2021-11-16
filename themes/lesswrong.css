@@ -1013,12 +1013,22 @@
 }
 
 :root {
-	--bc-codeblock__activeline: var(--cl-white);
+	--bc-codeblock__activeline: var(--cl-gray-50);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-codeblock__activeline: var(--cl-gray-900);
+		--bc-codeblock__activeline: var(--cl-black);
+	}
+}
+
+:root {
+	--bc-codeblock__activeline--focused: var(--cl-white);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-codeblock__activeline--focused: var(--cl-gray-900);
 	}
 }
 

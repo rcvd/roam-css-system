@@ -1023,6 +1023,16 @@
 }
 
 :root {
+	--bc-codeblock__activeline--focused: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-codeblock__activeline--focused: ;
+	}
+}
+
+:root {
 	--co-codeblock__atom: rgb(0,199,190);
 }
 

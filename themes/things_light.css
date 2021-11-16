@@ -467,7 +467,11 @@
 }
 
 :root {
-	--bc-codeblock__activeline: #fff;
+	--bc-codeblock__activeline: #f9fafb;
+}
+
+:root {
+	--bc-codeblock__activeline--focused: #fff;
 }
 
 :root {
