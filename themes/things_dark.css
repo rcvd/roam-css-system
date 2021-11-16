@@ -467,6 +467,10 @@
 }
 
 :root {
+	--bc-codeblock__activeline: #333;
+}
+
+:root {
 	--co-codeblock__atom: var(--cl-indigo-300);
 }
 

@@ -481,6 +481,10 @@ code {
 	font-size: 				var(--fs-code, 90%);
 }
 
+.cm-activeLine {
+	background-color: 		var(--bc-codeblock__activeline, inherit);
+}
+
 .cm-s-default .cm-atom {
 	color: 					var(--co-codeblock__atom, #219);
 }

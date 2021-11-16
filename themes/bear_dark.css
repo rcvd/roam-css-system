@@ -467,6 +467,10 @@
 }
 
 :root {
+	--bc-codeblock__activeline: #444;
+}
+
+:root {
 	--co-codeblock__atom: rgb(102,212,207);
 }
 
