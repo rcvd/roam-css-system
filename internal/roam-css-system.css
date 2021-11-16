@@ -481,7 +481,7 @@ code {
 	font-size: 				var(--fs-code, 90%);
 }
 
-.cm-activeLine {
+.cm-activeLine, .cm-activeLineGutter, .cm-focused .cm-activeLine, .cm-focused .cm-activeLineGutter {
 	background-color: 		var(--bc-codeblock__activeline, inherit)!important;
 }
 
