@@ -2827,7 +2827,7 @@
 			{
 				"string": "selected",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-900);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bd-roam42__cp-menu-item--selected: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-900);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t--bd-roam42__cp-menu-item--selected: ;\n\t--co-roam42__cp-menu-item--selected: ;\n}```"
 				}]
 			},
 			{

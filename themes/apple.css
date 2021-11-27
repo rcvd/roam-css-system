@@ -4373,6 +4373,7 @@
 	--bb-roam42__cp-menu-item--selected: none;
 	--bl-roam42__cp-menu-item--selected: none;
 	--bd-roam42__cp-menu-item--selected: 5px;
+	--co-roam42__cp-menu-item--selected: var(--cl-white);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4382,6 +4383,7 @@
 		--br-roam42__cp-menu-item--selected: none;
 		--bb-roam42__cp-menu-item--selected: none;
 		--bl-roam42__cp-menu-item--selected: none;
+		--co-roam42__cp-menu-item--selected: ;
 	}
 }
 

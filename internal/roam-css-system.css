@@ -2044,6 +2044,7 @@ div > strong[style*='color: rgb(206, 217, 224);'] {
 	border-bottom: 			var(--bb-roam42__cp-menu-item--selected, inherit);
 	border-left: 			var(--bl-roam42__cp-menu-item--selected, inherit);
 	border-radius: 			var(--bd-roam42__cp-menu-item--selected, inherit);
+	color: 					var(--co-roam42__cp-menu-item--selected, inherit);
 }
 
 .rm-command-palette__scroll-container .rm-command-palette__menu .rm-menu-item {
