@@ -553,7 +553,7 @@ code {
 	border-left: 			var(--bl-codeblock__cursor, inherit);
 }
 
-.cmt-def {
+.cmt-definition {
 	color: 					var(--co-codeblock__def, #00f);
 }
 
