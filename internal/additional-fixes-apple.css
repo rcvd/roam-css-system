@@ -476,3 +476,13 @@ textarea,
 .rm-code-block__language-chooser {
     z-index: 1;
   }
+
+.cm-line {
+    caret-color: black!important;
+}
+
+@media(prefers-color-scheme: dark) {
+    .cm-line {
+        caret-color: white!important;
+    }
+}
