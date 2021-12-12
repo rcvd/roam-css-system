@@ -159,12 +159,12 @@ hr {
     z-index: 1;
   }
 
-  .cm-line {
+  .cm-active-line.cm-line {
     caret-color: black!important;
 }
 
 @media(prefers-color-scheme: dark) {
-    .cm-line {
+    .cm-active-line.cm-line {
         caret-color: white!important;
     }
 }
