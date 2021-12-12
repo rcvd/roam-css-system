@@ -548,7 +548,7 @@ code {
 	color: 					var(--co-codeblock__container, black);
 }
 
-.CodeMirror-cursor {
+.cmt-cursor {
 	border-right: 			var(--br-codeblock__cursor, 1px solid black);
 	border-left: 			var(--bl-codeblock__cursor, inherit);
 }
