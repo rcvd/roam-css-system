@@ -561,14 +561,14 @@ code {
 	color: 					var(--co-codeblock__error, red);
 }
 
-.cmt-gutter {
+.cm-gutter {
 	font-family: 			var(--ff-codeblock__gutter, inherit);
 	font-size: 				var(--fs-codeblock__gutter, inherit);
 	font-style: 			var(--ft-codeblock__gutter, inherit);
 	font-weight: 			var(--fw-codeblock__gutter, inherit);
 }
 
-.cmt-gutters {
+.cm-gutters {
 	background-color: 		var(--bc-codeblock__gutters, #f7f7f7)!important;
 	border-top: 			var(--bt-codeblock__gutters, inherit)!important;
 	border-right: 			var(--br-codeblock__gutters, 1px solid #ddd)!important;
