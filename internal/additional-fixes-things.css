@@ -199,3 +199,13 @@ body {
 .rm-code-block__language-chooser {
     z-index: 1;
   }
+
+  div.cm-activeLine.cm-line {
+    caret-color: black!important;
+}
+
+@media(prefers-color-scheme: dark) {
+    div.cm-activeLine.cm-line {
+        caret-color: white!important;
+    }
+}

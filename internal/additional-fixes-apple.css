@@ -477,12 +477,12 @@ textarea,
     z-index: 1;
   }
 
-.cm-line {
+div.cm-activeLine.cm-line {
     caret-color: black!important;
 }
 
 @media(prefers-color-scheme: dark) {
-    .cm-line {
+    div.cm-activeLine.cm-line {
         caret-color: white!important;
     }
 }

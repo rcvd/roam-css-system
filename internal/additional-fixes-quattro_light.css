@@ -146,6 +146,7 @@ hr {
     z-index: 1;
   }
 
-  .cm-line {
+ 
+div.cm-activeLine.cm-line {
     caret-color: black!important;
 }

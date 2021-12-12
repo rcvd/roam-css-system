@@ -151,7 +151,6 @@ hr {
     z-index: 1;
   }
 
-
-    .cm-line {
-        caret-color: white!important;
-    }
+div.cm-activeLine.cm-line {
+    caret-color: white!important;
+}

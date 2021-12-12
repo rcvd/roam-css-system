@@ -229,3 +229,7 @@
 .rm-code-block__language-chooser {
     z-index: 1;
   }
+
+  div.cm-activeLine.cm-line {
+    caret-color: white!important;
+}
