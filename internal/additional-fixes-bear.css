@@ -62,7 +62,7 @@
     padding-bottom: 2px;
 }
 
-.rm-reference-main>div>div:nth-child(2)>div.flex-h-box {
+.rm-reference-main:not(.rm-query-content)div>div:nth-child(2)>div.flex-h-box {
     margin-top: 12px;
 }
 
@@ -93,7 +93,7 @@
 }
 
 /* Set min height for unlinked references */
-.rm-reference-main > div > div:nth-child(2) > div {
+.rm-reference-main:not(.rm-query-content) > div > div:nth-child(2) > div {
     min-height: 31px;
 }
 
