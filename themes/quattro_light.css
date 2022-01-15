@@ -2108,7 +2108,7 @@
 }
 
 :root {
-	--bc-settings__hotkeys: ;
+	--bc-settings__hotkeys: var(--cl-gray-700);
 }
 
 :root {

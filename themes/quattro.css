@@ -4593,7 +4593,7 @@
 }
 
 :root {
-	--bc-settings__hotkeys: ;
+	--bc-settings__hotkeys: var(--cl-gray-700);
 }
 
 @media(prefers-color-scheme: dark) {
