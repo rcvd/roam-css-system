@@ -549,3 +549,13 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	content: '› ';
 	color: #7f7f7f;
 }
+
+div.cm-activeLine.cm-line {
+	caret-color: black!important;
+}
+
+@media(prefers-color-scheme: dark) {
+	div.cm-activeLine.cm-line {
+		caret-color: white!important;
+	}
+}
