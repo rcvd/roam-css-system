@@ -723,7 +723,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--br-codeblock__cursor: none;\n\t--bl-codeblock__cursor: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: none;\n\t\t--bl-codeblock__cursor: none;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--br-codeblock__cursor: none;\n\t--bl-codeblock__cursor: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: 1px solid #f4f4f4;\n\t\t--bl-codeblock__cursor: none;\n\t}\n}```"
 				}]
 			}]
 		},
@@ -1894,7 +1894,7 @@
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bt-hr: 1px solid #eeeeef;\n\t--br-hr: none;\n\t--bb-hr: none;\n\t--bl-hr: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bt-hr: 1px solid #8a8b8a;\n\t\t--br-hr: none;\n\t\t--bb-hr: none;\n\t\t--bl-hr: none;\n\t}\n}```"
+				"string": "```css\n:root {\n\t--bt-hr: 1px solid #eeeeef;\n\t--br-hr: none;\n\t--bb-hr: none;\n\t--bl-hr: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bt-hr: 1px solid #525252;\n\t\t--br-hr: none;\n\t\t--bb-hr: none;\n\t\t--bl-hr: none;\n\t}\n}```"
 			}]
 		}]
 	},

@@ -557,7 +557,7 @@
 }
 
 :root {
-	--br-codeblock__cursor: none;
+	--br-codeblock__cursor: 1px solid #f4f4f4;
 	--bl-codeblock__cursor: none;
 }
 
@@ -1346,7 +1346,7 @@
 }
 
 :root {
-	--bt-hr: 1px solid #8a8b8a;
+	--bt-hr: 1px solid #525252;
 	--br-hr: none;
 	--bb-hr: none;
 	--bl-hr: none;
