@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/bear.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-bear.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-bear_light.css');
+@import url('https://m1.local:5757/fonts/bear.css');
+@import url('https://m1.local:5757/internal/colors-bear.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-bear_light.css');
 
 
 :root {
@@ -36,6 +36,10 @@
 	--bd-allpages__checkbox: 3px;
 	--sd-allpages__checkbox: none;
 	--fs-allpages__checkbox: ;
+}
+
+:root {
+	--fs-allpages__checkbox-col: ;
 }
 
 :root {
@@ -153,7 +157,15 @@
 }
 
 :root {
+	--bb-allpages__title-text--hover: ;
+	--co-allpages__title-text--hover: ;
+	--td-allpages__title-text--hover: ;
+}
+
+:root {
+	--bb-allpages__title-text: ;
 	--co-allpages__title-text: #1d1d1f;
+	--td-allpages__title-text: ;
 }
 
 :root {
@@ -321,6 +333,10 @@
 
 :root {
 	--bc-button__minimal--hover: transparent;
+	--bt-button__minimal--hover: ;
+	--br-button__minimal--hover: ;
+	--bb-button__minimal--hover: ;
+	--bl-button__minimal--hover: ;
 	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: #9fa0a0;
@@ -329,6 +345,10 @@
 
 :root {
 	--bc-button__minimal: transparent;
+	--bt-button__minimal: ;
+	--br-button__minimal: ;
+	--bb-button__minimal: ;
+	--bl-button__minimal: ;
 	--bd-button__minimal: 5px;
 	--sd-button__minimal: none;
 }
@@ -467,11 +487,11 @@
 }
 
 :root {
-	--bc-codeblock__activeline: rgba(255, 255, 255, 1.00);
+	--bc-codeblock__activeline--focused: #fafafa;
 }
 
 :root {
-	--bc-codeblock__activeline--focused: #fafafa;
+	--bc-codeblock__activeline: rgba(255, 255, 255, 1.00);
 }
 
 :root {
@@ -509,6 +529,11 @@
 	--bd-codeblock__button: ;
 	--sd-codeblock__button: ;
 	--co-codeblock__button: #5d5f62;
+	--fs-codeblock__button: ;
+}
+
+:root {
+	--fl-codeblock__caret: ;
 }
 
 :root {
@@ -735,6 +760,27 @@
 }
 
 :root {
+	--bc-dialog__cancel-button--hover: #b9bdc4;
+	--bt-dialog__cancel-button--hover: none;
+	--br-dialog__cancel-button--hover: none;
+	--bb-dialog__cancel-button--hover: none;
+	--bl-dialog__cancel-button--hover: none;
+	--sd-dialog__cancel-button--hover: none;
+	--co-dialog__cancel-button--hover: #ffffff;
+}
+
+:root {
+	--bc-dialog__cancel-button: #b9bdc4;
+	--bt-dialog__cancel-button: none;
+	--br-dialog__cancel-button: none;
+	--bb-dialog__cancel-button: none;
+	--bl-dialog__cancel-button: none;
+	--bd-dialog__cancel-button: 5px;
+	--sd-dialog__cancel-button: none;
+	--co-dialog__cancel-button: #ffffff;
+}
+
+:root {
 	--co-dialog__heading: #121417;
 	--fs-dialog__heading: ;
 	--fw-dialog__heading: ;
@@ -742,6 +788,17 @@
 
 :root {
 	--co-dialog__span: #6666666;
+}
+
+:root {
+	--bc-dialog__upload-button--hover: ;
+	--bt-dialog__upload-button--hover: ;
+	--br-dialog__upload-button--hover: ;
+	--bb-dialog__upload-button--hover: ;
+	--bl-dialog__upload-button--hover: ;
+	--bd-dialog__upload-button--hover: ;
+	--sd-dialog__upload-button--hover: ;
+	--co-dialog__upload-button--hover: ;
 }
 
 :root {
@@ -943,6 +1000,13 @@
 }
 
 :root {
+	--co-embed-page__title--hover: ;
+	--fs-embed-page__title--hover: ;
+	--td-embed-page__title--hover: ;
+}
+
+:root {
+	--co-embed-page__title: ;
 	--fs-embed-page__title: 1rem;
 }
 
@@ -1055,6 +1119,7 @@
 	--br-find-or-create__menu-item: none;
 	--bb-find-or-create__menu-item: none;
 	--bl-find-or-create__menu-item: none;
+	--co-find-or-create__menu-item: ;
 }
 
 :root {
@@ -1076,6 +1141,16 @@
 :root {
 	--co-find-or-create__search-list-item-title: #000000;
 	--fs-find-or-create__search-list-item-title: 1rem;
+}
+
+:root {
+	--bc-find-or-create__wrapper-large: ;
+	--bt-find-or-create__wrapper-large: ;
+	--br-find-or-create__wrapper-large: ;
+	--bb-find-or-create__wrapper-large: ;
+	--bl-find-or-create__wrapper-large: ;
+	--bd-find-or-create__wrapper-large: ;
+	--sd-find-or-create__wrapper-large: ;
 }
 
 :root {
@@ -1129,6 +1204,10 @@
 }
 
 :root {
+	--co-graph-dropdown__setting-icon: ;
+}
+
+:root {
 	--fs-graph-dropdown__sign-out: ;
 	--fw-graph-dropdown__sign-out: ;
 	--op-graph-dropdown__sign-out: ;
@@ -1138,6 +1217,7 @@
 	--sd-graph-dropdown: none;
 	--fs-graph-dropdown: ;
 	--fw-graph-dropdown: ;
+	--op-graph-dropdown: ;
 }
 
 :root {
@@ -1154,6 +1234,7 @@
 
 :root {
 	--co-help__categories: #5d5f62;
+	--fw-help__categories: ;
 }
 
 :root {
@@ -1171,6 +1252,7 @@
 :root {
 	--bc-help__component-notation: #f9fafa;
 	--co-help__component-notation: #272727;
+	--ff-help__component-notation: ;
 	--fs-help__component-notation: 1rem;
 }
 
@@ -1255,6 +1337,7 @@
 :root {
 	--co-help__title: #272727;
 	--fs-help__title: 16px;
+	--fw-help__title: ;
 }
 
 :root {
@@ -1374,6 +1457,7 @@
 
 :root {
 	--bb-kanban__title: 1px solid #fafafa;
+	--fw-kanban__title: ;
 }
 
 :root {
@@ -1506,6 +1590,10 @@
 }
 
 :root {
+	--co-main__namespace: ;
+}
+
+:root {
 	--co-main__strikethrough: ;
 }
 
@@ -1551,6 +1639,16 @@
 }
 
 :root {
+	--bc-menu__button-active--hover: ;
+	--bt-menu__button-active--hover: ;
+	--br-menu__button-active--hover: ;
+	--bb-menu__button-active--hover: ;
+	--bl-menu__button-active--hover: ;
+	--bd-menu__button-active--hover: ;
+	--co-menu__button-active--hover: ;
+}
+
+:root {
 	--co-menu__button-icon--active: #ffffff;
 }
 
@@ -1579,6 +1677,7 @@
 	--bl-menu__item: none;
 	--bd-menu__item: 5px;
 	--co-menu__item: rgba(84, 84, 84, 1.00);
+	--fs-menu__item: ;
 	--fw-menu__item: ;
 }
 
@@ -1596,6 +1695,7 @@
 
 :root {
 	--co-menu__item-label: #abacac;
+	--fs-menu__item-label: ;
 	--td-menu__item-label: none;
 }
 
@@ -1652,11 +1752,13 @@
 }
 
 :root {
+	--bb-page__link--hover: ;
 	--co-page__link--hover: rgba(221, 76, 79, 1.00);
 	--td-page__link--hover: none;
 }
 
 :root {
+	--bb-page__link: ;
 	--co-page__link: rgba(221, 76, 79, 1.00);
 	--td-page__link: none;
 }
@@ -1760,6 +1862,7 @@
 :root {
 	--bc-query__title: transparent;
 	--co-query__title: var(--cl-gray-500);
+	--fw-query__title: ;
 }
 
 :root {
@@ -1816,10 +1919,25 @@
 }
 
 :root {
+	--bb-reference__linked-title-closed: ;
+	--co-reference__linked-title-closed: ;
+	--ff-reference__linked-title-closed: ;
+	--fs-reference__linked-title-closed: ;
+	--ft-reference__linked-title-closed: ;
+	--fw-reference__linked-title-closed: ;
+	--tt-reference__linked-title-closed: ;
+}
+
+:root {
+	--bt-reference__mentions: ;
+}
+
+:root {
 	--bc-reference__nested-refs: #f9fafb;
 }
 
 :root {
+	--co-reference__page-title--hover: ;
 	--td-reference__page-title--hover: none;
 }
 
@@ -1847,6 +1965,20 @@
 }
 
 :root {
+	--co-reference__unlinked-title-closed--hover: ;
+}
+
+:root {
+	--bb-reference__unlinked-title-closed: ;
+	--co-reference__unlinked-title-closed: ;
+	--ff-reference__unlinked-title-closed: ;
+	--fs-reference__unlinked-title-closed: ;
+	--ft-reference__unlinked-title-closed: ;
+	--fw-reference__unlinked-title-closed: ;
+	--tt-reference__unlinked-title-closed: ;
+}
+
+:root {
 	--bt-right-sidebar__bullet-closed: 4px solid #c1c2c2;
 	--br-right-sidebar__bullet-closed: 4px solid #c1c2c2;
 	--bb-right-sidebar__bullet-closed: 4px solid #c1c2c2;
@@ -1870,6 +2002,10 @@
 
 :root {
 	--ff-right-sidebar__helper-text: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--bc-right-sidebar__inline-references: ;
 }
 
 :root {
@@ -2005,6 +2141,16 @@
 }
 
 :root {
+	--bc-roam42__cp-menu-item--hover: ;
+	--bt-roam42__cp-menu-item--hover: ;
+	--br-roam42__cp-menu-item--hover: ;
+	--bb-roam42__cp-menu-item--hover: ;
+	--bl-roam42__cp-menu-item--hover: ;
+	--bd-roam42__cp-menu-item--hover: ;
+	--co-roam42__cp-menu-item--hover: ;
+}
+
+:root {
 	--bc-roam42__cp-menu-item--selected: rgba(238, 239, 239, 1.00);
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
@@ -2055,6 +2201,16 @@
 }
 
 :root {
+	--bc-roam42__jj-menu-item--hover: ;
+	--bt-roam42__jj-menu-item--hover: ;
+	--br-roam42__jj-menu-item--hover: ;
+	--bb-roam42__jj-menu-item--hover: ;
+	--bl-roam42__jj-menu-item--hover: ;
+	--bd-roam42__jj-menu-item--hover: ;
+	--co-roam42__jj-menu-item--hover: ;
+}
+
+:root {
 	--bc-roam42__jj-menu-item: transparent;
 	--bt-roam42__jj-menu-item: none;
 	--br-roam42__jj-menu-item: none;
@@ -2074,6 +2230,11 @@
 }
 
 :root {
+	--bt-settings__button: ;
+	--br-settings__button: ;
+	--bb-settings__button: ;
+	--bl-settings__button: ;
+	--bd-settings__button: ;
 	--co-settings__button: #ffffff;
 }
 
@@ -2088,6 +2249,7 @@
 	--bb-settings__container: none;
 	--bl-settings__container: none;
 	--co-settings__container: #373837;
+	--fs-settings__container: ;
 }
 
 :root {
@@ -2104,11 +2266,19 @@
 }
 
 :root {
+	--fs-settings__h4: ;
+	--fw-settings__h4: ;
+}
+
+:root {
 	--co-settings__heading: #373837;
+	--fs-settings__heading: ;
+	--fw-settings__heading: ;
 }
 
 :root {
 	--bc-settings__hotkeys: #b5b9bf;
+	--co-settings__hotkeys: ;
 }
 
 :root {
@@ -2139,6 +2309,7 @@
 	--br-settings__items--hover: none;
 	--bb-settings__items--hover: none;
 	--bl-settings__items--hover: none;
+	--bd-settings__items--hover: ;
 	--co-settings__items--hover: #373837;
 }
 
@@ -2148,6 +2319,7 @@
 	--br-settings__items--selected: none;
 	--bb-settings__items--selected: none;
 	--bl-settings__items--selected: none;
+	--bd-settings__items--selected: ;
 	--co-settings__items--selected: #373837;
 }
 
@@ -2157,6 +2329,7 @@
 	--br-settings__items: none;
 	--bb-settings__items: none;
 	--bl-settings__items: none;
+	--bd-settings__items: ;
 	--co-settings__items: #373837;
 }
 
@@ -2191,8 +2364,13 @@
 }
 
 :root {
-	--bc-settings__scrollbar: #7e7e7e;
-	--bd-settings__scrollbar: 5px;
+	--bc-settings__scrollbar-thumb: #7e7e7e;
+	--bd-settings__scrollbar-thumb: 5px;
+}
+
+:root {
+	--bc-settings__scrollbar-track: ;
+	--bd-settings__scrollbar-track: ;
 }
 
 :root {
@@ -2205,7 +2383,12 @@
 }
 
 :root {
+	--fs-settings__tab: ;
+}
+
+:root {
 	--bc-settings__tab-list: #ffffff;
+	--br-settings__tab-list: ;
 }
 
 :root {
@@ -2320,6 +2503,7 @@
 	--bl-tooltip: 1px solid #d5d5d5;
 	--bd-tooltip: 5px;
 	--co-tooltip: ;
+	--fs-tooltip: ;
 }
 
 :root {
@@ -2351,6 +2535,7 @@
 :root {
 	--bc-topbar-datepicker__day-selected--hover: rgba(238, 239, 239, 1.00);
 	--bd-topbar-datepicker__day-selected--hover: 2px;
+	--co-topbar-datepicker__day-selected--hover: ;
 }
 
 :root {
@@ -2394,6 +2579,7 @@
 }
 
 :root {
+	--bc-topbar-datepicker__today: ;
 	--co-topbar-datepicker__today: rgba(214, 85, 95, 1.00);
 	--fw-topbar-datepicker__today: bold;
 }
@@ -2445,6 +2631,10 @@
 
 :root {
 	--bc-version__bullet: #c1c2c2;
+}
+
+:root {
+	--bb-version__choice: ;
 }
 
 :root {
