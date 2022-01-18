@@ -3385,7 +3385,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-textarea__selection: #eaf4ff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-textarea__selection: #555555;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-textarea__selection: #eaf4ff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-textarea__selection: #a0a0a0;\n\t}\n}```"
 				}]
 			}]
 		}]

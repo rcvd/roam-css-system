@@ -5394,7 +5394,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-textarea__selection: #555555;
+		--bc-textarea__selection: #a0a0a0;
 	}
 }
 
