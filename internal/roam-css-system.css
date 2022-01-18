@@ -650,7 +650,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	background-color: 		var(--bc-codeblock__selected--focused, #d7d4f0);
 }
 
-.CodeMirror-selected {
+.cm-selectionBackground {
 	background-color: 		var(--bc-codeblock__selected, #d9d9d9);
 }
 
