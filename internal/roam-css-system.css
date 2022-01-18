@@ -646,11 +646,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	background-color: 		var(--bc-codeblock__searching, rgba(255, 255, 0, 0.4));
 }
 
-.cm-focused .cm-selectionBackground {
+.cmt-focused .cmt-selectionBackground {
 	background-color: 		var(--bc-codeblock__selected--focused, #d7d4f0);
 }
 
-.cm-selectionBackground, .rm-code-block::selection, .cm-selectionLayer {
+.cmt-selectionBackground, ::selection {
 	background-color: 		var(--bc-codeblock__selected, #d9d9d9);
 }
 
