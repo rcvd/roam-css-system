@@ -2561,13 +2561,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-popover__button--hover: transparent;\n\t--bt-popover__button--hover: 1px solid #d7d7d7;\n\t--br-popover__button--hover: 1px solid #d7d7d7;\n\t--bb-popover__button--hover: 1px solid #d7d7d7;\n\t--bl-popover__button--hover: 1px solid #d7d7d7;\n\t--co-popover__button--hover: #8d8e90;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-popover__button--hover: transparent;\n\t\t--bt-popover__button--hover: 1px solid #424242;\n\t\t--br-popover__button--hover: 1px solid #424242;\n\t\t--bb-popover__button--hover: 1px solid #424242;\n\t\t--bl-popover__button--hover: 1px solid #424242;\n\t\t--co-popover__button--hover: #97999c;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-popover__button--hover: transparent;\n\t--bt-popover__button--hover: none;\n\t--br-popover__button--hover: none;\n\t--bb-popover__button--hover: none;\n\t--bl-popover__button--hover: none;\n\t--co-popover__button--hover: #8d8e90;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-popover__button--hover: transparent;\n\t\t--bt-popover__button--hover: none;\n\t\t--br-popover__button--hover: none;\n\t\t--bb-popover__button--hover: none;\n\t\t--bl-popover__button--hover: none;\n\t\t--co-popover__button--hover: #97999c;\n\t}\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-popover__button: transparent;\n\t--bt-popover__button: 1px solid #d7d7d7;\n\t--br-popover__button: 1px solid #d7d7d7;\n\t--bb-popover__button: 1px solid #d7d7d7;\n\t--bl-popover__button: 1px solid #d7d7d7;\n\t--bd-popover__button: 5px;\n\t--co-popover__button: #272727;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-popover__button: transparent;\n\t\t--bt-popover__button: 1px solid #424242;\n\t\t--br-popover__button: 1px solid #424242;\n\t\t--bb-popover__button: 1px solid #424242;\n\t\t--bl-popover__button: 1px solid #424242;\n\t\t--co-popover__button: #dbdfe3;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-popover__button: transparent;\n\t--bt-popover__button: none;\n\t--br-popover__button: none;\n\t--bb-popover__button: none;\n\t--bl-popover__button: none;\n\t--bd-popover__button: 5px;\n\t--co-popover__button: #272727;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-popover__button: transparent;\n\t\t--bt-popover__button: none;\n\t\t--br-popover__button: none;\n\t\t--bb-popover__button: none;\n\t\t--bl-popover__button: none;\n\t\t--co-popover__button: #dbdfe3;\n\t}\n}```"
 				}]
 			}]
 		},

@@ -1871,8 +1871,8 @@ div, textarea {
 	color: 					var(--co-popover__button, inherit);
 }
 
-.bp3-popover .bp3-popover-content {
-	background-color: 		var(--bc-popover__content, #fff);
+.bp3-popover-content {
+	background-color: 		var(--bc-popover__content, #fff)!important;
 	border-top: 			var(--bt-popover__content, inherit);
 	border-right: 			var(--br-popover__content, inherit);
 	border-bottom: 			var(--bb-popover__content, inherit);

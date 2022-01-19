@@ -3965,30 +3965,30 @@
 
 :root {
 	--bc-popover__button--hover: transparent;
-	--bt-popover__button--hover: 1px solid #d7d7d7;
-	--br-popover__button--hover: 1px solid #d7d7d7;
-	--bb-popover__button--hover: 1px solid #d7d7d7;
-	--bl-popover__button--hover: 1px solid #d7d7d7;
+	--bt-popover__button--hover: none;
+	--br-popover__button--hover: none;
+	--bb-popover__button--hover: none;
+	--bl-popover__button--hover: none;
 	--co-popover__button--hover: #8d8e90;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-popover__button--hover: transparent;
-		--bt-popover__button--hover: 1px solid #424242;
-		--br-popover__button--hover: 1px solid #424242;
-		--bb-popover__button--hover: 1px solid #424242;
-		--bl-popover__button--hover: 1px solid #424242;
+		--bt-popover__button--hover: none;
+		--br-popover__button--hover: none;
+		--bb-popover__button--hover: none;
+		--bl-popover__button--hover: none;
 		--co-popover__button--hover: #97999c;
 	}
 }
 
 :root {
 	--bc-popover__button: transparent;
-	--bt-popover__button: 1px solid #d7d7d7;
-	--br-popover__button: 1px solid #d7d7d7;
-	--bb-popover__button: 1px solid #d7d7d7;
-	--bl-popover__button: 1px solid #d7d7d7;
+	--bt-popover__button: none;
+	--br-popover__button: none;
+	--bb-popover__button: none;
+	--bl-popover__button: none;
 	--bd-popover__button: 5px;
 	--co-popover__button: #272727;
 }
@@ -3996,10 +3996,10 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-popover__button: transparent;
-		--bt-popover__button: 1px solid #424242;
-		--br-popover__button: 1px solid #424242;
-		--bb-popover__button: 1px solid #424242;
-		--bl-popover__button: 1px solid #424242;
+		--bt-popover__button: none;
+		--br-popover__button: none;
+		--bb-popover__button: none;
+		--bl-popover__button: none;
 		--co-popover__button: #dbdfe3;
 	}
 }

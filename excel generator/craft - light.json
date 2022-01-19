@@ -2561,13 +2561,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-popover__button--hover: transparent;\n\t--bt-popover__button--hover: 1px solid #d7d7d7;\n\t--br-popover__button--hover: 1px solid #d7d7d7;\n\t--bb-popover__button--hover: 1px solid #d7d7d7;\n\t--bl-popover__button--hover: 1px solid #d7d7d7;\n\t--co-popover__button--hover: #8d8e90;\n}```"
+					"string": "```css\n:root {\n\t--bc-popover__button--hover: transparent;\n\t--bt-popover__button--hover: none;\n\t--br-popover__button--hover: none;\n\t--bb-popover__button--hover: none;\n\t--bl-popover__button--hover: none;\n\t--co-popover__button--hover: #8d8e90;\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-popover__button: transparent;\n\t--bt-popover__button: 1px solid #d7d7d7;\n\t--br-popover__button: 1px solid #d7d7d7;\n\t--bb-popover__button: 1px solid #d7d7d7;\n\t--bl-popover__button: 1px solid #d7d7d7;\n\t--bd-popover__button: 5px;\n\t--co-popover__button: #272727;\n}```"
+					"string": "```css\n:root {\n\t--bc-popover__button: transparent;\n\t--bt-popover__button: none;\n\t--br-popover__button: none;\n\t--bb-popover__button: none;\n\t--bl-popover__button: none;\n\t--bd-popover__button: 5px;\n\t--co-popover__button: #272727;\n}```"
 				}]
 			}]
 		},
