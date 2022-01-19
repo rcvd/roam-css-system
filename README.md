@@ -40,9 +40,9 @@ You can easily customize more than 350 UI elements with more than 1.500 attribut
 
 ## Themes
 ### Craft
-![](screenshots/craft-light.jpeg)
+![](screenshots/craft-light.png)
 
-![](screenshots/craft-dark.jpeg)
+![](screenshots/craft-dark.png)
 
 
 ### Bear
