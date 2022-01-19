@@ -5,6 +5,7 @@ The Roam CSS System is a modular, block-based approach for changing the look and
 
 ## If you want to support my work
 - [Buy Me a Coffee](https://www.buymeacoffee.com/rcvdio)
+- [Become a supporter on gödel.io](https://www.goedel.io/subscribe?utm_medium=web&utm_source=subscribe-widget&utm_content=47299057)
 - [Flattr](https://flattr.com/@rcvd)
 - [Paypal](https://paypal.me/rcvd)
 
@@ -38,6 +39,12 @@ Thanks a lot for your support!
 You can easily customize more than 350 UI elements with more than 1.500 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
 
 ## Themes
+### Craft
+![](screenshots/craft-light.jpeg)
+
+![](screenshots/craft-dark.jpeg)
+
+
 ### Bear
 ![](screenshots/bear-light.jpeg)
 
