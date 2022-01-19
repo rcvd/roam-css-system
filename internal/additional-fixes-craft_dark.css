@@ -493,7 +493,7 @@ h3,
 	}
 
 	.rm-find-or-create-wrapper .bp3-popover .bp3-popover-content {
-		background-color: transparent;
+		background-color: transparent!important;
 		border: none;
 	}
 

@@ -477,7 +477,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	}
 	
 	.rm-find-or-create-wrapper .bp3-popover .bp3-popover-content {
-		background-color: transparent;
+		background-color: transparent!important;
 		border: none;
 	}
 	
