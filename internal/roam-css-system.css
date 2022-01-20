@@ -846,7 +846,7 @@ h3.bp3-heading {
 	color: 					var(--co-dialog__upload-input, rgba(92,112,128,0.6));
 }
 
-div, textarea {
+.app div, .app textarea {
 	font-family: 			var(--ff-div, 'Inter',sans-serif);
 	font-size: 				var(--fs-div, 1rem);
 }
