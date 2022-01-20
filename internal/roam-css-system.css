@@ -1839,20 +1839,20 @@
 	color: 					var(--co-pomodoro, inherit)!important;
 }
 
-#app .bp3-popover .bp3-popover-arrow-border {
+.bp3-popover .bp3-popover-arrow-border {
 	fill: 		var(--fl-popover__arrow-border, #10161a);
 }
 
-#app .bp3-popover .bp3-popover-arrow-fill {
+.bp3-popover .bp3-popover-arrow-fill {
 	fill: 		var(--fl-popover__arrow-fill, #fff);
 }
 
-#app .bp3-popover .bp3-popover-arrow::before {
+.bp3-popover .bp3-popover-arrow::before {
 	box-shadow: 			var(--sd-popover__arrow-shadow, inherit);
 	--webkit-box-shadow: 	var(--sd-popover__arrow-shadow, inherit);
 }
 
-#app .bp3-popover-content .bp3-button:not([class*='bp3-intent-']):hover {
+.bp3-popover-content .bp3-button:not([class*='bp3-intent-']):hover {
 	background-color: 		var(--bc-popover__button--hover, inherit);
 	border-top: 			var(--bt-popover__button--hover, inherit);
 	border-right: 			var(--br-popover__button--hover, inherit);
@@ -1861,7 +1861,7 @@
 	color: 					var(--co-popover__button--hover, inherit);
 }
 
-#app .bp3-popover-content .bp3-button:not([class*='bp3-intent-']) {
+.bp3-popover-content .bp3-button:not([class*='bp3-intent-']) {
 	background-color: 		var(--bc-popover__button, inherit);
 	border-top: 			var(--bt-popover__button, inherit);
 	border-right: 			var(--br-popover__button, inherit);
@@ -1871,7 +1871,7 @@
 	color: 					var(--co-popover__button, inherit);
 }
 
-#app .bp3-popover-content {
+.bp3-popover-content {
 	background-color: 		var(--bc-popover__content, #fff)!important;
 	border-top: 			var(--bt-popover__content, inherit);
 	border-right: 			var(--br-popover__content, inherit);
@@ -1881,11 +1881,11 @@
 	color: 					var(--co-popover__content, inherit);
 }
 
-#app .bp3-popover div[style*='color: rgb(167, 182, 194);'] {
+.bp3-popover div[style*='color: rgb(167, 182, 194);'] {
 	color: 					var(--co-popover__description, inherit)!important;
 }
 
-#app .bp3-popover {
+.bp3-popover {
 	border-radius: 			var(--bd-popover, 3px);
 	box-shadow: 			var(--sd-popover, 0 0 0 1px rgb(16 22 26 / 10%), 0 2px 4px rgb(16 22 26 / 20%), 0 8px 24px rgb(16 22 26 / 20%));
 	--webkit-box-shadow: 	var(--sd-popover, 0 0 0 1px rgb(16 22 26 / 10%), 0 2px 4px rgb(16 22 26 / 20%), 0 8px 24px rgb(16 22 26 / 20%));
