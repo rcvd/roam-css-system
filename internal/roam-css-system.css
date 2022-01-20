@@ -2533,7 +2533,7 @@ span[style*='background-color: yellow'] {
 }
 
 .bp3-tooltip .bp3-popover-content {
-	background-color: 		var(--bc-tooltip, #394b59);
+	background-color: 		var(--bc-tooltip, #394b59)!important;
 	border-top: 			var(--bt-tooltip, inherit);
 	border-right: 			var(--br-tooltip, inherit);
 	border-bottom: 			var(--bb-tooltip, inherit);
