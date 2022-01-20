@@ -1628,11 +1628,11 @@ h3.bp3-heading {
 	color: 					var(--co-main__strikethrough, inherit);
 }
 
-.roam-body .roam-app .roam-main, .roam-body .roam-app .roam-main div {
+#app .roam-body .roam-app .roam-main, .roam-body .roam-app .roam-main div {
 	background-color: 		var(--bc-main, inherit);
 }
 
-.roam-body .roam-app .roam-main .roam-article, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main, .roam-balock-container textarea, .roam-block, .roam-body .roam-app .roam-main .roam-article div, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main div,  .roam-block-container .rm-block-main div, .roam-balock-container textarea, .roam-block div {
+#app .roam-body .roam-app .roam-main .roam-article, #app .roam-body .roam-app .roam-main .roam-article textarea, #app .roam-block-container .rm-block-main,  #app .roam-block-container .rm-block-main, #app .roam-balock-container textarea, #app .roam-block {
 	color: 					var(--co-main, inherit);
 	font-family: 			var(--ff-main, inherit);
 	font-size: 				var(--fs-main, inherit);
