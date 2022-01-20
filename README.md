@@ -36,7 +36,7 @@ Thanks a lot for your support!
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
   
 ## Customize the themes
-You can easily customize more than 350 UI elements with more than 1.500 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
+You can easily customize 400 UI elements with more than 1,700 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
 
 ## Themes
 ### Craft
