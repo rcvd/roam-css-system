@@ -846,7 +846,7 @@ h3.bp3-heading {
 	color: 					var(--co-dialog__upload-input, rgba(92,112,128,0.6));
 }
 
-div, textarea {
+#app div, #app textarea {
 	font-family: 			var(--ff-div, 'Inter',sans-serif);
 	font-size: 				var(--fs-div, 1rem);
 }
@@ -1628,11 +1628,11 @@ div, textarea {
 	color: 					var(--co-main__strikethrough, inherit);
 }
 
-#app .roam-body .roam-app .roam-main, .roam-body .roam-app .roam-main div {
+.roam-body .roam-app .roam-main {
 	background-color: 		var(--bc-main, inherit);
 }
 
-#app .roam-body .roam-app .roam-main .roam-article, #app .roam-body .roam-app .roam-main .roam-article textarea, #app .roam-block-container .rm-block-main,  #app .roam-block-container .rm-block-main, #app .roam-balock-container textarea, #app .roam-block {
+.roam-body .roam-app .roam-main .roam-article, .roam-body .roam-app .roam-main .roam-article textarea, .roam-block-container .rm-block-main,  .roam-block-container .rm-block-main, .roam-block-container textarea, .roam-block {
 	color: 					var(--co-main, inherit);
 	font-family: 			var(--ff-main, inherit);
 	font-size: 				var(--fs-main, inherit);
