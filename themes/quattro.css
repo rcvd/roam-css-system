@@ -1824,6 +1824,16 @@
 }
 
 :root {
+	--ff-div: 'iA Writer Quattro S';
+	--fs-div: 1rem;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-dropbar: var(--cl-red-500);
 }
 

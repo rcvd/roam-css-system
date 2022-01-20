@@ -1159,6 +1159,16 @@
 		}]
 	},
 	{
+		"string": "div",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;\n\t--fs-div: 1rem;\n}```"
+			}]
+		}]
+	},
+	{
 		"string": "dropbar",
 		"children": [
 		{

@@ -1824,6 +1824,16 @@
 }
 
 :root {
+	--ff-div: -apple-system, BlinkMacSystemFont,Inter;
+	--fs-div: 1rem;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+:root {
 	--bc-dropbar: #6cafff;
 }
 

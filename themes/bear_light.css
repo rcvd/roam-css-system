@@ -824,6 +824,11 @@
 }
 
 :root {
+	--ff-div: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-div: 13px;
+}
+
+:root {
 	--bc-dropbar: #b5b9bd;
 }
 

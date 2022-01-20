@@ -1159,6 +1159,16 @@
 		}]
 	},
 	{
+		"string": "div",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--ff-div: 'iA Writer Quattro S';\n\t--fs-div: 1rem;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t}\n}```"
+			}]
+		}]
+	},
+	{
 		"string": "dropbar",
 		"children": [
 		{

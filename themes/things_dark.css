@@ -824,6 +824,11 @@
 }
 
 :root {
+	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-div: 1rem;
+}
+
+:root {
 	--bc-dropbar: var(--cl-gray-500);
 }
 

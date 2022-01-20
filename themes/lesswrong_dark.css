@@ -824,6 +824,11 @@
 }
 
 :root {
+	--ff-div: 'Source Sans Pro';
+	--fs-div: 1rem;
+}
+
+:root {
 	--bc-dropbar: var(--cl-gray-500);
 }
 

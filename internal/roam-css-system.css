@@ -846,6 +846,11 @@ h3.bp3-heading {
 	color: 					var(--co-dialog__upload-input, rgba(92,112,128,0.6));
 }
 
+div, textarea {
+	font-family: 			var(--ff-div, 'Inter',sans-serif);
+	font-size: 				var(--fs-div, 1rem);
+}
+
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .rm-dnd-separator .rm-dnd-drop-bar, .sidebar-content .rm-dnd-separator .rm-dnd-drop-bar, .dnd-separator .dnd-drop-bar,.kanban-column .rm-dnd-separator .rm-dnd-drop-area .rm-dnd-drop-bar {
 	background-color: 		var(--bc-dropbar, #5c7080)!important;
 }
