@@ -555,3 +555,8 @@ div.cm-activeLine.cm-line {
 		caret-color: white!important;
 	}
 }
+
+.reveal div {
+	font-family: "Inter",sans-serif;
+	font-size: 1em;
+}

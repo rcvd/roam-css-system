@@ -549,3 +549,8 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 div.cm-activeLine.cm-line {
 	caret-color: black!important;
 }
+
+.reveal div {
+	font-family: "Inter",sans-serif;
+	font-size: 1em;
+}
