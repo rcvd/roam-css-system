@@ -1,12 +1,12 @@
 /* Menu Items */
-#app .bp3-menu-item {
+.bp3-menu-item {
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
 /* Hide menu icons */
-#app .bp3-menu-item::before, 
-#app .bp3-menu-item>.bp3-icon {
+.bp3-menu-item::before, 
+.bp3-menu-item>.bp3-icon {
 	display: none;
 }
 
@@ -208,31 +208,31 @@
 	height: 28px;
 }
 
-#app .bp3-popover .bp3-popover-arrow {
+.bp3-popover .bp3-popover-arrow {
 	display: none;
 }
 
-#app .bp3-tooltip .bp3-popover-content {
+.bp3-tooltip .bp3-popover-content {
 	padding: 4px 8px;
 }
 
 
 /* Settings dialog */
-#app .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator::before {
+.bp3-control.bp3-switch input:checked ~ .bp3-control-indicator::before {
 	margin: 0;
 	margin-left: 4px;
 }
 
-#app .bp3-control.bp3-radio input:checked ~ .bp3-control-indicator::before {
+.bp3-control.bp3-radio input:checked ~ .bp3-control-indicator::before {
 	margin: -1px;
 }
 
-#app .rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
+.rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
 	padding-left: 12px;
 	padding-right: 12px;
 }
 
-#app .rm-settings .rm-settings__tab.rm-settings__tab:not(.rm-settings__panel-wrapper) {
+.rm-settings .rm-settings__tab.rm-settings__tab:not(.rm-settings__panel-wrapper) {
 	padding: 0px 20px;
 }
 
@@ -252,11 +252,11 @@
 	padding-top: 4px;
 }
 
-#app .bp3-control input:focus ~ .bp3-control-indicator {
+.bp3-control input:focus ~ .bp3-control-indicator {
 	outline: none;
 }
 
-#app .bp3-control .bp3-control-indicator::before {
+.bp3-control .bp3-control-indicator::before {
 	height: 1rem;
 	width: 1rem;
 	margin-left: -2px;
@@ -347,7 +347,7 @@
 	width: 4px;
 }
 
-#app .bp3-button-text {
+.bp3-button-text {
 	padding-bottom: 2px;
 }
 
@@ -365,12 +365,12 @@
    padding: 20px;
  }
 
-#app .bp3-button {
+.bp3-button {
 	height: 24px;
 	line-height: 24px;
 }
  
- #app .bp3-button .bp3-icon-caret-down {
+.bp3-button .bp3-icon-caret-down {
 	 padding-bottom: 4px;
  }
  
@@ -422,7 +422,7 @@
  }
  
  /* Remove focus border */
-#app :focus {
+:focus {
 	 outline: none;
  }
  
