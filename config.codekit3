@@ -17,6 +17,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/excel generator\/~$CSS-Generator.xlsm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/excel generator\/~$CSS-Generator.xlsm",
+      "oF" : 0
+    },
     "\/excel generator\/apple - auto.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -88,6 +96,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/excel generator\/CSS-Generator-backup.xlsm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/excel generator\/CSS-Generator-backup.xlsm",
+      "oF" : 0
     },
     "\/excel generator\/CSS-Generator.xlsm" : {
       "cB" : 0,
@@ -632,6 +648,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/screenshots\/craft-dark.png" : {
+      "ft" : 32768,
+      "iS" : 363572,
+      "oA" : 0,
+      "oAP" : "\/screenshots\/craft-dark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/screenshots\/craft-light.png" : {
+      "ft" : 32768,
+      "iS" : 384785,
+      "oA" : 0,
+      "oAP" : "\/screenshots\/craft-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
