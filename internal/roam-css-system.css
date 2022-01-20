@@ -1418,7 +1418,7 @@ div, textarea {
 	color: 					var(--co-input__search-icon, #5c7080);
 }
 
-#.bp3-input[type='search']::placeholder, .bp3-input.bp3-round::placeholder, .bp3-input::placeholder {
+.bp3-input[type='search']::placeholder, .bp3-input.bp3-round::placeholder, .bp3-input::placeholder {
 	color: 					var(--co-input__search-placeholder, darkgray);
 	font-family: 			var(--ff-input__search-placeholder, inherit);
 }
