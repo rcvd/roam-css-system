@@ -824,11 +824,6 @@
 }
 
 :root {
-	--ff-div: -apple-system, BlinkMacSystemFont,Inter;
-	--fs-div: 1rem;
-}
-
-:root {
 	--bc-dropbar: #3293b8;
 }
 

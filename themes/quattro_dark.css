@@ -824,11 +824,6 @@
 }
 
 :root {
-	--ff-div: 'iA Writer Quattro S';
-	--fs-div: 1rem;
-}
-
-:root {
 	--bc-dropbar: var(--cl-red-500);
 }
 

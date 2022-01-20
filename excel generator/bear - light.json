@@ -1159,16 +1159,6 @@
 		}]
 	},
 	{
-		"string": "div",
-		"children": [
-		{
-			"string": "normal", 
-			"children": [{
-				"string": "```css\n:root {\n\t--ff-div: avenir next, avenir, 'Nunito Sans', segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;\n\t--fs-div: 13px;\n}```"
-			}]
-		}]
-	},
-	{
 		"string": "dropbar",
 		"children": [
 		{
