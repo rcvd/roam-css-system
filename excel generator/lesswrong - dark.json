@@ -3653,7 +3653,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-zotero__page-menu: var(--cl-gray-800);\n\t--bt-zotero__page-menu: 1px solid var(--cl-black);\n\t--br-zotero__page-menu: 1px solid var(--cl-black);\n\t--bb-zotero__page-menu: 1px solid var(--cl-black);\n\t--bl-zotero__page-menu: 1px solid var(--cl-black);\n\t--bd-zotero__page-menu: 0px;\n}```"
+					"string": "```css\n:root {\n\t--bc-zotero__page-menu: var(--cl-gray-800);\n\t--bt-zotero__page-menu: 1px solid var(--cl-black);\n\t--br-zotero__page-menu: 1px solid var(--cl-black);\n\t--bb-zotero__page-menu: 1px solid var(--cl-black);\n\t--bl-zotero__page-menu: 1px solid var(--cl-black);\n\t--bd-zotero__page-menu: 0px;\n\t--sd-zotero__page-menu: 0px;\n}```"
 				}]
 			}]
 		},
@@ -3663,7 +3663,13 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--co-zotero__primary: var(--cl-green-500);\n}```"
+					"string": "```css\n:root {\n\t--bc-zotero__primary: ;\n\t--bt-zotero__primary: ;\n\t--br-zotero__primary: ;\n\t--bb-zotero__primary: ;\n\t--bl-zotero__primary: ;\n\t--bd-zotero__primary: ;\n\t--sd-zotero__primary: ;\n\t--co-zotero__primary: ;\n}```"
+				}]
+			},
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-zotero__primary: ;\n\t--bt-zotero__primary: ;\n\t--br-zotero__primary: ;\n\t--bb-zotero__primary: ;\n\t--bl-zotero__primary: ;\n\t--bd-zotero__primary: ;\n\t--sd-zotero__primary: ;\n\t--co-zotero__primary: var(--cl-green-500);\n}```"
 				}]
 			}]
 		},
@@ -3674,6 +3680,46 @@
 				"string": "normal", 
 				"children": [{
 					"string": "```css\n:root {\n\t--bc-zotero__sequence: var(--cl-gray-800);\n\t--br-zotero__sequence: 1px solid var(--cl-black);\n\t--fs-zotero__sequence: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-highlight",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__search-highlight--hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-secondary",
+			"children": [
+			{
+				"string": "hover",
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__search-secondary--hover: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-highlight",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__search-highlight: ;\n}```"
+				}]
+			}]
+		},
+		{
+			"string": "search-secondary",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-zotero__search-secondary: ;\n}```"
 				}]
 			}]
 		}]

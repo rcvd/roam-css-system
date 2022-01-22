@@ -1,38 +1,38 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-craft_dark.css');
+@import url('https://m1.local:5757/fonts/craft.css');
+@import url('https://m1.local:5757/internal/colors-craft.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-craft_light.css');
 
 
 :root {
-	--co-a--hover: #91def9;
+	--co-a--hover: #366a9f;
 	--td-a--hover: none;
 }
 
 :root {
-	--co-a: #91def9;
+	--co-a: #366a9f;
 	--td-a: none;
 }
 
 :root {
 	--bl-alias__tooltip-content-bq: none;
-	--co-alias__tooltip-content-bq: #e9eaea;
+	--co-alias__tooltip-content-bq: #e1e2e3;
 }
 
 :root {
-	--co-alias__tooltip-external--hover: #e9eaea;
+	--co-alias__tooltip-external--hover: #e1e2e3;
 }
 
 :root {
-	--co-alias__tooltip-external: #e9eaea;
+	--co-alias__tooltip-external: #e1e2e3;
 }
 
 :root {
-	--bc-allpages__checkbox: #222222;
-	--bt-allpages__checkbox: 2px solid #767676;
-	--br-allpages__checkbox: 2px solid #767676;
-	--bb-allpages__checkbox: 2px solid #767676;
-	--bl-allpages__checkbox: 2px solid #767676;
+	--bc-allpages__checkbox: #fff;
+	--bt-allpages__checkbox: 2px solid #a6a7a8;
+	--br-allpages__checkbox: 2px solid #a6a7a8;
+	--bb-allpages__checkbox: 2px solid #a6a7a8;
+	--bl-allpages__checkbox: 2px solid #a6a7a8;
 	--bd-allpages__checkbox: 3px;
 	--sd-allpages__checkbox: none;
 	--fs-allpages__checkbox: 1rem;
@@ -49,7 +49,7 @@
 	--bb-allpages__clickable-pill: none;
 	--bl-allpages__clickable-pill: none;
 	--bd-allpages__clickable-pill: 0px;
-	--co-allpages__clickable-pill: #9c9c9c;
+	--co-allpages__clickable-pill: #797b7c;
 	--fs-allpages__clickable-pill: 12px;
 	--fw-allpages__clickable-pill: 400;
 	--op-allpages__clickable-pill: 1;
@@ -61,7 +61,7 @@
 	--br-allpages__clickable-pill-1: none;
 	--bb-allpages__clickable-pill-1: none;
 	--bl-allpages__clickable-pill-1: none;
-	--co-allpages__clickable-pill-1: #9c9c9c;
+	--co-allpages__clickable-pill-1: #797b7c;
 	--op-allpages__clickable-pill-1: 1;
 }
 
@@ -71,7 +71,7 @@
 	--br-allpages__clickable-pill-2: none;
 	--bb-allpages__clickable-pill-2: none;
 	--bl-allpages__clickable-pill-2: none;
-	--co-allpages__clickable-pill-2: #9c9c9c;
+	--co-allpages__clickable-pill-2: #797b7c;
 	--op-allpages__clickable-pill-2: 1;
 }
 
@@ -81,7 +81,7 @@
 	--br-allpages__clickable-pill-3: none;
 	--bb-allpages__clickable-pill-3: none;
 	--bl-allpages__clickable-pill-3: none;
-	--co-allpages__clickable-pill-3: #9c9c9c;
+	--co-allpages__clickable-pill-3: #797b7c;
 	--op-allpages__clickable-pill-3: 1;
 }
 
@@ -91,255 +91,255 @@
 	--br-allpages__clickable-pill-empty: none;
 	--bb-allpages__clickable-pill-empty: none;
 	--bl-allpages__clickable-pill-empty: none;
-	--co-allpages__clickable-pill-empty: #9c9c9c;
+	--co-allpages__clickable-pill-empty: #797b7c;
 	--op-allpages__clickable-pill-empty: 1;
 }
 
 :root {
-	--bc-allpages__input--focused: #222222;
-	--bt-allpages__input--focused: 1px solid #5a808e;
-	--br-allpages__input--focused: 1px solid #5a808e;
-	--bb-allpages__input--focused: 1px solid #5a808e;
-	--bl-allpages__input--focused: 1px solid #5a808e;
+	--bc-allpages__input--focused: #ffffff;
+	--bt-allpages__input--focused: 1px solid #8daac9;
+	--br-allpages__input--focused: 1px solid #8daac9;
+	--bb-allpages__input--focused: 1px solid #8daac9;
+	--bl-allpages__input--focused: 1px solid #8daac9;
 }
 
 :root {
-	--bc-allpages__input: #222222;
-	--bt-allpages__input: 1px solid #404040;
-	--br-allpages__input: 1px solid #404040;
-	--bb-allpages__input: 1px solid #404040;
-	--bl-allpages__input: 1px solid #404040;
+	--bc-allpages__input: #ffffff;
+	--bt-allpages__input: 1px solid #dfdfdf;
+	--br-allpages__input: 1px solid #dfdfdf;
+	--bb-allpages__input: 1px solid #dfdfdf;
+	--bl-allpages__input: 1px solid #dfdfdf;
 	--bd-allpages__input: 5px;
 	--sd-allpages__input: none;
-	--co-allpages__input: #f4f4f4;
+	--co-allpages__input: #202224;
 	--fs-allpages__input: 1rem;
 	--fw-allpages__input: 400;
 }
 
 :root {
-	--co-allpages__input-icon--focused: #707070;
+	--co-allpages__input-icon--focused: #999999;
 }
 
 :root {
-	--co-allpages__input-icon: #707070;
+	--co-allpages__input-icon: #999999;
 }
 
 :root {
 	--bb-allpages__row: none;
-	--co-allpages__row: #9c9c9c;
+	--co-allpages__row: #797b7c;
 }
 
 :root {
-	--bc-allpages__row-header: #222222;
-	--bb-allpages__row-header: 1px solid #323232;
+	--bc-allpages__row-header: #ffffff;
+	--bb-allpages__row-header: 1px solid #eaeaea;
 	--bd-allpages__row-header: 0px;
-	--co-allpages__row-header: #9c9c9c;
+	--co-allpages__row-header: #797b7c;
 	--fs-allpages__row-header: 0.9rem;
 	--fw-allpages__row-header: 500;
 }
 
 :root {
-	--co-allpages__sort-button--focused: #2ec8ff;
+	--co-allpages__sort-button--focused: #0087ff;
 	--fw-allpages__sort-button--focused: 400;
 }
 
 :root {
-	--co-allpages__sorted-header-text: #f4f4f4;
+	--co-allpages__sorted-header-text: #202224;
 	--fw-allpages__sorted-header-text: 500;
 }
 
 :root {
-	--co-allpages__title-col: #9c9c9c;
+	--co-allpages__title-col: #797b7c;
 }
 
 :root {
-	--co-allpages__title-header: #9c9c9c;
+	--co-allpages__title-header: #797b7c;
 }
 
 :root {
-	--bb-allpages__title-text--hover: 2px solid #4b7c8f;
-	--co-allpages__title-text--hover: #91def9;
+	--bb-allpages__title-text--hover: 2px solid #c9daed;
+	--co-allpages__title-text--hover: #366a9f;
 	--td-allpages__title-text--hover: none;
 }
 
 :root {
-	--bb-allpages__title-text: 2px solid #4b7c8f;
-	--co-allpages__title-text: #91def9;
+	--bb-allpages__title-text: 2px solid #c9daed;
+	--co-allpages__title-text: #366a9f;
 	--td-allpages__title-text: none;
 }
 
 :root {
-	--co-app__h1: #f4f4f4;
+	--co-app__h1: #202224;
 	--ff-app__h1: -apple-system, BlinkMacSystemFont,Inter;
 	--ft-app__h1: normal;
 	--fw-app__h1: 700;
 }
 
 :root {
-	--bc-app: #222222;
-	--co-app: #f4f4f4;
+	--bc-app: #ffffff;
+	--co-app: #202224;
 }
 
 :root {
-	--co-attributes: #f4f4f4;
+	--co-attributes: #202224;
 	--ft-attributes: normal;
 	--fw-attributes: 500;
 }
 
 :root {
-	--bc-block__button--hover: #313233;
-	--bt-block__button--hover: 1px solid #424242;
-	--br-block__button--hover: 1px solid #424242;
-	--bb-block__button--hover: 1px solid #424242;
-	--bl-block__button--hover: 1px solid #424242;
+	--bc-block__button--hover: #ffffff;
+	--bt-block__button--hover: 1px solid #d7d7d7;
+	--br-block__button--hover: 1px solid #d7d7d7;
+	--bb-block__button--hover: 1px solid #d7d7d7;
+	--bl-block__button--hover: 1px solid #d7d7d7;
 	--sd-block__button--hover: none;
-	--co-block__button--hover: #97999c;
+	--co-block__button--hover: #8d8e90;
 }
 
 :root {
-	--bc-block__button: #313233;
-	--bt-block__button: 1px solid #424242;
-	--br-block__button: 1px solid #424242;
-	--bb-block__button: 1px solid #424242;
-	--bl-block__button: 1px solid #424242;
+	--bc-block__button: #ffffff;
+	--bt-block__button: 1px solid #d7d7d7;
+	--br-block__button: 1px solid #d7d7d7;
+	--bb-block__button: 1px solid #d7d7d7;
+	--bl-block__button: 1px solid #d7d7d7;
 	--bd-block__button: 5px;
 	--sd-block__button: none;
-	--co-block__button: #dbdfe3;
+	--co-block__button: #272727;
 }
 
 :root {
-	--co-block__ghost: #5d5d5d;
+	--co-block__ghost: #c0c1c2;
 }
 
 :root {
-	--bc-block-highlight--blue: #242a2d;
-	--co-block-highlight--blue: #f4f4f4;
+	--bc-block-highlight--blue: #eaf4ff;
+	--co-block-highlight--blue: #202224;
 }
 
 :root {
-	--bc-block-highlight--grey: #282828;
-	--co-block-highlight--grey: #f4f4f4;
+	--bc-block-highlight--grey: #f8f8f9;
+	--co-block-highlight--grey: #202224;
 }
 
 :root {
-	--bc-block-highlight--yellow: #322b20;
-	--co-block-highlight--yellow: #f4f4f4;
+	--bc-block-highlight--yellow: #fff7ec;
+	--co-block-highlight--yellow: #202224;
 }
 
 :root {
 	--bc-block-ref--hover: transparent;
-	--co-block-ref--hover: #f4f4f4;
+	--co-block-ref--hover: #202224;
 }
 
 :root {
-	--bb-block-ref: 2px solid #797a7d;
+	--bb-block-ref: 2px solid #d0d1d3;
 }
 
 :root {
-	--co-brackets: #5d5d5d;
+	--co-brackets: #c0c1c2;
 }
 
 :root {
-	--bt-bullet__closed: 4px solid #4c4c4c;
-	--br-bullet__closed: 4px solid #4c4c4c;
-	--bb-bullet__closed: 4px solid #4c4c4c;
-	--bl-bullet__closed: 4px solid #4c4c4c;
+	--bt-bullet__closed: 4px  solid #f8f8f8;
+	--br-bullet__closed: 4px  solid #f8f8f8;
+	--bb-bullet__closed: 4px  solid #f8f8f8;
+	--bl-bullet__closed: 4px  solid #f8f8f8;
 }
 
 :root {
-	--bc-bullet__ghost: #5d5d5d;
+	--bc-bullet__ghost: #c0c1c2;
 }
 
 :root {
-	--bc-bullet__inner: #f4f4f4;
+	--bc-bullet__inner: #1f2225;
 }
 
 :root {
 	--bc-button__cancel--hover: transparent;
-	--bt-button__cancel--hover: 1px solid #424242;
-	--br-button__cancel--hover: 1px solid #424242;
-	--bb-button__cancel--hover: 1px solid #424242;
-	--bl-button__cancel--hover: 1px solid #424242;
+	--bt-button__cancel--hover: 1px solid #d7d7d7;
+	--br-button__cancel--hover: 1px solid #d7d7d7;
+	--bb-button__cancel--hover: 1px solid #d7d7d7;
+	--bl-button__cancel--hover: 1px solid #d7d7d7;
 	--sd-button__cancel--hover: none;
-	--co-button__cancel--hover: #97999c;
+	--co-button__cancel--hover: #8d8e90;
 }
 
 :root {
 	--bc-button__cancel: transparent;
-	--bt-button__cancel: 1px solid #424242;
-	--br-button__cancel: 1px solid #424242;
-	--bb-button__cancel: 1px solid #424242;
-	--bl-button__cancel: 1px solid #424242;
+	--bt-button__cancel: 1px solid #d7d7d7;
+	--br-button__cancel: 1px solid #d7d7d7;
+	--bb-button__cancel: 1px solid #d7d7d7;
+	--bl-button__cancel: 1px solid #d7d7d7;
 	--bd-button__cancel: 5px;
 	--sd-button__cancel: none;
-	--co-button__cancel: #dbdfe3;
+	--co-button__cancel: #272727;
 }
 
 :root {
 	--bc-button__danger--hover: transparent;
-	--bt-button__danger--hover: 1px solid #424242;
-	--br-button__danger--hover: 1px solid #424242;
-	--bb-button__danger--hover: 1px solid #424242;
-	--bl-button__danger--hover: 1px solid #424242;
+	--bt-button__danger--hover: 1px solid #d7d7d7;
+	--br-button__danger--hover: 1px solid #d7d7d7;
+	--bb-button__danger--hover: 1px solid #d7d7d7;
+	--bl-button__danger--hover: 1px solid #d7d7d7;
 	--sd-button__danger--hover: none;
-	--co-button__danger--hover: #c24f5d;
+	--co-button__danger--hover: #fe7e76;
 }
 
 :root {
 	--bc-button__danger: transparent;
-	--bt-button__danger: 1px solid #424242;
-	--br-button__danger: 1px solid #424242;
-	--bb-button__danger: 1px solid #424242;
-	--bl-button__danger: 1px solid #424242;
+	--bt-button__danger: 1px solid #d7d7d7;
+	--br-button__danger: 1px solid #d7d7d7;
+	--bb-button__danger: 1px solid #d7d7d7;
+	--bl-button__danger: 1px solid #d7d7d7;
 	--bd-button__danger: 5px;
 	--sd-button__danger: none;
-	--co-button__danger: #ff5a6e;
+	--co-button__danger: #fa463d;
 }
 
 :root {
 	--bc-button__disabled--hover: transparent;
-	--bt-button__disabled--hover: 1px solid #424242;
-	--br-button__disabled--hover: 1px solid #424242;
-	--bb-button__disabled--hover: 1px solid #424242;
-	--bl-button__disabled--hover: 1px solid #424242;
+	--bt-button__disabled--hover: 1px solid #d7d7d7;
+	--br-button__disabled--hover: 1px solid #d7d7d7;
+	--bb-button__disabled--hover: 1px solid #d7d7d7;
+	--bl-button__disabled--hover: 1px solid #d7d7d7;
 	--sd-button__disabled--hover: none;
-	--co-button__disabled--hover: #5f5f5f;
+	--co-button__disabled--hover: #a0a0a0;
 }
 
 :root {
 	--bc-button__disabled: transparent;
-	--bt-button__disabled: 1px solid #424242;
-	--br-button__disabled: 1px solid #424242;
-	--bb-button__disabled: 1px solid #424242;
-	--bl-button__disabled: 1px solid #424242;
+	--bt-button__disabled: 1px solid #d7d7d7;
+	--br-button__disabled: 1px solid #d7d7d7;
+	--bb-button__disabled: 1px solid #d7d7d7;
+	--bl-button__disabled: 1px solid #d7d7d7;
 	--bd-button__disabled: 5px;
 	--sd-button__disabled: none;
-	--co-button__disabled: #5f5f5f;
+	--co-button__disabled: #a0a0a0;
 }
 
 :root {
-	--co-button__icon--hover: #c8c8c8;
+	--co-button__icon--hover: #404040;
 }
 
 :root {
-	--co-button__icon: #c8c8c8;
+	--co-button__icon: #404040;
 }
 
 :root {
 	--bc-button__minimal--active: transparent;
 	--sd-button__minimal--active: none;
-	--co-button__minimal--active: #c8c8c8;
+	--co-button__minimal--active: #404040;
 }
 
 :root {
-	--bc-button__minimal--hover: #2d2d2d;
+	--bc-button__minimal--hover: #f3f2f3;
 	--bt-button__minimal--hover: none;
 	--br-button__minimal--hover: none;
 	--bb-button__minimal--hover: none;
 	--bl-button__minimal--hover: none;
 	--bd-button__minimal--hover: 5px;
 	--sd-button__minimal--hover: none;
-	--co-button__minimal--hover: #c8c8c8;
+	--co-button__minimal--hover: #404040;
 	--td-button__minimal--hover: none;
 }
 
@@ -354,49 +354,49 @@
 }
 
 :root {
-	--co-button__minimal-icon--active: #c8c8c8;
+	--co-button__minimal-icon--active: #404040;
 }
 
 :root {
-	--bc-button__primary--hover: #313233;
-	--bt-button__primary--hover: 1px solid #424242;
-	--br-button__primary--hover: 1px solid #424242;
-	--bb-button__primary--hover: 1px solid #424242;
-	--bl-button__primary--hover: 1px solid #424242;
+	--bc-button__primary--hover: transparent;
+	--bt-button__primary--hover: 1px solid #d7d7d7;
+	--br-button__primary--hover: 1px solid #d7d7d7;
+	--bb-button__primary--hover: 1px solid #d7d7d7;
+	--bl-button__primary--hover: 1px solid #d7d7d7;
 	--sd-button__primary--hover: none;
-	--co-button__primary--hover: #97999c;
+	--co-button__primary--hover: #8d8e90;
 }
 
 :root {
-	--bc-button__primary: #313233;
-	--bt-button__primary: 1px solid #424242;
-	--br-button__primary: 1px solid #424242;
-	--bb-button__primary: 1px solid #424242;
-	--bl-button__primary: 1px solid #424242;
+	--bc-button__primary: transparent;
+	--bt-button__primary: 1px solid #d7d7d7;
+	--br-button__primary: 1px solid #d7d7d7;
+	--bb-button__primary: 1px solid #d7d7d7;
+	--bl-button__primary: 1px solid #d7d7d7;
 	--bd-button__primary: 5px;
 	--sd-button__primary: none;
-	--co-button__primary: #dbdfe3;
+	--co-button__primary: #272727;
 }
 
 :root {
 	--bc-button__warning--hover: transparent;
-	--bt-button__warning--hover: 1px solid #424242;
-	--br-button__warning--hover: 1px solid #424242;
-	--bb-button__warning--hover: 1px solid #424242;
-	--bl-button__warning--hover: 1px solid #424242;
+	--bt-button__warning--hover: 1px solid #d7d7d7;
+	--br-button__warning--hover: 1px solid #d7d7d7;
+	--bb-button__warning--hover: 1px solid #d7d7d7;
+	--bl-button__warning--hover: 1px solid #d7d7d7;
 	--sd-button__warning--hover: none;
-	--co-button__warning--hover: #c24f5d;
+	--co-button__warning--hover: #fe7e76;
 }
 
 :root {
 	--bc-button__warning: transparent;
-	--bt-button__warning: 1px solid #424242;
-	--br-button__warning: 1px solid #424242;
-	--bb-button__warning: 1px solid #424242;
-	--bl-button__warning: 1px solid #424242;
+	--bt-button__warning: 1px solid #d7d7d7;
+	--br-button__warning: 1px solid #d7d7d7;
+	--bb-button__warning: 1px solid #d7d7d7;
+	--bl-button__warning: 1px solid #d7d7d7;
 	--bd-button__warning: 5px;
 	--sd-button__warning: none;
-	--co-button__warning: #ff5a6e;
+	--co-button__warning: #fa463d;
 }
 
 :root {
@@ -409,20 +409,20 @@
 }
 
 :root {
-	--bc-button--hover: #2d2d2d;
+	--bc-button--hover: #f3f2f3;
 	--sd-button--hover: none;
-	--co-button--hover: #5d5d5d;
+	--co-button--hover: #c0c1c2;
 }
 
 :root {
 	--bc-button: transparent;
 	--sd-button: none;
-	--co-button: #dbdfe3;
+	--co-button: #272727;
 	--ff-button: -apple-system, BlinkMacSystemFont,Inter;
 }
 
 :root {
-	--co-callout__icon: #959795;
+	--co-callout__icon: #525c66;
 }
 
 :root {
@@ -436,52 +436,52 @@
 }
 
 :root {
-	--bc-card: #333333;
-	--bt-card: 1px solid #222222;
-	--br-card: 1px solid #222222;
-	--bb-card: 1px solid #222222;
-	--bl-card: 1px solid #222222;
+	--bc-card: #f7f7f7;
+	--bt-card: 1px solid #dedede;
+	--br-card: 1px solid #dedede;
+	--bb-card: 1px solid #dedede;
+	--bl-card: 1px solid #dedede;
 	--bd-card: 5px;
 	--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
-	--co-caret: #f4f4f4;
+	--co-caret: #1e2224;
 }
 
 :root {
 	--bt-checkmark__mark--checked: 0px;
-	--br-checkmark__mark--checked: 2px solid #222222;
-	--bb-checkmark__mark--checked: 2px solid #222222;
+	--br-checkmark__mark--checked: 2px solid #fff;
+	--bb-checkmark__mark--checked: 2px solid #fff;
 	--bl-checkmark__mark--checked: 0px;
 }
 
 :root {
-	--bc-checkmark--checked: #2ec8ff;
-	--bt-checkmark--checked: 2px solid #2ec8ff;
-	--br-checkmark--checked: 2px solid #2ec8ff;
-	--bb-checkmark--checked: 2px solid #2ec8ff;
-	--bl-checkmark--checked: 2px solid #2ec8ff;
+	--bc-checkmark--checked: #0087ff;
+	--bt-checkmark--checked: 2px solid #0087ff;
+	--br-checkmark--checked: 2px solid #0087ff;
+	--bb-checkmark--checked: 2px solid #0087ff;
+	--bl-checkmark--checked: 2px solid #0087ff;
 	--sd-checkmark--checked: none;
 }
 
 :root {
 	--bc-checkmark: transparent;
-	--bt-checkmark: 2px solid #767676;
-	--br-checkmark: 2px solid #767676;
-	--bb-checkmark: 2px solid #767676;
-	--bl-checkmark: 2px solid #767676;
+	--bt-checkmark: 2px solid #a6a7a8;
+	--br-checkmark: 2px solid #a6a7a8;
+	--bb-checkmark: 2px solid #a6a7a8;
+	--bl-checkmark: 2px solid #a6a7a8;
 	--bd-checkmark: 3px;
 }
 
 :root {
-	--bc-code: #292929;
-	--bt-code: 1px solid #3e3e3e;
-	--br-code: 1px solid #3e3e3e;
-	--bb-code: 1px solid #3e3e3e;
-	--bl-code: 1px solid #3e3e3e;
+	--bc-code: #f7f7f7;
+	--bt-code: 1px solid #dedede;
+	--br-code: 1px solid #dedede;
+	--bb-code: 1px solid #dedede;
+	--bl-code: 1px solid #dedede;
 	--bd-code: 5px;
-	--co-code: #f4f4f4;
+	--co-code: #1e2224;
 	--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-code: 0.9rem;
 }
@@ -495,29 +495,29 @@
 }
 
 :root {
-	--co-codeblock__atom: #f4f4f4;
+	--co-codeblock__atom: #202224;
 }
 
 :root {
-	--co-codeblock__attribute: #f4f4f4;
+	--co-codeblock__attribute: #202224;
 }
 
 :root {
-	--co-codeblock__bracket: #f4f4f4;
+	--co-codeblock__bracket: #202224;
 }
 
 :root {
-	--co-codeblock__builtin: #f4f4f4;
+	--co-codeblock__builtin: #202224;
 }
 
 :root {
-	--bc-codeblock__button--hover: #333333;
+	--bc-codeblock__button--hover: #ededed;
 	--bt-codeblock__button--hover: none;
 	--br-codeblock__button--hover: none;
 	--bb-codeblock__button--hover: none;
 	--bl-codeblock__button--hover: none;
 	--sd-codeblock__button--hover: none;
-	--co-codeblock__button--hover: #acacac;
+	--co-codeblock__button--hover: #6c6c6c;
 }
 
 :root {
@@ -528,45 +528,45 @@
 	--bl-codeblock__button: none;
 	--bd-codeblock__button: 5px;
 	--sd-codeblock__button: none;
-	--co-codeblock__button: #acacac;
+	--co-codeblock__button: #6c6c6c;
 	--fs-codeblock__button: 0.9rem;
 }
 
 :root {
-	--fl-codeblock__caret: #9f9f9f;
+	--fl-codeblock__caret: #6c6c6c;
 }
 
 :root {
-	--co-codeblock__code: #959795;
+	--co-codeblock__code: #5d5d5c;
 	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-codeblock__code: 0.9rem;
 }
 
 :root {
-	--co-codeblock__comment: #c4c8c6;
+	--co-codeblock__comment: #999a97;
 }
 
 :root {
-	--bc-codeblock__container: #292929;
+	--bc-codeblock__container: #f8f8f8;
 	--bt-codeblock__container: none;
 	--br-codeblock__container: none;
 	--bb-codeblock__container: none;
 	--bl-codeblock__container: none;
 	--bd-codeblock__container: 5px;
-	--co-codeblock__container: #f4f4f4;
+	--co-codeblock__container: #202224;
 }
 
 :root {
-	--br-codeblock__cursor: 1px solid #f4f4f4;
+	--br-codeblock__cursor: none;
 	--bl-codeblock__cursor: none;
 }
 
 :root {
-	--co-codeblock__def: #f4f4f4;
+	--co-codeblock__def: #202224;
 }
 
 :root {
-	--co-codeblock__error: #f4f4f4;
+	--co-codeblock__error: #202224;
 }
 
 :root {
@@ -586,43 +586,43 @@
 }
 
 :root {
-	--co-codeblock__hr: #f4f4f4;
+	--co-codeblock__hr: #202224;
 }
 
 :root {
-	--co-codeblock__invalidchar: #f4f4f4;
+	--co-codeblock__invalidchar: #202224;
 }
 
 :root {
-	--co-codeblock__keyword: #9f85a6;
+	--co-codeblock__keyword: #986fb3;
 }
 
 :root {
-	--co-codeblock__link: #f4f4f4;
+	--co-codeblock__link: #202224;
 }
 
 :root {
-	--co-codeblock__matchingbracket: #f4f4f4;
+	--co-codeblock__matchingbracket: #202224;
 }
 
 :root {
-	--co-codeblock__meta: #f4f4f4;
+	--co-codeblock__meta: #202224;
 }
 
 :root {
-	--co-codeblock__nonmatchingbracket: #f4f4f4;
+	--co-codeblock__nonmatchingbracket: #202224;
 }
 
 :root {
-	--co-codeblock__number: #de935e;
+	--co-codeblock__number: #f5881e;
 }
 
 :root {
-	--co-codeblock__operator: #f4f4f4;
+	--co-codeblock__operator: #202224;
 }
 
 :root {
-	--co-codeblock__qualifier: #f4f4f4;
+	--co-codeblock__qualifier: #202224;
 }
 
 :root {
@@ -630,58 +630,58 @@
 }
 
 :root {
-	--bc-codeblock__selected--focused: #595959;
+	--bc-codeblock__selected--focused: #e0e0e0;
 }
 
 :root {
-	--bc-codeblock__selected: #595959;
+	--bc-codeblock__selected: #e0e0e0;
 }
 
 :root {
-	--co-codeblock__string: #b6bd68;
+	--co-codeblock__string: #779118;
 }
 
 :root {
-	--co-codeblock__string-2: #b6bd68;
+	--co-codeblock__string-2: #779118;
 }
 
 :root {
-	--co-codeblock__tag: #f4f4f4;
+	--co-codeblock__tag: #202224;
 }
 
 :root {
-	--co-codeblock__type: #f4f4f4;
+	--co-codeblock__type: #202224;
 }
 
 :root {
-	--co-codeblock__variable-2: #f4f4f4;
+	--co-codeblock__variable-2: #202224;
 }
 
 :root {
-	--bc-control--checked: #2ec8ff;
+	--bc-control--checked: #0087ff;
 }
 
 :root {
-	--bc-control--hover: #2ec8ff;
+	--bc-control--hover: #0087ff;
 }
 
 :root {
-	--bc-control--hover-checked: #2ec8ff;
+	--bc-control--hover-checked: #0087ff;
 	--sd-control--hover-checked: none;
 }
 
 :root {
-	--bc-control: #3e3e40;
+	--bc-control: #e9e9eb;
 }
 
 :root {
-	--bc-datepicker__day--hover: #292929;
+	--bc-datepicker__day--hover: #eaeaea;
 	--bd-datepicker__day--hover: 5px;
-	--co-datepicker__day--hover: #f4f4f4;
+	--co-datepicker__day--hover: #202224;
 }
 
 :root {
-	--bc-datepicker__nav-button--hover: #292929;
+	--bc-datepicker__nav-button--hover: #eaeaea;
 	--bt-datepicker__nav-button--hover: none;
 	--br-datepicker__nav-button--hover: none;
 	--bb-datepicker__nav-button--hover: none;
@@ -690,7 +690,7 @@
 }
 
 :root {
-	--co-datepicker__nav-button--hover: #f4f4f4;
+	--co-datepicker__nav-button--hover: #202224;
 }
 
 :root {
@@ -703,7 +703,7 @@
 }
 
 :root {
-	--co-datepicker__nav-button: #f4f4f4;
+	--co-datepicker__nav-button: #202224;
 }
 
 :root {
@@ -712,38 +712,38 @@
 
 :root {
 	--bc-datepicker__select--hover: transparent;
-	--co-datepicker__select--hover: #f4f4f4;
+	--co-datepicker__select--hover: #202224;
 }
 
 :root {
-	--co-datepicker__select: #f4f4f4;
+	--co-datepicker__select: #202224;
 }
 
 :root {
-	--co-datepicker__select-icon--hover: #f4f4f4;
+	--co-datepicker__select-icon--hover: #202224;
 }
 
 :root {
-	--co-datepicker__select-icon: #f4f4f4;
+	--co-datepicker__select-icon: #202224;
 }
 
 :root {
-	--bc-datepicker__today: #222c31;
+	--bc-datepicker__today: #e9f0f9;
 	--bt-datepicker__today: none;
 	--br-datepicker__today: none;
 	--bb-datepicker__today: none;
 	--bl-datepicker__today: none;
-	--co-datepicker__today: #f4f4f4;
+	--co-datepicker__today: #202224;
 	--fw-datepicker__today: 400;
 }
 
 :root {
-	--co-datepicker__weekdays: #646464;
+	--co-datepicker__weekdays: #b7b8b9;
 }
 
 :root {
 	--br-datepicker__weeknumber: none;
-	--co-datepicker__weeknumber: #646464;
+	--co-datepicker__weeknumber: #b7b8b9;
 	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-datepicker__weeknumber: 1rem;
 }
@@ -755,72 +755,72 @@
 	--bb-datepicker: none;
 	--bl-datepicker: none;
 	--bd-datepicker: 5px;
-	--co-datepicker: #f4f4f4;
+	--co-datepicker: #202224;
 	--ff-datepicker: -apple-system, BlinkMacSystemFont,Inter;
 }
 
 :root {
 	--bc-dialog__cancel-button--hover: transparent;
-	--bt-dialog__cancel-button--hover: 1px solid #424242;
-	--br-dialog__cancel-button--hover: 1px solid #424242;
-	--bb-dialog__cancel-button--hover: 1px solid #424242;
-	--bl-dialog__cancel-button--hover: 1px solid #424242;
+	--bt-dialog__cancel-button--hover: 1px solid #d7d7d7;
+	--br-dialog__cancel-button--hover: 1px solid #d7d7d7;
+	--bb-dialog__cancel-button--hover: 1px solid #d7d7d7;
+	--bl-dialog__cancel-button--hover: 1px solid #d7d7d7;
 	--sd-dialog__cancel-button--hover: none;
-	--co-dialog__cancel-button--hover: #97999c;
+	--co-dialog__cancel-button--hover: #8d8e90;
 }
 
 :root {
 	--bc-dialog__cancel-button: transparent;
-	--bt-dialog__cancel-button: 1px solid #424242;
-	--br-dialog__cancel-button: 1px solid #424242;
-	--bb-dialog__cancel-button: 1px solid #424242;
-	--bl-dialog__cancel-button: 1px solid #424242;
+	--bt-dialog__cancel-button: 1px solid #d7d7d7;
+	--br-dialog__cancel-button: 1px solid #d7d7d7;
+	--bb-dialog__cancel-button: 1px solid #d7d7d7;
+	--bl-dialog__cancel-button: 1px solid #d7d7d7;
 	--bd-dialog__cancel-button: 5px;
 	--sd-dialog__cancel-button: none;
-	--co-dialog__cancel-button: #dbdfe3;
+	--co-dialog__cancel-button: #272727;
 }
 
 :root {
-	--co-dialog__heading: #f4f4f4;
+	--co-dialog__heading: #202224;
 	--fs-dialog__heading: 1rem;
 	--fw-dialog__heading: 400;
 }
 
 :root {
-	--co-dialog__span: #f4f4f4;
+	--co-dialog__span: #202224;
 }
 
 :root {
 	--bc-dialog__upload-button--hover: transparent;
-	--bt-dialog__upload-button--hover: 1px solid #424242;
-	--br-dialog__upload-button--hover: 1px solid #424242;
-	--bb-dialog__upload-button--hover: 1px solid #424242;
-	--bl-dialog__upload-button--hover: 1px solid #424242;
+	--bt-dialog__upload-button--hover: 1px solid #d7d7d7;
+	--br-dialog__upload-button--hover: 1px solid #d7d7d7;
+	--bb-dialog__upload-button--hover: 1px solid #d7d7d7;
+	--bl-dialog__upload-button--hover: 1px solid #d7d7d7;
 	--bd-dialog__upload-button--hover: 5px;
 	--sd-dialog__upload-button--hover: none;
-	--co-dialog__upload-button--hover: #97999c;
+	--co-dialog__upload-button--hover: #8d8e90;
 }
 
 :root {
 	--bc-dialog__upload-button: transparent;
-	--bt-dialog__upload-button: 1px solid #424242;
-	--br-dialog__upload-button: 1px solid #424242;
-	--bb-dialog__upload-button: 1px solid #424242;
-	--bl-dialog__upload-button: 1px solid #424242;
+	--bt-dialog__upload-button: 1px solid #d7d7d7;
+	--br-dialog__upload-button: 1px solid #d7d7d7;
+	--bb-dialog__upload-button: 1px solid #d7d7d7;
+	--bl-dialog__upload-button: 1px solid #d7d7d7;
 	--bd-dialog__upload-button: 5px;
 	--sd-dialog__upload-button: none;
-	--co-dialog__upload-button: #dbdfe3;
+	--co-dialog__upload-button: #272727;
 }
 
 :root {
-	--bc-dialog__upload-input: #1c1c1c;
+	--bc-dialog__upload-input: #ededee;
 	--bt-dialog__upload-input: none;
 	--br-dialog__upload-input: none;
 	--bb-dialog__upload-input: none;
 	--bl-dialog__upload-input: none;
 	--bd-dialog__upload-input: 5px;
 	--sd-dialog__upload-input: none;
-	--co-dialog__upload-input: #dbdfe3;
+	--co-dialog__upload-input: #272727;
 }
 
 :root {
@@ -829,35 +829,35 @@
 }
 
 :root {
-	--bc-dropbar: #3293b8;
+	--bc-dropbar: #6cafff;
 }
 
 :root {
-	--bc-elevation__container: #333333;
-	--bt-elevation__container: 1px solid #222222;
-	--br-elevation__container: 1px solid #222222;
-	--bb-elevation__container: 1px solid #222222;
-	--bl-elevation__container: 1px solid #222222;
+	--bc-elevation__container: #f7f7f7;
+	--bt-elevation__container: 1px solid #dedede;
+	--br-elevation__container: 1px solid #dedede;
+	--bb-elevation__container: 1px solid #dedede;
+	--bl-elevation__container: 1px solid #dedede;
 	--bd-elevation__container: 5px;
 	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
-	--co-elevation__create-block--selected: #f4f4f4;
+	--co-elevation__create-block--selected: #202224;
 }
 
 :root {
-	--co-elevation__create-block: #f4f4f4;
+	--co-elevation__create-block: #202224;
 }
 
 :root {
-	--bc-elevation__item--selected: #1c1c1c;
+	--bc-elevation__item--selected: #e7e7e7;
 	--bt-elevation__item--selected: none;
 	--br-elevation__item--selected: none;
 	--bb-elevation__item--selected: none;
 	--bl-elevation__item--selected: none;
 	--bd-elevation__item--selected: 5px;
-	--co-elevation__item--selected: #f4f4f4;
+	--co-elevation__item--selected: #202224;
 }
 
 :root {
@@ -865,34 +865,34 @@
 	--br-elevation__item: none;
 	--bb-elevation__item: none;
 	--bl-elevation__item: none;
-	--co-elevation__item: #f4f4f4;
+	--co-elevation__item: #202224;
 	--ff-elevation__item: -apple-system, BlinkMacSystemFont,Inter;
 }
 
 :root {
-	--co-elevation__item-icon--selected: #787878;
+	--co-elevation__item-icon--selected: #949494;
 }
 
 :root {
-	--co-elevation__item-icon: #787878;
+	--co-elevation__item-icon: #949494;
 }
 
 :root {
-	--co-elevation__item-keyprompt--selected: #787878;
+	--co-elevation__item-keyprompt--selected: #949494;
 }
 
 :root {
-	--co-elevation__item-keyprompt: #787878;
+	--co-elevation__item-keyprompt: #949494;
 	--fs-elevation__item-keyprompt: 0.9rem;
 	--op-elevation__item-keyprompt: 1;
 }
 
 :root {
-	--co-elevation__search-block: #f4f4f4;
+	--co-elevation__search-block: #202224;
 }
 
 :root {
-	--bc-embed__container-10: #181818;
+	--bc-embed__container-10: #f0f0f0;
 	--bt-embed__container-10: none;
 	--br-embed__container-10: none;
 	--bb-embed__container-10: none;
@@ -901,7 +901,7 @@
 }
 
 :root {
-	--bc-embed__container-11: #121212;
+	--bc-embed__container-11: #ececec;
 	--bt-embed__container-11: none;
 	--br-embed__container-11: none;
 	--bb-embed__container-11: none;
@@ -910,7 +910,7 @@
 }
 
 :root {
-	--bc-embed__container-2: #181818;
+	--bc-embed__container-2: #f0f0f0;
 	--bt-embed__container-2: none;
 	--br-embed__container-2: none;
 	--bb-embed__container-2: none;
@@ -919,7 +919,7 @@
 }
 
 :root {
-	--bc-embed__container-3: #121212;
+	--bc-embed__container-3: #ececec;
 	--bt-embed__container-3: none;
 	--br-embed__container-3: none;
 	--bb-embed__container-3: none;
@@ -928,7 +928,7 @@
 }
 
 :root {
-	--bc-embed__container-4: #0c0c0c;
+	--bc-embed__container-4: #e8e8e8;
 	--bt-embed__container-4: none;
 	--br-embed__container-4: none;
 	--bb-embed__container-4: none;
@@ -937,7 +937,7 @@
 }
 
 :root {
-	--bc-embed__container-5: #1e1e1e;
+	--bc-embed__container-5: #f6f6f6;
 	--bt-embed__container-5: none;
 	--br-embed__container-5: none;
 	--bb-embed__container-5: none;
@@ -946,7 +946,7 @@
 }
 
 :root {
-	--bc-embed__container-6: #181818;
+	--bc-embed__container-6: #f0f0f0;
 	--bt-embed__container-6: none;
 	--br-embed__container-6: none;
 	--bb-embed__container-6: none;
@@ -955,7 +955,7 @@
 }
 
 :root {
-	--bc-embed__container-7: #121212;
+	--bc-embed__container-7: #ececec;
 	--bt-embed__container-7: none;
 	--br-embed__container-7: none;
 	--bb-embed__container-7: none;
@@ -964,7 +964,7 @@
 }
 
 :root {
-	--bc-embed__container-8: #0c0c0c;
+	--bc-embed__container-8: #e8e8e8;
 	--bt-embed__container-8: none;
 	--br-embed__container-8: none;
 	--bb-embed__container-8: none;
@@ -973,7 +973,7 @@
 }
 
 :root {
-	--bc-embed__container-9: #1e1e1e;
+	--bc-embed__container-9: #f6f6f6;
 	--bt-embed__container-9: none;
 	--br-embed__container-9: none;
 	--bb-embed__container-9: none;
@@ -982,7 +982,7 @@
 }
 
 :root {
-	--bc-embed: #1e1e1e;
+	--bc-embed: #f6f6f6;
 	--bt-embed: none;
 	--br-embed: none;
 	--bb-embed: none;
@@ -991,7 +991,7 @@
 }
 
 :root {
-	--bc-embed-page__margin: #575757;
+	--bc-embed-page__margin: #c9cac9;
 	--bl-embed-page__margin: none;
 }
 
@@ -1000,18 +1000,18 @@
 }
 
 :root {
-	--co-embed-page__title--hover: #f4f4f4;
+	--co-embed-page__title--hover: #202224;
 	--fs-embed-page__title--hover: 1.06rem;
 	--td-embed-page__title--hover: none;
 }
 
 :root {
-	--co-embed-page__title: #f4f4f4;
+	--co-embed-page__title: #202224;
 	--fs-embed-page__title: 1.06rem;
 }
 
 :root {
-	--bc-embed-page: #1e1e1e;
+	--bc-embed-page: #f6f6f6;
 	--bt-embed-page: none;
 	--br-embed-page: none;
 	--bb-embed-page: none;
@@ -1020,38 +1020,38 @@
 }
 
 :root {
-	--bc-emoji-mart__category-label: #1e1e1e;
+	--bc-emoji-mart__category-label: #f6f6f6;
 }
 
 :root {
-	--bc-emoji-mart: #1e1e1e;
+	--bc-emoji-mart: #f6f6f6;
 	--bt-emoji-mart: none;
 	--br-emoji-mart: none;
 	--bb-emoji-mart: none;
 	--bl-emoji-mart: none;
 	--bd-emoji-mart: 5px;
-	--co-emoji-mart: #f4f4f4;
+	--co-emoji-mart: #202224;
 	--ff-emoji-mart: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-emoji-mart: 1rem;
 }
 
 :root {
 	--bc-encrypted__button: transparent;
-	--bt-encrypted__button: 1px solid #424242;
-	--br-encrypted__button: 1px solid #424242;
-	--bb-encrypted__button: 1px solid #424242;
-	--bl-encrypted__button: 1px solid #424242;
-	--co-encrypted__button: #97999c;
+	--bt-encrypted__button: 1px solid #d7d7d7;
+	--br-encrypted__button: 1px solid #d7d7d7;
+	--bb-encrypted__button: 1px solid #d7d7d7;
+	--bl-encrypted__button: 1px solid #d7d7d7;
+	--co-encrypted__button: #8d8e90;
 }
 
 :root {
 	--bc-encrypted__button: transparent;
-	--bt-encrypted__button: 1px solid #424242;
-	--br-encrypted__button: 1px solid #424242;
-	--bb-encrypted__button: 1px solid #424242;
-	--bl-encrypted__button: 1px solid #424242;
+	--bt-encrypted__button: 1px solid #d7d7d7;
+	--br-encrypted__button: 1px solid #d7d7d7;
+	--bb-encrypted__button: 1px solid #d7d7d7;
+	--bl-encrypted__button: 1px solid #d7d7d7;
 	--bd-encrypted__button: 5px;
-	--co-encrypted__button: #dbdfe3;
+	--co-encrypted__button: #272727;
 	--fs-encrypted__button: 0.9rem;
 }
 
@@ -1065,7 +1065,7 @@
 }
 
 :root {
-	--bc-encrypted__input--focus: #1e1e1e;
+	--bc-encrypted__input--focus: #f6f6f7;
 	--bt-encrypted__input--focus: none;
 	--br-encrypted__input--focus: none;
 	--bb-encrypted__input--focus: none;
@@ -1073,18 +1073,18 @@
 }
 
 :root {
-	--bc-encrypted__input: #1e1e1e;
+	--bc-encrypted__input: #f6f6f7;
 	--bt-encrypted__input: none;
 	--br-encrypted__input: none;
 	--bb-encrypted__input: none;
 	--bl-encrypted__input: none;
 	--bd-encrypted__input: 5px;
-	--co-encrypted__input: #dbdfe3;
+	--co-encrypted__input: #272727;
 	--fs-encrypted__input: 1rem;
 }
 
 :root {
-	--co-encrypted__label: #aaaaaa;
+	--co-encrypted__label: #757779;
 	--fs-encrypted__label: 1rem;
 	--fw-encrypted__label: 400;
 }
@@ -1096,13 +1096,13 @@
 	--bb-encrypted: none;
 	--bl-encrypted: none;
 	--bd-encrypted: 5px;
-	--co-encrypted: #aaaaaa;
+	--co-encrypted: #757779;
 	--fs-encrypted: 1rem;
 	--fw-encrypted: 400;
 }
 
 :root {
-	--bc-find-or-create__menu-item--selected: #1c1c1c;
+	--bc-find-or-create__menu-item--selected: #e7e7e7;
 	--bt-find-or-create__menu-item--selected: none;
 	--br-find-or-create__menu-item--selected: none;
 	--bb-find-or-create__menu-item--selected: none;
@@ -1111,7 +1111,7 @@
 }
 
 :root {
-	--co-find-or-create__menu-item--selected: #c6c6c6;
+	--co-find-or-create__menu-item--selected: #3c3c3c;
 }
 
 :root {
@@ -1119,65 +1119,65 @@
 	--br-find-or-create__menu-item: none;
 	--bb-find-or-create__menu-item: none;
 	--bl-find-or-create__menu-item: none;
-	--co-find-or-create__menu-item: #f4f4f4;
+	--co-find-or-create__menu-item: #202224;
 }
 
 :root {
-	--co-find-or-create__new-page--selected: #f4f4f4;
+	--co-find-or-create__new-page--selected: #202224;
 }
 
 :root {
-	--co-find-or-create__new-page: #f4f4f4;
+	--co-find-or-create__new-page: #202224;
 }
 
 :root {
-	--co-find-or-create__recent: #f4f4f4;
+	--co-find-or-create__recent: #202224;
 }
 
 :root {
-	--co-find-or-create__search-list-item: #f4f4f4;
+	--co-find-or-create__search-list-item: #202224;
 }
 
 :root {
-	--co-find-or-create__search-list-item-title: #f4f4f4;
+	--co-find-or-create__search-list-item-title: #202224;
 	--fs-find-or-create__search-list-item-title: 1rem;
 }
 
 :root {
-	--bc-find-or-create__wrapper-large: #0a0a0a;
-	--bt-find-or-create__wrapper-large: 1px solid #222222;
-	--br-find-or-create__wrapper-large: 1px solid #222222;
-	--bb-find-or-create__wrapper-large: 1px solid #222222;
-	--bl-find-or-create__wrapper-large: 1px solid #222222;
+	--bc-find-or-create__wrapper-large: #f7f7f7;
+	--bt-find-or-create__wrapper-large: 1px solid #dedede;
+	--br-find-or-create__wrapper-large: 1px solid #dedede;
+	--bb-find-or-create__wrapper-large: 1px solid #dedede;
+	--bl-find-or-create__wrapper-large: 1px solid #dedede;
 	--bd-find-or-create__wrapper-large: 10px;
 	--sd-find-or-create__wrapper-large: 3px 3px 11px 3px rgba(0,0,0,0.1);
 }
 
 :root {
-	--co-graph-dropdown__a--hover: #f4f4f4;
+	--co-graph-dropdown__a--hover: #202224;
 	--td-graph-dropdown__a--hover: none;
 }
 
 :root {
-	--co-graph-dropdown__a: #f4f4f4;
+	--co-graph-dropdown__a: #202224;
 	--td-graph-dropdown__a: none;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon--hover: #f4f4f4;
+	--co-graph-dropdown__expand-icon--hover: #202224;
 }
 
 :root {
-	--co-graph-dropdown__expand-icon: #f4f4f4;
+	--co-graph-dropdown__expand-icon: #202224;
 }
 
 :root {
-	--co-graph-dropdown__menu-item: #f2f2f2;
+	--co-graph-dropdown__menu-item: #000000;
 	--td-graph-dropdown__menu-item: none;
 }
 
 :root {
-	--co-graph-dropdown__menu-title: #5d5d5d;
+	--co-graph-dropdown__menu-title: #afafaf;
 	--fs-graph-dropdown__menu-title: 0.9rem;
 	--ft-graph-dropdown__menu-title: normal;
 	--fw-graph-dropdown__menu-title: 400;
@@ -1185,26 +1185,26 @@
 }
 
 :root {
-	--bc-graph-dropdown__setting--hover: #787878;
+	--bc-graph-dropdown__setting--hover: #b5b6b5;
 }
 
 :root {
-	--co-graph-dropdown__setting--hover: #f2f2f2;
+	--co-graph-dropdown__setting--hover: #ffffff;
 }
 
 :root {
 	--bc-graph-dropdown__setting: transparent;
-	--co-graph-dropdown__setting: #f2f2f2;
+	--co-graph-dropdown__setting: #000000;
 	--fs-graph-dropdown__setting: 0.95rem;
 }
 
 :root {
-	--co-graph-dropdown__setting-icon--hover: #f2f2f2;
+	--co-graph-dropdown__setting-icon--hover: #ffffff;
 	--td-graph-dropdown__setting-icon--hover: none;
 }
 
 :root {
-	--co-graph-dropdown__setting-icon: #f2f2f2;
+	--co-graph-dropdown__setting-icon: #000000;
 }
 
 :root {
@@ -1221,24 +1221,24 @@
 }
 
 :root {
-	--bc-help__categories--hover: #292a2a;
+	--bc-help__categories--hover: #ededee;
 	--bd-help__categories--hover: 5px;
-	--co-help__categories--hover: #f4f4f4;
+	--co-help__categories--hover: #202224;
 }
 
 :root {
-	--bc-help__categories--selected: #313131;
+	--bc-help__categories--selected: #ddddde;
 	--bd-help__categories--selected: 5px;
-	--co-help__categories--selected: #f4f4f4;
+	--co-help__categories--selected: #202224;
 }
 
 :root {
-	--co-help__categories: #f4f4f4;
+	--co-help__categories: #202224;
 	--fw-help__categories: 400;
 }
 
 :root {
-	--co-help__category-name: #f4f4f4;
+	--co-help__category-name: #202224;
 	--fs-help__category-name: 1rem;
 	--ft-help__category-name: normal;
 	--fw-help__category-name: 600;
@@ -1246,30 +1246,30 @@
 }
 
 :root {
-	--co-help__component-description: #f4f4f4;
+	--co-help__component-description: #202224;
 }
 
 :root {
-	--bc-help__component-notation: #292929;
-	--co-help__component-notation: #f4f4f4;
+	--bc-help__component-notation: #eaeaea;
+	--co-help__component-notation: #202224;
 	--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 	--fs-help__component-notation: 0.9rem;
 }
 
 :root {
-	--co-help__component-title: #f4f4f4;
+	--co-help__component-title: #202224;
 	--fs-help__component-title: 1rem;
 	--fw-help__component-title: 600;
 }
 
 :root {
-	--co-help__function-name: #f4f4f4;
+	--co-help__function-name: #202224;
 	--fs-help__function-name: 1rem;
 	--fw-help__function-name: 500;
 }
 
 :root {
-	--co-help__help-version: #dbdfe3;
+	--co-help__help-version: #a0a2a2;
 	--fs-help__help-version: 0.9rem;
 	--fw-help__help-version: 400;
 }
@@ -1283,70 +1283,70 @@
 }
 
 :root {
-	--bc-help__input--focus: #222222;
-	--bt-help__input--focus: 1px solid #5a808e;
-	--br-help__input--focus: 1px solid #5a808e;
-	--bb-help__input--focus: 1px solid #5a808e;
-	--bl-help__input--focus: 1px solid #5a808e;
+	--bc-help__input--focus: #ffffff;
+	--bt-help__input--focus: 1px solid #8daac9;
+	--br-help__input--focus: 1px solid #8daac9;
+	--bb-help__input--focus: 1px solid #8daac9;
+	--bl-help__input--focus: 1px solid #8daac9;
 	--bd-help__input--focus: 5px;
 }
 
 :root {
-	--bc-help__input: #222222;
-	--bt-help__input: 1px solid #404040;
-	--br-help__input: 1px solid #404040;
-	--bb-help__input: 1px solid #404040;
-	--bl-help__input: 1px solid #404040;
+	--bc-help__input: #ffffff;
+	--bt-help__input: 1px solid #dfdfdf;
+	--br-help__input: 1px solid #dfdfdf;
+	--bb-help__input: 1px solid #dfdfdf;
+	--bl-help__input: 1px solid #dfdfdf;
 	--bd-help__input: 5px;
 }
 
 :root {
-	--co-help__markdown-md: #7a7a7a;
+	--co-help__markdown-md: #9b9b9b;
 	--fs-help__markdown-md: 1rem;
 	--fw-help__markdown-md: 400;
 	--op-help__markdown-md: 1;
 }
 
 :root {
-	--co-help__markdown-title: #f4f4f4;
+	--co-help__markdown-title: #202224;
 	--fs-help__markdown-title: 1rem;
 	--fw-help__markdown-title: 400;
 }
 
 :root {
-	--bc-help__resource--hover: #121212;
+	--bc-help__resource--hover: #ededee;
 }
 
 :root {
-	--co-help__resource-description: #91def9;
+	--co-help__resource-description: #366a9f;
 	--fs-help__resource-description: 1rem;
 	--fw-help__resource-description: 400;
 }
 
 :root {
 	--bc-help__resource-icon: transparent;
-	--co-help__resource-icon: #91def9;
+	--co-help__resource-icon: #366a9f;
 }
 
 :root {
-	--co-help__resource-title: #91def9;
+	--co-help__resource-title: #366a9f;
 	--fs-help__resource-title: 1rem;
 	--fw-help__resource-title: 400;
 }
 
 :root {
-	--co-help__title: #f4f4f4;
+	--co-help__title: #202224;
 	--fs-help__title: 1rem;
 	--fw-help__title: 600;
 }
 
 :root {
-	--bc-highlight: #706c2e;
-	--co-highlight: #f4f4f4;
+	--bc-highlight: #fffabc;
+	--co-highlight: #202224;
 }
 
 :root {
-	--bt-hr: 1px solid #525252;
+	--bt-hr: 1px solid #eeeeef;
 	--br-hr: none;
 	--bb-hr: none;
 	--bl-hr: none;
@@ -1355,26 +1355,26 @@
 :root {
 	--bc-html__select--disabled: transparent;
 	--sd-html__select--disabled: none;
-	--co-html__select--disabled: #f4f4f4;
+	--co-html__select--disabled: #202224;
 }
 
 :root {
 	--bc-html__select--hover: transparent;
 	--sd-html__select--hover: none;
-	--co-html__select--hover: #f4f4f4;
+	--co-html__select--hover: #202224;
 	--td-html__select--hover: none;
 }
 
 :root {
 	--bc-html__select: transparent;
 	--sd-html__select: none;
-	--co-html__select: #f4f4f4;
+	--co-html__select: #202224;
 	--ff-html__select: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-html__select: 1rem;
 }
 
 :root {
-	--co-html__select-icon: #f4f4f4;
+	--co-html__select-icon: #202224;
 }
 
 :root {
@@ -1386,16 +1386,16 @@
 }
 
 :root {
-	--co-input__search-icon: #c8c8c8;
+	--co-input__search-icon: #404040;
 }
 
 :root {
-	--co-input__search-placeholder: #525252;
+	--co-input__search-placeholder: #ababab;
 	--ff-input__search-placeholder: -apple-system, BlinkMacSystemFont,Inter;
 }
 
 :root {
-	--bc-input--focus: #1c1c1c;
+	--bc-input--focus: #e7e7e7;
 	--bt-input--focus: none;
 	--br-input--focus: none;
 	--bb-input--focus: none;
@@ -1405,14 +1405,14 @@
 }
 
 :root {
-	--bc-input: #1c1c1c;
+	--bc-input: #e7e7e7;
 	--bt-input: none;
 	--br-input: none;
 	--bb-input: none;
 	--bl-input: none;
 	--bd-input: 5px;
 	--sd-input: none;
-	--co-input: #dbdfe3;
+	--co-input: #272727;
 	--ff-input: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-input: 0.9rem;
 	--fw-input: 400;
@@ -1420,30 +1420,30 @@
 
 :root {
 	--bc-install-button--hover: transparent;
-	--bt-install-button--hover: 1px solid #424242;
-	--br-install-button--hover: 1px solid #424242;
-	--bb-install-button--hover: 1px solid #424242;
-	--bl-install-button--hover: 1px solid #424242;
+	--bt-install-button--hover: 1px solid #d7d7d7;
+	--br-install-button--hover: 1px solid #d7d7d7;
+	--bb-install-button--hover: 1px solid #d7d7d7;
+	--bl-install-button--hover: 1px solid #d7d7d7;
 	--bd-install-button--hover: 5px;
-	--co-install-button--hover: #97999c;
+	--co-install-button--hover: #8d8e90;
 }
 
 :root {
 	--bc-install-button: transparent;
-	--bt-install-button: 1px solid #424242;
-	--br-install-button: 1px solid #424242;
-	--bb-install-button: 1px solid #424242;
-	--bl-install-button: 1px solid #424242;
+	--bt-install-button: 1px solid #d7d7d7;
+	--br-install-button: 1px solid #d7d7d7;
+	--bb-install-button: 1px solid #d7d7d7;
+	--bl-install-button: 1px solid #d7d7d7;
 	--bd-install-button: 5px;
-	--co-install-button: #dbdfe3;
+	--co-install-button: #272727;
 }
 
 :root {
-	--bc-kanban__card: #292929;
-	--bt-kanban__card: 1px solid #333333;
-	--br-kanban__card: 1px solid #333333;
-	--bb-kanban__card: 1px solid #333333;
-	--bl-kanban__card: 1px solid #333333;
+	--bc-kanban__card: #f8f8f8;
+	--bt-kanban__card: 1px solid #eaeaea;
+	--br-kanban__card: 1px solid #eaeaea;
+	--bb-kanban__card: 1px solid #eaeaea;
+	--bl-kanban__card: 1px solid #eaeaea;
 	--bd-kanban__card: 5px;
 }
 
@@ -1452,11 +1452,11 @@
 }
 
 :root {
-	--bc-kanban__dropbar: #3293b8;
+	--bc-kanban__dropbar: #6cafff;
 }
 
 :root {
-	--bb-kanban__title: 1px solid #333333;
+	--bb-kanban__title: 1px solid #eaeaea;
 	--fw-kanban__title: 600;
 }
 
@@ -1465,16 +1465,16 @@
 }
 
 :root {
-	--bc-left-sidebar__container: #1e1e1e;
-	--br-left-sidebar__container: 1px solid #292929;
+	--bc-left-sidebar__container: #f6f6f6;
+	--br-left-sidebar__container: 1px solid #eaeaea;
 }
 
 :root {
-	--co-left-sidebar__db-title--hover: #d5d9dd;
+	--co-left-sidebar__db-title--hover: #202225;
 }
 
 :root {
-	--co-left-sidebar__db-title: #d5d9dd;
+	--co-left-sidebar__db-title: #202225;
 	--ff-left-sidebar__db-title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-left-sidebar__db-title: 0.95rem;
 	--fw-left-sidebar__db-title: 400;
@@ -1486,11 +1486,11 @@
 }
 
 :root {
-	--co-left-sidebar__icon--hover: #9b9da0;
+	--co-left-sidebar__icon--hover: #686a6c;
 }
 
 :root {
-	--co-left-sidebar__icon: #9b9da0;
+	--co-left-sidebar__icon: #686a6c;
 	--fs-left-sidebar__icon: 0.95rem;
 }
 
@@ -1504,7 +1504,7 @@
 }
 
 :root {
-	--co-left-sidebar__logo-text: #f4f4f4;
+	--co-left-sidebar__logo-text: #202224;
 }
 
 :root {
@@ -1517,7 +1517,7 @@
 
 :root {
 	--bb-level1: none;
-	--co-level1: #f4f4f4;
+	--co-level1: #202224;
 	--ff-level1: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-level1: 1.5rem;
 	--ft-level1: normal;
@@ -1527,7 +1527,7 @@
 
 :root {
 	--bb-level2: none;
-	--co-level2: #f4f4f4;
+	--co-level2: #202224;
 	--ff-level2: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-level2: 1.35rem;
 	--ft-level2: normal;
@@ -1537,7 +1537,7 @@
 
 :root {
 	--bb-level3: none;
-	--co-level3: #f4f4f4;
+	--co-level3: #202224;
 	--ff-level3: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-level3: 1.25rem;
 	--ft-level3: normal;
@@ -1546,7 +1546,7 @@
 }
 
 :root {
-	--co-log-page__h1: #5d5d5d;
+	--co-log-page__h1: #c0c1c2;
 	--ff-log-page__h1: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-log-page__h1: 1.5rem;
 	--ft-log-page__h1: normal;
@@ -1555,26 +1555,26 @@
 }
 
 :root {
-	--co-log-page__preview: #5d5d5d;
+	--co-log-page__preview: #c0c1c2;
 }
 
 :root {
-	--bt-log-page: 1px solid #323232;
+	--bt-log-page: 1px solid #eeeeef;
 }
 
 :root {
-	--bc-logbutton--hover: #232323;
+	--bc-logbutton--hover: #f1f1f1;
 	--bt-logbutton--hover: none;
 	--br-logbutton--hover: none;
 	--bb-logbutton--hover: none;
 	--bl-logbutton--hover: none;
-	--co-logbutton--hover: #d5d9dd;
+	--co-logbutton--hover: #202224;
 	--td-logbutton--hover: none;
 }
 
 :root {
 	--bd-logbutton: 5px;
-	--co-logbutton: #d5d9dd;
+	--co-logbutton: #202224;
 	--ff-logbutton: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-logbutton: 0.95rem;
 	--fw-logbutton: 400;
@@ -1590,42 +1590,42 @@
 }
 
 :root {
-	--co-main__namespace: #a1eeff;
+	--co-main__namespace: #467aaf;
 }
 
 :root {
-	--co-main__strikethrough: #aaaaaa;
+	--co-main__strikethrough: #757779;
 }
 
 :root {
-	--bc-main: #222222;
+	--bc-main: #ffffff;
 }
 
 :root {
-	--co-main: #f4f4f4;
+	--co-main: #202224;
 	--ff-main: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-main: 1.06rem;
 	--fw-main: 400;
 }
 
 :root {
-	--bc-menu__button--active: #293236;
-	--bt-menu__button--active: 1px solid #326277;
-	--br-menu__button--active: 1px solid #326277;
-	--bb-menu__button--active: 1px solid #326277;
-	--bl-menu__button--active: 1px solid #326277;
+	--bc-menu__button--active: #ebf1fb;
+	--bt-menu__button--active: 1px solid #accffd;
+	--br-menu__button--active: 1px solid #accffd;
+	--bb-menu__button--active: 1px solid #accffd;
+	--bl-menu__button--active: 1px solid #accffd;
 	--bd-menu__button--active: 5px;
-	--co-menu__button--active: #dbdddd;
+	--co-menu__button--active: #202224;
 }
 
 :root {
-	--bc-menu__button--hover: #292929;
-	--bt-menu__button--hover: 1px solid #333333;
-	--br-menu__button--hover: 1px solid #333333;
-	--bb-menu__button--hover: 1px solid #333333;
-	--bl-menu__button--hover: 1px solid #333333;
+	--bc-menu__button--hover: #ececec;
+	--bt-menu__button--hover: 1px solid #ececec;
+	--br-menu__button--hover: 1px solid #ececec;
+	--bb-menu__button--hover: 1px solid #ececec;
+	--bl-menu__button--hover: 1px solid #ececec;
 	--bd-menu__button--hover: 5px;
-	--co-menu__button--hover: #f4f4f4;
+	--co-menu__button--hover: #202224;
 }
 
 :root {
@@ -1635,39 +1635,39 @@
 	--bb-menu__button: 1px solid transparent;
 	--bl-menu__button: 1px solid transparent;
 	--bd-menu__button: 5px;
-	--co-menu__button: #f4f4f4;
+	--co-menu__button: #202224;
 }
 
 :root {
-	--bc-menu__button-active--hover: #192226;
-	--bt-menu__button-active--hover: 1px solid #326277;
-	--br-menu__button-active--hover: 1px solid #326277;
-	--bb-menu__button-active--hover: 1px solid #326277;
-	--bl-menu__button-active--hover: 1px solid #326277;
+	--bc-menu__button-active--hover: #dbe1eb;
+	--bt-menu__button-active--hover: 1px solid #accffd;
+	--br-menu__button-active--hover: 1px solid #accffd;
+	--bb-menu__button-active--hover: 1px solid #accffd;
+	--bl-menu__button-active--hover: 1px solid #accffd;
 	--bd-menu__button-active--hover: 5px;
-	--co-menu__button-active--hover: #f4f4f4;
+	--co-menu__button-active--hover: #202224;
 }
 
 :root {
-	--co-menu__button-icon--active: #c8c8c8;
+	--co-menu__button-icon--active: #404040;
 }
 
 :root {
-	--co-menu__button-icon--hover: #c8c8c8;
+	--co-menu__button-icon--hover: #404040;
 }
 
 :root {
-	--co-menu__button-icon: #c8c8c8;
+	--co-menu__button-icon: #404040;
 }
 
 :root {
-	--bc-menu__item--hover: #787878;
+	--bc-menu__item--hover: #b5b6b5;
 	--bt-menu__item--hover: none;
 	--br-menu__item--hover: none;
 	--bb-menu__item--hover: none;
 	--bl-menu__item--hover: none;
 	--bd-menu__item--hover: 4px;
-	--co-menu__item--hover: #f2f2f2;
+	--co-menu__item--hover: #ffffff;
 }
 
 :root {
@@ -1676,44 +1676,44 @@
 	--bb-menu__item: none;
 	--bl-menu__item: none;
 	--bd-menu__item: 4px;
-	--co-menu__item: #f2f2f2;
+	--co-menu__item: #000000;
 	--fs-menu__item: 0.95rem;
 	--fw-menu__item: 400;
 }
 
 :root {
-	--co-menu__item-icon--hover: #f2f2f2;
+	--co-menu__item-icon--hover: #ffffff;
 }
 
 :root {
-	--co-menu__item-icon: #f4f4f4;
+	--co-menu__item-icon: #202224;
 }
 
 :root {
-	--co-menu__item-label--hover: #f2f2f2;
+	--co-menu__item-label--hover: #ffffff;
 }
 
 :root {
-	--co-menu__item-label: #97999c;
+	--co-menu__item-label: #8d8e90;
 	--fs-menu__item-label: 0.8rem;
 	--td-menu__item-label: none;
 }
 
 :root {
-	--co-menu__item-primary: #f4f4f4;
+	--co-menu__item-primary: #202224;
 }
 
 :root {
 	--bc-menu__menu-item--active: transparent;
-	--co-menu__menu-item--active: #97999c;
+	--co-menu__menu-item--active: #8d8e90;
 }
 
 :root {
-	--fl-menu__svg-icon--hover: #c8c8c8;
+	--fl-menu__svg-icon--hover: #404040;
 }
 
 :root {
-	--fl-menu__svg-icon: #c8c8c8;
+	--fl-menu__svg-icon: #404040;
 }
 
 :root {
@@ -1723,48 +1723,48 @@
 	--bb-menu: none;
 	--bl-menu: none;
 	--bd-menu: 5px;
-	--co-menu: #f4f4f4;
+	--co-menu: #202224;
 }
 
 :root {
-	--co-mobile-bar__icon: #f4f4f4;
+	--co-mobile-bar__icon: #202224;
 }
 
 :root {
-	--bc-mobile-bar: #0a0a0a;
+	--bc-mobile-bar: #f7f7f7;
 }
 
 :root {
-	--bc-modal-dialog: #333333;
-	--bt-modal-dialog: 1px solid #222222;
-	--br-modal-dialog: 1px solid #222222;
-	--bb-modal-dialog: 1px solid #222222;
-	--bl-modal-dialog: 1px solid #222222;
+	--bc-modal-dialog: #f7f7f7;
+	--bt-modal-dialog: 1px solid #dedede;
+	--br-modal-dialog: 1px solid #dedede;
+	--bb-modal-dialog: 1px solid #dedede;
+	--bl-modal-dialog: 1px solid #dedede;
 	--bd-modal-dialog: 5px;
 }
 
 :root {
-	--br-multibar--hover: 4px solid #515151;
+	--br-multibar--hover: 4px solid #c9cac9;
 }
 
 :root {
-	--br-multibar: 2px solid #2c2c2c;
+	--br-multibar: 2px solid #f6f7f6;
 }
 
 :root {
-	--bb-page__link--hover: 3px solid #4b7c8f;
-	--co-page__link--hover: #91def9;
+	--bb-page__link--hover: 2px solid #c9daed;
+	--co-page__link--hover: #366a9f;
 	--td-page__link--hover: none;
 }
 
 :root {
-	--bb-page__link: 3px solid #4b7c8f;
-	--co-page__link: #91def9;
+	--bb-page__link: 2px solid #c9daed;
+	--co-page__link: #366a9f;
 	--td-page__link: none;
 }
 
 :root {
-	--co-page__title: #f4f4f4;
+	--co-page__title: #202224;
 	--ff-page__title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-page__title: 1.5rem;
 	--ft-page__title: normal;
@@ -1773,36 +1773,36 @@
 }
 
 :root {
-	--bc-pomodoro--break: #404040;
+	--bc-pomodoro--break: #f6f6f6;
 	--bt-pomodoro--break: none;
 	--br-pomodoro--break: none;
 	--bb-pomodoro--break: none;
 	--bl-pomodoro--break: none;
 	--bd-pomodoro--break: 20px;
 	--sd-pomodoro--break: none;
-	--co-pomodoro--break: #f4f4f4;
+	--co-pomodoro--break: #202224;
 }
 
 :root {
-	--bc-pomodoro--running: #343a3d;
+	--bc-pomodoro--running: #e9f3ff;
 	--bt-pomodoro--running: none;
 	--br-pomodoro--running: none;
 	--bb-pomodoro--running: none;
 	--bl-pomodoro--running: none;
 	--bd-pomodoro--running: 20px;
 	--sd-pomodoro--running: none;
-	--co-pomodoro--running: #f4f4f4;
+	--co-pomodoro--running: #202224;
 }
 
 :root {
-	--bc-pomodoro: #292929;
+	--bc-pomodoro: #ececec;
 	--bt-pomodoro: none;
 	--br-pomodoro: none;
 	--bb-pomodoro: none;
 	--bl-pomodoro: none;
 	--bd-pomodoro: 20px;
 	--sd-pomodoro: none;
-	--co-pomodoro: #f4f4f4;
+	--co-pomodoro: #202224;
 }
 
 :root {
@@ -1823,7 +1823,7 @@
 	--br-popover__button--hover: none;
 	--bb-popover__button--hover: none;
 	--bl-popover__button--hover: none;
-	--co-popover__button--hover: #97999c;
+	--co-popover__button--hover: #8d8e90;
 }
 
 :root {
@@ -1833,21 +1833,21 @@
 	--bb-popover__button: none;
 	--bl-popover__button: none;
 	--bd-popover__button: 5px;
-	--co-popover__button: #dbdfe3;
+	--co-popover__button: #272727;
 }
 
 :root {
-	--bc-popover__content: #333333;
-	--bt-popover__content: 1px solid #5b5b5b;
-	--br-popover__content: 1px solid #5b5b5b;
-	--bb-popover__content: 1px solid #5b5b5b;
-	--bl-popover__content: 1px solid #5b5b5b;
+	--bc-popover__content: #f7f7f7;
+	--bt-popover__content: 1px solid #dedede;
+	--br-popover__content: 1px solid #dedede;
+	--bb-popover__content: 1px solid #dedede;
+	--bl-popover__content: 1px solid #dedede;
 	--bd-popover__content: 5px;
-	--co-popover__content: #f2f2f2;
+	--co-popover__content: #202224;
 }
 
 :root {
-	--co-popover__description: #97999c;
+	--co-popover__description: #8d8e90;
 }
 
 :root {
@@ -1861,12 +1861,12 @@
 
 :root {
 	--bc-query__title: transparent;
-	--co-query__title: #f4f4f4;
+	--co-query__title: #202224;
 	--fw-query__title: 500;
 }
 
 :root {
-	--bc-query: #1e1e1e;
+	--bc-query: #f8f8f8;
 	--bt-query: none;
 	--br-query: none;
 	--bb-query: none;
@@ -1880,9 +1880,9 @@
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #f4f4f4;
+	--bl-quote: 4px solid #202225;
 	--bd-quote: 0px;
-	--co-quote: #f4f4f4;
+	--co-quote: #202224;
 	--ff-quote: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-quote: 1rem;
 	--ft-quote: normal;
@@ -1891,11 +1891,11 @@
 
 :root {
 	--bc-ref-count--active: transparent;
-	--co-ref-count--active: #f4f4f4;
+	--co-ref-count--active: #202224;
 }
 
 :root {
-	--co-reference__item--hover: #f4f4f4;
+	--co-reference__item--hover: #202224;
 	--td-reference__item--hover: none;
 }
 
@@ -1910,7 +1910,7 @@
 
 :root {
 	--bb-reference__linked-title: none;
-	--co-reference__linked-title: #f4f4f4;
+	--co-reference__linked-title: #202224;
 	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-reference__linked-title: 1.06rem;
 	--ft-reference__linked-title: normal;
@@ -1920,7 +1920,7 @@
 
 :root {
 	--bb-reference__linked-title-closed: none;
-	--co-reference__linked-title-closed: #8b8b8b;
+	--co-reference__linked-title-closed: #8f9091;
 	--ff-reference__linked-title-closed: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-reference__linked-title-closed: 1.06rem;
 	--ft-reference__linked-title-closed: normal;
@@ -1929,7 +1929,7 @@
 }
 
 :root {
-	--bt-reference__mentions: 1px solid #333333;
+	--bt-reference__mentions: 1px solid #ededed;
 }
 
 :root {
@@ -1937,12 +1937,12 @@
 }
 
 :root {
-	--co-reference__page-title--hover: #f4f4f4;
+	--co-reference__page-title--hover: #202224;
 	--td-reference__page-title--hover: none;
 }
 
 :root {
-	--co-reference__page-title: #f4f4f4;
+	--co-reference__page-title: #202224;
 	--ff-reference__page-title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-reference__page-title: 1.06rem;
 	--fw-reference__page-title: 500;
@@ -1950,13 +1950,13 @@
 }
 
 :root {
-	--co-reference__unlinked-title--hover: #f4f4f4;
+	--co-reference__unlinked-title--hover: #202224;
 	--td-reference__unlinked-title--hover: none;
 }
 
 :root {
 	--bb-reference__unlinked-title: none;
-	--co-reference__unlinked-title: #f4f4f4;
+	--co-reference__unlinked-title: #202224;
 	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-reference__unlinked-title: 1.06rem;
 	--ft-reference__unlinked-title: normal;
@@ -1965,12 +1965,12 @@
 }
 
 :root {
-	--co-reference__unlinked-title-closed--hover: #8b8b8b;
+	--co-reference__unlinked-title-closed--hover: #8f9091;
 }
 
 :root {
 	--bb-reference__unlinked-title-closed: none;
-	--co-reference__unlinked-title-closed: #8b8b8b;
+	--co-reference__unlinked-title-closed: #8f9091;
 	--ff-reference__unlinked-title-closed: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-reference__unlinked-title-closed: 1.06rem;
 	--ft-reference__unlinked-title-closed: normal;
@@ -1979,23 +1979,23 @@
 }
 
 :root {
-	--bt-right-sidebar__bullet-closed: 4px solid #4c4c4c;
-	--br-right-sidebar__bullet-closed: 4px solid #4c4c4c;
-	--bb-right-sidebar__bullet-closed: 4px solid #4c4c4c;
-	--bl-right-sidebar__bullet-closed: 4px solid #4c4c4c;
+	--bt-right-sidebar__bullet-closed: 4px  solid #f8f8f8;
+	--br-right-sidebar__bullet-closed: 4px  solid #f8f8f8;
+	--bb-right-sidebar__bullet-closed: 4px  solid #f8f8f8;
+	--bl-right-sidebar__bullet-closed: 4px  solid #f8f8f8;
 }
 
 :root {
-	--bc-right-sidebar__container: #222222;
-	--bl-right-sidebar__container: 1px solid #292929;
+	--bc-right-sidebar__container: #ffffff;
+	--bl-right-sidebar__container: 1px solid #e8eaea;
 }
 
 :root {
-	--bc-right-sidebar__content: #222222;
+	--bc-right-sidebar__content: #ffffff;
 }
 
 :root {
-	--co-right-sidebar__h1: #f4f4f4;
+	--co-right-sidebar__h1: #202224;
 	--fs-right-sidebar__h1: 1rem;
 	--fw-right-sidebar__h1: 600;
 }
@@ -2005,19 +2005,19 @@
 }
 
 :root {
-	--bc-right-sidebar__inline-references: #292929;
+	--bc-right-sidebar__inline-references: #f8f8f8;
 }
 
 :root {
-	--bc-right-sidebar__toprow: #222222;
+	--bc-right-sidebar__toprow: #ffffff;
 }
 
 :root {
-	--bb-right-sidebar__window: 1px solid #333333;
+	--bb-right-sidebar__window: 1px solid #ececec;
 }
 
 :root {
-	--co-right-sidebar__window-title: #f4f4f4;
+	--co-right-sidebar__window-title: #202224;
 }
 
 :root {
@@ -2041,7 +2041,7 @@
 }
 
 :root {
-	--bc-roam-css__button--inactive: #ff3e69;
+	--bc-roam-css__button--inactive: #ef032a;
 	--bt-roam-css__button--inactive: none;
 	--br-roam-css__button--inactive: none;
 	--bb-roam-css__button--inactive: none;
@@ -2051,7 +2051,7 @@
 }
 
 :root {
-	--bc-roam-css__button--inactive-hover: #ff3e69;
+	--bc-roam-css__button--inactive-hover: #ef032a;
 	--bt-roam-css__button--inactive-hover: none;
 	--br-roam-css__button--inactive-hover: none;
 	--bb-roam-css__button--inactive-hover: none;
@@ -2061,23 +2061,23 @@
 }
 
 :root {
-	--bc-roam-css__container-active: #322b20;
+	--bc-roam-css__container-active: #fff7ec;
 	--bt-roam-css__container-active: none;
 	--br-roam-css__container-active: none;
 	--bb-roam-css__container-active: none;
 	--bl-roam-css__container-active: none;
 	--bd-roam-css__container-active: 5px;
-	--co-roam-css__container-active: #fac379;
+	--co-roam-css__container-active: #8f5a12;
 }
 
 :root {
-	--bc-roam-css__container-inactive: #322427;
+	--bc-roam-css__container-inactive: #feecef;
 	--bt-roam-css__container-inactive: none;
 	--br-roam-css__container-inactive: none;
 	--bb-roam-css__container-inactive: none;
 	--bl-roam-css__container-inactive: none;
 	--bd-roam-css__container-inactive: 5px;
-	--co-roam-css__container-inactive: #f99aae;
+	--co-roam-css__container-inactive: #871327;
 }
 
 :root {
@@ -2101,7 +2101,7 @@
 }
 
 :root {
-	--bc-roam-js__button--inactive: #ff3e69;
+	--bc-roam-js__button--inactive: #ef032a;
 	--bt-roam-js__button--inactive: none;
 	--br-roam-js__button--inactive: none;
 	--bb-roam-js__button--inactive: none;
@@ -2111,7 +2111,7 @@
 }
 
 :root {
-	--bc-roam-js__button--inactive-hover: #ff3e69;
+	--bc-roam-js__button--inactive-hover: #ef032a;
 	--bt-roam-js__button--inactive-hover: none;
 	--br-roam-js__button--inactive-hover: none;
 	--bb-roam-js__button--inactive-hover: none;
@@ -2121,37 +2121,37 @@
 }
 
 :root {
-	--bc-roam-js__container-active: #322b20;
+	--bc-roam-js__container-active: #fff7ec;
 	--bt-roam-js__container-active: none;
 	--br-roam-js__container-active: none;
 	--bb-roam-js__container-active: none;
 	--bl-roam-js__container-active: none;
 	--bd-roam-js__container-active: 5px;
-	--co-roam-js__container-active: #fac379;
+	--co-roam-js__container-active: #8f5a12;
 }
 
 :root {
-	--bc-roam-js__container-inactive: #322427;
+	--bc-roam-js__container-inactive: #feecef;
 	--bt-roam-js__container-inactive: none;
 	--br-roam-js__container-inactive: none;
 	--bb-roam-js__container-inactive: none;
 	--bl-roam-js__container-inactive: none;
 	--bd-roam-js__container-inactive: 5px;
-	--co-roam-js__container-inactive: #f99aae;
+	--co-roam-js__container-inactive: #871327;
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: #1c1c1c;
+	--bc-roam42__cp-menu-item--hover: #e7e7e7;
 	--bt-roam42__cp-menu-item--hover: none;
 	--br-roam42__cp-menu-item--hover: none;
 	--bb-roam42__cp-menu-item--hover: none;
 	--bl-roam42__cp-menu-item--hover: none;
 	--bd-roam42__cp-menu-item--hover: 5px;
-	--co-roam42__cp-menu-item--hover: #f4f4f4;
+	--co-roam42__cp-menu-item--hover: #202224;
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: #1c1c1c;
+	--bc-roam42__cp-menu-item--selected: #e7e7e7;
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
@@ -2168,7 +2168,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item-active--hover: #1c1c1c;
+	--bc-roam42__cp-menu-item-active--hover: #e7e7e7;
 	--bt-roam42__cp-menu-item-active--hover: none;
 	--br-roam42__cp-menu-item-active--hover: none;
 	--bb-roam42__cp-menu-item-active--hover: none;
@@ -2179,7 +2179,7 @@
 :root {
 	--bc-roam42__cp-menu-shortcut: transparent;
 	--bd-roam42__cp-menu-shortcut: 5px;
-	--co-roam42__cp-menu-shortcut: #97999c;
+	--co-roam42__cp-menu-shortcut: #8d8e90;
 }
 
 :root {
@@ -2192,7 +2192,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: #1c1c1c;
+	--bc-roam42__jj-menu-item--highlight: #e7e7e7;
 	--bt-roam42__jj-menu-item--highlight: none;
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
@@ -2201,13 +2201,13 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: #1c1c1c;
+	--bc-roam42__jj-menu-item--hover: #e7e7e7;
 	--bt-roam42__jj-menu-item--hover: none;
 	--br-roam42__jj-menu-item--hover: none;
 	--bb-roam42__jj-menu-item--hover: none;
 	--bl-roam42__jj-menu-item--hover: none;
 	--bd-roam42__jj-menu-item--hover: 5px;
-	--co-roam42__jj-menu-item--hover: #f4f4f4;
+	--co-roam42__jj-menu-item--hover: #202224;
 }
 
 :root {
@@ -2221,21 +2221,21 @@
 
 :root {
 	--bc-settings__auth-provider: transparent;
-	--bt-settings__auth-provider: 1px solid #686868;
-	--br-settings__auth-provider: 1px solid #686868;
-	--bb-settings__auth-provider: 1px solid #686868;
-	--bl-settings__auth-provider: 1px solid #686868;
+	--bt-settings__auth-provider: 1px solid #e6e6e6;
+	--br-settings__auth-provider: 1px solid #e6e6e6;
+	--bb-settings__auth-provider: 1px solid #e6e6e6;
+	--bl-settings__auth-provider: 1px solid #e6e6e6;
 	--bd-settings__auth-provider: 5px;
-	--co-settings__auth-provider: #f4f4f4;
+	--co-settings__auth-provider: #202224;
 }
 
 :root {
-	--bt-settings__button: 2px solid #414141;
-	--br-settings__button: 2px solid #414141;
-	--bb-settings__button: 2px solid #414141;
-	--bl-settings__button: 2px solid #414141;
+	--bt-settings__button: 2px solid #eaeaea;
+	--br-settings__button: 2px solid #eaeaea;
+	--bb-settings__button: 2px solid #eaeaea;
+	--bl-settings__button: 2px solid #eaeaea;
 	--bd-settings__button: 5px;
-	--co-settings__button: #f4f4f4;
+	--co-settings__button: #202224;
 }
 
 :root {
@@ -2243,26 +2243,26 @@
 }
 
 :root {
-	--bc-settings__container: #222222;
-	--bt-settings__container: 1px solid #686868;
-	--br-settings__container: 1px solid #686868;
-	--bb-settings__container: 1px solid #686868;
-	--bl-settings__container: 1px solid #686868;
-	--co-settings__container: #f4f4f4;
+	--bc-settings__container: #ffffff;
+	--bt-settings__container: 1px solid #dedede;
+	--br-settings__container: 1px solid #dedede;
+	--bb-settings__container: 1px solid #dedede;
+	--bl-settings__container: 1px solid #dedede;
+	--co-settings__container: #202224;
 	--fs-settings__container: 0.9rem;
 }
 
 :root {
-	--co-settings__description: #dbdfe3;
+	--co-settings__description: #a0a1a2;
 }
 
 :root {
-	--co-settings__email-header: #f4f4f4;
+	--co-settings__email-header: #202224;
 	--td-settings__email-header: none;
 }
 
 :root {
-	--co-settings__filelist-item: #f4f4f4;
+	--co-settings__filelist-item: #202224;
 }
 
 :root {
@@ -2271,56 +2271,56 @@
 }
 
 :root {
-	--co-settings__heading: #9b9da0;
+	--co-settings__heading: #686a6c;
 	--fs-settings__heading: 0.8rem;
 	--fw-settings__heading: 600;
 }
 
 :root {
-	--bc-settings__hotkeys: #1e1e1e;
-	--co-settings__hotkeys: #f4f4f4;
+	--bc-settings__hotkeys: #f6f6f7;
+	--co-settings__hotkeys: #202224;
 }
 
 :root {
 	--bc-settings__input--focus: transparent;
-	--bt-settings__input--focus: 1px solid #404040;
-	--br-settings__input--focus: 1px solid #404040;
-	--bb-settings__input--focus: 1px solid #404040;
-	--bl-settings__input--focus: 1px solid #404040;
+	--bt-settings__input--focus: 1px solid #e6e6e6;
+	--br-settings__input--focus: 1px solid #e6e6e6;
+	--bb-settings__input--focus: 1px solid #e6e6e6;
+	--bl-settings__input--focus: 1px solid #e6e6e6;
 }
 
 :root {
-	--co-settings__input--placeholder: #5d5d5d;
+	--co-settings__input--placeholder: #c0c1c2;
 }
 
 :root {
 	--bc-settings__input: transparent;
-	--bt-settings__input: 1px solid #404040;
-	--br-settings__input: 1px solid #404040;
-	--bb-settings__input: 1px solid #404040;
-	--bl-settings__input: 1px solid #404040;
+	--bt-settings__input: 1px solid #e6e6e6;
+	--br-settings__input: 1px solid #e6e6e6;
+	--bb-settings__input: 1px solid #e6e6e6;
+	--bl-settings__input: 1px solid #e6e6e6;
 	--bd-settings__input: 5px;
-	--co-settings__input: #f4f4f4;
+	--co-settings__input: #202224;
 }
 
 :root {
-	--bc-settings__items--hover: #1e1e1e;
+	--bc-settings__items--hover: #f6f6f6;
 	--bt-settings__items--hover: none;
 	--br-settings__items--hover: none;
 	--bb-settings__items--hover: none;
 	--bl-settings__items--hover: none;
 	--bd-settings__items--hover: 5px;
-	--co-settings__items--hover: #f4f4f4;
+	--co-settings__items--hover: #202224;
 }
 
 :root {
-	--bc-settings__items--selected: #313131;
+	--bc-settings__items--selected: #ededee;
 	--bt-settings__items--selected: none;
 	--br-settings__items--selected: none;
 	--bb-settings__items--selected: none;
 	--bl-settings__items--selected: none;
 	--bd-settings__items--selected: 5px;
-	--co-settings__items--selected: #f4f4f4;
+	--co-settings__items--selected: #202224;
 }
 
 :root {
@@ -2330,7 +2330,7 @@
 	--bb-settings__items: none;
 	--bl-settings__items: none;
 	--bd-settings__items: 5px;
-	--co-settings__items: #f4f4f4;
+	--co-settings__items: #202224;
 }
 
 :root {
@@ -2342,7 +2342,7 @@
 }
 
 :root {
-	--bc-settings__password-input--focus: #1e1e1e;
+	--bc-settings__password-input--focus: #f6f6f7;
 	--bt-settings__password-input--focus: none;
 	--br-settings__password-input--focus: none;
 	--bb-settings__password-input--focus: none;
@@ -2350,26 +2350,26 @@
 }
 
 :root {
-	--co-settings__password-input--placeholder: #f4f4f4;
+	--co-settings__password-input--placeholder: #202224;
 }
 
 :root {
-	--bc-settings__password-input: #1e1e1e;
+	--bc-settings__password-input: #f6f6f7;
 	--bt-settings__password-input: none;
 	--br-settings__password-input: none;
 	--bb-settings__password-input: none;
 	--bl-settings__password-input: none;
 	--bd-settings__password-input: 5px;
-	--co-settings__password-input: #f4f4f4;
+	--co-settings__password-input: #202224;
 }
 
 :root {
-	--bc-settings__scrollbar-thumb: #9d9d9d;
+	--bc-settings__scrollbar-thumb: #7f7f7f;
 	--bd-settings__scrollbar-thumb: 5px;
 }
 
 :root {
-	--bc-settings__scrollbar-track: #222222;
+	--bc-settings__scrollbar-track: #ffffff;
 	--bd-settings__scrollbar-track: 5px;
 }
 
@@ -2387,25 +2387,25 @@
 }
 
 :root {
-	--bc-settings__tab-list: #1e1e1e;
-	--br-settings__tab-list: 1px solid #292929;
+	--bc-settings__tab-list: #fbfbfb;
+	--br-settings__tab-list: 1px solid #f2f2f2;
 }
 
 :root {
-	--bc-span--highlighted: #706c2e;
+	--bc-span--highlighted: #fffabc;
 }
 
 :root {
-	--co-starred__icon: #f4f4f4;
+	--co-starred__icon: #202224;
 }
 
 :root {
-	--bc-starred__page--hover: #232323;
+	--bc-starred__page--hover: #f1f1f1;
 	--bt-starred__page--hover: none;
 	--br-starred__page--hover: none;
 	--bb-starred__page--hover: none;
 	--bl-starred__page--hover: none;
-	--co-starred__page--hover: #d0d4d7;
+	--co-starred__page--hover: #313537;
 	--td-starred__page--hover: none;
 }
 
@@ -2415,7 +2415,7 @@
 	--bb-starred__page: none;
 	--bl-starred__page: none;
 	--bd-starred__page: 5px;
-	--co-starred__page: #9ea2a4;
+	--co-starred__page: #5c5e60;
 	--ff-starred__page: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-starred__page: 0.95rem;
 	--ft-starred__page: normal;
@@ -2424,7 +2424,7 @@
 }
 
 :root {
-	--co-starred__title: #787878;
+	--co-starred__title: #949494;
 	--ff-starred__title: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-starred__title: 0.95rem;
 	--ft-starred__title: normal;
@@ -2437,52 +2437,52 @@
 }
 
 :root {
-	--bc-sync--saving-remote: #ff3e69;
+	--bc-sync--saving-remote: #ef032a;
 }
 
 :root {
-	--bc-sync--synced: #03ffb9;
+	--bc-sync--synced: #00ca84;
 }
 
 :root {
 	--bc-table__header: transparent;
-	--bt-table__header: 1px solid #4c4c4c;
-	--br-table__header: 1px solid #4c4c4c;
-	--bb-table__header: 1px solid #4c4c4c;
-	--bl-table__header: 1px solid #4c4c4c;
-	--co-table__header: #f4f4f4;
+	--bt-table__header: 1px solid #e3e3e4;
+	--br-table__header: 1px solid #e3e3e4;
+	--bb-table__header: 1px solid #e3e3e4;
+	--bl-table__header: 1px solid #e3e3e4;
+	--co-table__header: #202224;
 	--fs-table__header: 1rem;
 	--fw-table__header: 500;
 }
 
 :root {
 	--bc-table: transparent;
-	--bt-table: 1px solid #4c4c4c;
-	--br-table: 1px solid #4c4c4c;
-	--bb-table: 1px solid #4c4c4c;
-	--bl-table: 1px solid #4c4c4c;
-	--co-table: #f4f4f4;
+	--bt-table: 1px solid #e3e3e4;
+	--br-table: 1px solid #e3e3e4;
+	--bb-table: 1px solid #e3e3e4;
+	--bl-table: 1px solid #e3e3e4;
+	--co-table: #202224;
 	--fs-table: 1rem;
 }
 
 :root {
-	--bc-tags--hover: #424647;
+	--bc-tags--hover: #d4d8db;
 	--bt-tags--hover: none;
 	--br-tags--hover: none;
 	--bb-tags--hover: none;
 	--bl-tags--hover: none;
 	--bd-tags--hover: 10px;
-	--co-tags--hover: #a0a0a0;
+	--co-tags--hover: #808080;
 }
 
 :root {
-	--bc-tags: #363a3c;
+	--bc-tags: #e2e4e7;
 	--bt-tags: none;
 	--br-tags: none;
 	--bb-tags: none;
 	--bl-tags: none;
 	--bd-tags: 10px;
-	--co-tags: #a0a0a0;
+	--co-tags: #606060;
 	--ff-tags: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-tags: 0.9rem;
 	--ft-tags: normal;
@@ -2492,17 +2492,17 @@
 }
 
 :root {
-	--bc-textarea__selection: #a0a0a0;
+	--bc-textarea__selection: #eaf4ff;
 }
 
 :root {
 	--bc-tooltip: #3d4145;
-	--bt-tooltip: 1px solid #4b4d50;
-	--br-tooltip: 1px solid #4b4d50;
-	--bb-tooltip: 1px solid #4b4d50;
-	--bl-tooltip: 1px solid #4b4d50;
+	--bt-tooltip: 1px solid #202123;
+	--br-tooltip: 1px solid #202123;
+	--bb-tooltip: 1px solid #202123;
+	--bl-tooltip: 1px solid #202123;
 	--bd-tooltip: 5px;
-	--co-tooltip: #e9eaea;
+	--co-tooltip: #e1e2e3;
 	--fs-tooltip: 0.9rem;
 }
 
@@ -2517,43 +2517,43 @@
 }
 
 :root {
-	--bc-topbar-datepicker__day--hover: #292929;
+	--bc-topbar-datepicker__day--hover: #eaeaea;
 	--bd-topbar-datepicker__day--hover: 5px;
-	--co-topbar-datepicker__day--hover: #f4f4f4;
+	--co-topbar-datepicker__day--hover: #202224;
 }
 
 :root {
-	--bc-topbar-datepicker__day--selected: #f4f4f4;
+	--bc-topbar-datepicker__day--selected: #202225;
 	--bd-topbar-datepicker__day--selected: 5px;
-	--co-topbar-datepicker__day--selected: #202020;
+	--co-topbar-datepicker__day--selected: #ffffff;
 }
 
 :root {
-	--co-topbar-datepicker__day: #f4f4f4;
+	--co-topbar-datepicker__day: #202224;
 }
 
 :root {
-	--bc-topbar-datepicker__day-selected--hover: #f4f4f4;
+	--bc-topbar-datepicker__day-selected--hover: #202225;
 	--bd-topbar-datepicker__day-selected--hover: 5px;
-	--co-topbar-datepicker__day-selected--hover: #202020;
+	--co-topbar-datepicker__day-selected--hover: #ffffff;
 }
 
 :root {
-	--co-topbar-datepicker__day-without-page: #646464;
+	--co-topbar-datepicker__day-without-page: #b7b8b9;
 }
 
 :root {
-	--bc-topbar-datepicker__nav-button--hover: #292929;
+	--bc-topbar-datepicker__nav-button--hover: #eaeaea;
 	--bt-topbar-datepicker__nav-button--hover: none;
 	--br-topbar-datepicker__nav-button--hover: none;
 	--bb-topbar-datepicker__nav-button--hover: none;
 	--bl-topbar-datepicker__nav-button--hover: none;
 	--bd-topbar-datepicker__nav-button--hover: 5px;
-	--co-topbar-datepicker__nav-button--hover: #f4f4f4;
+	--co-topbar-datepicker__nav-button--hover: #202224;
 }
 
 :root {
-	--co-topbar-datepicker__nav-button--hover: #f4f4f4;
+	--co-topbar-datepicker__nav-button--hover: #202224;
 }
 
 :root {
@@ -2566,7 +2566,7 @@
 }
 
 :root {
-	--co-topbar-datepicker__nav-button: #f4f4f4;
+	--co-topbar-datepicker__nav-button: #202224;
 }
 
 :root {
@@ -2574,27 +2574,27 @@
 }
 
 :root {
-	--bc-topbar-datepicker__today--selected: #2fa5d2;
-	--co-topbar-datepicker__today--selected: #f2f2f2;
+	--bc-topbar-datepicker__today--selected: #0087ff;
+	--co-topbar-datepicker__today--selected: #ffffff;
 }
 
 :root {
-	--bc-topbar-datepicker__today: #222c31;
-	--co-topbar-datepicker__today: #f4f4f4;
+	--bc-topbar-datepicker__today: #e9f0f9;
+	--co-topbar-datepicker__today: #202224;
 	--fw-topbar-datepicker__today: 400;
 }
 
 :root {
-	--bc-topbar-datepicker__today-selected--hover: #2fa5d2;
+	--bc-topbar-datepicker__today-selected--hover: #58a5ff;
 }
 
 :root {
-	--co-topbar-datepicker__weekdays: #646464;
+	--co-topbar-datepicker__weekdays: #b7b8b9;
 }
 
 :root {
 	--br-topbar-datepicker__weeknumber: none;
-	--co-topbar-datepicker__weeknumber: #646464;
+	--co-topbar-datepicker__weeknumber: #b7b8b9;
 	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-topbar-datepicker__weeknumber: 1rem;
 }
@@ -2606,35 +2606,35 @@
 	--bb-topbar-datepicker: none;
 	--bl-topbar-datepicker: none;
 	--bd-topbar-datepicker: 5px;
-	--co-topbar-datepicker: #f4f4f4;
+	--co-topbar-datepicker: #202224;
 	--ff-topbar-datepicker: -apple-system, BlinkMacSystemFont,Inter;
 }
 
 :root {
 	--bc-topbar-datepicker-html__select--hover: transparent;
-	--co-topbar-datepicker-html__select--hover: #f4f4f4;
+	--co-topbar-datepicker-html__select--hover: #202224;
 }
 
 :root {
-	--co-topbar-datepicker-html__select: #f4f4f4;
+	--co-topbar-datepicker-html__select: #202224;
 	--ff-topbar-datepicker-html__select: -apple-system, BlinkMacSystemFont,Inter;
 	--fs-topbar-datepicker-html__select: 1rem;
 }
 
 :root {
-	--co-topbar-datepicker-html__select-icon--hover: #f4f4f4;
+	--co-topbar-datepicker-html__select-icon--hover: #202224;
 }
 
 :root {
-	--co-topbar-datepicker-html__select-icon: #f4f4f4;
+	--co-topbar-datepicker-html__select-icon: #202224;
 }
 
 :root {
-	--bc-version__bullet: #4c4c4c;
+	--bc-version__bullet: #8f9091;
 }
 
 :root {
-	--bb-version__choice: 1px solid #333333;
+	--bb-version__choice: 1px solid #ececec;
 }
 
 :root {
@@ -2642,44 +2642,30 @@
 }
 
 :root {
-	--co-zoom-item: #7a7a7a;
+	--co-zoom-item: #9b9b9b;
 	--fs-zoom-item: 1rem;
 }
 
 :root {
-	--co-zotero__h5: #f4f4f4;
+	--co-zotero__h5: #202224;
 }
 
 :root {
-	--bc-zotero__page-menu: #0a0a0a;
-	--bt-zotero__page-menu: 1px solid #222222;
-	--br-zotero__page-menu: 1px solid #222222;
-	--bb-zotero__page-menu: 1px solid #222222;
-	--bl-zotero__page-menu: 1px solid #222222;
+	--bc-zotero__page-menu: #f7f7f7;
+	--bt-zotero__page-menu: 1px solid #dedede;
+	--br-zotero__page-menu: 1px solid #dedede;
+	--bb-zotero__page-menu: 1px solid #dedede;
+	--bl-zotero__page-menu: 1px solid #dedede;
 	--bd-zotero__page-menu: 5px;
 	--sd-zotero__page-menu: ;
 }
 
 :root {
-	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
-	--co-zotero__primary: ;
 }
 
 :root {
 	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
-	--co-zotero__primary: #f4f4f4;
+	--co-zotero__primary: #202224;
 }
 
 :root {

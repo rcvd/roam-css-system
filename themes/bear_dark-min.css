@@ -2657,28 +2657,9 @@
 	--bb-zotero__page-menu: 1px solid var(--cl-black);
 	--bl-zotero__page-menu: 1px solid var(--cl-black);
 	--bd-zotero__page-menu: 0px;
-	--sd-zotero__page-menu: ;
 }
 
 :root {
-	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
-	--co-zotero__primary: ;
-}
-
-:root {
-	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
 	--co-zotero__primary: var(--cl-green-500);
 }
 

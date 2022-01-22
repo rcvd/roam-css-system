@@ -2695,9 +2695,31 @@ span[style*='background-color: yellow'] {
 	border-bottom: 			var(--bb-zotero__page-menu, 1px #eaeaea solid);
 	border-left: 			var(--bl-zotero__page-menu, 1px #eaeaea solid);
 	border-radius: 			var(--bd-zotero__page-menu, 5px);
+	box-shadow: 			var(--sd-zotero__page-menu, inherit);
+	--webkit-box-shadow: 	var(--sd-zotero__page-menu, inherit);
+}
+
+#zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary:hover, .zotero-roam-page-div .bp3-button.bp3-minimal.bp3-intent-primary:hover {
+	background-color: 		var(--bc-zotero__primary, inherit);
+	border-top: 			var(--bt-zotero__primary, inherit);
+	border-right: 			var(--br-zotero__primary, inherit);
+	border-bottom: 			var(--bb-zotero__primary, inherit);
+	border-left: 			var(--bl-zotero__primary, inherit);
+	border-radius: 			var(--bd-zotero__primary, inherit);
+	box-shadow: 			var(--sd-zotero__primary, inherit);
+	--webkit-box-shadow: 	var(--sd-zotero__primary, inherit);
+	color: 					var(--co-zotero__primary, inherit);
 }
 
 #zotero-roam-portal .bp3-tag.bp3-minimal.bp3-intent-primary, .zotero-roam-page-div .bp3-button.bp3-minimal.bp3-intent-primary {
+	background-color: 		var(--bc-zotero__primary, inherit);
+	border-top: 			var(--bt-zotero__primary, inherit);
+	border-right: 			var(--br-zotero__primary, inherit);
+	border-bottom: 			var(--bb-zotero__primary, inherit);
+	border-left: 			var(--bl-zotero__primary, inherit);
+	border-radius: 			var(--bd-zotero__primary, inherit);
+	box-shadow: 			var(--sd-zotero__primary, inherit);
+	--webkit-box-shadow: 	var(--sd-zotero__primary, inherit);
 	color: 					var(--co-zotero__primary, #106ba3);
 }
 
@@ -2705,5 +2727,21 @@ span.zotero-roam-sequence {
 	background-color: 		var(--bc-zotero__sequence, khaki);
 	border-right: 			var(--br-zotero__sequence, inherit);
 	font-size: 				var(--fs-zotero__sequence, 0.85em);
+}
+
+.zotero-roam-search-results-list .bp3-menu-item:hover .zr-highlight {
+	color: 					var(--co-zotero__search-highlight--hover, inherit);
+}
+
+.zotero-roam-search-results-list .bp3-menu-item:hover .zr-secondary {
+	color: 					var(--co-zotero__search-secondary--hover, inherit);
+}
+
+.zotero-roam-search-results-list .bp3-menu-item .zr-highlight {
+	color: 					var(--co-zotero__search-highlight, inherit);
+}
+
+.zotero-roam-search-results-list .bp3-menu-item .zr-secondary {
+	color: 					var(--co-zotero__search-secondary, inherit);
 }
 

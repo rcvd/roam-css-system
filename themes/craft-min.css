@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-craft.css');
+@import url('https://m1.local:5757/fonts/craft.css');
+@import url('https://m1.local:5757/internal/colors-craft.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-craft.css');
 
 
 :root {
@@ -5768,47 +5768,21 @@
 }
 
 :root {
-	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
-	--co-zotero__primary: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-zotero__primary: ;
-		--bt-zotero__primary: ;
-		--br-zotero__primary: ;
-		--bb-zotero__primary: ;
-		--bl-zotero__primary: ;
-		--sd-zotero__primary: ;
-		--co-zotero__primary: ;
 	}
 }
 
 :root {
 	--bc-zotero__primary: ;
-	--bt-zotero__primary: ;
-	--br-zotero__primary: ;
-	--bb-zotero__primary: ;
-	--bl-zotero__primary: ;
-	--bd-zotero__primary: ;
-	--sd-zotero__primary: ;
 	--co-zotero__primary: #202224;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-zotero__primary: ;
-		--bt-zotero__primary: ;
-		--br-zotero__primary: ;
-		--bb-zotero__primary: ;
-		--bl-zotero__primary: ;
-		--sd-zotero__primary: ;
 		--co-zotero__primary: #f4f4f4;
 	}
 }

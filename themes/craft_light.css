@@ -2657,9 +2657,28 @@
 	--bb-zotero__page-menu: 1px solid #dedede;
 	--bl-zotero__page-menu: 1px solid #dedede;
 	--bd-zotero__page-menu: 5px;
+	--sd-zotero__page-menu: ;
 }
 
 :root {
+	--bc-zotero__primary: ;
+	--bt-zotero__primary: ;
+	--br-zotero__primary: ;
+	--bb-zotero__primary: ;
+	--bl-zotero__primary: ;
+	--bd-zotero__primary: ;
+	--sd-zotero__primary: ;
+	--co-zotero__primary: ;
+}
+
+:root {
+	--bc-zotero__primary: ;
+	--bt-zotero__primary: ;
+	--br-zotero__primary: ;
+	--bb-zotero__primary: ;
+	--bl-zotero__primary: ;
+	--bd-zotero__primary: ;
+	--sd-zotero__primary: ;
 	--co-zotero__primary: #202224;
 }
 
@@ -2667,5 +2686,21 @@
 	--bc-zotero__sequence: transparent;
 	--br-zotero__sequence: none;
 	--fs-zotero__sequence: 1rem;
+}
+
+:root {
+	--co-zotero__search-highlight--hover: ;
+}
+
+:root {
+	--co-zotero__search-secondary--hover: ;
+}
+
+:root {
+	--co-zotero__search-highlight: ;
+}
+
+:root {
+	--co-zotero__search-secondary: ;
 }
 
