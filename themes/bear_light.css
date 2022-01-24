@@ -2145,7 +2145,7 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: ;
+	--bc-roam42__cp-menu-item--hover: #ffffff;
 	--bt-roam42__cp-menu-item--hover: ;
 	--br-roam42__cp-menu-item--hover: ;
 	--bb-roam42__cp-menu-item--hover: ;
@@ -2205,7 +2205,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: ;
+	--bc-roam42__jj-menu-item--hover: #ffffff;
 	--bt-roam42__jj-menu-item--hover: ;
 	--br-roam42__jj-menu-item--hover: ;
 	--bb-roam42__jj-menu-item--hover: ;
