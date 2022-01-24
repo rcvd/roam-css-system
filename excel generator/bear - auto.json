@@ -1156,6 +1156,16 @@
 					"string": "```css\n:root {\n\t--bc-dialog__upload-input: #c9c9c9;\n\t--bt-dialog__upload-input: none;\n\t--br-dialog__upload-input: none;\n\t--bb-dialog__upload-input: none;\n\t--bl-dialog__upload-input: none;\n\t--bd-dialog__upload-input: 5px;\n\t--sd-dialog__upload-input: none;\n\t--co-dialog__upload-input: #ffffff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-dialog__upload-input: #404040;\n\t\t--bt-dialog__upload-input: none;\n\t\t--br-dialog__upload-input: none;\n\t\t--bb-dialog__upload-input: none;\n\t\t--bl-dialog__upload-input: none;\n\t\t--sd-dialog__upload-input: none;\n\t\t--co-dialog__upload-input: #f5f5f7;\n\t}\n}```"
 				}]
 			}]
+		},
+		{
+			"string": "confirmation",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-dialog__confirmation: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-dialog__confirmation: ;\n\t}\n}```"
+				}]
+			}]
 		}]
 	},
 	{

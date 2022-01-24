@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/lesswrong.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-lesswrong.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-lesswrong_dark.css');
+@import url('https://m1.local:5757/fonts/lesswrong.css');
+@import url('https://m1.local:5757/internal/colors-lesswrong.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-lesswrong_dark.css');
 
 
 :root {
@@ -821,6 +821,10 @@
 	--bd-dialog__upload-input: 0px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: var(--cl-gray-100);
+}
+
+:root {
+	--bc-dialog__confirmation: ;
 }
 
 :root {

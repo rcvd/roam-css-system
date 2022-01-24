@@ -17,14 +17,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/excel generator\/~$CSS-Generator.xlsm" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/excel generator\/~$CSS-Generator.xlsm",
-      "oF" : 0
-    },
     "\/excel generator\/apple - auto.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -542,18 +534,6 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/internal\/colors-things-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/internal\/roam-css-system-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/internal\/roam-css-system-min-min.css",
       "oF" : 0,
       "pg" : 0
     },

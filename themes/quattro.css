@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/quattro.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-quattro.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-quattro.css');
+@import url('https://m1.local:5757/fonts/quattro.css');
+@import url('https://m1.local:5757/internal/colors-quattro.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-quattro.css');
 
 
 :root {
@@ -1820,6 +1820,16 @@
 		--bl-dialog__upload-input: 1px solid var(--cl-gray-700);
 		--sd-dialog__upload-input: none;
 		--co-dialog__upload-input: var(--cl-gray-100);
+	}
+}
+
+:root {
+	--bc-dialog__confirmation: ;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-dialog__confirmation: ;
 	}
 }
 

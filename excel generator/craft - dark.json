@@ -1156,6 +1156,16 @@
 					"string": "```css\n:root {\n\t--bc-dialog__upload-input: #1c1c1c;\n\t--bt-dialog__upload-input: none;\n\t--br-dialog__upload-input: none;\n\t--bb-dialog__upload-input: none;\n\t--bl-dialog__upload-input: none;\n\t--bd-dialog__upload-input: 5px;\n\t--sd-dialog__upload-input: none;\n\t--co-dialog__upload-input: #dbdfe3;\n}```"
 				}]
 			}]
+		},
+		{
+			"string": "confirmation",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-dialog__confirmation: transparent;\n}```"
+				}]
+			}]
 		}]
 	},
 	{

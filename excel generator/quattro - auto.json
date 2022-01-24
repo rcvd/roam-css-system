@@ -1156,6 +1156,16 @@
 					"string": "```css\n:root {\n\t--bc-dialog__upload-input: var(--cl-gray-50);\n\t--bt-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--br-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bb-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bl-dialog__upload-input: 1px solid var(--cl-gray-100);\n\t--bd-dialog__upload-input: 0px;\n\t--sd-dialog__upload-input: none;\n\t--co-dialog__upload-input: var(--cl-gray-900);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-dialog__upload-input: var(--cl-gray-800);\n\t\t--bt-dialog__upload-input: 1px solid var(--cl-gray-700);\n\t\t--br-dialog__upload-input: 1px solid var(--cl-gray-700);\n\t\t--bb-dialog__upload-input: 1px solid var(--cl-gray-700);\n\t\t--bl-dialog__upload-input: 1px solid var(--cl-gray-700);\n\t\t--sd-dialog__upload-input: none;\n\t\t--co-dialog__upload-input: var(--cl-gray-100);\n\t}\n}```"
 				}]
 			}]
+		},
+		{
+			"string": "confirmation",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-dialog__confirmation: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-dialog__confirmation: ;\n\t}\n}```"
+				}]
+			}]
 		}]
 	},
 	{

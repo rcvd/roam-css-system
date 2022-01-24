@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/things.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-things.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things_light.css');
+@import url('https://m1.local:5757/fonts/things.css');
+@import url('https://m1.local:5757/internal/colors-things.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-things_light.css');
 
 
 :root {
@@ -824,6 +824,10 @@
 }
 
 :root {
+	--bc-dialog__confirmation: ;
+}
+
+:root {
 	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-div: 1rem;
 }
@@ -1590,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: #1d72d1;
 }
 
 :root {
