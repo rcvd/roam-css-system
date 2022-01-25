@@ -4664,7 +4664,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam42__cp-menu-item--hover: ;
+		--bc-roam42__cp-menu-item--hover: var(--cl-blue-900);
 		--bt-roam42__cp-menu-item--hover: ;
 		--br-roam42__cp-menu-item--hover: ;
 		--bb-roam42__cp-menu-item--hover: ;
@@ -4791,7 +4791,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-roam42__jj-menu-item--hover: ;
+		--bc-roam42__jj-menu-item--hover: var(--cl-blue-900);
 		--bt-roam42__jj-menu-item--hover: ;
 		--br-roam42__jj-menu-item--hover: ;
 		--bb-roam42__jj-menu-item--hover: ;

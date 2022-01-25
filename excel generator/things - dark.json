@@ -2973,7 +2973,7 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: ;\n\t--bt-roam42__cp-menu-item--hover: ;\n\t--br-roam42__cp-menu-item--hover: ;\n\t--bb-roam42__cp-menu-item--hover: ;\n\t--bl-roam42__cp-menu-item--hover: ;\n\t--bd-roam42__cp-menu-item--hover: ;\n\t--co-roam42__cp-menu-item--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: #0059d0;\n\t--bt-roam42__cp-menu-item--hover: ;\n\t--br-roam42__cp-menu-item--hover: ;\n\t--bb-roam42__cp-menu-item--hover: ;\n\t--bl-roam42__cp-menu-item--hover: ;\n\t--bd-roam42__cp-menu-item--hover: ;\n\t--co-roam42__cp-menu-item--hover: #ffffff;\n}```"
 				}]
 			},
 			{
@@ -3031,7 +3031,7 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: ;\n\t--bt-roam42__jj-menu-item--hover: ;\n\t--br-roam42__jj-menu-item--hover: ;\n\t--bb-roam42__jj-menu-item--hover: ;\n\t--bl-roam42__jj-menu-item--hover: ;\n\t--bd-roam42__jj-menu-item--hover: ;\n\t--co-roam42__jj-menu-item--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: #0059d0;\n\t--bt-roam42__jj-menu-item--hover: ;\n\t--br-roam42__jj-menu-item--hover: ;\n\t--bb-roam42__jj-menu-item--hover: ;\n\t--bl-roam42__jj-menu-item--hover: ;\n\t--bd-roam42__jj-menu-item--hover: ;\n\t--co-roam42__jj-menu-item--hover: #ffffff;\n}```"
 				}]
 			},
 			{
