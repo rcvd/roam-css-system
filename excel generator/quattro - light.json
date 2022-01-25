@@ -2973,13 +2973,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--hover: ;\n\t--co-roam42__cp-menu-item--hover: var(--cl-gray-900);\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--hover: 0px;\n\t--co-roam42__cp-menu-item--hover: var(--cl-gray-900);\n}```"
 				}]
 			},
 			{
 				"string": "selected",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--selected: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--selected: 0px;\n}```"
 				}]
 			},
 			{
@@ -3025,13 +3025,13 @@
 			{
 				"string": "highlight",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--highlight: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--highlight: 0px;\n}```"
 				}]
 			},
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--hover: ;\n\t--co-roam42__jj-menu-item--hover: var(--cl-gray-900);\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--hover: 0px;\n\t--co-roam42__jj-menu-item--hover: var(--cl-gray-900);\n}```"
 				}]
 			},
 			{

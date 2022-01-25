@@ -2150,7 +2150,7 @@
 	--br-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
 	--bb-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
 	--bl-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
-	--bd-roam42__cp-menu-item--hover: ;
+	--bd-roam42__cp-menu-item--hover: 0px;
 	--co-roam42__cp-menu-item--hover: var(--cl-gray-100);
 }
 
@@ -2160,7 +2160,7 @@
 	--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
 	--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
 	--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
-	--bd-roam42__cp-menu-item--selected: ;
+	--bd-roam42__cp-menu-item--selected: 0px;
 }
 
 :root {
@@ -2201,7 +2201,7 @@
 	--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
 	--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
 	--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
-	--bd-roam42__jj-menu-item--highlight: ;
+	--bd-roam42__jj-menu-item--highlight: 0px;
 }
 
 :root {
@@ -2210,7 +2210,7 @@
 	--br-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
 	--bb-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
 	--bl-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
-	--bd-roam42__jj-menu-item--hover: ;
+	--bd-roam42__jj-menu-item--hover: 0px;
 	--co-roam42__jj-menu-item--hover: var(--cl-gray-100);
 }
 

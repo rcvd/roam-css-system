@@ -2146,12 +2146,12 @@
 
 :root {
 	--bc-roam42__cp-menu-item--hover: #0064e0;
-	--bt-roam42__cp-menu-item--hover: ;
-	--br-roam42__cp-menu-item--hover: ;
-	--bb-roam42__cp-menu-item--hover: ;
-	--bl-roam42__cp-menu-item--hover: ;
-	--bd-roam42__cp-menu-item--hover: ;
-	--co-roam42__cp-menu-item--hover: #121418;
+	--bt-roam42__cp-menu-item--hover: none;
+	--br-roam42__cp-menu-item--hover: none;
+	--bb-roam42__cp-menu-item--hover: none;
+	--bl-roam42__cp-menu-item--hover: none;
+	--bd-roam42__cp-menu-item--hover: 5px;
+	--co-roam42__cp-menu-item--hover: #ffffff;
 }
 
 :root {
@@ -2206,12 +2206,12 @@
 
 :root {
 	--bc-roam42__jj-menu-item--hover: #0064e0;
-	--bt-roam42__jj-menu-item--hover: ;
-	--br-roam42__jj-menu-item--hover: ;
-	--bb-roam42__jj-menu-item--hover: ;
-	--bl-roam42__jj-menu-item--hover: ;
-	--bd-roam42__jj-menu-item--hover: ;
-	--co-roam42__jj-menu-item--hover: #121418;
+	--bt-roam42__jj-menu-item--hover: none;
+	--br-roam42__jj-menu-item--hover: none;
+	--bb-roam42__jj-menu-item--hover: none;
+	--bl-roam42__jj-menu-item--hover: none;
+	--bd-roam42__jj-menu-item--hover: 5px;
+	--co-roam42__jj-menu-item--hover: #ffffff;
 }
 
 :root {

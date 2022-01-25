@@ -4658,7 +4658,7 @@
 	--br-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);
 	--bb-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);
 	--bl-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-100);
-	--bd-roam42__cp-menu-item--hover: ;
+	--bd-roam42__cp-menu-item--hover: 0px;
 	--co-roam42__cp-menu-item--hover: var(--cl-gray-900);
 }
 
@@ -4679,7 +4679,7 @@
 	--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
 	--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
 	--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
-	--bd-roam42__cp-menu-item--selected: ;
+	--bd-roam42__cp-menu-item--selected: 0px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4766,7 +4766,7 @@
 	--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
 	--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
 	--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
-	--bd-roam42__jj-menu-item--highlight: ;
+	--bd-roam42__jj-menu-item--highlight: 0px;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -4785,7 +4785,7 @@
 	--br-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);
 	--bb-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);
 	--bl-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-100);
-	--bd-roam42__jj-menu-item--hover: ;
+	--bd-roam42__jj-menu-item--hover: 0px;
 	--co-roam42__jj-menu-item--hover: var(--cl-gray-900);
 }
 

@@ -2973,13 +2973,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: ;\n\t--bt-roam42__cp-menu-item--hover: ;\n\t--br-roam42__cp-menu-item--hover: ;\n\t--bb-roam42__cp-menu-item--hover: ;\n\t--bl-roam42__cp-menu-item--hover: ;\n\t--bd-roam42__cp-menu-item--hover: ;\n\t--co-roam42__cp-menu-item--hover: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__cp-menu-item--hover: var(--cl-blue-900);\n\t\t--bt-roam42__cp-menu-item--hover: ;\n\t\t--br-roam42__cp-menu-item--hover: ;\n\t\t--bb-roam42__cp-menu-item--hover: ;\n\t\t--bl-roam42__cp-menu-item--hover: ;\n\t\t--co-roam42__cp-menu-item--hover: ;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--hover: var(--cl-gray-500);\n\t--bt-roam42__cp-menu-item--hover: ;\n\t--br-roam42__cp-menu-item--hover: ;\n\t--bb-roam42__cp-menu-item--hover: ;\n\t--bl-roam42__cp-menu-item--hover: ;\n\t--bd-roam42__cp-menu-item--hover: ;\n\t--co-roam42__cp-menu-item--hover: var(--cl-gray-900);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__cp-menu-item--hover: var(--cl-gray-500);\n\t\t--bt-roam42__cp-menu-item--hover: ;\n\t\t--br-roam42__cp-menu-item--hover: ;\n\t\t--bb-roam42__cp-menu-item--hover: ;\n\t\t--bl-roam42__cp-menu-item--hover: ;\n\t\t--co-roam42__cp-menu-item--hover: var(--cl-white);\n\t}\n}```"
 				}]
 			},
 			{
 				"string": "selected",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--selected: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__cp-menu-item--selected: var(--cl-blue-900);\n\t\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__cp-menu-item--selected: var(--cl-gray-500);\n\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);\n\t--bd-roam42__cp-menu-item--selected: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__cp-menu-item--selected: var(--cl-gray-500);\n\t\t--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t\t--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);\n\t}\n}```"
 				}]
 			},
 			{
@@ -3025,13 +3025,13 @@
 			{
 				"string": "highlight",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);\n\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--highlight: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__jj-menu-item--highlight: var(--cl-blue-900);\n\t\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--highlight: var(--cl-gray-500);\n\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);\n\t--bd-roam42__jj-menu-item--highlight: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__jj-menu-item--highlight: var(--cl-gray-500);\n\t\t--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t\t--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);\n\t}\n}```"
 				}]
 			},
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: ;\n\t--bt-roam42__jj-menu-item--hover: ;\n\t--br-roam42__jj-menu-item--hover: ;\n\t--bb-roam42__jj-menu-item--hover: ;\n\t--bl-roam42__jj-menu-item--hover: ;\n\t--bd-roam42__jj-menu-item--hover: ;\n\t--co-roam42__jj-menu-item--hover: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__jj-menu-item--hover: var(--cl-blue-900);\n\t\t--bt-roam42__jj-menu-item--hover: ;\n\t\t--br-roam42__jj-menu-item--hover: ;\n\t\t--bb-roam42__jj-menu-item--hover: ;\n\t\t--bl-roam42__jj-menu-item--hover: ;\n\t\t--co-roam42__jj-menu-item--hover: ;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-roam42__jj-menu-item--hover: var(--cl-gray-500);\n\t--bt-roam42__jj-menu-item--hover: ;\n\t--br-roam42__jj-menu-item--hover: ;\n\t--bb-roam42__jj-menu-item--hover: ;\n\t--bl-roam42__jj-menu-item--hover: ;\n\t--bd-roam42__jj-menu-item--hover: ;\n\t--co-roam42__jj-menu-item--hover: var(--cl-gray-900);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-roam42__jj-menu-item--hover: var(--cl-gray-500);\n\t\t--bt-roam42__jj-menu-item--hover: ;\n\t\t--br-roam42__jj-menu-item--hover: ;\n\t\t--bb-roam42__jj-menu-item--hover: ;\n\t\t--bl-roam42__jj-menu-item--hover: ;\n\t\t--co-roam42__jj-menu-item--hover: var(--cl-white);\n\t}\n}```"
 				}]
 			},
 			{
