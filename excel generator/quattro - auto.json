@@ -950,25 +950,25 @@
 		{
 			"string": "checked",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--checked: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--checked: ;\n\t}\n}```"
+				"string": "```css\n:root {\n\t--bc-control--checked: var(--cl-blue-700);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--checked: var(--cl-blue-700);\n\t}\n}```"
 			}]
 		},
 		{
 			"string": "hover",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--hover: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--hover: ;\n\t}\n}```"
+				"string": "```css\n:root {\n\t--bc-control--hover: var(--cl-gray-800);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--hover: var(--cl-gray-800);\n\t}\n}```"
 			}]
 		},
 		{
 			"string": "hover-checked",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--hover-checked: ;\n\t--sd-control--hover-checked: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--hover-checked: ;\n\t\t--sd-control--hover-checked: ;\n\t}\n}```"
+				"string": "```css\n:root {\n\t--bc-control--hover-checked: var(--cl-blue-800);\n\t--sd-control--hover-checked: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control--hover-checked: var(--cl-blue-800);\n\t\t--sd-control--hover-checked: ;\n\t}\n}```"
 			}]
 		},
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control: ;\n\t}\n}```"
+				"string": "```css\n:root {\n\t--bc-control: var(--cl-gray-700);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-control: var(--cl-gray-700);\n\t}\n}```"
 			}]
 		}]
 	},

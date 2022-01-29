@@ -1456,44 +1456,44 @@
 }
 
 :root {
-	--bc-control--checked: ;
+	--bc-control--checked: var(--cl-blue-700);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--checked: ;
+		--bc-control--checked: var(--cl-blue-700);
 	}
 }
 
 :root {
-	--bc-control--hover: ;
+	--bc-control--hover: var(--cl-gray-800);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--hover: ;
+		--bc-control--hover: var(--cl-gray-800);
 	}
 }
 
 :root {
-	--bc-control--hover-checked: ;
+	--bc-control--hover-checked: var(--cl-blue-800);
 	--sd-control--hover-checked: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control--hover-checked: ;
+		--bc-control--hover-checked: var(--cl-blue-800);
 		--sd-control--hover-checked: ;
 	}
 }
 
 :root {
-	--bc-control: ;
+	--bc-control: var(--cl-gray-700);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-control: ;
+		--bc-control: var(--cl-gray-700);
 	}
 }
 

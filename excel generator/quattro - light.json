@@ -950,25 +950,25 @@
 		{
 			"string": "checked",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--checked: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-control--checked: var(--cl-blue-700);\n}```"
 			}]
 		},
 		{
 			"string": "hover",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--hover: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-control--hover: var(--cl-gray-800);\n}```"
 			}]
 		},
 		{
 			"string": "hover-checked",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control--hover-checked: ;\n\t--sd-control--hover-checked: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-control--hover-checked: var(--cl-blue-800);\n\t--sd-control--hover-checked: ;\n}```"
 			}]
 		},
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-control: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-control: var(--cl-gray-700);\n}```"
 			}]
 		}]
 	},
