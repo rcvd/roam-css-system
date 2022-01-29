@@ -457,7 +457,7 @@
 }
 
 :root {
-	--bc-checkmark--checked: var(--cl-gray-700);
+	--bc-checkmark--checked: var(--cl-blue-700);
 	--bt-checkmark--checked: ;
 	--br-checkmark--checked: ;
 	--bb-checkmark--checked: ;
@@ -466,7 +466,7 @@
 }
 
 :root {
-	--bc-checkmark: ;
+	--bc-checkmark: var(--cl-gray-700);
 	--bt-checkmark: 1px solid var(--cl-gray-500);
 	--br-checkmark: 1px solid var(--cl-gray-500);
 	--bb-checkmark: 1px solid var(--cl-gray-500);

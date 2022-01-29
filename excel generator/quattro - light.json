@@ -582,13 +582,13 @@
 		{
 			"string": "checked",
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-checkmark--checked: var(--cl-gray-700);\n\t--bt-checkmark--checked: ;\n\t--br-checkmark--checked: ;\n\t--bb-checkmark--checked: ;\n\t--bl-checkmark--checked: ;\n\t--sd-checkmark--checked: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-checkmark--checked: var(--cl-blue-700);\n\t--bt-checkmark--checked: ;\n\t--br-checkmark--checked: ;\n\t--bb-checkmark--checked: ;\n\t--bl-checkmark--checked: ;\n\t--sd-checkmark--checked: ;\n}```"
 			}]
 		},
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-checkmark: ;\n\t--bt-checkmark: 1px solid var(--cl-gray-500);\n\t--br-checkmark: 1px solid var(--cl-gray-500);\n\t--bb-checkmark: 1px solid var(--cl-gray-500);\n\t--bl-checkmark: 1px solid var(--cl-gray-500);\n\t--bd-checkmark: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-checkmark: var(--cl-gray-700);\n\t--bt-checkmark: 1px solid var(--cl-gray-500);\n\t--br-checkmark: 1px solid var(--cl-gray-500);\n\t--bb-checkmark: 1px solid var(--cl-gray-500);\n\t--bl-checkmark: 1px solid var(--cl-gray-500);\n\t--bd-checkmark: ;\n}```"
 			}]
 		}]
 	},
