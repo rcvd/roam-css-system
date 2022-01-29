@@ -260,7 +260,7 @@
 	--br-button__cancel--hover: 1px solid var(--cl-gray-200);
 	--bb-button__cancel--hover: 1px solid var(--cl-gray-200);
 	--bl-button__cancel--hover: 1px solid var(--cl-gray-200);
-	--sd-button__cancel--hover: ;
+	--sd-button__cancel--hover: none;
 	--co-button__cancel--hover: var(--cl-gray-900);
 }
 
@@ -271,7 +271,7 @@
 	--bb-button__cancel: 1px solid var(--cl-gray-100);
 	--bl-button__cancel: 1px solid var(--cl-gray-100);
 	--bd-button__cancel: 0px;
-	--sd-button__cancel: ;
+	--sd-button__cancel: none;
 	--co-button__cancel: var(--cl-gray-700);
 }
 
@@ -281,7 +281,7 @@
 	--br-button__danger--hover: 1px solid var(--cl-red-700);
 	--bb-button__danger--hover: 1px solid var(--cl-red-700);
 	--bl-button__danger--hover: 1px solid var(--cl-red-700);
-	--sd-button__danger--hover: ;
+	--sd-button__danger--hover: none;
 	--co-button__danger--hover: var(--cl-white);
 }
 
@@ -292,28 +292,28 @@
 	--bb-button__danger: 1px solid var(--cl-red-600);
 	--bl-button__danger: 1px solid var(--cl-red-600);
 	--bd-button__danger: 0px;
-	--sd-button__danger: ;
+	--sd-button__danger: none;
 	--co-button__danger: ;
 }
 
 :root {
-	--bc-button__disabled--hover: ;
-	--bt-button__disabled--hover: ;
-	--br-button__disabled--hover: ;
-	--bb-button__disabled--hover: ;
-	--bl-button__disabled--hover: ;
-	--sd-button__disabled--hover: ;
+	--bc-button__disabled--hover: var(--cl-gray-300);
+	--bt-button__disabled--hover: 1px solid var(--cl-gray-100);
+	--br-button__disabled--hover: 1px solid var(--cl-gray-100);
+	--bb-button__disabled--hover: 1px solid var(--cl-gray-100);
+	--bl-button__disabled--hover: 1px solid var(--cl-gray-100);
+	--sd-button__disabled--hover: none;
 	--co-button__disabled--hover: ;
 }
 
 :root {
-	--bc-button__disabled: ;
-	--bt-button__disabled: ;
-	--br-button__disabled: ;
-	--bb-button__disabled: ;
-	--bl-button__disabled: ;
+	--bc-button__disabled: var(--cl-gray-300);
+	--bt-button__disabled: 1px solid var(--cl-gray-100);
+	--br-button__disabled: 1px solid var(--cl-gray-100);
+	--bb-button__disabled: 1px solid var(--cl-gray-100);
+	--bl-button__disabled: 1px solid var(--cl-gray-100);
 	--bd-button__disabled: ;
-	--sd-button__disabled: ;
+	--sd-button__disabled: none;
 	--co-button__disabled: ;
 }
 
@@ -327,30 +327,30 @@
 
 :root {
 	--bc-button__minimal--active: ;
-	--sd-button__minimal--active: ;
+	--sd-button__minimal--active: none;
 	--co-button__minimal--active: ;
 }
 
 :root {
 	--bc-button__minimal--hover: ;
-	--bt-button__minimal--hover: ;
-	--br-button__minimal--hover: ;
-	--bb-button__minimal--hover: ;
-	--bl-button__minimal--hover: ;
+	--bt-button__minimal--hover: none;
+	--br-button__minimal--hover: none;
+	--bb-button__minimal--hover: none;
+	--bl-button__minimal--hover: none;
 	--bd-button__minimal--hover: ;
-	--sd-button__minimal--hover: ;
+	--sd-button__minimal--hover: none;
 	--co-button__minimal--hover: ;
 	--td-button__minimal--hover: ;
 }
 
 :root {
 	--bc-button__minimal: ;
-	--bt-button__minimal: ;
-	--br-button__minimal: ;
-	--bb-button__minimal: ;
-	--bl-button__minimal: ;
+	--bt-button__minimal: none;
+	--br-button__minimal: none;
+	--bb-button__minimal: none;
+	--bl-button__minimal: none;
 	--bd-button__minimal: ;
-	--sd-button__minimal: ;
+	--sd-button__minimal: none;
 }
 
 :root {
@@ -359,43 +359,43 @@
 
 :root {
 	--bc-button__primary--hover: ;
-	--bt-button__primary--hover: ;
-	--br-button__primary--hover: ;
-	--bb-button__primary--hover: ;
-	--bl-button__primary--hover: ;
-	--sd-button__primary--hover: ;
+	--bt-button__primary--hover: 1px solid var(--cl-gray-100);
+	--br-button__primary--hover: 1px solid var(--cl-gray-100);
+	--bb-button__primary--hover: 1px solid var(--cl-gray-100);
+	--bl-button__primary--hover: 1px solid var(--cl-gray-100);
+	--sd-button__primary--hover: none;
 	--co-button__primary--hover: ;
 }
 
 :root {
 	--bc-button__primary: ;
-	--bt-button__primary: ;
-	--br-button__primary: ;
-	--bb-button__primary: ;
-	--bl-button__primary: ;
+	--bt-button__primary: 1px solid var(--cl-gray-100);
+	--br-button__primary: 1px solid var(--cl-gray-100);
+	--bb-button__primary: 1px solid var(--cl-gray-100);
+	--bl-button__primary: 1px solid var(--cl-gray-100);
 	--bd-button__primary: ;
-	--sd-button__primary: ;
+	--sd-button__primary: none;
 	--co-button__primary: ;
 }
 
 :root {
-	--bc-button__warning--hover: ;
-	--bt-button__warning--hover: ;
-	--br-button__warning--hover: ;
-	--bb-button__warning--hover: ;
-	--bl-button__warning--hover: ;
-	--sd-button__warning--hover: ;
+	--bc-button__warning--hover: var(--cl-red-600);
+	--bt-button__warning--hover: 1px solid var(--cl-red-700);
+	--br-button__warning--hover: 1px solid var(--cl-red-700);
+	--bb-button__warning--hover: 1px solid var(--cl-red-700);
+	--bl-button__warning--hover: 1px solid var(--cl-red-700);
+	--sd-button__warning--hover: none;
 	--co-button__warning--hover: ;
 }
 
 :root {
-	--bc-button__warning: ;
-	--bt-button__warning: ;
-	--br-button__warning: ;
-	--bb-button__warning: ;
-	--bl-button__warning: ;
+	--bc-button__warning: var(--cl-red-500);
+	--bt-button__warning: 1px solid var(--cl-red-600);
+	--br-button__warning: 1px solid var(--cl-red-600);
+	--bb-button__warning: 1px solid var(--cl-red-600);
+	--bl-button__warning: 1px solid var(--cl-red-600);
 	--bd-button__warning: ;
-	--sd-button__warning: ;
+	--sd-button__warning: none;
 	--co-button__warning: ;
 }
 
@@ -2281,8 +2281,8 @@
 }
 
 :root {
-	--bc-settings__hotkeys: var(--cl-gray-700);
-	--co-settings__hotkeys: ;
+	--bc-settings__hotkeys: var(--cl-gray-200);
+	--co-settings__hotkeys: var(--cl-gray-900);
 }
 
 :root {

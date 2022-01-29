@@ -381,13 +381,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__cancel--hover: var(--cl-gray-100);\n\t--bt-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--br-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--bb-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--bl-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--sd-button__cancel--hover: ;\n\t--co-button__cancel--hover: var(--cl-gray-900);\n}```"
+					"string": "```css\n:root {\n\t--bc-button__cancel--hover: var(--cl-gray-100);\n\t--bt-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--br-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--bb-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--bl-button__cancel--hover: 1px solid var(--cl-gray-200);\n\t--sd-button__cancel--hover: none;\n\t--co-button__cancel--hover: var(--cl-gray-900);\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__cancel: var(--cl-gray-50);\n\t--bt-button__cancel: 1px solid var(--cl-gray-100);\n\t--br-button__cancel: 1px solid var(--cl-gray-100);\n\t--bb-button__cancel: 1px solid var(--cl-gray-100);\n\t--bl-button__cancel: 1px solid var(--cl-gray-100);\n\t--bd-button__cancel: 0px;\n\t--sd-button__cancel: ;\n\t--co-button__cancel: var(--cl-gray-700);\n}```"
+					"string": "```css\n:root {\n\t--bc-button__cancel: var(--cl-gray-50);\n\t--bt-button__cancel: 1px solid var(--cl-gray-100);\n\t--br-button__cancel: 1px solid var(--cl-gray-100);\n\t--bb-button__cancel: 1px solid var(--cl-gray-100);\n\t--bl-button__cancel: 1px solid var(--cl-gray-100);\n\t--bd-button__cancel: 0px;\n\t--sd-button__cancel: none;\n\t--co-button__cancel: var(--cl-gray-700);\n}```"
 				}]
 			}]
 		},
@@ -397,13 +397,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__danger--hover: var(--cl-red-600);\n\t--bt-button__danger--hover: 1px solid var(--cl-red-700);\n\t--br-button__danger--hover: 1px solid var(--cl-red-700);\n\t--bb-button__danger--hover: 1px solid var(--cl-red-700);\n\t--bl-button__danger--hover: 1px solid var(--cl-red-700);\n\t--sd-button__danger--hover: ;\n\t--co-button__danger--hover: var(--cl-white);\n}```"
+					"string": "```css\n:root {\n\t--bc-button__danger--hover: var(--cl-red-600);\n\t--bt-button__danger--hover: 1px solid var(--cl-red-700);\n\t--br-button__danger--hover: 1px solid var(--cl-red-700);\n\t--bb-button__danger--hover: 1px solid var(--cl-red-700);\n\t--bl-button__danger--hover: 1px solid var(--cl-red-700);\n\t--sd-button__danger--hover: none;\n\t--co-button__danger--hover: var(--cl-white);\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__danger: var(--cl-red-500);\n\t--bt-button__danger: 1px solid var(--cl-red-600);\n\t--br-button__danger: 1px solid var(--cl-red-600);\n\t--bb-button__danger: 1px solid var(--cl-red-600);\n\t--bl-button__danger: 1px solid var(--cl-red-600);\n\t--bd-button__danger: 0px;\n\t--sd-button__danger: ;\n\t--co-button__danger: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__danger: var(--cl-red-500);\n\t--bt-button__danger: 1px solid var(--cl-red-600);\n\t--br-button__danger: 1px solid var(--cl-red-600);\n\t--bb-button__danger: 1px solid var(--cl-red-600);\n\t--bl-button__danger: 1px solid var(--cl-red-600);\n\t--bd-button__danger: 0px;\n\t--sd-button__danger: none;\n\t--co-button__danger: ;\n}```"
 				}]
 			}]
 		},
@@ -413,13 +413,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__disabled--hover: ;\n\t--bt-button__disabled--hover: ;\n\t--br-button__disabled--hover: ;\n\t--bb-button__disabled--hover: ;\n\t--bl-button__disabled--hover: ;\n\t--sd-button__disabled--hover: ;\n\t--co-button__disabled--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__disabled--hover: var(--cl-gray-300);\n\t--bt-button__disabled--hover: 1px solid var(--cl-gray-100);\n\t--br-button__disabled--hover: 1px solid var(--cl-gray-100);\n\t--bb-button__disabled--hover: 1px solid var(--cl-gray-100);\n\t--bl-button__disabled--hover: 1px solid var(--cl-gray-100);\n\t--sd-button__disabled--hover: none;\n\t--co-button__disabled--hover: ;\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__disabled: ;\n\t--bt-button__disabled: ;\n\t--br-button__disabled: ;\n\t--bb-button__disabled: ;\n\t--bl-button__disabled: ;\n\t--bd-button__disabled: ;\n\t--sd-button__disabled: ;\n\t--co-button__disabled: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__disabled: var(--cl-gray-300);\n\t--bt-button__disabled: 1px solid var(--cl-gray-100);\n\t--br-button__disabled: 1px solid var(--cl-gray-100);\n\t--bb-button__disabled: 1px solid var(--cl-gray-100);\n\t--bl-button__disabled: 1px solid var(--cl-gray-100);\n\t--bd-button__disabled: ;\n\t--sd-button__disabled: none;\n\t--co-button__disabled: ;\n}```"
 				}]
 			}]
 		},
@@ -445,19 +445,19 @@
 			{
 				"string": "active",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__minimal--active: ;\n\t--sd-button__minimal--active: ;\n\t--co-button__minimal--active: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__minimal--active: ;\n\t--sd-button__minimal--active: none;\n\t--co-button__minimal--active: ;\n}```"
 				}]
 			},
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__minimal--hover: ;\n\t--bt-button__minimal--hover: ;\n\t--br-button__minimal--hover: ;\n\t--bb-button__minimal--hover: ;\n\t--bl-button__minimal--hover: ;\n\t--bd-button__minimal--hover: ;\n\t--sd-button__minimal--hover: ;\n\t--co-button__minimal--hover: ;\n\t--td-button__minimal--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__minimal--hover: ;\n\t--bt-button__minimal--hover: none;\n\t--br-button__minimal--hover: none;\n\t--bb-button__minimal--hover: none;\n\t--bl-button__minimal--hover: none;\n\t--bd-button__minimal--hover: ;\n\t--sd-button__minimal--hover: none;\n\t--co-button__minimal--hover: ;\n\t--td-button__minimal--hover: ;\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__minimal: ;\n\t--bt-button__minimal: ;\n\t--br-button__minimal: ;\n\t--bb-button__minimal: ;\n\t--bl-button__minimal: ;\n\t--bd-button__minimal: ;\n\t--sd-button__minimal: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__minimal: ;\n\t--bt-button__minimal: none;\n\t--br-button__minimal: none;\n\t--bb-button__minimal: none;\n\t--bl-button__minimal: none;\n\t--bd-button__minimal: ;\n\t--sd-button__minimal: none;\n}```"
 				}]
 			}]
 		},
@@ -477,13 +477,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__primary--hover: ;\n\t--bt-button__primary--hover: ;\n\t--br-button__primary--hover: ;\n\t--bb-button__primary--hover: ;\n\t--bl-button__primary--hover: ;\n\t--sd-button__primary--hover: ;\n\t--co-button__primary--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__primary--hover: ;\n\t--bt-button__primary--hover: 1px solid var(--cl-gray-100);\n\t--br-button__primary--hover: 1px solid var(--cl-gray-100);\n\t--bb-button__primary--hover: 1px solid var(--cl-gray-100);\n\t--bl-button__primary--hover: 1px solid var(--cl-gray-100);\n\t--sd-button__primary--hover: none;\n\t--co-button__primary--hover: ;\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__primary: ;\n\t--bt-button__primary: ;\n\t--br-button__primary: ;\n\t--bb-button__primary: ;\n\t--bl-button__primary: ;\n\t--bd-button__primary: ;\n\t--sd-button__primary: ;\n\t--co-button__primary: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__primary: ;\n\t--bt-button__primary: 1px solid var(--cl-gray-100);\n\t--br-button__primary: 1px solid var(--cl-gray-100);\n\t--bb-button__primary: 1px solid var(--cl-gray-100);\n\t--bl-button__primary: 1px solid var(--cl-gray-100);\n\t--bd-button__primary: ;\n\t--sd-button__primary: none;\n\t--co-button__primary: ;\n}```"
 				}]
 			}]
 		},
@@ -493,13 +493,13 @@
 			{
 				"string": "hover",
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__warning--hover: ;\n\t--bt-button__warning--hover: ;\n\t--br-button__warning--hover: ;\n\t--bb-button__warning--hover: ;\n\t--bl-button__warning--hover: ;\n\t--sd-button__warning--hover: ;\n\t--co-button__warning--hover: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__warning--hover: var(--cl-red-600);\n\t--bt-button__warning--hover: 1px solid var(--cl-red-700);\n\t--br-button__warning--hover: 1px solid var(--cl-red-700);\n\t--bb-button__warning--hover: 1px solid var(--cl-red-700);\n\t--bl-button__warning--hover: 1px solid var(--cl-red-700);\n\t--sd-button__warning--hover: none;\n\t--co-button__warning--hover: ;\n}```"
 				}]
 			},
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-button__warning: ;\n\t--bt-button__warning: ;\n\t--br-button__warning: ;\n\t--bb-button__warning: ;\n\t--bl-button__warning: ;\n\t--bd-button__warning: ;\n\t--sd-button__warning: ;\n\t--co-button__warning: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-button__warning: var(--cl-red-500);\n\t--bt-button__warning: 1px solid var(--cl-red-600);\n\t--br-button__warning: 1px solid var(--cl-red-600);\n\t--bb-button__warning: 1px solid var(--cl-red-600);\n\t--bl-button__warning: 1px solid var(--cl-red-600);\n\t--bd-button__warning: ;\n\t--sd-button__warning: none;\n\t--co-button__warning: ;\n}```"
 				}]
 			}]
 		},
@@ -3137,7 +3137,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__hotkeys: var(--cl-gray-700);\n\t--co-settings__hotkeys: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__hotkeys: var(--cl-gray-200);\n\t--co-settings__hotkeys: var(--cl-gray-900);\n}```"
 				}]
 			}]
 		},
