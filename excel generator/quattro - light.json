@@ -3107,7 +3107,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--co-settings__filelist-item: ;\n}```"
+					"string": "```css\n:root {\n\t--co-settings__filelist-item: var(--cl-gray-900);\n}```"
 				}]
 			}]
 		},

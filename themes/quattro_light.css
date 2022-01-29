@@ -2266,7 +2266,7 @@
 }
 
 :root {
-	--co-settings__filelist-item: ;
+	--co-settings__filelist-item: var(--cl-gray-900);
 }
 
 :root {
