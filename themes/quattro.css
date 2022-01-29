@@ -1012,7 +1012,7 @@
 }
 
 :root {
-	--bc-checkmark: var(--cl-gray-700);
+	--bc-checkmark: transparent;
 	--bt-checkmark: 1px solid var(--cl-gray-500);
 	--br-checkmark: 1px solid var(--cl-gray-500);
 	--bb-checkmark: 1px solid var(--cl-gray-500);
@@ -1022,7 +1022,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-checkmark: var(--cl-gray-700);
+		--bc-checkmark: transparent;
 		--bt-checkmark: 1px solid var(--cl-gray-500);
 		--br-checkmark: 1px solid var(--cl-gray-500);
 		--bb-checkmark: 1px solid var(--cl-gray-500);

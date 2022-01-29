@@ -588,7 +588,7 @@
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-checkmark: var(--cl-gray-700);\n\t--bt-checkmark: 1px solid var(--cl-gray-500);\n\t--br-checkmark: 1px solid var(--cl-gray-500);\n\t--bb-checkmark: 1px solid var(--cl-gray-500);\n\t--bl-checkmark: 1px solid var(--cl-gray-500);\n\t--bd-checkmark: ;\n}```"
+				"string": "```css\n:root {\n\t--bc-checkmark: transparent;\n\t--bt-checkmark: 1px solid var(--cl-gray-500);\n\t--br-checkmark: 1px solid var(--cl-gray-500);\n\t--bb-checkmark: 1px solid var(--cl-gray-500);\n\t--bl-checkmark: 1px solid var(--cl-gray-500);\n\t--bd-checkmark: ;\n}```"
 			}]
 		}]
 	},
