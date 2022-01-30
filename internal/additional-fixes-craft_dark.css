@@ -558,3 +558,7 @@ div.cm-activeLine.cm-line {
 .rm-block-separator {
 	min-width: 0px;
 }
+
+.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] .bp3-menu {
+	display: none;
+}
