@@ -141,6 +141,10 @@ textarea {
     filter: brightness(100%);
 }
 
+.rm-block-separator {
+  min-width: 0px;
+}
+
 /* Remove transparency from graph menu */
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
     opacity: 1;

@@ -150,3 +150,7 @@ hr {
 div.cm-activeLine.cm-line {
     caret-color: black!important;
 }
+
+.rm-block-separator {
+  min-width: 0px;
+}

@@ -219,3 +219,7 @@ div {
         caret-color: white!important;
     }
 }
+
+.rm-block-separator {
+  min-width: 0px;
+}
