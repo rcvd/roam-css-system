@@ -560,3 +560,7 @@ div.cm-activeLine.cm-line {
 	font-family: "Inter",sans-serif;
 	font-size: 1em;
 }
+
+.rm-block-separator {
+	min-width: 0px;
+}
