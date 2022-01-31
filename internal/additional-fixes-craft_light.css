@@ -439,7 +439,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	 z-index: 2;
  }
 
-@media (hover: hover) and (pointer: fine) {
+@media only screen and (min-width: 400px) (min-height: 400px) {
 	/* Search Dialog */
 	.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] {
 		max-width: 24px;
