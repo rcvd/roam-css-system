@@ -3401,6 +3401,16 @@
 		}]
 	},
 	{
+		"string": "toast",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t}\n}```"
+			}]
+		}]
+	},
+	{
 		"string": "tooltip",
 		"children": [
 		{

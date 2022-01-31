@@ -1594,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: #65a6f5;
 }
 
 :root {
@@ -2497,6 +2497,9 @@
 
 :root {
 	--bc-textarea__selection: #2260ae;
+}
+
+:root {
 }
 
 :root {

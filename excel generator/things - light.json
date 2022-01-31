@@ -3401,6 +3401,16 @@
 		}]
 	},
 	{
+		"string": "toast",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n}```"
+			}]
+		}]
+	},
+	{
 		"string": "tooltip",
 		"children": [
 		{

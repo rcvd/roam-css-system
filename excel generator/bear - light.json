@@ -2259,7 +2259,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--co-main__namespace: ;\n}```"
+					"string": "```css\n:root {\n\t--co-main__namespace: rgba(221, 76, 79, 1.00);\n}```"
 				}]
 			}]
 		},
@@ -3397,6 +3397,16 @@
 				"children": [{
 					"string": "```css\n:root {\n\t--bc-textarea__selection: #b4d7ff;\n}```"
 				}]
+			}]
+		}]
+	},
+	{
+		"string": "toast",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n}```"
 			}]
 		}]
 	},

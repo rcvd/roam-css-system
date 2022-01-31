@@ -2500,6 +2500,9 @@
 }
 
 :root {
+}
+
+:root {
 	--bc-tooltip: #3d4145;
 	--bt-tooltip: 1px solid #202123;
 	--br-tooltip: 1px solid #202123;

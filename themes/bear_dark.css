@@ -1594,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: rgba(107, 202, 251, 1.00);
 }
 
 :root {
@@ -2497,6 +2497,9 @@
 
 :root {
 	--bc-textarea__selection: #b4d7ff;
+}
+
+:root {
 }
 
 :root {

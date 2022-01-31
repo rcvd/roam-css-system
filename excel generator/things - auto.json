@@ -2259,7 +2259,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--co-main__namespace: #1d72d1;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--co-main__namespace: ;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--co-main__namespace: #1d72d1;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--co-main__namespace: #65a6f5;\n\t}\n}```"
 				}]
 			}]
 		},
@@ -3397,6 +3397,16 @@
 				"children": [{
 					"string": "```css\n:root {\n\t--bc-textarea__selection: #c3d7ff;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-textarea__selection: #2260ae;\n\t}\n}```"
 				}]
+			}]
+		}]
+	},
+	{
+		"string": "toast",
+		"children": [
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t}\n}```"
 			}]
 		}]
 	},

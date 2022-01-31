@@ -3471,12 +3471,12 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: #06c;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-main__namespace: ;
+		--co-main__namespace: #65a6f5;
 	}
 }
 
@@ -5405,6 +5405,14 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-textarea__selection: #b4d7ff;
+	}
+}
+
+:root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 
