@@ -347,7 +347,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bt-bullet__closed: 4px  solid #f8f8f8;\n\t--br-bullet__closed: 4px  solid #f8f8f8;\n\t--bb-bullet__closed: 4px  solid #f8f8f8;\n\t--bl-bullet__closed: 4px  solid #f8f8f8;\n}```"
+					"string": "```css\n:root {\n\t--bt-bullet__closed: 4px  solid #ececec;\n\t--br-bullet__closed: 4px  solid #ececec;\n\t--bb-bullet__closed: 4px  solid #ececec;\n\t--bl-bullet__closed: 4px  solid #ececec;\n}```"
 				}]
 			}]
 		},
@@ -2644,7 +2644,7 @@
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-quote: transparent;\n\t--bt-quote: none;\n\t--br-quote: none;\n\t--bb-quote: none;\n\t--bl-quote: 4px solid #202225;\n\t--bd-quote: 0px;\n\t--co-quote: #202224;\n\t--ff-quote: -apple-system, BlinkMacSystemFont,Inter;\n\t--fs-quote: 1rem;\n\t--ft-quote: normal;\n\t--fw-quote: 400;\n}```"
+				"string": "```css\n:root {\n\t--bc-quote: #f8f8f9;\n\t--bt-quote: none;\n\t--br-quote: none;\n\t--bb-quote: none;\n\t--bl-quote: nonr;\n\t--bd-quote: 0px;\n\t--co-quote: #202224;\n\t--ff-quote: -apple-system, BlinkMacSystemFont,Inter;\n\t--fs-quote: 1rem;\n\t--ft-quote: normal;\n\t--fw-quote: 400;\n}```"
 			}]
 		}]
 	},

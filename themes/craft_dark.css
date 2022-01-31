@@ -1880,11 +1880,11 @@
 }
 
 :root {
-	--bc-quote: transparent;
+	--bc-quote: #1e1e1e;
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #f4f4f4;
+	--bl-quote: none;
 	--bd-quote: 0px;
 	--co-quote: #f4f4f4;
 	--ff-quote: -apple-system, BlinkMacSystemFont,Inter;
