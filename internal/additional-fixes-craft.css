@@ -493,6 +493,10 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	.rm-find-or-create-wrapper .bp3-menu {
 		padding: 10px;
 	}
+	
+	.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] .bp3-menu {
+		display: none;
+	}
  /*
 	.roam-app .flex-h-box:not([style*='margin-left: 232px;']) .rm-topbar>div:nth-child(7)::before {
 		font-family: "Icons16",sans-serif;
@@ -566,6 +570,3 @@ div.cm-activeLine.cm-line {
 	min-width: 0px;
 }
 
-.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] .bp3-menu {
-	display: none;
-}
