@@ -439,7 +439,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	 z-index: 2;
  }
 
-@media only screen and (min-width: 452px) {
+@media (hover: hover) and (pointer: fine) {
 	/* Search Dialog */
 	.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] {
 		max-width: 24px;
@@ -497,40 +497,6 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] .bp3-menu {
 		display: none;
 	}
- /*
-	.roam-app .flex-h-box:not([style*='margin-left: 232px;']) .rm-topbar>div:nth-child(7)::before {
-		font-family: "Icons16",sans-serif;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: 1;
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		 content: "";
-		 position: absolute;
-		 margin-left: -17px;
-		 margin-top: -8px;
-		 cursor: pointer;
-	 }
-	
-	.roam-app .flex-h-box[style*='margin-left: 232px;'] .rm-topbar>div:nth-child(6)::before {
-		font-family: "Icons16",sans-serif;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: 1;
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		 content: "";
-		 position: absolute;
-		margin-left: -17px;
-		margin-top: -8px;
-		cursor: pointer;
-	}
-	 
-	.rm-find-or-create-wrapper input {
-		 cursor: pointer;
-	 }*/
  }
 
  
