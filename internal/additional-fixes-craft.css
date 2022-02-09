@@ -154,7 +154,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	vertical-align: middle;
 }
 
-.rm-title-display {
+.rm-title-display, .roam-title-editing-display {
 	line-height: 36px;
 }
 
