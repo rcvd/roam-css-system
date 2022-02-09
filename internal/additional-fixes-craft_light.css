@@ -153,7 +153,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 .rm-bullet__inner--numbered {
 	vertical-align: middle;
 }
-.rm-title-display, .roam-title-editing-display {
+.rm-title-display, .rm-title-editing-display {
 	line-height: 36px;
 }
 
