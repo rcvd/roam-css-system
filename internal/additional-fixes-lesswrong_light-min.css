@@ -24,8 +24,9 @@
 }
 
 #roam-sidebar-logo img {
-    --webkit-filter: brightness(60%);
-    filter: brightness(60%);
+    --webkit-filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
 }
 
 hr {
@@ -93,10 +94,6 @@ hr {
 
 .tribute-container ul {
     padding: 4px;
-}
-
-.tribute-item img {
-    filter: invert(99%) sepia(15%) saturate(6%) hue-rotate(229deg) brightness(113%) contrast(87%);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
@@ -183,7 +180,7 @@ div {
 }
 
 #app {
-    border-top: 1px solid var(--cl-gray-800);
+    border-top: 1px solid var(--cl-gray-100);
 }
 
 .rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
@@ -194,15 +191,15 @@ div {
     z-index: 1;
   }
 
-  div.cm-activeLine.cm-line {
-    caret-color: white!important;
+div.cm-activeLine.cm-line {
+    caret-color: black!important;
 }
 
 .rm-block-separator {
   min-width: 0px;
 }
 
-
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }

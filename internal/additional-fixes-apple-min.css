@@ -138,12 +138,14 @@ textarea {
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
     --webkit-filter: brightness(15%);
+    -webkit-filter: brightness(15%);
     filter: brightness(15%);
 }
 
 @media (prefers-color-scheme: dark) {
     #roam-sidebar-logo img {
         --webkit-filter: brightness(100%);
+        -webkit-filter: brightness(100%);
         filter: brightness(100%);
     }
 }
@@ -337,7 +339,6 @@ html {
 
 /* Modify transitions */
 .rm-find-or-create-wrapper, .roam-main, .roam-app > .flex-h-box, #right-sidebar {
-    -webkit-transition: flex 40ms ease!important;
     transition: flex 40ms ease!important;
 }
 
@@ -488,6 +489,7 @@ div.cm-activeLine.cm-line {
 }
 
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }
 

@@ -578,9 +578,9 @@ code {
 	color: 					var(--co-codeblock__container, black);
 }
 
-.cmt-cursor {
-	border-right: 			var(--br-codeblock__cursor, 1px solid black);
-	border-left: 			var(--bl-codeblock__cursor, inherit);
+.cm-cursor {
+	border-right: 			var(--br-codeblock__cursor, 1px solid black)!important;
+	border-left: 			var(--bl-codeblock__cursor, inherit)!important;
 }
 
 .cmt-definition {

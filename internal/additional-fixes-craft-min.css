@@ -28,8 +28,8 @@
 /* Log Button */
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
 	margin-left: 10px;
-	margin-right: 10px;
-	padding: 5px 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
 }
 
 /* Remove padding between star and title */
@@ -153,6 +153,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 .rm-bullet__inner--numbered {
 	vertical-align: middle;
 }
+
 .rm-title-display {
 	line-height: 36px;
 }
@@ -482,6 +483,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	}
 	
 	.rm-find-or-create-wrapper .bp3-transition-container {
+		-webkit-transform: translate3d(0px, 50px, 0px)!important;
 		transform: translate3d(0px, 50px, 0px)!important;
 	}
 	
@@ -496,7 +498,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 	.rm-find-or-create-wrapper[style='flex: 0 1 200px;'] .bp3-menu {
 		display: none;
 	}
-  }
+ }
 
  
  .emoji-mart-search-icon {
@@ -520,6 +522,12 @@ div.cm-activeLine.cm-line {
 	caret-color: black!important;
 }
 
+@media(prefers-color-scheme: dark) {
+	div.cm-activeLine.cm-line {
+		caret-color: white!important;
+	}
+}
+
 .reveal div {
 	font-family: "Inter",sans-serif;
 	font-size: 1em;
@@ -530,5 +538,8 @@ div.cm-activeLine.cm-line {
 }
 
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }
+
+

@@ -181,6 +181,7 @@
 
 #roam-sidebar-logo img {
     --webkit-filter: brightness(10%);
+    -webkit-filter: brightness(10%);
     filter: brightness(10%);
 }
 
@@ -240,5 +241,6 @@
 
 
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }

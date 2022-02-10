@@ -454,3 +454,9 @@ textarea,
 div.cm-activeLine.cm-line {
     caret-color: white!important;
 }
+
+
+.cm-cursorLayer {
+    animation-name: none!important;
+}
+

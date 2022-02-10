@@ -137,15 +137,13 @@ textarea {
 
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
-    --webkit-filter: brightness(15%);
-    filter: brightness(15%);
+    --webkit-filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
 }
 
-@media (prefers-color-scheme: dark) {
-    #roam-sidebar-logo img {
-        --webkit-filter: brightness(100%);
-        filter: brightness(100%);
-    }
+.rm-block-separator {
+  min-width: 0px;
 }
 
 /* Remove transparency from graph menu */
@@ -286,13 +284,7 @@ textarea {
 
 /* Blur Menus */
 html {
-  backgroundColor: white;
-}
-
-@media(prefers-color-scheme: dark) {
-    html {
-      backgroundColor: black;
-    }
+  backgroundColor: black;
 }
 
 .rm-bq {
@@ -337,7 +329,6 @@ html {
 
 /* Modify transitions */
 .rm-find-or-create-wrapper, .roam-main, .roam-app > .flex-h-box, #right-sidebar {
-    -webkit-transition: flex 40ms ease!important;
     transition: flex 40ms ease!important;
 }
 
@@ -422,7 +413,7 @@ textarea,
 .roam-main > .rm-files-dropzone {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.6); 
+    background-color: rgba(0,0,0,0.22); 
     content: '';
     height: 44px;
     width: 100%;
@@ -433,20 +424,8 @@ textarea,
 }
 
 
-@media(prefers-color-scheme: dark) {
-    .roam-main > .rm-files-dropzone {
-        background-color: rgba(0,0,0,0.22); 
-    }
-}
-
 .rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
-    background: rgba(255,255,255,0.5);
-}
-
-@media(prefers-color-scheme: dark) {
-    .rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
-        background: rgba(0,0,0,0.5);
-    }
+    background: rgba(0,0,0,0.5);
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
@@ -462,35 +441,23 @@ textarea,
 }
 
 .bp3-menu-item {
-    padding: 3px 7px;
+    padding: 3px 7px!important;
 }
-
-.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
-    padding: 0px 7px!important;
-}
-
 .CodeMirror .CodeMirror-scroll {
   max-height: 960px;
 }
 
 .rm-code-block__language-chooser {
-    z-index: 1;
-  }
+  z-index: 1;
+}
 
 div.cm-activeLine.cm-line {
-    caret-color: black!important;
+    caret-color: white!important;
 }
 
-@media(prefers-color-scheme: dark) {
-    div.cm-activeLine.cm-line {
-        caret-color: white!important;
-    }
-}
 
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }
 
-.rm-block-separator {
-  min-width: 0px;
-}

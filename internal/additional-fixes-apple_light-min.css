@@ -138,14 +138,8 @@ textarea {
 /* Re-color Roam Research Logo */
 #roam-sidebar-logo img {
     --webkit-filter: brightness(15%);
+    -webkit-filter: brightness(15%);
     filter: brightness(15%);
-}
-
-@media (prefers-color-scheme: dark) {
-    #roam-sidebar-logo img {
-        --webkit-filter: brightness(100%);
-        filter: brightness(100%);
-    }
 }
 
 /* Remove transparency from graph menu */
@@ -165,6 +159,10 @@ textarea {
 /* Fix border for popover menus */
 .bp3-select-popover .bp3-popover-content {
     padding: 0;
+}
+
+.CodeMirror .CodeMirror-scroll {
+  max-height: 960px;
 }
 
 .bp3-select-popover .bp3-menu {
@@ -289,12 +287,6 @@ html {
   backgroundColor: white;
 }
 
-@media(prefers-color-scheme: dark) {
-    html {
-      backgroundColor: black;
-    }
-}
-
 .rm-bq {
     margin-top: 10px;
     margin-bottom:  10px;
@@ -337,7 +329,6 @@ html {
 
 /* Modify transitions */
 .rm-find-or-create-wrapper, .roam-main, .roam-app > .flex-h-box, #right-sidebar {
-    -webkit-transition: flex 40ms ease!important;
     transition: flex 40ms ease!important;
 }
 
@@ -432,21 +423,8 @@ textarea,
     z-index: 100;
 }
 
-
-@media(prefers-color-scheme: dark) {
-    .roam-main > .rm-files-dropzone {
-        background-color: rgba(0,0,0,0.22); 
-    }
-}
-
 .rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
     background: rgba(255,255,255,0.5);
-}
-
-@media(prefers-color-scheme: dark) {
-    .rm-topbar, .rm-topbar .bp3-input, .rm-topbar input[type=search] {
-        background: rgba(0,0,0,0.5);
-    }
 }
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
@@ -462,35 +440,24 @@ textarea,
 }
 
 .bp3-menu-item {
-    padding: 3px 7px;
-}
-
-.rm-encrypted-block .bp3-button:not([class*='bp3-intent-']) {
-    padding: 0px 7px!important;
-}
-
-.CodeMirror .CodeMirror-scroll {
-  max-height: 960px;
+    padding: 3px 7px!important;
 }
 
 .rm-code-block__language-chooser {
     z-index: 1;
   }
 
-div.cm-activeLine.cm-line {
+  div.cm-activeLine.cm-line {
     caret-color: black!important;
-}
-
-@media(prefers-color-scheme: dark) {
-    div.cm-activeLine.cm-line {
-        caret-color: white!important;
-    }
-}
-
-.cm-cursorLayer {
-    animation-name: none!important;
 }
 
 .rm-block-separator {
   min-width: 0px;
 }
+
+
+.cm-cursorLayer {
+    -webkit-animation-name: none!important;
+    animation-name: none!important;
+}
+

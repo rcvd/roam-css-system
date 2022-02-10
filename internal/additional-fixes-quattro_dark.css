@@ -158,3 +158,7 @@ div.cm-activeLine.cm-line {
 .rm-block-separator {
   min-width: 0px;
 }
+
+.cm-cursorLayer {
+    animation-name: none!important;
+}

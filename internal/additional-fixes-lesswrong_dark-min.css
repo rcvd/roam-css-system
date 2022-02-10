@@ -25,6 +25,7 @@
 
 #roam-sidebar-logo img {
     --webkit-filter: brightness(60%);
+    -webkit-filter: brightness(60%);
     filter: brightness(60%);
 }
 
@@ -96,6 +97,7 @@ hr {
 }
 
 .tribute-item img {
+    -webkit-filter: invert(99%) sepia(15%) saturate(6%) hue-rotate(229deg) brightness(113%) contrast(87%);
     filter: invert(99%) sepia(15%) saturate(6%) hue-rotate(229deg) brightness(113%) contrast(87%);
 }
 
@@ -204,5 +206,6 @@ div {
 
 
 .cm-cursorLayer {
+    -webkit-animation-name: none!important;
     animation-name: none!important;
 }
