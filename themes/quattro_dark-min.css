@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/quattro.css');
-@import url('https://m1.local:5757/internal/colors-quattro.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-quattro_dark.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/quattro.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-quattro.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-quattro_dark.css');
 
 
 :root {
@@ -298,20 +298,20 @@
 
 :root {
 	--bc-button__disabled--hover: ;
-	--bt-button__disabled--hover: ;
-	--br-button__disabled--hover: ;
-	--bb-button__disabled--hover: ;
-	--bl-button__disabled--hover: ;
+	--bt-button__disabled--hover: 1px solid var(--cl-gray-900);
+	--br-button__disabled--hover: 1px solid var(--cl-gray-900);
+	--bb-button__disabled--hover: 1px solid var(--cl-gray-900);
+	--bl-button__disabled--hover: 1px solid var(--cl-gray-900);
 	--sd-button__disabled--hover: ;
 	--co-button__disabled--hover: ;
 }
 
 :root {
 	--bc-button__disabled: ;
-	--bt-button__disabled: ;
-	--br-button__disabled: ;
-	--bb-button__disabled: ;
-	--bl-button__disabled: ;
+	--bt-button__disabled: 1px solid var(--cl-gray-900);
+	--br-button__disabled: 1px solid var(--cl-gray-900);
+	--bb-button__disabled: 1px solid var(--cl-gray-900);
+	--bl-button__disabled: 1px solid var(--cl-gray-900);
 	--bd-button__disabled: ;
 	--sd-button__disabled: ;
 	--co-button__disabled: ;
@@ -333,10 +333,10 @@
 
 :root {
 	--bc-button__minimal--hover: ;
-	--bt-button__minimal--hover: ;
-	--br-button__minimal--hover: ;
-	--bb-button__minimal--hover: ;
-	--bl-button__minimal--hover: ;
+	--bt-button__minimal--hover: none;
+	--br-button__minimal--hover: none;
+	--bb-button__minimal--hover: none;
+	--bl-button__minimal--hover: none;
 	--bd-button__minimal--hover: ;
 	--sd-button__minimal--hover: ;
 	--co-button__minimal--hover: ;
@@ -345,10 +345,10 @@
 
 :root {
 	--bc-button__minimal: ;
-	--bt-button__minimal: ;
-	--br-button__minimal: ;
-	--bb-button__minimal: ;
-	--bl-button__minimal: ;
+	--bt-button__minimal: none;
+	--br-button__minimal: none;
+	--bb-button__minimal: none;
+	--bl-button__minimal: none;
 	--bd-button__minimal: ;
 	--sd-button__minimal: ;
 }
@@ -359,41 +359,41 @@
 
 :root {
 	--bc-button__primary--hover: ;
-	--bt-button__primary--hover: ;
-	--br-button__primary--hover: ;
-	--bb-button__primary--hover: ;
-	--bl-button__primary--hover: ;
+	--bt-button__primary--hover: 1px solid var(--cl-gray-900);
+	--br-button__primary--hover: 1px solid var(--cl-gray-900);
+	--bb-button__primary--hover: 1px solid var(--cl-gray-900);
+	--bl-button__primary--hover: 1px solid var(--cl-gray-900);
 	--sd-button__primary--hover: ;
 	--co-button__primary--hover: ;
 }
 
 :root {
 	--bc-button__primary: ;
-	--bt-button__primary: ;
-	--br-button__primary: ;
-	--bb-button__primary: ;
-	--bl-button__primary: ;
+	--bt-button__primary: 1px solid var(--cl-gray-900);
+	--br-button__primary: 1px solid var(--cl-gray-900);
+	--bb-button__primary: 1px solid var(--cl-gray-900);
+	--bl-button__primary: 1px solid var(--cl-gray-900);
 	--bd-button__primary: ;
 	--sd-button__primary: ;
 	--co-button__primary: ;
 }
 
 :root {
-	--bc-button__warning--hover: ;
-	--bt-button__warning--hover: ;
-	--br-button__warning--hover: ;
-	--bb-button__warning--hover: ;
-	--bl-button__warning--hover: ;
+	--bc-button__warning--hover: var(--cl-red-400);
+	--bt-button__warning--hover: 1px solid var(--cl-gray-900);
+	--br-button__warning--hover: 1px solid var(--cl-gray-900);
+	--bb-button__warning--hover: 1px solid var(--cl-gray-900);
+	--bl-button__warning--hover: 1px solid var(--cl-gray-900);
 	--sd-button__warning--hover: ;
 	--co-button__warning--hover: ;
 }
 
 :root {
-	--bc-button__warning: ;
-	--bt-button__warning: ;
-	--br-button__warning: ;
-	--bb-button__warning: ;
-	--bl-button__warning: ;
+	--bc-button__warning: var(--cl-red-500);
+	--bt-button__warning: 1px solid var(--cl-gray-900);
+	--br-button__warning: 1px solid var(--cl-gray-900);
+	--bb-button__warning: 1px solid var(--cl-gray-900);
+	--bl-button__warning: 1px solid var(--cl-gray-900);
 	--bd-button__warning: ;
 	--sd-button__warning: ;
 	--co-button__warning: ;
@@ -457,7 +457,7 @@
 }
 
 :root {
-	--bc-checkmark--checked: var(--cl-gray-700);
+	--bc-checkmark--checked: var(--cl-blue-700);
 	--bt-checkmark--checked: ;
 	--br-checkmark--checked: ;
 	--bb-checkmark--checked: ;
@@ -466,7 +466,7 @@
 }
 
 :root {
-	--bc-checkmark: ;
+	--bc-checkmark: transparent;
 	--bt-checkmark: 1px solid var(--cl-gray-500);
 	--br-checkmark: 1px solid var(--cl-gray-500);
 	--bb-checkmark: 1px solid var(--cl-gray-500);
@@ -658,20 +658,20 @@
 }
 
 :root {
-	--bc-control--checked: ;
+	--bc-control--checked: var(--cl-blue-700);
 }
 
 :root {
-	--bc-control--hover: ;
+	--bc-control--hover: var(--cl-gray-800);
 }
 
 :root {
-	--bc-control--hover-checked: ;
+	--bc-control--hover-checked: var(--cl-blue-800);
 	--sd-control--hover-checked: ;
 }
 
 :root {
-	--bc-control: ;
+	--bc-control: var(--cl-gray-700);
 }
 
 :root {
@@ -821,6 +821,10 @@
 	--bd-dialog__upload-input: 0px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: var(--cl-gray-100);
+}
+
+:root {
+	--bc-dialog__confirmation: ;
 }
 
 :root {
@@ -1590,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: var(--cl-red-500);
 }
 
 :root {
@@ -1760,6 +1764,8 @@
 :root {
 	--bb-page__link: ;
 	--co-page__link: var(--cl-red-500);
+	--fs-page__link: 1rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -2141,13 +2147,13 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: ;
-	--bt-roam42__cp-menu-item--hover: ;
-	--br-roam42__cp-menu-item--hover: ;
-	--bb-roam42__cp-menu-item--hover: ;
-	--bl-roam42__cp-menu-item--hover: ;
-	--bd-roam42__cp-menu-item--hover: ;
-	--co-roam42__cp-menu-item--hover: ;
+	--bc-roam42__cp-menu-item--hover: var(--cl-blue-900);
+	--bt-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
+	--br-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bb-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bl-roam42__cp-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bd-roam42__cp-menu-item--hover: 0px;
+	--co-roam42__cp-menu-item--hover: var(--cl-gray-100);
 }
 
 :root {
@@ -2156,7 +2162,7 @@
 	--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
 	--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
 	--bl-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-800);
-	--bd-roam42__cp-menu-item--selected: ;
+	--bd-roam42__cp-menu-item--selected: 0px;
 }
 
 :root {
@@ -2197,17 +2203,17 @@
 	--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
 	--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
 	--bl-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-800);
-	--bd-roam42__jj-menu-item--highlight: ;
+	--bd-roam42__jj-menu-item--highlight: 0px;
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: ;
-	--bt-roam42__jj-menu-item--hover: ;
-	--br-roam42__jj-menu-item--hover: ;
-	--bb-roam42__jj-menu-item--hover: ;
-	--bl-roam42__jj-menu-item--hover: ;
-	--bd-roam42__jj-menu-item--hover: ;
-	--co-roam42__jj-menu-item--hover: ;
+	--bc-roam42__jj-menu-item--hover: var(--cl-blue-900);
+	--bt-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
+	--br-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bb-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bl-roam42__jj-menu-item--hover: 1px solid var(--cl-blue-800);
+	--bd-roam42__jj-menu-item--hover: 0px;
+	--co-roam42__jj-menu-item--hover: var(--cl-gray-100);
 }
 
 :root {
@@ -2262,7 +2268,7 @@
 }
 
 :root {
-	--co-settings__filelist-item: ;
+	--co-settings__filelist-item: var(--cl-gray-100);
 }
 
 :root {
@@ -2277,8 +2283,8 @@
 }
 
 :root {
-	--bc-settings__hotkeys: ;
-	--co-settings__hotkeys: ;
+	--bc-settings__hotkeys: var(--cl-gray-700);
+	--co-settings__hotkeys: var(--cl-gray-100);
 }
 
 :root {
@@ -2493,6 +2499,9 @@
 
 :root {
 	--bc-textarea__selection: var(--cl-blue-800);
+}
+
+:root {
 }
 
 :root {

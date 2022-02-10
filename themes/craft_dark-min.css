@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/craft.css');
-@import url('https://m1.local:5757/internal/colors-craft.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-craft_dark.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/craft.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-craft.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-craft_dark.css');
 
 
 :root {
@@ -821,6 +821,10 @@
 	--bd-dialog__upload-input: 5px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: #dbdfe3;
+}
+
+:root {
+	--bc-dialog__confirmation: transparent;
 }
 
 :root {
@@ -1760,6 +1764,8 @@
 :root {
 	--bb-page__link: 3px solid #4b7c8f;
 	--co-page__link: #91def9;
+	--fs-page__link: 1.06rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -1876,11 +1882,11 @@
 }
 
 :root {
-	--bc-quote: transparent;
+	--bc-quote: #1e1e1e;
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #f4f4f4;
+	--bl-quote: none;
 	--bd-quote: 0px;
 	--co-quote: #f4f4f4;
 	--ff-quote: -apple-system, BlinkMacSystemFont,Inter;
@@ -2496,6 +2502,9 @@
 }
 
 :root {
+}
+
+:root {
 	--bc-tooltip: #3d4145;
 	--bt-tooltip: 1px solid #4b4d50;
 	--br-tooltip: 1px solid #4b4d50;
@@ -2661,10 +2670,24 @@
 }
 
 :root {
+	--bc-zotero__primary: ;
+	--bt-zotero__primary: ;
+	--br-zotero__primary: ;
+	--bb-zotero__primary: ;
+	--bl-zotero__primary: ;
+	--bd-zotero__primary: ;
+	--sd-zotero__primary: ;
+	--co-zotero__primary: ;
 }
 
 :root {
 	--bc-zotero__primary: ;
+	--bt-zotero__primary: ;
+	--br-zotero__primary: ;
+	--bb-zotero__primary: ;
+	--bl-zotero__primary: ;
+	--bd-zotero__primary: ;
+	--sd-zotero__primary: ;
 	--co-zotero__primary: #f4f4f4;
 }
 

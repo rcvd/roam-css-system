@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/things.css');
-@import url('https://m1.local:5757/internal/colors-things.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-things_dark.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/things.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-things.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things_dark.css');
 
 
 :root {
@@ -824,6 +824,10 @@
 }
 
 :root {
+	--bc-dialog__confirmation: ;
+}
+
+:root {
 	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	--fs-div: 1rem;
 }
@@ -1590,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: #65a6f5;
 }
 
 :root {
@@ -1760,6 +1764,8 @@
 :root {
 	--bb-page__link: ;
 	--co-page__link: #65a6f5;
+	--fs-page__link: 1rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -2141,17 +2147,17 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: ;
-	--bt-roam42__cp-menu-item--hover: ;
-	--br-roam42__cp-menu-item--hover: ;
-	--bb-roam42__cp-menu-item--hover: ;
-	--bl-roam42__cp-menu-item--hover: ;
-	--bd-roam42__cp-menu-item--hover: ;
-	--co-roam42__cp-menu-item--hover: ;
+	--bc-roam42__cp-menu-item--hover: #0058d0;
+	--bt-roam42__cp-menu-item--hover: none;
+	--br-roam42__cp-menu-item--hover: none;
+	--bb-roam42__cp-menu-item--hover: none;
+	--bl-roam42__cp-menu-item--hover: none;
+	--bd-roam42__cp-menu-item--hover: 5px;
+	--co-roam42__cp-menu-item--hover: #eeeeee;
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: #0059d0;
+	--bc-roam42__cp-menu-item--selected: #0058d0;
 	--bt-roam42__cp-menu-item--selected: none;
 	--br-roam42__cp-menu-item--selected: none;
 	--bb-roam42__cp-menu-item--selected: none;
@@ -2192,7 +2198,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: #0059d0;
+	--bc-roam42__jj-menu-item--highlight: #0058d0;
 	--bt-roam42__jj-menu-item--highlight: none;
 	--br-roam42__jj-menu-item--highlight: none;
 	--bb-roam42__jj-menu-item--highlight: none;
@@ -2201,13 +2207,13 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: ;
-	--bt-roam42__jj-menu-item--hover: ;
-	--br-roam42__jj-menu-item--hover: ;
-	--bb-roam42__jj-menu-item--hover: ;
-	--bl-roam42__jj-menu-item--hover: ;
-	--bd-roam42__jj-menu-item--hover: ;
-	--co-roam42__jj-menu-item--hover: ;
+	--bc-roam42__jj-menu-item--hover: #0058d0;
+	--bt-roam42__jj-menu-item--hover: none;
+	--br-roam42__jj-menu-item--hover: none;
+	--bb-roam42__jj-menu-item--hover: none;
+	--bl-roam42__jj-menu-item--hover: none;
+	--bd-roam42__jj-menu-item--hover: 5px;
+	--co-roam42__jj-menu-item--hover: #eeeeee;
 }
 
 :root {
@@ -2493,6 +2499,9 @@
 
 :root {
 	--bc-textarea__selection: #2260ae;
+}
+
+:root {
 }
 
 :root {

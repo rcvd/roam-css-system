@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/lesswrong.css');
-@import url('https://m1.local:5757/internal/colors-lesswrong.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-lesswrong_light.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/lesswrong.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-lesswrong.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-lesswrong_light.css');
 
 
 :root {
@@ -824,6 +824,10 @@
 }
 
 :root {
+	--bc-dialog__confirmation: ;
+}
+
+:root {
 	--ff-div: 'Source Sans Pro';
 	--fs-div: 1rem;
 }
@@ -1590,7 +1594,7 @@
 }
 
 :root {
-	--co-main__namespace: ;
+	--co-main__namespace: var(--cl-green-500);
 }
 
 :root {
@@ -1760,6 +1764,8 @@
 :root {
 	--bb-page__link: ;
 	--co-page__link: var(--cl-green-500);
+	--fs-page__link: 1rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -2141,17 +2147,17 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: ;
+	--bc-roam42__cp-menu-item--hover: var(--cl-gray-500);
 	--bt-roam42__cp-menu-item--hover: ;
 	--br-roam42__cp-menu-item--hover: ;
 	--bb-roam42__cp-menu-item--hover: ;
 	--bl-roam42__cp-menu-item--hover: ;
 	--bd-roam42__cp-menu-item--hover: ;
-	--co-roam42__cp-menu-item--hover: ;
+	--co-roam42__cp-menu-item--hover: var(--cl-gray-900);
 }
 
 :root {
-	--bc-roam42__cp-menu-item--selected: var(--cl-blue-50);
+	--bc-roam42__cp-menu-item--selected: var(--cl-gray-500);
 	--bt-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
 	--br-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
 	--bb-roam42__cp-menu-item--selected: 1px solid var(--cl-blue-100);
@@ -2192,7 +2198,7 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--highlight: var(--cl-blue-50);
+	--bc-roam42__jj-menu-item--highlight: var(--cl-gray-500);
 	--bt-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
 	--br-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
 	--bb-roam42__jj-menu-item--highlight: 1px solid var(--cl-blue-100);
@@ -2201,13 +2207,13 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: ;
+	--bc-roam42__jj-menu-item--hover: var(--cl-gray-500);
 	--bt-roam42__jj-menu-item--hover: ;
 	--br-roam42__jj-menu-item--hover: ;
 	--bb-roam42__jj-menu-item--hover: ;
 	--bl-roam42__jj-menu-item--hover: ;
 	--bd-roam42__jj-menu-item--hover: ;
-	--co-roam42__jj-menu-item--hover: ;
+	--co-roam42__jj-menu-item--hover: var(--cl-gray-900);
 }
 
 :root {
@@ -2493,6 +2499,9 @@
 
 :root {
 	--bc-textarea__selection: var(--cl-gray-200);
+}
+
+:root {
 }
 
 :root {

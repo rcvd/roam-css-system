@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/craft.css');
-@import url('https://m1.local:5757/internal/colors-craft.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-craft.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/craft.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-craft.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-craft.css');
 
 
 :root {
@@ -518,10 +518,10 @@
 }
 
 :root {
-	--bt-bullet__closed: 4px  solid #f8f8f8;
-	--br-bullet__closed: 4px  solid #f8f8f8;
-	--bb-bullet__closed: 4px  solid #f8f8f8;
-	--bl-bullet__closed: 4px  solid #f8f8f8;
+	--bt-bullet__closed: 4px  solid #ececec;
+	--br-bullet__closed: 4px  solid #ececec;
+	--bb-bullet__closed: 4px  solid #ececec;
+	--bl-bullet__closed: 4px  solid #ececec;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -1820,6 +1820,16 @@
 		--bl-dialog__upload-input: none;
 		--sd-dialog__upload-input: none;
 		--co-dialog__upload-input: #dbdfe3;
+	}
+}
+
+:root {
+	--bc-dialog__confirmation: transparent;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-dialog__confirmation: transparent;
 	}
 }
 
@@ -3839,6 +3849,8 @@
 :root {
 	--bb-page__link: 2px solid #c9daed;
 	--co-page__link: #366a9f;
+	--fs-page__link: 1.06rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -4091,11 +4103,11 @@
 }
 
 :root {
-	--bc-quote: transparent;
+	--bc-quote: #f8f8f9;
 	--bt-quote: none;
 	--br-quote: none;
 	--bb-quote: none;
-	--bl-quote: 4px solid #202225;
+	--bl-quote: nonr;
 	--bd-quote: 0px;
 	--co-quote: #202224;
 	--ff-quote: -apple-system, BlinkMacSystemFont,Inter;
@@ -4106,11 +4118,11 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-quote: transparent;
+		--bc-quote: #1e1e1e;
 		--bt-quote: none;
 		--br-quote: none;
 		--bb-quote: none;
-		--bl-quote: 4px solid #f4f4f4;
+		--bl-quote: none;
 		--co-quote: #f4f4f4;
 	}
 }
@@ -5395,6 +5407,14 @@
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-textarea__selection: #a0a0a0;
+	}
+}
+
+:root {
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
 	}
 }
 

@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/things.css');
-@import url('https://m1.local:5757/internal/colors-things.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-things_light.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/things.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-things.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things_light.css');
 
 
 :root {
@@ -821,6 +821,10 @@
 	--bd-dialog__upload-input: 0px;
 	--sd-dialog__upload-input: none;
 	--co-dialog__upload-input: #ffffff;
+}
+
+:root {
+	--bc-dialog__confirmation: ;
 }
 
 :root {
@@ -1760,6 +1764,8 @@
 :root {
 	--bb-page__link: ;
 	--co-page__link: #1d72d1;
+	--fs-page__link: 1rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
@@ -2141,13 +2147,13 @@
 }
 
 :root {
-	--bc-roam42__cp-menu-item--hover: ;
-	--bt-roam42__cp-menu-item--hover: ;
-	--br-roam42__cp-menu-item--hover: ;
-	--bb-roam42__cp-menu-item--hover: ;
-	--bl-roam42__cp-menu-item--hover: ;
-	--bd-roam42__cp-menu-item--hover: ;
-	--co-roam42__cp-menu-item--hover: ;
+	--bc-roam42__cp-menu-item--hover: #0064e0;
+	--bt-roam42__cp-menu-item--hover: none;
+	--br-roam42__cp-menu-item--hover: none;
+	--bb-roam42__cp-menu-item--hover: none;
+	--bl-roam42__cp-menu-item--hover: none;
+	--bd-roam42__cp-menu-item--hover: 5px;
+	--co-roam42__cp-menu-item--hover: #ffffff;
 }
 
 :root {
@@ -2201,13 +2207,13 @@
 }
 
 :root {
-	--bc-roam42__jj-menu-item--hover: ;
-	--bt-roam42__jj-menu-item--hover: ;
-	--br-roam42__jj-menu-item--hover: ;
-	--bb-roam42__jj-menu-item--hover: ;
-	--bl-roam42__jj-menu-item--hover: ;
-	--bd-roam42__jj-menu-item--hover: ;
-	--co-roam42__jj-menu-item--hover: ;
+	--bc-roam42__jj-menu-item--hover: #0064e0;
+	--bt-roam42__jj-menu-item--hover: none;
+	--br-roam42__jj-menu-item--hover: none;
+	--bb-roam42__jj-menu-item--hover: none;
+	--bl-roam42__jj-menu-item--hover: none;
+	--bd-roam42__jj-menu-item--hover: 5px;
+	--co-roam42__jj-menu-item--hover: #ffffff;
 }
 
 :root {
@@ -2493,6 +2499,9 @@
 
 :root {
 	--bc-textarea__selection: #c3d7ff;
+}
+
+:root {
 }
 
 :root {

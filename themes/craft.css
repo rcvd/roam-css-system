@@ -3849,7 +3849,7 @@
 :root {
 	--bb-page__link: 2px solid #c9daed;
 	--co-page__link: #366a9f;
-	--fs-page__link: 1rem;
+	--fs-page__link: 1.06rem;
 	--fw-page__link: normal;
 	--td-page__link: none;
 }
