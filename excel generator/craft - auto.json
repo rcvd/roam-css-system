@@ -723,7 +723,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--br-codeblock__cursor: none;\n\t--bl-codeblock__cursor: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: 1px solid #f4f4f4;\n\t\t--bl-codeblock__cursor: none;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--br-codeblock__cursor: none;\n\t--bl-codeblock__cursor: 2px solid black;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: 2px solid white;\n\t\t--bl-codeblock__cursor: none;\n\t}\n}```"
 				}]
 			}]
 		},

@@ -557,7 +557,7 @@
 }
 
 :root {
-	--br-codeblock__cursor: 1px solid #f4f4f4;
+	--br-codeblock__cursor: 2px solid white;
 	--bl-codeblock__cursor: none;
 }
 
