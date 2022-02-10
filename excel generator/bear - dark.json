@@ -723,7 +723,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--br-codeblock__cursor: 1px solid #5c9df5;\n\t--bl-codeblock__cursor: ;\n}```"
+					"string": "```css\n:root {\n\t--br-codeblock__cursor: 2px solid #5c9df5;\n\t--bl-codeblock__cursor: ;\n}```"
 				}]
 			}]
 		},

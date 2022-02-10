@@ -723,7 +723,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--br-codeblock__cursor: 1px solid var(--cl-gray-900);\n\t--bl-codeblock__cursor: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: 1px solid var(--cl-gray-100);\n\t\t--bl-codeblock__cursor: ;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--br-codeblock__cursor: 2px solid var(--cl-gray-900);\n\t--bl-codeblock__cursor: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--br-codeblock__cursor: 2px solid var(--cl-gray-100);\n\t\t--bl-codeblock__cursor: ;\n\t}\n}```"
 				}]
 			}]
 		},

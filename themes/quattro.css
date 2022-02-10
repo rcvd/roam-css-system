@@ -1213,13 +1213,13 @@
 }
 
 :root {
-	--br-codeblock__cursor: 1px solid var(--cl-gray-900);
+	--br-codeblock__cursor: 2px solid var(--cl-gray-900);
 	--bl-codeblock__cursor: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-codeblock__cursor: 1px solid var(--cl-gray-100);
+		--br-codeblock__cursor: 2px solid var(--cl-gray-100);
 		--bl-codeblock__cursor: ;
 	}
 }

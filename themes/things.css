@@ -1213,13 +1213,13 @@
 }
 
 :root {
-	--br-codeblock__cursor: 1px solid #5c9df5;
+	--br-codeblock__cursor: 2px solid #5c9df5;
 	--bl-codeblock__cursor: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--br-codeblock__cursor: 1px solid #5c9df5;
+		--br-codeblock__cursor: 2px solid #5c9df5;
 		--bl-codeblock__cursor: ;
 	}
 }
