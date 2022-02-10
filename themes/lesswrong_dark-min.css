@@ -1764,8 +1764,6 @@
 :root {
 	--bb-page__link: ;
 	--co-page__link: var(--cl-green-500);
-	--fs-page__link: 1rem;
-	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
