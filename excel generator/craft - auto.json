@@ -2495,7 +2495,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bb-page__link: 2px solid #c9daed;\n\t--co-page__link: #366a9f;\n\t--td-page__link: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-page__link: 3px solid #4b7c8f;\n\t\t--co-page__link: #91def9;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bb-page__link: 2px solid #c9daed;\n\t--co-page__link: #366a9f;\n\t--fs-page__link: 1rem;\n\t--fw-page__link: normal;\n\t--td-page__link: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-page__link: 3px solid #4b7c8f;\n\t\t--co-page__link: #91def9;\n\t}\n}```"
 				}]
 			}]
 		},

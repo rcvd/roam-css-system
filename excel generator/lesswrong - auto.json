@@ -2495,7 +2495,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bb-page__link: ;\n\t--co-page__link: var(--cl-green-500);\n\t--td-page__link: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-page__link: ;\n\t\t--co-page__link: var(--cl-green-500);\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bb-page__link: ;\n\t--co-page__link: var(--cl-green-500);\n\t--fs-page__link: 1rem;\n\t--fw-page__link: normal;\n\t--td-page__link: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-page__link: ;\n\t\t--co-page__link: var(--cl-green-500);\n\t}\n}```"
 				}]
 			}]
 		},

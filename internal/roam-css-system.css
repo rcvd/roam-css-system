@@ -1795,6 +1795,8 @@ div, textarea {
 .rm-page-ref {
 	border-bottom: 			var(--bb-page__link, inherit);
 	color: 					var(--co-page__link, #106BA3);
+	font-size: 				var(--fs-page__link, inherit);
+	font-weight: 			var(--fw-page__link, inherit);
 	text-decoration: 		var(--td-page__link, inherit);
 }
 

@@ -1764,6 +1764,8 @@
 :root {
 	--bb-page__link: 3px solid #4b7c8f;
 	--co-page__link: #91def9;
+	--fs-page__link: 1rem;
+	--fw-page__link: normal;
 	--td-page__link: none;
 }
 
