@@ -1582,9 +1582,9 @@ div, textarea {
 	border-bottom: 			var(--bb-level1, inherit);
 	color: 					var(--co-level1, inherit);
 	font-family: 			var(--ff-level1, 'Inter',sans-serif);
-	font-size: 				var(--fs-level1, 1.8em);
+	font-size: 				var(--fs-level1, 1.8em)!important;
 	font-style: 			var(--ft-level1, inherit);
-	font-weight: 			var(--fw-level1, 400);
+	font-weight: 			var(--fw-level1, 400)!important;
 	text-transform: 		var(--tt-level1, inherit);
 }
 
@@ -1592,9 +1592,9 @@ div, textarea {
 	border-bottom: 			var(--bb-level2, inherit);
 	color: 					var(--co-level2, inherit);
 	font-family: 			var(--ff-level2, 'Inter',sans-serif)!important;
-	font-size: 				var(--fs-level2, 1.4em);
+	font-size: 				var(--fs-level2, 1.4em)!important;
 	font-style: 			var(--ft-level2, inherit);
-	font-weight: 			var(--fw-level2, 400);
+	font-weight: 			var(--fw-level2, 400)!important;
 	text-transform: 		var(--tt-level2, inherit);
 }
 
@@ -1602,9 +1602,9 @@ div, textarea {
 	border-bottom: 			var(--bb-level3, inherit);
 	color: 					var(--co-level3, #5C7080);
 	font-family: 			var(--ff-level3, inherit);
-	font-size: 				var(--fs-level3, 1.2em);
+	font-size: 				var(--fs-level3, 1.2em)!important;
 	font-style: 			var(--ft-level3, inherit);
-	font-weight: 			var(--fw-level3, 500);
+	font-weight: 			var(--fw-level3, 500)!important;
 	text-transform: 		var(--tt-level3, inherit);
 }
 
