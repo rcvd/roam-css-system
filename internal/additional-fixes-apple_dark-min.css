@@ -451,11 +451,6 @@ textarea,
   z-index: 1;
 }
 
-div.cm-activeLine.cm-line {
-    caret-color: white!important;
-}
-
-
 .cm-cursorLayer {
     -webkit-animation-name: none!important;
     animation-name: none!important;

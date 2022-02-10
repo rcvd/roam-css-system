@@ -147,11 +147,6 @@ hr {
     z-index: 1;
   }
 
- 
-div.cm-activeLine.cm-line {
-    caret-color: black!important;
-}
-
 .rm-block-separator {
   min-width: 0px;
 }

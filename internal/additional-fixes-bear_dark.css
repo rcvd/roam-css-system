@@ -230,9 +230,6 @@
     z-index: 1;
   }
 
-  div.cm-activeLine.cm-line {
-    caret-color: white!important;
-}
 
 .rm-block-separator {
   min-width: 0px;
