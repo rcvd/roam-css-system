@@ -455,3 +455,7 @@ textarea,
     animation-name: none!important;
 }
 
+
+.rm-code-block {
+    margin-right: 0px;
+}

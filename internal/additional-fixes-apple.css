@@ -484,3 +484,7 @@ textarea,
 .rm-block-separator {
   min-width: 0px;
 }
+
+.rm-code-block {
+    margin-right: 0px;
+}
