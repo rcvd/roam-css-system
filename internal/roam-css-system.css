@@ -8,6 +8,18 @@ a {
 	text-decoration: 		var(--td-a, none);
 }
 
+a.rm-alias:hover {
+	border-bottom: 			var(--bb-alias--hover, inherit);
+	color: 					var(--co-alias--hover, inherit);
+	text-decoration: 		var(--td-alias--hover, underline);
+}
+
+a.rm-alias {
+	border-bottom: 			var(--bb-alias, inherit);
+	color: 					var(--co-alias, #106BA3);
+	text-decoration: 		var(--td-alias, inherit);
+}
+
 .rm-alias-tooltip__content .rm-bq {
 	border-left: 			var(--bl-alias__tooltip-content-bq, 5px solid #d9822b);
 	color: 					var(--co-alias__tooltip-content-bq, #202B33);

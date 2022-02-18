@@ -22,6 +22,18 @@
 		"string": "alias",
 		"children": [
 		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-alias--hover: ;\n\t--co-alias--hover: rgba(221, 76, 79, 1.00);\n\t--td-alias--hover: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-alias--hover: ;\n\t\t--co-alias--hover: rgba(107, 202, 251, 1.00);\n\t}\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-alias: ;\n\t--co-alias: rgba(221, 76, 79, 1.00);\n\t--td-alias: none;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bb-alias: ;\n\t\t--co-alias: rgba(107, 202, 251, 1.00);\n\t}\n}```"
+			}]
+		},
+		{
 			"string": "tooltip-content-bq",
 			"children": [
 			{

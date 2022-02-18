@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-craft.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-craft_dark.css');
+@import url('https://m1.local:5757/fonts/craft.css');
+@import url('https://m1.local:5757/internal/colors-craft.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-craft_dark.css');
 
 
 :root {
@@ -12,6 +12,18 @@
 :root {
 	--co-a: #91def9;
 	--td-a: none;
+}
+
+:root {
+	--bb-alias--hover: 3px solid #4b7c8f;
+	--co-alias--hover: #91def9;
+	--td-alias--hover: none;
+}
+
+:root {
+	--bb-alias: 3px solid #4b7c8f;
+	--co-alias: #91def9;
+	--td-alias: none;
 }
 
 :root {

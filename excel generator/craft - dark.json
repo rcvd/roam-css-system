@@ -22,6 +22,18 @@
 		"string": "alias",
 		"children": [
 		{
+			"string": "hover",
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-alias--hover: 3px solid #4b7c8f;\n\t--co-alias--hover: #91def9;\n\t--td-alias--hover: none;\n}```"
+			}]
+		},
+		{
+			"string": "normal", 
+			"children": [{
+				"string": "```css\n:root {\n\t--bb-alias: 3px solid #4b7c8f;\n\t--co-alias: #91def9;\n\t--td-alias: none;\n}```"
+			}]
+		},
+		{
 			"string": "tooltip-content-bq",
 			"children": [
 			{

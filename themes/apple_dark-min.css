@@ -1,0 +1,2713 @@
+@import url('https://m1.local:5757/fonts/apple.css');
+@import url('https://m1.local:5757/internal/colors-apple.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-apple_dark.css');
+
+
+:root {
+	--co-a--hover: #65a9f9;
+	--td-a--hover: none;
+}
+
+:root {
+	--co-a: #65a9f9;
+	--td-a: none;
+}
+
+:root {
+	--bl-alias__tooltip-content-bq: 1px solid var(--cl-gray-600);
+	--co-alias__tooltip-content-bq: ;
+}
+
+:root {
+	--co-alias__tooltip-external--hover: ;
+}
+
+:root {
+	--co-alias__tooltip-external: ;
+}
+
+:root {
+	--bc-allpages__checkbox: transparent;
+	--bt-allpages__checkbox: 1px solid #747474;
+	--br-allpages__checkbox: 1px solid #747474;
+	--bb-allpages__checkbox: 1px solid #747474;
+	--bl-allpages__checkbox: 1px solid #747474;
+	--bd-allpages__checkbox: 3px;
+	--sd-allpages__checkbox: ;
+	--fs-allpages__checkbox: ;
+}
+
+:root {
+	--fs-allpages__checkbox-col: ;
+}
+
+:root {
+	--bc-allpages__clickable-pill: transparent;
+	--bt-allpages__clickable-pill: none;
+	--br-allpages__clickable-pill: none;
+	--bb-allpages__clickable-pill: none;
+	--bl-allpages__clickable-pill: none;
+	--bd-allpages__clickable-pill: 0;
+	--co-allpages__clickable-pill: #676767;
+	--fs-allpages__clickable-pill: ;
+	--fw-allpages__clickable-pill: ;
+	--op-allpages__clickable-pill: 1;
+}
+
+:root {
+	--bc-allpages__clickable-pill-1: transparent;
+	--bt-allpages__clickable-pill-1: none;
+	--br-allpages__clickable-pill-1: none;
+	--bb-allpages__clickable-pill-1: none;
+	--bl-allpages__clickable-pill-1: none;
+	--co-allpages__clickable-pill-1: #676767;
+	--op-allpages__clickable-pill-1: 1;
+}
+
+:root {
+	--bc-allpages__clickable-pill-2: transparent;
+	--bt-allpages__clickable-pill-2: none;
+	--br-allpages__clickable-pill-2: none;
+	--bb-allpages__clickable-pill-2: none;
+	--bl-allpages__clickable-pill-2: none;
+	--co-allpages__clickable-pill-2: #676767;
+	--op-allpages__clickable-pill-2: 1;
+}
+
+:root {
+	--bc-allpages__clickable-pill-3: transparent;
+	--bt-allpages__clickable-pill-3: none;
+	--br-allpages__clickable-pill-3: none;
+	--bb-allpages__clickable-pill-3: none;
+	--bl-allpages__clickable-pill-3: none;
+	--co-allpages__clickable-pill-3: #676767;
+	--op-allpages__clickable-pill-3: 1;
+}
+
+:root {
+	--bc-allpages__clickable-pill-empty: transparent;
+	--bt-allpages__clickable-pill-empty: none;
+	--br-allpages__clickable-pill-empty: none;
+	--bb-allpages__clickable-pill-empty: none;
+	--bl-allpages__clickable-pill-empty: none;
+	--co-allpages__clickable-pill-empty: #676767;
+	--op-allpages__clickable-pill-empty: 1;
+}
+
+:root {
+	--bc-allpages__input--focused: #5c5b5b;
+	--bt-allpages__input--focused: none;
+	--br-allpages__input--focused: none;
+	--bb-allpages__input--focused: none;
+	--bl-allpages__input--focused: none;
+}
+
+:root {
+	--bc-allpages__input: transparent;
+	--bt-allpages__input: none;
+	--br-allpages__input: none;
+	--bb-allpages__input: none;
+	--bl-allpages__input: none;
+	--bd-allpages__input: 5px;
+	--sd-allpages__input: none;
+	--co-allpages__input: #adadac;
+	--fs-allpages__input: 1rem;
+	--fw-allpages__input: normal;
+}
+
+:root {
+	--co-allpages__input-icon--focused: #787877;
+}
+
+:root {
+	--co-allpages__input-icon: #787877;
+}
+
+:root {
+	--bb-allpages__row: none;
+	--co-allpages__row: #818180;
+}
+
+:root {
+	--bc-allpages__row-header: transparent;
+	--bb-allpages__row-header: 1px solid #424141;
+	--bd-allpages__row-header: 0px;
+	--co-allpages__row-header: #f5f5f7;
+	--fs-allpages__row-header: 1rem;
+	--fw-allpages__row-header: 700;
+}
+
+:root {
+	--co-allpages__sort-button--focused: #67acfe;
+	--fw-allpages__sort-button--focused: ;
+}
+
+:root {
+	--co-allpages__sorted-header-text: #f5f5f7;
+	--fw-allpages__sorted-header-text: 700;
+}
+
+:root {
+	--co-allpages__title-col: #959595;
+}
+
+:root {
+	--co-allpages__title-header: #f5f5f7;
+}
+
+:root {
+	--bb-allpages__title-text--hover: ;
+	--co-allpages__title-text--hover: ;
+	--td-allpages__title-text--hover: ;
+}
+
+:root {
+	--bb-allpages__title-text: ;
+	--co-allpages__title-text: #f5f5f7;
+	--td-allpages__title-text: ;
+}
+
+:root {
+	--co-app__h1: #f5f5f7;
+	--ff-app__h1: ;
+	--ft-app__h1: ;
+	--fw-app__h1: normal;
+}
+
+:root {
+	--bc-app: #2b2a2a;
+	--co-app: #f5f5f7;
+}
+
+:root {
+	--co-attributes: #848484;
+	--ft-attributes: ;
+	--fw-attributes: bold;
+}
+
+:root {
+	--bc-block__button--hover: #266bbd;
+	--bt-block__button--hover: none;
+	--br-block__button--hover: none;
+	--bb-block__button--hover: none;
+	--bl-block__button--hover: none;
+	--sd-block__button--hover: ;
+	--co-block__button--hover: #e7e7e7;
+}
+
+:root {
+	--bc-block__button: #515151;
+	--bt-block__button: none;
+	--br-block__button: none;
+	--bb-block__button: none;
+	--bl-block__button: none;
+	--bd-block__button: 3px;
+	--sd-block__button: ;
+	--co-block__button: #e7e7e7;
+}
+
+:root {
+	--co-block__ghost: #7d7d7d;
+}
+
+:root {
+	--bc-block-highlight--blue: #383c3e;
+	--co-block-highlight--blue: #f5f5f7;
+}
+
+:root {
+	--bc-block-highlight--grey: #414141;
+	--co-block-highlight--grey: #f5f5f7;
+}
+
+:root {
+	--bc-block-highlight--yellow: #4f482b;
+	--co-block-highlight--yellow: #f5f5f7;
+}
+
+:root {
+	--bc-block-ref--hover: transparent;
+	--co-block-ref--hover: #939393;
+}
+
+:root {
+	--bb-block-ref: .5px dotted #464646;
+}
+
+:root {
+	--co-brackets: #6d6e6d;
+}
+
+:root {
+	--bt-bullet__closed: 4px solid #666;
+	--br-bullet__closed: 4px solid #666;
+	--bb-bullet__closed: 4px solid #666;
+	--bl-bullet__closed: 4px solid #666;
+}
+
+:root {
+	--bc-bullet__ghost: #333;
+}
+
+:root {
+	--bc-bullet__inner: #666;
+}
+
+:root {
+	--bc-button__cancel--hover: #5e5e5e;
+	--bt-button__cancel--hover: 1px solid #707171;
+	--br-button__cancel--hover: 1px solid #707171;
+	--bb-button__cancel--hover: 1px solid #707171;
+	--bl-button__cancel--hover: 1px solid #707171;
+	--sd-button__cancel--hover: ;
+	--co-button__cancel--hover: #e6e7e7;
+}
+
+:root {
+	--bc-button__cancel: #5e5e5e;
+	--bt-button__cancel: 1px solid #707171;
+	--br-button__cancel: 1px solid #707171;
+	--bb-button__cancel: 1px solid #707171;
+	--bl-button__cancel: 1px solid #707171;
+	--bd-button__cancel: 5px;
+	--sd-button__cancel: ;
+	--co-button__cancel: #e6e7e7;
+}
+
+:root {
+	--bc-button__danger--hover: #fb375e;
+	--bt-button__danger--hover: none;
+	--br-button__danger--hover: none;
+	--bb-button__danger--hover: none;
+	--bl-button__danger--hover: none;
+	--sd-button__danger--hover: none;
+	--co-button__danger--hover: #f5f5f7;
+}
+
+:root {
+	--bc-button__danger: #fb375e;
+	--bt-button__danger: none;
+	--br-button__danger: none;
+	--bb-button__danger: none;
+	--bl-button__danger: none;
+	--bd-button__danger: 5px;
+	--sd-button__danger: none;
+	--co-button__danger: #f5f5f7;
+}
+
+:root {
+	--bc-button__disabled--hover: ;
+	--bt-button__disabled--hover: ;
+	--br-button__disabled--hover: ;
+	--bb-button__disabled--hover: ;
+	--bl-button__disabled--hover: ;
+	--sd-button__disabled--hover: ;
+	--co-button__disabled--hover: ;
+}
+
+:root {
+	--bc-button__disabled: #666767;
+	--bt-button__disabled: none;
+	--br-button__disabled: none;
+	--bb-button__disabled: none;
+	--bl-button__disabled: none;
+	--bd-button__disabled: 5px;
+	--sd-button__disabled: none;
+	--co-button__disabled: #f5f5f7;
+}
+
+:root {
+	--co-button__icon--hover: #a5a7ab;
+}
+
+:root {
+	--co-button__icon: #a5a7ab;
+}
+
+:root {
+	--bc-button__minimal--active: transparent;
+	--sd-button__minimal--active: none;
+	--co-button__minimal--active: #dfeaf9;
+}
+
+:root {
+	--bc-button__minimal--hover: transparent;
+	--bt-button__minimal--hover: ;
+	--br-button__minimal--hover: ;
+	--bb-button__minimal--hover: ;
+	--bl-button__minimal--hover: ;
+	--bd-button__minimal--hover: 5px;
+	--sd-button__minimal--hover: none;
+	--co-button__minimal--hover: #dfeaf9;
+	--td-button__minimal--hover: none;
+}
+
+:root {
+	--bc-button__minimal: transparent;
+	--bt-button__minimal: ;
+	--br-button__minimal: ;
+	--bb-button__minimal: ;
+	--bl-button__minimal: ;
+	--bd-button__minimal: 5px;
+	--sd-button__minimal: none;
+}
+
+:root {
+	--co-button__minimal-icon--active: #a5a7ab;
+}
+
+:root {
+	--bc-button__primary--hover: #1574d8;
+	--bt-button__primary--hover: none;
+	--br-button__primary--hover: none;
+	--bb-button__primary--hover: none;
+	--bl-button__primary--hover: none;
+	--sd-button__primary--hover: none;
+	--co-button__primary--hover: #dfeaf9;
+}
+
+:root {
+	--bc-button__primary: #1574d8;
+	--bt-button__primary: none;
+	--br-button__primary: none;
+	--bb-button__primary: none;
+	--bl-button__primary: none;
+	--bd-button__primary: 5px;
+	--sd-button__primary: none;
+	--co-button__primary: #dfeaf9;
+}
+
+:root {
+	--bc-button__warning--hover: #f3d12c;
+	--bt-button__warning--hover: none;
+	--br-button__warning--hover: none;
+	--bb-button__warning--hover: none;
+	--bl-button__warning--hover: none;
+	--sd-button__warning--hover: none;
+	--co-button__warning--hover: #2c2504;
+}
+
+:root {
+	--bc-button__warning: #f3d12c;
+	--bt-button__warning: none;
+	--br-button__warning: none;
+	--bb-button__warning: none;
+	--bl-button__warning: none;
+	--bd-button__warning: 5px;
+	--sd-button__warning: none;
+	--co-button__warning: #2c2504;
+}
+
+:root {
+	--bt-button--default: none;
+	--br-button--default: none;
+	--bb-button--default: none;
+	--bl-button--default: none;
+	--bd-button--default: 5px;
+	--fs-button--default: ;
+}
+
+:root {
+	--bc-button--hover: transparent;
+	--sd-button--hover: none;
+	--co-button--hover: #a5a7ab;
+}
+
+:root {
+	--bc-button: transparent;
+	--sd-button: none;
+	--co-button: #a5a7ab;
+	--ff-button: ;
+}
+
+:root {
+	--co-callout__icon: ;
+}
+
+:root {
+	--bc-callout__primary: ;
+	--bt-callout__primary: ;
+	--br-callout__primary: ;
+	--bb-callout__primary: ;
+	--bl-callout__primary: ;
+	--bd-callout__primary: ;
+	--fs-callout__primary: ;
+}
+
+:root {
+	--bc-card: #1c1c1c;
+	--bt-card: 1px solid #161616;
+	--br-card: 1px solid #161616;
+	--bb-card: 1px solid #161616;
+	--bl-card: 1px solid #161616;
+	--bd-card: 5px;
+	--sd-card: 3px 3px 11px 3px rgba(0,0,0,0.1);
+}
+
+:root {
+	--co-caret: #999;
+}
+
+:root {
+	--bt-checkmark__mark--checked: 0px;
+	--br-checkmark__mark--checked: 2px solid #fff;
+	--bb-checkmark__mark--checked: 2px solid #fff;
+	--bl-checkmark__mark--checked: 0px;
+}
+
+:root {
+	--bc-checkmark--checked: #666;
+	--bt-checkmark--checked: none;
+	--br-checkmark--checked: none;
+	--bb-checkmark--checked: none;
+	--bl-checkmark--checked: none;
+	--sd-checkmark--checked: none;
+}
+
+:root {
+	--bc-checkmark: ;
+	--bt-checkmark: 1px solid #6e6e6e;
+	--br-checkmark: 1px solid #6e6e6e;
+	--bb-checkmark: 1px solid #6e6e6e;
+	--bl-checkmark: 1px solid #6e6e6e;
+	--bd-checkmark: 3px;
+}
+
+:root {
+	--bc-code: #222222;
+	--bt-code: 1px solid #151515;
+	--br-code: 1px solid #151515;
+	--bb-code: 1px solid #151515;
+	--bl-code: 1px solid #151515;
+	--bd-code: 5px;
+	--co-code: #f5f5f7;
+	--ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;;
+	--fs-code: 0.95rem;
+}
+
+:root {
+	--bc-codeblock__activeline--focused: ;
+}
+
+:root {
+	--bc-codeblock__activeline: ;
+}
+
+:root {
+	--co-codeblock__atom: rgb(102,212,207);
+}
+
+:root {
+	--co-codeblock__attribute: rgb(10,132,255);
+}
+
+:root {
+	--co-codeblock__bracket: rgb(152,152,157);
+}
+
+:root {
+	--co-codeblock__builtin: rgb(102,212,207);
+}
+
+:root {
+	--bc-codeblock__button--hover: ;
+	--bt-codeblock__button--hover: ;
+	--br-codeblock__button--hover: ;
+	--bb-codeblock__button--hover: ;
+	--bl-codeblock__button--hover: ;
+	--sd-codeblock__button--hover: ;
+	--co-codeblock__button--hover: #a5a7ab;
+}
+
+:root {
+	--bc-codeblock__button: ;
+	--bt-codeblock__button: ;
+	--br-codeblock__button: ;
+	--bb-codeblock__button: ;
+	--bl-codeblock__button: ;
+	--bd-codeblock__button: ;
+	--sd-codeblock__button: ;
+	--co-codeblock__button: #a5a7ab;
+	--fs-codeblock__button: ;
+}
+
+:root {
+	--fl-codeblock__caret: ;
+}
+
+:root {
+	--co-codeblock__code: ;
+	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+	--fs-codeblock__code: 1rem;
+}
+
+:root {
+	--co-codeblock__comment: rgb(255,214,10);
+}
+
+:root {
+	--bc-codeblock__container: #222222;
+	--bt-codeblock__container: ;
+	--br-codeblock__container: none;
+	--bb-codeblock__container: ;
+	--bl-codeblock__container: ;
+	--bd-codeblock__container: 5px;
+	--co-codeblock__container: rgb(152,152,157);
+}
+
+:root {
+	--br-codeblock__cursor: 2px solid #5c9df5;
+	--bl-codeblock__cursor: ;
+}
+
+:root {
+	--co-codeblock__def: rgb(10,132,255);
+}
+
+:root {
+	--co-codeblock__error: rgb(255,69,58);
+}
+
+:root {
+	--ff-codeblock__gutter: ;
+	--fs-codeblock__gutter: ;
+	--ft-codeblock__gutter: ;
+	--fw-codeblock__gutter: ;
+}
+
+:root {
+	--bc-codeblock__gutters: #222222;
+	--bt-codeblock__gutters: ;
+	--br-codeblock__gutters: none;
+	--bb-codeblock__gutters: ;
+	--bl-codeblock__gutters: ;
+	--bd-codeblock__gutters: 5px;
+}
+
+:root {
+	--co-codeblock__hr: rgb(142,142,147);
+}
+
+:root {
+	--co-codeblock__invalidchar: rgb(255,59,48);
+}
+
+:root {
+	--co-codeblock__keyword: rgb(191,90,242);
+}
+
+:root {
+	--co-codeblock__link: rgb(90,200,245);
+}
+
+:root {
+	--co-codeblock__matchingbracket: rgb(50,215,75);
+}
+
+:root {
+	--co-codeblock__meta: rgb(142,142,147);
+}
+
+:root {
+	--co-codeblock__nonmatchingbracket: rgb(255,59,48);
+}
+
+:root {
+	--co-codeblock__number: rgb(50,215,75);
+}
+
+:root {
+	--co-codeblock__operator: ;
+}
+
+:root {
+	--co-codeblock__qualifier: rgb(142,142,147);
+}
+
+:root {
+	--bc-codeblock__searching: ;
+}
+
+:root {
+	--bc-codeblock__selected--focused: #2260ae;
+}
+
+:root {
+	--bc-codeblock__selected: #585958;
+}
+
+:root {
+	--co-codeblock__string: rgb(255,59,48);
+}
+
+:root {
+	--co-codeblock__string-2: rgb(255,214,10);
+}
+
+:root {
+	--co-codeblock__tag: rgb(50,215,75);
+}
+
+:root {
+	--co-codeblock__type: rgb(50,215,75);
+}
+
+:root {
+	--co-codeblock__variable-2: rgb(90,200,245);
+}
+
+:root {
+	--bc-control--checked: #0058d0;
+}
+
+:root {
+	--bc-control--hover: #6d6e6d;
+}
+
+:root {
+	--bc-control--hover-checked: #0058d0;
+	--sd-control--hover-checked: ;
+}
+
+:root {
+	--bc-control: #6d6e6d;
+}
+
+:root {
+	--bc-datepicker__day--hover: #0058d0;
+	--bd-datepicker__day--hover: 2px;
+	--co-datepicker__day--hover: #f5f5f7;
+}
+
+:root {
+	--bc-datepicker__nav-button--hover: #0058d0;
+	--bt-datepicker__nav-button--hover: none;
+	--br-datepicker__nav-button--hover: none;
+	--bb-datepicker__nav-button--hover: none;
+	--bl-datepicker__nav-button--hover: none;
+	--bd-datepicker__nav-button--hover: 2px;
+}
+
+:root {
+	--co-datepicker__nav-button--hover: #f5f5f7;
+}
+
+:root {
+	--bc-datepicker__nav-button: transparent;
+	--bt-datepicker__nav-button: none;
+	--br-datepicker__nav-button: none;
+	--bb-datepicker__nav-button: none;
+	--bl-datepicker__nav-button: none;
+	--bd-datepicker__nav-button: 2px;
+}
+
+:root {
+	--co-datepicker__nav-button: #f5f5f7;
+}
+
+:root {
+	--bc-datepicker__outside--hover: transparent;
+}
+
+:root {
+	--bc-datepicker__select--hover: #0058d0;
+	--co-datepicker__select--hover: #f5f5f7;
+}
+
+:root {
+	--co-datepicker__select: #f5f5f7;
+}
+
+:root {
+	--co-datepicker__select-icon--hover: ;
+}
+
+:root {
+	--co-datepicker__select-icon: #f5f5f7;
+}
+
+:root {
+	--bc-datepicker__today: transparent;
+	--bt-datepicker__today: none;
+	--br-datepicker__today: none;
+	--bb-datepicker__today: none;
+	--bl-datepicker__today: none;
+	--co-datepicker__today: #f5f5f7;
+	--fw-datepicker__today: bold;
+}
+
+:root {
+	--co-datepicker__weekdays: #939393;
+}
+
+:root {
+	--br-datepicker__weeknumber: 1px solid #404040;
+	--co-datepicker__weeknumber: #939393;
+	--ff-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-datepicker__weeknumber: 1rem;
+}
+
+:root {
+	--bc-datepicker: transparent;
+	--bt-datepicker: none;
+	--br-datepicker: none;
+	--bb-datepicker: none;
+	--bl-datepicker: none;
+	--bd-datepicker: 5px;
+	--co-datepicker: #f5f5f7;
+	--ff-datepicker: ;
+}
+
+:root {
+	--bc-dialog__cancel-button--hover: #5e5e5e;
+	--bt-dialog__cancel-button--hover: 1px solid #707171;
+	--br-dialog__cancel-button--hover: 1px solid #707171;
+	--bb-dialog__cancel-button--hover: 1px solid #707171;
+	--bl-dialog__cancel-button--hover: 1px solid #707171;
+	--sd-dialog__cancel-button--hover: ;
+	--co-dialog__cancel-button--hover: #e6e7e7;
+}
+
+:root {
+	--bc-dialog__cancel-button: #5e5e5e;
+	--bt-dialog__cancel-button: 1px solid #707171;
+	--br-dialog__cancel-button: 1px solid #707171;
+	--bb-dialog__cancel-button: 1px solid #707171;
+	--bl-dialog__cancel-button: 1px solid #707171;
+	--bd-dialog__cancel-button: 5px;
+	--sd-dialog__cancel-button: ;
+	--co-dialog__cancel-button: #e6e7e7;
+}
+
+:root {
+	--co-dialog__heading: #f5f5f7;
+	--fs-dialog__heading: ;
+	--fw-dialog__heading: ;
+}
+
+:root {
+	--co-dialog__span: #999999;
+}
+
+:root {
+	--bc-dialog__upload-button--hover: ;
+	--bt-dialog__upload-button--hover: ;
+	--br-dialog__upload-button--hover: ;
+	--bb-dialog__upload-button--hover: ;
+	--bl-dialog__upload-button--hover: ;
+	--bd-dialog__upload-button--hover: ;
+	--sd-dialog__upload-button--hover: ;
+	--co-dialog__upload-button--hover: ;
+}
+
+:root {
+	--bc-dialog__upload-button: #1574d8;
+	--bt-dialog__upload-button: none;
+	--br-dialog__upload-button: none;
+	--bb-dialog__upload-button: none;
+	--bl-dialog__upload-button: none;
+	--bd-dialog__upload-button: 5px;
+	--sd-dialog__upload-button: none;
+	--co-dialog__upload-button: #ffffff;
+}
+
+:root {
+	--bc-dialog__upload-input: #404040;
+	--bt-dialog__upload-input: none;
+	--br-dialog__upload-input: none;
+	--bb-dialog__upload-input: none;
+	--bl-dialog__upload-input: none;
+	--bd-dialog__upload-input: 5px;
+	--sd-dialog__upload-input: none;
+	--co-dialog__upload-input: #f5f5f7;
+}
+
+:root {
+	--bc-dialog__confirmation: ;
+}
+
+:root {
+	--ff-div: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-div: 13px;
+}
+
+:root {
+	--bc-dropbar: var(--cl-gray-500);
+}
+
+:root {
+	--bc-elevation__container: #1f1f1f;
+	--bt-elevation__container: 1px solid #585858;
+	--br-elevation__container: 1px solid #585858;
+	--bb-elevation__container: 1px solid #585858;
+	--bl-elevation__container: 1px solid #585858;
+	--bd-elevation__container: 5px;
+	--sd-elevation__container: 3px 3px 11px 3px rgba(0,0,0,0.1);
+}
+
+:root {
+	--co-elevation__create-block--selected: #f5f5f7;
+}
+
+:root {
+	--co-elevation__create-block: #939393;
+}
+
+:root {
+	--bc-elevation__item--selected: #0058d0;
+	--bt-elevation__item--selected: none;
+	--br-elevation__item--selected: none;
+	--bb-elevation__item--selected: none;
+	--bl-elevation__item--selected: none;
+	--bd-elevation__item--selected: 5px;
+	--co-elevation__item--selected: #ffffff;
+}
+
+:root {
+	--bt-elevation__item: none;
+	--br-elevation__item: none;
+	--bb-elevation__item: none;
+	--bl-elevation__item: none;
+	--co-elevation__item: #f5f5f7;
+	--ff-elevation__item: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+}
+
+:root {
+	--co-elevation__item-icon--selected: #ffffff;
+}
+
+:root {
+	--co-elevation__item-icon: #939393;
+}
+
+:root {
+	--co-elevation__item-keyprompt--selected: #ffffff;
+}
+
+:root {
+	--co-elevation__item-keyprompt: #939393;
+	--fs-elevation__item-keyprompt: 0.8rem;
+	--op-elevation__item-keyprompt: 1;
+}
+
+:root {
+	--co-elevation__search-block: #939393;
+}
+
+:root {
+	--bc-embed__container-10: #6e6e73;
+	--bt-embed__container-10: none;
+	--br-embed__container-10: none;
+	--bb-embed__container-10: none;
+	--bl-embed__container-10: none;
+	--bd-embed__container-10: 5px;
+}
+
+:root {
+	--bc-embed__container-11: #1d1d1f;
+	--bt-embed__container-11: none;
+	--br-embed__container-11: none;
+	--bb-embed__container-11: none;
+	--bl-embed__container-11: none;
+	--bd-embed__container-11: 5px;
+}
+
+:root {
+	--bc-embed__container-2: #222222;
+	--bt-embed__container-2: none;
+	--br-embed__container-2: none;
+	--bb-embed__container-2: none;
+	--bl-embed__container-2: none;
+	--bd-embed__container-2: 5px;
+}
+
+:root {
+	--bc-embed__container-3: #515154;
+	--bt-embed__container-3: none;
+	--br-embed__container-3: none;
+	--bb-embed__container-3: none;
+	--bl-embed__container-3: none;
+	--bd-embed__container-3: 5px;
+}
+
+:root {
+	--bc-embed__container-4: #555555;
+	--bt-embed__container-4: none;
+	--br-embed__container-4: none;
+	--bb-embed__container-4: none;
+	--bl-embed__container-4: none;
+	--bd-embed__container-4: 5px;
+}
+
+:root {
+	--bc-embed__container-5: #6e6e73;
+	--bt-embed__container-5: none;
+	--br-embed__container-5: none;
+	--bb-embed__container-5: none;
+	--bl-embed__container-5: none;
+	--bd-embed__container-5: 5px;
+}
+
+:root {
+	--bc-embed__container-6: #1d1d1f;
+	--bt-embed__container-6: none;
+	--br-embed__container-6: none;
+	--bb-embed__container-6: none;
+	--bl-embed__container-6: none;
+	--bd-embed__container-6: 5px;
+}
+
+:root {
+	--bc-embed__container-7: #222222;
+	--bt-embed__container-7: none;
+	--br-embed__container-7: none;
+	--bb-embed__container-7: none;
+	--bl-embed__container-7: none;
+	--bd-embed__container-7: 5px;
+}
+
+:root {
+	--bc-embed__container-8: #515154;
+	--bt-embed__container-8: none;
+	--br-embed__container-8: none;
+	--bb-embed__container-8: none;
+	--bl-embed__container-8: none;
+	--bd-embed__container-8: 5px;
+}
+
+:root {
+	--bc-embed__container-9: #555555;
+	--bt-embed__container-9: none;
+	--br-embed__container-9: none;
+	--bb-embed__container-9: none;
+	--bl-embed__container-9: none;
+	--bd-embed__container-9: 5px;
+}
+
+:root {
+	--bc-embed: #1d1d1f;
+	--bt-embed: none;
+	--br-embed: none;
+	--bb-embed: none;
+	--bl-embed: none;
+	--bd-embed: 5px;
+}
+
+:root {
+	--bc-embed-page__margin: #262626;
+	--bl-embed-page__margin: 1px solid #939393;
+}
+
+:root {
+	--bt-embed-page__reference-main: 1px solid #747474;
+}
+
+:root {
+	--co-embed-page__title--hover: ;
+	--fs-embed-page__title--hover: ;
+	--td-embed-page__title--hover: ;
+}
+
+:root {
+	--co-embed-page__title: ;
+	--fs-embed-page__title: 1rem;
+}
+
+:root {
+	--bc-embed-page: #393939;
+	--bt-embed-page: none;
+	--br-embed-page: none;
+	--bb-embed-page: none;
+	--bl-embed-page: none;
+	--bd-embed-page: 5px;
+}
+
+:root {
+	--bc-emoji-mart__category-label: #333333;
+}
+
+:root {
+	--bc-emoji-mart: transparent;
+	--bt-emoji-mart: none;
+	--br-emoji-mart: none;
+	--bb-emoji-mart: none;
+	--bl-emoji-mart: none;
+	--bd-emoji-mart: 0px;
+	--co-emoji-mart: #e7e8e7;
+	--ff-emoji-mart: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-emoji-mart: 1rem;
+}
+
+:root {
+	--bc-encrypted__button: #5e5e5e;
+	--bt-encrypted__button: 1px solid #707171;
+	--br-encrypted__button: 1px solid #707171;
+	--bb-encrypted__button: 1px solid #707171;
+	--bl-encrypted__button: 1px solid #707171;
+	--co-encrypted__button: #e6e7e7;
+}
+
+:root {
+	--bc-encrypted__button: #5e5e5e;
+	--bt-encrypted__button: 1px solid #707171;
+	--br-encrypted__button: 1px solid #707171;
+	--bb-encrypted__button: 1px solid #707171;
+	--bl-encrypted__button: 1px solid #707171;
+	--bd-encrypted__button: 5px;
+	--co-encrypted__button: #e6e7e7;
+	--fs-encrypted__button: 1rem;
+}
+
+:root {
+	--bc-encrypted__form: ;
+	--bt-encrypted__form: ;
+	--br-encrypted__form: ;
+	--bb-encrypted__form: ;
+	--bl-encrypted__form: ;
+	--bd-encrypted__form: ;
+}
+
+:root {
+	--bc-encrypted__input--focus: transparent;
+	--bt-encrypted__input--focus: none;
+	--br-encrypted__input--focus: none;
+	--bb-encrypted__input--focus: none;
+	--bl-encrypted__input--focus: none;
+}
+
+:root {
+	--bc-encrypted__input: transparent;
+	--bt-encrypted__input: none;
+	--br-encrypted__input: none;
+	--bb-encrypted__input: 1px solid #333333;
+	--bl-encrypted__input: none;
+	--bd-encrypted__input: 5px;
+	--co-encrypted__input: #ebebeb;
+	--fs-encrypted__input: 1rem;
+}
+
+:root {
+	--co-encrypted__label: ;
+	--fs-encrypted__label: 1rem;
+	--fw-encrypted__label: 500;
+}
+
+:root {
+	--bc-encrypted: ;
+	--bt-encrypted: ;
+	--br-encrypted: ;
+	--bb-encrypted: ;
+	--bl-encrypted: ;
+	--bd-encrypted: ;
+	--co-encrypted: ;
+	--fs-encrypted: 1rem;
+	--fw-encrypted: 400;
+}
+
+:root {
+	--bc-find-or-create__menu-item--selected: #0058d0;
+	--bt-find-or-create__menu-item--selected: none;
+	--br-find-or-create__menu-item--selected: none;
+	--bb-find-or-create__menu-item--selected: none;
+	--bl-find-or-create__menu-item--selected: none;
+	--bd-find-or-create__menu-item--selected: 3px;
+}
+
+:root {
+	--co-find-or-create__menu-item--selected: #f5f5f7;
+}
+
+:root {
+	--bt-find-or-create__menu-item: none;
+	--br-find-or-create__menu-item: none;
+	--bb-find-or-create__menu-item: none;
+	--bl-find-or-create__menu-item: none;
+	--co-find-or-create__menu-item: ;
+}
+
+:root {
+	--co-find-or-create__new-page--selected: #f5f5f7;
+}
+
+:root {
+	--co-find-or-create__new-page: #67acfe;
+}
+
+:root {
+	--co-find-or-create__recent: #939393;
+}
+
+:root {
+	--co-find-or-create__search-list-item: #e7e7e7;
+}
+
+:root {
+	--co-find-or-create__search-list-item-title: #e7e7e7;
+	--fs-find-or-create__search-list-item-title: 1rem;
+}
+
+:root {
+	--bc-find-or-create__wrapper-large: ;
+	--bt-find-or-create__wrapper-large: ;
+	--br-find-or-create__wrapper-large: ;
+	--bb-find-or-create__wrapper-large: ;
+	--bl-find-or-create__wrapper-large: ;
+	--bd-find-or-create__wrapper-large: ;
+	--sd-find-or-create__wrapper-large: ;
+}
+
+:root {
+	--co-graph-dropdown__a--hover: #f5f5f7;
+	--td-graph-dropdown__a--hover: ;
+}
+
+:root {
+	--co-graph-dropdown__a: #f5f5f7;
+	--td-graph-dropdown__a: none;
+}
+
+:root {
+	--co-graph-dropdown__expand-icon--hover: #dfeaf9;
+}
+
+:root {
+	--co-graph-dropdown__expand-icon: #dfeaf9;
+}
+
+:root {
+	--co-graph-dropdown__menu-item: #f5f5f7;
+	--td-graph-dropdown__menu-item: none;
+}
+
+:root {
+	--co-graph-dropdown__menu-title: #6d6d6d;
+	--fs-graph-dropdown__menu-title: 12px;
+	--ft-graph-dropdown__menu-title: normal;
+	--fw-graph-dropdown__menu-title: normal;
+	--tt-graph-dropdown__menu-title: uppercase;
+}
+
+:root {
+	--bc-graph-dropdown__setting--hover: #0058d0;
+}
+
+:root {
+	--co-graph-dropdown__setting--hover: #f5f5f7;
+}
+
+:root {
+	--bc-graph-dropdown__setting: transparent;
+	--co-graph-dropdown__setting: #f5f5f7;
+	--fs-graph-dropdown__setting: ;
+}
+
+:root {
+	--co-graph-dropdown__setting-icon--hover: #ebebeb;
+	--td-graph-dropdown__setting-icon--hover: none;
+}
+
+:root {
+	--co-graph-dropdown__setting-icon: ;
+}
+
+:root {
+	--fs-graph-dropdown__sign-out: ;
+	--fw-graph-dropdown__sign-out: ;
+	--op-graph-dropdown__sign-out: ;
+}
+
+:root {
+	--sd-graph-dropdown: 0px 0px 15px 0px rgba(0,0,0,0.2);
+	--fs-graph-dropdown: ;
+	--fw-graph-dropdown: ;
+	--op-graph-dropdown: ;
+}
+
+:root {
+	--bc-help__categories--hover: #0058d0;
+	--bd-help__categories--hover: 5px;
+	--co-help__categories--hover: #f5f5f7;
+}
+
+:root {
+	--bc-help__categories--selected: #0058d0;
+	--bd-help__categories--selected: 5px;
+	--co-help__categories--selected: ;
+}
+
+:root {
+	--co-help__categories: #939393;
+	--fw-help__categories: ;
+}
+
+:root {
+	--co-help__category-name: #939393;
+	--fs-help__category-name: 1rem;
+	--ft-help__category-name: normal;
+	--fw-help__category-name: normal;
+	--tt-help__category-name: uppercase;
+}
+
+:root {
+	--co-help__component-description: #6d6e6d;
+}
+
+:root {
+	--bc-help__component-notation: #1c1c1c;
+	--co-help__component-notation: #ebebeb;
+	--ff-help__component-notation: ;
+	--fs-help__component-notation: 1rem;
+}
+
+:root {
+	--co-help__component-title: #ebebeb;
+	--fs-help__component-title: ;
+	--fw-help__component-title: ;
+}
+
+:root {
+	--co-help__function-name: #ebebeb;
+	--fs-help__function-name: 1rem;
+	--fw-help__function-name: 500;
+}
+
+:root {
+	--co-help__help-version: #6d6e6d;
+	--fs-help__help-version: 12px;
+	--fw-help__help-version: normal;
+}
+
+:root {
+	--bc-help__icon-container: transparent;
+	--bt-help__icon-container: none;
+	--br-help__icon-container: none;
+	--bb-help__icon-container: none;
+	--bl-help__icon-container: none;
+}
+
+:root {
+	--bc-help__input--focus: transparent;
+	--bt-help__input--focus: none;
+	--br-help__input--focus: none;
+	--bb-help__input--focus: none;
+	--bl-help__input--focus: none;
+	--bd-help__input--focus: 5px;
+}
+
+:root {
+	--bc-help__input: transparent;
+	--bt-help__input: none;
+	--br-help__input: none;
+	--bb-help__input: none;
+	--bl-help__input: none;
+	--bd-help__input: 5px;
+}
+
+:root {
+	--co-help__markdown-md: #939393;
+	--fs-help__markdown-md: 12px;
+	--fw-help__markdown-md: normal;
+	--op-help__markdown-md: 1;
+}
+
+:root {
+	--co-help__markdown-title: #ebebeb;
+	--fs-help__markdown-title: 1rem;
+	--fw-help__markdown-title: 500;
+}
+
+:root {
+	--bc-help__resource--hover: transparent;
+}
+
+:root {
+	--co-help__resource-description: #939393;
+	--fs-help__resource-description: 1rem;
+	--fw-help__resource-description: normal;
+}
+
+:root {
+	--bc-help__resource-icon: transparent;
+	--co-help__resource-icon: #939393;
+}
+
+:root {
+	--co-help__resource-title: #ebebeb;
+	--fs-help__resource-title: 1rem;
+	--fw-help__resource-title: bold;
+}
+
+:root {
+	--co-help__title: #ebebeb;
+	--fs-help__title: 16px;
+	--fw-help__title: ;
+}
+
+:root {
+	--bc-highlight: #4f482b;
+	--co-highlight: ;
+}
+
+:root {
+	--bt-hr: 1px solid #464646;
+	--br-hr: none;
+	--bb-hr: none;
+	--bl-hr: none;
+}
+
+:root {
+	--bc-html__select--disabled: transparent;
+	--sd-html__select--disabled: ;
+	--co-html__select--disabled: #666666;
+}
+
+:root {
+	--bc-html__select--hover: #0058d0;
+	--sd-html__select--hover: none;
+	--co-html__select--hover: #f5f5f7;
+	--td-html__select--hover: ;
+}
+
+:root {
+	--bc-html__select: transparent;
+	--sd-html__select: none;
+	--co-html__select: #f5f5f7;
+	--ff-html__select: ;
+	--fs-html__select: ;
+}
+
+:root {
+	--co-html__select-icon: #f5f5f7;
+}
+
+:root {
+	--bc-inline-references: #222222;
+}
+
+:root {
+	--bd-input__search: 0px;
+}
+
+:root {
+	--co-input__search-icon: #a8a8a9;
+}
+
+:root {
+	--co-input__search-placeholder: #a8a8a9;
+	--ff-input__search-placeholder: ;
+}
+
+:root {
+	--bc-input--focus: transparent;
+	--bt-input--focus: none;
+	--br-input--focus: none;
+	--bb-input--focus: none;
+	--bl-input--focus: none;
+	--bd-input--focus: 5px;
+	--sd-input--focus: none;
+}
+
+:root {
+	--bc-input: transparent;
+	--bt-input: none;
+	--br-input: none;
+	--bb-input: none;
+	--bl-input: none;
+	--bd-input: 5px;
+	--sd-input: none;
+	--co-input: #ebebeb;
+	--ff-input: ;
+	--fs-input: 1rem;
+	--fw-input: normal;
+}
+
+:root {
+	--bc-install-button--hover: #266bbd;
+	--bt-install-button--hover: none;
+	--br-install-button--hover: none;
+	--bb-install-button--hover: none;
+	--bl-install-button--hover: none;
+	--bd-install-button--hover: 3px;
+	--co-install-button--hover: #e7e7e7;
+}
+
+:root {
+	--bc-install-button: #515151;
+	--bt-install-button: none;
+	--br-install-button: none;
+	--bb-install-button: none;
+	--bl-install-button: none;
+	--bd-install-button: 3px;
+	--co-install-button: #e7e7e7;
+}
+
+:root {
+	--bc-kanban__card: #141414;
+	--bt-kanban__card: none;
+	--br-kanban__card: none;
+	--bb-kanban__card: none;
+	--bl-kanban__card: none;
+	--bd-kanban__card: 5px;
+}
+
+:root {
+	--bc-kanban__column: #262626;
+}
+
+:root {
+	--bc-kanban__dropbar: #286bbd;
+}
+
+:root {
+	--bb-kanban__title: 1px solid #141414;
+	--fw-kanban__title: ;
+}
+
+:root {
+	--bc-kanban: #141414;
+}
+
+:root {
+	--bc-left-sidebar__container: #141414;
+	--br-left-sidebar__container: 4px solid #000;
+}
+
+:root {
+	--co-left-sidebar__db-title--hover: #f5f5f7;
+}
+
+:root {
+	--co-left-sidebar__db-title: #f5f5f7;
+	--ff-left-sidebar__db-title: ;
+	--fs-left-sidebar__db-title: 14px;
+	--fw-left-sidebar__db-title: 400;
+	--tt-left-sidebar__db-title: ;
+}
+
+:root {
+	--bc-left-sidebar__hr: #141414;
+}
+
+:root {
+	--co-left-sidebar__icon--hover: ;
+}
+
+:root {
+	--co-left-sidebar__icon: #f5f5f7;
+	--fs-left-sidebar__icon: 14px;
+}
+
+:root {
+	--bc-left-sidebar__logo--hover: transparent;
+	--td-left-sidebar__logo--hover: none;
+}
+
+:root {
+	--td-left-sidebar__logo: none;
+}
+
+:root {
+	--co-left-sidebar__logo-text: #f5f5f7;
+}
+
+:root {
+	--bc-left-sidebar__toprow--hover: #000;
+}
+
+:root {
+	--bc-left-sidebar__toprow: #000;
+}
+
+:root {
+	--bb-level1: none;
+	--co-level1: #f5f5f7;
+	--ff-level1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level1: 22px;
+	--ft-level1: ;
+	--fw-level1: 600;
+	--tt-level1: normal;
+}
+
+:root {
+	--bb-level2: none;
+	--co-level2: #f5f5f7;
+	--ff-level2: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level2: 17px;
+	--ft-level2: ;
+	--fw-level2: 600;
+	--tt-level2: normal;
+}
+
+:root {
+	--bb-level3: none;
+	--co-level3: #f5f5f7;
+	--ff-level3: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-level3: 15px;
+	--ft-level3: ;
+	--fw-level3: 600;
+	--tt-level3: normal;
+}
+
+:root {
+	--co-log-page__h1: #737473;
+	--ff-log-page__h1: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-log-page__h1: 22px;
+	--ft-log-page__h1: ;
+	--fw-log-page__h1: 600;
+	--tt-log-page__h1: ;
+}
+
+:root {
+	--co-log-page__preview: #737473;
+}
+
+:root {
+	--bt-log-page: 1px solid #222222;
+}
+
+:root {
+	--bc-logbutton--hover: transparent;
+	--bt-logbutton--hover: none;
+	--br-logbutton--hover: none;
+	--bb-logbutton--hover: none;
+	--bl-logbutton--hover: none;
+	--co-logbutton--hover: #f5f5f7;
+	--td-logbutton--hover: ;
+}
+
+:root {
+	--bd-logbutton: ;
+	--co-logbutton: #f5f5f7;
+	--ff-logbutton: ;
+	--fs-logbutton: 1rem;
+	--fw-logbutton: 600;
+	--tt-logbutton: normal;
+}
+
+:root {
+	--bt-main__image: ;
+	--br-main__image: ;
+	--bb-main__image: ;
+	--bl-main__image: ;
+	--bd-main__image: ;
+}
+
+:root {
+	--co-main__namespace: #65a6f5;
+}
+
+:root {
+	--co-main__strikethrough: ;
+}
+
+:root {
+	--bc-main: #141414;
+}
+
+:root {
+	--co-main: #f5f5f7;
+	--ff-main: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-main: 1rem;
+	--fw-main: normal;
+}
+
+:root {
+	--bc-menu__button--active: #434343;
+	--bt-menu__button--active: 1px solid #434343;
+	--br-menu__button--active: 1px solid #434343;
+	--bb-menu__button--active: 1px solid #434343;
+	--bl-menu__button--active: 1px solid #434343;
+	--bd-menu__button--active: 3px;
+	--co-menu__button--active: #a1a1a1;
+}
+
+:root {
+	--bc-menu__button--hover: transparent;
+	--bt-menu__button--hover: 1px solid #676767;
+	--br-menu__button--hover: 1px solid #676767;
+	--bb-menu__button--hover: 1px solid #676767;
+	--bl-menu__button--hover: 1px solid #676767;
+	--bd-menu__button--hover: 3px;
+	--co-menu__button--hover: #b7b8b7;
+}
+
+:root {
+	--bc-menu__button: transparent;
+	--bt-menu__button: 1px solid transparent;
+	--br-menu__button: 1px solid transparent;
+	--bb-menu__button: 1px solid transparent;
+	--bl-menu__button: 1px solid transparent;
+	--bd-menu__button: 3px;
+	--co-menu__button: #525151;
+}
+
+:root {
+	--bc-menu__button-active--hover: ;
+	--bt-menu__button-active--hover: ;
+	--br-menu__button-active--hover: ;
+	--bb-menu__button-active--hover: ;
+	--bl-menu__button-active--hover: ;
+	--bd-menu__button-active--hover: ;
+	--co-menu__button-active--hover: ;
+}
+
+:root {
+	--co-menu__button-icon--active: #b7b8b7;
+}
+
+:root {
+	--co-menu__button-icon--hover: #b7b8b7;
+}
+
+:root {
+	--co-menu__button-icon: #525151;
+}
+
+:root {
+	--bc-menu__item--hover: #0058d0;
+	--bt-menu__item--hover: none;
+	--br-menu__item--hover: none;
+	--bb-menu__item--hover: none;
+	--bl-menu__item--hover: none;
+	--bd-menu__item--hover: 5px;
+	--co-menu__item--hover: #eeeeee;
+}
+
+:root {
+	--bt-menu__item: none;
+	--br-menu__item: none;
+	--bb-menu__item: none;
+	--bl-menu__item: none;
+	--bd-menu__item: 5px;
+	--co-menu__item: #eeeeee;
+	--fs-menu__item: ;
+	--fw-menu__item: ;
+}
+
+:root {
+	--co-menu__item-icon--hover: #eeeeee;
+}
+
+:root {
+	--co-menu__item-icon: #eeeeee;
+}
+
+:root {
+	--co-menu__item-label--hover: #eeeeee;
+}
+
+:root {
+	--co-menu__item-label: #eeeeee;
+	--fs-menu__item-label: ;
+	--td-menu__item-label: none;
+}
+
+:root {
+	--co-menu__item-primary: #eeeeee;
+}
+
+:root {
+	--bc-menu__menu-item--active: #0058d0;
+	--co-menu__menu-item--active: #eeeeee;
+}
+
+:root {
+	--fl-menu__svg-icon--hover: #eeeeee;
+}
+
+:root {
+	--fl-menu__svg-icon: #eeeeee;
+}
+
+:root {
+	--bc-menu: #333333;
+	--bt-menu: none;
+	--br-menu: none;
+	--bb-menu: none;
+	--bl-menu: none;
+	--bd-menu: 5px;
+	--co-menu: #eeeeee;
+}
+
+:root {
+	--co-mobile-bar__icon: #eeeeee;
+}
+
+:root {
+	--bc-mobile-bar: #1c1c1c;
+}
+
+:root {
+	--bc-modal-dialog: #282828;
+	--bt-modal-dialog: 1px solid #535353;
+	--br-modal-dialog: 1px solid #535353;
+	--bb-modal-dialog: 1px solid #535353;
+	--bl-modal-dialog: 1px solid #535353;
+	--bd-modal-dialog: 5px;
+}
+
+:root {
+	--br-multibar--hover: 3px solid #666;
+}
+
+:root {
+	--br-multibar: 1px solid #333;
+}
+
+:root {
+	--bb-page__link--hover: ;
+	--co-page__link--hover: #65a6f5;
+	--td-page__link--hover: none;
+}
+
+:root {
+	--bb-page__link: ;
+	--co-page__link: #65a6f5;
+	--td-page__link: none;
+}
+
+:root {
+	--co-page__title: #e5e5e5;
+	--ff-page__title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-page__title: 26px;
+	--ft-page__title: ;
+	--fw-page__title: 600;
+	--tt-page__title: ;
+}
+
+:root {
+	--bc-pomodoro--break: #2f7055;
+	--bt-pomodoro--break: none;
+	--br-pomodoro--break: none;
+	--bb-pomodoro--break: none;
+	--bl-pomodoro--break: none;
+	--bd-pomodoro--break: 5px;
+	--sd-pomodoro--break: none;
+	--co-pomodoro--break: #262626;
+}
+
+:root {
+	--bc-pomodoro--running: #cf3350;
+	--bt-pomodoro--running: none;
+	--br-pomodoro--running: none;
+	--bb-pomodoro--running: none;
+	--bl-pomodoro--running: none;
+	--bd-pomodoro--running: 5px;
+	--sd-pomodoro--running: none;
+	--co-pomodoro--running: #262626;
+}
+
+:root {
+	--bc-pomodoro: #848484;
+	--bt-pomodoro: none;
+	--br-pomodoro: none;
+	--bb-pomodoro: none;
+	--bl-pomodoro: none;
+	--bd-pomodoro: 5px;
+	--sd-pomodoro: none;
+	--co-pomodoro: #262626;
+}
+
+:root {
+	--fl-popover__arrow-border: none;
+}
+
+:root {
+	--fl-popover__arrow-fill: none;
+}
+
+:root {
+	--sd-popover__arrow-shadow: ;
+}
+
+:root {
+	--bc-popover__button--hover: transparent;
+	--bt-popover__button--hover: 1px solid #939393;
+	--br-popover__button--hover: 1px solid #939393;
+	--bb-popover__button--hover: 1px solid #939393;
+	--bl-popover__button--hover: 1px solid #939393;
+	--co-popover__button--hover: #8b8c8c;
+}
+
+:root {
+	--bc-popover__button: transparent;
+	--bt-popover__button: 1px solid transparent;
+	--br-popover__button: 1px solid transparent;
+	--bb-popover__button: 1px solid transparent;
+	--bl-popover__button: 1px solid transparent;
+	--bd-popover__button: 5px;
+	--co-popover__button: #8b8c8c;
+}
+
+:root {
+	--bc-popover__content: #333333;
+	--bt-popover__content: 1px solid #585858;
+	--br-popover__content: 1px solid #585858;
+	--bb-popover__content: 1px solid #585858;
+	--bl-popover__content: 1px solid #585858;
+	--bd-popover__content: 5px;
+	--co-popover__content: #e5e5e5;
+}
+
+:root {
+	--co-popover__description: #939393;
+}
+
+:root {
+	--bd-popover: 5px;
+	--sd-popover: 3px 3px 11px 3px rgba(0,0,0,0.1);
+}
+
+:root {
+	--bc-query__content: transparent;
+}
+
+:root {
+	--bc-query__title: transparent;
+	--co-query__title: #e5e5e5;
+	--fw-query__title: ;
+}
+
+:root {
+	--bc-query: #2f2f2f;
+	--bt-query: none;
+	--br-query: none;
+	--bb-query: none;
+	--bl-query: none;
+	--bd-query: 5px;
+	--sd-query: 0px 0px 15px 5px rgba(0,0,0,0.3);
+}
+
+:root {
+	--bc-quote: transparent;
+	--bt-quote: none;
+	--br-quote: none;
+	--bb-quote: none;
+	--bl-quote: 4px solid #333;
+	--bd-quote: ;
+	--co-quote: #fff;
+	--ff-quote: ;
+	--fs-quote: 14px;
+	--ft-quote: ;
+	--fw-quote: ;
+}
+
+:root {
+	--bc-ref-count--active: transparent;
+	--co-ref-count--active: #fb375e;
+}
+
+:root {
+	--co-reference__item--hover: #e5e5e5;
+	--td-reference__item--hover: ;
+}
+
+:root {
+	--bc-reference__item: transparent;
+	--bt-reference__item: none;
+	--br-reference__item: none;
+	--bb-reference__item: none;
+	--bl-reference__item: none;
+	--bd-reference__item: 5px;
+}
+
+:root {
+	--bb-reference__linked-title: none;
+	--co-reference__linked-title: #999999;
+	--ff-reference__linked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-reference__linked-title: 1rem;
+	--ft-reference__linked-title: normal;
+	--fw-reference__linked-title: 500;
+	--tt-reference__linked-title: normal;
+}
+
+:root {
+	--bb-reference__linked-title-closed: ;
+	--co-reference__linked-title-closed: ;
+	--ff-reference__linked-title-closed: ;
+	--fs-reference__linked-title-closed: ;
+	--ft-reference__linked-title-closed: ;
+	--fw-reference__linked-title-closed: ;
+	--tt-reference__linked-title-closed: ;
+}
+
+:root {
+	--bt-reference__mentions: ;
+}
+
+:root {
+	--bc-reference__nested-refs: #333333;
+}
+
+:root {
+	--co-reference__page-title--hover: ;
+	--td-reference__page-title--hover: none;
+}
+
+:root {
+	--co-reference__page-title: #f5f5f7;
+	--ff-reference__page-title: ;
+	--fs-reference__page-title: 1rem;
+	--fw-reference__page-title: ;
+	--td-reference__page-title: none;
+}
+
+:root {
+	--co-reference__unlinked-title--hover: #999999;
+	--td-reference__unlinked-title--hover: ;
+}
+
+:root {
+	--bb-reference__unlinked-title: none;
+	--co-reference__unlinked-title: #999999;
+	--ff-reference__unlinked-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-reference__unlinked-title: 1rem;
+	--ft-reference__unlinked-title: normal;
+	--fw-reference__unlinked-title: 500;
+	--tt-reference__unlinked-title: normal;
+}
+
+:root {
+	--co-reference__unlinked-title-closed--hover: ;
+}
+
+:root {
+	--bb-reference__unlinked-title-closed: ;
+	--co-reference__unlinked-title-closed: ;
+	--ff-reference__unlinked-title-closed: ;
+	--fs-reference__unlinked-title-closed: ;
+	--ft-reference__unlinked-title-closed: ;
+	--fw-reference__unlinked-title-closed: ;
+	--tt-reference__unlinked-title-closed: ;
+}
+
+:root {
+	--bt-right-sidebar__bullet-closed: 4px solid #666;
+	--br-right-sidebar__bullet-closed: 4px solid #666;
+	--bb-right-sidebar__bullet-closed: 4px solid #666;
+	--bl-right-sidebar__bullet-closed: 4px solid #666;
+}
+
+:root {
+	--bc-right-sidebar__container: #141414;
+	--bl-right-sidebar__container: 4px solid #000;
+}
+
+:root {
+	--bc-right-sidebar__content: #141414;
+}
+
+:root {
+	--co-right-sidebar__h1: #f5f5f7;
+	--fs-right-sidebar__h1: 1rem;
+	--fw-right-sidebar__h1: 600;
+}
+
+:root {
+	--ff-right-sidebar__helper-text: ;
+}
+
+:root {
+	--bc-right-sidebar__inline-references: ;
+}
+
+:root {
+	--bc-right-sidebar__toprow: #000;
+}
+
+:root {
+	--bb-right-sidebar__window: transparent;
+}
+
+:root {
+	--co-right-sidebar__window-title: #999;
+}
+
+:root {
+	--bc-roam-css__button--active: #f3d12c;
+	--bt-roam-css__button--active: none;
+	--br-roam-css__button--active: none;
+	--bb-roam-css__button--active: none;
+	--bl-roam-css__button--active: none;
+	--bd-roam-css__button--active: 5px;
+	--co-roam-css__button--active: #f5f5f7;
+}
+
+:root {
+	--bc-roam-css__button--active-hover: #f3d12c;
+	--bt-roam-css__button--active-hover: none;
+	--br-roam-css__button--active-hover: none;
+	--bb-roam-css__button--active-hover: none;
+	--bl-roam-css__button--active-hover: none;
+	--bd-roam-css__button--active-hover: 5px;
+	--co-roam-css__button--active-hover: #f5f5f7;
+}
+
+:root {
+	--bc-roam-css__button--inactive: #515151;
+	--bt-roam-css__button--inactive: none;
+	--br-roam-css__button--inactive: none;
+	--bb-roam-css__button--inactive: none;
+	--bl-roam-css__button--inactive: none;
+	--bd-roam-css__button--inactive: 5px;
+	--co-roam-css__button--inactive: #f5f5f7;
+}
+
+:root {
+	--bc-roam-css__button--inactive-hover: #515151;
+	--bt-roam-css__button--inactive-hover: none;
+	--br-roam-css__button--inactive-hover: none;
+	--bb-roam-css__button--inactive-hover: none;
+	--bl-roam-css__button--inactive-hover: none;
+	--bd-roam-css__button--inactive-hover: 5px;
+	--co-roam-css__button--inactive-hover: #f5f5f7;
+}
+
+:root {
+	--bc-roam-css__container-active: #474127;
+	--bt-roam-css__container-active: none;
+	--br-roam-css__container-active: none;
+	--bb-roam-css__container-active: none;
+	--bl-roam-css__container-active: none;
+	--bd-roam-css__container-active: 5px;
+	--co-roam-css__container-active: #f5f5f7;
+}
+
+:root {
+	--bc-roam-css__container-inactive: #2f2f2f;
+	--bt-roam-css__container-inactive: none;
+	--br-roam-css__container-inactive: none;
+	--bb-roam-css__container-inactive: none;
+	--bl-roam-css__container-inactive: none;
+	--bd-roam-css__container-inactive: 5px;
+	--co-roam-css__container-inactive: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__button--active: #f3d12c;
+	--bt-roam-js__button--active: none;
+	--br-roam-js__button--active: none;
+	--bb-roam-js__button--active: none;
+	--bl-roam-js__button--active: none;
+	--bd-roam-js__button--active: 5px;
+	--co-roam-js__button--active: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__button--active-hover: #f3d12c;
+	--bt-roam-js__button--active-hover: none;
+	--br-roam-js__button--active-hover: none;
+	--bb-roam-js__button--active-hover: none;
+	--bl-roam-js__button--active-hover: none;
+	--bd-roam-js__button--active-hover: 5px;
+	--co-roam-js__button--active-hover: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__button--inactive: #515151;
+	--bt-roam-js__button--inactive: none;
+	--br-roam-js__button--inactive: none;
+	--bb-roam-js__button--inactive: none;
+	--bl-roam-js__button--inactive: none;
+	--bd-roam-js__button--inactive: 5px;
+	--co-roam-js__button--inactive: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__button--inactive-hover: #515151;
+	--bt-roam-js__button--inactive-hover: none;
+	--br-roam-js__button--inactive-hover: none;
+	--bb-roam-js__button--inactive-hover: none;
+	--bl-roam-js__button--inactive-hover: none;
+	--bd-roam-js__button--inactive-hover: 5px;
+	--co-roam-js__button--inactive-hover: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__container-active: #474127;
+	--bt-roam-js__container-active: none;
+	--br-roam-js__container-active: none;
+	--bb-roam-js__container-active: none;
+	--bl-roam-js__container-active: none;
+	--bd-roam-js__container-active: 5px;
+	--co-roam-js__container-active: #f5f5f7;
+}
+
+:root {
+	--bc-roam-js__container-inactive: #2f2f2f;
+	--bt-roam-js__container-inactive: none;
+	--br-roam-js__container-inactive: none;
+	--bb-roam-js__container-inactive: none;
+	--bl-roam-js__container-inactive: none;
+	--bd-roam-js__container-inactive: 5px;
+	--co-roam-js__container-inactive: #f5f5f7;
+}
+
+:root {
+	--bc-roam42__cp-menu-item--hover: #0058d0;
+	--bt-roam42__cp-menu-item--hover: none;
+	--br-roam42__cp-menu-item--hover: none;
+	--bb-roam42__cp-menu-item--hover: none;
+	--bl-roam42__cp-menu-item--hover: none;
+	--bd-roam42__cp-menu-item--hover: 5px;
+	--co-roam42__cp-menu-item--hover: #eeeeee;
+}
+
+:root {
+	--bc-roam42__cp-menu-item--selected: #0058d0;
+	--bt-roam42__cp-menu-item--selected: none;
+	--br-roam42__cp-menu-item--selected: none;
+	--bb-roam42__cp-menu-item--selected: none;
+	--bl-roam42__cp-menu-item--selected: none;
+	--bd-roam42__cp-menu-item--selected: 5px;
+}
+
+:root {
+	--bt-roam42__cp-menu-item: none;
+	--br-roam42__cp-menu-item: none;
+	--bb-roam42__cp-menu-item: none;
+	--bl-roam42__cp-menu-item: none;
+	--bd-roam42__cp-menu-item: 5px;
+}
+
+:root {
+	--bc-roam42__cp-menu-item-active--hover: #0059d0;
+	--bt-roam42__cp-menu-item-active--hover: none;
+	--br-roam42__cp-menu-item-active--hover: none;
+	--bb-roam42__cp-menu-item-active--hover: none;
+	--bl-roam42__cp-menu-item-active--hover: none;
+	--bd-roam42__cp-menu-item-active--hover: 5px;
+}
+
+:root {
+	--bc-roam42__cp-menu-shortcut: ;
+	--bd-roam42__cp-menu-shortcut: ;
+	--co-roam42__cp-menu-shortcut: #939393;
+}
+
+:root {
+	--bc-roam42__jj-menu: #262626;
+	--bt-roam42__jj-menu: 1px solid #373737;
+	--br-roam42__jj-menu: 1px solid #373737;
+	--bb-roam42__jj-menu: 1px solid #373737;
+	--bl-roam42__jj-menu: 1px solid #373737;
+	--bd-roam42__jj-menu: 0px;
+}
+
+:root {
+	--bc-roam42__jj-menu-item--highlight: #0058d0;
+	--bt-roam42__jj-menu-item--highlight: none;
+	--br-roam42__jj-menu-item--highlight: none;
+	--bb-roam42__jj-menu-item--highlight: none;
+	--bl-roam42__jj-menu-item--highlight: none;
+	--bd-roam42__jj-menu-item--highlight: 5px;
+}
+
+:root {
+	--bc-roam42__jj-menu-item--hover: #0058d0;
+	--bt-roam42__jj-menu-item--hover: none;
+	--br-roam42__jj-menu-item--hover: none;
+	--bb-roam42__jj-menu-item--hover: none;
+	--bl-roam42__jj-menu-item--hover: none;
+	--bd-roam42__jj-menu-item--hover: 5px;
+	--co-roam42__jj-menu-item--hover: #eeeeee;
+}
+
+:root {
+	--bc-roam42__jj-menu-item: transparent;
+	--bt-roam42__jj-menu-item: none;
+	--br-roam42__jj-menu-item: none;
+	--bb-roam42__jj-menu-item: none;
+	--bl-roam42__jj-menu-item: none;
+	--bd-roam42__jj-menu-item: 5px;
+}
+
+:root {
+	--bc-settings__auth-provider: #5e5e5e;
+	--bt-settings__auth-provider: none;
+	--br-settings__auth-provider: none;
+	--bb-settings__auth-provider: none;
+	--bl-settings__auth-provider: none;
+	--bd-settings__auth-provider: 5px;
+	--co-settings__auth-provider: #e2e2e2;
+}
+
+:root {
+	--bt-settings__button: ;
+	--br-settings__button: ;
+	--bb-settings__button: ;
+	--bl-settings__button: ;
+	--bd-settings__button: ;
+	--co-settings__button: #e5e5e5;
+}
+
+:root {
+	--bd-settings__container: 5px;
+}
+
+:root {
+	--bc-settings__container: transparent;
+	--bt-settings__container: none;
+	--br-settings__container: none;
+	--bb-settings__container: none;
+	--bl-settings__container: none;
+	--co-settings__container: ;
+	--fs-settings__container: ;
+}
+
+:root {
+	--co-settings__description: #d1d2d1;
+}
+
+:root {
+	--co-settings__email-header: #d1d2d1;
+	--td-settings__email-header: none;
+}
+
+:root {
+	--co-settings__filelist-item: ;
+}
+
+:root {
+	--fs-settings__h4: ;
+	--fw-settings__h4: ;
+}
+
+:root {
+	--co-settings__heading: #ffffff;
+	--fs-settings__heading: ;
+	--fw-settings__heading: ;
+}
+
+:root {
+	--bc-settings__hotkeys: #939393;
+	--co-settings__hotkeys: ;
+}
+
+:root {
+	--bc-settings__input--focus: #5c5b5b;
+	--bt-settings__input--focus: none;
+	--br-settings__input--focus: none;
+	--bb-settings__input--focus: none;
+	--bl-settings__input--focus: none;
+}
+
+:root {
+	--co-settings__input--placeholder: #a8a8a9;
+}
+
+:root {
+	--bc-settings__input: transparent;
+	--bt-settings__input: none;
+	--br-settings__input: none;
+	--bb-settings__input: none;
+	--bl-settings__input: none;
+	--bd-settings__input: 5px;
+	--co-settings__input: #ebebeb;
+}
+
+:root {
+	--bc-settings__items--hover: transparent;
+	--bt-settings__items--hover: none;
+	--br-settings__items--hover: none;
+	--bb-settings__items--hover: none;
+	--bl-settings__items--hover: none;
+	--bd-settings__items--hover: ;
+	--co-settings__items--hover: #f5f5f7;
+}
+
+:root {
+	--bc-settings__items--selected: #282828;
+	--bt-settings__items--selected: none;
+	--br-settings__items--selected: none;
+	--bb-settings__items--selected: none;
+	--bl-settings__items--selected: none;
+	--bd-settings__items--selected: ;
+	--co-settings__items--selected: #f5f5f7;
+}
+
+:root {
+	--bc-settings__items: transparent;
+	--bt-settings__items: none;
+	--br-settings__items: none;
+	--bb-settings__items: none;
+	--bl-settings__items: none;
+	--bd-settings__items: ;
+	--co-settings__items: #f5f5f7;
+}
+
+:root {
+	--bc-settings__items-selected--before: ;
+}
+
+:root {
+	--bt-settings__panel: 1px solid #464746;
+}
+
+:root {
+	--bc-settings__password-input--focus: #5c5b5b;
+	--bt-settings__password-input--focus: none;
+	--br-settings__password-input--focus: none;
+	--bb-settings__password-input--focus: none;
+	--bl-settings__password-input--focus: none;
+}
+
+:root {
+	--co-settings__password-input--placeholder: #a8a8a9;
+}
+
+:root {
+	--bc-settings__password-input: transparent;
+	--bt-settings__password-input: none;
+	--br-settings__password-input: none;
+	--bb-settings__password-input: none;
+	--bl-settings__password-input: none;
+	--bd-settings__password-input: 5px;
+	--co-settings__password-input: #ebebeb;
+}
+
+:root {
+	--bc-settings__scrollbar-thumb: #919191;
+	--bd-settings__scrollbar-thumb: 5px;
+}
+
+:root {
+	--bc-settings__scrollbar-track: ;
+	--bd-settings__scrollbar-track: ;
+}
+
+:root {
+	--bc-settings__select-wrapper: #515151;
+	--bt-settings__select-wrapper: none;
+	--br-settings__select-wrapper: none;
+	--bb-settings__select-wrapper: none;
+	--bl-settings__select-wrapper: none;
+	--bd-settings__select-wrapper: 5px;
+}
+
+:root {
+	--fs-settings__tab: ;
+}
+
+:root {
+	--bc-settings__tab-list: #1c1c1c;
+	--br-settings__tab-list: ;
+}
+
+:root {
+	--bc-span--highlighted: #4f482b;
+}
+
+:root {
+	--co-starred__icon: #a6a6a6;
+}
+
+:root {
+	--bc-starred__page--hover: transparent;
+	--bt-starred__page--hover: none;
+	--br-starred__page--hover: none;
+	--bb-starred__page--hover: none;
+	--bl-starred__page--hover: none;
+	--co-starred__page--hover: #a6a6a6;
+	--td-starred__page--hover: none;
+}
+
+:root {
+	--bt-starred__page: none;
+	--br-starred__page: none;
+	--bb-starred__page: none;
+	--bl-starred__page: none;
+	--bd-starred__page: ;
+	--co-starred__page: #a6a6a6;
+	--ff-starred__page: ;
+	--fs-starred__page: 14px;
+	--ft-starred__page: ;
+	--fw-starred__page: 400;
+	--tt-starred__page: normal;
+}
+
+:root {
+	--co-starred__title: #a6a6a6;
+	--ff-starred__title: ;
+	--fs-starred__title: 14px;
+	--ft-starred__title: ;
+	--fw-starred__title: 500;
+	--tt-starred__title: lowercase;
+}
+
+:root {
+	--bc-sync--saving-local: #ffd400;
+}
+
+:root {
+	--bc-sync--saving-remote: #ff316c;
+}
+
+:root {
+	--bc-sync--synced: #4cbd5e;
+}
+
+:root {
+	--bc-table__header: transparent;
+	--bt-table__header: none;
+	--br-table__header: none;
+	--bb-table__header: 1px solid #333;
+	--bl-table__header: none;
+	--co-table__header: #cccccc;
+	--fs-table__header: 12px;
+	--fw-table__header: 600;
+}
+
+:root {
+	--bc-table: transparent;
+	--bt-table: none;
+	--br-table: none;
+	--bb-table: 1px solid #e6e6e6;
+	--bl-table: none;
+	--co-table: #999999;
+	--fs-table: 12px;
+}
+
+:root {
+	--bc-tags--hover: transparent;
+	--bt-tags--hover: none;
+	--br-tags--hover: none;
+	--bb-tags--hover: none;
+	--bl-tags--hover: none;
+	--bd-tags--hover: 0px;
+	--co-tags--hover: #999999;
+}
+
+:root {
+	--bc-tags: transparent;
+	--bt-tags: none;
+	--br-tags: none;
+	--bb-tags: none;
+	--bl-tags: none;
+	--bd-tags: 0px;
+	--co-tags: #999999;
+	--ff-tags: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-tags: 12px;
+	--ft-tags: ;
+	--fw-tags: 700;
+	--td-tags: ;
+	--tt-tags: uppercase;
+}
+
+:root {
+	--bc-textarea__selection: #b4d7ff;
+}
+
+:root {
+}
+
+:root {
+	--bc-tooltip: #262626;
+	--bt-tooltip: 1px solid #383939;
+	--br-tooltip: 1px solid #383939;
+	--bb-tooltip: 1px solid #383939;
+	--bl-tooltip: 1px solid #383939;
+	--bd-tooltip: 5px;
+	--co-tooltip: #f5f5f7;
+	--fs-tooltip: ;
+}
+
+:root {
+	--bc-topbar__container: transparent;
+	--bt-topbar__container: none;
+	--br-topbar__container: none;
+	--bb-topbar__container: none;
+	--bl-topbar__container: none;
+	--bd-topbar__container: 0px;
+	--sd-topbar__container: none;
+}
+
+:root {
+	--bc-topbar-datepicker__day--hover: #0058d0;
+	--bd-topbar-datepicker__day--hover: 2px;
+	--co-topbar-datepicker__day--hover: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__day--selected: #0058d0;
+	--bd-topbar-datepicker__day--selected: 2px;
+	--co-topbar-datepicker__day--selected: #f5f5f7;
+}
+
+:root {
+	--co-topbar-datepicker__day: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__day-selected--hover: #0058d0;
+	--bd-topbar-datepicker__day-selected--hover: 2px;
+	--co-topbar-datepicker__day-selected--hover: ;
+}
+
+:root {
+	--co-topbar-datepicker__day-without-page: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__nav-button--hover: #0058d0;
+	--bt-topbar-datepicker__nav-button--hover: none;
+	--br-topbar-datepicker__nav-button--hover: none;
+	--bb-topbar-datepicker__nav-button--hover: none;
+	--bl-topbar-datepicker__nav-button--hover: none;
+	--bd-topbar-datepicker__nav-button--hover: 2px;
+	--co-topbar-datepicker__nav-button--hover: #f5f5f7;
+}
+
+:root {
+	--co-topbar-datepicker__nav-button--hover: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__nav-button: transparent;
+	--bt-topbar-datepicker__nav-button: none;
+	--br-topbar-datepicker__nav-button: none;
+	--bb-topbar-datepicker__nav-button: none;
+	--bl-topbar-datepicker__nav-button: none;
+	--bd-topbar-datepicker__nav-button: 2px;
+}
+
+:root {
+	--co-topbar-datepicker__nav-button: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__outside: transparent;
+}
+
+:root {
+	--bc-topbar-datepicker__today--selected: #0058d0;
+	--co-topbar-datepicker__today--selected: #f5f5f7;
+}
+
+:root {
+	--bc-topbar-datepicker__today: ;
+	--co-topbar-datepicker__today: #f5f5f7;
+	--fw-topbar-datepicker__today: bold;
+}
+
+:root {
+	--bc-topbar-datepicker__today-selected--hover: #0058d0;
+}
+
+:root {
+	--co-topbar-datepicker__weekdays: #939393;
+}
+
+:root {
+	--br-topbar-datepicker__weeknumber: 1px solid #404040;
+	--co-topbar-datepicker__weeknumber: #939393;
+	--ff-topbar-datepicker__weeknumber: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
+	--fs-topbar-datepicker__weeknumber: 1rem;
+}
+
+:root {
+	--bc-topbar-datepicker: transparent;
+	--bt-topbar-datepicker: none;
+	--br-topbar-datepicker: none;
+	--bb-topbar-datepicker: none;
+	--bl-topbar-datepicker: none;
+	--bd-topbar-datepicker: 5px;
+	--co-topbar-datepicker: #f5f5f7;
+	--ff-topbar-datepicker: ;
+}
+
+:root {
+	--bc-topbar-datepicker-html__select--hover: #0058d0;
+	--co-topbar-datepicker-html__select--hover: #f5f5f7;
+}
+
+:root {
+	--co-topbar-datepicker-html__select: #f5f5f7;
+	--ff-topbar-datepicker-html__select: ;
+	--fs-topbar-datepicker-html__select: ;
+}
+
+:root {
+	--co-topbar-datepicker-html__select-icon--hover: #f5f5f7;
+}
+
+:root {
+	--co-topbar-datepicker-html__select-icon: #f5f5f7;
+}
+
+:root {
+	--bc-version__bullet: #666;
+}
+
+:root {
+	--bb-version__choice: ;
+}
+
+:root {
+	--bc-zoom__mask: #141414;
+}
+
+:root {
+	--co-zoom-item: #939393;
+	--fs-zoom-item: 1rem;
+}
+
+:root {
+	--co-zotero__h5: var(--cl-gray-100);
+}
+
+:root {
+	--bc-zotero__page-menu: var(--cl-gray-100);
+	--bt-zotero__page-menu: 1px solid var(--cl-gray-200);
+	--br-zotero__page-menu: 1px solid var(--cl-gray-200);
+	--bb-zotero__page-menu: 1px solid var(--cl-gray-200);
+	--bl-zotero__page-menu: 1px solid var(--cl-gray-200);
+	--bd-zotero__page-menu: 0px;
+	--sd-zotero__page-menu: none;
+}
+
+:root {
+	--bc-zotero__primary: transparent;
+	--bt-zotero__primary: none;
+	--br-zotero__primary: none;
+	--bb-zotero__primary: none;
+	--bl-zotero__primary: none;
+	--bd-zotero__primary: 3px;
+	--sd-zotero__primary: none;
+	--co-zotero__primary: #65a9f9;
+}
+
+:root {
+	--bc-zotero__primary: transparent;
+	--bt-zotero__primary: none;
+	--br-zotero__primary: none;
+	--bb-zotero__primary: none;
+	--bl-zotero__primary: none;
+	--bd-zotero__primary: 3px;
+	--sd-zotero__primary: none;
+	--co-zotero__primary: rgb(165, 167, 171);
+}
+
+:root {
+	--bc-zotero__sequence: var(--cl-gray-800);
+	--br-zotero__sequence: 1px solid var(--cl-black);
+	--fs-zotero__sequence: ;
+}
+
+:root {
+	--co-zotero__search-highlight--hover: ;
+}
+
+:root {
+	--co-zotero__search-secondary--hover: ;
+}
+
+:root {
+	--co-zotero__search-highlight: ;
+}
+
+:root {
+	--co-zotero__search-secondary: ;
+}
+

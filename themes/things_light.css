@@ -1,7 +1,7 @@
-@import url('https://rcvd.github.io/roam-css-system/fonts/things.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/colors-things.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
-@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-things_light.css');
+@import url('https://m1.local:5757/fonts/things.css');
+@import url('https://m1.local:5757/internal/colors-things.css');
+@import url('https://m1.local:5757/internal/roam-css-system.css');
+@import url('https://m1.local:5757/internal/additional-fixes-things_light.css');
 
 
 :root {
@@ -12,6 +12,18 @@
 :root {
 	--co-a: #1d72d1;
 	--td-a: none;
+}
+
+:root {
+	--bb-alias--hover: ;
+	--co-alias--hover: #1d72d1;
+	--td-alias--hover: none;
+}
+
+:root {
+	--bb-alias: ;
+	--co-alias: #1d72d1;
+	--td-alias: none;
 }
 
 :root {
