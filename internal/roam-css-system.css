@@ -8,13 +8,13 @@ a {
 	text-decoration: 		var(--td-a, none);
 }
 
-a.rm-alias:hover {
+a.rm-alias:not(.rm-alias--external):hover {
 	border-bottom: 			var(--bb-alias--hover, inherit);
 	color: 					var(--co-alias--hover, inherit);
 	text-decoration: 		var(--td-alias--hover, underline);
 }
 
-a.rm-alias {
+a.rm-alias:not(.rm-alias--external) {
 	border-bottom: 			var(--bb-alias, inherit);
 	color: 					var(--co-alias, #106BA3);
 	text-decoration: 		var(--td-alias, inherit);
