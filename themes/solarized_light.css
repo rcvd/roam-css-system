@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/solarized.css');
-@import url('https://m1.local:5757/internal/colors-solarized.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-solarized_light.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/solarized.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-solarized.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-solarized_light.css');
 
 
 :root {

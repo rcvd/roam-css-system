@@ -1,7 +1,7 @@
-@import url('https://m1.local:5757/fonts/bear.css');
-@import url('https://m1.local:5757/internal/colors-bear.css');
-@import url('https://m1.local:5757/internal/roam-css-system.css');
-@import url('https://m1.local:5757/internal/additional-fixes-bear.css');
+@import url('https://rcvd.github.io/roam-css-system/fonts/bear.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/colors-bear.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/roam-css-system.css');
+@import url('https://rcvd.github.io/roam-css-system/internal/additional-fixes-bear.css');
 
 
 :root {
