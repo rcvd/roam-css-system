@@ -610,7 +610,7 @@
 		{
 			"string": "normal", 
 			"children": [{
-				"string": "```css\n:root {\n\t--bc-code: #292929;\n\t--bt-code: 1px solid #3e3e3e;\n\t--br-code: 1px solid #3e3e3e;\n\t--bb-code: 1px solid #3e3e3e;\n\t--bl-code: 1px solid #3e3e3e;\n\t--bd-code: 5px;\n\t--co-code: #f4f4f4;\n\t--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;\n\t--fs-code: 0.9rem;\n}```"
+				"string": "```css\n:root {\n\t--bc-code: #292929;\n\t--bt-code: 1px solid #3e3e3e;\n\t--br-code: 1px solid #3e3e3e;\n\t--bb-code: 1px solid #3e3e3e;\n\t--bl-code: 1px solid #3e3e3e;\n\t--bd-code: 5px;\n\t--co-code: #f4f4f4;\n\t--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;\n\t--fs-code: 0.9rem;\n}```"
 			}]
 		}]
 	},
@@ -705,7 +705,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--co-codeblock__code: #959795;\n\t--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;\n\t--fs-codeblock__code: 0.9rem;\n}```"
+					"string": "```css\n:root {\n\t--co-codeblock__code: #959795;\n\t--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;\n\t--fs-codeblock__code: 0.9rem;\n}```"
 				}]
 			}]
 		},
@@ -765,7 +765,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;\n\t--fs-codeblock__gutter: 0.9rem;\n\t--ft-codeblock__gutter: normal;\n\t--fw-codeblock__gutter: 400;\n}```"
+					"string": "```css\n:root {\n\t--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;\n\t--fs-codeblock__gutter: 0.9rem;\n\t--ft-codeblock__gutter: normal;\n\t--fw-codeblock__gutter: 400;\n}```"
 				}]
 			}]
 		},
@@ -1769,7 +1769,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-help__component-notation: #292929;\n\t--co-help__component-notation: #f4f4f4;\n\t--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;\n\t--fs-help__component-notation: 0.9rem;\n}```"
+					"string": "```css\n:root {\n\t--bc-help__component-notation: #292929;\n\t--co-help__component-notation: #f4f4f4;\n\t--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;\n\t--fs-help__component-notation: 0.9rem;\n}```"
 				}]
 			}]
 		},

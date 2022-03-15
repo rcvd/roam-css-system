@@ -494,7 +494,7 @@
 	--bl-code: 1px solid #dedede;
 	--bd-code: 5px;
 	--co-code: #1e2224;
-	--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+	--ff-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 	--fs-code: 0.9rem;
 }
 
@@ -550,7 +550,7 @@
 
 :root {
 	--co-codeblock__code: #5d5d5c;
-	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+	--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 	--fs-codeblock__code: 0.9rem;
 }
 
@@ -582,7 +582,7 @@
 }
 
 :root {
-	--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+	--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 	--fs-codeblock__gutter: 0.9rem;
 	--ft-codeblock__gutter: normal;
 	--fw-codeblock__gutter: 400;
@@ -1268,7 +1268,7 @@
 :root {
 	--bc-help__component-notation: #eaeaea;
 	--co-help__component-notation: #202224;
-	--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
+	--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 	--fs-help__component-notation: 0.9rem;
 }
 

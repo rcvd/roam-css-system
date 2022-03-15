@@ -565,7 +565,7 @@ code {
 	fill: 		var(--fl-codeblock__caret, inherit);
 }
 
-.cm-line {
+.cm-content .cm-line {
 	color: 					var(--co-codeblock__code, inherit);
 	font-family: 			var(--ff-codeblock__code, monospace)!important;
 	font-size: 				var(--fs-codeblock__code, inherit);
