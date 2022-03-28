@@ -2259,7 +2259,7 @@
 }
 
 :root {
-	--bc-settings__container: transparent;
+	--bc-settings__container: #141414;
 	--bt-settings__container: none;
 	--br-settings__container: none;
 	--bb-settings__container: none;

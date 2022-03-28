@@ -4895,7 +4895,7 @@
 }
 
 :root {
-	--bc-settings__container: transparent;
+	--bc-settings__container: #f9fafa;
 	--bt-settings__container: none;
 	--br-settings__container: none;
 	--bb-settings__container: none;
@@ -4906,7 +4906,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bc-settings__container: transparent;
+		--bc-settings__container: #272625;
 		--bt-settings__container: none;
 		--br-settings__container: none;
 		--bb-settings__container: none;

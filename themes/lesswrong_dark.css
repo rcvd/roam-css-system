@@ -2259,7 +2259,7 @@
 }
 
 :root {
-	--bc-settings__container: ;
+	--bc-settings__container: var(--cl-gray-800);
 	--bt-settings__container: ;
 	--br-settings__container: ;
 	--bb-settings__container: ;

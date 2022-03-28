@@ -3089,7 +3089,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__container: transparent;\n\t--bt-settings__container: none;\n\t--br-settings__container: none;\n\t--bb-settings__container: none;\n\t--bl-settings__container: none;\n\t--co-settings__container: ;\n\t--fs-settings__container: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__container: #1e2022;\n\t--bt-settings__container: none;\n\t--br-settings__container: none;\n\t--bb-settings__container: none;\n\t--bl-settings__container: none;\n\t--co-settings__container: ;\n\t--fs-settings__container: ;\n}```"
 				}]
 			}]
 		},
