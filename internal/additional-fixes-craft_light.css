@@ -33,7 +33,7 @@
 }
 
 /* Remove padding between star and title */
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper > div > div::before {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper > div.title::before {
 	content: 'Shortcuts';
 	font-size: 0.9em;
 	font-weight: 600;
