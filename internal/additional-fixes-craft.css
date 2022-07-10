@@ -534,3 +534,17 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
     margin-right: 0px;
 }
 
+.rm-topbar > .bp3-popover-wrapper:nth-child(3) > .bp3-overlay,
+.rm-topbar > .bp3-popover-wrapper:nth-child(3) > .bp3-overlay > .bp3-transition-container.bp3-popover-enter-done {
+	bottom: 10px!important;
+	top: unset!important;
+	transform: none!important;
+	right: 10px!important;
+	left: unset!important;
+	position: absolute;
+	transition: none!important;
+}
+
+.rm-topbar > .bp3-popover-wrapper:nth-child(3) > .bp3-overlay {
+  width: 100%;
+}
