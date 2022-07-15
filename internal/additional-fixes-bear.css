@@ -259,3 +259,7 @@ textarea,
 .rm-code-block {
     margin-right: 0px;
 }
+
+.rm-embed-container {
+  margin-right: unset;
+}

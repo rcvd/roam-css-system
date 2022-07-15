@@ -548,3 +548,7 @@ h3, .rm-level3, .rm-heading-level-3 > .rm-block-main {
 .rm-topbar > .bp3-popover-wrapper:nth-child(3) > .bp3-overlay {
   width: 100%;
 }
+
+.rm-embed-container {
+  margin-right: unset;
+}
