@@ -2314,6 +2314,10 @@ div, textarea {
 	text-decoration: 		var(--td-settings__email-header, underline);
 }
 
+.rm-extensions-settings {
+	background-color: 		var(--bc-settings__extensions, inherit);
+}
+
 .rm-file-list-item__link {
 	color: 					var(--co-settings__filelist-item, white)!important;
 }

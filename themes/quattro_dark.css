@@ -2278,6 +2278,10 @@
 }
 
 :root {
+	--bc-settings__extensions: transparent;
+}
+
+:root {
 	--co-settings__filelist-item: var(--cl-gray-100);
 }
 

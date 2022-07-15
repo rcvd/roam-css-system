@@ -4937,6 +4937,16 @@
 }
 
 :root {
+	--bc-settings__extensions: transparent;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__extensions: transparent;
+	}
+}
+
+:root {
 	--co-settings__filelist-item: #202224;
 }
 

@@ -2278,6 +2278,10 @@
 }
 
 :root {
+	--bc-settings__extensions: transparent;
+}
+
+:root {
 	--co-settings__filelist-item: #1d72d1;
 }
 
