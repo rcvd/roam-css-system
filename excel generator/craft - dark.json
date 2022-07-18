@@ -3119,7 +3119,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__extensions: transparent;\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__extensions: transparent;\n\t--co-settings__extensions: #f4f4f4;\n}```"
 				}]
 			}]
 		},

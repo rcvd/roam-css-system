@@ -4938,11 +4938,13 @@
 
 :root {
 	--bc-settings__extensions: transparent;
+	--co-settings__extensions: var(--cl-gray-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-settings__extensions: transparent;
+		--co-settings__extensions: var(--cl-white);
 	}
 }
 

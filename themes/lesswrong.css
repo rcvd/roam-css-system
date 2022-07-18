@@ -4900,7 +4900,7 @@
 	--br-settings__container: ;
 	--bb-settings__container: ;
 	--bl-settings__container: ;
-	--co-settings__container: ;
+	--co-settings__container: var(--cl-gray-900);
 	--fs-settings__container: ;
 }
 
@@ -4911,7 +4911,7 @@
 		--br-settings__container: ;
 		--bb-settings__container: ;
 		--bl-settings__container: ;
-		--co-settings__container: ;
+		--co-settings__container: var(--cl-gray-100);
 	}
 }
 
@@ -4938,11 +4938,13 @@
 
 :root {
 	--bc-settings__extensions: transparent;
+	--co-settings__extensions: var(--cl-gray-900);
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bc-settings__extensions: transparent;
+		--co-settings__extensions: ;
 	}
 }
 
@@ -4952,7 +4954,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--co-settings__filelist-item: ;
+		--co-settings__filelist-item: var(--cl-gray-100);
 	}
 }
 

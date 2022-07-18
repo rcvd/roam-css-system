@@ -2264,7 +2264,7 @@
 	--br-settings__container: ;
 	--bb-settings__container: ;
 	--bl-settings__container: ;
-	--co-settings__container: ;
+	--co-settings__container: var(--cl-gray-100);
 	--fs-settings__container: ;
 }
 
@@ -2279,10 +2279,11 @@
 
 :root {
 	--bc-settings__extensions: transparent;
+	--co-settings__extensions: ;
 }
 
 :root {
-	--co-settings__filelist-item: ;
+	--co-settings__filelist-item: var(--cl-gray-100);
 }
 
 :root {

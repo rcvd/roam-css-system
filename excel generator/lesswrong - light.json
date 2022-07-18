@@ -3089,7 +3089,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__container: var(--cl-gray-50);\n\t--bt-settings__container: ;\n\t--br-settings__container: ;\n\t--bb-settings__container: ;\n\t--bl-settings__container: ;\n\t--co-settings__container: ;\n\t--fs-settings__container: ;\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__container: var(--cl-gray-50);\n\t--bt-settings__container: ;\n\t--br-settings__container: ;\n\t--bb-settings__container: ;\n\t--bl-settings__container: ;\n\t--co-settings__container: var(--cl-gray-900);\n\t--fs-settings__container: ;\n}```"
 				}]
 			}]
 		},
@@ -3119,7 +3119,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__extensions: transparent;\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__extensions: transparent;\n\t--co-settings__extensions: var(--cl-gray-900);\n}```"
 				}]
 			}]
 		},

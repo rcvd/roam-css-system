@@ -2316,6 +2316,7 @@ div, textarea {
 
 .rm-extensions-settings {
 	background-color: 		var(--bc-settings__extensions, inherit);
+	color: 					var(--co-settings__extensions, inherit);
 }
 
 .rm-file-list-item__link {
