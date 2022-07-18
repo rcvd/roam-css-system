@@ -2286,6 +2286,7 @@
 }
 
 :root {
+	--co-settings__h4: var(--cl-gray-100);
 	--fs-settings__h4: ;
 	--fw-settings__h4: ;
 }

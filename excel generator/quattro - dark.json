@@ -3139,7 +3139,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--fs-settings__h4: ;\n\t--fw-settings__h4: ;\n}```"
+					"string": "```css\n:root {\n\t--co-settings__h4: var(--cl-white);\n\t--fs-settings__h4: ;\n\t--fw-settings__h4: ;\n}```"
 				}]
 			}]
 		},

@@ -4957,12 +4957,14 @@
 }
 
 :root {
+	--co-settings__h4: #202224;
 	--fs-settings__h4: 1.1rem;
 	--fw-settings__h4: 600;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--co-settings__h4: #f4f4f4;
 	}
 }
 

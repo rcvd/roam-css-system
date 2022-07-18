@@ -2323,6 +2323,7 @@ div, textarea {
 }
 
 .rm-settings .rm-settings-panel__section h4 {
+	color: 					var(--co-settings__h4, inherit);
 	font-size: 				var(--fs-settings__h4, inherit);
 	font-weight: 			var(--fw-settings__h4, inherit);
 }

@@ -2286,6 +2286,7 @@
 }
 
 :root {
+	--co-settings__h4: #373837;
 	--fs-settings__h4: ;
 	--fw-settings__h4: ;
 }

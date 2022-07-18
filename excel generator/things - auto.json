@@ -3089,7 +3089,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--bc-settings__container: #f9fafa;\n\t--bt-settings__container: none;\n\t--br-settings__container: none;\n\t--bb-settings__container: none;\n\t--bl-settings__container: none;\n\t--co-settings__container: #373837;\n\t--fs-settings__container: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-settings__container: #272625;\n\t\t--bt-settings__container: none;\n\t\t--br-settings__container: none;\n\t\t--bb-settings__container: none;\n\t\t--bl-settings__container: none;\n\t\t--co-settings__container: ;\n\t}\n}```"
+					"string": "```css\n:root {\n\t--bc-settings__container: #f9fafa;\n\t--bt-settings__container: none;\n\t--br-settings__container: none;\n\t--bb-settings__container: none;\n\t--bl-settings__container: none;\n\t--co-settings__container: #373837;\n\t--fs-settings__container: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-settings__container: #272625;\n\t\t--bt-settings__container: none;\n\t\t--br-settings__container: none;\n\t\t--bb-settings__container: none;\n\t\t--bl-settings__container: none;\n\t\t--co-settings__container: #ffffff;\n\t}\n}```"
 				}]
 			}]
 		},
@@ -3139,7 +3139,7 @@
 			{
 				"string": "normal", 
 				"children": [{
-					"string": "```css\n:root {\n\t--fs-settings__h4: ;\n\t--fw-settings__h4: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t}\n}```"
+					"string": "```css\n:root {\n\t--co-settings__h4: #373837;\n\t--fs-settings__h4: ;\n\t--fw-settings__h4: ;\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--co-settings__h4: #ffffff;\n\t}\n}```"
 				}]
 			}]
 		},

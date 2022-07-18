@@ -2264,7 +2264,7 @@
 	--br-settings__container: none;
 	--bb-settings__container: none;
 	--bl-settings__container: none;
-	--co-settings__container: ;
+	--co-settings__container: #ffffff;
 	--fs-settings__container: ;
 }
 
@@ -2286,6 +2286,7 @@
 }
 
 :root {
+	--co-settings__h4: #ffffff;
 	--fs-settings__h4: ;
 	--fw-settings__h4: ;
 }

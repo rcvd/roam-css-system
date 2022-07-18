@@ -4911,7 +4911,7 @@
 		--br-settings__container: none;
 		--bb-settings__container: none;
 		--bl-settings__container: none;
-		--co-settings__container: ;
+		--co-settings__container: #ffffff;
 	}
 }
 
@@ -4957,12 +4957,14 @@
 }
 
 :root {
+	--co-settings__h4: #373837;
 	--fs-settings__h4: ;
 	--fw-settings__h4: ;
 }
 
 @media(prefers-color-scheme: dark) {
 	:root {
+		--co-settings__h4: #ffffff;
 	}
 }
 
