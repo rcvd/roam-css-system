@@ -2393,6 +2393,10 @@
 }
 
 :root {
+	--bc-settings__popover: #ececec;
+}
+
+:root {
 	--bc-settings__scrollbar-thumb: #7e7e7e;
 	--bd-settings__scrollbar-thumb: 5px;
 }

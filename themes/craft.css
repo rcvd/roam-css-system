@@ -5189,6 +5189,16 @@
 }
 
 :root {
+	--bc-settings__popover: transparent;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__popover: transparent;
+	}
+}
+
+:root {
 	--bc-settings__scrollbar-thumb: #7f7f7f;
 	--bd-settings__scrollbar-thumb: 5px;
 }

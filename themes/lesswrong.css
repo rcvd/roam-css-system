@@ -5189,6 +5189,16 @@
 }
 
 :root {
+	--bc-settings__popover: var(--cl-white);
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--bc-settings__popover: var(--cl-black);
+	}
+}
+
+:root {
 	--bc-settings__scrollbar-thumb: ;
 	--bd-settings__scrollbar-thumb: ;
 }

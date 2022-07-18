@@ -2429,6 +2429,10 @@ div, textarea {
 	color: 					var(--co-settings__password-input, inherit);
 }
 
+.rm-extensions-settings .bp3-popover-content .bp3-menu, .bp3-select-popover .bp3-menu {
+	background-color: 		var(--bc-settings__popover, inherit);
+}
+
 .rm-settings ::-webkit-scrollbar-thumb {
 	background-color: 		var(--bc-settings__scrollbar-thumb, #8A9BA8);
 	border-radius: 			var(--bd-settings__scrollbar-thumb, 6px);

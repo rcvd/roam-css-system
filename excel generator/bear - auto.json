@@ -3260,6 +3260,16 @@
 			}]
 		},
 		{
+			"string": "popover",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--bc-settings__popover: rgba(251, 251, 251, 1.00);\n}\n\n@media(prefers-color-scheme: dark) {\n\t:root {\n\t\t--bc-settings__popover: #232324;\n\t}\n}```"
+				}]
+			}]
+		},
+		{
 			"string": "scrollbar-thumb",
 			"children": [
 			{
