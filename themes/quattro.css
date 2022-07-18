@@ -4937,6 +4937,19 @@
 }
 
 :root {
+	--co-settings__extensions-heading: var(--cl-gray-900);
+	--fs-settings__extensions-heading: ;
+	--fw-settings__extensions-heading: ;
+	--tt-settings__extensions-heading: normal;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__extensions-heading: var(--cl-gray-100);
+	}
+}
+
+:root {
 	--bc-settings__extensions: transparent;
 	--co-settings__extensions: var(--cl-gray-900);
 }

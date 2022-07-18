@@ -4937,6 +4937,19 @@
 }
 
 :root {
+	--co-settings__extensions-heading: #686a6c;
+	--fs-settings__extensions-heading: ;
+	--fw-settings__extensions-heading: ;
+	--tt-settings__extensions-heading: normal;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--co-settings__extensions-heading: #9b9da0;
+	}
+}
+
+:root {
 	--bc-settings__extensions: transparent;
 	--co-settings__extensions: #202224;
 }

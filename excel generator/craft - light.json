@@ -3114,6 +3114,16 @@
 			}]
 		},
 		{
+			"string": "extensions-heading",
+			"children": [
+			{
+				"string": "normal", 
+				"children": [{
+					"string": "```css\n:root {\n\t--co-settings__extensions-heading: #686a6c;\n\t--fs-settings__extensions-heading: ;\n\t--fw-settings__extensions-heading: ;\n\t--tt-settings__extensions-heading: normal;\n}```"
+				}]
+			}]
+		},
+		{
 			"string": "extensions",
 			"children": [
 			{

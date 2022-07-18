@@ -2278,6 +2278,13 @@
 }
 
 :root {
+	--co-settings__extensions-heading: #373837;
+	--fs-settings__extensions-heading: ;
+	--fw-settings__extensions-heading: ;
+	--tt-settings__extensions-heading: normal;
+}
+
+:root {
 	--bc-settings__extensions: transparent;
 	--co-settings__extensions: #373837;
 }
