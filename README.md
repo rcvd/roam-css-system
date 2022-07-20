@@ -4,7 +4,6 @@
 The Roam CSS System is a modular, block-based approach for changing the look and feel of [Roam Research](https://roamresearch.com). It has been thoughtfully engineered to allow easy customization by the non-tech-affine end user and offers different minimal, beautiful designed elegant themes.
 
 ## If you want to support my work
-<a href="https://www.buymeacoffee.com/rcvdio" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 - [Buy Me a Coffee](https://www.buymeacoffee.com/rcvdio)
 - [Become a supporter on gödel.io](https://www.goedel.io/subscribe?utm_medium=web&utm_source=subscribe-widget&utm_content=47299057)
 - [Flattr](https://flattr.com/@rcvd)
@@ -37,7 +36,7 @@ Thanks a lot for your support!
   ```@import url('https://rcvd.github.io/roam-css-system/themes/lesswrong_light.css');```
   
 ## Customize the themes
-You can easily customize 400 UI elements with more than 1,700 attributes. Read the detailed instructions for customizing it [here](https://roamresearch.com/#/app/css-system/page/MeO4cyd--).
+You can easily customize 400 UI elements with more than 1,700 attributes. Read the detailed instructions for customizing it [here](https://bit.ly/roam-css-sys).
 
 ## Themes
 ### Craft
