@@ -1,6 +1,6 @@
 # The Roam CSS System
 
-The Roam CSS System is deprecated and replaced by [Roam Studio](https://github.com/rcvd/roamstudio/). 
+The Roam CSS System is deprecated and replaced by [Roam Studio](https://github.com/rcvd/roamstudio/). You can find it under Settings -> Community extensions within Roam Depot in the Roam Research Application.
 
 ## What is it?
 The Roam CSS System is a modular, block-based approach for changing the look and feel of [Roam Research](https://roamresearch.com). It has been thoughtfully engineered to allow easy customization by the non-tech-affine end user and offers different minimal, beautiful designed elegant themes.
